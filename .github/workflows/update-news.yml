@@ -2,7 +2,7 @@ name: Update news
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every 30 min (GitHub may delay a few minutes)
+    - cron: '7 * * * *'   # every hour at :07 (GitHub may delay a few minutes)
   workflow_dispatch:          # lets you run it manually from the Actions tab
 
 permissions:
@@ -25,6 +25,7 @@ jobs:
       - run: npm ci
       - name: Fetch and summarise news
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/fetch.mjs
       - name: Commit news.json
