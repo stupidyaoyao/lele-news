@@ -8,16 +8,24 @@
  *   用户总览  one row per phone: name, city, first/last seen, visits, days used, streak, settings
  *   动作记录  every action (open, read, 详细版, star, search, listen …)
  *   收藏      favourites saved under each name (so they come back on a new phone)
+ *   看过      each name's reading history (last 300), so it follows the name to any phone
+ *   个人资料  each name's streak, settings and 👍/👎, so they follow the name too
  */
 
 const TZ = 'Asia/Kuala_Lumpur';
 const USERS = '用户总览';
 const EVENTS = '动作记录';
 const FAVS = '收藏';
+const HIST = '看过';
+const STATE = '个人资料';
+const HIST_MAX = 300;
 
 const USER_HEADERS = ['设备ID', '名字', '城市', '州/地区', '国家', '手机', '首次打开', '最近活动', '打开次数', '使用天数', '连续天数🔥', '今天已读', '字体', '颜色', '已加到桌面', '版本', '_lastDay'];
 const EVENT_HEADERS = ['时间', '名字', '城市', '动作', '新闻标题', '详情', '设备ID', '新闻ID', '手机'];
 const FAV_HEADERS = ['名字', '新闻标题', '来源', '收藏时间', '新闻ID', '_data'];
+const HIST_HEADERS = ['名字', '新闻标题', '来源', '看的时间', '方式', '新闻ID', '_data'];
+const STATE_HEADERS = ['名字', '更新时间', '连续天数🔥', '字体', '颜色', '类别', '_state'];
+const HOW = { detail: '看了详细版', listen: '听过', read: '已读', open: '看过' };
 
 const LABELS = {
   open: '打开app', name_set: '填了名字', rename: '改名字', onboard_step: '导览', onboard_done: '完成导览',
@@ -51,9 +59,11 @@ function doPost(e) {
   try {
     const p = JSON.parse(e.postData.contents);
     const events = Array.isArray(p.events) ? p.events.slice(0, 300) : [];
-    logEvents_(p, events);
+    logEvents_(p, events.filter((e) => e.ev !== 'hist' && e.ev !== 'sync'));
     updateUser_(p, events);
     updateFavs_(p, events);
+    updateHist_(p, events);
+    updateState_(p, events);
   } catch (err) {
     console.error(err);
   } finally {
@@ -64,6 +74,13 @@ function doPost(e) {
 
 function doGet(e) {
   const action = e && e.parameter && e.parameter.action;
+  if (action === 'me') {
+    const k = key_(e.parameter.name);
+    const out = { favs: readJson_(FAV_HEADERS, FAVS, k, 5), hist: readJson_(HIST_HEADERS, HIST, k, 6), state: null };
+    const st = sheet_(STATE, STATE_HEADERS).getDataRange().getValues().slice(1).find((r) => key_(r[0]) === k);
+    if (st && st[6]) { try { out.state = JSON.parse(st[6]); } catch (x) {} }
+    return ContentService.createTextOutput(JSON.stringify(out)).setMimeType(ContentService.MimeType.JSON);
+  }
   if (action === 'favs') {
     const k = key_(e.parameter.name);
     const sh = sheet_(FAVS, FAV_HEADERS);
@@ -127,4 +144,56 @@ function updateFavs_(p, events) {
     }
     if (ev.ev === 'unstar' && idx > 0) sh.deleteRow(idx + 1);
   });
+}
+
+function readJson_(headers, name, k, col) {
+  return sheet_(name, headers).getDataRange().getValues().slice(1)
+    .filter((r) => key_(r[0]) === k && r[col])
+    .map((r) => { try { return JSON.parse(r[col]); } catch (x) { return null; } })
+    .filter(Boolean);
+}
+
+// history: one row per (name, story); re-reading updates the time; keeps the newest HIST_MAX per name
+function updateHist_(p, events) {
+  const hs = events.filter((e) => e.ev === 'hist' && e.story && e.id);
+  if (!hs.length || !p.name) return;
+  const sh = sheet_(HIST, HIST_HEADERS);
+  const k = key_(p.name);
+  const who = (ev) => (ev.who !== undefined && ev.who) ? ev.who : p.name;
+  const data = sh.getDataRange().getValues();
+  const index = {};
+  data.forEach((row, i) => { if (i > 0) index[key_(row[0]) + '|' + row[5]] = i + 1; });
+  const append = [];
+  hs.forEach((ev) => {
+    const s = Object.assign({}, ev.story, { at: ev.at || ev.t, how: ev.how || 'read' });
+    const row = [who(ev), s.zh || s.title || '', s.source || '', fmt_(s.at), HOW[s.how] || '看过', ev.id, JSON.stringify(s)];
+    const r = index[key_(who(ev)) + '|' + ev.id];
+    if (r) sh.getRange(r, 1, 1, row.length).setValues([row]);
+    else append.push(row);
+  });
+  if (append.length) sh.getRange(sh.getLastRow() + 1, 1, append.length, HIST_HEADERS.length).setValues(append);
+  // prune: keep the newest HIST_MAX rows for this name
+  const all = sh.getDataRange().getValues();
+  const mine = [];
+  all.forEach((row, i) => { if (i > 0 && key_(row[0]) === k) { let t = ''; try { t = JSON.parse(row[6]).at || ''; } catch (x) {} mine.push({ r: i + 1, t: t }); } });
+  if (mine.length > HIST_MAX + 20) {
+    mine.sort((a, b) => b.t.localeCompare(a.t));
+    mine.slice(HIST_MAX).map((m) => m.r).sort((a, b) => b - a).forEach((r) => sh.deleteRow(r));
+  }
+}
+
+// streak, settings and 👍/👎: one row per name, latest state wins (the app merges before sending)
+function updateState_(p, events) {
+  const ss = events.filter((e) => e.ev === 'sync' && e.state);
+  if (!ss.length || !p.name) return;
+  const ev = ss[ss.length - 1];
+  const name = (ev.who !== undefined && ev.who) ? ev.who : p.name;
+  const st = ev.state;
+  const sh = sheet_(STATE, STATE_HEADERS);
+  const data = sh.getDataRange().getValues();
+  const r = data.findIndex((row, i) => i > 0 && key_(row[0]) === key_(name));
+  const set = st.settings || {};
+  const row = [name, now_(), (st.streak && st.streak.n) || 0, set.size === 'large' ? '大字' : '标准',
+    { light: '白', dark: '黑', auto: '跟手机' }[set.theme] || '', (set.topics || []).join(','), JSON.stringify(st)];
+  if (r > 0) sh.getRange(r + 1, 1, 1, row.length).setValues([row]); else sh.appendRow(row);
 }

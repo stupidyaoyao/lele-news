@@ -70,6 +70,8 @@ let mineTab = 'favs';
 let profile = curKey ? { ...DEFAULT_PROFILE, ...U.get('profile', {}) } : { ...DEFAULT_PROFILE };
 
 function saveProfile() { U.set('profile', profile); applyLook(); }
+// a setting the person chose: remember when, so the newest choice wins across phones
+function touchSettings() { profile.settingsAt = Date.now(); saveProfile(); pushState(); }
 function applyLook() {
   document.documentElement.dataset.theme = profile.theme;
   document.documentElement.dataset.size = profile.size;
@@ -158,8 +160,10 @@ const hist = () => U.get('hist', []);
 const histMap = () => new Map(hist().map((h) => [h.id, h]));
 function addHist(id, how) {
   const x = byId.get(id) || favs()[id]; if (!x || !curKey) return;
-  const h = [{ ...slim(x), at: new Date().toISOString(), how }, ...hist().filter((y) => y.id !== id)].slice(0, HIST_MAX);
+  const at = new Date().toISOString();
+  const h = [{ ...slim(x), at, how }, ...hist().filter((y) => y.id !== id)].slice(0, HIST_MAX);
   U.set('hist', h);
+  track('hist', id, { story: slim(x), at, how });
 }
 function markRead(id, on = true, how = 'read') {
   const s = readSet(); const had = s.has(id);
@@ -176,7 +180,7 @@ function finishToday() {
   const s = U.get('streak', { last: null, n: 0 });
   if (s.last === today()) return;
   U.set('streak', { last: today(), n: s.last === yesterday() ? s.n + 1 : 1 });
-  track('finish', null, { streak: streakNow() });
+  track('finish', null, { streak: streakNow() }); pushState();
   renderStreak(); render();
   toast('✅ 今天看完了，明天见！');
 }
@@ -184,7 +188,7 @@ function renderStreak() { $('#streak').textContent = `🔥 ${streakNow()} 天`; 
 const likes = () => U.get('likes', {});
 function setLike(id, v) {
   const l = likes(); l[id] = l[id] === v ? 0 : v; if (!l[id]) delete l[id]; U.set('likes', l);
-  track(l[id] === 1 ? 'like' : l[id] === -1 ? 'dislike' : 'unlike', id);
+  track(l[id] === 1 ? 'like' : l[id] === -1 ? 'dislike' : 'unlike', id); pushState();
 }
 const favs = () => U.get('favs', {});
 const isFav = (id) => Boolean(favs()[id]);
@@ -411,7 +415,7 @@ function openLink(id) {
   m.onclick = (e) => {
     const a = e.target.closest('[data-m]')?.dataset.m;
     if (e.target === m || a === 'cancel') m.hidden = true;
-    if (a === 'go') { if ($('#noask').checked) { profile.confirmLink = false; saveProfile(); } m.hidden = true; go(); }
+    if (a === 'go') { if ($('#noask').checked) { profile.confirmLink = false; touchSettings(); } m.hidden = true; go(); }
   };
 }
 function confirmBox(html, okLabel, onOk) {
@@ -527,7 +531,7 @@ function openSettings() {
     const b = e.target.closest('[data-set]'); if (!b) return;
     const k = b.dataset.set; let v = b.dataset.v;
     if (k === 'rate') v = Number(v); if (k === 'confirmLink') v = v === '1';
-    profile[k] = v; saveProfile(); track('settings', null, { [k]: v });
+    profile[k] = v; touchSettings(); track('settings', null, { [k]: v });
     b.parentElement.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
     if (k === 'rate') $('#speed').textContent = `${v}x`;
   };
@@ -607,10 +611,14 @@ function renderOnb() {
     i.onkeydown = (e) => { if (e.key === 'Enter') $('#onbnext').click(); };
   }
 }
-function afterLogin(isNew, how) {
+async function afterLogin(isNew, how) {
   track(isNew ? 'name_set' : how, null, { name: profile.name });
-  syncFavs();
-  if (profile.onboarded) { closeOnboarding(); toast(`👋 ${profile.name}，欢迎回来`); }
+  let restored = false;
+  if (isNew && CFG.trackUrl) { // new on this phone: bring this name's data from other phones first
+    const btn = $('#onbnext'); if (btn) { btn.disabled = true; btn.textContent = '同步中…'; }
+    restored = await Promise.race([pullState(), new Promise((r) => setTimeout(() => r(false), 6000))]);
+  } else pullState();
+  if (profile.onboarded) { closeOnboarding(); toast(restored ? `👋 ${profile.name}，已找回你的记录` : `👋 ${profile.name}，欢迎回来`); }
   else { onbStep = 1; renderOnb(); }
 }
 $('#onboarding').addEventListener('click', (e) => {
@@ -623,7 +631,7 @@ $('#onboarding').addEventListener('click', (e) => {
     return;
   }
   const s = e.target.closest('[data-set]');
-  if (s) { profile[s.dataset.set] = s.dataset.v; saveProfile(); renderOnb(); return; }
+  if (s) { profile[s.dataset.set] = s.dataset.v; touchSettings(); renderOnb(); return; }
   if (e.target.closest('[data-action="topic-all"]')) { setAllTopics(); renderOnb(); return; }
   const t = e.target.closest('[data-action="topic"]');
   if (t) { toggleTopic(t.dataset.cat); renderOnb(); return; }
@@ -642,7 +650,7 @@ $('#onboarding').addEventListener('click', (e) => {
   }
   if (onbStep === 2 && !profile.topics.length) { $('#toperr').hidden = false; return; }
   if (onbStep === 3) {
-    profile.onboarded = true; saveProfile(); track('onboard_done');
+    profile.onboarded = true; touchSettings(); track('onboard_done');
     closeOnboarding(); return;
   }
   onbStep++; renderOnb();
@@ -651,10 +659,10 @@ $('#onboarding').addEventListener('click', (e) => {
 function toggleTopic(k) {
   const t = profile.topics;
   profile.topics = t.includes(k) ? t.filter((x) => x !== k) : [...t, k];
-  saveProfile(); track('topics', null, { topics: profile.topics.join(',') });
+  touchSettings(); track('topics', null, { topics: profile.topics.join(',') });
 }
 function setAllTopics() {
-  profile.topics = [...ALL_CATS]; saveProfile(); track('topics', null, { topics: 'all' });
+  profile.topics = [...ALL_CATS]; touchSettings(); track('topics', null, { topics: 'all' });
 }
 
 // ---------- listen mode (phone's built-in voice, free) ----------
@@ -718,7 +726,7 @@ $('#play').onclick = () => (speaking ? stopSpeaking() : startSpeaking());
 $('#next').onclick = () => { if (!speaking) return; synth.cancel(); setTimeout(() => { if (speaking && !synth.speaking) { qi++; speakNext(); } }, 150); };
 $('#speed').onclick = (e) => {
   const rates = [1, 1.25, 1.5, 0.85]; profile.rate = rates[(rates.indexOf(profile.rate) + 1) % rates.length];
-  saveProfile(); e.target.textContent = `${profile.rate}x`;
+  touchSettings(); e.target.textContent = `${profile.rate}x`;
 };
 $('#speed').textContent = `${profile.rate}x`;
 if (synth) synth.onvoiceschanged = () => {};
@@ -761,16 +769,64 @@ function flush(useBeacon = false) {
   if (!ok) fetch(CFG.trackUrl, { method: 'POST', mode: 'no-cors', body, keepalive: body.length < 60000 }).catch(() => {});
   tq = []; LS.set('tq', tq);
 }
-async function syncFavs() {
-  if (!CFG.trackUrl || !profile.name || profile.owner || !curKey) return;
+// ---------- cross-phone sync (per name, via the Sheet) ----------
+// Pull: favourites, history, streak, settings, 👍/👎 for this name, merged with this phone.
+// Push: only after a successful pull, so a fresh phone never overwrites the saved data.
+let syncedKey = null;
+async function pullState() {
+  if (!CFG.trackUrl || !profile.name || profile.owner || !curKey) return false;
   const key = curKey;
   try {
-    const r = await (await fetch(`${CFG.trackUrl}?action=favs&name=${encodeURIComponent(profile.name)}`)).json();
-    if (!Array.isArray(r.favs) || key !== curKey) return;
-    const f = favs(); let added = 0;
-    for (const s of r.favs) if (s && s.id && !f[s.id]) { f[s.id] = s; added++; }
-    if (added) { U.set('favs', f); if (tab === 'mine') render(); }
-  } catch {}
+    const r = await (await fetch(`${CFG.trackUrl}?action=me&name=${encodeURIComponent(profile.name)}`)).json();
+    if (key !== curKey) return false;
+    let found = false;
+    // favourites: union
+    if (Array.isArray(r.favs)) {
+      const f = favs();
+      for (const s of r.favs) if (s && s.id && !f[s.id]) { f[s.id] = s; found = true; }
+      U.set('favs', f);
+    }
+    // history: union, newest time wins, keep newest HIST_MAX
+    if (Array.isArray(r.hist) && r.hist.length) {
+      const m = new Map(hist().map((h) => [h.id, h]));
+      for (const h of r.hist) if (h && h.id && (!m.has(h.id) || (h.at || '') > (m.get(h.id).at || ''))) { m.set(h.id, h); found = true; }
+      U.set('hist', [...m.values()].sort((a, b) => (b.at || '').localeCompare(a.at || '')).slice(0, HIST_MAX));
+    }
+    const st = r.state;
+    if (st) {
+      found = true;
+      // streak: the later day wins; same day -> the bigger count
+      const a = U.get('streak', { last: null, n: 0 }), b = st.streak || { last: null, n: 0 };
+      if ((b.last || '') > (a.last || '') || (b.last === a.last && (b.n || 0) > (a.n || 0))) U.set('streak', b);
+      // 👍/👎: fill in what this phone doesn't have
+      if (st.likes) U.set('likes', { ...st.likes, ...likes() });
+      // settings: the newest choice wins (a brand-new phone always takes the saved ones)
+      const sv = st.settings || {};
+      // keep the name as it was first written (e.g. "Mama", not "mama")
+      if (sv.name && keyOf(sv.name) === curKey && sv.name !== profile.name) {
+        profile.name = sv.name; saveProfile();
+        users.list = users.list.map((u) => (u.key === curKey ? { ...u, name: sv.name } : u)); LS.set('users', users);
+      }
+      if ((sv.settingsAt || 0) > (profile.settingsAt || 0) || (!profile.onboarded && sv.onboarded)) {
+        for (const k of ['size', 'theme', 'topics', 'rate', 'confirmLink', 'settingsAt']) if (sv[k] !== undefined) profile[k] = sv[k];
+        profile.onboarded = profile.onboarded || Boolean(sv.onboarded);
+        saveProfile();
+      }
+    }
+    syncedKey = key;
+    pushState();
+    renderChips(); renderStreak(); renderSub(); $('#speed').textContent = `${profile.rate}x`;
+    if (!speaking) render();
+    return found;
+  } catch { return false; }
+}
+function pushState() {
+  if (!curKey || syncedKey !== curKey || profile.owner) return;
+  clearTimeout(pushState.t);
+  pushState.t = setTimeout(() => {
+    const { name, size, theme, topics, rate, confirmLink, onboarded, settingsAt } = profile;
+    track('sync', null, { state: { settings: { name, size, theme, topics, rate, confirmLink, onboarded, settingsAt }, streak: U.get('streak', { last: null, n: 0 }), likes: likes() } });
+  }, 1500);
 }
 
 // ---------- events ----------
@@ -808,7 +864,7 @@ document.addEventListener('click', (e) => {
 $('#tabs').addEventListener('click', (e) => {
   const b = e.target.closest('[data-tab]'); if (!b) return;
   tab = b.dataset.tab; track('tab', null, { tab }); render();
-  if (tab === 'mine') syncFavs();
+  if (tab === 'mine') pullState();
 });
 // phone back button closes the top overlay
 window.addEventListener('popstate', () => {
@@ -825,4 +881,4 @@ setInterval(load, 10 * 60 * 1000);
 if (!curKey) openOnboarding(0);
 else if (!profile.onboarded) openOnboarding(1);
 geo().then(() => { track('open'); flush(); });
-syncFavs();
+pullState();
