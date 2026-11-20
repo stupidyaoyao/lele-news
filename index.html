@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>乐乐新闻 Happy News</title>
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="乐乐新闻">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    --bg: #f6f5f1; --card: #ffffff; --ink: #1c1d21; --muted: #6b6f78; --line: #e6e3dc;
+    --accent: #c2410c; --accent-soft: #fff1e8; --ok: #15803d; --chip: #ecebe6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111214; --card: #1b1c20; --ink: #ecebe7; --muted: #9a9ca3; --line: #2a2b31;
+      --accent: #fb923c; --accent-soft: #2a1a10; --ok: #4ade80; --chip: #26272c; }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 14px) 16px 120px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: .5px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .streak { background: var(--accent-soft); color: var(--accent); font-weight: 600; border-radius: 999px;
+    padding: 4px 12px; font-size: 14px; white-space: nowrap; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 14px 0 6px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { border: 0; background: var(--chip); color: var(--muted); border-radius: 999px; padding: 6px 14px;
+    font-size: 14px; white-space: nowrap; cursor: pointer; }
+  .chip.on { background: var(--ink); color: var(--bg); }
+  .tabs { display: flex; gap: 22px; border-bottom: 1px solid var(--line); margin: 10px 0 14px; }
+  .tab { border: 0; background: none; color: var(--muted); font-size: 16px; padding: 8px 0; cursor: pointer;
+    border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .tab.on { color: var(--ink); font-weight: 600; border-color: var(--accent); }
+  .progress { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+  .bar { flex: 1; height: 6px; background: var(--chip); border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .3s; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin-bottom: 12px;
+    transition: opacity .2s, border-color .2s; }
+  .card.read { opacity: .55; }
+  .card.speaking { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); opacity: 1; }
+  .meta { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
+  .tag { color: var(--accent); font-weight: 600; }
+  .card h2 { font-size: 17px; line-height: 1.45; margin: 6px 0 6px; cursor: pointer; }
+  .sum { margin: 0 0 8px; font-size: 15px; }
+  .impact { background: var(--bg); border-radius: 10px; padding: 8px 10px; font-size: 14px; margin: 8px 0; }
+  .impact div { display: flex; gap: 8px; padding: 2px 0; }
+  .impact b { flex: none; font-weight: 600; }
+  .actions { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; }
+  .actions a { color: var(--accent); text-decoration: none; font-size: 14px; }
+  .check { border: 1px solid var(--line); background: none; color: var(--muted); border-radius: 999px; padding: 3px 12px;
+    font-size: 13px; cursor: pointer; }
+  .read .check { color: var(--ok); border-color: var(--ok); }
+  .done { text-align: center; padding: 18px; }
+  .done button { border: 0; background: var(--ok); color: #fff; font-size: 16px; border-radius: 12px; padding: 12px 22px; cursor: pointer; }
+  .done.finished { color: var(--ok); font-weight: 600; }
+  .live { display: block; padding: 10px 2px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+  .live .t { font-size: 15px; }
+  .empty { color: var(--muted); text-align: center; padding: 40px 10px; }
+  .player { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px 16px calc(env(safe-area-inset-bottom) + 10px);
+    background: var(--card); border-top: 1px solid var(--line); }
+  .player .in { max-width: 640px; margin: 0 auto; display: flex; align-items: center; gap: 10px; }
+  .play { border: 0; background: var(--accent); color: #fff; border-radius: 999px; padding: 10px 18px; font-size: 15px; font-weight: 600; cursor: pointer; }
+  .pbtn { border: 1px solid var(--line); background: none; color: var(--ink); border-radius: 999px; padding: 8px 12px; font-size: 14px; cursor: pointer; }
+  .now { flex: 1; font-size: 13px; color: var(--muted); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>乐乐新闻 <span style="font-size:14px;color:var(--muted);font-weight:500">Happy News</span></h1>
+      <div class="sub" id="updated">加载中…</div>
+    </div>
+    <div class="streak" id="streak">🔥 0 天</div>
+  </header>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="tabs">
+    <button class="tab on" data-tab="digest">今日要闻</button>
+    <button class="tab" data-tab="live">即时</button>
+  </div>
+
+  <div id="view"></div>
+</div>
+
+<div class="player">
+  <div class="in">
+    <button class="play" id="play">🎧 收听</button>
+    <button class="pbtn" id="next" hidden>下一条</button>
+    <div class="now" id="now">把今日要闻读给你听</div>
+    <button class="pbtn" id="speed">1x</button>
+  </div>
+</div>
+
+<script>
+const CATS = { finance: '财经', world: '国际', sea: '东南亚', malaysia: '马来西亚', china: '中国', tech: '科技' };
+const DIGEST_SIZE = 10;
+const LS = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+const today = () => new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Kuala_Lumpur' });
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ago = (iso) => {
+  const m = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  if (m < 1) return '刚刚'; if (m < 60) return `${m} 分钟前`;
+  const h = Math.round(m / 60); return h < 24 ? `${h} 小时前` : `${Math.round(h / 24)} 天前`;
+};
+
+let data = { items: [] };
+let topics = LS.get('topics', ['finance', 'world']);
+let tab = 'digest';
+let speechRate = LS.get('rate', 1);
+
+// ---------- digest (frozen for the day so it doesn't shuffle while reading) ----------
+function digestItems() {
+  const key = `${today()}|${[...topics].sort().join(',')}`;
+  const saved = LS.get('digest', null);
+  const byId = new Map(data.items.map((x) => [x.id, x]));
+  if (saved && saved.key === key) {
+    const list = saved.ids.map((id) => byId.get(id)).filter(Boolean);
+    if (list.length >= Math.min(DIGEST_SIZE, saved.ids.length)) return list;
+  }
+  const since = Date.now() - 24 * 3600e3;
+  const pool = data.items.filter((x) => topics.includes(x.cat) && Date.parse(x.published) >= since);
+  pool.sort((a, b) => (b.score ?? 3) - (a.score ?? 3) || (b.impact ? 1 : 0) - (a.impact ? 1 : 0) || b.published.localeCompare(a.published));
+  // keep a mix: at most 4 per category
+  const per = {}, pick = [];
+  for (const x of pool) { if ((per[x.cat] = (per[x.cat] || 0) + 1) <= 4) pick.push(x); if (pick.length === DIGEST_SIZE) break; }
+  if (pick.length) LS.set('digest', { key, ids: pick.map((x) => x.id) });
+  return pick;
+}
+
+function readSet() { const r = LS.get('read', {}); return new Set(r[today()] || []); }
+function markRead(id, on = true) {
+  const r = LS.get('read', {}); const d = today(); const s = new Set(r[d] || []);
+  on ? s.add(id) : s.delete(id);
+  LS.set('read', { [d]: [...s] }); // keep only today
+}
+function finishToday() {
+  const s = LS.get('streak', { last: null, n: 0 });
+  const d = today();
+  if (s.last === d) return;
+  const y = new Date(Date.now() - 864e5).toLocaleDateString('sv-SE', { timeZone: 'Asia/Kuala_Lumpur' });
+  LS.set('streak', { last: d, n: s.last === y ? s.n + 1 : 1 });
+  renderStreak(); render();
+}
+function renderStreak() {
+  const s = LS.get('streak', { last: null, n: 0 });
+  const y = new Date(Date.now() - 864e5).toLocaleDateString('sv-SE', { timeZone: 'Asia/Kuala_Lumpur' });
+  const n = s.last === today() || s.last === y ? s.n : 0;
+  document.getElementById('streak').textContent = `🔥 ${n} 天`;
+}
+
+// ---------- render ----------
+function renderChips() {
+  const el = document.getElementById('chips');
+  el.innerHTML = Object.entries(CATS).map(([k, v]) =>
+    `<button class="chip ${topics.includes(k) ? 'on' : ''}" data-cat="${k}">${v}</button>`).join('');
+}
+
+function card(x, i, read) {
+  const imp = x.impact && (x.impact.my || x.impact.sea || x.impact.world)
+    ? `<div class="impact">
+        ${x.impact.my ? `<div><b>🇲🇾</b><span>${esc(x.impact.my)}</span></div>` : ''}
+        ${x.impact.sea ? `<div><b>🌏</b><span>${esc(x.impact.sea)}</span></div>` : ''}
+        ${x.impact.world ? `<div><b>🌍</b><span>${esc(x.impact.world)}</span></div>` : ''}
+      </div>` : '';
+  return `<article class="card ${read ? 'read' : ''}" id="c-${x.id}" data-id="${x.id}">
+    <div class="meta"><span class="tag">${i + 1} · ${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${ago(x.published)}</span></div>
+    <h2 data-toggle>${esc(x.zh || x.title)}</h2>
+    ${x.sum ? `<p class="sum">${esc(x.sum)}</p>` : ''}
+    ${imp}
+    <div class="actions">
+      <a href="${esc(x.url)}" target="_blank" rel="noopener">阅读原文 ↗</a>
+      <button class="check" data-toggle>${read ? '✓ 已读' : '标为已读'}</button>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const view = document.getElementById('view');
+  if (!topics.length) { view.innerHTML = `<div class="empty">在上面选至少一个类别</div>`; return; }
+  if (tab === 'digest') {
+    const list = digestItems();
+    const read = readSet();
+    const n = list.filter((x) => read.has(x.id)).length;
+    if (!list.length) { view.innerHTML = `<div class="empty">过去24小时还没有这些类别的新闻</div>`; return; }
+    const s = LS.get('streak', {});
+    const finished = s.last === today();
+    view.innerHTML = `
+      <div class="progress"><span>已读 ${n}/${list.length}</span><div class="bar"><i style="width:${n / list.length * 100}%"></i></div></div>
+      ${list.map((x, i) => card(x, i, read.has(x.id))).join('')}
+      <div class="done ${finished ? 'finished' : ''}">${finished ? '✅ 今天看完了，明天见！' : '<button id="finish">今天看完了 ✅</button>'}</div>`;
+  } else {
+    const since = Date.now() - 6 * 3600e3;
+    const list = data.items.filter((x) => topics.includes(x.cat) && Date.parse(x.published) >= since).slice(0, 50);
+    view.innerHTML = list.length ? list.map((x) => `
+      <a class="live" href="${esc(x.url)}" target="_blank" rel="noopener">
+        <div class="meta"><span class="tag">${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${ago(x.published)}</span></div>
+        <div class="t">${esc(x.zh || x.title)}</div>
+      </a>`).join('') : `<div class="empty">过去6小时没有新的新闻</div>`;
+  }
+}
+
+// ---------- events ----------
+document.getElementById('chips').addEventListener('click', (e) => {
+  const c = e.target.closest('[data-cat]'); if (!c) return;
+  const k = c.dataset.cat;
+  topics = topics.includes(k) ? topics.filter((t) => t !== k) : [...topics, k];
+  LS.set('topics', topics); stopSpeaking(); renderChips(); render();
+});
+document.querySelector('.tabs').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-tab]'); if (!b) return;
+  tab = b.dataset.tab;
+  document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('on', t === b));
+  render();
+});
+document.getElementById('view').addEventListener('click', (e) => {
+  if (e.target.id === 'finish') { finishToday(); return; }
+  const t = e.target.closest('[data-toggle]'); if (!t) return;
+  const id = t.closest('.card').dataset.id;
+  markRead(id, !readSet().has(id)); render();
+});
+
+// ---------- listen mode (free, uses the phone's built-in voice) ----------
+const synth = window.speechSynthesis;
+let queue = [], qi = 0, speaking = false;
+function zhVoice() {
+  const vs = synth.getVoices();
+  return vs.find((v) => /zh[-_]CN/i.test(v.lang)) || vs.find((v) => /^zh/i.test(v.lang)) || null;
+}
+function buildQueue() {
+  const list = digestItems();
+  const q = [{ text: `今日要闻，共 ${list.length} 条。` }];
+  list.forEach((x, i) => {
+    let t = `第 ${i + 1} 条，${CATS[x.cat] || ''}。${x.zh || x.title}。`;
+    if (x.sum) t += x.sum;
+    if (x.impact?.my) t += `对马来西亚：${x.impact.my}`;
+    if (x.impact?.sea) t += `对东南亚：${x.impact.sea}`;
+    if (x.impact?.world) t += `对全球：${x.impact.world}`;
+    q.push({ id: x.id, text: t, title: x.zh || x.title });
+  });
+  q.push({ text: '今天的新闻就到这里，明天见。', end: true });
+  return q;
+}
+function speakNext() {
+  document.querySelectorAll('.card.speaking').forEach((c) => c.classList.remove('speaking'));
+  if (qi >= queue.length) { stopSpeaking(); return; }
+  const item = queue[qi];
+  if (item.id) {
+    const c = document.getElementById(`c-${item.id}`);
+    if (c) { c.classList.add('speaking'); c.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    document.getElementById('now').textContent = `正在播放 ${qi}/${queue.length - 2}：${item.title}`;
+  }
+  const u = new SpeechSynthesisUtterance(item.text);
+  u.lang = 'zh-CN'; u.rate = speechRate;
+  const v = zhVoice(); if (v) u.voice = v;
+  u.onend = () => {
+    if (!speaking) return;
+    if (item.id) { markRead(item.id); const c = document.getElementById(`c-${item.id}`); c?.classList.add('read'); }
+    if (item.end) finishToday();
+    qi++; speakNext();
+  };
+  synth.speak(u);
+}
+function startSpeaking() {
+  if (!synth) { alert('这个浏览器不支持朗读'); return; }
+  if (tab !== 'digest') document.querySelector('[data-tab="digest"]').click();
+  queue = buildQueue(); qi = 0; speaking = true;
+  document.getElementById('play').textContent = '⏸ 停止';
+  document.getElementById('next').hidden = false;
+  synth.cancel(); speakNext();
+}
+function stopSpeaking() {
+  speaking = false; synth?.cancel();
+  document.getElementById('play').textContent = '🎧 收听';
+  document.getElementById('next').hidden = true;
+  document.getElementById('now').textContent = '把今日要闻读给你听';
+  document.querySelectorAll('.card.speaking').forEach((c) => c.classList.remove('speaking'));
+  render();
+}
+document.getElementById('play').onclick = () => (speaking ? stopSpeaking() : startSpeaking());
+document.getElementById('next').onclick = () => { if (!speaking) return; synth.cancel(); /* onend may not fire on cancel in all browsers */ setTimeout(() => { if (speaking && !synth.speaking) { qi++; speakNext(); } }, 150); };
+document.getElementById('speed').onclick = (e) => {
+  const rates = [1, 1.25, 1.5, 0.85]; speechRate = rates[(rates.indexOf(speechRate) + 1) % rates.length];
+  LS.set('rate', speechRate); e.target.textContent = `${speechRate}x`;
+};
+document.getElementById('speed').textContent = `${speechRate}x`;
+if (synth) synth.onvoiceschanged = () => {};
+
+// ---------- data ----------
+async function load() {
+  try {
+    const r = await fetch(`data/news.json?t=${Date.now()}`, { cache: 'no-store' });
+    data = await r.json();
+    const t = new Date(data.updated).toLocaleString('zh-CN', { timeZone: 'Asia/Kuala_Lumpur', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    document.getElementById('updated').textContent = `更新于 ${t}${data.ai ? '' : ' · 未开启AI摘要'}`;
+    if (!speaking) render();
+  } catch (e) {
+    document.getElementById('updated').textContent = '加载失败，稍后再试';
+  }
+}
+renderChips(); renderStreak(); load();
+setInterval(load, 10 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+</script>
+</body>
+</html>
