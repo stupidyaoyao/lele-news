@@ -124,17 +124,21 @@ function digestItems() {
   const key = `${today()}|${[...topics].sort().join(',')}`;
   const saved = LS.get('digest', null);
   const byId = new Map(data.items.map((x) => [x.id, x]));
-  if (saved && saved.key === key) {
+  // only reuse a locked list if it was made from AI-processed stories
+  if (saved && saved.key === key && saved.ready) {
     const list = saved.ids.map((id) => byId.get(id)).filter(Boolean);
     if (list.length >= Math.min(DIGEST_SIZE, saved.ids.length)) return list;
   }
   const since = Date.now() - 24 * 3600e3;
   const pool = data.items.filter((x) => topics.includes(x.cat) && Date.parse(x.published) >= since);
-  pool.sort((a, b) => (b.score ?? 3) - (a.score ?? 3) || (b.impact ? 1 : 0) - (a.impact ? 1 : 0) || b.published.localeCompare(a.published));
+  pool.sort((a, b) => (b.ai ? 1 : 0) - (a.ai ? 1 : 0) || (b.score ?? 3) - (a.score ?? 3) || (b.impact ? 1 : 0) - (a.impact ? 1 : 0) || b.published.localeCompare(a.published));
   // keep a mix: at most 4 per category
   const per = {}, pick = [];
-  for (const x of pool) { if ((per[x.cat] = (per[x.cat] || 0) + 1) <= 4) pick.push(x); if (pick.length === DIGEST_SIZE) break; }
-  if (pick.length) LS.set('digest', { key, ids: pick.map((x) => x.id) });
+  const cap = Math.max(4, Math.ceil(DIGEST_SIZE / topics.length));
+  for (const x of pool) { if ((per[x.cat] = (per[x.cat] || 0) + 1) <= cap) pick.push(x); if (pick.length === DIGEST_SIZE) break; }
+  for (const x of pool) { if (pick.length >= DIGEST_SIZE) break; if (!pick.includes(x)) pick.push(x); }
+  const ready = pick.length >= 5 && pick.filter((x) => x.ai).length >= pick.length * 0.8;
+  if (pick.length) LS.set('digest', { key, ids: pick.map((x) => x.id), ready });
   return pick;
 }
 
