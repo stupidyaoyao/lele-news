@@ -16,55 +16,41 @@
 <script>
   // apply saved look before first paint (no flash)
   try {
-    var p = JSON.parse(localStorage.getItem('look') || localStorage.getItem('profile') || '{}');
+    var p = JSON.parse(localStorage.getItem('look') || '{}');
     document.documentElement.dataset.theme = p.theme || 'auto';
     document.documentElement.dataset.size = p.size || 'normal';
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="css/app.css?v=15">
+<link rel="stylesheet" href="css/app.css?v=20">
 </head>
 <body>
-<div class="wrap" id="main">
-  <header class="top">
-    <div class="brand">
-      <h1>乐乐新闻<small>Happy News</small></h1>
-      <div class="sub" id="updated">加载中…</div>
-    </div>
-    <div class="streak" id="streak">🔥 0 天</div>
-    <button class="icon-btn" data-action="open-search" aria-label="搜索">🔍</button>
-    <button class="icon-btn" data-action="open-settings" aria-label="设置">⚙️</button>
-  </header>
+<main id="app">
+  <section class="view" id="v-home" data-view="home"></section>
+  <section class="view" id="v-news" data-view="news" hidden></section>
+  <section class="view" id="v-live" data-view="live" hidden></section>
+  <section class="view" id="v-mine" data-view="mine" hidden></section>
+</main>
 
-  <section class="gold" id="gold" hidden></section>
-
-  <div class="chips" id="chips"></div>
-
-  <nav class="tabs" id="tabs">
-    <button class="tab on" data-tab="digest">今日要闻</button>
-    <button class="tab tab-live" data-tab="live">即时</button>
-    <button class="tab" data-tab="mine">👤 我的</button>
-  </nav>
-
-  <main id="view"></main>
+<div class="mini-player" id="player" hidden>
+  <button class="mp-btn" id="mp-prev" aria-label="上一条"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 6h2v12H6zM9.5 12L18 18V6z"/></svg></button>
+  <button class="mp-btn mp-main" id="mp-play" aria-label="暂停"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg></button>
+  <button class="mp-btn" id="mp-next" aria-label="下一条"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 6h2v12h-2zM14.5 12L6 18V6z"/></svg></button>
+  <div class="mp-now" id="mp-now"></div>
+  <button class="mp-btn mp-x" id="mp-stop" aria-label="停止"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></button>
 </div>
 
-<div class="player" id="player">
-  <div class="in">
-    <button class="play" id="play">🎧 收听</button>
-    <button class="btn" id="next" hidden>下一条</button>
-    <div class="now" id="now">把今日要闻读给你听</div>
-    <button class="btn" id="speed">1x</button>
-  </div>
-</div>
+<nav class="tabbar" id="tabbar" aria-label="主选单"></nav>
 
 <div class="overlay" id="reader" hidden></div>
 <div class="overlay" id="search" hidden></div>
 <div class="overlay" id="settings" hidden></div>
+<div class="overlay" id="goldpage" hidden></div>
 <div class="overlay onb" id="onboarding" hidden></div>
 <div class="modal-bg" id="modal" hidden></div>
+<div class="undo" id="undo" hidden role="status"></div>
 <div class="toast" id="toast"></div>
 
-<script src="js/config.js?v=15"></script>
-<script src="js/app.js?v=15"></script>
+<script src="js/config.js?v=20"></script>
+<script src="js/app.js?v=20"></script>
 </body>
 </html>

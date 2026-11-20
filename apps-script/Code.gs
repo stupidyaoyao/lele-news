@@ -24,15 +24,16 @@ const USER_HEADERS = ['设备ID', '名字', '城市', '州/地区', '国家', '�
 const EVENT_HEADERS = ['时间', '名字', '城市', '动作', '新闻标题', '详情', '设备ID', '新闻ID', '手机'];
 const FAV_HEADERS = ['名字', '新闻标题', '来源', '收藏时间', '新闻ID', '_data'];
 const HIST_HEADERS = ['名字', '新闻标题', '来源', '看的时间', '方式', '新闻ID', '_data'];
-const STATE_HEADERS = ['名字', '更新时间', '连续天数🔥', '字体', '颜色', '类别', '_state'];
+const STATE_HEADERS = ['名字', '更新时间', '连续天数🔥', '字体', '颜色', '类别', '_state', '兴趣'];
 const HOW = { detail: '看了详细版', listen: '听过', read: '已读', open: '看过' };
 
 const LABELS = {
   open: '打开app', name_set: '填了名字', rename: '改名字', onboard_step: '导览', onboard_done: '完成导览',
-  detail: '看详细版', link: '去新闻网站', read: '已读', star: '⭐收藏', unstar: '取消收藏',
+  detail: '看详细版', link: '去新闻网站', read: '已读', star: '🔖存起来', unstar: '取消存起来', later: '🕒稍后看', unlater: '取消稍后看',
   like: '👍', dislike: '👎', unlike: '取消👍👎', listen: '🎧开始收听', listen_done: '🎧听完',
   search: '🔍搜索', finish: '✅今天看完', settings: '改设置', topics: '改类别', tab: '切换页面', gold: '💰看金价',
   gold_range: '💰金价走势', login: '登入', switch_user: '换人登入', logout: '🚪退出',
+  mute: '少推荐', unmute: '恢复推荐', undo: '↩撤销', listen_story: '🎧听这则',
 };
 
 function sheet_(name, headers) {
@@ -194,6 +195,6 @@ function updateState_(p, events) {
   const r = data.findIndex((row, i) => i > 0 && key_(row[0]) === key_(name));
   const set = st.settings || {};
   const row = [name, now_(), (st.streak && st.streak.n) || 0, set.size === 'large' ? '大字' : '标准',
-    { light: '白', dark: '黑', auto: '跟手机' }[set.theme] || '', (set.topics || []).join(','), JSON.stringify(st)];
+    { light: '白', dark: '黑', auto: '跟手机' }[set.theme] || '', (set.topics || []).join(','), JSON.stringify(st), (st.top || []).join('、')];
   if (r > 0) sh.getRange(r + 1, 1, 1, row.length).setValues([row]); else sh.appendRow(row);
 }

@@ -238,7 +238,9 @@ async function main() {
   // AI: new stories first, then recent ones that missed AI earlier (e.g. limit hit)
   let aiStatus = PROVIDER ? 'ok' : 'off';
   if (PROVIDER) {
-    const todo = items.filter((x) => !x.ai && Date.parse(x.published) >= now - RETRY_HOURS * 3600e3).slice(0, MAX_AI_ITEMS);
+    // new stories first, then older AI'd ones still missing the short card title (added in v2)
+    const recent = items.filter((x) => Date.parse(x.published) >= now - RETRY_HOURS * 3600e3);
+    const todo = [...recent.filter((x) => !x.ai), ...recent.filter((x) => x.ai && !x.short).sort((a, b) => (b.score ?? 3) - (a.score ?? 3))].slice(0, MAX_AI_ITEMS);
     console.log(`Sending ${todo.length} stories to AI (${PROVIDER})`);
     if (todo.length) {
       try {
