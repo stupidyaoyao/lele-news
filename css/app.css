@@ -146,6 +146,8 @@ mark { background: var(--gold-soft); color: inherit; border-radius: .2rem; }
 .row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .note { color: var(--muted); font-size: .8rem; margin: .5rem 0 0; }
 .privacy { background: var(--accent-soft); border-radius: .8rem; padding: .7rem .8rem; font-size: .85rem; margin-top: .8rem; }
+.more-btn { border: 0; background: none; color: var(--accent); font-weight: 700; padding: 0 .2rem; font-size: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.privacy-full { margin-top: .5rem; padding-top: .5rem; border-top: 1px dashed var(--line); }
 
 /* onboarding */
 .onb { display: flex; flex-direction: column; min-height: 100%; }

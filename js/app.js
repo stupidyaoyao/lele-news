@@ -41,6 +41,27 @@ function applyLook() {
 }
 saveProfile();
 
+// ---------- name rules + owner mode ----------
+// Secret: a name of exactly one space = owner (Frank). Owner is never tracked.
+const OWNER_KEY = ' ';
+const isOwnerKey = (raw) => raw === OWNER_KEY;
+function checkName(raw) {
+  const n = String(raw || '').trim().replace(/\s+/g, ' ');
+  if (!n) return { err: '请输入名字才能登入' };
+  if (n.length > 20) return { err: '名字最多 20 个字' };
+  if (!/^[\p{Script=Han}A-Za-z0-9 ]+$/u.test(n)) return { err: '名字只能用中文、英文或数字' };
+  if (!/[\p{Script=Han}A-Za-z]/u.test(n)) return { err: '名字要有文字，不能只有数字' };
+  return { name: n };
+}
+function enterOwner() {
+  profile.owner = true; profile.name = 'Frank'; profile.onboarded = true;
+  tq = []; LS.set('tq', tq); saveProfile();
+}
+function leaveOwner(name) { profile.owner = false; profile.name = name; saveProfile(); }
+const PRIVACY_SHORT = '🔒 用名字登入，就能保存你的阅读记录和喜好。我们也会记录大概城市，只用来改进 app。';
+const PRIVACY_FULL = '你用名字登入后，我们会帮你记住阅读记录、收藏和喜好，换手机也能找回。我们也会记录大概城市，资料只用来改进 app，不会给外人。';
+const privacyHtml = () => `<div class="privacy">${PRIVACY_SHORT} <button class="more-btn" data-action="privacy-more">更多</button><div class="privacy-full" hidden>${PRIVACY_FULL}</div></div>`;
+
 // ---------- data ----------
 let data = { items: [] };
 let gold = null;
@@ -353,8 +374,9 @@ function openSettings() {
   el.innerHTML = `<div class="wrap">
     <div class="ov-head"><h3>⚙️ 设置</h3><button class="close" data-action="close-settings">✕ 完成</button></div>
     <div class="set-group"><h4>你的名字</h4>
-      <input class="field" id="setname" value="${esc(profile.name)}" maxlength="30" placeholder="你的名字或称呼">
-      <div class="err" id="nameerr" hidden>名字不能空白</div></div>
+      <input class="field" id="setname" value="${esc(profile.name)}" maxlength="20" placeholder="你的名字或称呼" autocomplete="off">
+      ${profile.owner ? '<p class="note">👑 管理员模式：你的使用不会被记录。改成别的名字就会离开管理员模式。</p>' : ''}
+      <div class="err" id="nameerr" hidden></div></div>
     <div class="set-group"><h4>字体大小</h4><div class="seg">
       <button data-set="size" data-v="normal" class="${profile.size === 'normal' ? 'on' : ''}">标准</button>
       <button data-set="size" data-v="large" class="${profile.size === 'large' ? 'on' : ''}">大字模式（长辈）</button></div>
@@ -370,11 +392,12 @@ function openSettings() {
     <div class="set-group"><div class="row"><h4 style="margin:0">打开新闻网站前先提醒</h4>
       <div class="seg" style="flex:none"><button data-set="confirmLink" data-v="1" class="${profile.confirmLink ? 'on' : ''}">开</button><button data-set="confirmLink" data-v="0" class="${!profile.confirmLink ? 'on' : ''}">关</button></div></div></div>
     <div class="set-group"><button class="btn" data-action="replay-guide">↻ 重新看导览</button>
-      <div class="privacy">🔒 我们会记录你的名字、大概城市和阅读记录，只有 Frank 看得到，用来改进 app。</div>
+      ${privacyHtml()}
       <p class="note">乐乐新闻 v${esc(CFG.version || '')} · 新闻来自各大媒体，摘要由 AI 整理</p></div>
   </div>`;
   el.hidden = false; document.body.style.overflow = 'hidden';
   history.pushState({ ov: 'settings' }, '');
+  const ni = el.querySelector('#setname'); ni.oninput = () => liveNameCheck(ni, el.querySelector('#nameerr'));
   el.onclick = (e) => {
     const b = e.target.closest('[data-set]'); if (!b) return;
     const k = b.dataset.set; let v = b.dataset.v;
@@ -385,11 +408,24 @@ function openSettings() {
   };
 }
 function saveSettingsName() {
-  const n = $('#setname')?.value.trim();
-  if (n == null) return true;
-  if (!n) { $('#nameerr').hidden = false; return false; }
-  if (n !== profile.name) { profile.name = n; saveProfile(); track('rename', null, { name: n }); syncFavs(); }
+  const input = $('#setname'); if (!input) return true;
+  const raw = input.value;
+  if (isOwnerKey(raw)) { if (!profile.owner) { enterOwner(); toast('👋 管理员模式（不记录）'); } return true; }
+  const c = checkName(raw);
+  if (c.err) { const e = $('#nameerr'); e.textContent = c.err; e.hidden = false; input.focus(); return false; }
+  if (profile.owner && c.name === 'Frank') return true; // still owner
+  if (c.name !== profile.name || profile.owner) {
+    const wasOwner = profile.owner; leaveOwner(c.name);
+    track(wasOwner ? 'name_set' : 'rename', null, { name: c.name }); syncFavs();
+  }
   return true;
+}
+// live hint while typing; a single space (owner key) shows nothing so the secret isn't revealed
+function liveNameCheck(input, errEl) {
+  const raw = input.value;
+  if (!raw || isOwnerKey(raw)) { errEl.hidden = true; return; }
+  const c = checkName(raw);
+  errEl.textContent = c.err || ''; errEl.hidden = !c.err || c.err === '请输入名字才能登入';
 }
 
 // ---------- onboarding ----------
@@ -408,12 +444,12 @@ function renderOnb() {
   let body = '';
   if (onbStep === 0) body = `
     <h2>👋 欢迎来到乐乐新闻</h2>
-    <p class="lead">每天 10 分钟，看完或听完你要的新闻。先告诉我们怎么称呼你？</p>
+    <p class="lead">输入你的名字登入。以后用同一个名字，就能找回你的收藏和记录。</p>
     <div class="onb-body">
-      <input class="field" id="onbname" value="${esc(profile.name)}" maxlength="30" placeholder="你的名字或称呼，例如：Mama、Jia Le" autocomplete="name">
-      <div class="err" id="onberr" hidden>请输入名字才能继续</div>
-      <div class="privacy">🔒 我们会记录你的名字、大概城市和阅读记录，只有 Frank 看得到，用来改进 app。</div>
-    </div>${nav('下一步', false)}`;
+      <input class="field" id="onbname" value="${esc(profile.owner ? '' : profile.name)}" maxlength="20" placeholder="你的名字或称呼，例如：Mama、Jia Le" autocomplete="off">
+      <div class="err" id="onberr" hidden></div>
+      ${privacyHtml()}
+    </div>${nav('登入', false)}`;
   if (onbStep === 1) body = `
     <h2>👀 怎么看比较舒服？</h2>
     <p class="lead">选了马上就能看到效果，之后可以在 ⚙️ 设置里改。</p>
@@ -452,7 +488,7 @@ function renderOnb() {
   track('onboard_step', null, { step: onbStep + 1 });
   if (onbStep === 0) {
     const i = el.querySelector('#onbname');
-    i.oninput = () => { $('#onberr').hidden = true; };
+    i.oninput = () => liveNameCheck(i, $('#onberr'));
     i.onkeydown = (e) => { if (e.key === 'Enter') $('#onbnext').click(); };
   }
 }
@@ -464,10 +500,15 @@ $('#onboarding').addEventListener('click', (e) => {
   const b = e.target.closest('[data-onb]'); if (!b) return;
   if (b.dataset.onb === 'back') { onbStep--; renderOnb(); return; }
   if (onbStep === 0) {
-    const n = $('#onbname').value.trim();
-    if (!n) { $('#onberr').hidden = false; $('#onbname').focus(); return; }
-    const first = !profile.name; profile.name = n; saveProfile();
-    track(first ? 'name_set' : 'rename', null, { name: n }); syncFavs();
+    const raw = $('#onbname').value;
+    if (isOwnerKey(raw)) { // secret owner entry: skip the guide, no tracking
+      enterOwner(); $('#onboarding').hidden = true; document.body.style.overflow = '';
+      renderChips(); render(); toast('👋 Frank，欢迎回来（不记录）'); return;
+    }
+    const c = checkName(raw);
+    if (c.err) { const e = $('#onberr'); e.textContent = c.err; e.hidden = false; $('#onbname').focus(); return; }
+    const first = !profile.name; profile.name = c.name; profile.owner = false; saveProfile();
+    track(first ? 'name_set' : 'rename', null, { name: c.name }); syncFavs();
   }
   if (onbStep === 2 && !profile.topics.length) { $('#toperr').hidden = false; return; }
   if (onbStep === 3) {
@@ -552,7 +593,7 @@ if (synth) synth.onvoiceschanged = () => {};
 // ---------- tracking (Part B: Google Sheet via Apps Script) ----------
 let tq = LS.get('tq', []);
 function track(ev, id = null, extra = {}) {
-  if (!CFG.trackUrl) return;
+  if (!CFG.trackUrl || profile.owner) return;
   const x = id ? story(id) : null;
   tq.push({ t: new Date().toISOString(), ev, id, title: x ? (x.zh || x.title) : undefined, ...extra });
   if (tq.length > 300) tq = tq.slice(-300);
@@ -560,6 +601,7 @@ function track(ev, id = null, extra = {}) {
   clearTimeout(track.t); track.t = setTimeout(flush, 4000);
 }
 async function geo() {
+  if (profile.owner) return {};
   const g = LS.get('geo', null);
   if (g && g.date === today()) return g;
   try {
@@ -578,7 +620,7 @@ function payload() {
   };
 }
 function flush(useBeacon = false) {
-  if (!CFG.trackUrl || !tq.length) return;
+  if (!CFG.trackUrl || !tq.length || profile.owner) return;
   const body = JSON.stringify(payload());
   let ok = false;
   if (useBeacon && navigator.sendBeacon) ok = navigator.sendBeacon(CFG.trackUrl, new Blob([body], { type: 'text/plain' }));
@@ -586,7 +628,7 @@ function flush(useBeacon = false) {
   tq = []; LS.set('tq', tq);
 }
 async function syncFavs() {
-  if (!CFG.trackUrl || !profile.name) return;
+  if (!CFG.trackUrl || !profile.name || profile.owner) return;
   try {
     const r = await (await fetch(`${CFG.trackUrl}?action=favs&name=${encodeURIComponent(profile.name)}`)).json();
     if (!Array.isArray(r.favs)) return;
@@ -621,6 +663,7 @@ document.addEventListener('click', (e) => {
     case 'close-reader': history.back(); break;
     case 'close-search': history.back(); break;
     case 'close-settings': if (saveSettingsName()) history.back(); break;
+    case 'privacy-more': { const f = b.parentElement.querySelector('.privacy-full'); f.hidden = !f.hidden; b.textContent = f.hidden ? '更多' : '收起'; break; }
     case 'replay-guide': closeOverlay('#settings'); openOnboarding(1); break;
   }
 });
