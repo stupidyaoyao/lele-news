@@ -20,7 +20,7 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const CLAUDE_KEY = process.env.ANTHROPIC_API_KEY;
 const PROVIDER = GEMINI_KEY ? 'gemini' : CLAUDE_KEY ? 'claude' : null;
 const GEMINI_MODELS = process.env.GEMINI_MODEL ? [process.env.GEMINI_MODEL]
-  : ['gemini-flash-lite-latest', 'gemini-flash-latest', 'gemini-2.5-flash'];
+  : ['gemini-flash-lite-latest', 'gemini-flash-latest'];
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-haiku-5-5';
 
 const KEEP_HOURS = 168;         // how long stories stay in news.json (7 days, for search)
@@ -81,9 +81,11 @@ function extractJsonArray(out) {
   return JSON.parse(out.slice(s, e + 1));
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function askGemini(prompt) {
   let lastErr;
-  for (const model of GEMINI_MODELS) {
+  for (const model of [...GEMINI_MODELS, GEMINI_MODELS[0]]) { // last entry = one retry of the main model
+    if (lastErr && /\b(429|503)\b/.test(lastErr.message)) await sleep(15000);
     console.log(`Trying Gemini ${model}...`);
     const t0 = Date.now();
     let res;
@@ -166,16 +168,16 @@ async function addDetails(items, now) {
     .sort((a, b) => (b.score ?? 3) - (a.score ?? 3))
     .slice(0, MAX_DETAIL * 2);
   const ready = [];
-  await Promise.all(want.map(async (x) => {
+  for (const x of want) { // one at a time: Google rate-limits parallel link decoding
     try {
-      if (x.url.includes('news.google.com')) x.url = await resolveGoogleNews(x.url);
+      if (x.url.includes('news.google.com')) { x.url = await resolveGoogleNews(x.url); await sleep(1500); }
       x._text = await articleText(x.url);
       ready.push(x);
     } catch (e) {
       console.log(`  no text: ${x.source} (${e.message})`);
     }
     x.detailTried = true;
-  }));
+  }
   const todo = ready.sort((a, b) => (b.score ?? 3) - (a.score ?? 3)).slice(0, MAX_DETAIL);
   for (const x of ready) if (!todo.includes(x)) delete x.detailTried; // try again next run
   console.log(`详细版: ${want.length} tried, ${ready.length} readable, writing ${todo.length}`);
