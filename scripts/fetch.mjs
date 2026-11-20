@@ -18,7 +18,7 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const CLAUDE_KEY = process.env.ANTHROPIC_API_KEY;
 const PROVIDER = GEMINI_KEY ? 'gemini' : CLAUDE_KEY ? 'claude' : null;
 const GEMINI_MODELS = process.env.GEMINI_MODEL ? [process.env.GEMINI_MODEL]
-  : ['gemini-2.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-2.5-flash', 'gemini-flash-latest'];
+  : ['gemini-flash-lite-latest', 'gemini-flash-latest', 'gemini-2.5-flash'];
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-haiku-5-5';
 
 const KEEP_HOURS = 72;          // how long stories stay in news.json
@@ -132,7 +132,8 @@ async function aiProcess(items) {
 - my: 对马来西亚的可能影响(令吉、股市、物价、就业、政策)，1句；没有明显影响填 null
 - sea: 对东南亚的可能影响，1句；没有填 null
 - world: 对全球的可能影响，1句；没有填 null
-影响是分析不是事实，用"可能"等字眼，不要夸大。
+影响是分析不是事实，用"可能"等字眼，不要夸大；没有直接、明确的影响就填 null，宁缺毋滥。
+马来西亚常用译名：MCA=马华，MIC=国大党，UMNO=巫统，PH/Pakatan Harapan=希盟，BN=国阵，PAS=伊党，PN=国盟，DAP=行动党，PKR=公正党，Bursa=马股，ringgit=令吉，PRN=州选。
 
 只输出 JSON 数组。
 ${JSON.stringify(list)}`;
