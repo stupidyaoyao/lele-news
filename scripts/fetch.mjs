@@ -25,7 +25,7 @@ const KEEP_HOURS = 72;          // how long stories stay in news.json
 const NEW_WINDOW_HOURS = 30;    // only keep stories newer than this when first seen
 const RETRY_HOURS = 12;         // stories that missed AI (limit hit) get retried this long
 const PER_FEED = 20;            // newest N per feed
-const MAX_AI_ITEMS = 100;       // max headlines sent to AI per run
+const MAX_AI_ITEMS = 50;        // max headlines sent to AI per run
 const MAX_SUMMARY = 15;         // max stories that get summary + impact per run
 const parser = new XMLParser({ processEntities: false, ignoreAttributes: false, attributeNamePrefix: '@', textNodeName: '#text' });
 const text = (v) => (v == null ? '' : typeof v === 'object' ? (v['#text'] ?? v['@href'] ?? '') : String(v));
@@ -79,6 +79,7 @@ function extractJsonArray(out) {
 async function askGemini(prompt) {
   let lastErr;
   for (const model of GEMINI_MODELS) {
+    console.log(`Trying Gemini ${model}...`);
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
       method: 'POST',
       headers: { 'x-goog-api-key': GEMINI_KEY, 'content-type': 'application/json' },
@@ -86,7 +87,7 @@ async function askGemini(prompt) {
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
         generationConfig: { responseMimeType: 'application/json', temperature: 0.2, maxOutputTokens: 16000 },
       }),
-      signal: AbortSignal.timeout(180000),
+      signal: AbortSignal.timeout(300000),
     });
     if (res.status === 404 || res.status === 400 || res.status === 429) { lastErr = new Error(`Gemini ${model} ${res.status}: ${(await res.text()).slice(0, 200)}`); continue; }
     if (!res.ok) throw new Error(`Gemini ${model} ${res.status}: ${(await res.text()).slice(0, 300)}`);
@@ -103,7 +104,7 @@ async function askClaude(prompt) {
     method: 'POST',
     headers: { 'x-api-key': CLAUDE_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
     body: JSON.stringify({ model: CLAUDE_MODEL, max_tokens: 16000, messages: [{ role: 'user', content: prompt }] }),
-    signal: AbortSignal.timeout(180000),
+    signal: AbortSignal.timeout(300000),
   });
   if (!res.ok) throw new Error(`Claude ${res.status}: ${(await res.text()).slice(0, 300)}`);
   const data = await res.json();
