@@ -35,21 +35,36 @@ export async function updateGold() {
     };
   } catch (e) { out.errors.push('spot: ' + e.message); }
 
-  // 2) Daily history -> yesterday's close + 7-day trend (converted with today's FX)
+  // 2) Daily history (up to 1 year) -> change vs yesterday + chart for 1周/1个月/3个月/1年.
+  //    Each day is converted with THAT day's USD->MYR rate (ECB data via Frankfurter),
+  //    so ringgit moves don't distort the chart. Falls back to today's rate if FX fails.
   try {
     const h = await getJson('https://xaus.com/api/v1/history');
-    const pts = (h.points || []).filter((p) => p.d && p.c).sort((a, b) => a.d.localeCompare(b.d));
-    const fx = out.spot?.myrPerUsd;
-    if (pts.length && fx) {
-      const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Kuala_Lumpur' });
-      const past = pts.filter((p) => p.d < today);
-      const prev = past[past.length - 1];
-      if (prev && out.spot.usdOz) {
-        out.spot.changePct = +((out.spot.usdOz / prev.c - 1) * 100).toFixed(2);
-        out.spot.changeG999 = +(out.spot.g999 - (prev.c * fx) / 31.1034768).toFixed(2);
+    const today = new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Kuala_Lumpur' });
+    const yearAgo = new Date(Date.now() - 370 * 864e5).toISOString().slice(0, 10);
+    const pts = (h.points || []).filter((p) => p.d && p.c && p.d >= yearAgo && p.d < today).sort((a, b) => a.d.localeCompare(b.d));
+    const fxNow = out.spot?.myrPerUsd;
+    let fx = {};
+    for (const url of [
+      `https://api.frankfurter.dev/v1/${yearAgo}..?base=USD&symbols=MYR`,
+      `https://api.frankfurter.app/${yearAgo}..?from=USD&to=MYR`,
+    ]) {
+      try { const r = await getJson(url); for (const [d, v] of Object.entries(r.rates || {})) if (v.MYR) fx[d] = v.MYR; if (Object.keys(fx).length) break; } catch {}
+    }
+    const fxDays = Object.keys(fx).sort();
+    out.fxApprox = fxDays.length === 0;
+    const rateOn = (d) => { // that day's rate, or the latest earlier one (weekends/holidays)
+      let r = null; for (const k of fxDays) { if (k <= d) r = fx[k]; else break; } return r || fxNow;
+    };
+    if (pts.length && fxNow) {
+      out.history = pts.map((p) => ({ d: p.d, g999: +((p.c * rateOn(p.d)) / 31.1034768).toFixed(2) }));
+      const prev = out.history[out.history.length - 1];
+      if (prev && out.spot) {
+        out.spot.changeG999 = +(out.spot.g999 - prev.g999).toFixed(2);
+        out.spot.changePct = +((out.spot.g999 / prev.g999 - 1) * 100).toFixed(2);
       }
-      out.trend = past.slice(-7).map((p) => ({ d: p.d, g999: +((p.c * fx) / 31.1034768).toFixed(2) }));
-      if (out.spot) out.trend.push({ d: today, g999: out.spot.g999 });
+      if (out.spot) out.history.push({ d: today, g999: out.spot.g999 });
+      out.trend = out.history.slice(-8); // older app versions
     }
   } catch (e) { out.errors.push('history: ' + e.message); }
 

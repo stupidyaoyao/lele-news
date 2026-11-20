@@ -16,12 +16,12 @@
 <script>
   // apply saved look before first paint (no flash)
   try {
-    var p = JSON.parse(localStorage.getItem('profile') || '{}');
+    var p = JSON.parse(localStorage.getItem('look') || localStorage.getItem('profile') || '{}');
     document.documentElement.dataset.theme = p.theme || 'auto';
     document.documentElement.dataset.size = p.size || 'normal';
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="css/app.css?v=13">
+<link rel="stylesheet" href="css/app.css?v=14">
 </head>
 <body>
 <div class="wrap" id="main">
@@ -42,7 +42,7 @@
   <nav class="tabs" id="tabs">
     <button class="tab on" data-tab="digest">今日要闻</button>
     <button class="tab tab-live" data-tab="live">即时</button>
-    <button class="tab" data-tab="favs">⭐ 收藏</button>
+    <button class="tab" data-tab="mine">👤 我的</button>
   </nav>
 
   <main id="view"></main>
@@ -64,7 +64,7 @@
 <div class="modal-bg" id="modal" hidden></div>
 <div class="toast" id="toast"></div>
 
-<script src="js/config.js?v=13"></script>
-<script src="js/app.js?v=13"></script>
+<script src="js/config.js?v=14"></script>
+<script src="js/app.js?v=14"></script>
 </body>
 </html>

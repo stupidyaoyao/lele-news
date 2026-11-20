@@ -1,17 +1,21 @@
-/* 乐乐新闻 Happy News: app logic (v1.1)
-   Sections: storage · profile · data · digest · render · reader · link confirm ·
-   search · favourites · settings · onboarding · listen · tracking · boot */
+/* 乐乐新闻 Happy News: app logic (v1.2)
+   Sections: storage · accounts (per-name, per-device) · data · read/history/favs ·
+   digest · gold · render · reader · link confirm · search · settings · login & guide ·
+   listen · tracking · events · boot */
 
 'use strict';
 const CFG = window.LELE_CONFIG || {};
 const CATS = { finance: '财经', world: '国际', sea: '东南亚', malaysia: '马来西亚', china: '中国', tech: '科技' };
+const ALL_CATS = Object.keys(CATS);
 const DIGEST_SIZE = 10;
+const HIST_MAX = 300;
 const TZ = 'Asia/Kuala_Lumpur';
 
 // ---------- storage ----------
 const LS = {
   get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  del(k) { try { localStorage.removeItem(k); } catch {} },
 };
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -26,25 +30,79 @@ const ago = (iso) => {
 const fmtRM = (n, d = 2) => 'RM' + Number(n).toLocaleString('en-MY', { minimumFractionDigits: d, maximumFractionDigits: d });
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 1800); }
 
-// ---------- profile ----------
+// ---------- accounts: each phone remembers its names; each name has its own data ----------
+// device-wide: 'device' {id}, 'users' {list:[{key,name,last}], current}, 'tq', 'geo', 'look'
+// per name:    'u:<key>:profile|read|streak|likes|favs|hist|digest'
+const OWNER = '__owner__';
+const OWNER_KEY = ' '; // secret: a name of exactly one space
+const isOwnerKey = (raw) => raw === OWNER_KEY;
+const keyOf = (name) => String(name).trim().toLowerCase();
+const newId = () => 'd' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
+const DEFAULT_PROFILE = { name: '', size: 'normal', theme: 'auto', topics: ['finance', 'world'], confirmLink: true, rate: 1, onboarded: false, owner: false };
+
+(function migrateV11() { // v1.1 kept one global profile; move it under its name
+  if (LS.get('users', null)) return;
+  const old = LS.get('profile', null);
+  const device = LS.get('device', null) || { id: (old && old.device) || newId() };
+  LS.set('device', device);
+  const users = { list: [], current: null };
+  if (old && old.name) {
+    const key = old.owner ? OWNER : keyOf(old.name);
+    const { device: _d, ...prof } = old;
+    LS.set(`u:${key}:profile`, prof);
+    for (const k of ['read', 'streak', 'likes', 'favs', 'digest']) { const v = LS.get(k, null); if (v != null) LS.set(`u:${key}:${k}`, v); }
+    if (!old.owner) users.list.push({ key, name: old.name, last: Date.now() });
+    users.current = key;
+  }
+  for (const k of ['profile', 'read', 'streak', 'likes', 'favs', 'digest', 'topics', 'rate']) LS.del(k);
+  LS.set('users', users);
+})();
+
+const DEVICE = LS.get('device', null) || (() => { const d = { id: newId() }; LS.set('device', d); return d; })();
+let users = LS.get('users', { list: [], current: null });
+let curKey = users.current;
+const U = {
+  get(k, d) { return curKey ? LS.get(`u:${curKey}:${k}`, d) : d; },
+  set(k, v) { if (curKey) LS.set(`u:${curKey}:${k}`, v); },
+};
 let tab = 'digest';
-const DEFAULT_PROFILE = { name: '', size: 'normal', theme: 'auto', topics: ['finance', 'world'], confirmLink: true, rate: 1, onboarded: false };
-let profile = { ...DEFAULT_PROFILE, ...LS.get('profile', {}) };
-// migrate v1.0 settings
-if (!LS.get('profile', null)) { const t = LS.get('topics', null); if (t) profile.topics = t; const r = LS.get('rate', null); if (r) profile.rate = r; }
-if (!profile.device) profile.device = 'd' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
-function saveProfile() { LS.set('profile', profile); applyLook(); }
+let mineTab = 'favs';
+let profile = curKey ? { ...DEFAULT_PROFILE, ...U.get('profile', {}) } : { ...DEFAULT_PROFILE };
+
+function saveProfile() { U.set('profile', profile); applyLook(); }
 function applyLook() {
   document.documentElement.dataset.theme = profile.theme;
   document.documentElement.dataset.size = profile.size;
+  LS.set('look', { theme: profile.theme, size: profile.size });
   if (profile.size === 'large' && tab === 'live') tab = 'digest';
 }
-saveProfile();
+applyLook();
 
-// ---------- name rules + owner mode ----------
-// Secret: a name of exactly one space = owner (Frank). Owner is never tracked.
-const OWNER_KEY = ' ';
-const isOwnerKey = (raw) => raw === OWNER_KEY;
+// returns true if this name is new on this phone
+function login(key, name, owner = false) {
+  flush(); // send the previous person's actions first
+  curKey = key; users.current = key;
+  if (!owner) users.list = [{ key, name, last: Date.now() }, ...users.list.filter((u) => u.key !== key)].slice(0, 8);
+  LS.set('users', users);
+  const existing = U.get('profile', null);
+  profile = { ...DEFAULT_PROFILE, ...(existing || {}), name, owner };
+  if (owner) profile.onboarded = true;
+  saveProfile();
+  tab = 'digest';
+  return !existing;
+}
+function logout() {
+  track('logout'); flush(true);
+  stopIfSpeaking();
+  curKey = null; users.current = null; LS.set('users', users);
+  profile = { ...DEFAULT_PROFILE }; applyLook();
+  closeOverlay('#settings', false);
+  openOnboarding(0);
+}
+function forgetName(key) {
+  users.list = users.list.filter((u) => u.key !== key); LS.set('users', users);
+}
+
 function checkName(raw) {
   const n = String(raw || '').trim().replace(/\s+/g, ' ');
   if (!n) return { err: '请输入名字才能登入' };
@@ -53,11 +111,13 @@ function checkName(raw) {
   if (!/[\p{Script=Han}A-Za-z]/u.test(n)) return { err: '名字要有文字，不能只有数字' };
   return { name: n };
 }
-function enterOwner() {
-  profile.owner = true; profile.name = 'Frank'; profile.onboarded = true;
-  tq = []; LS.set('tq', tq); saveProfile();
+// live hint while typing; a single space (owner key) shows nothing so the secret isn't revealed
+function liveNameCheck(input, errEl) {
+  const raw = input.value;
+  if (!raw || isOwnerKey(raw)) { errEl.hidden = true; return; }
+  const c = checkName(raw);
+  errEl.textContent = c.err || ''; errEl.hidden = !c.err || c.err === '请输入名字才能登入';
 }
-function leaveOwner(name) { profile.owner = false; profile.name = name; saveProfile(); }
 const PRIVACY_SHORT = '🔒 用名字登入，就能保存你的阅读记录和喜好。我们也会记录大概城市，只用来改进 app。';
 const PRIVACY_FULL = '你用名字登入后，我们会帮你记住阅读记录、收藏和喜好，换手机也能找回。我们也会记录大概城市，资料只用来改进 app，不会给外人。';
 const privacyHtml = () => `<div class="privacy">${PRIVACY_SHORT} <button class="more-btn" data-action="privacy-more">更多</button><div class="privacy-full" hidden>${PRIVACY_FULL}</div></div>`;
@@ -66,15 +126,14 @@ const privacyHtml = () => `<div class="privacy">${PRIVACY_SHORT} <button class="
 let data = { items: [] };
 let gold = null;
 let byId = new Map();
-const story = (id) => byId.get(id) || favs()[id] || null;
+const story = (id) => byId.get(id) || favs()[id] || histMap().get(id) || null;
 
 async function load() {
   try {
     const r = await fetch(`data/news.json?t=${Date.now()}`, { cache: 'no-store' });
     data = await r.json();
     byId = new Map(data.items.map((x) => [x.id, x]));
-    const t = new Date(data.updated).toLocaleString('zh-CN', { timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    $('#updated').textContent = `更新于 ${t}`;
+    renderSub();
     if (!speaking) render();
   } catch (e) {
     $('#updated').textContent = '加载失败，稍后再试';
@@ -84,55 +143,62 @@ async function load() {
     renderGold();
   } catch {}
 }
+function renderSub() {
+  const t = data.updated ? new Date(data.updated).toLocaleString('zh-CN', { timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+  $('#updated').innerHTML = `${curKey ? `<button class="user-chip" data-action="open-settings">👤 ${esc(profile.owner ? 'Frank 👑' : profile.name)}</button> · ` : ''}${t ? `更新于 ${t}` : '加载中…'}`;
+}
 
-// ---------- read state, streak, likes ----------
-function readSet() { return new Set(LS.get('read', {})[today()] || []); }
-function markRead(id, on = true) {
+// ---------- read, history, streak, likes, favourites ----------
+function slim(x) {
+  const { id, title, zh, url, source, cat, published, sum, impact, detail, tags } = x;
+  return { id, title, zh, url, source, cat, published, sum, impact, detail, tags };
+}
+function readSet() { return new Set(U.get('read', {})[today()] || []); }
+const hist = () => U.get('hist', []);
+const histMap = () => new Map(hist().map((h) => [h.id, h]));
+function addHist(id, how) {
+  const x = byId.get(id) || favs()[id]; if (!x || !curKey) return;
+  const h = [{ ...slim(x), at: new Date().toISOString(), how }, ...hist().filter((y) => y.id !== id)].slice(0, HIST_MAX);
+  U.set('hist', h);
+}
+function markRead(id, on = true, how = 'read') {
   const s = readSet(); const had = s.has(id);
   on ? s.add(id) : s.delete(id);
-  LS.set('read', { [today()]: [...s] });
+  U.set('read', { [today()]: [...s] });
+  if (on) addHist(id, how);
   if (on && !had) track('read', id);
 }
 function streakNow() {
-  const s = LS.get('streak', { last: null, n: 0 });
+  const s = U.get('streak', { last: null, n: 0 });
   return s.last === today() || s.last === yesterday() ? s.n : 0;
 }
 function finishToday() {
-  const s = LS.get('streak', { last: null, n: 0 });
+  const s = U.get('streak', { last: null, n: 0 });
   if (s.last === today()) return;
-  LS.set('streak', { last: today(), n: s.last === yesterday() ? s.n + 1 : 1 });
+  U.set('streak', { last: today(), n: s.last === yesterday() ? s.n + 1 : 1 });
   track('finish', null, { streak: streakNow() });
   renderStreak(); render();
   toast('✅ 今天看完了，明天见！');
 }
 function renderStreak() { $('#streak').textContent = `🔥 ${streakNow()} 天`; }
-const likes = () => LS.get('likes', {});
+const likes = () => U.get('likes', {});
 function setLike(id, v) {
-  const l = likes(); l[id] = l[id] === v ? 0 : v; if (!l[id]) delete l[id]; LS.set('likes', l);
+  const l = likes(); l[id] = l[id] === v ? 0 : v; if (!l[id]) delete l[id]; U.set('likes', l);
   track(l[id] === 1 ? 'like' : l[id] === -1 ? 'dislike' : 'unlike', id);
 }
-
-// ---------- favourites (copy of the story so it never expires) ----------
-const favs = () => LS.get('favs', {});
+const favs = () => U.get('favs', {});
 const isFav = (id) => Boolean(favs()[id]);
 function toggleFav(id) {
   const f = favs(); const x = story(id); if (!x) return;
   if (f[id]) { delete f[id]; track('unstar', id); toast('已取消收藏'); }
-  else {
-    f[id] = slim(x); f[id].savedAt = new Date().toISOString();
-    track('star', id, { story: f[id] }); toast('⭐ 已收藏');
-  }
-  LS.set('favs', f);
-}
-function slim(x) {
-  const { id, title, zh, url, source, cat, published, sum, impact, detail, tags } = x;
-  return { id, title, zh, url, source, cat, published, sum, impact, detail, tags };
+  else { f[id] = slim(x); f[id].savedAt = new Date().toISOString(); track('star', id, { story: f[id] }); toast('⭐ 已收藏'); }
+  U.set('favs', f);
 }
 
 // ---------- digest (locked for the day once AI-processed) ----------
 function digestItems() {
   const key = `${today()}|${[...profile.topics].sort().join(',')}`;
-  const saved = LS.get('digest', null);
+  const saved = U.get('digest', null);
   if (saved && saved.key === key && saved.ready) {
     const list = saved.ids.map((id) => byId.get(id)).filter(Boolean);
     if (list.length >= Math.min(DIGEST_SIZE, saved.ids.length)) return list;
@@ -141,54 +207,82 @@ function digestItems() {
   const pool = data.items.filter((x) => profile.topics.includes(x.cat) && Date.parse(x.published) >= since);
   pool.sort((a, b) => (b.ai ? 1 : 0) - (a.ai ? 1 : 0) || (b.score ?? 3) - (a.score ?? 3) || (b.detail ? 1 : 0) - (a.detail ? 1 : 0) || (b.impact ? 1 : 0) - (a.impact ? 1 : 0) || b.published.localeCompare(a.published));
   const per = {}, pick = [];
-  const cap = Math.max(4, Math.ceil(DIGEST_SIZE / profile.topics.length));
+  const cap = Math.max(3, Math.ceil(DIGEST_SIZE / profile.topics.length));
   for (const x of pool) { if ((per[x.cat] = (per[x.cat] || 0) + 1) <= cap) pick.push(x); if (pick.length === DIGEST_SIZE) break; }
   for (const x of pool) { if (pick.length >= DIGEST_SIZE) break; if (!pick.includes(x)) pick.push(x); }
   const ready = pick.length >= 5 && pick.filter((x) => x.ai).length >= pick.length * 0.8;
-  if (pick.length) LS.set('digest', { key, ids: pick.map((x) => x.id), ready });
+  if (pick.length) U.set('digest', { key, ids: pick.map((x) => x.id), ready });
   return pick;
 }
 
-// ---------- render: gold ----------
+// ---------- gold ----------
 let goldOpen = false;
-function spark(points) {
-  if (!points || points.length < 2) return '';
+let goldRange = LS.get('goldRange', '1m');
+const RANGES = { '1w': ['1周', 7], '1m': ['1个月', 31], '3m': ['3个月', 92], '1y': ['1年', 366] };
+function goldSeries() {
+  const all = gold?.history?.length ? gold.history : gold?.trend || [];
+  const from = dateMY(Date.now() - RANGES[goldRange][1] * 864e5);
+  return all.filter((p) => p.d >= from);
+}
+function chart(points) {
+  if (!points || points.length < 2) return '<div class="note">暂时没有走势资料</div>';
   const v = points.map((p) => p.g999); const min = Math.min(...v), max = Math.max(...v), r = max - min || 1;
-  const d = v.map((y, i) => `${i ? 'L' : 'M'}${(i / (v.length - 1) * 100).toFixed(1)},${(28 - (y - min) / r * 24).toFixed(1)}`).join(' ');
-  return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-label="近7天走势"><path d="${d}" vector-effect="non-scaling-stroke"/></svg>`;
+  const xy = v.map((y, i) => [(i / (v.length - 1) * 100), (36 - (y - min) / r * 32)]);
+  const line = xy.map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(2)},${y.toFixed(2)}`).join(' ');
+  const area = `${line} L100,40 L0,40 Z`;
+  const fmtD = (d) => `${+d.slice(5, 7)}/${+d.slice(8, 10)}`;
+  return `<div class="chart">
+    <div class="chart-y"><span>${fmtRM(max)}</span><span>${fmtRM(min)}</span></div>
+    <svg viewBox="0 0 100 40" preserveAspectRatio="none" aria-label="金价走势"><path class="area" d="${area}"/><path class="ln" d="${line}" vector-effect="non-scaling-stroke"/></svg>
+    <div class="chart-x"><span>${fmtD(points[0].d)}</span><span>${fmtD(points[points.length - 1].d)}</span></div>
+  </div>`;
 }
 function renderGold() {
   const el = $('#gold');
   if (!gold || (!gold.spot && !gold.kijang)) { el.hidden = true; return; }
   el.hidden = false;
-  const s = gold.spot;
+  const s = gold.spot, k = gold.kijang;
   const chg = s && s.changePct != null
     ? `<span class="chg ${s.changePct >= 0 ? 'up' : 'down'}">${s.changePct >= 0 ? '▲' : '▼'} ${Math.abs(s.changePct)}%</span>` : '';
-  const k = gold.kijang;
   const asOf = s?.asOf ? new Date(s.asOf).toLocaleString('zh-CN', { timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
-  el.innerHTML = `
-    <button class="gold-row" data-action="gold-toggle" aria-expanded="${goldOpen}">
-      <span class="gold-label">💰 金价</span>
-      ${s ? `<span class="gold-main">${fmtRM(s.g999)}<small>/克 999</small></span> ${chg}
-             <span class="gold-sec">916：${fmtRM(s.g916)}/克</span>` : `<span class="gold-sec">Kijang Emas 1oz 卖 ${fmtRM(k.oz.sell, 0)}</span>`}
-      <span class="caret">${goldOpen ? '收起 ▲' : '更多 ▼'}</span>
-    </button>
-    ${goldOpen ? `<div class="gold-more">
-      ${gold.trend?.length > 1 ? `<div class="note">近7天走势（999，每克）</div>${spark(gold.trend)}` : ''}
+  let more = '';
+  if (goldOpen) {
+    const pts = goldSeries();
+    let stats = '';
+    if (pts.length > 1) {
+      const v = pts.map((p) => p.g999); const first = v[0], last = v[v.length - 1];
+      const pct = ((last / first - 1) * 100).toFixed(1);
+      stats = `<div class="range-stats"><span class="chg ${pct >= 0 ? 'up' : 'down'}">${RANGES[goldRange][0]}：${pct >= 0 ? '▲' : '▼'} ${Math.abs(pct)}%</span>
+        <span>最高 ${fmtRM(Math.max(...v))}</span><span>最低 ${fmtRM(Math.min(...v))}</span></div>`;
+    }
+    more = `<div class="gold-more">
+      <div class="seg range">${Object.entries(RANGES).map(([k2, [label]]) => `<button data-action="gold-range" data-r="${k2}" class="${k2 === goldRange ? 'on' : ''}">${label}</button>`).join('')}</div>
+      ${stats}${chart(pts)}
       <table>
         ${s ? `<tr><td>999 每克</td><td>${fmtRM(s.g999)}</td></tr><tr><td>916 每克</td><td>${fmtRM(s.g916)}</td></tr><tr><td>每盎司 (31.1克)</td><td>${fmtRM(s.oz, 0)}</td></tr>` : ''}
         ${s?.changeG999 != null ? `<tr><td>比昨天（每克）</td><td class="chg ${s.changeG999 >= 0 ? 'up' : 'down'}">${s.changeG999 >= 0 ? '+' : ''}${s.changeG999.toFixed(2)}</td></tr>` : ''}
         ${k ? `<tr><td>Kijang Emas 1oz 卖出</td><td>${fmtRM(k.oz.sell, 0)}</td></tr><tr><td>Kijang Emas 1oz 买入</td><td>${fmtRM(k.oz.buy, 0)}</td></tr>` : ''}
       </table>
-      <div class="gold-note">国际金价参考${asOf ? `（${asOf}）` : ''}${k ? `；Kijang Emas 为国家银行 ${esc(k.date)} 牌价` : ''}。金铺价格会更高（另加工钱）。</div>
-    </div>` : ''}`;
+      <div class="gold-note">国际金价参考${asOf ? `（${asOf}）` : ''}${k ? `；Kijang Emas 为国家银行 ${esc(k.date)} 牌价` : ''}。${gold.fxApprox ? '走势以今天汇率换算。' : ''}金铺价格会更高（另加工钱）。</div>
+    </div>`;
+  }
+  el.innerHTML = `
+    <button class="gold-row" data-action="gold-toggle" aria-expanded="${goldOpen}">
+      <span class="gold-label">💰 金价</span>
+      ${s ? `<span class="gold-main">${fmtRM(s.g999)}<small>/克 999</small></span> ${chg}
+             <span class="gold-sec">916：${fmtRM(s.g916)}/克</span>` : `<span class="gold-sec">Kijang Emas 1oz 卖 ${fmtRM(k.oz.sell, 0)}</span>`}
+      <span class="caret">${goldOpen ? '收起 ▲' : '走势 ▼'}</span>
+    </button>${more}`;
 }
 
 // ---------- render: main ----------
-function renderChips() {
-  $('#chips').innerHTML = Object.entries(CATS).map(([k, v]) =>
-    `<button class="chip ${profile.topics.includes(k) ? 'on' : ''}" data-action="topic" data-cat="${k}">${v}</button>`).join('');
+const allOn = () => ALL_CATS.every((c) => profile.topics.includes(c));
+function chipsHtml(big = false) {
+  const st = big ? ' style="font-size:1.05rem;padding:.6rem 1.1rem"' : '';
+  return `<button class="chip ${allOn() ? 'on' : ''}" data-action="topic-all"${st}>全部</button>` +
+    Object.entries(CATS).map(([k, v]) => `<button class="chip ${profile.topics.includes(k) ? 'on' : ''}" data-action="topic" data-cat="${k}"${st}>${v}</button>`).join('');
 }
+function renderChips() { $('#chips').innerHTML = chipsHtml(); }
 function renderTabs() { document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('on', t.dataset.tab === tab)); }
 
 function impactHtml(x) {
@@ -223,13 +317,13 @@ function card(x, i, read) {
 function render() {
   renderTabs();
   const view = $('#view');
-  if (tab === 'favs') { renderFavs(view); return; }
+  if (tab === 'mine') { renderMine(view); return; }
   if (!profile.topics.length) { view.innerHTML = `<div class="empty">在上面选至少一个类别</div>`; return; }
   if (tab === 'digest') {
     const list = digestItems(); const read = readSet();
     const n = list.filter((x) => read.has(x.id)).length;
     if (!list.length) { view.innerHTML = `<div class="empty">过去24小时还没有这些类别的新闻</div>`; return; }
-    const finished = LS.get('streak', {}).last === today();
+    const finished = U.get('streak', {}).last === today();
     view.innerHTML = `
       <div class="progress"><span>已读 ${n}/${list.length}</span><div class="bar"><i style="width:${n / list.length * 100}%"></i></div></div>
       ${list.map((x, i) => card(x, i, read.has(x.id))).join('')}
@@ -237,27 +331,47 @@ function render() {
   } else {
     const since = Date.now() - 6 * 3600e3;
     const list = data.items.filter((x) => profile.topics.includes(x.cat) && Date.parse(x.published) >= since).slice(0, 60);
-    view.innerHTML = list.length ? list.map(liveRow).join('') : `<div class="empty">过去6小时没有新的新闻</div>`;
+    view.innerHTML = list.length ? list.map((x) => liveRow(x)).join('') : `<div class="empty">过去6小时没有新的新闻</div>`;
   }
 }
-function liveRow(x, q) {
+function liveRow(x, q, when) {
   const hl = (s) => q ? esc(s).replace(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), (m) => `<mark>${m}</mark>`) : esc(s);
   return `<button class="live" data-action="open" data-id="${x.id}">
-    <div class="meta"><span class="tag">${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${ago(x.published)}</span>${x.detail ? '<span>📖</span>' : ''}${isFav(x.id) ? '<span>⭐</span>' : ''}</div>
+    <div class="meta"><span class="tag">${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${when || ago(x.published)}</span>${x.detail ? '<span>📖</span>' : ''}${isFav(x.id) ? '<span>⭐</span>' : ''}</div>
     <div class="t">${hl(x.zh || x.title)}</div>
   </button>`;
 }
-function renderFavs(view) {
-  const list = Object.values(favs()).sort((a, b) => (b.savedAt || '').localeCompare(a.savedAt || ''));
-  view.innerHTML = list.length
-    ? `<div class="count">共 ${list.length} 条收藏 · 在 🔍 里也能搜到</div>${list.map(liveRow).join('')}`
-    : `<div class="empty">还没有收藏。<br>看到喜欢的新闻，按 ☆ 收藏 就会存在这里。</div>`;
+function renderMine(view) {
+  const sub = `<div class="seg subtabs">
+    <button data-action="mine-tab" data-m="favs" class="${mineTab === 'favs' ? 'on' : ''}">⭐ 收藏 (${Object.keys(favs()).length})</button>
+    <button data-action="mine-tab" data-m="hist" class="${mineTab === 'hist' ? 'on' : ''}">📜 看过 (${hist().length})</button></div>`;
+  if (mineTab === 'favs') {
+    const list = Object.values(favs()).sort((a, b) => (b.savedAt || '').localeCompare(a.savedAt || ''));
+    view.innerHTML = sub + (list.length
+      ? list.map((x) => liveRow(x)).join('')
+      : `<div class="empty">还没有收藏。<br>看到喜欢的新闻，按 ☆ 收藏 就会存在这里。</div>`);
+    return;
+  }
+  const list = hist();
+  if (!list.length) { view.innerHTML = sub + `<div class="empty">还没有看过的新闻。<br>打开「详细版」、按「已读」或收听，都会记在这里。</div>`; return; }
+  const groups = { 今天: [], 昨天: [], 更早: [] };
+  const t0 = today(), t1 = yesterday();
+  for (const h of list) { const d = dateMY(Date.parse(h.at)); groups[d === t0 ? '今天' : d === t1 ? '昨天' : '更早'].push(h); }
+  const how = { detail: '看了详细版', listen: '听过', read: '已读', open: '看过' };
+  const when = (h) => {
+    const d = new Date(h.at);
+    const hm = d.toLocaleTimeString('zh-CN', { timeZone: TZ, hour: '2-digit', minute: '2-digit' });
+    const day = dateMY(d.getTime());
+    return `${day === t0 || day === t1 ? hm : `${+day.slice(5, 7)}/${+day.slice(8, 10)} ${hm}`} ${how[h.how] || '看过'}`;
+  };
+  view.innerHTML = sub + Object.entries(groups).filter(([, v]) => v.length)
+    .map(([g, v]) => `<div class="group-h">${g}（${v.length}）</div>${v.map((h) => liveRow(h, null, when(h))).join('')}`).join('');
 }
 
 // ---------- reader (详细版) ----------
 function openReader(id) {
   const x = story(id); if (!x) return;
-  markRead(id);
+  markRead(id, true, x.detail ? 'detail' : 'open');
   track(x.detail ? 'detail' : 'open', id);
   const el = $('#reader');
   el.innerHTML = `<div class="wrap reader">
@@ -275,33 +389,41 @@ function openReader(id) {
   document.body.style.overflow = 'hidden';
   history.pushState({ ov: 'reader' }, '');
 }
-function closeOverlay(id) {
+function closeOverlay(id, rerender = true) {
   const el = $(id); if (el.hidden) return;
   el.hidden = true;
   if ([...document.querySelectorAll('.overlay')].every((o) => o.hidden)) document.body.style.overflow = '';
-  if (id !== '#onboarding') render();
+  if (rerender && id !== '#onboarding') render();
 }
 
-// ---------- link confirm ----------
+// ---------- link confirm + generic confirm ----------
 function openLink(id) {
   const x = story(id); if (!x) return;
+  const go = () => { track('link', id); window.open(x.url, '_blank', 'noopener'); };
   if (!profile.confirmLink) { go(); return; }
   const m = $('#modal');
   m.innerHTML = `<div class="modal" role="dialog" aria-modal="true">
     <p>即将打开《${esc(x.source)}》网站，可能需要几秒钟加载。要打开吗？</p>
     <label><input type="checkbox" id="noask"> 不再提醒</label>
-    <div class="onb-nav"><button data-action="modal-cancel">取消</button><button class="next" data-action="modal-go">打开</button></div>
+    <div class="onb-nav"><button data-m="cancel">取消</button><button class="next" data-m="go">打开</button></div>
   </div>`;
   m.hidden = false;
   m.onclick = (e) => {
-    const a = e.target.closest('[data-action]')?.dataset.action;
-    if (e.target === m || a === 'modal-cancel') { m.hidden = true; }
-    if (a === 'modal-go') {
-      if ($('#noask').checked) { profile.confirmLink = false; saveProfile(); }
-      m.hidden = true; go();
-    }
+    const a = e.target.closest('[data-m]')?.dataset.m;
+    if (e.target === m || a === 'cancel') m.hidden = true;
+    if (a === 'go') { if ($('#noask').checked) { profile.confirmLink = false; saveProfile(); } m.hidden = true; go(); }
   };
-  function go() { track('link', id); window.open(x.url, '_blank', 'noopener'); }
+}
+function confirmBox(html, okLabel, onOk) {
+  const m = $('#modal');
+  m.innerHTML = `<div class="modal" role="dialog" aria-modal="true"><p>${html}</p>
+    <div class="onb-nav"><button data-m="cancel">取消</button><button class="next" data-m="ok">${okLabel}</button></div></div>`;
+  m.hidden = false;
+  m.onclick = (e) => {
+    const a = e.target.closest('[data-m]')?.dataset.m;
+    if (e.target === m || a === 'cancel') m.hidden = true;
+    if (a === 'ok') { m.hidden = true; onOk(); }
+  };
 }
 
 // ---------- search ----------
@@ -329,7 +451,7 @@ function openSearch() {
     <div class="filters">
       <select id="ssort" aria-label="排序"><option value="new">最新</option><option value="top">最重要</option></select>
       <select id="sdate" aria-label="日期"><option value="all">全部日期</option><option value="today">今天</option><option value="yday">昨天</option><option value="older">更早</option></select>
-      <select id="scat" aria-label="类别"><option value="all">全部类别</option>${Object.entries(CATS).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}<option value="fav">⭐ 我的收藏</option></select>
+      <select id="scat" aria-label="类别"><option value="all">全部类别</option>${Object.entries(CATS).map(([k, v]) => `<option value="${k}">${v}</option>`).join('')}<option value="fav">⭐ 我的收藏</option><option value="hist">📜 我看过的</option></select>
       <select id="ssrc" aria-label="来源"><option value="all">全部来源</option>${sources.map((s) => `<option>${esc(s)}</option>`).join('')}</select>
     </div>
     <div id="sres"></div>
@@ -349,10 +471,14 @@ function runSearch() {
   const { q, sort, date, cat, src } = sState;
   const all = new Map(data.items.map((x) => [x.id, x]));
   for (const f of Object.values(favs())) if (!all.has(f.id)) all.set(f.id, f);
+  const hm = histMap();
+  for (const h of hm.values()) if (!all.has(h.id)) all.set(h.id, h);
   const ql = q.toLowerCase(); const terms = ql ? expand(ql) : [];
   const t0 = today(), t1 = yesterday();
-  let list = [...all.values()].filter((x) => {
-    if (cat === 'fav' ? !isFav(x.id) : cat !== 'all' && x.cat !== cat) return false;
+  const list = [...all.values()].filter((x) => {
+    if (cat === 'fav') { if (!isFav(x.id)) return false; }
+    else if (cat === 'hist') { if (!hm.has(x.id)) return false; }
+    else if (cat !== 'all' && x.cat !== cat) return false;
     if (src !== 'all' && x.source !== src) return false;
     const d = dateMY(Date.parse(x.published));
     if (date === 'today' && d !== t0) return false;
@@ -373,10 +499,11 @@ function openSettings() {
   const el = $('#settings');
   el.innerHTML = `<div class="wrap">
     <div class="ov-head"><h3>⚙️ 设置</h3><button class="close" data-action="close-settings">✕ 完成</button></div>
-    <div class="set-group"><h4>你的名字</h4>
-      <input class="field" id="setname" value="${esc(profile.name)}" maxlength="20" placeholder="你的名字或称呼" autocomplete="off">
-      ${profile.owner ? '<p class="note">👑 管理员模式：你的使用不会被记录。改成别的名字就会离开管理员模式。</p>' : ''}
-      <div class="err" id="nameerr" hidden></div></div>
+    <div class="set-group"><div class="row"><div><h4 style="margin:0">目前登入</h4>
+      <div class="who">👤 ${esc(profile.owner ? 'Frank' : profile.name)}</div>
+      ${profile.owner ? '<div class="note">👑 管理员模式：不会被记录</div>' : ''}</div>
+      <button class="btn" data-action="logout">🚪 退出 / 换人</button></div>
+      <p class="note">每个名字的收藏、看过的新闻、🔥连续天数和设置都分开保存。</p></div>
     <div class="set-group"><h4>字体大小</h4><div class="seg">
       <button data-set="size" data-v="normal" class="${profile.size === 'normal' ? 'on' : ''}">标准</button>
       <button data-set="size" data-v="large" class="${profile.size === 'large' ? 'on' : ''}">大字模式（长辈）</button></div>
@@ -385,8 +512,7 @@ function openSettings() {
       <button data-set="theme" data-v="light" class="${profile.theme === 'light' ? 'on' : ''}">☀️ 白色</button>
       <button data-set="theme" data-v="dark" class="${profile.theme === 'dark' ? 'on' : ''}">🌙 黑色</button>
       <button data-set="theme" data-v="auto" class="${profile.theme === 'auto' ? 'on' : ''}">📱 跟手机</button></div></div>
-    <div class="set-group"><h4>想看的类别</h4><div class="chips" style="flex-wrap:wrap;padding:0">
-      ${Object.entries(CATS).map(([k, v]) => `<button class="chip ${profile.topics.includes(k) ? 'on' : ''}" data-action="topic" data-cat="${k}">${v}</button>`).join('')}</div></div>
+    <div class="set-group"><h4>想看的类别</h4><div class="chips" id="setchips" style="flex-wrap:wrap;padding:0">${chipsHtml()}</div></div>
     <div class="set-group"><h4>收听速度</h4><div class="seg">
       ${[0.85, 1, 1.25, 1.5].map((r) => `<button data-set="rate" data-v="${r}" class="${profile.rate === r ? 'on' : ''}">${r}x</button>`).join('')}</div></div>
     <div class="set-group"><div class="row"><h4 style="margin:0">打开新闻网站前先提醒</h4>
@@ -397,7 +523,6 @@ function openSettings() {
   </div>`;
   el.hidden = false; document.body.style.overflow = 'hidden';
   history.pushState({ ov: 'settings' }, '');
-  const ni = el.querySelector('#setname'); ni.oninput = () => liveNameCheck(ni, el.querySelector('#nameerr'));
   el.onclick = (e) => {
     const b = e.target.closest('[data-set]'); if (!b) return;
     const k = b.dataset.set; let v = b.dataset.v;
@@ -407,49 +532,40 @@ function openSettings() {
     if (k === 'rate') $('#speed').textContent = `${v}x`;
   };
 }
-function saveSettingsName() {
-  const input = $('#setname'); if (!input) return true;
-  const raw = input.value;
-  if (isOwnerKey(raw)) { if (!profile.owner) { enterOwner(); toast('👋 管理员模式（不记录）'); } return true; }
-  const c = checkName(raw);
-  if (c.err) { const e = $('#nameerr'); e.textContent = c.err; e.hidden = false; input.focus(); return false; }
-  if (profile.owner && c.name === 'Frank') return true; // still owner
-  if (c.name !== profile.name || profile.owner) {
-    const wasOwner = profile.owner; leaveOwner(c.name);
-    track(wasOwner ? 'name_set' : 'rename', null, { name: c.name }); syncFavs();
-  }
-  return true;
-}
-// live hint while typing; a single space (owner key) shows nothing so the secret isn't revealed
-function liveNameCheck(input, errEl) {
-  const raw = input.value;
-  if (!raw || isOwnerKey(raw)) { errEl.hidden = true; return; }
-  const c = checkName(raw);
-  errEl.textContent = c.err || ''; errEl.hidden = !c.err || c.err === '请输入名字才能登入';
-}
 
-// ---------- onboarding ----------
+// ---------- login + guide ----------
 let onbStep = 0;
 const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
 const isStandalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 function openOnboarding(step = 0) {
   onbStep = step; $('#onboarding').hidden = false; document.body.style.overflow = 'hidden'; renderOnb();
 }
+function closeOnboarding() {
+  $('#onboarding').hidden = true; document.body.style.overflow = '';
+  renderChips(); renderStreak(); renderSub(); render();
+  $('#speed').textContent = `${profile.rate}x`;
+}
 function renderOnb() {
   const el = $('#onboarding');
-  const dots = `<div class="dots">${[0, 1, 2, 3].map((i) => `<i class="${i === onbStep ? 'on' : ''}"></i>`).join('')}</div>`;
-  const nav = (nextLabel = '下一步', canBack = true) => `<div class="onb-nav">
-    ${canBack && onbStep > 0 ? '<button data-onb="back">上一步</button>' : ''}
+  const dots = `<div class="dots">${[1, 2, 3].map((i) => `<i class="${i === onbStep ? 'on' : ''}"></i>`).join('')}</div>`;
+  const nav = (nextLabel = '下一步') => `<div class="onb-nav">
+    ${onbStep > 1 ? '<button data-onb="back">上一步</button>' : ''}
     <button class="next" data-onb="next" id="onbnext">${nextLabel}</button></div>`;
   let body = '';
-  if (onbStep === 0) body = `
+  if (onbStep === 0) {
+    const known = users.list;
+    body = `
     <h2>👋 欢迎来到乐乐新闻</h2>
     <p class="lead">输入你的名字登入。以后用同一个名字，就能找回你的收藏和记录。</p>
     <div class="onb-body">
-      <input class="field" id="onbname" value="${esc(profile.owner ? '' : profile.name)}" maxlength="20" placeholder="你的名字或称呼，例如：Mama、Jia Le" autocomplete="off">
+      ${known.length ? `<div class="known"><div class="note">这台手机用过（按一下就登入）：</div>
+        <div class="chips" style="flex-wrap:wrap;padding:.3rem 0 0">${known.map((u) => `<span class="known-chip"><button class="chip on" data-login="${esc(u.key)}">👤 ${esc(u.name)}</button><button class="x" data-forget="${esc(u.key)}" aria-label="从这台手机移除">✕</button></span>`).join('')}</div>
+        <div class="note" style="margin:.7rem 0 .3rem">或输入其他名字：</div></div>` : ''}
+      <input class="field" id="onbname" value="" maxlength="20" placeholder="你的名字或称呼，例如：Mama、Jia Le" autocomplete="off">
       <div class="err" id="onberr" hidden></div>
       ${privacyHtml()}
-    </div>${nav('登入', false)}`;
+    </div>${nav('登入')}`;
+  }
   if (onbStep === 1) body = `
     <h2>👀 怎么看比较舒服？</h2>
     <p class="lead">选了马上就能看到效果，之后可以在 ⚙️ 设置里改。</p>
@@ -465,10 +581,9 @@ function renderOnb() {
     </div>${nav()}`;
   if (onbStep === 2) body = `
     <h2>📰 你想看什么？</h2>
-    <p class="lead">可以选多个。今日要闻只会显示这些类别。</p>
-    <div class="onb-body"><div class="chips" style="flex-wrap:wrap;padding:0">
-      ${Object.entries(CATS).map(([k, v]) => `<button class="chip ${profile.topics.includes(k) ? 'on' : ''}" data-action="topic" data-cat="${k}" style="font-size:1.05rem;padding:.6rem 1.1rem">${v}</button>`).join('')}
-    </div><div class="err" id="toperr" hidden>请至少选一个</div></div>${nav()}`;
+    <p class="lead">可以选多个，或按「全部」。今日要闻只会显示这些类别。</p>
+    <div class="onb-body"><div class="chips" style="flex-wrap:wrap;padding:0">${chipsHtml(true)}</div>
+      <div class="err" id="toperr" hidden>请至少选一个</div></div>${nav()}`;
   if (onbStep === 3) body = `
     <h2>✨ 怎么用</h2>
     <div class="onb-body">
@@ -476,15 +591,15 @@ function renderOnb() {
         <li><b>📰</b><span><b style="width:auto">今日要闻</b>：每天 10 条重要新闻，看完就好</span></li>
         <li><b>📖</b><span>按「详细版」直接在 app 里看重点，不用等网站加载</span></li>
         <li><b>🎧</b><span>按下面「收听」，手机会读新闻给你听</span></li>
-        <li><b>⭐</b><span>喜欢的新闻按「收藏」，以后在 ⭐ 收藏 里找</span></li>
-        <li><b>💰</b><span>上面有今天的金价，按一下看更多</span></li>
+        <li><b>⭐</b><span>喜欢的按「收藏」；看过的新闻会记在「我的 → 看过」</span></li>
+        <li><b>💰</b><span>上面有今天的金价，按一下看 1周 到 1年 的走势</span></li>
         <li><b>🔍</b><span>右上角可以搜索新闻，例如「黄金」</span></li>
       </ul>
       ${isStandalone ? '' : `<div class="a2hs"><b>📲 放到手机桌面，像 app 一样打开</b><br>${isIOS
         ? '用 Safari 打开 → 按下面的 <b>分享</b> 按钮 (方框加箭头) → 选 <b>添加到主屏幕</b>'
         : '用 Chrome 打开 → 按右上角 <b>⋮</b> → 选 <b>添加到主屏幕</b> 或 <b>安装应用</b>'}</div>`}
     </div>${nav('开始看新闻 🎉')}`;
-  el.innerHTML = `<div class="wrap">${dots}${body}</div>`;
+  el.innerHTML = `<div class="wrap">${onbStep > 0 ? dots : ''}${body}</div>`;
   track('onboard_step', null, { step: onbStep + 1 });
   if (onbStep === 0) {
     const i = el.querySelector('#onbname');
@@ -492,29 +607,43 @@ function renderOnb() {
     i.onkeydown = (e) => { if (e.key === 'Enter') $('#onbnext').click(); };
   }
 }
+function afterLogin(isNew, how) {
+  track(isNew ? 'name_set' : how, null, { name: profile.name });
+  syncFavs();
+  if (profile.onboarded) { closeOnboarding(); toast(`👋 ${profile.name}，欢迎回来`); }
+  else { onbStep = 1; renderOnb(); }
+}
 $('#onboarding').addEventListener('click', (e) => {
+  const lg = e.target.closest('[data-login]');
+  if (lg) { const u = users.list.find((x) => x.key === lg.dataset.login); if (u) afterLogin(login(u.key, u.name), 'switch_user'); return; }
+  const fg = e.target.closest('[data-forget]');
+  if (fg) {
+    const u = users.list.find((x) => x.key === fg.dataset.forget);
+    if (u) confirmBox(`从这台手机的名单移除「${esc(u.name)}」？<br><span class="note">资料不会删除，再输入这个名字就能找回。</span>`, '移除', () => { forgetName(u.key); renderOnb(); });
+    return;
+  }
   const s = e.target.closest('[data-set]');
   if (s) { profile[s.dataset.set] = s.dataset.v; saveProfile(); renderOnb(); return; }
+  if (e.target.closest('[data-action="topic-all"]')) { setAllTopics(); renderOnb(); return; }
   const t = e.target.closest('[data-action="topic"]');
   if (t) { toggleTopic(t.dataset.cat); renderOnb(); return; }
   const b = e.target.closest('[data-onb]'); if (!b) return;
   if (b.dataset.onb === 'back') { onbStep--; renderOnb(); return; }
   if (onbStep === 0) {
     const raw = $('#onbname').value;
-    if (isOwnerKey(raw)) { // secret owner entry: skip the guide, no tracking
-      enterOwner(); $('#onboarding').hidden = true; document.body.style.overflow = '';
-      renderChips(); render(); toast('👋 Frank，欢迎回来（不记录）'); return;
+    if (isOwnerKey(raw)) { // secret owner entry: skip the guide, never tracked
+      tq = []; LS.set('tq', tq);
+      login(OWNER, 'Frank', true); closeOnboarding(); toast('👋 Frank，欢迎回来（不记录）'); return;
     }
     const c = checkName(raw);
-    if (c.err) { const e = $('#onberr'); e.textContent = c.err; e.hidden = false; $('#onbname').focus(); return; }
-    const first = !profile.name; profile.name = c.name; profile.owner = false; saveProfile();
-    track(first ? 'name_set' : 'rename', null, { name: c.name }); syncFavs();
+    if (c.err) { const er = $('#onberr'); er.textContent = c.err; er.hidden = false; $('#onbname').focus(); return; }
+    afterLogin(login(keyOf(c.name), c.name), 'login');
+    return;
   }
   if (onbStep === 2 && !profile.topics.length) { $('#toperr').hidden = false; return; }
   if (onbStep === 3) {
     profile.onboarded = true; saveProfile(); track('onboard_done');
-    $('#onboarding').hidden = true; document.body.style.overflow = '';
-    renderChips(); render(); return;
+    closeOnboarding(); return;
   }
   onbStep++; renderOnb();
 });
@@ -523,6 +652,9 @@ function toggleTopic(k) {
   const t = profile.topics;
   profile.topics = t.includes(k) ? t.filter((x) => x !== k) : [...t, k];
   saveProfile(); track('topics', null, { topics: profile.topics.join(',') });
+}
+function setAllTopics() {
+  profile.topics = [...ALL_CATS]; saveProfile(); track('topics', null, { topics: 'all' });
 }
 
 // ---------- listen mode (phone's built-in voice, free) ----------
@@ -561,7 +693,7 @@ function speakNext() {
   const v = zhVoice(); if (v) u.voice = v;
   u.onend = () => {
     if (!speaking) return;
-    if (item.id) { markRead(item.id); document.getElementById(`c-${item.id}`)?.classList.add('read'); }
+    if (item.id) { markRead(item.id, true, 'listen'); document.getElementById(`c-${item.id}`)?.classList.add('read'); }
     if (item.end) { track('listen_done'); finishToday(); }
     qi++; speakNext();
   };
@@ -581,6 +713,7 @@ function stopSpeaking() {
   document.querySelectorAll('.card.speaking').forEach((c) => c.classList.remove('speaking'));
   render();
 }
+function stopIfSpeaking() { if (speaking) stopSpeaking(); }
 $('#play').onclick = () => (speaking ? stopSpeaking() : startSpeaking());
 $('#next').onclick = () => { if (!speaking) return; synth.cancel(); setTimeout(() => { if (speaking && !synth.speaking) { qi++; speakNext(); } }, 150); };
 $('#speed').onclick = (e) => {
@@ -590,12 +723,12 @@ $('#speed').onclick = (e) => {
 $('#speed').textContent = `${profile.rate}x`;
 if (synth) synth.onvoiceschanged = () => {};
 
-// ---------- tracking (Part B: Google Sheet via Apps Script) ----------
+// ---------- tracking (Google Sheet via Apps Script) ----------
 let tq = LS.get('tq', []);
 function track(ev, id = null, extra = {}) {
   if (!CFG.trackUrl || profile.owner) return;
   const x = id ? story(id) : null;
-  tq.push({ t: new Date().toISOString(), ev, id, title: x ? (x.zh || x.title) : undefined, ...extra });
+  tq.push({ t: new Date().toISOString(), ev, id, title: x ? (x.zh || x.title) : undefined, who: profile.name || '', ...extra });
   if (tq.length > 300) tq = tq.slice(-300);
   LS.set('tq', tq);
   clearTimeout(track.t); track.t = setTimeout(flush, 4000);
@@ -610,17 +743,18 @@ async function geo() {
     LS.set('geo', v); return v;
   } catch { return g || {}; }
 }
+const osName = () => isIOS ? (/iPad/i.test(navigator.userAgent) ? 'iPad' : 'iPhone') : /Android/i.test(navigator.userAgent) ? 'Android' : /Mac/i.test(navigator.userAgent) ? 'Mac' : /Win/i.test(navigator.userAgent) ? 'Windows' : 'Other';
 function payload() {
   const g = LS.get('geo', {}) || {};
   return {
-    device: profile.device, name: profile.name, city: g.city, region: g.region, country: g.country,
-    os: isIOS ? 'iOS' : /Android/i.test(navigator.userAgent) ? 'Android' : /Mac/i.test(navigator.userAgent) ? 'Mac' : /Win/i.test(navigator.userAgent) ? 'Windows' : 'Other',
-    standalone: isStandalone, size: profile.size, theme: profile.theme,
+    device: DEVICE.id, name: profile.name, city: g.city, region: g.region, country: g.country,
+    os: osName(), standalone: isStandalone, size: profile.size, theme: profile.theme,
     streak: streakNow(), readToday: readSet().size, version: CFG.version, events: tq,
   };
 }
 function flush(useBeacon = false) {
-  if (!CFG.trackUrl || !tq.length || profile.owner) return;
+  if (!CFG.trackUrl || !tq.length) return;
+  if (profile.owner) { tq = []; LS.set('tq', tq); return; }
   const body = JSON.stringify(payload());
   let ok = false;
   if (useBeacon && navigator.sendBeacon) ok = navigator.sendBeacon(CFG.trackUrl, new Blob([body], { type: 'text/plain' }));
@@ -628,28 +762,31 @@ function flush(useBeacon = false) {
   tq = []; LS.set('tq', tq);
 }
 async function syncFavs() {
-  if (!CFG.trackUrl || !profile.name || profile.owner) return;
+  if (!CFG.trackUrl || !profile.name || profile.owner || !curKey) return;
+  const key = curKey;
   try {
     const r = await (await fetch(`${CFG.trackUrl}?action=favs&name=${encodeURIComponent(profile.name)}`)).json();
-    if (!Array.isArray(r.favs)) return;
+    if (!Array.isArray(r.favs) || key !== curKey) return;
     const f = favs(); let added = 0;
     for (const s of r.favs) if (s && s.id && !f[s.id]) { f[s.id] = s; added++; }
-    if (added) { LS.set('favs', f); if (tab === 'favs') render(); }
+    if (added) { U.set('favs', f); if (tab === 'mine') render(); }
   } catch {}
 }
 
 // ---------- events ----------
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-action]'); if (!b) return;
+  if (b.closest('#onboarding') && b.dataset.action !== 'privacy-more') return; // guide has its own handler
   const a = b.dataset.action, id = b.dataset.id;
   const refresh = () => {
-    const inReader = !$('#reader').hidden;
-    if (inReader) { const x = story(id); $('#reader-actions').innerHTML = actionsHtml(x, { inReader: true }); }
+    if (!$('#reader').hidden) { const x = story(id); $('#reader-actions').innerHTML = actionsHtml(x, { inReader: true }); }
     if (!$('#search').hidden) runSearch();
     render();
   };
+  const topicsChanged = () => { renderChips(); const sc = $('#setchips'); if (sc) sc.innerHTML = chipsHtml(); stopIfSpeaking(); render(); };
   switch (a) {
-    case 'topic': if (b.closest('#onboarding')) return; toggleTopic(b.dataset.cat); renderChips(); if (!$('#settings').hidden) b.classList.toggle('on'); stopIfSpeaking(); render(); break;
+    case 'topic': toggleTopic(b.dataset.cat); topicsChanged(); break;
+    case 'topic-all': setAllTopics(); topicsChanged(); break;
     case 'detail': case 'open': openReader(id); break;
     case 'read': markRead(id, !readSet().has(id)); render(); break;
     case 'star': toggleFav(id); refresh(); break;
@@ -658,36 +795,34 @@ document.addEventListener('click', (e) => {
     case 'link': openLink(id); break;
     case 'finish': finishToday(); break;
     case 'gold-toggle': goldOpen = !goldOpen; renderGold(); if (goldOpen) track('gold'); break;
+    case 'gold-range': goldRange = b.dataset.r; LS.set('goldRange', goldRange); renderGold(); track('gold_range', null, { range: RANGES[goldRange][0] }); break;
+    case 'mine-tab': mineTab = b.dataset.m; render(); break;
     case 'open-search': openSearch(); break;
     case 'open-settings': openSettings(); break;
-    case 'close-reader': history.back(); break;
-    case 'close-search': history.back(); break;
-    case 'close-settings': if (saveSettingsName()) history.back(); break;
-    case 'privacy-more': { const f = b.parentElement.querySelector('.privacy-full'); f.hidden = !f.hidden; b.textContent = f.hidden ? '更多' : '收起'; break; }
+    case 'close-reader': case 'close-search': case 'close-settings': history.back(); break;
+    case 'logout': confirmBox(`要退出「${esc(profile.owner ? 'Frank' : profile.name)}」吗？<br><span class="note">你的资料会保存在这台手机，下次按名字就能回来。</span>`, '退出', logout); break;
     case 'replay-guide': closeOverlay('#settings'); openOnboarding(1); break;
+    case 'privacy-more': { const f = b.parentElement.querySelector('.privacy-full'); f.hidden = !f.hidden; b.textContent = f.hidden ? '更多' : '收起'; break; }
   }
 });
-function stopIfSpeaking() { if (speaking) stopSpeaking(); }
 $('#tabs').addEventListener('click', (e) => {
   const b = e.target.closest('[data-tab]'); if (!b) return;
   tab = b.dataset.tab; track('tab', null, { tab }); render();
-  if (tab === 'favs') syncFavs();
+  if (tab === 'mine') syncFavs();
 });
 // phone back button closes the top overlay
 window.addEventListener('popstate', () => {
-  for (const id of ['#reader', '#search', '#settings']) {
-    if (!$(id).hidden) { if (id === '#settings') saveSettingsName(); closeOverlay(id); return; }
-  }
+  for (const id of ['#reader', '#search', '#settings']) if (!$(id).hidden) { closeOverlay(id); return; }
 });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) flush(true);
-  else { load(); track('open', null, { resume: true }); }
+  else { load(); if (curKey) track('open', null, { resume: true }); }
 });
 
 // ---------- boot ----------
-renderChips(); renderStreak(); load();
+renderChips(); renderStreak(); renderSub(); load();
 setInterval(load, 10 * 60 * 1000);
-if (!profile.onboarded || !profile.name) openOnboarding(profile.name ? 1 : 0);
+if (!curKey) openOnboarding(0);
+else if (!profile.onboarded) openOnboarding(1);
 geo().then(() => { track('open'); flush(); });
 syncFavs();
-if (profile.size === 'large' && tab === 'live') tab = 'digest';

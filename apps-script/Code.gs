@@ -16,7 +16,7 @@ const EVENTS = '动作记录';
 const FAVS = '收藏';
 
 const USER_HEADERS = ['设备ID', '名字', '城市', '州/地区', '国家', '手机', '首次打开', '最近活动', '打开次数', '使用天数', '连续天数🔥', '今天已读', '字体', '颜色', '已加到桌面', '版本', '_lastDay'];
-const EVENT_HEADERS = ['时间', '名字', '城市', '动作', '新闻标题', '详情', '设备ID', '新闻ID'];
+const EVENT_HEADERS = ['时间', '名字', '城市', '动作', '新闻标题', '详情', '设备ID', '新闻ID', '手机'];
 const FAV_HEADERS = ['名字', '新闻标题', '来源', '收藏时间', '新闻ID', '_data'];
 
 const LABELS = {
@@ -24,6 +24,7 @@ const LABELS = {
   detail: '看详细版', link: '去新闻网站', read: '已读', star: '⭐收藏', unstar: '取消收藏',
   like: '👍', dislike: '👎', unlike: '取消👍👎', listen: '🎧开始收听', listen_done: '🎧听完',
   search: '🔍搜索', finish: '✅今天看完', settings: '改设置', topics: '改类别', tab: '切换页面', gold: '💰看金价',
+  gold_range: '💰金价走势', login: '登入', switch_user: '换人登入', logout: '🚪退出',
 };
 
 function sheet_(name, headers) {
@@ -34,6 +35,8 @@ function sheet_(name, headers) {
     sh.appendRow(headers);
     sh.setFrozenRows(1);
     sh.getRange(1, 1, 1, headers.length).setFontWeight('bold').setBackground('#fff1e8');
+  } else if (sh.getLastColumn() < headers.length) { // new columns added in a later version
+    sh.getRange(1, 1, 1, headers.length).setValues([headers]).setFontWeight('bold').setBackground('#fff1e8');
   }
   return sh;
 }
@@ -78,13 +81,14 @@ function logEvents_(p, events) {
   const sh = sheet_(EVENTS, EVENT_HEADERS);
   const rows = events.map((ev) => {
     const extra = Object.assign({}, ev);
-    ['t', 'ev', 'id', 'title', 'story'].forEach((k) => delete extra[k]);
+    ['t', 'ev', 'id', 'title', 'story', 'who'].forEach((k) => delete extra[k]);
     let label = LABELS[ev.ev] || ev.ev;
     if (ev.ev === 'onboard_step') label = `导览第${ev.step}步`;
     if (ev.ev === 'open' && ev.resume) label = '回到app';
     const detail = Object.keys(extra).filter((k) => !(ev.ev === 'onboard_step' && k === 'step') && !(ev.ev === 'open' && k === 'resume'))
       .map((k) => `${k}: ${extra[k]}`).join(', ');
-    return [fmt_(ev.t), p.name || '(未填名字)', p.city || '', label, ev.title || '', detail, p.device || '', ev.id || ''];
+    const who = ev.who !== undefined ? ev.who : p.name;
+    return [fmt_(ev.t), who || '(未登入)', p.city || '', label, ev.title || '', detail, p.device || '', ev.id || '', p.os || ''];
   });
   sh.getRange(sh.getLastRow() + 1, 1, rows.length, EVENT_HEADERS.length).setValues(rows);
 }
