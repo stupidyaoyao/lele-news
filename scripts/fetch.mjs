@@ -18,7 +18,7 @@ const GEMINI_KEY = process.env.GEMINI_API_KEY;
 const CLAUDE_KEY = process.env.ANTHROPIC_API_KEY;
 const PROVIDER = GEMINI_KEY ? 'gemini' : CLAUDE_KEY ? 'claude' : null;
 const GEMINI_MODELS = process.env.GEMINI_MODEL ? [process.env.GEMINI_MODEL]
-  : ['gemini-flash-latest', 'gemini-2.5-flash', 'gemini-flash-lite-latest', 'gemini-2.5-flash-lite'];
+  : ['gemini-2.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-2.5-flash', 'gemini-flash-latest'];
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-haiku-5-5';
 
 const KEEP_HOURS = 72;          // how long stories stay in news.json
@@ -26,6 +26,7 @@ const NEW_WINDOW_HOURS = 30;    // only keep stories newer than this when first 
 const RETRY_HOURS = 12;         // stories that missed AI (limit hit) get retried this long
 const PER_FEED = 20;            // newest N per feed
 const MAX_AI_ITEMS = 50;        // max headlines sent to AI per run
+const AI_BATCH = 25;           // headlines per AI request
 const MAX_SUMMARY = 15;         // max stories that get summary + impact per run
 const parser = new XMLParser({ processEntities: false, ignoreAttributes: false, attributeNamePrefix: '@', textNodeName: '#text' });
 const text = (v) => (v == null ? '' : typeof v === 'object' ? (v['#text'] ?? v['@href'] ?? '') : String(v));
@@ -80,20 +81,23 @@ async function askGemini(prompt) {
   let lastErr;
   for (const model of GEMINI_MODELS) {
     console.log(`Trying Gemini ${model}...`);
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-      method: 'POST',
-      headers: { 'x-goog-api-key': GEMINI_KEY, 'content-type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        generationConfig: { responseMimeType: 'application/json', temperature: 0.2, maxOutputTokens: 16000 },
-      }),
-      signal: AbortSignal.timeout(300000),
-    });
-    if (res.status === 404 || res.status === 400 || res.status === 429) { lastErr = new Error(`Gemini ${model} ${res.status}: ${(await res.text()).slice(0, 200)}`); continue; }
-    if (!res.ok) throw new Error(`Gemini ${model} ${res.status}: ${(await res.text()).slice(0, 300)}`);
+    const t0 = Date.now();
+    let res;
+    try {
+      res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+        method: 'POST',
+        headers: { 'x-goog-api-key': GEMINI_KEY, 'content-type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ role: 'user', parts: [{ text: prompt }] }],
+          generationConfig: { responseMimeType: 'application/json', temperature: 0.2, maxOutputTokens: 12000 },
+        }),
+        signal: AbortSignal.timeout(150000),
+      });
+    } catch (e) { lastErr = new Error(`Gemini ${model}: ${e.message}`); console.log(lastErr.message); continue; }
+    if (!res.ok) { lastErr = new Error(`Gemini ${model} ${res.status}: ${(await res.text()).slice(0, 300)}`); console.log(lastErr.message); continue; }
     const data = await res.json();
-    const out = (data.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('');
-    console.log(`AI: Gemini ${model}`);
+    const out = (data.candidates?.[0]?.content?.parts || []).filter((p) => !p.thought).map((p) => p.text || '').join('');
+    console.log(`AI: Gemini ${model} answered in ${Math.round((Date.now() - t0) / 1000)}s`);
     return extractJsonArray(out);
   }
   throw lastErr;
@@ -123,7 +127,7 @@ async function aiProcess(items) {
 - cat: ${CATEGORIES.join('|')}|other 之一(娱乐、体育、八卦、社会小事、个别罪案用 other)
 - score: 1-5 重要性(5=影响市场/区域/全球的大事，1=琐碎)
 - dup: 如果和列表里另一条是同一事件，填较早那条的 id，否则 null
-另外，只给 score 最高的 ${MAX_SUMMARY} 条(且 score>=4、cat 不是 other)加上：
+另外，只给 score 最高的 ${Math.ceil(MAX_SUMMARY * items.length / MAX_AI_ITEMS)} 条(且 score>=4、cat 不是 other)加上：
 - sum: 2-3句简体中文摘要。只根据提供的标题和内容写，不要编造数字、人名或细节；信息不足就写短一点。
 - my: 对马来西亚的可能影响(令吉、股市、物价、就业、政策)，1句；没有明显影响填 null
 - sea: 对东南亚的可能影响，1句；没有填 null
@@ -173,7 +177,12 @@ async function main() {
     console.log(`Sending ${todo.length} stories to AI (${PROVIDER})`);
     if (todo.length) {
       try {
-        const res = new Map((await aiProcess(todo)).map((r) => [r.id, r]));
+        const res = new Map();
+        for (let i = 0; i < todo.length; i += AI_BATCH) {
+          try { for (const r of await aiProcess(todo.slice(i, i + AI_BATCH))) res.set(r.id, r); }
+          catch (e) { aiStatus = 'partial'; console.error(`AI batch ${i / AI_BATCH + 1} failed (will retry next run):`, e.message); break; }
+        }
+        if (!res.size) aiStatus = 'error';
         const drop = new Set();
         for (const x of todo) {
           const r = res.get(x.id);
