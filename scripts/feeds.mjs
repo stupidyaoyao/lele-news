@@ -18,7 +18,7 @@ export const FEEDS = [
 
   // --- 联合早报 ---
   { name: '联合早报', url: gn('site:zaobao.com.sg when:1d'), cat: 'world' },
-  { name: '联合早报·财经', url: gn('site:zaobao.com.sg 财经 OR 股市 OR 经济 when:1d'), cat: 'finance' },
+  { name: '联合早报·财经', url: gn('联合早报 财经 when:2d'), cat: 'finance', max: 10 },
 
   // --- Chinese-language international ---
   { name: 'BBC 中文', url: 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml', cat: 'world' },
@@ -43,13 +43,13 @@ export const FEEDS = [
   // --- v2: more sources (each capped so no single source floods the AI) ---
   // Malaysian Chinese
   { name: '光明日报', url: gn('site:guangming.com.my'), cat: 'malaysia', max: 12 },
-  { name: '诗华日报', url: gn('site:seehua.com'), cat: 'malaysia', max: 10 },
+  { name: '诗华日报', url: gn('诗华日报 OR site:news.seehua.com when:2d'), cat: 'malaysia', max: 10 },
   { name: '星洲日报·财经', url: gn('site:sinchew.com.my 财经 OR 股 OR 令吉'), cat: 'finance', max: 10 },
   // Malaysia English / Malay
   { name: 'Bernama', url: gn('site:bernama.com when:1d', 'en'), cat: 'malaysia', max: 12 },
   { name: 'Malay Mail', url: gn('site:malaymail.com when:1d', 'en'), cat: 'malaysia', max: 10 },
   { name: 'NST Business', url: gn('site:nst.com.my business when:1d', 'en'), cat: 'finance', max: 10 },
-  { name: 'Berita Harian', url: gn('site:bharian.com.my when:1d', 'en'), cat: 'malaysia', max: 8 },
+  { name: 'Berita Harian', url: 'https://news.google.com/rss/search?q=site:bharian.com.my+when:1d&hl=ms&gl=MY&ceid=MY:ms', cat: 'malaysia', max: 8 },
   // Finance
   { name: 'Reuters Markets', url: gn('site:reuters.com markets OR business when:1d', 'en'), cat: 'finance', max: 12 },
   { name: 'Reuters World', url: gn('site:reuters.com world when:1d', 'en'), cat: 'world', max: 12 },
@@ -73,7 +73,7 @@ export const FEEDS = [
   { name: 'SCMP China', url: gn('site:scmp.com china when:1d', 'en'), cat: 'china', max: 10 },
   { name: 'Caixin Global', url: gn('site:caixinglobal.com', 'en'), cat: 'china', max: 8 },
   // Tech
-  { name: '36氪', url: 'https://36kr.com/feed', cat: 'tech', max: 10 },
+  { name: '36氪', url: gn('site:36kr.com'), cat: 'tech', max: 10 },
   { name: '爱范儿', url: 'https://www.ifanr.com/feed', cat: 'tech', max: 8 },
   { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', cat: 'tech', max: 8 },
   { name: 'The Verge', url: 'https://www.theverge.com/rss/index.xml', cat: 'tech', max: 8 },
