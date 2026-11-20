@@ -9,21 +9,21 @@ const gn = (q, lang = 'zh') =>
 
 export const FEEDS = [
   // --- Malaysian Chinese press (via Google News, since they have no public RSS) ---
-  { name: '南洋商报', url: gn('site:enanyang.my when:1d'), cat: 'malaysia' },
+  { name: '南洋商报', url: gn('site:enanyang.my'), cat: 'malaysia' },
+  { name: '南洋商报·新闻', url: gn('南洋商报 when:1d'), cat: 'malaysia' },
   { name: '星洲日报', url: gn('site:sinchew.com.my when:1d'), cat: 'malaysia' },
-  { name: '南洋商报·财经', url: gn('site:enanyang.my 财经 OR 股市 OR 令吉 when:1d'), cat: 'finance' },
+  { name: '马来西亚财经', url: gn('马股 OR 令吉 OR 大马经济 when:1d'), cat: 'finance' },
 
   // --- 联合早报 ---
   { name: '联合早报', url: gn('site:zaobao.com.sg when:1d'), cat: 'world' },
-  { name: '联合早报·国际', url: 'https://rsshub.app/zaobao/realtime/world', cat: 'world' },
-  { name: '联合早报·中国', url: 'https://rsshub.app/zaobao/realtime/china', cat: 'china' },
+  { name: '联合早报·财经', url: gn('site:zaobao.com.sg 财经 OR 股市 OR 经济 when:1d'), cat: 'finance' },
 
   // --- Chinese-language international ---
   { name: 'BBC 中文', url: 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml', cat: 'world' },
   { name: '纽约时报中文网', url: 'https://cn.nytimes.com/rss/', cat: 'world' },
 
   // --- Malaysia (English) ---
-  { name: 'The Star Business', url: 'https://www.thestar.com.my/rss/Business/Business-News', cat: 'finance' },
+  { name: 'The Star Business', url: gn('site:thestar.com.my business when:1d', 'en'), cat: 'finance' },
   { name: 'Free Malaysia Today', url: 'https://cms.freemalaysiatoday.com/feed', cat: 'malaysia' },
   { name: 'Malaysiakini', url: 'https://www.malaysiakini.com/rss/en/news.rss', cat: 'malaysia' },
   { name: 'The Edge Malaysia', url: gn('site:theedgemalaysia.com when:1d', 'en'), cat: 'finance' },

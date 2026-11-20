@@ -22,10 +22,11 @@ const MAX_TRIAGE = 120;         // cost cap: max new headlines triaged per run
 const MAX_SUMMARY = 15;         // cost cap: max full summaries per run
 const SUMMARY_MIN_SCORE = 4;    // only stories scored >= this get a summary + impact
 
-const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@', textNodeName: '#text' });
+const parser = new XMLParser({ processEntities: false, ignoreAttributes: false, attributeNamePrefix: '@', textNodeName: '#text' });
 const text = (v) => (v == null ? '' : typeof v === 'object' ? (v['#text'] ?? v['@href'] ?? '') : String(v));
 const clean = (s) =>
-  text(s).replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+  text(s).replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/<[^>]+>/g, ' ')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
 const idOf = (s) => createHash('sha1').update(s).digest('hex').slice(0, 12);
 const normTitle = (t) => t.toLowerCase().replace(/\s+-\s+[^-]+$/, '').replace(/[^\p{L}\p{N}]/gu, '').slice(0, 40);
