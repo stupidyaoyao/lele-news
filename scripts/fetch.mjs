@@ -12,6 +12,8 @@ import { XMLParser } from 'fast-xml-parser';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { FEEDS, CATEGORIES } from './feeds.mjs';
+import { updateGold } from './gold.mjs';
+import { resolveGoogleNews, articleText } from './article.mjs';
 
 const OUT = new URL('../data/news.json', import.meta.url);
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
@@ -21,13 +23,15 @@ const GEMINI_MODELS = process.env.GEMINI_MODEL ? [process.env.GEMINI_MODEL]
   : ['gemini-flash-lite-latest', 'gemini-flash-latest', 'gemini-2.5-flash'];
 const CLAUDE_MODEL = process.env.CLAUDE_MODEL || 'claude-haiku-5-5';
 
-const KEEP_HOURS = 72;          // how long stories stay in news.json
+const KEEP_HOURS = 168;         // how long stories stay in news.json (7 days, for search)
 const NEW_WINDOW_HOURS = 30;    // only keep stories newer than this when first seen
 const RETRY_HOURS = 12;         // stories that missed AI (limit hit) get retried this long
 const PER_FEED = 20;            // newest N per feed
 const MAX_AI_ITEMS = 50;        // max headlines sent to AI per run
 const AI_BATCH = 25;           // headlines per AI request
-const MAX_SUMMARY = 15;         // max stories that get summary + impact per run
+const MAX_SUMMARY = 15;
+const MAX_DETAIL = 8;           // max 详细版 (detailed summaries) per run
+const DETAIL_BATCH = 4;         // articles per AI request for 详细版         // max stories that get summary + impact per run
 const parser = new XMLParser({ processEntities: false, ignoreAttributes: false, attributeNamePrefix: '@', textNodeName: '#text' });
 const text = (v) => (v == null ? '' : typeof v === 'object' ? (v['#text'] ?? v['@href'] ?? '') : String(v));
 const clean = (s) =>
@@ -127,6 +131,7 @@ async function aiProcess(items) {
 - cat: ${CATEGORIES.join('|')}|other 之一(娱乐、体育、八卦、社会小事、个别罪案用 other)
 - score: 1-5 重要性(5=影响市场/区域/全球的大事，1=琐碎)
 - dup: 如果和列表里另一条是同一事件，填较早那条的 id，否则 null
+- tags: 1-3 个简短中文关键词(如 黄金、马股、令吉、油价、美联储、中国经济、房地产、AI)，用于个人推荐
 另外，只给 score 最高的 ${Math.ceil(MAX_SUMMARY * items.length / MAX_AI_ITEMS)} 条(且 score>=4、cat 不是 other)加上：
 - sum: 2-3句简体中文摘要。只根据提供的标题和内容写，不要编造数字、人名或细节；信息不足就写短一点。
 - my: 对马来西亚的可能影响(令吉、股市、物价、就业、政策)，1句；没有明显影响填 null
@@ -138,6 +143,56 @@ async function aiProcess(items) {
 只输出 JSON 数组。
 ${JSON.stringify(list)}`;
   return PROVIDER === 'gemini' ? askGemini(prompt) : askClaude(prompt);
+}
+
+async function aiDetail(batch) {
+  const list = batch.map((x) => ({ id: x.id, t: x.zh || x.title, s: x.source, text: x._text }));
+  const prompt = `你是给马来西亚华人读者写新闻详细摘要的编辑。下面每条有文章全文(text)。
+为每条输出 { id, detail }，detail 是 5-8 个要点的数组(简体中文)，每点 1-2 句：
+- 用你自己的话改写，绝对不要大段照抄原文句子
+- 包含关键事实：谁、什么、何时、数字、原因、接下来会怎样
+- 只写文章里有的内容，不要编造
+- 英文/马来文文章也用简体中文写
+马来西亚常用译名：MCA=马华，MIC=国大党，UMNO=巫统，PH=希盟，BN=国阵，PAS=伊党，PN=国盟，DAP=行动党，PKR=公正党，Bursa=马股，ringgit=令吉。
+
+只输出 JSON 数组。
+${JSON.stringify(list)}`;
+  return PROVIDER === 'gemini' ? askGemini(prompt) : askClaude(prompt);
+}
+
+async function addDetails(items, now) {
+  const want = items
+    .filter((x) => x.sum && !x.detail && !x.detailTried && Date.parse(x.published) >= now - 24 * 3600e3)
+    .sort((a, b) => (b.score ?? 3) - (a.score ?? 3))
+    .slice(0, MAX_DETAIL * 2);
+  const ready = [];
+  await Promise.all(want.map(async (x) => {
+    try {
+      if (x.url.includes('news.google.com')) x.url = await resolveGoogleNews(x.url);
+      x._text = await articleText(x.url);
+      ready.push(x);
+    } catch (e) {
+      console.log(`  no text: ${x.source} (${e.message})`);
+    }
+    x.detailTried = true;
+  }));
+  const todo = ready.sort((a, b) => (b.score ?? 3) - (a.score ?? 3)).slice(0, MAX_DETAIL);
+  for (const x of ready) if (!todo.includes(x)) delete x.detailTried; // try again next run
+  console.log(`详细版: ${want.length} tried, ${ready.length} readable, writing ${todo.length}`);
+  for (let i = 0; i < todo.length; i += DETAIL_BATCH) {
+    const batch = todo.slice(i, i + DETAIL_BATCH);
+    try {
+      const res = new Map((await aiDetail(batch)).map((r) => [r.id, r]));
+      for (const x of batch) {
+        const d = res.get(x.id)?.detail;
+        if (Array.isArray(d) && d.length >= 3) x.detail = d.slice(0, 8).map(String);
+      }
+    } catch (e) {
+      console.error('详细版 batch failed:', e.message);
+      for (const x of batch) delete x.detailTried; // retry next run
+    }
+  }
+  for (const x of items) delete x._text; // never save article text
 }
 
 // ---------- main ----------
@@ -191,6 +246,7 @@ async function main() {
           x.ai = true;
           if (r.zh) x.zh = r.zh;
           if (r.cat) x.cat = r.cat;
+          if (Array.isArray(r.tags)) x.tags = r.tags.slice(0, 3).map(String);
           x.score = Number(r.score) || 3;
           if (r.cat === 'other' || (r.dup && r.dup !== x.id)) { drop.add(x.id); continue; }
           if (r.sum) { x.sum = r.sum; x.impact = { my: r.my || null, sea: r.sea || null, world: r.world || null }; }
@@ -205,6 +261,11 @@ async function main() {
     }
   }
 
+  // 详细版: for top stories, read the article and have AI write 5-8 points in its own words
+  if (PROVIDER) await addDetails(items, now);
+
+  await updateGold().catch((e) => console.error('Gold failed:', e.message));
+
   const cutoffKeep = now - KEEP_HOURS * 3600e3;
   items = items
     .filter((x) => Date.parse(x.published) >= cutoffKeep)
@@ -214,7 +275,7 @@ async function main() {
       return x;
     })
     .sort((a, b) => b.published.localeCompare(a.published))
-    .slice(0, 600);
+    .slice(0, 1500);
 
   await mkdir(new URL('../data/', import.meta.url), { recursive: true });
   await writeFile(OUT, JSON.stringify({ updated: new Date().toISOString(), ai: PROVIDER, aiStatus, feeds: report, items }, null, 1));
