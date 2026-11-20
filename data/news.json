@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-20T09:56:41.885Z",
+ "updated": "2026-11-20T09:57:45.635Z",
  "ai": "gemini",
- "aiStatus": "error",
+ "aiStatus": "ok",
  "feeds": [
   "OK   南洋商报: 1",
   "OK   南洋商报·新闻: 0",
-  "OK   星洲日报: 8",
+  "OK   星洲日报: 7",
   "OK   东方日报: 12",
-  "OK   中国报: 9",
+  "OK   中国报: 10",
   "OK   马来西亚财经: 1",
   "OK   联合早报: 20",
   "OK   联合早报·财经: 0",
@@ -23,7 +23,7 @@
   "OK   The Guardian World: 20",
   "OK   The Guardian Business: 20",
   "OK   Al Jazeera: 20",
-  "OK   Global markets: 19"
+  "OK   Global markets: 20"
  ],
  "items": [
   {
@@ -34,9 +34,16 @@
    "feed": "CNA Asia",
    "cat": "sea",
    "published": "2026-11-20T09:36:33.000Z",
-   "desc": "Myanmar had always denied genocide, arguing that its actions targeted a military uprising by insurgents after a series of attacks left a dozen security personnel dead.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "缅甸称国际法院的种族灭绝裁决“不公平”",
+   "sum": "缅甸官方公开批评国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。缅甸一贯否认相关指控。",
+   "impact": {
+    "my": "这可能对马来西亚及东盟处理缅甸危机带来更多外交外交摩擦与挑战。",
+    "sea": "这可能进一步凸显东盟内部在处理缅甸问题上的分歧，影响区域稳定与外交立场。",
+    "world": "这可能引发国际社会对国际司法机构效力及缅甸局势的更多争议与关注。"
+   }
   },
   {
    "id": "89a93afb190c",
@@ -44,11 +51,12 @@
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYWlVbzFCRkpaR2h3Rjh6RkYxXzZDSHI1b1RHSVowMzJKM1djb1VhU3RMZzBLMkNwaUtkY3pFV2RlWlpYOThMMzdqV1d4LUNsVE94QUtuOF85TVEwNGJSUlViUnQwNzAwZS1pY09lYjBhR0F6VGVVNlVHZXdPQXAwUk9Kd042RWlUb1JKcXphWEdZcXBOdWd3SjBZbUU1dlNvSGxxS2FxLVlQRmR5RG1Cb0dFOGVVblFnckloWXdUQkI?oc=5",
    "source": "联合早报",
    "feed": "联合早报",
-   "cat": "world",
+   "cat": "sea",
    "published": "2026-11-20T09:36:22.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "TAP与TS集团合作营运新加坡科技设计大学学生宿舍"
   },
   {
    "id": "10bc5f64fe71",
@@ -56,11 +64,18 @@
    "url": "https://www.channelnewsasia.com/business/ecbs-lagarde-cyber-threat-boosted-ai-my-top-worry-6568936",
    "source": "CNA Business",
    "feed": "CNA Business",
-   "cat": "finance",
+   "cat": "tech",
    "published": "2026-11-20T09:30:25.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "欧洲央行拉加德：人工智能助长网络威胁是我最大担忧",
+   "sum": "欧洲央行官员拉加德指出，由人工智能技术助长的网络安全威胁已成为其当前的最大担忧。这凸显了数字金融时代潜在的安全风险。",
+   "impact": {
+    "my": "这可能促使马来西亚金融监管机构和银行加强对人工智能及网络安全领域的防范措施。",
+    "sea": "这可能提醒东南亚各国金融机构提高警惕，防范利用人工智能升级的网络攻击。",
+    "world": "这可能推动全球金融监管机构加速制定针对人工智能网络安全的新规范和防范策略。"
+   }
   },
   {
    "id": "6b502b2d14d8",
@@ -70,33 +85,16 @@
    "feed": "Global markets",
    "cat": "finance",
    "published": "2026-11-20T09:27:45.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "318dc62d121b",
-   "title": "10k Rohingya refugees to be resettled in Turkiye under skills programme",
-   "url": "https://www.malaysiakini.com/news/889528-10k-rohingya-refugees-to-be-resettled-in-turkiye-under-skills-programme",
-   "source": "Malaysiakini",
-   "feed": "Malaysiakini",
-   "cat": "malaysia",
-   "published": "2026-11-20T09:25:03.000Z",
-   "desc": "Cabinet approval follows Zahid's recent working visit to the country.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "88f4db7b5d48",
-   "title": "英國女子遭丈夫下藥，13年間被陌生男子輪流性侵",
-   "url": "https://www.bbc.com/zhongwen/articles/cx8dv4e080ldo/trad?at_medium=RSS&amp;at_campaign=rss",
-   "source": "BBC 中文",
-   "feed": "BBC 中文",
-   "cat": "world",
-   "published": "2026-11-20T09:24:25.000Z",
-   "desc": "四名男子性侵一名被其丈夫下藥的女子，被裁定性侵罪成。",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "WTI原油稳于82.50美元上方，中东紧张局势对冲供应过剩预期",
+   "sum": "由于中东地缘政治紧张局势抵消了市场对供应过剩的担忧，WTI原油价格保持在每桶82.50美元上方。油价近期呈现震荡企稳态势。",
+   "impact": {
+    "my": "这可能有助于支撑马来西亚政府的石油相关财政收入，并影响国内燃油补贴政策的走向。",
+    "sea": "这可能对依赖能源进口的东南亚国家带来持续的输入性通胀压力。",
+    "world": "这可能加剧全球能源市场的动荡，并对各国的通胀走势产生复杂影响。"
+   }
   },
   {
    "id": "cef4b62147ef",
@@ -104,11 +102,12 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb1dydHlDejZJcmdSUVBjZ19FMkU3TXRRVWd2b1VhUTRHQkxJRklQeVVCRS1RZ1E0RFJJR2cxTGo5eDhERmxIXzVRSUxYRXgxOUZxd29IOXFGTE9BZDZzMTRiS1NXOVd6ZENKSFdnYWlBWVBPU0Uya2NhUlNOaXl5bUNURTJqVEdIX2c?oc=5",
    "source": "联合早报",
    "feed": "联合早报",
-   "cat": "world",
+   "cat": "china",
    "published": "2026-11-20T09:21:08.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "从雅尔塔到深圳：不断变化的三巨头格局"
   },
   {
    "id": "2c3757b0893a",
@@ -116,23 +115,18 @@
    "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
    "source": "The Guardian World",
    "feed": "The Guardian World",
-   "cat": "world",
+   "cat": "tech",
    "published": "2026-11-20T09:18:30.000Z",
-   "desc": "State attorney says scandal ‘raises bright red flags’ and aims to find out if company misled investors California has served an investigative subpoena on Nvidia after a scandal that prompted the departure of co-founder and longtime chief executive Jensen Huang. Rob Bonta, the US state’s attorney general, issued the subpoena as part of an investigation into whether exports of the California-based company’s advanced semiconductor chips ended up in China, contravening US restrictions. Continue reading...",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "04f6eec64cd9",
-   "title": "Kenya’s growing doping crisis overshadows legacy as athletics powerhouse",
-   "url": "https://www.aljazeera.com/sports/2026/11/20/kenyas-growing-doping-crisis-overshadows-legacy-as-athletics-powerhouse?traffic_source=rss",
-   "source": "Al Jazeera",
-   "feed": "Al Jazeera",
-   "cat": "world",
-   "published": "2026-11-20T09:16:30.000Z",
-   "desc": "More than 140 Kenyan athletes suspended by the Athletics Integrity Unit since 2017, most of them distance runners.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 5,
+   "ai": true,
+   "zh": "加州就芯片出口是否流入中国一事调查英伟达",
+   "sum": "美国加州总检察长对芯片巨头英伟达展开调查，以查明其芯片出口是否违规流入中国，并厘清公司是否误导投资者。此次调查正值该公司高层变动之后。",
+   "impact": {
+    "my": "这可能间接影响马来西亚半导体封装和测试产业的供应链稳定性及订单流向。",
+    "sea": "这可能使东南亚国家的半导体产业链受到更多地缘政治合规审查的关注。",
+    "world": "这可能加剧美中科技战的紧张局势，并对全球半导体供应链和相关企业合规带来重大冲击。"
+   }
   },
   {
    "id": "5142390aaa16",
@@ -142,21 +136,16 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-20T09:11:57.000Z",
-   "desc": "Islamabad and New Delhi insist the visit is strictly multilateral, despite hopes it could open a channel for contact.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "936c9f3c1bab",
-   "title": "Perlis-based NGO director held over CBT involving RM85,468",
-   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/perlis-based-ngo-director-held-over-cbt-involving-rm85-468",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T09:11:00.000Z",
-   "desc": "Perlis police chief Hamzah Hashim says the 31-year-old man was arrested at KLIA Terminal 2 today.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
+   "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。",
+   "impact": {
+    "my": "这可能对南亚地区的区域安全带来一定的缓和迹象，但对大马无直接双边影响。",
+    "sea": "这可能改善南亚地缘政治气候，间接有利于亚洲整体的区域稳定。",
+    "world": "这可能为印巴这两个核武器邻国提供重新对话的机会，缓解南亚紧张局势。"
+   }
   },
   {
    "id": "d3549ebb0236",
@@ -164,11 +153,18 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-myanmar-genocide-ruling-not-conducive-to-solving-disputes",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "china",
    "published": "2026-11-20T09:10:11.000Z",
-   "desc": "China is concerned about jurisdictional overreach and expanded interpretation, saying such practices are not conducive to the settlement of disputes, says the foreign ministry.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "中国称缅甸种族灭绝裁决“不利于”解决争端",
+   "sum": "中国外交部表示，对国际法院的管辖权过度延伸和扩大解释感到关切，认为此类做法不利于争端的解决。中方就缅甸相关涉外司法裁决表明了立场。",
+   "impact": {
+    "my": "这可能影响马来西亚在处理涉缅外交事务时对大国立场的考量。",
+    "sea": "这可能在东盟内部引发关于如何平衡大国外交与区域干预的讨论。",
+    "world": "这可能进一步凸显中国与西方在国际司法机构职能上的外交博弈。"
+   }
   },
   {
    "id": "8bd76ee26afb",
@@ -176,23 +172,18 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T09:08:29.000Z",
-   "desc": "Russian deputy foreign minister Sergei Ryabkov’s remarks came a day after French president Emmanuel Macron called for renewed discussions on Ukraine’s Nato membership following a summit in Berlin.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "34ed9397c7f7",
-   "title": "California’s coastal communities on alert as biggest waves in years hit state",
-   "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-   "source": "The Guardian World",
-   "feed": "The Guardian World",
    "cat": "world",
-   "published": "2026-11-20T09:03:20.000Z",
-   "desc": "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recorded Multiple coastal hazard warnings were issued this week across California as successive areas of low pressure generated powerful swells and large breaking waves for coastal communities. Beaches and piers were closed last weekend as large waves crashed into California’s coastline. Offshore National Oceanic and Atmospheric Administration buoys recorded wave heights of greater than 30ft (9 metres) last Friday. The Monterey, California, buoy recorded a wave height of 34.1ft which would make it the ",
+   "published": "2026-11-20T09:08:29.000Z",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+   "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。",
+   "impact": {
+    "my": "这可能通过国际能源和商品市场间接影响马来西亚的输入性通胀。",
+    "sea": "这可能维持欧洲地缘政治的紧张状态，对东南亚的供应链和外贸信心造成一定扰动。",
+    "world": "这可能导致俄乌冲突的和平解决更加遥遥无期，加剧美俄及西方阵营的对抗。"
+   }
   },
   {
    "id": "dee172d7a71d",
@@ -200,23 +191,12 @@
    "url": "https://www.channelnewsasia.com/business/exclusive-signal-restricts-screenshots-block-ai-agents-reading-messages-6568876",
    "source": "CNA Business",
    "feed": "CNA Business",
-   "cat": "finance",
+   "cat": "tech",
    "published": "2026-11-20T09:02:39.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "391dc893b136",
-   "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG5MbTZoN1FoMXEteXA0UE9mM0huZ3VudkhPa2F5b09TMXBJNlZkVGhwRXUxemJIUjlCalVQOTdReDNaakpRTC1xcDdNZXZyMVlyYi1KN3c0eWk2ZHNLN0wyMUp2TlBndGhwWnZPSWVsa2czMFV3SW5Gc08zZ1hxS2JPeWpBUmpxZTEzVUxZc1NRcVRrWm5J?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T09:02:34.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "Signal限制截屏功能，以阻止AI代理读取信息"
   },
   {
    "id": "32c8ff00dc9d",
@@ -226,9 +206,10 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T09:02:11.000Z",
-   "desc": "Mereka berkata, mesej gabungan itu yang rumit dan kegagalannya dekati pengundi Melayu biasa jadi faktor kekalahannya.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "观察家：希盟在马六甲州选误读马来选民情绪"
   },
   {
    "id": "d3b1d38efb56",
@@ -236,11 +217,12 @@
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZXVNbzRUMDd6YTJnamdxYWtQNnFzR0xIVFBpSGdOY0t3MUhfUk1rSENhOVJyS3c5emhKclMtOGxlLTZvQWw4MWJFcV9NWUU2ejBrenhWU0RLN2RWZndnclZxb2xCRUFkYXFENW41ZkJ5SzZwNl9QeThKb1ZROEJGTmlUNzZSN1NYVmk4QlphTzRyZk42UXctUk4tdWlTSkNGXzdzdDFac29jYm11ZW5oSjdFYThjQ3FhU3ZkUUtvWXF0U2FrWmVmQWQzWHZfUTdVN3gw?oc=5",
    "source": "联合早报",
    "feed": "联合早报",
-   "cat": "world",
+   "cat": "malaysia",
    "published": "2026-11-20T09:01:00.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "新马陆路关卡学校假期料现车龙：旅客四建议"
   },
   {
    "id": "6ccb538eac02",
@@ -250,9 +232,10 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T09:01:00.000Z",
-   "desc": "Two years after he was removed from the post, he returns to succeed S Ananthan, who resigned on Tuesday.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "拉惹斯卡兰重任马华总秘书"
   },
   {
    "id": "c861ec0b245f",
@@ -262,21 +245,10 @@
    "feed": "Malaysiakini",
    "cat": "malaysia",
    "published": "2026-11-20T09:00:55.000Z",
-   "desc": "Palace also wants MB to submit list of exco members for consideration.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "b2c5618d95fa",
-   "title": "Tap For Hope on your commute to support cancer patients",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZWtSQUdMcm9fTjZZVTVrbmV1R25jZHlvQWppT2pwOWt4M0lLQzhVSWJzaWFOcDB0RHJiNmlma0dwcU5MZ1ZXYXdKUXJzNVdLX253d3VEWXJZbXVuUUltbURtaUFuR0NrVkRQQzVrODJYZjdBSXU4T0pPeTd1dmUwM2RnTmF5aWg2QUZ5aGQtZ3hKZ1U?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T08:58:39.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "森美兰王宫要求州务大臣伊斯迈证明多数支持"
   },
   {
    "id": "dfff6b708f3a",
@@ -286,9 +258,16 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-20T08:56:08.000Z",
-   "desc": "Russia’s day-long attack on Kyiv damages embassies",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+   "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。",
+   "impact": {
+    "my": null,
+    "sea": null,
+    "world": "可能加剧地缘政治紧张局势，并引发全球对乌克兰局势及外交安全的担忧。"
+   }
   },
   {
    "id": "4119ba853030",
@@ -298,21 +277,10 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T08:56:00.000Z",
-   "desc": "Sarawak DAP chairman Chong Chieng Jen says this is part of efforts by the party to bring younger voices into the state legislative assembly.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "7a57a198ee89",
-   "title": "[Forum] Better road planning to protect cyclists",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT2FlX1hZbkNLa1JGbkppOUJGc1Y5OS1fUHIxTVRYdXR0RWZHb0cxSEhValVzdUMtc19jZUpMaUV4ZXhfVTZobEt0UEtDVXBsQzNRaEo2TmstZTZOaUFOXzEwb3d5MHVHMnVHTG10MmVvTU5fd3FOUy1yWlZnLUhIRktzZjE1T1R1RWZZ?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T08:53:20.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "砂行动党委任年轻候选人出战柏拉旺"
   },
   {
    "id": "408065c2f975",
@@ -320,11 +288,18 @@
    "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&amp;at_campaign=rss",
    "source": "BBC 中文",
    "feed": "BBC 中文",
-   "cat": "world",
+   "cat": "sea",
    "published": "2026-11-20T08:53:00.000Z",
-   "desc": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "缅甸种族灭绝裁决影响深远的历史意义",
+   "sum": "国际法院对缅甸的种族灭绝裁决具有深远的历史意义。法律界正研究冈比亚如何证明缅甸具有实施种族灭绝的意图。",
+   "impact": {
+    "my": null,
+    "sea": "可能对东盟成员国内政及区域人权立场产生一定外交压力。",
+    "world": "可能引发国际社会对跨国种族冲突法律追责的更多讨论。"
+   }
   },
   {
    "id": "23fb1714391a",
@@ -332,35 +307,12 @@
    "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-us-donald-trump-meeting-6568771",
    "source": "CNA Asia",
    "feed": "CNA Asia",
-   "cat": "sea",
+   "cat": "world",
    "published": "2026-11-20T08:50:00.000Z",
-   "desc": "US President Donald Trump and North Korean leader Kim Jong Un's previous summits had aimed to curb Pyongyang's nuclear programme but failed to produce a deal.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "6b17d8cfc59e",
-   "title": "International court’s genocide ruling ‘not fair’, says Myanmar spokeswoman",
-   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/international-court-s-genocide-ruling-not-fair-says-myanmar-spokeswoman",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T08:47:00.000Z",
-   "desc": "The spokeswoman called the ruling unfair, pointing out that the ICJ judges were split 9-6 and hence the decision was not unanimous.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "f589d938fce6",
-   "title": "PH masih mampu pikat pengundi muda Melayu, kata badan pemikir",
-   "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/ph-masih-mampu-pikat-pengundi-muda-melayu-kata-badan-pemikir",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T08:46:02.000Z",
-   "desc": "Hisommudin Bakar dari Ilham Centre berkata pengundi muda Melayu menyokong BN dan PN pada PRN Melaka kerana terikut-ikut trend.",
-   "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "解析金正恩为何未与美国前总统特朗普会面"
   },
   {
    "id": "6b6dc7e29044",
@@ -368,11 +320,12 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/nepal-s-pm-balendra-to-visit-india-on-sunday",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "world",
    "published": "2026-11-20T08:45:35.000Z",
-   "desc": "Nepali prime minister Balendra Shah will meet Indian prime minister Narendra Modi to discuss trade, investment, energy, connectivity and infrastructure development.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "尼泊尔总理巴伦德拉周日将访问印度"
   },
   {
    "id": "b8fdbe6aa1fc",
@@ -380,11 +333,18 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW5oeTg2VEVDQ3NVWFl6cElUd3djZ2tfMDhmdkREdzhLUDdnLVBmMmlyaU5nQ2VzMS1LNnhIaU5QY0dhcU9RZlVObVNZenlLdzRsc0tzWF94c2R3WlJlc0g2VjVUZjM4RnY0Tm1MLWlZaU51Qm94bzM1T1VacDJ1RzY4WmxlRkhsV3NkcXNKOFY0S0NybFVyaXZrd1huMmNtVWIyWjJYREg?oc=5",
    "source": "联合早报",
    "feed": "联合早报",
-   "cat": "world",
+   "cat": "china",
    "published": "2026-11-20T08:44:08.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "习近平：中方愿为缓和泰柬紧张局势发挥积极作用",
+   "sum": "中国领导人表示，中方随时准备在缓和泰柬紧张局势方面发挥积极作用。这体现了中国对促进地区和平稳定的外交努力。",
+   "impact": {
+    "my": null,
+    "sea": "可能有助于促进泰国与柬埔寨的双边关系缓和，维护区域稳定。",
+    "world": "可能提升中国在区域外交和地缘冲突调解中的国际影响力。"
+   }
   },
   {
    "id": "6a2859f04fa2",
@@ -392,11 +352,12 @@
    "url": "https://www.channelnewsasia.com/business/equinor-says-cyberattack-against-company-has-been-stopped-6568811",
    "source": "CNA Business",
    "feed": "CNA Business",
-   "cat": "finance",
+   "cat": "tech",
    "published": "2026-11-20T08:40:09.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "挪威国油称针对公司的网络攻击已被阻止"
   },
   {
    "id": "c4fb1d08a291",
@@ -406,9 +367,10 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T08:38:00.000Z",
-   "desc": "Ilham Centre's Hisommudin Bakar says Malay youths backed BN-PN in the Melaka state election because it was 'trendy'.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "智库称年轻马来选民仍对希盟触手可及"
   },
   {
    "id": "6e2269807d61",
@@ -416,11 +378,12 @@
    "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/cyberview-gbs-malaysia-team-up-to-attract-high-value-investments-to-cyberjaya",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "finance",
    "published": "2026-11-20T08:38:00.000Z",
-   "desc": "The partnership focuses on investment facilitation, industry engagement, innovation and talent development.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "Cyberview与GBS大马合作吸引高价值投资"
   },
   {
    "id": "4cf449e2548c",
@@ -428,11 +391,18 @@
    "url": "https://www.freemalaysiatoday.com/category/business/2026/11/20/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "tech",
    "published": "2026-11-20T08:33:00.000Z",
-   "desc": "Chinese chip designers will generally be limited to older 28-nanometre and 40-nanometre processes unless customers obtain US export licences for advanced manufacturing orders.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 5,
+   "ai": true,
+   "zh": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
+   "sum": "随着美国新规堵住制造漏洞，台积电进一步收紧了对中国AI芯片的限制。中国芯片设计商一般将被限制使用较旧的28纳米和40纳米工艺，除非获得美国出口许可证。",
+   "impact": {
+    "my": "可能间接影响大马半导体供应链的订单转移与区域代工格局。",
+    "sea": "可能对东南亚半导体封装与供应链带来新的市场机遇或竞争。",
+    "world": "可能重塑全球半导体供应链格局，加剧中美在高端科技领域的博弈。"
+   }
   },
   {
    "id": "bbc90da3ec13",
@@ -442,9 +412,16 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T08:29:00.000Z",
-   "desc": "They will first undergo TVET training in skills suited to the needs of employers in various industries, says deputy prime minister Ahmad Zahid Hamidi.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "内阁同意将1万名罗兴亚难民安置在土耳其",
+   "sum": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。",
+   "impact": {
+    "my": "可能减轻国内长期面临的难民安置压力及相关社会治安成本。",
+    "sea": "可能为区域人权治理提供新的跨国合作模式。",
+    "world": "可能缓解部分东南亚难民危机，引发国际社会对难民转移安置的关注。"
+   }
   },
   {
    "id": "d0922ea49c9f",
@@ -454,21 +431,16 @@
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-20T08:28:49.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:51:41.881Z",
-   "score": 3
-  },
-  {
-   "id": "b76c6562576f",
-   "title": "Heritage is not a racial privilege",
-   "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/20/heritage-is-not-a-racial-privilege",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T08:23:00.000Z",
-   "score": 3,
-   "sum": "Preserving historical buildings and cultural institutions should be a national responsibility, not a racial issue.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "ai": true,
+   "zh": "数字经济框架协议确保东盟数字经济强劲增长",
+   "sum": "数字经济框架协议（DEFA）被认为将确保东盟数字经济实现强劲增长。该协议有助于推动区域内的数字化转型与跨境电商发展。",
+   "impact": {
+    "my": "可能加速大马数码经济发展，并促进跨境电商与科技企业的区域合作。",
+    "sea": "可能推动整个东南亚数字经济一体化，提升区域整体对外的投资吸引力。",
+    "world": "可能增加跨国科技巨头对东南亚数字市场的关注与布局。"
+   }
   },
   {
    "id": "c4176800e835",
@@ -478,21 +450,10 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-20T08:21:34.000Z",
-   "desc": "Critics accuse populist president of engineering a de facto one-party state in El Salvador.",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "8539895b5c90",
-   "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
-   "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T08:20:31.000Z",
    "score": 3,
-   "sum": "Pelarian terbabit akan mengikuti latihan TVET selama tiga hingga enam bulan bagi meningkatkan kemahiran dan membuka peluang pekerjaan di Turki.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "ai": true,
+   "zh": "萨尔瓦多总统布克尔寻求通过修宪连任第三任期"
   },
   {
    "id": "508222f6c030",
@@ -502,9 +463,11 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-20T08:20:00.000Z",
-   "score": 3,
+   "score": 2,
    "sum": "Syahredzan Johan urges the party to explain its announcement earlier this week that the menteri besar had resigned.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "行动党人称巫统必须回答伊斯迈拉森的职位问题"
   },
   {
    "id": "e799768d4b43",
@@ -512,11 +475,13 @@
    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/agrobank-perkasa-usahawan-india-menerusi-agro-i-sinar",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "finance",
    "published": "2026-11-20T08:19:00.000Z",
-   "score": 3,
+   "score": 2,
    "sum": "Skim pembiayaan khas itu menawarkan kemudahan dari RM5,000 bagi membantu usahawan mikro India mengembangkan perniagaan dalam pelbagai sektor.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "农业银行通过Agro i-Sinar赋能印裔企业家"
   },
   {
    "id": "01a3193d29ee",
@@ -524,34 +489,18 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "china",
    "published": "2026-11-20T08:16:28.000Z",
-   "score": 3,
-   "sum": "Japanese prime minister Sanae Takaichi returned home on Thursday without securing a formal meeting with Chinese president Xi Jinping, although the two shook han",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "79551c880fcd",
-   "title": "Preschool teacher sacked after pushing girl’s chin up and moving it from side to side for eight seconds",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVERhUmE0Y2NveDBCclBFQ0FlNC1RdzQycjZDbkppcjZyQXJnQ3cwbGI2YlhPMHNwMy0tU0Vla24zQUdQUkpDZW9pdmV6bUdJYUhzTHFkNTRoTzNEU2V4TGk1c0JZT24walpmTWlzX2tmNXJnTE5ickFIeGRHNE1SeGNFM25VVk1CME4wcUhUZXZlWk5JQXlENlAyZ0pXSTlheGJWZFI1SXVieHVFX2wzQW0zVEdpSWEzSjdBamlhSmNoellDMTZBbFMwMA?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T08:12:02.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "ef0a8038477d",
-   "title": "PH misread Malay sentiment in Melaka polls, say observers",
-   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/ph-misread-malay-sentiment-in-melaka-polls-say-observers",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T08:10:00.000Z",
-   "score": 3,
-   "sum": "They say the coalition's complicated messaging and inability to connect with ordinary Malay voters contributed to its defeat.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "sum": "在中国领导人习近平冷落日本政客高市早苗后，中国官方公开表示日本必须改变“态度”。中日两国的地缘政治摩擦持续引发外界关注。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "中国称日本必须改变态度，此前习近平冷落高市",
+   "impact": {
+    "my": null,
+    "sea": null,
+    "world": "可能加剧东北亚紧张局势，并影响区域经贸合作与投资信心。"
+   }
   },
   {
    "id": "6baaee53de48",
@@ -1735,6 +1684,19 @@
    "fetched": "2026-11-20T08:36:16.077Z"
   },
   {
+   "id": "740d17334c54",
+   "title": "Asia-Pacific region",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeGEyeTZIUk1JbERmczZCNW9DTUZOOHRId0pwcXBqYlljcGYtTXF4R3dPdnFCT1o5Y2dEeVRnYnU3dHE3R0M0WXMxWi04bE5sd0s0NnVDdFktbkNWTHRBNUNUUU5LNjFOUmw0QnppbHlwQmVxc29KZ19NNV8tOUFQVjg4Zl9oUE03LXhVdQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-20T02:37:12.000Z",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "ai": true,
+   "zh": "亚太地区局势动态",
+   "score": 2
+  },
+  {
    "id": "ef963fdd7ad5",
    "title": "Japan says JT dividend cut will not disrupt government&#039;s industrial investment plans",
    "url": "https://www.channelnewsasia.com/business/japan-says-jt-dividend-cut-will-not-disrupt-governments-industrial-investment-plans-6568061",
@@ -1925,6 +1887,25 @@
    "fetched": "2026-11-20T08:36:16.077Z"
   },
   {
+   "id": "e91b65d7d40b",
+   "title": "GLOBAL MARKETS-Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMm40dGE4d1Y3VTFlR1Fab1dMdmQ0b09kQkFrQ1lHRTVqYUJ6Z1IzQlBTYUczWDlKU0VOcUdwZzhoQmtJcHZlaHFlTmZsajUtTk5RUFNhYmhDVW9tMXJFTmlMeEF6U2ZiTU5TZ0VMekcyMjl3ZjBDX05zZEU3Y2tLYi1aT25ZckFadjY3bXBwMXVoWkItdmVnRnNHVFJMdEZ5M1AtZTV1YVZIMXdYaXd6b0Y1SjN0Yy1INVR2LUgyT1ZZblpwZ2NjOWZYX3NER0ZoVjVUcVRmU1ZITXhrUmFQRUpuaG_SAeoBQVVfeXFMTURfaW5sMnh2UDVLTklMRnJzRzcwUk1ZTHRMR053NGsxZW1LaVlHNVZoU29sWlktNUJQeXU4SUdmX3VKMUFHOG51eFl5QkM2c0x3Wk1yZ1lYMHl5MFR0T0QyclVpQ21kNGtMX2FNTlI0Y1Blekh3TTdDbk1XcUw4SjNJYnJsckdOTXlKVEdVZk9OWWNCQ192aS1CY1dvTmJCbV9xT0sxZ1JULWpyRHlYaUxJc2VhNHlfa0VqYXNGczl2ckVHVl9Zem9Sc0NZQXR3eTBfMXp6dmcwOXNZZHBfajR0ZS1RX3dlUmJ3?oc=5",
+   "source": "Devdiscourse",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T01:49:28.000Z",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "ai": true,
+   "zh": "亚股迎2020年以来最惨一周，受人工智能交易情绪低迷拖累",
+   "score": 5,
+   "sum": "由于市场对人工智能板块的情绪低迷不减，亚洲股市遭遇自2020年以来表现最糟糕的一周。这一悲观情绪拖累了区域整体市场表现。",
+   "impact": {
+    "my": "这可能拖累马来西亚股市走势，加剧外资流出本地市场的压力。",
+    "sea": "这可能打击东南亚区域投资者的风险偏好，导致区域股市整体承压。",
+    "world": "这可能反映出全球投资者对人工智能概念股估值过高的担忧，加剧全球金融市场的波动。"
+   }
+  },
+  {
    "id": "909d02101cd5",
    "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
    "url": "https://www.channelnewsasia.com/business/asian-shares-head-worst-week-2020-ai-trade-gloom-fails-abate-6567936",
@@ -1945,6 +1926,19 @@
    "published": "2026-11-20T01:47:00.000Z",
    "score": 3,
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "1d853b7406f5",
+   "title": "Peng Liyuan",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbDN3YUVsb3puWmFRY1dzZ0NpU0Z5ek5rbWhUem45dGhkSC1ONnFMRlp6RnBFc3VSZTVLR0ZXVi04Mk9hSzBUY20yTEVZQ1FYOVBjSTMtNWN3ZGRURnZvUUdOLUNUT2s5bG5qZWdrRFRNUVBVdV95T0c1NlF2UHRXNTNB?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "china",
+   "published": "2026-11-20T01:38:52.000Z",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "ai": true,
+   "zh": "彭丽媛相关动态",
+   "score": 2
   },
   {
    "id": "a3544d0c00e8",
@@ -2237,6 +2231,19 @@
    "fetched": "2026-11-20T08:37:32.177Z"
   },
   {
+   "id": "25ee6fd0a3b2",
+   "title": "Euro trims losses as risk appetite strengthens and oil prices stay low",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMGxjU1VYVWlzTmo3eUN1RmRIUm5GTlhTTEIwME5CQ2lXanZPa3ZCNmVKNGlCVXBlRWJfSGc5Qkl3XzN3Q2lTS0dNeW8xcFBCZklJeXBfMWlHMW9oeHRldFMyUjNTWXpPdVZhWDhneGdVaktCMnYyNEotOWE2RlJVMUlFVFpERFR1UXR1NEZudFZzZ0dLTHhwSWZ3NzFWTkI1X2s5MzZEVzRJckNQQm5lVmE5UkRjSnhWZ1hlYmFvdlZMa1ludldZbjJ5Wnp0dVZuRWJEWQ?oc=5",
+   "source": "www.tmgm.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T22:54:38.000Z",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "ai": true,
+   "zh": "欧元因风险偏好回升及油价低迷而收窄跌幅",
+   "score": 3
+  },
+  {
    "id": "5da8c3c193e1",
    "title": "Maya stucco heads offer glimpse of ancient artistry in Guatemala",
    "url": "https://www.channelnewsasia.com/business/maya-stucco-heads-offer-glimpse-ancient-artistry-in-guatemala-6567456",
@@ -2429,6 +2436,18 @@
    "fetched": "2026-11-20T08:37:32.177Z"
   },
   {
+   "id": "495c5e06a425",
+   "title": "medication",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TdE9odGxIeUQ3NmxpZnpXX0s5Tjl5NmJJc1JDWGpyZ05yZkp2UE8yWVVYZ1Y0S3FPYnJwbmtIM29PZHhjcVp6SXNJU1JNOFUwOU9mLXY4Y216SzB0?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T19:23:19.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
    "id": "4f4cc7b622d5",
    "title": "US was warned of telecom security risks years before Salt Typhoon",
    "url": "https://www.channelnewsasia.com/business/us-was-warned-telecom-security-risks-years-salt-typhoon-6567076",
@@ -2438,6 +2457,54 @@
    "published": "2026-11-19T18:33:59.000Z",
    "score": 3,
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "7d8a44e50af2",
+   "title": "Puma Shen",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55LXZjLVdxTF9rTEppV1JUUG9CcEdfT213R1ZzM3NVT191VVliU1pTYVJLcFdnaEVlcV9ncTRvaVN1aGk1S3JsdDZxRWQ4VERlWDZvd1NxNjlwRzQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T18:31:30.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
+   "id": "65ab3a98918e",
+   "title": "Oil rebound lifts Canadian Dollar; hawkish Fed caps gains",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZVR1OF9yRzFiODZ1d1FnZ0RCS25BNFBJaUU0OTdmLWdsbzlpZU4tTEFoUVRnUWRyRDVUYTlfbXZ6U05NalhibHpxNW1GVmNaVGdHcjYwTUIyLXMydlFyX085LUtDMmcyVk51NU5ERFR3dndmNjJ4V3NZLUd5ejlHTlRzNlkxUmVGUjh6aUFNRktaRFlwd1VWZUNFRWpISVUwYWJzQlNpQUJ1cVFrbUVLX1NfYXFULVRYNEYyZWhGMnJodnpkMlA1NXN0czBQMWNO?oc=5",
+   "source": "www.tmgm.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T18:28:34.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
+   "id": "721381f82964",
+   "title": "Canadian Dollar strengthens as Oil rebounds, hawkish Fed limits gains",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaEhESHR4Mll6d1ZKSlFJZ1l6UEdrMVN4LWFmY3RzLVZkSVRjZTR6T1lkMlM0RVFLa2Z6M3NqRFRnWjl2aHY3NThjdWd1OUlpOTQ2bGthN1hJdFpYRExSZUY0Ull4cVN4S2FYTkRuWmRZcjZIVG1kekpUZ19pX05HempPSFAyQ2RHSS1pZTFiWnlVZnJISUsya0RfV0Z1SEdQd1R2c19CWGlkckxna2RZUVpXWG04UHZVS3paUmFDS1M4MjgxNGNyc2w5blBudEN0V0ZB?oc=5",
+   "source": "www.tmgm.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T18:22:17.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
+   "id": "e4578a042166",
+   "title": "Deutsche Bank Warns \"Triple Bearish\" Risks Don't Simply Stack — Market Rebound Could Become Fed's Excuse to Tighten",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB4MVVyaWR2STJvMmpJVno0UjZFcEtnMy1PMGM1UVlKZ2Zjb29peHE2Vk11Mk03TVFRdHEtOEZuTk5YcDJwRWdST1lnMDhYRjhmbFhydXp4MmRjc3pjMGJIN0txRmZ2VnVjc0J5NEdORlVIMWlxUlE?oc=5",
+   "source": "BigGo Finance",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T18:16:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
   },
   {
    "id": "4734a080d5cd",
@@ -2483,6 +2550,18 @@
    "score": 3,
    "sum": "立法者发布的机密信息显示，商务部今年已批准向中国企业出售超过80万枚先进人工智能芯片，其中包括被五角大楼列入中国涉军企业名单的公司。这引发了国会议员的批评。 Manuel Orbegozo for The New York Times 根据国会议员公布的机密信息，美国商务部批准了向中国企业出售人工智能芯片。",
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "0f3335abd071",
+   "title": "Lunar New Year film",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yX01Za3FaODlpTE13U0hablk1S1h3N2lZcFdPNG1FeU1wa3pxZm1RLWs5aDh5b3NMOU1iLW5KR0UzWHZ0NHY5cEUzR0hPYXhlYXAxcGtMcmh1Rmk1aEZ6THBjS0FOR0JY?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T17:33:38.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
   },
   {
    "id": "0582836e2912",
@@ -2553,6 +2632,30 @@
    "published": "2026-11-19T16:30:02.000Z",
    "score": 3,
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "619ed072c8cf",
+   "title": "Tsai Ing-wen",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OQXJqU3pSZXpaUXotWVQtVWt1em5YMzgzREt2dlpwS0UzNFMxeDlLWmpfT1BvOU5KV1dMdDREZGRrWl96WktCR2ZjcEd0LVVPRzR3eWJBaTgwaEFHWmFj?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T16:22:02.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
+   "id": "e19bf3d1c3a7",
+   "title": "China's Stock Market",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FdXY3dENLS0Zra0VJTXhDdzBvYTBkd3pRWVF2aHBhM3p2LV90UU4xdkJodlpaeDNqaWxGU3BZOGJfRmNlaHg3WmxnS01HVlFIMzFwRTJSdWFtN0N4Ungyems2WnhNT3Yy?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T16:17:21.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
   },
   {
    "id": "aceef2edaa11",
@@ -2759,6 +2862,30 @@
    "fetched": "2026-11-20T08:37:32.177Z"
   },
   {
+   "id": "dde75b04d8a4",
+   "title": "Canadian Dollar remains little changed as oil price surge offsets US Dollar strength",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObnFRSDR4ZERnRzYyeVY1eVdMTWVqUkNyV25tS3UyZUFiUWZIQlczNFU5NGJadTdobmhiWEdXWTFIeXc4b0tKa1IwaVc3WXNVRVQ4Y01mbXJaV1dWZFg4QV9MTmJjaUNXYUJWMkNxQmd1V0N0ejJqZnQwRUFEaW9fUFBCZUpMRW4xTnVWTUN0TjE0R1BEMXJOejNCTjhMVUdleFdPTXhTeDc0SjBUMGZGVWU4N2ZyNXBqWHZPcC0yRGJlUjdXTHFscWhqYU5WeXhJUnNqdEJqZ2pnUXZrSEE?oc=5",
+   "source": "www.tmgm.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T13:34:50.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
+   "id": "82003a7cadae",
+   "title": "Articles by Chau Yueh Shyang | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0ycFlYeUxFcnNjZ3RMVVJ4LXBLZlQ0MDV5dGhVNVV5eWVBbDBtODYzOUZ4a3pxeUdUclBvMnJ3UjVIRDJMdndfZURmTGloZTVVLVZtRW5KV2FwemR0MlA0Tmln?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T13:34:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
    "id": "cd0c2b0b6a25",
    "title": "Trump unveils US$17 bil of Southeast Asia deals for US firms, White House says",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9RSk5vSnB2T2hnS1VLbFFJTjhZaXlUa0JMZGwyVFA5QmI5dUxfQnV1TEQ2LWQwNVNhQTVtNXFUQkMxZDd0ZF9PNFd3WkJGdU91?oc=5",
@@ -2791,6 +2918,18 @@
    "published": "2026-11-19T12:49:00.000Z",
    "score": 3,
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "77e935623bd2",
+   "title": "Stock markets trade marginally higher after US Fed rate hike; NSE IPO in focus",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcjhEMjNJeEx2ckRNZnFTcEFOSFpQTjhwY21Pc0dEOGJ3dGNBVk5UZjkwYzBNbVFyNVpKUjBjNFAxa2E2ZlZ1SU9KcnlnaWM0ZTRkVVpDaXphaGJDMjUzNjB6YWpCR29yWjl3U2xjMUhhbk45MkxWaWMzTmN4RFBaSFM3SFhydzhxS05kT095dG9fVWQzc1ZCNllVZXFqWDhzVkwxajF3?oc=5",
+   "source": "DD News",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T12:46:59.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
   },
   {
    "id": "621fec16cbf3",
@@ -2985,6 +3124,18 @@
    "fetched": "2026-11-20T08:37:32.177Z"
   },
   {
+   "id": "771dfaa37d80",
+   "title": "Panama",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE05T2luTEZQSm5TY3h1bUE0bU82ZHdvVXlqS25QNEdvT1JlcThZcjFrMm55WkNJTmRwVHlZdDk3TDRJTks0Z2FPSkE3YXF2RDBzQ1lESTRjNA?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-19T11:09:12.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
+  },
+  {
    "id": "f134fe4f942f",
    "title": "Race to replant five South African baobabs after export blocked",
    "url": "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
@@ -3085,6 +3236,18 @@
    "published": "2026-11-19T10:15:00.000Z",
    "score": 3,
    "fetched": "2026-11-20T08:37:32.177Z"
+  },
+  {
+   "id": "f19bb973c85c",
+   "title": "Singapore oil product stocks fall to two-week low as distillate inventories decline",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPTjlDNmZsWE5zSmJ4dTlvb1hvNW5tNlBsb242TDc4RmdETUV3d1hkSVpGcXUzSTBsdmlRQ0phclNMTGpsdnBMeERfcVlsMUlJMzQwbWtld2JMcUNCOHp1V0FoUDVQS2VzS21uTXplWGFidWZxWkxTby1aOXRZSXVqM2dHV3RKUTQ1RWEtS3RaUHg2YWFCZnpwZThKaUFzU3Y2eGxnTDlqMDM2RjR5Q2kxUFJlODNjaS1FaThWMUI1Y0FucW5PYWRrZHlsMWpxV1YzY0xUWi1Lc3EtZnZYbUZWMEEzTHl1WC00ZkJZbTVKTUhOOWVrT3FzZkJGQmF5QdIB9wFBVV95cUxNWTg5cFBkTzd4WGxsWGQ5OGx5QWtudUhTcndnS0ZfcWs2bXp6alhubVRwWE1CSzRveXpZTGJhVWFzdGNONHJ5dDdQeHJYalBHbFBNWDF3aE5ibEowYXFBWllXbE9HeG4wbU5IWmVjS1pCWDUzTkE4SDhTQmdzNHhCbHdYcmNadFJweVBxNk8wdF9wNVRMaHNRU25kOGxwYVk2R250SXZCd1hrNDJ2dlZUM2NGWXE4MTJyQ1F2TW9fdWhnQUlCVUZ0R29FVzlqbnFUYzJlSlZmQi1YQ1RZSlVFRTVHaFhlT3RHUWRGQUNLQzNDWk04VWFj?oc=5",
+   "source": "The Economic Times",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-19T10:04:06.000Z",
+   "desc": "",
+   "fetched": "2026-11-20T09:57:25.800Z",
+   "score": 3
   },
   {
    "id": "cb29aa586f0c",
