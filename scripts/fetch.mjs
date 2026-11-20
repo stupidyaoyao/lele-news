@@ -27,8 +27,12 @@ const KEEP_HOURS = 168;         // how long stories stay in news.json (7 days, f
 const NEW_WINDOW_HOURS = 30;    // only keep stories newer than this when first seen
 const RETRY_HOURS = 12;         // stories that missed AI (limit hit) get retried this long
 const PER_FEED = 20;            // newest N per feed
-const MAX_AI_ITEMS = 50;        // max headlines sent to AI per run
-const AI_BATCH = 25;           // headlines per AI request
+const MAX_AI_ITEMS = 75;        // max headlines sent to AI per run
+const AI_BATCH = 25;
+// standard keywords so recommendations can match stories
+const TAG_VOCAB = ['黄金','白银','油价','令吉','马股','股市','美股','港股','A股','美联储','利率','通胀','汇率','经济','房地产','银行','加密货币',
+  '人工智能','芯片','电动车','科技公司','中美关系','中国经济','东盟','新加坡','印尼','泰国','越南','菲律宾','马来西亚政治','国际政治',
+  '战争冲突','中东','俄乌','能源','气候','贸易','就业','教育','健康','交通'];           // headlines per AI request
 const MAX_SUMMARY = 15;
 const MAX_DETAIL = 8;           // max 详细版 (detailed summaries) per run
 const DETAIL_BATCH = 4;         // articles per AI request for 详细版         // max stories that get summary + impact per run
@@ -51,7 +55,7 @@ async function fetchFeed(feed) {
   let items = xml?.rss?.channel?.item ?? xml?.feed?.entry ?? xml?.['rdf:RDF']?.item ?? [];
   if (!Array.isArray(items)) items = [items];
   const isGoogle = feed.url.includes('news.google.com');
-  return items.slice(0, PER_FEED).map((it) => {
+  return items.slice(0, feed.max || PER_FEED).map((it) => {
     let title = clean(it.title);
     let source = feed.name;
     if (isGoogle) {
@@ -129,16 +133,19 @@ async function aiProcess(items) {
   const prompt = `你是给马来西亚华人读者编新闻的编辑。读者关心：财经、国际、东南亚、马来西亚、中国、科技。
 下面是新闻列表(JSON，t=标题，s=来源，d=内容摘录)。为每一条输出一个对象：
 - id
-- zh: 简体中文标题(中文原文就保留原意稍作精简；英文/马来文就翻译)，不超过32字
+- zh: 完整的简体中文标题(中文原文就保留原意；英文/马来文就翻译)，不超过32字
+- short: 卡片用的短标题，只写重点，最多16个字，像新闻快讯(例：「股币金银齐跌，4.28万亿蒸发」「怕美联储加息，全球股市跌」)
+- key: 一句话重点，最多18个字，补充短标题没说的(例：「全球市场全线抛售」)
 - cat: ${CATEGORIES.join('|')}|other 之一(娱乐、体育、八卦、社会小事、个别罪案用 other)
 - score: 1-5 重要性(5=影响市场/区域/全球的大事，1=琐碎)
 - dup: 如果和列表里另一条是同一事件，填较早那条的 id，否则 null
-- tags: 1-3 个简短中文关键词(如 黄金、马股、令吉、油价、美联储、中国经济、房地产、AI)，用于个人推荐
+- tags: 1-3 个关键词，尽量从这个清单选：${TAG_VOCAB.join('、')}；清单没有的才自己写(2-4字中文)
 另外，只给 score 最高的 ${Math.ceil(MAX_SUMMARY * items.length / MAX_AI_ITEMS)} 条(且 score>=4、cat 不是 other)加上：
 - sum: 2-3句简体中文摘要。只根据提供的标题和内容写，不要编造数字、人名或细节；信息不足就写短一点。
 - my: 对马来西亚的可能影响(令吉、股市、物价、就业、政策)，1句；没有明显影响填 null
 - sea: 对东南亚的可能影响，1句；没有填 null
 - world: 对全球的可能影响，1句；没有填 null
+全部用简体中文：英文缩写要写成中文(AI→人工智能，Fed→美联储，IPO→首次公开招股，CEO→总裁，GDP→国内生产总值，US→美国，EV→电动车)，公司和人名用常见中文译名；只有没有中文名的才保留英文。
 影响是分析不是事实，用"可能"等字眼，不要夸大；没有直接、明确的影响就填 null，宁缺毋滥。
 马来西亚常用译名：MCA=马华，MIC=国大党，UMNO=巫统，PH/Pakatan Harapan=希盟，BN=国阵，PAS=伊党，PN=国盟，DAP=行动党，PKR=公正党，Bursa=马股，ringgit=令吉，PRN=州选。
 
@@ -154,7 +161,7 @@ async function aiDetail(batch) {
 - 用你自己的话改写，绝对不要大段照抄原文句子
 - 包含关键事实：谁、什么、何时、数字、原因、接下来会怎样
 - 只写文章里有的内容，不要编造
-- 英文/马来文文章也用简体中文写
+- 英文/马来文文章也用简体中文写；英文缩写写成中文(AI→人工智能，Fed→美联储，IPO→首次公开招股)
 马来西亚常用译名：MCA=马华，MIC=国大党，UMNO=巫统，PH=希盟，BN=国阵，PAS=伊党，PN=国盟，DAP=行动党，PKR=公正党，Bursa=马股，ringgit=令吉。
 
 只输出 JSON 数组。
@@ -249,6 +256,8 @@ async function main() {
           if (r.zh) x.zh = r.zh;
           if (r.cat) x.cat = r.cat;
           if (Array.isArray(r.tags)) x.tags = r.tags.slice(0, 3).map(String);
+          if (r.short) x.short = String(r.short).slice(0, 20);
+          if (r.key) x.key = String(r.key).slice(0, 24);
           x.score = Number(r.score) || 3;
           if (r.cat === 'other' || (r.dup && r.dup !== x.id)) { drop.add(x.id); continue; }
           if (r.sum) { x.sum = r.sum; x.impact = { my: r.my || null, sea: r.sea || null, world: r.world || null }; }
