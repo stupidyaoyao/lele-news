@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:16:56.776Z",
+ "updated": "2026-11-20T10:23:28.817Z",
  "ai": "gemini",
  "aiStatus": "ok",
  "feeds": [
@@ -7,7 +7,7 @@
   "OK   南洋商报·新闻: 0",
   "OK   星洲日报: 7",
   "OK   东方日报: 12",
-  "OK   中国报: 8",
+  "OK   中国报: 9",
   "OK   马来西亚财经: 1",
   "OK   联合早报: 20",
   "OK   联合早报·财经: 0",
@@ -23,9 +23,42 @@
   "OK   The Guardian World: 20",
   "OK   The Guardian Business: 20",
   "OK   Al Jazeera: 20",
-  "FAIL Global markets: HTTP 429"
+  "OK   Global markets: 18"
  ],
  "items": [
+  {
+   "id": "6d7b8f02826d",
+   "title": "SK Hynix to become top shareholder in rival Kioxia after bond conversion",
+   "url": "https://www.channelnewsasia.com/business/sk-hynix-become-top-shareholder-in-rival-kioxia-after-bond-conversion-6569061",
+   "source": "CNA Business",
+   "feed": "CNA Business",
+   "cat": "tech",
+   "published": "2026-11-20T10:18:32.000Z",
+   "fetched": "2026-11-20T10:22:46.520Z",
+   "ai": true,
+   "zh": "SK海力士将通过债转股成为铠侠最大股东",
+   "tags": [
+    "SK海力士",
+    "芯片",
+    "科技"
+   ],
+   "score": 4,
+   "sum": "韩国芯片制造商SK海力士计划通过债转股方式，成为其竞争对手铠侠的最大股东。此举标志着全球半导体产业链和存储芯片格局的进一步整合与变动。",
+   "impact": {
+    "my": null,
+    "sea": null,
+    "world": "此举可能进一步加剧全球半导体市场的竞争格局与产能重组。"
+   },
+   "detailTried": true,
+   "detail": [
+    "韩国芯片制造商SK海力士计划在12月通过将投资工具的债券转换为股份，成为日本竞争对手铠侠的最大间接股东。",
+    "此次交易完成后，SK海力士将持有铠侠约14.1%的间接股份，并计划不参与铠侠未来的具体管理。",
+    "SK海力士表示目前没有计划增持或出售更多的铠侠股份。",
+    "这项投资计划是在NAND闪存芯片需求强劲的背景下推进的，这类芯片广泛应用于智能手机和人工智能数据中心的服务器。",
+    "根据Counterpoint研究公司的统计，SK海力士是全球第二大NAND芯片制造商，市场份额为19%，而铠侠则以14%的份额排名第四。",
+    "早在2018年，SK海力士就曾向贝恩资本主导收购东芝存储（即铠侠前身）的财团进行了大规模投资。"
+   ]
+  },
   {
    "id": "fd2811614640",
    "title": "Global stock markets slump as Anthropic IPO fails to stem AI sell-off",
@@ -111,6 +144,31 @@
    ]
   },
   {
+   "id": "72d18114a820",
+   "title": "US Stock Futures Fall as Anthropic Shares Retreat and AI Concerns Weigh on Global Markets: Dow Jones, S&P, Nasdaq, Wall Street",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-fall-anthropic-094420820.html",
+   "source": "Yahoo Finance",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T09:44:20.000Z",
+   "fetched": "2026-11-20T10:22:46.520Z",
+   "ai": true,
+   "zh": "美股期指下跌，AI担忧拖累全球市场",
+   "tags": [
+    "美股",
+    "AI",
+    "华尔街"
+   ],
+   "score": 5,
+   "sum": "受Anthropic股价回落及市场对人工智能板块的担忧影响，美国股指期货下跌，并拖累全球市场情绪。华尔街三大股指及相关科技板块面临抛售压力。",
+   "impact": {
+    "my": "美股大跌可能通过外溢效应影响马股投资情绪，带动本地科技板块走弱。",
+    "sea": "区域股市可能跟随美股走势出现震荡，外资流出科技股的风险可能增加。",
+    "world": "投资人对人工智能泡沫的担忧可能引发全球科技股估值回调与市场波动。"
+   },
+   "detailTried": true
+  },
+  {
    "id": "afbc4c41b87d",
    "title": "Myanmar says international court's genocide ruling 'not fair'",
    "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946",
@@ -127,7 +185,17 @@
     "my": "这可能对马来西亚及东盟处理缅甸危机带来更多外交外交摩擦与挑战。",
     "sea": "这可能进一步凸显东盟内部在处理缅甸问题上的分歧，影响区域稳定与外交立场。",
     "world": "这可能引发国际社会对国际司法机构效力及缅甸局势的更多争议与关注。"
-   }
+   },
+   "detailTried": true,
+   "detail": [
+    "联合国国际法院在2026年11月裁定，缅甸在2017年对罗兴亚少数民族的镇压构成种族灭绝，这是该法院80年历史上的首次裁决。",
+    "法庭指出，缅甸安全部队杀害了数千名平民，对妇女施加广泛性暴力，且系统性地摧毁了罗兴亚村庄。",
+    "缅甸总统府发言人Khaing Khaing Soe在周五（11月20日）称此裁决“不公平”，并指出15名法官中有6名投了反对票。",
+    "法院下令允许难民安全回国并予以赔偿，但由于国际法院缺乏执法机制，缅甸是否会遵守命令仍是未知数。",
+    "此历史性裁决可能会对在2021年政变后上台的缅甸领导人敏昂莱带来更多国际外交压力。",
+    "作为缅甸少数长期盟友之一，中国对国际法院的裁决表示担忧，认为存在司法过度干预的问题。",
+    "美国对此裁决反应谨慎，强调应避免国际法院政治化，尽管华盛顿在2022年曾认定缅甸对罗兴亚人犯下种族灭绝罪。"
+   ]
   },
   {
    "id": "89a93afb190c",
@@ -159,7 +227,15 @@
     "my": "这可能促使马来西亚金融监管机构和银行加强对人工智能及网络安全领域的防范措施。",
     "sea": "这可能提醒东南亚各国金融机构提高警惕，防范利用人工智能升级的网络攻击。",
     "world": "这可能推动全球金融监管机构加速制定针对人工智能网络安全的新规范和防范策略。"
-   }
+   },
+   "detailTried": true,
+   "detail": [
+    "欧洲央行行长拉加德于2026年11月20日表示，人工智能（AI）助长的网络威胁是她目前面临的最大担忧。",
+    "她在法兰克福举行的欧洲银行业大会上指出，网络攻击者通常身份匿名且难以追踪。",
+    "这些攻击往往依赖于具有颠覆世界意图的“有毒国家”所提供的可疑资金支持。",
+    "拉加德强调，AI与网络威胁的结合是金融界面临的最大即时挑战。",
+    "她警告称，目前的政策制定者对这种潜在危机尚未给予足够的重视。"
+   ]
   },
   {
    "id": "6b502b2d14d8",
@@ -239,7 +315,17 @@
     "my": "这可能对南亚地区的区域安全带来一定的缓和迹象，但对大马无直接双边影响。",
     "sea": "这可能改善南亚地缘政治气候，间接有利于亚洲整体的区域稳定。",
     "world": "这可能为印巴这两个核武器邻国提供重新对话的机会，缓解南亚紧张局势。"
-   }
+   },
+   "detailTried": true,
+   "detail": [
+    "巴基斯坦气候变化部长穆萨迪克·马利克于周五抵达印度新德里，成为两国自2025年5月爆发四天战争以来首位访问印度的联邦部长。",
+    "马利克此次访问是为了出席上海合作组织（SCO）文明对话论坛，该论坛由印度总理莫迪于周五晚间开幕。",
+    "巴基斯坦外交部表示，此次参会体现了该国作为上合组织成员国积极推动对话与合作的立场。",
+    "尽管印度媒体曾猜测印方邀请的是文化部长，但巴基斯坦最终自主选择了派遣马利克出席。",
+    "此次访问正值巴基斯坦即将担任上合组织轮值主席国，并准备主办2027年8月的峰会之际，外界关注这能否为两国关系解冻铺路。",
+    "印度外交部强调，此次邀请所有上合成员国是按惯例行事，并重申印方对2025年帕哈尔甘袭击事件后的巴基斯坦政策保持不变。",
+    "学者分析认为，这次多边框架内的接触展示了印度的区域主导地位，同时也让巴基斯坦在无需完全迎合印方设定的框架下参与区域事务。"
+   ]
   },
   {
    "id": "936c9f3c1bab",
@@ -276,7 +362,17 @@
     "my": "这可能影响马来西亚在处理涉缅外交事务时对大国立场的考量。",
     "sea": "这可能在东盟内部引发关于如何平衡大国外交与区域干预的讨论。",
     "world": "这可能进一步凸显中国与西方在国际司法机构职能上的外交博弈。"
-   }
+   },
+   "detailTried": true,
+   "detail": [
+    "中国外交部于周五表示，联合国国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪的做法“不利于”解决争端。",
+    "国际法院此前裁定缅甸在2017年的军事镇压构成种族灭绝，这是该法院80年历史上首次认定国家犯下此罪行。",
+    "中国外交部发言人郭嘉昆指出，北京对司法管辖权过度延伸和扩大解释表示担忧，并呼吁国际社会避免使问题复杂化。",
+    "在国际法院的投票中，唯一的中国籍法官对几乎所有指控都投了有利于缅甸的票。",
+    "针对中国法官的立场，郭嘉昆回应称，陪审团成员是依据国际法和案件事实独立且专业地履行职责。",
+    "目前有超过一百万罗兴亚人生活在孟加拉国，多在2017年逃离缅甸的军事迫害。",
+    "联合国秘书长古特雷斯敦促缅甸当局允许被驱逐的罗兴亚难民安全返回家园。"
+   ]
   },
   {
    "id": "8bd76ee26afb",
@@ -522,7 +618,7 @@
   {
    "id": "b8fdbe6aa1fc",
    "title": "Xi: China ready to play active role in easing Thailand-Cambodia tensions",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW5oeTg2VEVDQ3NVWFl6cElUd3djZ2tfMDhmdkREdzhLUDdnLVBmMmlyaU5nQ2VzMS1LNnhIaU5QY0dhcU9RZlVObVNZenlLdzRsc0tzWF94c2R3WlJlc0g2VjVUZjM4RnY0Tm1MLWlZaU51Qm94bzM1T1VacDJ1RzY4WmxlRkhsV3NkcXNKOFY0S0NybFVyaXZrd1huMmNtVWIyWjJYREg?oc=5",
+   "url": "https://www.zaobao.com.sg/en/news/china/xi-china-ready-play-active-role-easing-thailand-cambodia-tensions",
    "source": "联合早报",
    "feed": "联合早报",
    "cat": "china",
@@ -622,12 +718,13 @@
     "my": "可能减轻国内长期面临的难民安置压力及相关社会治安成本。",
     "sea": "可能为区域人权治理提供新的跨国合作模式。",
     "world": "可能缓解部分东南亚难民危机，引发国际社会对难民转移安置的关注。"
-   }
+   },
+   "detailTried": true
   },
   {
    "id": "d0922ea49c9f",
    "title": "DEFA ensures strong growth of ASEAN’s digital economy",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQemNMczhmNTNBNk9LUDZKczRqZXM4ak1mOEl4eEs1S3RjYUFZVExVQWxTb1h5NHkzME5yeFVYMEV2ZW9QNE9MOTlKdmhpU3l5bi1ZU3BZZW55SWhyNGhqQmRpSkNWN2dyRlhwSFI3aWFjd1Q4V1RYUUFHOU1RVWo0MWs0alZrVjJlbXFV?oc=5",
+   "url": "https://www.pna.gov.ph/article/defa-ensures-strong-growth-of-aseans-digital-economy",
    "source": "Philippine News Agency",
    "feed": "SEA news",
    "cat": "sea",
@@ -675,6 +772,31 @@
    "zh": "萨尔瓦多总统布克尔寻求通过修宪连任第三任期"
   },
   {
+   "id": "8539895b5c90",
+   "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
+   "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "malaysia",
+   "published": "2026-11-20T08:20:00.000Z",
+   "fetched": "2026-11-20T10:22:46.520Z",
+   "ai": true,
+   "zh": "扎希德：1万名罗兴亚难民将安置到土耳其",
+   "tags": [
+    "罗兴亚人",
+    "阿末扎希",
+    "难民"
+   ],
+   "score": 4,
+   "sum": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。",
+   "impact": {
+    "my": "这可能有助于缓解马来西亚国内长期存在的罗兴亚难民安置压力与社会负担。",
+    "sea": "该政策可能为区域内解决难民问题提供新的跨国合作参考模式。",
+    "world": null
+   },
+   "detailTried": true
+  },
+  {
    "id": "508222f6c030",
    "title": "Umno must answer questions over Ismail Lasim’s position, says DAP man",
    "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/umno-must-answer-questions-over-ismail-lasim-s-position-says-dap-man",
@@ -720,6 +842,24 @@
     "sea": null,
     "world": "可能加剧东北亚紧张局势，并影响区域经贸合作与投资信心。"
    }
+  },
+  {
+   "id": "ef0a8038477d",
+   "title": "PH misread Malay sentiment in Melaka polls, say observers",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/ph-misread-malay-sentiment-in-melaka-polls-say-observers",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "malaysia",
+   "published": "2026-11-20T08:10:00.000Z",
+   "fetched": "2026-11-20T10:22:46.520Z",
+   "ai": true,
+   "zh": "观察员：希盟在马六甲补选中误判马来选民风向",
+   "tags": [
+    "希盟",
+    "马六甲",
+    "政治"
+   ],
+   "score": 3
   },
   {
    "id": "103dc205f7bb",
@@ -1150,31 +1290,14 @@
    "published": "2026-11-20T07:01:00.000Z",
    "score": 3,
    "sum": "Syahredzan Johan berkata Ismail Lasim tidak meletak jawatan jika benar beliau tidak serah atau setuju surat peletakan jawatan dihantar.",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "74923ddc5cac",
-   "title": "Court reinstates death penalty for man who sodomised, killed baby",
-   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/court-reinstates-death-penalty-for-man-who-sodomised-killed-baby",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-20T07:00:00.000Z",
-   "score": 3,
-   "sum": "Court of Appeal says Badruldin Mohamed demonstrated extreme violence, utmost cruelty, a complete lack of humanity and blatant disregard for the life of a defenc",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "7173a86c9318",
-   "title": "Baby born with heart abnormalities ‘didn’t have a chance’ after non-medical free birth, NSW inquest hears",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/20/routine-checks-may-have-saved-babies-lives-freebirth-inquest-nsw-ntwnfb",
-   "source": "The Guardian World",
-   "feed": "The Guardian World",
-   "cat": "world",
-   "published": "2026-11-20T06:51:54.000Z",
-   "score": 3,
-   "sum": "Inquest into the deaths of four babies after free and home births hears routine checks and follow-up may have saved their lives Get our breaking news email , fr",
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "巫统质问行动党是否试图欺骗严端",
+   "tags": [
+    "巫统",
+    "行动党",
+    "政治"
+   ]
   },
   {
    "id": "1c361a8b39a7",
@@ -1182,46 +1305,56 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/indonesia-s-prabowo-china-s-xi-discuss-future-south-china-sea-cooperation",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "sea",
    "published": "2026-11-20T06:49:54.000Z",
-   "score": 3,
-   "sum": "Both countries see opportunities for cooperation in the strategic South China Sea, including progress in talks on joint development areas, Prabowo Subianto’s of",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "sum": "印尼总统普拉博沃与中国国家主席习近平会晤，双方就未来南海合作及双边关系发展进行讨论。两国领导人强调了维护区域稳定与深化战略伙伴关系的重要性。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "印尼普拉博沃与中国习近平讨论未来南海合作",
+   "tags": [
+    "南海",
+    "中国",
+    "印尼"
+   ],
+   "impact": {
+    "my": "南海局势的稳定对作为南海声索国之一的马来西亚的海洋安全与航运贸易可能产生重要影响。",
+    "sea": "印尼与中国加强南海事务沟通，可能有助于缓和东南亚地区的海洋地缘政治紧张局势。",
+    "world": "大国之间的外交互动对印太地区的区域安全格局可能带来深远影响。"
+   }
   },
   {
    "id": "3fc446211522",
    "title": "Why Are Stocks, Crypto, Gold, and Silver Dumping? $4.28 Trillion Wiped Out",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWNXR3hKTDZWdmZYaGgzOURuZDVFTGhkZ0dZcGtYY25TSE8xQVNWcUxpeEJUT2xaV21vVzNzdUhLSTVaaGZ3Y2ktRkVvbWc1eEdIR3NReXlPTmdOVGhuLU9Pa20zVUdqVmdsZzk1NTFZM3l0aE05SUwtOXl3YmlEY3F6Qng3alJEOVgwc3IzSmgxOXVzZ24tYTZ3U01hRkJtV2k5V1hDcy11Zno4NVNpU1F4OF81MEpabXE3UmJxbW1jZ0o1Q0o3Qw?oc=5",
+   "url": "https://www.tradingview.com/news/coinpedia:f806b37f7094b:0-why-are-stocks-crypto-gold-and-silver-dumping-4-28-trillion-wiped-out/",
    "source": "TradingView",
    "feed": "Global markets",
    "cat": "finance",
    "published": "2026-11-20T06:35:00.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.561Z",
-   "score": 3
-  },
-  {
-   "id": "84cb63ad1dc5",
-   "title": "46 injuries, zero answers: Noorizwan's family continues seeking justice",
-   "url": "https://www.malaysiakini.com/news/889509-46-injuries-zero-answers-noorizwans-family-continues-seeking-justice",
-   "source": "Malaysiakini",
-   "feed": "Malaysiakini",
-   "cat": "malaysia",
-   "published": "2026-11-20T06:33:09.000Z",
-   "score": 3,
-   "sum": "The official post-mortem details more than double the number of injuries previously reported.",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "8f6e36b9f38e",
-   "title": "Trump rates US-China-Russia summit 12 out of 10",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNnhKaGZORkFjWHJIWVE0MXV2UGdYT2ZxYlBOeUV3OVdlRDJQRVhVYnpLVF8wTjVRaXFaUF9XTUs1ZHJZY1MwOENsTzFBa1RJRmVESmhMMGtISWJJN0hGdGV6d1FnMlhBOXdxVnRBcFhIakFNTVBhMzhLcnY0WWFtSER3OWlDX3p4TGsxVw?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T06:32:15.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 5,
+   "ai": true,
+   "zh": "股票加密货币黄金白银遭抛售，4.28万亿美元蒸发",
+   "tags": [
+    "股市",
+    "黄金",
+    "加密货币"
+   ],
+   "sum": "全球金融市场遭遇全线抛售，股票、加密货币、黄金和白银价格集体大跌，总计有高达4.28万亿美元的市值蒸发。市场避险情绪与流动性紧缩引发资产价格剧烈震荡。",
+   "impact": {
+    "my": "全球资产遭到抛售可能波及马股表现，同时避险情绪可能影响令吉汇率及国内投资市场。",
+    "sea": "东南亚区域股市与金融市场可能面临外资撤离及资产价格下行的压力。",
+    "world": "全球资本市场流动性收紧与资产大面积重估，可能预示着宏观经济环境的显著变化。"
+   },
+   "detailTried": true,
+   "detail": [
+    "全球金融市场在过去24小时内遭遇严重抛售，总共蒸发了约4.28万亿美元市值。",
+    "美股、亚洲股市、黄金白银以及加密货币市场普遍下挫，其中科技股和人工智能相关股票受创最重。",
+    "黄金价格下跌3%至每盎司3526美元，白银则跌破41美元，分析认为这反映出市场对通货紧缩的担忧。",
+    "市场抛售的核心原因是担忧美联储可能维持高利率更长时间，摩根大通预测联储接下来可能会连续三次加息25个基点。",
+    "中东地缘政治紧张局势加剧，也门胡塞武装发动的袭击波及利雅得金融区，对石油供应和金融市场构成了潜在威胁。",
+    "全球加密货币市值萎缩了1.6%，比特币跌至61290美元左右，导致大量交易者的仓位遭到强平。"
+   ]
   },
   {
    "id": "cd30e168a012",
@@ -1229,11 +1362,32 @@
    "url": "https://www.channelnewsasia.com/east-asia/xi-trump-putin-trilateral-summit-apec-diplomacy-6551676",
    "source": "CNA Asia",
    "feed": "CNA Asia",
-   "cat": "sea",
+   "cat": "world",
    "published": "2026-11-20T06:26:00.000Z",
-   "score": 3,
-   "sum": "Unprecedented talks between the leaders of China, the US and Russia yielded political gains for all three, say analysts. But what could their closer cooperation",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 5,
+   "sum": "中、美、俄三国领导人举行了历史性的三边峰会，引发全球高度关注。这场会晤被视为大国外交的重要转折点，释放出重塑全球地缘政治格局的信号。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "历史性习特普三边峰会对全球外交的信号",
+   "tags": [
+    "习近平",
+    "特朗普",
+    "普京"
+   ],
+   "impact": {
+    "my": "大国关系的重新调整可能通过国际贸易与地缘政治渠道，间接影响马来西亚的外交与经贸策略。",
+    "sea": "中美俄三方互动可能牵动东盟在大国之间的平衡外交与区域经济稳定。",
+    "world": "这场高级别峰会可能深刻改变全球大国博弈的规则，对国际秩序产生长期而深远的影响。"
+   },
+   "detailTried": true,
+   "detail": [
+    "中国、美国和俄罗斯领导人在深圳亚太经合组织峰会期间举行了历史性的三边会晤，并发表了联合宣言。",
+    "三方在为期90分钟的闭门会议中讨论了核风险、能源供应、联合国改革以及乌克兰和中东等国际热点问题。",
+    "尽管会议未能设定具体的时间表或行动机制，但分析人士指出这次会晤提升了中国作为斡旋者的外交地位。",
+    "美国总统特朗普通过此次会晤向国内展示了全球领袖形象，并成功将核军控议题纳入三方讨论议程。",
+    "俄罗斯总统普京借此机会显著提升了外交地位，缓解了来自西方的顶级孤立状态，宣言中提及保护国家官员豁免权对其尤为重要。",
+    "专家认为，虽然各方重申了核战争打不赢也打不得的共识，但未来如何将这些高层原则转化为具体的核裁军行动仍然充满挑战。"
+   ]
   },
   {
    "id": "723cb6584332",
@@ -1243,21 +1397,16 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-20T06:20:26.000Z",
-   "score": 3,
+   "score": 2,
    "sum": "Ahead of Friday&#039;s nationwide rallies, German teenagers explain why they are resisting conscription.",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "5c6961b5adaf",
-   "title": "Tashima says Balogun red card row at World Cup prompted FIFA presidency bid",
-   "url": "https://www.aljazeera.com/sports/2026/11/20/kozo-tashima-japan-fifa-president-election-balogun-red-card-world-cup-infantino?traffic_source=rss",
-   "source": "Al Jazeera",
-   "feed": "Al Jazeera",
-   "cat": "world",
-   "published": "2026-11-20T06:15:06.000Z",
-   "score": 3,
-   "sum": "Tashima is one of three names on the ballot for the March election, along with current President Infantino and Diallo.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "德国年轻人抗议：不愿未来由军方决定",
+   "tags": [
+    "德国",
+    "抗议",
+    "军事"
+   ]
   },
   {
    "id": "066d6c59ce3a",
@@ -1265,11 +1414,18 @@
    "url": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
    "source": "BBC 中文",
    "feed": "BBC 中文",
-   "cat": "world",
+   "cat": "china",
    "published": "2026-11-20T06:12:18.000Z",
-   "score": 3,
+   "score": 2,
    "sum": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "从仓颉换成汉语拼音：电脑输入法会影响下一代学习中文吗？",
+   "tags": [
+    "中文",
+    "输入法",
+    "教育"
+   ]
   },
   {
    "id": "787703f95831",
@@ -1279,8 +1435,21 @@
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-20T06:06:42.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "菲律宾初创企业将受益于东盟数字经济协定",
+   "tags": [
+    "东盟",
+    "菲律宾",
+    "数字经济"
+   ],
+   "sum": "菲律宾初创企业预计将从新签署的东盟数字经济协定中获得发展红利。该协定旨在促进区域内的数字合作与经济增长。",
+   "impact": {
+    "my": "该协定可能为大马数字经济及科技企业提供更多区域合作与跨境扩张的机会。",
+    "sea": "该协定可能加速东南亚地区的数字化转型并吸引更多跨境科技投资。",
+    "world": "此举可能提升东南亚在全球数字经济版图中的竞争力。"
+   }
   },
   {
    "id": "e7800576970a",
@@ -1292,7 +1461,14 @@
    "published": "2026-11-20T06:03:03.000Z",
    "score": 3,
    "sum": "US Maritime Administration acknowledged naval blockade&#039;s impact on insurance premiums and cargo capacity, memo shows.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "美国海事机构警告：伊朗封锁令海湾保费上升",
+   "tags": [
+    "海运",
+    "伊朗",
+    "石油"
+   ]
   },
   {
    "id": "dcb0cd1db1e0",
@@ -1328,7 +1504,14 @@
    "cat": "finance",
    "published": "2026-11-20T05:50:00.000Z",
    "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "fetched": "2026-11-20T08:37:32.177Z",
+   "ai": true,
+   "zh": "营收疲软，Velesto第三季净利降至2061万令吉",
+   "tags": [
+    "马股",
+    "财报",
+    "油气"
+   ]
   },
   {
    "id": "8289ff061f49",
@@ -1340,7 +1523,14 @@
    "published": "2026-11-20T05:48:35.000Z",
    "score": 3,
    "sum": "President Trump has removed National Cyber Director Sean Cairncross and named a Defense Department official as interim.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "特朗普承受压力，撤换美国网络安全局局长",
+   "tags": [
+    "美国",
+    "网络安全",
+    "政治"
+   ]
   },
   {
    "id": "03aaf90f76e4",
@@ -1348,11 +1538,23 @@
    "url": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
    "source": "BBC 中文",
    "feed": "BBC 中文",
-   "cat": "world",
+   "cat": "china",
    "published": "2026-11-20T05:46:09.000Z",
-   "score": 3,
-   "sum": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "sum": "中俄美三方近日举行峰会，但外界普遍认为此次会议的象征意义大于实际政策突破。三方在核心地缘政治议题上仍存在分歧。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "中俄美三方峰会“场面大于实质成果”",
+   "tags": [
+    "中美关系",
+    "俄罗斯",
+    "外交"
+   ],
+   "impact": {
+    "my": "大马作为中立国，大国关系的微妙变化可能间接影响其外交平衡策略。",
+    "sea": "中美俄三方互动可能影响东盟在大国博弈中的外交空间。",
+    "world": "这可能反映出当前大国之间竞争大于合作的长期地缘政治走向。"
+   }
   },
   {
    "id": "3bcfa52a6aed",
@@ -1360,11 +1562,18 @@
    "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling?traffic_source=rss",
    "source": "Al Jazeera",
    "feed": "Al Jazeera",
-   "cat": "world",
+   "cat": "sea",
    "published": "2026-11-20T05:36:21.000Z",
    "score": 3,
    "sum": "For refugees, the ICJ ruling that Myanmar committed genocide is a vindication. But will they be able to return home?",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "喜极而泣祈祷回家：罗兴亚人对灭绝裁决的反应",
+   "tags": [
+    "罗兴亚人",
+    "难民",
+    "东南亚"
+   ]
   },
   {
    "id": "51f9c2eaca46",
@@ -1374,19 +1583,21 @@
    "feed": "联合早报",
    "cat": "world",
    "published": "2026-11-20T05:35:12.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "f5063c869d34",
-   "title": "Kang Ji-hwan returns with livestream after seven years as sexual assault conviction derailed career and led to S$8.5 million in damages",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU0pGVFRORjBpcjVjSlJNZ3ZDNmd3dkJnVk9jZ0hFZktRNURNbHFKLW5na28weUxIYVU4aUt5djZHbTZ6emJGSllSS04wbnJXcXBzbmhINU1aSXZySHBaMTNvOERvaFdJTHh4NTdYR283eGtqVHhpVHROZ2ZFT3RNYlRUcjMzbm8zV29jNWsya1Jad2FJZU5xbkpzampmMTBGUU00WGp6Zm1NU1Y0UkhMdk5UNDVjSXBYR2pONjFSeDBVWE9FUHVIcVUtUjhPME1maDJ0QUNFRm04QQ?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-20T05:35:02.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "特朗普在内乱与选举挫折中寻求亚洲之行外交突破",
+   "tags": [
+    "美国外交",
+    "亚洲",
+    "政治"
+   ],
+   "sum": "面对国内政治动荡和选举受挫的压力，美国政坛高层试图通过亚洲访问来寻求外交上的突破。相关行程备受区域关注。",
+   "impact": {
+    "my": "美国外交重心的调整可能对马美的经贸与区域安全政策产生一定外溢效应。",
+    "sea": "美国高层访问可能对东南亚区域的地缘政治格局产生复杂影响。",
+    "world": "此举可能改变美国在印太地区的盟友关系及外交策略。"
+   }
   },
   {
    "id": "38878f510227",
@@ -1396,8 +1607,21 @@
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-20T05:33:04.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "拟议中的东盟海事中心旨在加强区域海事安全与蓝色经济合作",
+   "tags": [
+    "东盟",
+    "海事安全",
+    "蓝色经济"
+   ],
+   "sum": "东盟正计划建立区域海事中心，作为知识枢纽和咨询平台，以深化成员国在海上安全、环保及蓝色经济方面的合作。",
+   "impact": {
+    "my": "该中心可能促进大马与邻国在南海航行安全及海洋经济领域的执法协作。",
+    "sea": "此举有望提升东盟整体应对区域海上安全挑战的协同能力。",
+    "world": "这可能向国际社会展示东盟维护区域海事稳定的自主治理意愿。"
+   }
   },
   {
    "id": "c8a6f004d720",
@@ -1405,11 +1629,32 @@
    "url": "https://www.channelnewsasia.com/east-asia/trump-xi-us-china-goodwill-ties-apec-analysis-6561621",
    "source": "CNA Asia",
    "feed": "CNA Asia",
-   "cat": "sea",
+   "cat": "china",
    "published": "2026-11-20T05:32:00.000Z",
-   "score": 3,
-   "sum": "Fresh US curbs on AI chips, an unfinished tariff deal and shifting political dynamics in Washington threaten to test the limit of the fragile US-China detente, ",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 5,
+   "sum": "在APEC峰会期间实现短暂缓和后，中美两国领导人展现出的善意正面临后续一系列双边与经贸问题的全新考验。两国关系的走向牵动全球市场神经。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
+   "tags": [
+    "中美关系",
+    "APEC",
+    "习近平"
+   ],
+   "impact": {
+    "my": "中美经贸摩擦的缓和或加剧可能直接影响大马的出口表现及供应链走势。",
+    "sea": "中美关系走向可能左右东南亚国家的经济复苏与供应链布局。",
+    "world": "全球两大经济体的互动将决定国际贸易环境及地缘政治的稳定性。"
+   },
+   "detailTried": true,
+   "detail": [
+    "分析指出，美国对华人工智能芯片的新限制、尚未完全落实的关税协议以及华盛顿政治动态的变化，正对脆弱的美中缓和关系构成考验。",
+    "中国国家主席习近平在深圳机场亲自迎接美国总统特朗普，展现出高规格接待，这被视是对特朗普此前接待的回礼。",
+    "尽管两国元首在会晤中强调了保持沟通与整体关系的稳定，但美国商务部随后收紧了对东南亚等第三方数据中心获取美制AI芯片的出口管制。",
+    "中国商务部对此表示强烈不满，并警告称如果华盛顿继续推进限制，北京将采取同等反制措施。",
+    "由于美国民主党在美国中期选举中重新掌控了国会两院，分析认为特朗普未来兑现承诺的空间有所缩小。",
+    "尽管面临种种分歧与风险因素，北京方面依然将特朗普视为美国政坛中能够起到稳定作用的关键人物。"
+   ]
   },
   {
    "id": "506f34eb15ea",
@@ -1419,9 +1664,15 @@
    "feed": "The Star Business",
    "cat": "finance",
    "published": "2026-11-20T05:31:00.000Z",
-   "desc": "",
    "fetched": "2026-11-20T09:46:52.562Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "科技股遭遇抛售，马股午盘走低",
+   "tags": [
+    "马股",
+    "科技股",
+    "股市"
+   ]
   },
   {
    "id": "89af65621734",
@@ -1433,7 +1684,14 @@
    "published": "2026-11-20T05:30:00.000Z",
    "score": 3,
    "sum": "DAP veteran says she did well as both a government minister and a party leader.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "林冠英赞扬杨巧双妥善处理纳吉居家服刑与隆雪华堂租金课题",
+   "tags": [
+    "林冠英",
+    "杨巧双",
+    "国内政治"
+   ]
   },
   {
    "id": "bc404820f3be",
@@ -1445,7 +1703,14 @@
    "published": "2026-11-20T05:28:44.000Z",
    "score": 3,
    "sum": "UPDATED 3.16PM | He announces the matter after meeting state ruler this morning.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "被传召、训斥后获放过：阿米努丁续任森美兰州务大臣",
+   "tags": [
+    "森美兰",
+    "州务大臣",
+    "政治"
+   ]
   },
   {
    "id": "e7d6b80b6eff",
@@ -1455,8 +1720,15 @@
    "feed": "The Star Business",
    "cat": "finance",
    "published": "2026-11-20T05:07:00.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "score": 2,
+   "fetched": "2026-11-20T08:37:32.177Z",
+   "ai": true,
+   "zh": "Harshah Shah受委宏利集团兼宏利保险首席执行官",
+   "tags": [
+    "人事变动",
+    "保险",
+    "宏利"
+   ]
   },
   {
    "id": "0388a3d7701d",
@@ -1466,9 +1738,15 @@
    "feed": "The Guardian World",
    "cat": "world",
    "published": "2026-11-20T05:02:16.000Z",
-   "score": 3,
+   "score": 1,
    "sum": "Former opposition leader warns party against being ‘One Nation lite’ as he becomes eighth out of 24 Liberal MPs not to recontest seat in March Get our daily pol",
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "fetched": "2026-11-20T08:37:32.177Z",
+   "ai": true,
+   "zh": "Kellie Sloane称Mark Speakman辞职后新州自由党出走潮已结束",
+   "tags": [
+    "澳大利亚",
+    "政坛"
+   ]
   },
   {
    "id": "beca203ab840",
@@ -1480,7 +1758,14 @@
    "published": "2026-11-20T05:01:40.000Z",
    "score": 3,
    "sum": "More than 85 percent of Gaza Civil Defence vehicles are out of service as crews struggle to reach trapped people.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "加沙民防局车辆故障，救援工作举步维艰",
+   "tags": [
+    "加沙",
+    "人道危机",
+    "中东"
+   ]
   },
   {
    "id": "51ca9e41eaaa",
@@ -1490,9 +1775,21 @@
    "feed": "The Guardian World",
    "cat": "world",
    "published": "2026-11-20T05:00:24.000Z",
-   "score": 3,
-   "sum": "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunner The race to become the next UN secretary general c",
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "score": 4,
+   "sum": "新一届联合国秘书长的竞选进程拉开帷幕，但大国之间在人选和发展方向上的分歧也因此彻底暴露。这可能影响联合国未来的决策效率。",
+   "fetched": "2026-11-20T08:37:32.177Z",
+   "ai": true,
+   "zh": "联合国秘书长竞选角逐暴露世界大国之间分歧",
+   "tags": [
+    "联合国",
+    "地缘政治",
+    "外交"
+   ],
+   "impact": {
+    "my": "大国博弈白热化可能令支持多边主义的大马在国际事务中面临更多立场的抉择。",
+    "sea": "区域国家可能需要在联合国层面的大国竞争中平衡各自的外交利益。",
+    "world": "这可能进一步削弱联合国在处理全球重大危机时的协调与执行能力。"
+   }
   },
   {
    "id": "5a31c1195c81",
@@ -1502,21 +1799,16 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-20T05:00:16.000Z",
-   "score": 3,
+   "score": 2,
    "sum": "Drivers in Houthi-controlled areas face rising fuel prices and costly repairs as contaminated petrol damages their cars.",
-   "fetched": "2026-11-20T08:36:16.077Z"
-  },
-  {
-   "id": "1ec751eff66e",
-   "title": "Beau Lamarre-Condon’s explanations of body disposal ‘ring hollow’, court hears",
-   "url": "https://www.theguardian.com/australia-news/2026/nov/20/beau-lamarre-condons-attempts-to-explain-disposal-alleged-victims-bodies-ring-hollow-court-hears-ntwnfb",
-   "source": "The Guardian World",
-   "feed": "The Guardian World",
-   "cat": "world",
-   "published": "2026-11-20T04:58:21.000Z",
-   "score": 3,
-   "sum": "Former police officer has pleaded not guilty to murdering Jesse Baird and Luke Davies in Paddington in February 2024 Get our breaking news email , free app or d",
-   "fetched": "2026-11-20T08:37:32.177Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "受污染汽油导致也门司机生计维艰",
+   "tags": [
+    "也门",
+    "燃油",
+    "民生"
+   ]
   },
   {
    "id": "199e8f84da59",
@@ -1527,7 +1819,14 @@
    "cat": "finance",
    "published": "2026-11-20T04:55:39.000Z",
    "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "受逢高出货与全球疲弱趋势影响，股市早盘下跌",
+   "tags": [
+    "股市",
+    "全球金融",
+    "投资"
+   ]
   },
   {
    "id": "e6579b6ff7f7",
@@ -1537,9 +1836,21 @@
    "feed": "Malaysiakini",
    "cat": "malaysia",
    "published": "2026-11-20T04:45:41.000Z",
-   "score": 3,
-   "sum": "Under new system, cardholders only permitted to stay in the state they’re registered.",
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "score": 4,
+   "sum": "大马内政部宣布，持联合国难民署证件的人士一律被禁止入境沙巴、砂拉越及纳闽。此举旨在加强东马两州的边境管控与移民安全。",
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
+   "tags": [
+    "内政部",
+    "难民",
+    "东马"
+   ],
+   "impact": {
+    "my": "这项政策可能强化东马的边境安全与移民管控，减少非法移民对当地社会的冲击。",
+    "sea": "此举可能对区域内难民流动的管控政策产生一定的示范或溢出效应。",
+    "world": "这反映出大马在处理难民和边境管控问题上正采取更为收紧的本土政策。"
+   }
   },
   {
    "id": "85766ef099d9",
@@ -1547,10 +1858,17 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGxzVXg0Mk5POFFqT2p5cG9DZnFRQTFVR09xMjlMRFdXNzNDNng2Rm5qTzB5NFpYSHE3b3VMNDh1dWFrNHNlSFZoNnJXcm9aYjVYcXlPeWdaSjlEa3Q2cDNaQ2dDalBoT2NSTHZFVVlKUVhxcTRhYVh5S0RvUFpMZ0k1OElBWWJFRWpjVmd3MWFaQQ?oc=5",
    "source": "联合早报",
    "feed": "联合早报",
-   "cat": "world",
+   "cat": "tech",
    "published": "2026-11-20T04:45:00.000Z",
    "score": 3,
-   "fetched": "2026-11-20T08:36:16.077Z"
+   "fetched": "2026-11-20T08:36:16.077Z",
+   "ai": true,
+   "zh": "美国科技故障频发助长“末日囤积”风潮",
+   "tags": [
+    "美国",
+    "科技故障",
+    "社会心理"
+   ]
   },
   {
    "id": "d48c5a8caaa4",
