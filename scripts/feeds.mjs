@@ -12,6 +12,8 @@ export const FEEDS = [
   { name: '南洋商报', url: gn('site:enanyang.my'), cat: 'malaysia' },
   { name: '南洋商报·新闻', url: gn('南洋商报 when:1d'), cat: 'malaysia' },
   { name: '星洲日报', url: gn('site:sinchew.com.my when:1d'), cat: 'malaysia' },
+  { name: '东方日报', url: gn('site:orientaldaily.com.my'), cat: 'malaysia' },
+  { name: '中国报', url: gn('site:chinapress.com.my'), cat: 'malaysia' },
   { name: '马来西亚财经', url: gn('马股 OR 令吉 OR 大马经济 when:1d'), cat: 'finance' },
 
   // --- 联合早报 ---
