@@ -34,14 +34,32 @@ export async function resolveGoogleNews(url) {
   return real.replace(/\\\\u003d/g, '=').replace(/\\\\u0026/g, '&').replace(/\\\\/g, '');
 }
 
-export async function articleText(url) {
+// Reads an article page: its text (for the AI, never saved) and the page's own share
+// picture (og:image), which the app may show by linking to it (we never copy the picture).
+export async function articlePage(url) {
   const res = await get(url);
   const type = res.headers.get('content-type') || '';
   if (!type.includes('html')) throw new Error('not html');
   const html = await res.text();
   const dom = new JSDOM(html, { url: res.url, virtualConsole: quiet });
-  const art = new Readability(dom.window.document).parse();
+  const doc = dom.window.document;
+  const meta = (...names) => {
+    for (const n of names) {
+      const v = doc.querySelector(`meta[property="${n}"], meta[name="${n}"]`)?.getAttribute('content');
+      if (v) return v.trim();
+    }
+    return null;
+  };
+  let img = meta('og:image:secure_url', 'og:image', 'twitter:image', 'twitter:image:src');
+  try { if (img) img = new URL(img, res.url).href; } catch { img = null; }
+  const imgW = Number(meta('og:image:width')) || null, imgH = Number(meta('og:image:height')) || null;
+  const art = new Readability(doc).parse();
   const text = (art?.textContent || '').replace(/\s+/g, ' ').trim();
-  if (text.length < 300) throw new Error('too little text (paywall?)');
-  return text.slice(0, 5000);
+  return { url: res.url, text: text.length >= 300 ? text.slice(0, 5000) : null, img, imgW, imgH };
+}
+
+export async function articleText(url) {
+  const p = await articlePage(url);
+  if (!p.text) throw new Error('too little text (paywall?)');
+  return p.text;
 }

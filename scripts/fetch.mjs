@@ -13,7 +13,9 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { FEEDS, CATEGORIES } from './feeds.mjs';
 import { updateGold } from './gold.mjs';
-import { resolveGoogleNews, articleText } from './article.mjs';
+import { resolveGoogleNews, articlePage } from './article.mjs';
+import { checkPublisherImage, updateTagPhotos } from './images.mjs';
+import { updateEvents } from './events.mjs';
 
 const OUT = new URL('../data/news.json', import.meta.url);
 const GEMINI_KEY = process.env.GEMINI_API_KEY;
@@ -177,8 +179,9 @@ async function addDetails(items, now) {
   const ready = [];
   for (const x of want) { // one at a time: Google rate-limits parallel link decoding
     try {
-      if (x.url.includes('news.google.com')) { x.url = await resolveGoogleNews(x.url); await sleep(1500); }
-      x._text = await articleText(x.url);
+      const p = await readPage(x);
+      if (!p.text) throw new Error('too little text (paywall?)');
+      x._text = p.text;
       ready.push(x);
     } catch (e) {
       console.log(`  no text: ${x.source} (${e.message})`);
@@ -202,6 +205,44 @@ async function addDetails(items, now) {
     }
   }
   for (const x of items) delete x._text; // never save article text
+}
+
+// Open an article (Google News links are decoded first, one at a time).
+// Remembers the page's share picture as a candidate; the text is only used in this run.
+async function readPage(x) {
+  if (x.url.includes('news.google.com')) { x.url = await resolveGoogleNews(x.url); await sleep(1500); }
+  const p = await articlePage(x.url);
+  if (p.img && !x.img) x._img = p.img;
+  return p;
+}
+
+// Pictures (A): the news site's own share picture for important stories, checked by the rules
+const MAX_IMG_PAGES = 12, MAX_IMG_CHECKS = 8;
+const PHOTOS = new URL('../data/photos.json', import.meta.url);
+async function addImages(items, now, photos) {
+  const want = items.filter((x) => !x.img && !x.imgTried && (x.score ?? 3) >= 4 && Date.parse(x.published) >= now - 24 * 3600e3)
+    .sort((a, b) => (b.score ?? 3) - (a.score ?? 3));
+  let pages = 0;
+  for (const x of want) {
+    if (x._img) continue;
+    if (pages++ >= MAX_IMG_PAGES) break;
+    try { await readPage(x); } catch (e) { console.log(`  img page: ${x.source} (${e.message})`); x.imgTried = true; }
+  }
+  // a picture used by 2+ different stories is the site's logo/default picture
+  const count = new Map();
+  for (const x of items) if (x._img) count.set(x._img, (count.get(x._img) || 0) + 1);
+  for (const [src, n] of count) if (n > 1 && !photos.logos.includes(src)) photos.logos.push(src);
+  photos.logos = photos.logos.slice(-300);
+  const logoSet = new Set(photos.logos);
+  let checks = 0;
+  for (const x of want.filter((y) => y._img)) {
+    if (checks++ >= MAX_IMG_CHECKS) break;
+    x.img = await checkPublisherImage(x._img, { headline: x.zh || x.title, source: x.source, logoSet }) || undefined;
+    x.imgTried = true;
+  }
+  for (const x of items) delete x._img;
+  console.log(`Pictures: ${items.filter((x) => x.img).length} stories have a news photo`);
+  return logoSet;
 }
 
 // ---------- main ----------
@@ -276,6 +317,18 @@ async function main() {
 
   // 详细版: for top stories, read the article and have AI write 5-8 points in its own words
   if (PROVIDER) await addDetails(items, now);
+
+  // pictures, then 合并报道 (大事件 → 分线) with 🔥 热度
+  let photos = { tags: {}, logos: [] };
+  try { photos = { ...photos, ...JSON.parse(await readFile(PHOTOS, 'utf8')) }; } catch {}
+  let logoSet = new Set(photos.logos);
+  if (PROVIDER) {
+    try { logoSet = await addImages(items, now, photos); } catch (e) { console.error('Pictures failed:', e.message); }
+    try { await updateEvents(items, { ask: PROVIDER === 'gemini' ? askGemini : askClaude, readPage, logoSet }); }
+    catch (e) { console.error('Events failed:', e.message); }
+  }
+  try { await updateTagPhotos(photos.tags); } catch (e) { console.error('Tag photos failed:', e.message); }
+  await writeFile(PHOTOS, JSON.stringify(photos, null, 1));
 
   await updateGold().catch((e) => console.error('Gold failed:', e.message));
 
