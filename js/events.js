@@ -80,6 +80,8 @@ function heroPic(x, cls = 'hero-pic') {
 }
 window.picFail = (img, cat) => {
   const wrap = img.closest('.people') || img;
+  const cap = wrap.parentElement?.querySelector('.credit, figcaption');
+  if (cap) cap.textContent = '图：乐乐新闻绘制'; // the picture didn't load: show our drawing and credit it correctly
   const tmp = document.createElement('span'); tmp.innerHTML = drawnPic(cat, wrap.classList.contains('big') ? 'big' : 'pic');
   wrap.replaceWith(tmp.firstChild);
 };
