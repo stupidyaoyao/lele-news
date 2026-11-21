@@ -41,7 +41,8 @@ async function writeLine(ev, line, stories, ask) {
 大事件：${ev.name}；分线：${line.t}
 规则：
 - 只用报道里有的内容，绝不编造；用你自己的话写；简体中文
-- common：多家都说的事实，每点必须至少 2 家来源都提到；3-6 点，每点 1 句；src 填来源名称（用下面的 s 原样）
+- 来源名称只能从这个列表原样复制：${JSON.stringify([...new Set(stories.map((s) => s.source))])}
+- common：多家都说的事实，每点必须至少 2 家来源都提到；3-6 点，每点 1 句；src 填所有提到这点的来源
 - single：只有一家提到、但重要的说法，最多 3 点，src 填那一家
 - views：如果各家对原因、结论或评价有不同看法，列出每种看法：label 用「看法 A」「看法 B」…，src 填持这个看法的来源，t 一句话；没有分歧就 []
 - 不要替读者判断哪个看法对
@@ -55,8 +56,21 @@ ${GLOSSARY}
 只输出 JSON 数组，里面一个对象：[{"short","key","title","summary","common":[{"t","src":[]}],"single":[{"t","src"}],"views":[{"label","src":[],"t"}],"unknown","impact":{"my","sea","world"},"people":[],"photo","per":[]}]
 报道：
 ${JSON.stringify(input)}`;
-  const [w] = await ask(prompt);
-  return w;
+  let res;
+  try { res = await ask(prompt); } catch (e) { if (!/JSON/.test(e.message)) throw e; console.log('  JSON error, asking again'); res = await ask(prompt); }
+  return res[0];
+}
+// match the AI's source names to ours (it may write 路透社 for Reuters, or drop "Asia")
+const ALIAS = { 路透社: 'reuters', 法新社: 'afp', 南华早报: 'south china morning post', 联合早报: '联合早报', 星洲日报: '星洲', 卫报: 'guardian', 纽约时报: '纽约时报', 马新社: 'bernama', 半岛电视台: 'al jazeera', 日经: 'nikkei' };
+function matchSource(name, sources) {
+  const n = String(name || '').toLowerCase().replace(/\s+/g, '');
+  if (!n) return null;
+  const a = ALIAS[name] || ALIAS[String(name).trim()];
+  for (const s of sources) {
+    const k = s.toLowerCase().replace(/\s+/g, '');
+    if (k === n || (n.length >= 3 && k.includes(n)) || (k.length >= 3 && n.includes(k)) || (a && k.includes(a.replace(/\s+/g, '')))) return s;
+  }
+  return null;
 }
 
 async function writeOverview(ev, ask) {
@@ -71,8 +85,9 @@ async function writeOverview(ev, ask) {
 links 只在报道真的互相提到时才写，最多 4 条。${GLOSSARY}
 分线：${JSON.stringify(lines)}
 花絮：${JSON.stringify(minor)}`;
-  const [o] = await ask(prompt);
-  return o;
+  let res;
+  try { res = await ask(prompt); } catch (e) { if (!/JSON/.test(e.message)) throw e; res = await ask(prompt); }
+  return res[0];
 }
 
 export async function updateEvents(items, { ask, readPage, logoSet }) {
@@ -158,7 +173,10 @@ export async function updateEvents(items, { ask, readPage, logoSet }) {
     try {
       const w = await writeLine(ev, l, members.slice(0, 8), ask);
       const srcNames = distinct(members.map((s) => s.source));
-      w.common = (w.common || []).map((c) => ({ t: c.t, src: distinct((c.src || []).filter((s) => srcNames.includes(s))) })).filter((c) => c.t && c.src.length >= 2).slice(0, 6);
+      const fix = (arr) => distinct((Array.isArray(arr) ? arr : [arr]).map((x) => matchSource(x, srcNames)).filter(Boolean));
+      w.common = (w.common || []).map((c) => ({ t: c.t, src: fix(c.src) })).filter((c) => c.t && c.src.length >= 2).slice(0, 6);
+      w.views = (w.views || []).map((v) => ({ ...v, src: fix(v.src) }));
+      w.single = (w.single || []).map((c) => ({ ...c, src: fix(c.src)[0] || (Array.isArray(c.src) ? c.src[0] : c.src) }));
       w.single = (w.single || []).filter((c) => c.t).slice(0, 3);
       w.views = (w.views || []).filter((v) => v.t && (v.src || []).length).slice(0, 3);
       if (w.views.length < 2) w.views = []; // a "difference" needs at least two sides

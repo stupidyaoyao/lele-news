@@ -10,8 +10,13 @@ export async function gdeltRatio(query) {
   if (!query) return null;
   const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(query)}&mode=timelinevol&timespan=7d&format=json`;
   try {
-    const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
-    const txt = await r.text();
+    let txt = '';
+    for (let i = 0; i < 4; i++) { // GitHub's shared servers often hit GDELT's 1-per-5-seconds limit: wait and retry
+      const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
+      txt = await r.text();
+      if (!/limit requests/i.test(txt)) break;
+      await new Promise((res) => setTimeout(res, 8000 + i * 4000));
+    }
     if (!txt.trim().startsWith('{')) throw new Error(txt.slice(0, 80));
     const pts = (JSON.parse(txt).timeline?.[0]?.data || []).map((p) => ({ t: Date.parse(p.date.replace(/(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z/, '$1-$2-$3T$4:$5:$6Z')), v: Number(p.value) || 0 }));
     if (pts.length < 10) return null;
