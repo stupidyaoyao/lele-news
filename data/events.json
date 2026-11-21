@@ -474,7 +474,7 @@
      "views": 973,
      "ratio": 1
     },
-    "at": "2026-11-21T08:27:41.118Z"
+    "at": "2026-11-21T16:51:52.333Z"
    }
   },
   {
@@ -971,16 +971,13 @@
     "score": 4,
     "sources": 8,
     "stories": 17,
-    "gdelt": {
-     "ratio": 0.5,
-     "share": 0.0257
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Rohingya_genocide_case",
      "views": 3572,
      "ratio": 4.3
     },
-    "at": "2026-11-21T08:28:00.562Z"
+    "at": "2026-11-21T16:52:40.194Z"
    }
   },
   {
@@ -1173,13 +1170,13 @@
       "a2c31a96cd92"
      ],
      "w": {
-      "short": "Anthropic上市难解AI泡沫担忧",
-      "key": "Anthropic首次公开招股上市表现未能消除市场对人工智能泡沫的担忧。",
-      "title": "Anthropic上市未能平息担忧，全球人工智能股票遭遇抛售",
-      "summary": "人工智能独角兽Anthropic近日完成备受瞩目的首次公开招股上市，但其股价随后的回调未能缓解华尔街对人工智能行业高估值和回报率的忧虑。与此同时，多只科技股与半导体板块普遍走弱，引发市场对全球人工智能热潮的可持续性产生更多讨论。",
+      "short": "Anthropic上市未能消除AI泡沫疑虑",
+      "key": "Anthropic上市表现未能消除市场对人工智能泡沫与高估值的担忧",
+      "title": "Anthropic创纪录上市未能消除人工智能泡沫与股市抛售疑虑",
+      "summary": "人工智能独角兽Anthropic进行大规模首次公开招股（IPO），然而其上市表现未能消弭市场对人工智能板块成長與估值的擔憂，华尔街股市近期也因板块抛售及美联储政策信号而承受下行壓力。多家媒体指出，投资者正对人工智能熱潮採取更審慎的態度。",
       "common": [
        {
-        "t": "Anthropic完成首次公开招股上市",
+        "t": "Anthropic进行了备受瞩目的首次公开招股上市。",
         "src": [
          "BBC World",
          "Free Malaysia Today",
@@ -1188,21 +1185,28 @@
         ]
        },
        {
-        "t": "英伟达等科技股及芯片股下跌",
+        "t": "市场对人工智能板块的增长前景、高估值及回报率存在担忧。",
         "src": [
          "Free Malaysia Today",
          "CNA Business",
          "BBC 中文"
         ]
+       },
+       {
+        "t": "华尔街主要股指近期因科技股和人工智能相关股票遭到抛售而下跌。",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Business"
+        ]
        }
       ],
       "single": [
        {
-        "t": "Anthropic员工利用其人工智能聊天机器人完成了黎曼猜想的证明。",
+        "t": "Anthropic的一位员工兼数学家利用Claude聊天机器人对黎曼猜想进行了长达约六周的详细证明。",
         "src": "BBC World"
        },
        {
-        "t": "分析师估计Anthropic的2026年营收将达520亿美元，2027年可达1350亿美元。",
+        "t": "英伟达总裁黄仁勳请辞，此前有报道指控其涉及婚外情。",
         "src": "BBC 中文"
        }
       ],
@@ -1210,106 +1214,98 @@
        {
         "label": "看法 A",
         "src": [
-         "CNA Business",
-         "BBC 中文"
+         "CNA Business"
         ],
-        "t": "认为人工智能产业正处于金融泡沫之中，高昂的估值与未来的盈利能力存在不确定性，且技术面临商品化风险。"
+        "t": "投资者依然相信人工智能，但对估值和支付意愿变得更具选择性。"
        },
        {
         "label": "看法 B",
         "src": [
-         "CNA Business"
+         "BBC 中文"
         ],
-        "t": "认为投资者依然对人工智能保持长期信心，但选股态度变得更加挑剔，耐心持有和评估其后续财报表现将是关键。"
+        "t": "人工智能目前毫无疑问处于金融泡沫之中，随着竞争加剧，技术将被商品化，价格和利润最终会被压低。"
        }
       ],
-      "unknown": null,
+      "unknown": "目前尚不清楚Anthropic的高估值是否能够长期持续，以及未来的人工智能首次公开招股计划是否会受到影响。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "全球投资者对人工智能板块的高估值和巨额支出回报产生担忧，导致美股及相关科技股出现显著抛售。"
+       "world": "全球人工智能板块与科技股近期遭遇抛售，市场对人工智能产业的估值与投资回报率产生了更广泛的疑虑。"
       },
       "people": [
        "Dario Amodei",
-       "Jensen Huang"
+       "Daniela Amodei"
       ],
       "photo": "stock market trading floor",
       "per": [
        {
         "id": "80fbf8621612",
-        "t": "在人工智能解决数学问题的一年里，Anthropic或已攻克最大难题",
-        "says": "Anthropic员工利用其人工智能聊天机器人Claude对黎曼猜想进行了详细证明。这一进展恰逢公司上市之际。",
+        "t": "在AI解决数学问题的一年里，Anthropic或已攻克最大难题",
+        "says": "Anthropic员工利用Claude聊天机器人对黎曼猜想进行了长达数周的研究并提交了证明，引发数学界关注。",
         "same": [
-         "上市"
+         "Anthropic上市"
         ],
         "view": null
        },
        {
         "id": "9d458302cf21",
-        "t": "Anthropic上市表现未能消除人工智能投资者担忧",
-        "says": "Anthropic上市后股价回落，未能平息市场对人工智能行业增长和估值的担忧。同时，美联储释放鹰派信号也对市场情绪造成压力。",
+        "t": "Anthropic上市表现未能消除AI投资者担忧",
+        "says": "美股因Anthropic股价回落及美联储鹰派信号而下跌，未能打消市场对人工智能板块增长和高昂支出的担忧。",
         "same": [
-         "上市",
-         "科技股下跌"
-        ],
-        "view": null
-       },
-       {
-        "id": "98b21ae2ff05",
-        "t": "Anthropic首秀后遭遇滑铁卢，为人工智能热潮敲响警钟",
-        "says": "Anthropic的上市未能扭转科技股的广泛抛售，显示投资者对人工智能板块变得更加挑剔。市场焦点随后转向潜在的OpenAI上市。",
-        "same": [
-         "上市",
-         "科技股下跌"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ec0544a9c756",
-        "t": "Anthropic破纪录首次公开招股能否阻止人工智能泡沫破裂？",
-        "says": "Anthropic进行大规模首次公开招股，成为市场检验人工智能纯概念股价值的重要测试。然而，行业内部的高估值逻辑与循环融资网络引发了泡沫破裂的担忧。",
-        "same": [
-         "上市",
-         "英伟达下跌"
+         "Anthropic上市",
+         "投资者担忧"
         ],
         "view": "看法 A"
        },
        {
+        "id": "98b21ae2ff05",
+        "t": "Anthropic首秀后遭遇滑铁卢，为AI热潮敲响警钟",
+        "says": "Anthropic华尔街首秀后股价回落，显示市场对人工智能热潮的乐观情绪降温，投资者对估值更加挑剔。",
+        "same": [
+         "Anthropic上市",
+         "投资者担忧"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "ec0544a9c756",
+        "t": "Anthropic破纪录IPO能否阻止AI泡沫破裂？",
+        "says": "Anthropic进行大规模IPO，但市场对人工智能泡沫是否破裂、循环融资及高昂成本存在隐忧。",
+        "same": [
+         "Anthropic上市",
+         "泡沫疑虑"
+        ],
+        "view": "看法 B"
+       },
+       {
         "id": "fec7d71f414f",
         "t": "评论：Anthropic创纪录810亿美元估值上市是对人工智能的信任票吗？",
-        "says": "暂无具体正文内容。",
-        "same": [],
+        "says": "探讨Anthropic创纪录估值上市对人工智能行业的意义。",
+        "same": [
+         "Anthropic上市"
+        ],
         "view": null
        },
        {
         "id": "a2c31a96cd92",
         "t": "Anthropic上市筹资额增至935亿美元",
-        "says": "暂无具体正文内容。",
-        "same": [],
+        "says": "报道Anthropic上市筹资额度变化。",
+        "same": [
+         "Anthropic上市"
+        ],
         "view": null
        }
       ]
      },
-     "loose": true,
+     "loose": false,
      "sig": "4786e2b7",
-     "at": "2026-11-21T03:43:05.513Z",
+     "at": "2026-11-21T16:48:05.308Z",
      "img": {
-      "kind": "B",
-      "people": [
-       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Dario_Amodei_at_TechCrunch_Disrupt_2023_02_%28cropped%29.jpg/960px-Dario_Amodei_at_TechCrunch_Disrupt_2023_02_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "TechCrunch · Wikimedia Commons · CC BY 2.0",
-        "kind": "B",
-        "person": "Dario Amodei"
-       },
-       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/960px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Anderseidesvik · Wikimedia Commons · CC BY-SA 4.0",
-        "kind": "B",
-        "person": "Jensen Huang"
-       }
-      ]
-     }
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     },
+     "v": 2
     },
     {
      "id": "3700168d-3",
@@ -1927,26 +1923,31 @@
    "cat": "finance",
    "last": "2026-11-21T03:51:30.996Z",
    "hidden": false,
-   "short": "全球人工智能泡沫破裂与抛售",
-   "key": "人工智能板块高估值引发全球股市大跌",
-   "overview": "受人工智能板块盈利风险、美联储鹰派预期及英伟达调查等因素拖累，全球金融市场遭遇科技股领衔的抛售潮，亚洲市场创2020年以来最糟单周表现。",
+   "short": "全球AI泡沫与股市抛售",
+   "key": "人工智能板块遭抛售，全球股市遭遇重挫",
+   "overview": "由于人工智能板块高估值担忧、美联储政策预期及地缘政治影响，全球股市及金融资产遭遇全线抛售，市值大幅蒸发；Anthropic上市未能消弭泡沫隐忧，英伟达则面临调查与芯片出口限制。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "美股抛售潮中，Anthropic的首次公开招股未能平息市场对人工智能高估值的担忧"
+     "t": "AI泡沫与股市抛售潮报道了Anthropic首次公开募股未能阻止市场抛售。"
     },
     {
-     "from": "3700168d-1",
-     "to": "3700168d-3",
-     "t": "英伟达面临美国调查及芯片违规出口问题，直接触发了全球科技股的抛售"
+     "from": "3700168d-2",
+     "to": "3700168d-1",
+     "t": "Anthropic上市与估值争议报道了华尔街因板块抛售及美联储政策信号承受下行压力。"
+    },
+    {
+     "from": "3700168d-3",
+     "to": "3700168d-1",
+     "t": "特朗普对海外数据中心与黄仁勋态度报道了英伟达股价重挫引发全球科技股抛售与人工智能泡沫担忧。"
     }
    ],
    "img": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Toronto_Financial_District_August_2017.jpg/960px-Toronto_Financial_District_August_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Arild Vågen · Wikimedia Commons · CC BY-SA 4.0",
-    "kind": "B"
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+    "credit": "BBC World",
+    "kind": "A"
    },
    "heat": {
     "score": 5,
@@ -1958,7 +1959,7 @@
      "views": 2,
      "ratio": 0.5
     },
-    "at": "2026-11-21T08:28:42.568Z"
+    "at": "2026-11-21T16:53:26.229Z"
    }
   },
   {
@@ -2307,9 +2308,9 @@
     "stories": 13,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-21T08:29:25.021Z"
+    "at": "2026-11-21T16:54:11.745Z"
    }
   }
  ],
- "updated": "2026-11-21T08:29:25.021Z"
+ "updated": "2026-11-21T16:54:11.746Z"
 }

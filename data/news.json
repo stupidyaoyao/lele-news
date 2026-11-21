@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-21T08:29:32.124Z",
+ "updated": "2026-11-21T16:54:13.467Z",
  "ai": "gemini",
  "aiStatus": "ok",
  "feeds": [
   "OK   南洋商报: 1",
   "OK   南洋商报·新闻: 0",
-  "OK   星洲日报: 13",
+  "OK   星洲日报: 8",
   "OK   东方日报: 12",
-  "OK   中国报: 7",
+  "OK   中国报: 8",
   "OK   马来西亚财经: 0",
   "OK   联合早报: 20",
   "OK   联合早报·财经: 0",
@@ -57,6 +57,1776 @@
  ],
  "items": [
   {
+   "id": "07601b60021e",
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+   "source": "BBC World",
+   "feed": "BBC World",
+   "cat": "world",
+   "published": "2026-11-21T16:35:15.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "联邦调查局数据库疑遭黑客入侵",
+   "key": "联邦调查局刑事数据库安全受关注",
+   "score": 3
+  },
+  {
+   "id": "5236383aa1a5",
+   "title": "India’s opposition stages protests against Meta over account removals",
+   "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T16:14:01.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "印度反对派就账号被封针对Meta举行抗议",
+   "tags": [
+    "科技公司",
+    "国际政治"
+   ],
+   "short": "印度反对派抗议Meta封号",
+   "key": "印度青年大会党向Meta发出最后通牒",
+   "score": 2
+  },
+  {
+   "id": "b05aac0dc135",
+   "title": "Coach, Ralph Lauren defy China slump",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRndCazNLZlMxT0xyaWU5VWNrd1ZGT3k2dWxIbERCVTRyMmhiWXQ0aGFObWVNUjR6bkdxWm5HSFdkY0lDWWRPY1M4Y0VldFRId2tpUmdCNmdVS2dxU2lBaXJqNFFVWkVpNWphQXpXdTUtNzZnd2ZmUnplNFNEOHl1TFd1X1ZncGMxcUxHNlVabEN3N0RaYjFlMG9kcDk?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "china",
+   "published": "2026-11-21T16:09:47.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "蔻驰与拉夫劳伦逆势而上抗衡中国市场低迷",
+   "tags": [
+    "中国经济",
+    "经济"
+   ],
+   "short": "奢侈品牌逆势抗衡中国低迷",
+   "key": "蔻驰与拉夫劳伦在中国市场表现强韧",
+   "score": 2
+  },
+  {
+   "id": "221cd0d83698",
+   "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T16:03:16.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "在墨西哥被捕的疑似贩毒集团头目“埃尔查帕”伊西德罗是谁？",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "墨西哥毒枭伊西德罗落网",
+   "key": "美墨通缉要犯在墨西哥落网面临毒品指控",
+   "score": 3
+  },
+  {
+   "id": "89298d3b7fb0",
+   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "source": "TechCrunch",
+   "feed": "TechCrunch",
+   "cat": "tech",
+   "published": "2026-11-21T16:00:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "将面部人工智能版本售予微短剧初创公司是好莱坞的未来吗？",
+   "tags": [
+    "人工智能",
+    "科技公司"
+   ],
+   "short": "面部人工智能版权引发好莱坞担忧",
+   "key": "演员授权面部给微短剧引发对未来的讨论",
+   "score": 3
+  },
+  {
+   "id": "ac2e64a2c435",
+   "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+   "url": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T16:00:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "亚马逊首款数码相框在黑色星期五期间最高折扣达百分之五十",
+   "tags": [
+    "科技公司"
+   ],
+   "short": "亚马逊数码相框黑五半价",
+   "key": "黑色星期五期间智能相框大幅降价促销",
+   "score": 2
+  },
+  {
+   "id": "c3012d485eca",
+   "title": "Countries race to secure Cop31 deal",
+   "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T15:52:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+   "tags": [
+    "气候",
+    "能源",
+    "国际政治"
+   ],
+   "short": "各国力争达成气候协议",
+   "key": "气候大会因谈判陷入胶着而超出原定日程",
+   "score": 4,
+   "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。",
+   "impact": {
+    "my": "可能间接影响我国未来的绿色经济转型政策及相关出口合规要求。",
+    "sea": "可能对区域各国的碳减排目标和绿色能源投资政策产生导向影响。",
+    "world": "可能为主权国家的长期气候承诺和全球能源转型路线图带来关键指引。"
+   },
+   "detailTried": true,
+   "imgTried": true
+  },
+  {
+   "id": "117d5b34db74",
+   "title": "US midterms 2026: What happens before the new Congress takes office?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/us-midterms-2026-what-happens-before-the-new-congress-takes-office?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T15:49:32.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "美国二零二六年期中选举：在新国会就职之前会发生什么？",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "美国期中选举后的权力过渡",
+   "key": "剖析美国国会选举结果出炉至新议员上任前的政坛局势",
+   "score": 3
+  },
+  {
+   "id": "0c81e79704f0",
+   "title": "French presidential candidate blames media for racist attack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/french-presidential-candidate-blames-media-for-racist-attack?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T15:46:18.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "法国总统候选人将种族主义袭击归咎于媒体",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "法总统候选人指责媒体",
+   "key": "法国总统大选候选人公开批评媒体引发争议",
+   "score": 2
+  },
+  {
+   "id": "543bd2973fb7",
+   "title": "Indian Christian leaders warn of rising attacks in West Bengal",
+   "url": "https://www.straitstimes.com/asia/south-asia/indian-christian-leaders-warn-of-rising-attacks-in-west-bengal",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "world",
+   "published": "2026-11-21T15:45:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "印度基督教领袖警告西孟加拉邦袭击事件不断增加",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "印西孟加拉邦袭击增加",
+   "key": "当地基督教组织记录多起针对性袭击事件",
+   "score": 2
+  },
+  {
+   "id": "ae393107aeab",
+   "title": "EU and Indonesia sign trade deals to open markets and secure supply chains",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGQ0cXQ4UTVWcVVpRnZjTUFnMklESFg4b2xGVi1nLTFOQXUwQldWVGtBVGd3b2dTbG1jR2pWS3dKb05DbjRQdDlMNHFFRzFQLXJHTzlVY3hwd2dBeXpvQllUQUQ2a1h5SkhQTmY4UG1PRFl6N2RBWGo3ZDM2U29lNWNkRjJnNm90dUZxTlJyMUFOd3ZxY0FxSHFJNUZsMjJOMGdLRWZqOUtaOVpUWDBCUFpxbERKemtxNmJqSWdsWFNuenZac3MzYmhxdWp5aV91bDgxVUdzV2o?oc=5",
+   "source": "INSIGHT EU MONITORING",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T15:25:21.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
+   "tags": [
+    "东盟",
+    "印尼",
+    "贸易"
+   ],
+   "short": "欧盟印尼签署贸易协议",
+   "key": "欧印双边贸易协议旨在巩固供应链稳定",
+   "score": 4,
+   "sum": "欧盟与印度尼西亚正式签署贸易协议，旨在进一步开放彼此市场并确保关键供应链的安全。此举标志着双方在深化经贸合作与应对全球供应链风险方面迈出重要一步。",
+   "impact": {
+    "my": "可能促使大马企业关注区域贸易格局变化，并在出口欧洲或印尼时面临更紧密的竞争或供应链调整压力。",
+    "sea": "可能提振东南亚区域的贸易活跃度，并吸引更多欧洲资本流入印尼等东盟市场。",
+    "world": "可能进一步巩固欧洲与新兴经济体之间的双边贸易网络，缓解部分全球供应链碎片化风险。"
+   },
+   "detailTried": true,
+   "imgTried": true
+  },
+  {
+   "id": "e1fabe30b917",
+   "title": "Bitcoin rises over 2% to more than $60,000",
+   "url": "https://www.channelnewsasia.com/business/bitcoin-rises-over-2-more-60000-6571851",
+   "source": "CNA Business",
+   "feed": "CNA Business",
+   "cat": "finance",
+   "published": "2026-11-21T15:24:55.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "比特币上涨逾百分之二并突破六万美元",
+   "tags": [
+    "加密货币",
+    "经济"
+   ],
+   "short": "比特币涨超2%破六万",
+   "key": "加密货币市场回暖带动比特币价格攀升",
+   "score": 4,
+   "sum": "加密货币市场迎来反弹，比特币盘中涨幅超过百分之二，价格重新站上六万美元关口。市场情绪的改善吸引了部分资金重新流入数字资产板块。",
+   "impact": {
+    "my": "可能带动国内加密货币投资者的交易情绪升温，并间接影响本地数字资产交易所的成交量。",
+    "sea": "可能提振东南亚地区的虚拟货币交易活跃度。",
+    "world": "可能增强全球投资者对高风险数字资产的信心，带动整个加密货币市场短期波动。"
+   },
+   "detailTried": true,
+   "detail": [
+    "比特币价格近期出现回升，涨幅超过百分之二，并成功突破六万美元大关。",
+    "加密货币市场的最新波动引起了投资者和市场观察人士的广泛关注。",
+    "相关报道涵盖了亚洲及全球多个主要市场的商业与财经动态。",
+    "分析指出，数字资产的价格走势仍受到宏观经济情绪和市场供需的影响。",
+    "读者可通过各大新闻平台随时追踪最新的金融行情与市场分析。"
+   ],
+   "img": {
+    "src": "https://dam.mediacorp.sg/image/upload/s--bKak8Pxg--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-21T152455Z_1_LYNXNPEMAK0D5_RTROPTP_3_FINTECH-CRYPTO-BITCOIN.JPG?itok=XHMQSHEt",
+    "credit": "CNA Business",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "a1b6e93c1720",
+   "title": "EU and Indonesia sign trade deal",
+   "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-rdf",
+   "source": "DW",
+   "feed": "DW",
+   "cat": "sea",
+   "published": "2026-11-21T15:21:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "欧盟与印尼正式签署自由贸易协定",
+   "tags": [
+    "东盟",
+    "印尼",
+    "贸易"
+   ],
+   "short": "欧盟印尼签自贸协定",
+   "key": "涵盖7.3亿人口承诺降低关税",
+   "score": 4,
+   "sum": "欧盟与印尼经过近十年谈判后，正式签署了一项涵盖7.3亿人口的自由贸易协定。该协定旨在降低关税并带来新的投资机会，随着全球经济紧张局势加剧，欧盟正借此多元化其贸易关系。",
+   "impact": {
+    "my": "可能会为区域供应链和贸易带来新机遇。",
+    "sea": "可能会促进东盟与欧盟的经贸往来。",
+    "world": "可能会推动全球贸易多元化发展。"
+   },
+   "detailTried": true,
+   "detail": [
+    "欧盟与印尼于周六正式签署自由贸易协定，被形容为双方经济关系开启新篇章。",
+    "该协定名为印尼与欧盟全面经济伙伴关系协定，并辅以投资保护协定，旨在减少贸易壁垒。",
+    "经过近十年的艰难谈判，双方最终达成这项协议，将涵盖电动汽车、电子产品和医药等战略领域。",
+    "协议生效后，欧盟对印尼出口的大约百分之九十八商品将免除关税，预计每年可为欧洲企业节省超过六亿欧元。",
+    "印尼的棕榈油、鞋类和纺织品等主要出口产品也将从中受益，协定中同时纳入了关于可持续发展的专门合作机制。",
+    "欧盟委员会主席冯德莱恩表示，在其他地区选择关闭大门时，欧盟始终保持开放，以减少对单一经济伙伴的依赖。",
+    "接下来，该协定尚需获得欧洲议会批准以及印尼当局的核准程序，预计将于二零二七年正式实施。"
+   ],
+   "imgTried": true
+  },
+  {
+   "id": "ab0e3076d458",
+   "title": "Alaska, your next governor is a Wikipedia nerd",
+   "url": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd/",
+   "source": "TechCrunch",
+   "feed": "TechCrunch",
+   "cat": "world",
+   "published": "2026-11-21T15:18:29.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "阿拉斯加州长当选人曾是维基百科资深编辑",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "新州长是维基控",
+   "key": "编辑次数超过1.3万次",
+   "score": 2
+  },
+  {
+   "id": "ac3f47852a51",
+   "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "world",
+   "published": "2026-11-21T15:15:30.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+   "tags": [
+    "俄乌",
+    "战争冲突",
+    "国际政治"
+   ],
+   "short": "特朗普不满欧洲援乌",
+   "key": "建议欧洲将资金用于自身需求",
+   "score": 4,
+   "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
+   "impact": {
+    "my": null,
+    "sea": null,
+    "world": "可能会影响西方盟友对乌克兰的后续资金援助策略。"
+   },
+   "detailTried": true,
+   "detail": [
+    "乌克兰总统泽连斯基表示，美国总统特朗普在柏林的盟友会议上透露，欧洲在乌克兰战争上投入了巨额资金。",
+    "特朗普指出，若俄乌达成和平协议，欧洲可以将这些庞大开支转用于满足自身的国内需求。",
+    "泽连斯基对俄罗斯总统普京寻求外交解决战争的诚意持怀疑态度，认为对方并未表现出真正的妥协意愿。",
+    "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，强调当地是乌军付出惨重伤亡代价坚守的土地。",
+    "英国国防大臣斯蒂尔曼在此期间访问基辅，并严厉谴责俄罗斯近期对乌克兰平民基础设施的轰炸及侵犯波兰领空的挑衅行为。",
+    "泽连斯基表示愿意出席下个月由美国主办的二十国集团峰会，并期待与普京举行直接对话以推动和平进程。",
+    "各方正努力协商新一轮和平谈判的议程与时间表，美国和盟友也计划进一步加强对乌克兰的实质支持。"
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "94094b4df714",
+   "title": "Kuching man outsmarts investment scammers, walks away with RM6,000 ‘profit’",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92eTFRM1NIQllRdlVxdVhXX0tMbVpWTGVWVC1DazUtQnBOTVpwWWZsbjRoM0djUGU4Uld0YmN2TEc2ZjlfVWxsNWFhNU1jc0I0ZHdQUFFETmRvMUc2YThGOUNaMmNMQ1JfM3pWcEQ3Q2dCQQ?oc=5",
+   "source": "MySinchew",
+   "feed": "星洲日报",
+   "cat": "malaysia",
+   "published": "2026-11-21T15:07:34.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "古晋男子智斗投资诈骗分子，反赚6000令吉",
+   "tags": [
+    "马来西亚政治",
+    "经济"
+   ],
+   "short": "古晋男智斗骗子反赚",
+   "key": "成功识破骗局并拿走利润",
+   "score": 2
+  },
+  {
+   "id": "f39079c7c71e",
+   "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+   "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T15:01:18.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "霍尔木兹海峡油轮遭袭，伊朗收紧航运管控",
+   "tags": [
+    "中东",
+    "油轮",
+    "战争冲突"
+   ],
+   "short": "霍尔木兹海峡油轮遭袭",
+   "key": "两起海上事件引发航运担忧",
+   "score": 4,
+   "sum": "英国海上机构报告称，阿曼附近发生两起油轮遭袭事件。与此同时，伊朗方面表示一艘油轮因水雷起火，地缘政治紧张局势进一步加剧。",
+   "impact": {
+    "my": "可能会对国际油价和能源进口成本产生间接影响。",
+    "sea": "可能会增加区域内的海运风险与航运成本。",
+    "world": "可能会推高国际原油价格并引发中东供应链担忧。"
+   },
+   "detailTried": true,
+   "detail": [
+    "英国海上贸易行动中心报告称，阿曼附近的霍尔木兹海峡发生多起油轮遭不明抛射物袭击的事件。",
+    "与此同时，伊朗海军指称一艘油轮在海峡东部的管制区域内触雷起火，并指责该船关闭识别设备且无视警告。",
+    "自今年二月底美以对伊朗发动攻击以来，德黑兰不断收紧对霍尔木兹海峡这一全球重要原油运输通道的航运管控。",
+    "据半岛电视台报道，过去一周内已发生约二十五起类似油轮受袭事件，显示局势正在急剧恶化。",
+    "伊朗方面强调，任何船只通过该海峡都必须严格遵循伊方指定的路线并与其全面协调，否则将面临袭击或触雷风险。",
+    "分析指出，德黑兰此举意在释放信号，即若自身无法出口石油，其他国家也休想顺利通行。",
+    "美国则通过封锁伊朗港口并派遣海军护航进行回应，令这条全球能源供应要道的安全形势面临严峻挑战。"
+   ],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261013__D3722EZ__v1__HighRes__UaeIranUsIsraelWarHormuzShipping-1795270231.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "a9f34b76fcc6",
+   "title": "Can Anthropic afford to put safety first?",
+   "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T15:00:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "人工智能实验室Anthropic能否将安全放在首位？",
+   "tags": [
+    "人工智能",
+    "科技公司"
+   ],
+   "short": "Anthropic上市探讨",
+   "key": "人工智能公司上市后的安全抉择",
+   "score": 3
+  },
+  {
+   "id": "98c5e61ed5bf",
+   "title": "New EU budget proposal aims at tax gobal tech giants",
+   "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-world-4025-rdf",
+   "source": "DW",
+   "feed": "DW",
+   "cat": "world",
+   "published": "2026-11-21T14:58:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "欧盟新预算提议对大型科技公司征收3%的数字税",
+   "tags": [
+    "科技公司",
+    "经济",
+    "贸易"
+   ],
+   "short": "欧盟拟对科技巨头征税",
+   "key": "法国已对该提案表示反对",
+   "score": 3
+  },
+  {
+   "id": "691eb797ab10",
+   "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
+   "url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T14:55:28.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "安克无线耳机降至历史最低价",
+   "tags": [
+    "科技公司"
+   ],
+   "short": "无线耳机降至新低",
+   "key": "多电商平台推出促销优惠",
+   "score": 1
+  },
+  {
+   "id": "5b96b14a17de",
+   "title": "Asean News Headlines at 10pm on Saturday (Nov 21, 2026)",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVy1tZzE1U252a0tma1dEMFl3aUpISGRnR2RRMXkxV1NwclFfSHBYbWVUeVJHc0o4VENYUnJ0eVNxQl9VWGYwZ1dOZVdnY0lMVVJIUEtaZV8zZjBkWVJVSHllRjlrdHdRV2tXQ2c3WHlpM0c3WllweVotV2VNSkthdUJNY05SZkRaekh6ZTBLQ3VuT3ZoSzF0eFFTazV0a1dFdTdocEtxNWV4d3ZBUHZld3ZodndEdw?oc=5",
+   "source": "The Star",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T14:54:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "东盟新闻头条摘要",
+   "tags": [
+    "东盟"
+   ],
+   "short": "东盟晚间新闻摘要",
+   "key": "东盟地区重点新闻汇总",
+   "score": 2
+  },
+  {
+   "id": "b37aa131ca66",
+   "title": "UK’s Princess Catherine explores life after cancer in ‘personal documentary’",
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/uk-s-princess-catherine-explores-life-after-cancer-in-personal-documentary",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "world",
+   "published": "2026-11-21T14:47:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "英国凯特王妃推出个人纪录片探讨抗癌生活",
+   "tags": [],
+   "short": "凯特王妃推纪录片",
+   "key": "纪录片将于BBC播出",
+   "score": 1
+  },
+  {
+   "id": "cbeed7399dad",
+   "title": "Russia strikes Zelenskyy's hometown, killing 2",
+   "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+   "source": "DW",
+   "feed": "DW",
+   "cat": "world",
+   "published": "2026-11-21T14:44:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "俄军空袭泽连斯基家乡致2人死亡",
+   "tags": [
+    "俄乌",
+    "战争冲突",
+    "国际政治"
+   ],
+   "short": "俄军空袭泽连斯基家乡",
+   "key": "此前普京誓言对刻赤大桥袭击做出回应",
+   "score": 3
+  },
+  {
+   "id": "cdf73407c7b6",
+   "title": "Global Stock Markets Plunge as AI Sell-Off Spreads",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XMzlhZG9YdG1QS21EcHRpUHpseU9EYzJhYWtCQ1h0aFJXRWpZLVl6S0Q5MWFQRV9vX0tBbEVGeW1pZmJoUWJQN3NtNlBQVnNJNDFOMEJ2VTM3R1F2eFZWSFlsSjRKNUVxOWFsSW8yVEFRRHlTZ1JqcHZVVmg?oc=5",
+   "source": "STL.News",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T14:42:46.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "人工智能板块遭抛售，全球股市遭遇重挫",
+   "tags": [
+    "股市",
+    "人工智能",
+    "科技公司"
+   ],
+   "short": "人工智能抛售致股市跌",
+   "key": "全球股市随科技股下跌而大跌",
+   "score": 4,
+   "sum": "由于人工智能相关股票遭到抛售，全球股票市场集体大跌。科技板块的下挫引发了投资者的恐慌情绪，并迅速蔓延至全球主要金融市场。",
+   "impact": {
+    "my": "可能会拖累马股科技板块表现，引发外资短线流出情绪。",
+    "sea": "可能会引发东南亚区域股市的骨牌效应，导致科技股受压。",
+    "world": "可能会动摇全球资本市场对人工智能板块的估值信心。"
+   },
+   "detailTried": true,
+   "imgTried": true
+  },
+  {
+   "id": "9dbc27ab9aa4",
+   "title": "Trump ancam kenakan cukai tinggi terhadap syarikat AS bina pusat data di luar negara",
+   "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/21/trump-ancam-kenakan-cukai-tinggi-terhadap-syarikat-as-bina-pusat-data-di-luar-negara",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "world",
+   "published": "2026-11-21T14:41:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "特朗普威胁对在海外建数据中心的美国企业征收高额关税",
+   "tags": [
+    "中美关系",
+    "人工智能",
+    "科技公司"
+   ],
+   "short": "特朗普拟对海外数据中心征税",
+   "key": "旨在应对与中国在人工智能领域的竞争",
+   "score": 4,
+   "sum": "美国总统特朗普警告称，将对在海外建设数据中心的美国公司征收高额关税。此举旨在将人工智能基础设施留在美国本土，以应对来自中国的激烈竞争。",
+   "impact": {
+    "my": "可能会影响跨国科技巨头在大马及东南亚布局数据中心的策略。",
+    "sea": "可能会改变区域内作为数据中心投资目的地的吸引力。",
+    "world": "可能会重塑全球科技供应链布局，并加剧中美科技竞争。"
+   },
+   "detailTried": true,
+   "detail": [
+    "美国总统特朗普于星期五在白宫简报会上威胁，将对在海外建设数据中心的美国企业征收高额关税。",
+    "特朗普明确表示不允许企业将数据中心设在国外，若执意这么做就必须缴付沉重的税款。",
+    "由于相关权力归国会所有且政权将交接，目前尚不清楚特朗普将如何动用权力落实这项关税政策。",
+    "随着公众对美国本土数据中心的反感，民主党在今月选举中因该议题获胜，但特朗普依然坚定支持人工智能产业。",
+    "特朗普警告称，若不在国内建设，这些设施将被中国全面接管，从而在人工智能主导权竞争中占据优势。",
+    "特朗普透露，他本周在深圳与中国国家主席习近平会面时，双方已就人工智能的共同防护措施达成一致协议。",
+    "美国财政部长斯科特·贝森特此前向美国消费者新闻与商业频道证实，美中双方同意未经人类介入不得发起重大军事行动。"
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/9b27852c-donald-trump-1.jpg",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "e4882d301716",
+   "title": "Zahid wants Mara, UiTM Business Club to forge strategic ties",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVDgwRC11WmlYUmpkRTJTUk5VNjltSG5mVjRjNTMyOUlTT1NPQVlkVVpZQ2dEb2o1U3RVZEJpc1lWcTFEUnN4emZpMzUyMVg5UGg4VjhqUmxJbTJWSE1pRWxPUXJCcXZtb0xORHRJRjFSNm9HblNWXzNmanFYTHRhc19IcnRGMllFUXZyN1RzTXNiOHZvVjFTOWh6ZFdTZkFiWmM3VDB3TjFySDA?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "malaysia",
+   "published": "2026-11-21T14:30:17.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "扎希德希望玛拉与玛拉工艺大学商会建立战略合作",
+   "tags": [
+    "马来西亚政治",
+    "经济"
+   ],
+   "short": "扎希德促建立商会合作",
+   "key": "加强商业与教育机构战略联系",
+   "score": 2
+  },
+  {
+   "id": "28fbee9e2423",
+   "title": "Indonesian customs foils attempts to smuggle 25.8kg of gold to Malaysia",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/21/indonesian-customs-foils-attempts-to-smuggle-25-8kg-of-gold-to-malaysia",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "malaysia",
+   "published": "2026-11-21T14:27:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "印尼海关粉碎走私25.8公斤黄金至马来西亚图谋",
+   "tags": [
+    "黄金",
+    "马来西亚政治",
+    "汇率"
+   ],
+   "short": "印尼查获走私黄金往大马",
+   "key": "8名嫌疑人落网包括大马人",
+   "score": 3
+  },
+  {
+   "id": "259065afb1fc",
+   "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/mexico-captures-drug-kingpin-on-fbi-s-most-wanted-list",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "world",
+   "published": "2026-11-21T14:19:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "墨西哥抓获联邦调查局头号通缉令毒枭",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "墨西哥抓获头号毒枭",
+   "key": "在锡那罗亚州成功落网",
+   "score": 2
+  },
+  {
+   "id": "4991569db8b4",
+   "title": "Seremban City Council: No delay in CCC issuance; submit undertaking letter first, hand over strays within 30 Days",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GZXlwWDB2UTViUmNCNmlvRVQ2S3N0WnktZERJWDB0OS13MV9ENWNsNXNud3Z3UnpsV0kteFdLLUdpY1pwWV9MNlpXbjFKZDhHWkVKa3U3M2FNckNHdWU0R056Z3FyT0F1V0VtV2FmZGdxdw?oc=5",
+   "source": "MySinchew",
+   "feed": "星洲日报",
+   "cat": "malaysia",
+   "published": "2026-11-21T14:17:04.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "芙蓉市政厅：入伙纸发放不延误，须先交承诺书",
+   "tags": [
+    "马来西亚政治",
+    "房地产"
+   ],
+   "short": "芙蓉市政厅发入伙纸",
+   "key": "需按规定提交承诺书处理",
+   "score": 2
+  },
+  {
+   "id": "858ce2cb6cc9",
+   "title": "Could Iran reverse its stated policy of a civil-only nuclear programme?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/could-iran-reverse-its-stated-policy-of-a-civil-only-nuclear-programme?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T14:15:36.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "伊朗内部正就核武器政策进行重大战略辩论",
+   "tags": [
+    "国际政治",
+    "中东"
+   ],
+   "short": "伊朗考虑调整核政策",
+   "key": "核计划面临重大战略辩论",
+   "score": 3
+  },
+  {
+   "id": "3aae0abca4b0",
+   "title": "Jerusalem Daily: Gaza faces deadly strikes and health crisis",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/jerusalem-daily-gaza-faces-deadly-strikes-and-health-crisis?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T14:06:06.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "加沙地带面临致命空袭与严重卫生危机",
+   "tags": [
+    "战争冲突",
+    "中东"
+   ],
+   "short": "加沙遭致命空袭",
+   "key": "当地陷入人道危机",
+   "score": 3
+  },
+  {
+   "id": "9e3907811903",
+   "title": "Akmal shoots down MCA Youth’s call to revive local council elections",
+   "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/21/akmal-shoots-down-mca-youth-s-call-to-revive-local-council-elections",
+   "source": "Free Malaysia Today",
+   "feed": "Free Malaysia Today",
+   "cat": "malaysia",
+   "published": "2026-11-21T14:06:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "巫统青年团长反对马华青年团恢复地方议会选举呼吁",
+   "tags": [
+    "马来西亚政治"
+   ],
+   "short": "巫统反对恢复地方选举",
+   "key": "国阵内部因地方选举再起争端",
+   "score": 2
+  },
+  {
+   "id": "e74727ec8af7",
+   "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T14:00:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "Chess.com推出包含麻将和数独等经典游戏的新平台",
+   "tags": [
+    "科技公司"
+   ],
+   "short": "棋牌网站推出新游戏",
+   "key": "纳人麻将与数独等经典玩法",
+   "score": 1
+  },
+  {
+   "id": "399151da1cda",
+   "title": "Turkey dismisses Malaysia’s announcement of Rohingya resettlement",
+   "url": "https://www.straitstimes.com/asia/se-asia/turkey-dismisses-malaysias-announcement-of-rohingya-resettlement",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "malaysia",
+   "published": "2026-11-21T13:55:25.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "土耳其驳回马来西亚关于罗兴亚人重新安置的宣布",
+   "tags": [
+    "马来西亚政治",
+    "国际政治"
+   ],
+   "short": "土耳其驳回罗兴亚安置",
+   "key": "大马官员相关宣布引发关注",
+   "score": 2
+  },
+  {
+   "id": "af76f7f65e34",
+   "title": "Rail services resume on Crimea Bridge",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV2RlenRnTm5jRFExanV2UEQyWVFqU1dFaG5uVURxa3IzSlloZnRFRm1xZzFWMEQ5cTItbG9oSVh1X0ZxV01uZTdNRGk3NVh4clZqSmJfTlZUMWpqREpRTGpFQ0lRNmdWRTN3TktYelVCWm43bE9ScFBoWlNZTXh6ZlptYU14c0lGU19HdkxHY3Ftc01nVTBqWWg2UQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T13:49:20.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "克里米亚大桥铁路服务恢复通行",
+   "tags": [
+    "俄乌",
+    "战争冲突"
+   ],
+   "short": "克里米亚大桥恢复通车",
+   "key": "铁路交通重新投入运营",
+   "score": 2
+  },
+  {
+   "id": "ccc34c916095",
+   "title": "Digital Infrastructure Associates with Agricultural Supply Chain Resilience Across China and ASEAN",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeEFqX2laS1hQdGh0b0Vkc0drUFc3UWlFeEcxa3ZoNE1uRkE5MWVsYzdUUnJ3am9TN2k2cWdwb0VkbUh6V1IxUThxTU1SSUxhNnA1U2lJQmU0SVlwNFlPYmE4aUQ2cGNZVzhHMnhTa1NCQ0M0WnhHTWNGRVlwOXg2cXlkcnM3RGtvV1lwaGl5UVR4cjV0Tzc5dklOWUEwTUdGaG5ZUGI4YzZnV3J1Nmd3TF9rdmJSTDhkM0ZKRGx2aVU?oc=5",
+   "source": "Bioengineer.org",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T13:33:14.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "数字基础设施助力中国与东盟农业供应链韧性",
+   "tags": [
+    "东盟",
+    "中国经济",
+    "经济"
+   ],
+   "short": "数码基建助农链韧性",
+   "key": "中国东盟合作加强农业供应链",
+   "score": 3
+  },
+  {
+   "id": "930d2ebedaed",
+   "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&amp;at_campaign=rss",
+   "source": "BBC World",
+   "feed": "BBC World",
+   "cat": "world",
+   "published": "2026-11-21T13:17:38.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "泽连斯基会见英国官员称克里米亚大桥袭击是公平回应",
+   "tags": [
+    "俄乌",
+    "战争冲突"
+   ],
+   "short": "泽连斯基称炸桥公平",
+   "key": "乌克兰回应俄军空袭桥梁",
+   "score": 2
+  },
+  {
+   "id": "4da8bcd23e27",
+   "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&amp;at_campaign=rss",
+   "source": "BBC World",
+   "feed": "BBC World",
+   "cat": "world",
+   "published": "2026-11-21T13:15:21.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "联邦调查局十大通缉令中的墨西哥毒枭在枪战中被捕",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "美FBI通缉毒枭落网",
+   "key": "墨西哥当局在枪战后拘捕要犯",
+   "score": 2
+  },
+  {
+   "id": "3e11c67b2837",
+   "title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+   "url": "https://www.straitstimes.com/asia/east-asia/spore-welcomes-genuine-chinese-investments-but-not-abuse-of-its-trusted-position-pm-wong",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T13:10:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
+   "tags": [
+    "新加坡",
+    "中美关系",
+    "芯片"
+   ],
+   "short": "星洲欢迎中国真诚投资",
+   "key": "星洲对中美关系保持平衡",
+   "score": 4,
+   "sum": "新加坡总理黄循财表示，新加坡欢迎来自中国的真诚投资，但绝不允许滥用其受信赖的地位。同时，他有信心新加坡凭借与美国的强韧关系能确保所需芯片供应。",
+   "impact": {
+    "my": "可能促使大马在处理中美投资及半导体产业时借鉴其平衡策略。",
+    "sea": "可能巩固新加坡作为区域中立枢纽的地位，并确保科技供应链稳定。",
+    "world": "可能体现东南亚国家在大国竞争中维持自主与开放的经贸态度。"
+   },
+   "detailTried": true,
+   "detail": [
+    "新加坡总理黄循财于11月21日表示，新加坡欢迎来自中国的真诚投资，但担忧有企业滥用信誉来规避美国的出口管制。",
+    "黄循财指出，中资企业在新加坡落地能带来技术、经济价值与就业机会，对本地而言是巨大的正面效益。",
+    "然而，美企英伟达与云计算公司“巨速国际”的争议引发关注，该公司因涉嫌违规转运芯片正接受新加坡警方与海关调查。",
+    "巨速国际前首席执行官黄艾丽因涉嫌误导警方已被禁止再次入境新加坡，此前有报道指她曾与前英伟达首席执行官黄仁勋有染。",
+    "另一起涉及新加坡洗白行为的案例，是源自中国的 ตัว人工智能初创公司 Manus 将总部迁至新加坡后，于2025年被 Meta 以20亿美元收购，但北京在2026年4月阻止了该交易。",
+    "黄循财坦言，新加坡无法全面掌握经本地销售却转运至第三国的芯片流向，这超出了本地的可视范围。",
+    "尽管如此，新加坡正与美国探讨分享情报以协助美方执法，并坚信凭借与美国的长久关系能满足自身的合法先进芯片需求。"
+   ],
+   "img": {
+    "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
+    "credit": "The Straits Times",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "57ade771289d",
+   "title": "AI cheating scandals in South Korea challenge traditional exam invigilation",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNnRteGJ0YXBaamthcmJ0aThWaUtIaFE1Q0JDcDZTY1J1WVRtaVZVVjgydzhqcEVQMENtUnNnSkE3MzEwNkhRYnVzVmlLTllLQzYyQWdyRmpMN1VOS0FqSFg2TWZSd2JfTDJ0dUhfYlNwemFmQmNBMzRjVDFkQ2J2TmliT1FtM0tYZ2FHRVpXZ0I3MEtPdUhKQllDSE9ZMDRDRVdMcGJGS1p5RFh5LUxsV2hn?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "tech",
+   "published": "2026-11-21T13:09:22.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "韩国人工智能作弊丑闻挑战传统考试监考制度",
+   "tags": [
+    "人工智能",
+    "教育"
+   ],
+   "short": "韩国考试现AI作弊",
+   "key": "传统监考面临严峻挑战",
+   "score": 2
+  },
+  {
+   "id": "8e797836f2dc",
+   "title": "‘Little room for error’: what a debt-laden cloud computing company says about the AI boom",
+   "url": "https://www.theguardian.com/business/2026/nov/21/debt-laden-cloud-computing-company-coreweave-ai-boom",
+   "source": "The Guardian Business",
+   "feed": "The Guardian Business",
+   "cat": "tech",
+   "published": "2026-11-21T13:00:01.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "负债累累的云服务公司暴露出人工智能热潮隐忧",
+   "tags": [
+    "人工智能",
+    "科技公司",
+    "经济"
+   ],
+   "short": "云端巨头折射AI泡沫",
+   "key": "高额债务引发市场担忧",
+   "score": 4,
+   "sum": "随着数据中心建设狂潮持续，背负沉重债务的云服务公司反映出当前人工智能行业急速扩张背后的财务风险。市场担忧过高的资本投入可能带来类似泡沫破裂的隐患。",
+   "impact": {
+    "my": "可能令大马的数据中心投资热潮受到审慎评估与风险关注。",
+    "sea": "可能影响东南亚地区如柔佛等地的云计算与数据中心基建融资情绪。",
+    "world": "可能加剧全球投资者对科技股估值过高及人工智能投资回报率的疑虑。"
+   },
+   "detailTried": true,
+   "detail": [
+    "全球多地正在建设大量耗资巨大的人工智能数据中心，但当地居民普遍感到不满，且技术能否带来回报仍属未知。",
+    "加密货币挖矿转型而来的 CoreWeave 被视为人工智能泡沫的缩影，其业务极易受到行业下行风险的冲击。",
+    "CoreWeave 在全球运营52个数据中心，由于疯狂举债建设导致负债高达470亿美元，其中10亿美元将在明年到期。",
+    "该公司上季度在36亿美元营收下亏损了7.09亿美元，债权人曾评估其未来五年内的违约风险超过60%。",
+    "英伟达前首席执行官黄仁勋与涉嫌中国间谍传出绯闻并离职，由于英伟达是其核心业务支柱，这为 CoreWeave 的未来增添了不确定性。",
+    "CoreWeave 的商业模式是由英伟达提供资金让其购买芯片并建设数据中心，再将计算能力租赁给 OpenAI 等人工智能巨头。",
+    "这种通过相互投资和循环融资支撑起来的供应链结构，将沉重的债务和基础设施建设风险全部压在处于中间环节的云服务商身上。"
+   ],
+   "img": {
+    "src": "https://i.guim.co.uk/img/media/4ccf3eba2b9600a32c8f0d9bd1554d5d4fe50e67/504_0_5040_4032/master/5040.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9b3df820c5581507ba81baa17bc0df23",
+    "credit": "The Guardian Business",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "10ba175a48d5",
+   "title": "The Xiaomi 18 Pro proves two screens aren’t better than one",
+   "url": "https://www.theverge.com/tech/1038562/xiaomi-18-pro-max-review",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T13:00:00.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "小米十八Pro评测证明双屏幕并非比单屏更好",
+   "tags": [
+    "科技公司"
+   ],
+   "short": "小米18Pro评测出炉",
+   "key": "双屏设计实用性受质疑",
+   "score": 1
+  },
+  {
+   "id": "2e4b91f94d5c",
+   "title": "Cargo ship runs aground off French coast",
+   "url": "https://www.france24.com/en/cargo-ship-runs-aground-off-french-coast",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:52:27.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "一艘马耳他籍货轮在法国西南部海岸搁浅",
+   "tags": [
+    "交通"
+   ],
+   "short": "货轮法国海岸搁浅",
+   "key": "当局正防范燃料泄漏风险",
+   "score": 2
+  },
+  {
+   "id": "1204031f81c5",
+   "title": "Russia tests NATO’s eastern defences",
+   "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:50:35.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
+   "tags": [
+    "俄乌",
+    "战争冲突",
+    "国际政治"
+   ],
+   "short": "俄导弹疑似落入波兰",
+   "key": "北约东翼防空面临考验",
+   "score": 4,
+   "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。",
+   "impact": {
+    "my": "可能引发令吉等新兴市场货币因避险情绪升温而出现震荡。",
+    "sea": "可能对区域供应链及国际大宗商品价格带来间接的避险情绪影响。",
+    "world": "可能加剧北约与俄罗斯的紧张关系，推升地缘政治风险溢价。"
+   },
+   "detailTried": true,
+   "imgTried": true
+  },
+  {
+   "id": "97bfc49f3b79",
+   "title": "Riemann hypothesis: Has the world’s most famous maths problem been cracked?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "tech",
+   "published": "2026-11-21T12:49:20.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "数学界最著名难题黎曼猜想可能已被人工智能破解",
+   "tags": [
+    "人工智能",
+    "教育"
+   ],
+   "short": "AI疑似破解数学难题",
+   "key": "学者利用智能工具取得突破",
+   "score": 3
+  },
+  {
+   "id": "517e76bd6677",
+   "title": "Thousands protest overs prices, education, military spending in France and Europe",
+   "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:48:46.000Z",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "ai": true,
+   "zh": "欧洲多国爆发抗议活动反对生活成本上涨与教育削减",
+   "tags": [
+    "通胀",
+    "经济",
+    "就业"
+   ],
+   "short": "欧洲爆发抗议浪潮",
+   "key": "民众不满生活成本高涨",
+   "score": 3
+  },
+  {
+   "id": "623ed4ea3033",
+   "title": "Russian crew evacuating ship hit by drones off coast of Finland",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T12:45:24.000Z",
+   "desc": "Two drones attack cargo ship that Finnish authorities say has links to Russia's armed forces.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "53c4accc2919",
+   "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+   "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:35:54.000Z",
+   "desc": "A Russian cargo ship caught fire after a drone strike in international waters in the Gulf of Finland on Saturday and later drifted into Finnish ⁠territorial waters, Finnish authorities said. Helsinki alerted NATO and imposed temporary restrictions in the area amid heightened tensions in the Baltic Sea.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "e6b4a40b75a9",
+   "title": "Sudan’s elderly face hardship and heartbreak in a life of displacement",
+   "url": "https://www.aljazeera.com/news/2026/11/21/sudans-elderly-face-hardship-and-heartbreak-in-a-life-of-displacement?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T12:30:49.000Z",
+   "desc": "Sudan's displaced elderly often have to support grandchildren or fend for themselves.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "196d1d3ecda7",
+   "title": "Israeli attacks on Gaza kill at least four Palestinians",
+   "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T12:29:49.000Z",
+   "desc": "Israeli drone attack kills three people in Gaza City; another is shot dead by Israeli forces in Jabalia.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "61c2bbc900cc",
+   "title": "Huawei’s Richard Yu sparks backlash with “you can sleep while driving” remark, then urges drivers to stay focused",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQnJxdk4tV2lGazkwNGJwaFVTeTZ1dW9YYUFXY2dzc0NWX3J4UFgyczNhSXIxWW9wbE9KX21TU3N3TXB2TWR0TUE4OGppR3V5TlZMdkJVR3poSUtYUXBvQ2xoRzBwTXdGR3k2ZGU3YTlsZ182N1pzMTVRVDVQcmFNSnkwYUdTRkltazFkMk5KUXQyTGdpY29wVnVDUzJ6M3E3QldmdDNSNnY4VzNpaXJEVllHUExFOWpVRVpnbVM2VjVQUG8xWDZEY2ZBSGg0UQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T12:29:35.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "1245ebe05f63",
+   "title": "US economic war on Iran backfires on own economy",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0xHNHFxSy1KblVxNU5HT1piQTJ5ZVFaOHpqUzVUejZmSXhTWWx4VWc5cFNYU2s5SklpVjVES2FEek5pdWJnb0lFRmFQY1hnU1djbHl4OHlMMVFDazQyT05ubmJpNEwzVURoSEpSM0VtZ2stUkVRTWVPbWppVmx0bXNDV1FpQQ?oc=5",
+   "source": "Mehr News Agency",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T12:27:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "01b71cce5f88",
+   "title": "Amid US-China tech rivalry, Singapore wants to be open to both: PM Wong",
+   "url": "https://www.straitstimes.com/asia/east-asia/amid-us-china-tech-rivalry-spore-wants-to-be-open-to-both-pm-wong",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T12:25:00.000Z",
+   "desc": "He cautions against a G3 world order following the historic US-China-Russia trilateral summit.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "cbf5bb4ee538",
+   "title": "Ethiopia: Tackling period poverty and stigma",
+   "url": "https://www.france24.com/en/ethiopia-tackling-period-poverty-and-stigma",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:22:44.000Z",
+   "desc": "In Ethiopia, entrepreneur Hanan Ahmed is tackling period poverty and the stigma surrounding menstruation. By producing affordable reusable sanitary pads and raising awareness in schools, she hopes to make menstrual health more accessible and help girls stay in class. Report by Awa Diouf & Guillaume Gougeon.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6c6fd53b3563",
+   "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T12:22:24.000Z",
+   "desc": "Days of heavy rain have flooded streets across Florida, forcing residents to find creative ways to get around.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "0d5ac122652d",
+   "title": "Ethiopia - Eritrea: Troops mobilise along the border",
+   "url": "https://www.france24.com/en/ethiopia-eritrea-troops-mobilise-along-the-border",
+   "source": "France 24",
+   "feed": "France 24",
+   "cat": "world",
+   "published": "2026-11-21T12:19:21.000Z",
+   "desc": "More than 200 former Tigray People’s Liberation Front (TPLF) fighters surrendered to Ethiopia’s federal military Friday, state-affiliated media reported, amid escalating border tensions with neighboring Eritrea. France 24 correspondent Tom Canetti tells us the latest.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "86b26ac47d91",
+   "title": "Mascot-mad fans flock to meet-up of 200 characters in Japan",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTzhXYlJZN0cyT0Zoa0YyN3ZqS0N6XzZQSk1JckRMZ3Z5d2lhRVBLMTNyWWpQakFUNktyaHZPakt3b2lwYzFOZlFvMjE0RFNiMHFpSlZ0WFF5emdZOFFTZ3VCWm93TzJEME1fTVVJc0dTNWJCRnlzWlkyUlNBUG5xMEVVeXNNd3M2QlZiZ2N3QlAwTU5zNUNNOHU3UTNNaFg2ZWQwctIBpAFBVV95cUxQTzhXYlJZN0cyT0Zoa0YyN3ZqS0N6XzZQSk1JckRMZ3Z5d2lhRVBLMTNyWWpQakFUNktyaHZPakt3b2lwYzFOZlFvMjE0RFNiMHFpSlZ0WFF5emdZOFFTZ3VCWm93TzJEME1fTVVJc0dTNWJCRnlzWlkyUlNBUG5xMEVVeXNNd3M2QlZiZ2N3QlAwTU5zNUNNOHU3UTNNaFg2ZWQwcg?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T12:16:09.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "df4efd650582",
+   "title": "PayerMax and ShopeePay Strengthen Strategic Partnership to Advance Digital Payment Collaboration in Southeast Asia",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81c2lTLW16d1lsY3hhZjNBSUgxZnFpcG1vbzdWNXhNN1ZPMHVFcWVjQm4zby1hZ3JKcjYxaHF1SDlSX2NrRWhzbDVodWtDYzAzTllpcFM2cmlCNGNnZHNKbFVYZ0Nva1pVUHc?oc=5",
+   "source": "Sin Chew Daily",
+   "feed": "星洲日报",
+   "cat": "malaysia",
+   "published": "2026-11-21T12:05:12.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "d74f4cc9cab7",
+   "title": "Technology at Work, Heritage for All: The \"Chinese Approach\" to Safeguarding the Leshan Giant Buddha",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBONmpUUWFPQXdqNlZMcXMxTjY5QW1iSGVxUm1zeGN5LXB2WmdqNkxFTG9tOC0xZVJmUVkzNndUYk5uMmJnWDh6SC1OTzdNaDM4M3l6NGotTXdkR1JVckVYX2FWLWR1dHJuQ0E?oc=5",
+   "source": "Sin Chew Daily",
+   "feed": "星洲日报",
+   "cat": "malaysia",
+   "published": "2026-11-21T12:05:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "8d34e4365aa3",
+   "title": "Berita popular hari ini",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMkphWmtLMU5MWnNnVGRrLUNGMWlzZVBMUXNHeDFGcXB5dVJKQmp1a2ZNQ2o0Y19Pa2xtTVlVc2FCMWFiWEFMS204czBUVDhmSkw4WEk0Rk9PbG95OGpXeTNHcnJiSGtGaWZZYjJLeEpFRGRUYlB0UVQzLUQ2a21mUkx4bzFMcFIwa0dlM3Jpc9IBjwFBVV95cUxNMkphWmtLMU5MWnNnVGRrLUNGMWlzZVBMUXNHeDFGcXB5dVJKQmp1a2ZNQ2o0Y19Pa2xtTVlVc2FCMWFiWEFMS204czBUVDhmSkw4WEk0Rk9PbG95OGpXeTNHcnJiSGtGaWZZYjJLeEpFRGRUYlB0UVQzLUQ2a21mUkx4bzFMcFIwa0dlM3Jpcw?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T12:00:26.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "e04ae421243a",
+   "title": "Azmin to take Amanah's 'big tent' proposal for GE16 to Bersatu leadership",
+   "url": "https://www.malaysiakini.com/news/889570-azmin-bersatu-open-to-considering-new-alignment-after-amanah-moots-big-tent-for-ge16",
+   "source": "Malaysiakini",
+   "feed": "Malaysiakini",
+   "cat": "malaysia",
+   "published": "2026-11-21T12:00:00.000Z",
+   "desc": "Proposal seeks to widen coalition's appeal among Malay voters.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "700e6a70db92",
+   "title": "Road to Vietnam's largest airport Long Thanh widens to 10 lanes",
+   "url": "https://e.vnexpress.net/photo/traffic/road-to-vietnams-largest-airport-long-thanh-widens-to-10-lanes-5147479.html",
+   "source": "VnExpress",
+   "feed": "VnExpress",
+   "cat": "sea",
+   "published": "2026-11-21T12:00:00.000Z",
+   "desc": "A nearly 10 km stretch of the Ho Chi Minh City-Long Thanh Expressway in Dong Nai has been widened to 10 lanes and will open to traffic on Sunday.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "264c5c071204",
+   "title": "Harbinger is building the unsexy EVs that keep the economy moving",
+   "url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+   "source": "The Verge",
+   "feed": "The Verge",
+   "cat": "tech",
+   "published": "2026-11-21T12:00:00.000Z",
+   "desc": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up […]",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "115943d969e4",
+   "title": "Mexico captures FBI-wanted cartel boss in military raid",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T11:53:56.000Z",
+   "desc": "Mexico’s military captured FBI-wanted cartel leader ‘El Chapo Isidro’ in Guasave, Sinaloa.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "c934242e81d4",
+   "title": "China’s top economic planner urges faster construction of government-funded projects",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS3drTGxtN0VuMWUxUnJid2RfQWFEYVR3TlBCNWREeHBpZ0QtVGxod2NZbFVUODFZS2tHRUU0SDVGdkV1NmJqY0Y1YXhqU0ctSVJ0a0lsWXN3RFV3QjdnZ1FQdUJvTGV0alVGT3hGRE5aSjdoV1QyM3BROHVQU0JKbzEyaVdkNlBERmxtT2tQbm9MRUlaMGM1LWJTZzlQQXZUdF8waFN6WF9XQnpad0VyaWZZRVZ2MHpDWmJXNQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T11:51:07.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "537b83570cb5",
+   "title": "New US Chip Rules Threaten Pain for Southeast Asia",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS3VtWEFIZnZSalVUZWZabUJGMHRtMGxCTFFGckNyTWVCek1hc3J4ZTFHSVpHb3RNMFF0WGkyTnp5Q0xxSThlc1BSVGEzamt6aVRvTHNkdVJ1WWRJSDM0eHdVdkFtQW5CLUtFT1Y1YkhBeWU3ZGlwSHUwOG5KV1hVV2QyVm9kTEcxdUFFOEVfX3hwZ3JwQjFrQmR3eEZSdzl5MEV5cHljdkxOaG9KMGdYYlh1V0JRSTRGekhEcmN3?oc=5",
+   "source": "Bloomberg.com",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T11:45:01.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "48e10a387b48",
+   "title": "Why is GTA VI so expensive to play?",
+   "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T11:39:03.000Z",
+   "desc": "Grand Theft Auto VI costs less than GTA V to buy, yet far more to play. AJLabs explains where the money goes.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "d1bb5aa5dd45",
+   "title": "How Indonesia is transforming public health",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT3JRekNQckFPR0haR2xUTURTN0VqRjA1eERBSzNEWmpBZEJISEg0WWpDVmp4NXB5MHpkUjhmMlc2bDV1XzdLby1IOVo2YlFsTDBuUUVpSXJMRkpBeHRYRVVMamd6SFAyMmRheVB5azBrSFh1YUdoTEt4WlBOYl9OUW1qR1hMekJPYmh2MnRXMkNod28zRXFEWg?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T11:37:30.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6b2e5d540873",
+   "title": "Gibran’s resignation: A defining test for legislative independence",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSUVpNVJocXlmU210NlFPR21wNDBBVkVPSjZfd3R5M3lXMWxhRk5xMlJxaGVCQWw1dDRPWjVKVTZ5SnV2ZjRpNy0yOUhWMXZua0NPa0d1V3BrRUdiQWMtcWctVnVsT0g3TzlpOGJlQ1FrVURCRmFCM2dZWXpGVnVnbTlwUHAzdk11R2gtTEVaNk5xZDZhUWxtXzZucmJEZ3hON0I1MTh2X0RuVFdFWVNYaVRuZEI?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T11:37:30.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6a0eab3ade2c",
+   "title": "Pakistan drop Rizwan and Masood, but back Babar and Agha in overhaul",
+   "url": "https://www.aljazeera.com/sports/2026/11/21/pakistan-drop-rizwan-and-masood-but-babar-and-agha-backed-in-overhaul?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T11:35:42.000Z",
+   "desc": "Former captains Mohammad Rizwan and Shan Masood lose Pakistan central contracts, but Babar Azam and Salman Agha backed.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "cf05d8274ad7",
+   "title": "Azeem buru podium Kejohanan Olahraga Asia",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd0V1ZFJONG8yajByUDd6YWY3cHB6SDNkMUxJaU8zaEVmTldWWHBNaDhGM0Q0N0o5UDFtWXF1RGdzVW5hYy0yelRFRVQzbnZxdUIza2R3RS01SUdfVlVxaXAxMldHWUhMYjlmRm9HcFNBYm9HSE12UUVOemp4SWN3cURvdlRUX3BIMXBoNUlKR2VPNU9jdVNQVEc5UWZxVTZu0gGmAUFVX3lxTE0tNGswcWdFSEpZT3VsZzE1VVU0ZV8wd2t1UGlQamQ5UEZvdGRGbU1XbE5ZeEJEeUYxbzVFVU1NOXJhX2ZYTnRNTnVuYlBwSV9sZG9mSVhQUFhHRkRUMjc1TE5IbXFOX1JzT0V2RU5IbUlaakt1NUI2R1RscUxYcHZVdDV1NVhyay03NG5kM2dOcU5hMElwRlRqWERNdTVXamNMNk5mT1E?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T11:28:59.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "e49ab6a7aefd",
+   "title": "At Rappler summit, human rights figures call for solidarity amid AI threats",
+   "url": "https://www.rappler.com/technology/human-rights-figures-call-solidarity-ai-threats-social-good-summit-2026/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T11:15:00.000Z",
+   "desc": "'Resistance matters, resistance can work,' Amnesty International spokesperson Agnes Callamard says",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "533df635a75a",
+   "title": "Magnitude 6.8 earthquake strikes Banda Sea near Timor-Leste",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVE1RNGYzUTNsZ1ZQUTZYa2Rfc04tdFktbUlJcVR5czBRMW1HT0tGTnVtWTV3NUhPYlRCTUluNDZoQzZtU2hldTBwdGI3VnpTUVdHQXNFcVU2RkRMWTdTT29Vc1lFeFJUNkItQTVhY21pX3I3bUpRNkh1clc2NGVBUUpyUXBBOWpaY1BiSEp3TzlENE5LbDQtUUI5dVR0QQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T11:13:20.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "24e3e49c2675",
+   "title": "Migrants caravan in Mexico walks towards US border",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/migrants-caravan-in-mexico-walks-towards-us-border?traffic_source=rss",
+   "source": "Al Jazeera",
+   "feed": "Al Jazeera",
+   "cat": "world",
+   "published": "2026-11-21T11:04:10.000Z",
+   "desc": "Around 300 migrants have crossed from Guatemala into Mexico, hoping to reach the United States.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "3f4caaf27bff",
+   "title": "US AI chip curbs could bring more data centre jobs to Malaysian contractors — Maybank IB",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TemdIZ3pxS0F3aTR3REVjR29FV3hzTDd1WTdQQjNJcjVFcEc0RG55LV81RkQ4Y2RhT0dIU3AyNEwxS1RCakFYNERMcDVINzRo?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T11:02:34.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "b537fedc25b3",
+   "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
+   "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
+   "source": "The Guardian World",
+   "feed": "The Guardian World",
+   "cat": "world",
+   "published": "2026-11-21T11:00:57.000Z",
+   "desc": "Foreign combatants in Port-au-Prince welcomed by many after years of gang control but some fear offensive could exacerbate volatile situation A bullet-peppered mural of the Haitian striker Emmanuel Sanon covers the facade of Port-au-Prince’s main football ground. But more than two years have passed since any sports stars graced the pitch. In 2024, as the surrounding city was almost entirely captured by heavily armed gangs , Sylvio Cator stadium – where football greats including Brazil’s Ronaldo and Roberto Carlos once played – also fell under criminal control, its dilapidated red and blue stan",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "ae2c47b7685c",
+   "title": "Gold Heads for Biggest Weekly Loss in Eight Months as Fed Rate Hike Bets Lift Dollar and Yields",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcjJUZ2k5bnFuMFlfYXJxZDhqYnVWUlU0cmVRdlUwV3ZkV0htS1AydzhPajN5UHNMNXA5Q3ZhTFVnemNGdFh0ZzU3YmxIRHBzd2dDSWdtU1A4NXB3T0FjYkVkYWpaZU5uU0xJSXJLbG1BY1k5czlSNWI4aUdhNl9mQ3d3RWxQVzh5ZVVPVVRCYWItOTV2Sy1EZ045YWdqbE9kTXB6Y2ptZGp1VnI2SlYzUVpGRjFPVzZYaG9uZA?oc=5",
+   "source": "Tekedia",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T10:59:53.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "109b84bc2d2c",
+   "title": "Bangladesh boosts security in bid to stem political unrest ahead of Hasina’s vowed return",
+   "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-boosts-security-in-bid-to-stem-political-unrest-ahead-of-hasinas-vowed-return",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T10:59:43.000Z",
+   "desc": "More than a dozen homes of people linked to ousted leader Sheikh Hasina’s party were set ablaze.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "dddf50db4150",
+   "title": "QR code tickets to replace MRT tokens from Jan 1",
+   "url": "https://www.bangkokpost.com/thailand/general/3358889/qr-code-tickets-to-replace-mrt-tokens-from-jan-1",
+   "source": "Bangkok Post",
+   "feed": "Bangkok Post",
+   "cat": "sea",
+   "published": "2026-11-21T10:52:00.000Z",
+   "desc": "The operator of the MRT Blue and Purple lines in Bangkok is preparing to replace traditional single-journey tokens with QR code tickets, with passengers expected to be able to test the new system from December.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "8c4d99b70fbf",
+   "title": "My Chemical Romance’s KL return drew nearly 130,000 fans over two nights, biggest stop on Southeast Asia tour, says organiser",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNMGJoWWVUeE5wcmJmaldKQ3ZYVXBHMkFqU2pLeDBwUThvaUctLTdPTXVlUG5nRS14aEpyeENJNEdaN1NVWEwzWHZfa1lob19tZGstTUNBb2dNTGsyMGdDUnFKU0VacTBqN0FCX3lGUkxKeG84WmJXX2JsU2xtdi1wMzd1MlpGYUlkRWpfS29jWUQ3RGZIam9nRnBkeXQ1eENEcmttZkpiSmJfWjJCblBGVnNxdnpiZnFwSTJ0eEpqN0JwZldhenBUNGZzZTRGMkZRd1hDQ3NDc1NUQjFFZXRyNXVzYzVwa3VBUGNCV2RfTlppOUFsN1Q5OXEzVXlmY0ZVNkJJbUlSQnB3d9IBjwJBVV95cUxOaGFBNDVSMFhNMFIyYzNoNDRrUXl4VnNFN0tfeDJWdU1KS2daUFR6eGdhR3d4aGlWMF9XVEdPbGwwaFBjSDZRcmlUeHVWeHZtS0JFQ3NWZDJocFE2WFVFM1pLYzdaR2Z6WlVGa1hFZUVzR3Q3SC1oWlBkdlNuU1FUbzc3T1VLU081a0RhY21lTGxaVVZ6RDBZM040dkphcm1uYWYydmJubHdxVHl4QldKZU1scGluN0RqeWxIOFF6X1lNRERoS3E1aE55NjBCM2RGb1lRYTR3b09mSkllaG50RTVqV245b01aeEhIZ250T3YzRloyOFpMLUkyWVFycUZ0Tzc4cFFsaFlOSnFhY09J?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T10:40:55.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "db5700303947",
+   "title": "Anthropic researcher uses AI to solve math's greatest riddle",
+   "url": "https://www.dw.com/en/anthropic-researcher-uses-ai-to-solve-math-s-greatest-riddle/a-80008428?maca=en-rss-en-world-4025-rdf",
+   "source": "DW",
+   "feed": "DW",
+   "cat": "world",
+   "published": "2026-11-21T10:29:00.000Z",
+   "desc": "The proposed breakthrough could reshape mathematical research, but still needs independent verification. It's the latest in a string of cases where AI has outpaced humans in solving famous maths problems.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "46e256de2fdd",
+   "title": "How ‘GTA VI’ surpassed all expectations",
+   "url": "https://www.bangkokpost.com/life/arts-and-entertainment/3358884/how-gta-vi-surpassed-all-expectations",
+   "source": "Bangkok Post",
+   "feed": "Bangkok Post",
+   "cat": "sea",
+   "published": "2026-11-21T10:27:00.000Z",
+   "desc": "NEW YORK - You can paint your ⁠bedroom walls. You can scuba dive ⁠and explore shipwrecks. You can go birdwatching ​and catalogue up to 62 different species. You can even rob banks and steal cars, just like in the old days &mdash; but you&rsquo;ll need to be careful, because the police are smarter now and if ​you run out of gas, well, you&rsquo;ll have to fill up the tank.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "68fa45403b90",
+   "title": "PSM nafi Syahir, Zarif sertai Liga Takraw Thailand",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd21aenh2eDd6Mlp0aHVDcExfY1I5aDVXS05FekdKcmdqSkw2SnBBdm1WTEsyN2kwQno2TTctNnJUUUtXSnJUaTdHU1V6QW8wTGFtQTk0cmI0QXlINF8wTERHZXRvVFEwRk4xWl9CMC0zS2N2RVNmVDJEbnpYN01zUGJjSmRGSEE1UHlqYkhkX3B3WE1MVldMN3NlQ1Y4OEJSODF0NjFTMlcwVEZk0gGyAUFVX3lxTE1ubDg4UFpMZTY5STNldmFKdWVPRVI0YjVFZ1ZpVXlnRW8teVNtWEhZQ29PR0d2R3pneGRjNXlqNENReTNVZnBMUGFvaFJ5eXpfNFM5R214WXNKR0dSXzI5UlNTSUJ3d19oSFYzck5xUUhOX3QtSmZGTWhMbnVFVi15RlNMVmV4RFJhdXJaTzhwdXNIWlh2a2RjRkQ0Ni10dy1wMElkbE45NndtRnRXSE1sLXc?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T10:26:29.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "ef47e97cd9ee",
+   "title": "NU extends UAAP cheerdance reign with 3-peat; UE cops historic silver",
+   "url": "https://www.rappler.com/people/athletes/nu-pep-squad-three-peat-uaap-cheerdance-competition-2026/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T10:25:10.000Z",
+   "desc": "(2nd UPDATE) The untouchable NU Pep Squad rules the UAAP Cheerdance Competition anew for a title three-peat and record-extending 10th championship, while UE wins its first silver medal in 24 years",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "81908a838592",
+   "title": "The fellowship of the grind",
+   "url": "https://www.rappler.com/people/artists/filipino-folk-singers-musicians-fellowship/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T10:15:00.000Z",
+   "desc": "'It was moving to watch, and a little shaming that, in this industry and in this country, working musicians can depend only on each other'",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "b02e30f1f298",
+   "title": "PKR open to Harapan parties using own logos in GE16",
+   "url": "https://www.malaysiakini.com/news/889569-pkr-open-to-harapan-parties-using-own-logos-in-ge16",
+   "source": "Malaysiakini",
+   "feed": "Malaysiakini",
+   "cat": "malaysia",
+   "published": "2026-11-21T10:09:46.000Z",
+   "desc": "Kamil says electoral success depends on strategy, service delivery, and candidates.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "0dd4820f71ed",
+   "title": "PH component parties using own logos in GE16 a possibility — PKR Youth chief",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fekM3Zjl2OEx3VHVhc1NkUlVIUjl6VXk4VS1ZUWRJdHFyZDYwaXFDcC1mRGJMOWxkbFZXa19tQW5ZSTROWDUyZjBtYUFDT3Ut?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T10:05:01.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "9c82b560ad7c",
+   "title": "Indonesian city Bima’s ex-narcotics chief gets 20 years’ jail for trafficking drugs",
+   "url": "https://www.straitstimes.com/asia/se-asia/indonesian-city-bimas-ex-narcotics-chief-gets-20-years-jail-for-trafficking-drugs",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T09:55:00.000Z",
+   "desc": "Malaungi also fined 500 million rupiah; Bima's former police chief faces potential life sentence.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6eee96649e05",
+   "title": "Tens of thousands flock to Japan mascot festival to meet 200 life-size cuddly characters",
+   "url": "https://www.straitstimes.com/asia/east-asia/tens-of-thousands-flock-to-japan-mascot-festival-to-meet-200-life-size-cuddly-characters",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T09:54:56.000Z",
+   "desc": "Organisers expect a turnout of 80,000, says city official.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "cf2a34ba71e3",
+   "title": "Two more tanker attacks reported near Strait of Hormuz",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWI1UjRkSGNmcDc5Y2E1LXVsdVFqbmFtWmIzT0FjQjBleDEwN2FvZjZaTTJsUnc1am16MW8tQmJYVkJWbnR3eWdjYXdzRlRmX3VyYzFkWlBKN2tnNl9JeWM2Y3NiMnBpRGNsZXRiSi1rVVVZN3VQZHNpZS1CcXdDSkNiOWlkcTJ4X25Xa0thTzh4VURIVTZjeXE3LUxiVWN5d3pGT3c0aUVOWERWVHk5NjZR?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T09:50:46.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "398adce4c4a5",
+   "title": "China commits to low-carbon electrification and help for others to improve",
+   "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
+   "source": "The Guardian World",
+   "feed": "The Guardian World",
+   "cat": "world",
+   "published": "2026-11-21T09:47:57.000Z",
+   "desc": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing for rapid electrification of its economy using low-carbon energy and will help other countries do the same, a senior member of the Chinese delegation at the Cop31 UN climate summit has said. Wang Yi, a professor of energy and environment policy at the Chinese Academy of Sciences and a senior adviser to China’s government, said: “End-use electrification is a very clear direction. We can follow this direction while making the source of elec",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "12ae0e388d5d",
+   "title": "Indonesia wins strong backing to rejoin ICAO Council after 25 years",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcTFiM0VqdkVhTlhZUWhqY2xDSzF4aWhnSzRwNy00cHpZUXYwTmNUc1IyaVoxb2RZOVhfX1dmN3g2WlFON2wxRUNQMUlYc0E5aFB2WXB5cmRCSkgyQldlNWt3TFNKVWVRZHZ6b0wyQWJRcThLT1JGaEZ2bkFtRk1lOGI3SENJQ2tRR1YxNU04S0pkYzFLalloc29HemZiR3hiRjQ1dQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T09:40:14.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "7ce64bcf6544",
+   "title": "[Perspective] What use is literature today?",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcE1yYWU4TmFtTW9pZElGcE5MeWFsX2VweVZxdl9EZ0RISU9keGNCWmdGLUNoSzlpQ1pKOTlJWjRrLWFUZFJpQ1dHODlKeExfaVRkMzFSNFJJMU1XRDFQd1B5dmx2UWJuMXgweVltSHVCU0J3OWt5ZDBuaXNoMWF3czhwN2I?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T09:37:16.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "179a125b54c1",
+   "title": "ICE detains Chinese-born Princeton PhD student at airport after neuroscience conference",
+   "url": "https://e.vnexpress.net/news/news/ice-detains-chinese-born-princeton-phd-student-at-airport-after-neuroscience-conference-5147463.html",
+   "source": "VnExpress",
+   "feed": "VnExpress",
+   "cat": "sea",
+   "published": "2026-11-21T09:36:30.000Z",
+   "desc": "U.S. immigration agents detained a Chinese-born Princeton University doctoral student at a Washington airport on Thursday as she prepared to fly home from a neuroscience conference, and her lawyers are now challenging the arrest in federal court.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "49a3559a4690",
+   "title": "Maria Ressa: Understand AI to defend ourselves from ‘predatory’ tech",
+   "url": "https://www.rappler.com/technology/maria-ressa-understand-ai-defend-ourselves-social-good-summit-2026/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T09:30:57.000Z",
+   "desc": "'For those who are saying they cannot act: Don’t fall into learned helplessness. When you are the target, you are powerful,' Rappler CEO Maria Ressa says of the fight against artificial intelligence",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "a6fe9aa44266",
+   "title": "11 dead, over 180 hospitalised after drinking illicit alcohol in India",
+   "url": "https://www.channelnewsasia.com/asia/india-alcohol-poisoning-11-dead-6571401",
+   "source": "CNA Asia",
+   "feed": "CNA Asia",
+   "cat": "sea",
+   "published": "2026-11-21T09:30:41.000Z",
+   "desc": "Deaths from illicit or adulterated alcohol are regularly reported in India, where cheap liquor sold outside regulated channels can contain methanol, a highly toxic industrial chemical.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "d96745ea2709",
+   "title": "Sumali bertanding jawatan Timbalan Presiden ISTAF",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTEt0VFotY3FseXdkb09DUWgtLTgwQlVDZlktWGNlaUd2TlNSRkJoMWhPdk9QRG13SHh3QjRWY3pxN2R1MDNyMjNGbXA1c3AxWFA4OE1vdVhvQW5QWm5YTTc1VUhkeVBCaXBCRWtxcXpQYnRUQmdwMkN1Sk9Id1ZySm5GWEtCRmFfNDdtNXZqdzd2ck1FMmR4STZJMVZVVnFIblBITmtIMmR0UTRm0gGyAUFVX3lxTE0wZkZvRF9JTkd2U0J6MU94dTUxdl9Ua0xNZDE4T25aMnZUaTJUQmpTWHRVWHIyUUwtSTcyM1YyU2J5VEIxZmdmTHpZYUgzd3pMLXlNQ0RWSFZHWGQ5UjdzWG5hMDQtNUd3VHVPMllqTlN1S1N5aERqQ2xUVWlNNVVsZDRYTjBnTkl0YUxpTXVfYTFxdVlUaDNOclY1NmtVejZGQnNfa242RnJHTXZONjU3ekE?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T09:30:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "c68f4c02b30f",
+   "title": "Latest",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9odEdJaVQtbnZWSkl2eU4zTUJ1TlFJa1VwYVlCeTdKV0k0OWpHajNYX0ZDWHMxWTgzUF81ODB4NEhUT2JPcWVjVzJpX3BjaHhjZ1JteWZpS25aVTZZS08yZVk4U3lfd21NMUE?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-21T09:00:07.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "0fba41fab517",
+   "title": "Beyond the classroom, UPLB skaters carve out space in town with no skatepark",
+   "url": "https://www.rappler.com/people/human-interest/university-of-the-philippines-los-banos-skaters-no-skatepark/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T09:00:00.000Z",
+   "desc": "While skateboarding has gained national recognition through athletes like Olympian Margielyn Didal, access to dedicated skating spaces remains a concern for local communities",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "0ca44381afed",
+   "title": "Vietnam's largest airport Long Thanh to open with flights to Hanoi",
+   "url": "https://e.vnexpress.net/news/news/traffic/vietnam-s-largest-airport-long-thanh-to-open-with-flights-to-hanoi-5147456.html",
+   "source": "VnExpress",
+   "feed": "VnExpress",
+   "cat": "sea",
+   "published": "2026-11-21T08:59:08.000Z",
+   "desc": "Vietnam Airlines and Vietjet plan to fly from the new Long Thanh International Airport to Hanoi on Dec. 24, its opening day, before adding routes to Hai Phong, Vinh and other Vietnamese cities.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "8121fe490366",
+   "title": "UOB, Kenanga cut inflation forecast to 1.8% after October figures softer than expected",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWWW9QSFpwbEtIWl9Db3p3UmFVSDY1WmRXalBEeUR6bXRIM0hlWU85V05zNVJ2dWY1dXFQYVpvMkY4bFhKLUR4M1c1TUlFVTVu?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T08:57:54.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6ccbb2da62da",
+   "title": "Crude oil falls over 3% over the week, aluminium sinks 6%, silver tumbles 16%; key factors to know",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOSE5fZTVwOUNMQjdjNDZoY29WZE9IRjFnbjJVU1lQdElOUExLdmVJTElFSGNYNVBJanpLeFB0d01TeU52WmE1c1RhZDlldktDWW1Mbk85ckdtdDhTaWl2QkVNNllYZWs3OHBxaUFDa1RlZW4wRS10TkluRndjUjc3OWhJUGhXZ29IUnhMNFZKTVRFbEtIMHBPaUNUSEU0dGh1b2F5MnFMeGdxdEtpMDM4Mi10Zy1qXzFra1ZHSEY2MkZZVzhxaUJVMjNxV2JTWWZmLUJvY3pXMmNmaTZJc1Z2eEJsQk1kTVQyeFE?oc=5",
+   "source": "Upstox",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T08:42:31.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "bb4cf7ec20c1",
+   "title": "As Trump basks in summit pomp, China’s Xi strengthens his hand",
+   "url": "https://www.straitstimes.com/asia/as-trump-basks-in-summit-pomp-chinas-xi-strengthens-his-hand",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T08:40:38.000Z",
+   "desc": "Hosting the summit offered Xi a platform to cast himself as a central player in managing global affairs, analysts said.",
+   "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "6899c4628e5c",
+   "title": "100 electric sleeper buses begin operating on three routes from Ho Chi Minh City",
+   "url": "https://e.vnexpress.net/news/news/traffic/100-electric-sleeper-buses-begin-operating-on-three-routes-from-ho-chi-minh-city-5147449.html",
+   "source": "VnExpress",
+   "feed": "VnExpress",
+   "cat": "sea",
+   "published": "2026-11-21T08:31:53.000Z",
+   "desc": "Phuong Trang Passenger Bus JSC on Saturday launched 100 electric sleeper buses on three routes connecting Ho Chi Minh City with Da Lat in the Central Highlands and Can Tho and Tra On in the Mekong Delta.",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "b41865f55a82",
+   "title": "Opinion | Why it’s a mistake to assume China is sinking into a Japan-style funk",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMGQzZGtManRzemwwd21CbGJnYXVEMU5UVlluR2IyZVVLWmdaZ2NSVXR0N3lES2lVZjZrdUZyd3ltLVdHbW5NTWV3ZTJCZ19YbTVURVhwSDRCZzYtMXNNSGlMNEZzeWg0MFFBUG5UakhjZEJMa2swUXlXTmdlS0Vwck56eE5GcE1rWFZlc252V2JpbldkazM0MGFTOExSNDJnZkJxM0dlanVhMVRtWWM2SEV5V2FnTUFGbk9jb0t30gG-AUFVX3lxTE9ab3ZmOWY1NkZEbEE2QWhRQzVZdmdLWEhyZTZfQmlzRHFoSXBfY080LVJ0SkRRVlNvMXJuRVp1WF9iYzBZQ01lOElsNWM1aFA4eXJwV0F5NmtDMW9QcGpjU2dkYXJZcFRxR3I2LU1MVlAzVW91eGRpZnp6U2ZpNTZqTmZwa20yaGRFV0NVRXFod2Y5Q3ZOMklaTHhwZnllVXg2dmQ5Z05NbTRtenYtLURuQTVzQ0ppSTY5bzZRSmc?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T08:30:06.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "63d0c0d6c4cb",
+   "title": "DAP MP's Friday prayers remarks may cost party Malay support in GE16, says Ong",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk9iN2Z5NXJvQ0c0bGNZdkpRMjlQLVlXcHFJblZHamVyZVJNRThCQnpRWGtjS2NVbGxrLUxNNnZ0QnRnM0J3bmp3dy03S1NzMmpaeEswdDNObU1LZXBraWpiV2kwNm9sZ2RmSnN6c2NVWC1aSzBSbHlUT0RUOXZ1UFU3TnNSWFkyNVZ3T0F5WHJ5WWtJcEc0c2Utcnp6ek1rbEF5YVVuNlNHTjBBV0ZBc0UtTFNhdHU5eHVuWE4ycTkyQdIBwgFBVV95cUxQWk9iN2Z5NXJvQ0c0bGNZdkpRMjlQLVlXcHFJblZHamVyZVJNRThCQnpRWGtjS2NVbGxrLUxNNnZ0QnRnM0J3bmp3dy03S1NzMmpaeEswdDNObU1LZXBraWpiV2kwNm9sZ2RmSnN6c2NVWC1aSzBSbHlUT0RUOXZ1UFU3TnNSWFkyNVZ3T0F5WHJ5WWtJcEc0c2Utcnp6ek1rbEF5YVVuNlNHTjBBV0ZBc0UtTFNhdHU5eHVuWE4ycTkyQQ?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T08:24:18.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "d5f4d08731f7",
    "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
    "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
@@ -97,6 +1867,30 @@
     "kind": "A"
    },
    "imgTried": true
+  },
+  {
+   "id": "1b1444dd8ee5",
+   "title": "Trafalgar Square Christmas tree felled in Norway",
+   "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&amp;at_campaign=rss",
+   "source": "BBC World",
+   "feed": "BBC World",
+   "cat": "world",
+   "published": "2026-11-21T08:10:03.000Z",
+   "desc": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "a49b8cf9d5b8",
+   "title": "Japan down to last captive sea otter as species remains endangered",
+   "url": "https://www.straitstimes.com/asia/east-asia/japan-down-to-last-captive-sea-otter-as-species-remains-endangered",
+   "source": "The Straits Times",
+   "feed": "The Straits Times",
+   "cat": "sea",
+   "published": "2026-11-21T08:10:00.000Z",
+   "desc": "The world’s wild sea otter population has plummeted due to overhunting for fur.",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "4c5dfccc2f5c",
@@ -154,6 +1948,30 @@
    "score": 3
   },
   {
+   "id": "e8ac6f7d2627",
+   "title": "Mainland Chinese travelling more but keeping a tighter grip on spending",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZE9Gc1kwTk5zZk9iNmZvT1J0RnFON2pNaDZUUWNhSkdsbmdhX3dtaGo5YkZVVnVYWE5yY19HVjhvN1BjTUZQZzBPZG1zZFp0OUJBOVVrUnh4TlNxdUdsTHVkVERZUTExR2hwdXlyRHZoMERLZU16bGZDSk1qa0dJRm96d0tRdnIyS0hoWUxINXY3OE5taXozWFVfRHNDcFdyRDB5VFhGNkhMN0ZmZF9hVmZVby1tM0VaVkJWNHJTcXItbmJsZTlGSmVyQXI0RVQyOFRWdDJ0d2JycHM00gHcAUFVX3lxTE5fSHpjTXFMWXBHTTI3d0x6Vnl3NFRpLXBsV1kzWXluR3RueFBwUDcxci1jVGVfX0hYaFpRbzJMaDB0Um1pNVVCdkZuaHZFOWM5emZfRmVCQzBKZExJYUJkYlZqYUhyLW5iQ3ZOMDZIUHRNMFNRbFZvemd6a0l5ci01M3BNcDZlX21YYmtORlEyQ1Rmb0U1dnV4TXZTUVJBc0lWZE1kcDRVZHJXYU5HeVdENUpkU05xOVZzR2I1ajFhYmVKcTNVM3F3T0hSWEZhSmxYVUNsZ1ltdmNnMks?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T08:00:12.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "0b10a99eea3d",
+   "title": "China’s must-have winter outfit? A US$60 down jacket from Sam’s Club",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPamtLc0l1eEYydkhHVkItSGlwbngtN0stbmxDVjRDZXhCMGpXREVZNEt5ZllGN3VKSXpoNmJYYmtkSjhNa05WYkNMTkdCclhlOGp1VDNjcndweGNfbWFvdDdZLVNtNGtBcDUxd2RudTVxajMxWW8wbkJ1M1JKNnk3Vi1Wc2l5N0pnSmd1TnpMOXdTTC1POUN3TjFPMmRZUnBzNGR0WTZFcnNGX19KNjJ1RVNyWmgwOFhNNDd6Rmg0bXBaQQ?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T08:00:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "603a0fec2f89",
    "title": "Singapore university jumps 6 places to overtake Stanford in global science ranking",
    "url": "https://e.vnexpress.net/news/news/education/singapore-university-jumps-6-places-to-overtake-stanford-in-global-science-ranking-5146615.html",
@@ -208,6 +2026,18 @@
    ],
    "short": "顺丰与八马茶业被停军采资格",
    "key": "两知名企业被中国军方暂停采购",
+   "score": 3
+  },
+  {
+   "id": "523d2a429849",
+   "title": "Trump’s Indo-Pacific Power Play: ASEAN, Quad And China",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPODBNYnpfZUNDLWZQN0RoWUxBemUxS3ktbjhnSmFibDV4Tk56eWlYZlJ6aEtfb3QzanhlRmVZVFUzQk1NbDNLWUFEckVFTGNOWUxZY19LNVYzdmxiNjdONWRyN29DcG1MU1I0WVU1bEI0c1pKQ014RGZqYnY3M243N2ltQngxTVMyQjAwU1ZXbVVmSnI3Uzl6RDlpODM?oc=5",
+   "source": "BusinessToday Malaysia",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T07:56:37.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -408,6 +2238,18 @@
    "score": 3
   },
   {
+   "id": "ff19355f0cb8",
+   "title": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+   "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
+   "source": "DW",
+   "feed": "DW",
+   "cat": "world",
+   "published": "2026-11-21T07:10:00.000Z",
+   "desc": "A 30-year-old man has been convicted of causing one of the most destructive wildfires in the history of Los Angeles. The verdict came after the case was retried.",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "4000d085b3a0",
    "title": "AS lapor 5,838 kes campak tahun ini, tertinggi sejak 1991",
    "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/21/as-lapor-5-838-kes-campak-tahun-ini-tertinggi-sejak-1991",
@@ -423,6 +2265,18 @@
    ],
    "short": "美麻疹病例创1991年来新高",
    "key": "全美47辖区通报近六千宗感染案例",
+   "score": 3
+  },
+  {
+   "id": "367dc02228a8",
+   "title": "Komtar not DAP's permanent fortress, says Parti Wawasan Negara",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWUh1aFZBcDRTXzRKRXRoenNBdUFXQnoxSE5MaWZCTkt6NjZBRTI1OEtqcURjTEpoYlNxMUFHOW1EV0cxRjhWRENGZjhCQVdOLWs0T2Y0TzJoek5DSmMyU2VkQnVvM0c0MGtOR2M5NjJMdXVFWlNiQi1OU1N2RXdxa2NvR2tmYmQ3aTNmQkFDMlc5eG1SSGY0VmJMeXZ5a1VaRjRzd0VWanlLQWRPX0k2c1VZSHBZME1v0gG4AUFVX3lxTE9ZSHVoVkFwNFNfNEpFdGh6c0F1QVdCejFITkxpZkJOS3o2NkFFMjU4S2pxRGNMSmhiU3ExQUc5bURXRzFGOFZEQ0ZmOEJBV04tazRPZjRPMmh6TkNKYzJTZWRCdW8zRzQwa05HYzk2Mkx1dUVaU2JCLU5TU3ZFd3FrY29Ha2ZiZDdpM2ZCQUMyVzl4bVJIZjRWYkx5dnlrVVpGNHN3RVZqeUtBZE9fSTZzVVlIcFkwTW8?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T07:03:53.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -500,6 +2354,18 @@
    "score": 2
   },
   {
+   "id": "9725c2fd45b6",
+   "title": "Catching up with the relentless Ronnie Lazaro",
+   "url": "https://www.rappler.com/people/actors/catching-up-relentless-ronnie-lazaro/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T07:00:00.000Z",
+   "desc": "An old friend looks back on the quiet grit and gallantry of veteran Filipino actor Ronnie Lazaro",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "2d5c5bd463e7",
    "title": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
    "url": "https://www.channelnewsasia.com/asia/indonesia-financial-services-authority-ojk-capital-market-violations-6571336",
@@ -539,6 +2405,18 @@
    "score": 2
   },
   {
+   "id": "6944e21e2787",
+   "title": "Malaysia cipta empat rekod Asia, hampiri gelaran juara keseluruhan",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUUIxUjdweFV1V1k5Ty1VNUVVZkwxbzUzRnc5Y1FROXU5aTZha0Y3SGRzcnp5MVQzMnFlUHJsRWdabUE1QXZyOE1ndUN1TW56TFRYNk1jTzFrdmxSNEc3eVBNVEZhWFYzcW9CeFBiZ3V0eUdib1NvTU5FeEIydTFYSkg2akN3UXM5YnpCTVdIbndYOGNsLUNTSHZ3OWhENXhNaFptcmlVaTVSeXUzdk5OemhpeDJmWEF5dXdQbXM1anNOd9IBxwFBVV95cUxNcEhjOEFHSjg0OUFiSDdvR3pidmhGM2VfbTBIcEo3dWVEbmtTR29zUnl3Y1RlbFBhT3dDeFRLYk5McGZsQU8tUXJHeFg1NW1vREE5UG01U2o0WlVncERadEVMZlVJdEpFUXJiOW1YaXFRVi04ekpSeGhKWWtkVnlBZWJLWDJXN3hBbllBbmxKamQ5N0tjMFdZb1FxQUp0NGR6NUVvTUl6Q2tCeV9HVjg2Z3RQb21IdXItUDc2QWNyTE9DaWJsWWMw?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T06:54:24.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "d182e2c96adc",
    "title": "MCA open to working with other parties amid complex political landscape",
    "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/21/mca-open-to-working-with-other-parties-amid-complex-political-landscape",
@@ -555,6 +2433,18 @@
    ],
    "short": "马华对政党合作持开放态度",
    "key": "张盛闻称昔日敌人也可合作",
+   "score": 3
+  },
+  {
+   "id": "b84986844e24",
+   "title": "Malaysia’s Man Wei Chong-Tee Kai Wun stun world No. 6 Indian pair to reach Hong Kong Open badminton final",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNZTY1c0daZ1VPUzB4OGFTOXBJYkRnQkRmQWpnZHVtQWhFN1A4RzBvVGN6WExZUE16dHk4N2UxdGVrQTBUdXdUY1cteEFJUTNtemlld0MyMDR4Z0hvZmt1M0RiUGtaZHdLSHV3TWlab1JWMURpV0xicXpPRF9sekNlaG9rTzh5ZmR0OVZMUElwVHlWdVl1bDZ4eHh5Q1k4Yjg3dWp0dWhxTnMyTmozVkFsdlFxV3dNQ1YzbTAxUFJkZmxiMnZmZG1Dc0lsaElyQk54dG5fT19mOHVlLWdDMHVOaTAyYkptdUg2bEx1SENBX0_SAfYBQVVfeXFMTlFBMEh0VnFXWHJBYUVyc2E3LVpoMDlLX0ZHTi12UWNDb1JVd21hSWx4VXFoX3VxT1VmS1RjMXdmMnNFNmRfNjVreDVaWjJUalhyR1Q0Um5RN2ZwaG0wNWVCLVBSdU5aTTJPSjRQdXFFTHdkM0pJdzlqbHhpXzJNaUhpYUdKSFhoMVNTLTZCTVo4Um13ZnY2Nl9uZm80M01XVzlaZUNGT1A5alFaQmw3NjEzTkZuOUdjaUU5OGdzNmI0SGRlbHM4RVAtOFNJaHg1MVNjTHg1ZmNTcHlhQVZreko4T0tIaFcxMFJYT2xfUGNFNGpQSUJn?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T06:50:51.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -593,6 +2483,18 @@
    ],
    "short": "缅难民欢迎国际法院裁决",
    "key": "难民称全世界终于知晓真相",
+   "score": 3
+  },
+  {
+   "id": "aeccbe5fc7c4",
+   "title": "Stop giving data centres cheaper coal-based electricity to protect households, says Yeo Bee Yin",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZMGdYdFh5eWFMSTl1bEI1aS1UUTkyZ3hObm9tVUF2VlZjb1pieDl6c1R2QVpUODBsOS1DaTVMZkRSaXdJc1d5UEh6M2RJRnhY?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T06:44:46.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -653,6 +2555,18 @@
    "score": 2
   },
   {
+   "id": "873fa6cbcf8c",
+   "title": "Modi participates in three Manila Summits: Pushing for tangible gains",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOY1JWakZyT1JKbmt5MWUwTjdsLU9VeFVEaV9iSkFkTXlmYlhVZWZMOEx0Y0xzQTVYSDVFSVhNOG96RTFlZFN0aXVVb190aXJRQ201UWhmc1MzdG9qM1N4NlQ3czd0NG9FUnVSWmhUYkhCcTh1eERMWFBkNVIwVjVXTDV0cnViREZrWWtSVFNjMUpBaHBoREtraEJNRlQ0a1Zvcnd4ZjBsckJPODc0czJmam1ickxWZGxoaldEZGtGVXltdzNHamNXeTN3WjVHV2xoYkJWN3Z2VmNrbS1XUC1wV1dlZWpDdjRx0gHuAUFVX3lxTFBFX3VXNXNsTlpjcG1faGlDQzUyVEhVTDROT05pemV4YTNCaUJFWHRNUG51UnN0SFphbnQtWXRNbzhoU1cweHk2SFBaZEs4Ymowc1Q5R0FfQ1NxNkFtNzdlWGtROEZvTUdnWGNaMzdQRTJ4SXY3VFd3dTJjSFYyUmdSSzA2YWdNNXh4ZHRPMjByNG9FVzhGM2RoQ2Q3YmNycFI4bjNTZVpGUVVzRWIySHNxc3N4bEhzbWpnU2ljQXpZU0hXdm1yTjRvTEFJR3pRSHdsRWRxb19jYVpxYlJFbThRN1lhb1EyZWxjVS0tYkE?oc=5",
+   "source": "The Times of India",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T06:30:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "736740a98ff0",
    "title": "Brazil’s Ex-President Bolsonaro Hospitalised With Severe Abdominal Pain",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Tcm94Ymc5Znd6SnJ4YkVXOFlaWnF1SkVsQTFFT1dqaGl1aFZWWWZCUDRnRXFwWDF2YkEyM2lZcjFxTTV6VHFkSVZOR05LVFRFbmN1VXJPYmdoZld2dHc?oc=5",
@@ -691,6 +2605,30 @@
    "score": 2
   },
   {
+   "id": "50590fafe238",
+   "title": "Ismail Lasim’s palace pledge vindicates us, Negeri Sembilan Pakatan says, urging BN and Perikatan to retract claims",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWkhTSkcxcDBkWFhnd2xWODh3RDU2U2tGSDFJeXJYQWFWb2V1TkRlc1Q2SU9QclhMbUxtSFJtRTlmQThQTnVSMGFGOEF1NnROQS12ckMtRW1QYWhQc0hmRE1MZnpIRnRlQml5dDR6MU9fakVydE9MMWw5T3FkR0xiMEZPdGJ4TWduLThYOFJlWng5WllPVDdnNFRlWV9pNjRrT2tFZDJjVnBHMVRrckxieUpvX1I2THN3N2VteS0teWo4bzVOLU9rMi1oTlhMdlZESzdFT2dDT0FBRlFDcmM3VzkzdXhwcS1QMXNQc2FvU05NLXl1Qm8tdnNMamVzTWfSAYQCQVVfeXFMTS1XckZCek5IdFFHODhWRXpXb2Z6RF9iQzdwOWdqNGRHMXFqdnUyeXVXU2d3UFFMNEFBVmVlbUVYN1M2QU90TTNOdlZVNFpQQUN0c2s4ZHNiR25wcVZKSGlqd2dQWTN2bmNTNXltZllVb18teDZoNHkzeDVLWHpUOEUwRE4xZ3NmRUxNcmItbzJVSWRBM20ySF9yd2VMUHh1V1VGaWNFOWt5cGVMOXJYNlp2cWhjamxXWGJnYlBhOW5QNlR0dHVaRHdtV0FsbFNRYV8xY0pob3pIcER1LUExYTgyVnJsQnlHbmtFSDVLSXFiX0k2ZWFCWF9pMGNVYXFBRkJNcnI?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T06:21:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "b3ddd2057ff0",
+   "title": "Dozens of Baduy families homeless after fire destroys settlement",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR2ZGcng1WWt1bmJmV1Q3V0dyRHlSbGd3VHF6RG5pRUMzdmVMWk1ORG9OeGxyUWxDc0xqM0hMbWZUdnNEb1diTENvUE5nVHBBZFVENi10eVc0U1k2ckM3LVIyeHhjVm50eGY5R2pZRU5IR3M2OW5QZUhWa3FFWkE1UVlEaUowOFBXU29IdUJ4YnBudXdvdzR0YmpnQlVPUGxXZEtYOFFLRkZ4XzlmZGpDb2xpNXlpdnFueno0cXBBd0xUOFk5U05YQ0I2Yms5OExJdU1FQUprWGtiaUhkZnBpWVpjanYzck1CMFJLdVhENVU?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T06:19:49.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "2ed299fdae02",
    "title": "Melaka River Cruise operations suspended due to low water levels and adverse weather",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9WU3l3WTZaRU1uWGd6TEtnNVRTOWNTYkUyMTFqZmNDWUdzWE9mZXVwcUJ3aVFwd0RIN3pjNTNXV0E3ck1HcE5ldE9DSXpjZmV3U1dyaGQyVUtfMjk1bVMycG1GSkFid2JVZE1uWGM1T1lndw?oc=5",
@@ -726,6 +2664,42 @@
    "short": "非政府组织促查倒大臣阴谋",
    "key": "辞职传闻引发政坛疑云",
    "score": 2
+  },
+  {
+   "id": "450261a534d9",
+   "title": "3 European Energy Stocks For Investors Watching Oil And Gas Prices",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX09yUjhob0dHblBlTS12NjZueXNCS09mTkJJVVRLOE9MQTUzOFlxTGI0RVJwQVJRdVJjeGdZVDFxam9FTngxVnRqQURrSGpVYUUxaXVrWk9Dd0xZV1lXRC1GallYb2U3QVJGcG1OWWZBd1AyTE40bWR5Y28tTnp3NjByTTR1bTVOWC0yaTlXaDlNYUdzbXc?oc=5",
+   "source": "Yahoo Finance",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T06:14:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "19ec02ced54a",
+   "title": "Dream Turns Into Reality, Farah Sees GVF As ‘Shortcut’ To Comeback",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCRUQtaFpWdURuZno0elRkSG11NlpHdVJrZXk5cUFLaXlSOEhTT19tbmJmaUtRQUVSa2wwemdTbGdxTU9ESW9YS1VGam1UTzBiNXR2Z3JTQ1k3QjhnSkJJdy1n?oc=5",
+   "source": "bernama",
+   "feed": "Bernama",
+   "cat": "malaysia",
+   "published": "2026-11-21T06:11:38.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "fd3b2c859d1c",
+   "title": "Bitcoin extends reversal from Trump election gain to hit below US$56,000",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9neGk0R1otWk42Zm1HNnltRlp6dmlnZ043R0tyZ3VTZC00UEh5S20wVE5sUGFlQVdkaFYzYmFGLUJUaUdkRGtLQmVpVHV2M0NJ?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T06:08:28.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "d2b5c336be5d",
@@ -842,6 +2816,30 @@
    "imgTried": true
   },
   {
+   "id": "892865f5e688",
+   "title": "130 test positive for drugs in Bangkok pub raid",
+   "url": "https://www.bangkokpost.com/thailand/general/3358854/130-test-positive-for-drugs-in-bangkok-pub-raid",
+   "source": "Bangkok Post",
+   "feed": "Bangkok Post",
+   "cat": "sea",
+   "published": "2026-11-21T06:00:00.000Z",
+   "desc": "Authorities raided a pub that had been previously ordered closed in Chom Thong district of Bangkok early Saturday morning and found 130 drug-abusing customers and one armed patron.",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "c7fb59b27a02",
+   "title": "Abu Dhabi OFW turns to cleaning toilets for a living after losing job",
+   "url": "https://www.rappler.com/people/human-interest/abu-dhabi-ofw-cleaning-toilets-after-losing-job/",
+   "source": "Rappler",
+   "feed": "Rappler",
+   "cat": "sea",
+   "published": "2026-11-21T06:00:00.000Z",
+   "desc": "Dubbed ‘Banyo Boy’ online, a laid-off Filipino worker in Abu Dhabi cleans toilets for AED10 to afford a new visa — sparking an outpouring of community support alongside legal warnings",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "42568df95c63",
    "title": "From streamers to ‘car sweeps’: Taipei mayoral candidates pull out all stops to sway voters",
    "url": "https://www.straitstimes.com/asia/east-asia/from-streamers-to-car-sweeps-taipei-mayoral-candidates-pull-out-all-stops-to-sway-voters",
@@ -937,6 +2935,18 @@
    "score": 3
   },
   {
+   "id": "6aff8777b018",
+   "title": "SoftBank's Son explored, no longer considering US$1 tril SK Hynix buyout — report",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41dkVHX21ELVc5bl9RSmtqX01wblFmeEJPeElFVWxBc3VQczJKLUptN0RhN2pqbFZWTUJIaTdpSmZmRG10R2JmckllajdxV2l5?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T05:56:03.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "d3016c6bb0ec",
    "title": "UN Warns Of Escalating Hostilities In And Around Yemen",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00c0pPblNqdk5TNkhuTEwxanFuc09hQU9ORmxVZ3FZNXU5UkdaV2ljSDRIT3JQQzV0ZnZQOUZPcDRGRUZvOHAxdGNwWjJKaXlLT1ZCZzRjY1VoR1R0?oc=5",
@@ -1008,6 +3018,18 @@
    "short": "东南亚六国新闻摘要",
    "key": "涵盖多国每日要闻",
    "score": 2
+  },
+  {
+   "id": "115062fae719",
+   "title": "Israeli Settler Attacks Damage Over 4,000 Trees In West Bank Olive Harvest: UN",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ta0lZanlmT1h3VmsxOWlSekdIdUprQWp2cDV2ZV9OTjBScFZEaXNKX3c1MHhuak9kQTRta2NNNDZGdnotbUExVHNlRTdUMUFqRDJFd0hBMXJMRWpB?oc=5",
+   "source": "bernama",
+   "feed": "Bernama",
+   "cat": "malaysia",
+   "published": "2026-11-21T05:55:27.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "9945f432bf6d",
@@ -1123,6 +3145,18 @@
    "short": "森希盟促撤操纵王室言论",
    "key": "指责指控涉及王室与习俗",
    "score": 2
+  },
+  {
+   "id": "438e3e51adda",
+   "title": "Wall Street Slumps on 20 November 2026 as Nasdaq Loses 5.13% and Dow, S&P 500 Enter Correction",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdEVVejZVc2QtejVwMl9fQzZOMGdRVUR4UVBsbzlqeHdlSndjLUdsSTJ1ZEozOV8tY0VObnI1R0FiUXdjQkhqU25VQnBMLVMyRDFzeTM5cmtKOThYbjY5WFVpUnBpMzdjWi1NSFFuQUt6c2NoMVdueGtoWTVIUlJQR2FJTVR0WG4xRXJQUDRPTDJiNUNNNmVuZ1pCbC1jcmh0a294dUtMbWxaVU80NkNDSUM5ckROS0huNnBhRXNpQUtLRTZtTmtKelgwT3pFQ0tCb0E?oc=5",
+   "source": "Kotak Neo",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T05:39:33.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "df4ca89ed847",
@@ -1242,7 +3276,22 @@
     "my": "若调查引发美股科技股震荡，可能间接拖累马股科技板块走势。",
     "sea": null,
     "world": "作为全球市值最高的人工智能芯片龙头，任何财务合规风波都可能引发全球科技股剧烈波动。"
-   }
+   },
+   "detailTried": true,
+   "detail": [
+    "美国芯片巨头英伟达的法律困境进一步加深，知情人士透露美国证券交易委员会正对其会计准则做法展开调查。",
+    "路透社于星期五援引两位匿名知情人士消息称，美国证券交易委员会的执法人员正在审查英伟达潜在的会计问题。",
+    "受该调查消息影响，英伟达股价在星期五盘中一度暴跌约13%，延长了当周的跌幅。",
+    "目前尚不清楚这项调查的具体启动时间以及涉及的特定会计违规细节，且调查本身并不直接代表企业存在违规行为。",
+    "许多由监管机构发起的初步查询最终可能不会采取任何执法行动，但结果仍备受市场关注。",
+    "在此之前，英伟达创始人兼首席执行官黄仁勋被曝与涉嫌中国间谍黄艾丽有染，此次会计调查无疑让陷入丑闻的公司面临更大压力。"
+   ],
+   "img": {
+    "src": "https://cassette.sphdigital.com.sg/image/zaobao/0cf882501a98a3d26743e8491c2f50c0448cbc416dc042f7b79505f1909716b6",
+    "credit": "联合早报",
+    "kind": "A"
+   },
+   "imgTried": true
   },
   {
    "id": "c636afa1b3f6",
@@ -1261,6 +3310,30 @@
    "short": "突发袭击事件报道",
    "key": "具体详情有待公布",
    "score": 1
+  },
+  {
+   "id": "f0205efa4fe3",
+   "title": "Azizulhasni bawa nama UKM ke Olimpik LA 2028 sebagai Duta Global",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcDZfUkhBVnM2QWlzQTE0VnZaLWlKNGgybk5nM3V5SXN4UWhmNUdiUk1jVnBQM3g3WU5odVozV096VHFPSHVaM0llSU9PUTlPSTNKZ1laemxfRzFYQjRieFFlT1hUb1FUQWk2eTRxT0hDd2J5ak1vblFDWWlSYzBwNWtjV3FOWnhFME91UlpaWjF5U01IZ0p6RGJjV0ZNNnc4RTd0cnp0azVFWG5qazRNajhRaTVjTzdpWDRtUV85dWbSAcYBQVVfeXFMUDJWTzVaSzVhNWF6azJYNnlyZl9aellqNnJvZjMxOEN5U25HU2Y5QkMtNDdiSlhSUWZUcFpoYU05TTkzOGQ4N29sT3pIbE1sUlVXNU1ya1FXaGdUcEtrbVE5bTMxZkVqNUVvTWQ3dW41bzBJenFBMDluUW9rMzF6RXNHYmRkM2xIbThMemgyWm5vcUdQaDNYUlM1UElQVWx6S09GTnhpWnpYcTF1ZkRkSG04dHRJRHVpRTBxZlppQkxTd3hMcE53?oc=5",
+   "source": "Berita Harian",
+   "feed": "Berita Harian",
+   "cat": "malaysia",
+   "published": "2026-11-21T05:14:57.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "bc760a220ff1",
+   "title": "Encounters with Art: Yayoi Kusama My Own Clothing, My Own World - Yayoi Kusama | NHK WORLD-JAPAN",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuOW95TWN6ZFg4V3dlNnFMbWxmQmVHc2d5QlJhWW1VaTZQcm03YkRzQTF0akJDeGFFVS1VSDRlNl9hTUJ6dmdJVFRKWVVLR3VtYWpsS3BMWS1vQ09OZkE?oc=5",
+   "source": "NHKニュース",
+   "feed": "NHK World",
+   "cat": "world",
+   "published": "2026-11-21T05:13:49.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "6000f787fc7f",
@@ -1365,6 +3438,18 @@
    "score": 3
   },
   {
+   "id": "085d84d1cbc9",
+   "title": "Azmin at Amanah convention: Delegates clap, Pakatan-Bersatu watchers take note",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSW43YUswa2JWaUd5ajZ3V2taaElneklHaVVZTWs2QmJQWngtbXJpMlZDZkpuVDlfeDNMZjhpTTUta2hyTjNudncyNmw4ckZqaDJfNEp3U3hXOTUtRjl6WjFYTWVBUWpFQXZsazNJd0h6TmJ3cG01Rm53WUZOai1xWVpXeXJGYWlCZEtERVo1TWpQd080T1cwMkpHbDlvSHZoUE4zZHJWaXNKVDFCUm56emtBVHR3eXFnMHZTZ3VLV1ZGZTIyVzNZekFidFNsV3fSAdQBQVVfeXFMTURNWWl3SGhWVURZbUMyREJRRW9LeTYtTDJNaXN5MVBfNGdYLTdaSXZQTjRKLXBfamctOXljdXBzMmZfREI0SVl5YnJKM3F5Y2Y0bFFWaXMyRWsyOGhmQjl1SzFOejJVZmhRUTJld2tIdXo4d0lTck9yemdNcjRXSjZxOEI3UWNXVnBnaEhHQk51SkkyN0FoZ0ZyT3FGV0dPOUdpNjJYR19pTzBENEtXRUFEM21mbkNZbnVFa2xJd25HRkx5aTlmZGQ5dmhZQkZ1anZzd2c?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T04:57:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "e305a5653957",
    "title": "China’s senior legislator visits Mauritius, pledges closer trade and economic cooperation",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVjJLUHkwclpRYU1pN2k3RnhYdGtybWk1UldxajRzOWdnS3VWcUFqOVpPNzBCeWlQcF9CdzluVGtSNUxLdUNFaFdiaXJOSVR3WTdQcW9ObHRUcm9Vcnd2THVRN2Fta3dTclZiXzZ4TkdOMmlsLXFoVllRX014UDE3OVdsNi1TeU1GcXdmTU9iQ3hwU3A1ampjSjNpYzRtczM5Z2dfTndZZ05meDl6RzlGWlRyVnlMSFNOVjJMbnVyM1d5ZFN2NEE?oc=5",
@@ -1377,6 +3462,18 @@
    "score": 3
   },
   {
+   "id": "e0316ccfce29",
+   "title": "Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZl83aFlGaHFEUVczbnRQYTJCbmhiWUFic2RBN0JLeVJrUy1GOG5TZDRtSzVDQ3JzT1otb3dqZlQ0X1JXc0I3Wm1CMzB2Ul9MZGlGbFVvOHEyVlo4V1NxUU5sQ0FoMTNkTUJkaXlCSFYwcE5rZGtyb2hwTkNYcVNJcGtMSzdqRFlQejUzTjFuei1PX2ZPcU5ZRw?oc=5",
+   "source": "AP News",
+   "feed": "AP News",
+   "cat": "world",
+   "published": "2026-11-21T04:55:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "e75debc60ef6",
    "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
    "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
@@ -1386,6 +3483,31 @@
    "published": "2026-11-21T04:44:00.000Z",
    "desc": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-old boy tasked others to carry out a series of arsons, home invasions and a mistaken identity kidnapping that resulted in the partial amputation of a victim’s finger during Melbourne’s hospitality wars. The boy, who was arrested on Friday afternoon, allegedly communicated with the offenders under the username “Onepercent” on the encrypted communications app Signal. Continue reading...",
    "fetched": "2026-11-21T08:12:13.269Z",
+   "score": 3,
+   "sum": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian poli"
+  },
+  {
+   "id": "63a9f0ea4997",
+   "title": "PIE Industrial bags US$99.8 mil AI server assembly order",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TLTAxc0hvcE1kanpjMWZvbE9UbkNLRmlTUEp1RzZud1FieWFUbmVWTW9yYnB1REVjcXczaDZ6X2NmczloUHBBaVFEZGdMalNZ?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T04:39:28.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "df0c2e1450b9",
+   "title": "EPF lifts 99 Speed Mart stake to 7.6pct as analysts see opportunity in price slump",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOTlMempyU2p1akdIbENoZWVkUHBnTm9KVV9vd3hfb2c4RFpnWWY5MmswMkhkbzJEOEtjMHFaZk4zb0FUcG9lYTJidWVzQ3VlbWZGbVNEY3FZN0JXN080STVnaHk0VjZhVHVYWFBDa2ZObVo3aE1mRTctV3RVZ3lBSEpURjhXMXZpMjJaOTd3aDNlMllWc1l6dzdoU3EwQ1UxTGlEQjVEeXVRWmd4TGl0OVEwTnBnVlZuamlfV1ZCZ3JjeHdFTGsxVE0wNmPSAb8BQVVfeXFMUHJ5UnJ3V2ZxTU5fTk1Ob1VnMWFfaEUxTTZHc2lPV0hoT1N3ZzAtSVUyWDRUTV9oMy1MdkptTzZ5QjVDWnVweXhWQVlHRjVsdFJGNmY2UV9FaHFoUl9LZG5TRGZzbEZzdHhsUzM1RnlLS2ZjaU5QTDlNaFRzQVU5Q1hhRXd6d0FhRW5pNGZqS0lxazNTSzhDdE14eXZSVFlMNXBZdlh4Mi1JUVFiVU53ZVduWjd5TmlZSXNPeDNJSGs?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T04:35:09.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -1398,7 +3520,8 @@
    "published": "2026-11-21T04:34:00.000Z",
    "desc": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings."
   },
   {
    "id": "ba09ee030d0d",
@@ -1410,7 +3533,8 @@
    "published": "2026-11-21T04:33:54.000Z",
    "desc": "A recap of news, sports, lifestyle, entertainment, and human interest images from the Philippines and around the globe",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "A recap of news, sports, lifestyle, entertainment, and human interest images from the Philippines and around the globe"
   },
   {
    "id": "98b243d52d22",
@@ -1422,7 +3546,8 @@
    "published": "2026-11-21T04:33:48.000Z",
    "desc": "Seorang lagi pekerja yang berada di lokasi kejadian berjaya diselamatkan tanpa cedera.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "Seorang lagi pekerja yang berada di lokasi kejadian berjaya diselamatkan tanpa cedera."
   },
   {
    "id": "e4d914df8668",
@@ -1446,7 +3571,8 @@
    "published": "2026-11-21T04:32:07.000Z",
    "desc": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "Saudi Arabia issues emergency alerts in Riyadh for third night in row, as the Houthis threaten ports and power station."
   },
   {
    "id": "381e44448d0f",
@@ -1458,7 +3584,8 @@
    "published": "2026-11-21T04:26:00.000Z",
    "desc": "The world No 9 Malaysian duo are on track to end the country's 29-year wait for a men’s doubles title at the championships.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "The world No 9 Malaysian duo are on track to end the country's 29-year wait for a men’s doubles title at the championships."
   },
   {
    "id": "234b4b3278f2",
@@ -1470,6 +3597,19 @@
    "published": "2026-11-21T04:24:00.000Z",
    "desc": "Chow Kon Yeow warns that no museum can bring back this culture once it is gone and its loss would be felt by all Penangites.",
    "fetched": "2026-11-21T08:12:13.269Z",
+   "score": 3,
+   "sum": "Chow Kon Yeow warns that no museum can bring back this culture once it is gone and its loss would be felt by all Penangites."
+  },
+  {
+   "id": "4465f8de863e",
+   "title": "Penang’s Beach Street cracks world’s top 10 coolest streets, beating New York and Kyoto",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd0tmZUhLN2g3UmotcldSREN1WUxGZUJpRnBrdktwMmVnelZnYnQ1TDN3SmZrbTJJZFdLYUptZ3dyc3Eycnh4WmZ6bGs4SktnUjZ2eUtfRUZtTURmczFBcU1qSmY1MXpDUi1iSHpIa0NuakFjYldRSEdZd1JVSjkwcmJGRHpuSUl4bkN5SG4ya2pXSHdvcnJzczRhRVhJbElsZ2duOHNjNnZQSVBmUlY4Sm9vNTFCSnV4NTZVVmFkNEhoRTBDQXYxOEpEbGJ0MmRRX2tkMNIB2gFBVV95cUxPNkV3OUp1Q0RxOWpwaFJkblZVUHBJc3YwNFo4RW00OVA5MUcwaHVJOWtBSW9OdE9qbEtybW5SVkJZalhBMUNUZVVzYWZtMWh4Y2tkOFhsRXQ5YkFkZW8taU5TTDlEdF9MSV9QM2hSZW1hc0JqQVMxQkNHSXl4STFFcjNDbG40ZUlnRUI5R0RhcExxZnlpSGRSUU5xTFpvOTZOWTFJVlpRdWwyTDUxb2FmSjhocXFUMEhJbzlXWDBvQkRiQmlYRWtCOVNnWHVFa2x5UmVYVGcxd09fdw?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T04:20:49.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -1482,7 +3622,8 @@
    "published": "2026-11-21T04:20:25.000Z",
    "desc": "HANOI, Nov 21 - Vietnam's parliament approved a law on Saturday to speed up the expropriation of land in the case of some special projects, a move that could boost infrastructure development while reducing the leverage of farmers in fighting such seizures.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "HANOI, Nov 21 - Vietnam's parliament approved a law on Saturday to speed up the expropriation of land in the case of some special projects, a move that could bo"
   },
   {
    "id": "063ef8cad54d",
@@ -1514,6 +3655,18 @@
    "short": "卡塔尔推初创孵化",
    "key": "助力企业进军中东市场",
    "score": 2
+  },
+  {
+   "id": "2e4413320951",
+   "title": "Anthropic slides 8.5% to shrink IPO gain as AI trade unravels",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE95VTBMbkdjSUZOcm5wUzlrZHNLUGJrNG5GMlI0SW0tZUxfdVFQcFRsbmcwM0ZXOXQxeHlfcEhJZml1NV82ZXFITXFkcHdPbExo?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T04:10:17.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "e52534e57ebd",
@@ -1584,6 +3737,31 @@
    "published": "2026-11-21T04:05:00.000Z",
    "desc": "The Penang chief minister responds to Pantai Jerejak assemblyman Fahmi Zainol who wanted to know why an Umno representative is in his administration.",
    "fetched": "2026-11-21T08:12:13.269Z",
+   "score": 3,
+   "sum": "The Penang chief minister responds to Pantai Jerejak assemblyman Fahmi Zainol who wanted to know why an Umno representative is in his administration."
+  },
+  {
+   "id": "e4c2838b99c8",
+   "title": "Asian Angle | A steadier US-China relationship still leaves Southeast Asia on guard",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOHpITm9YTVhTb2dxbGdGZEtTTHFxMUpuRWRGazN2NFpCTmVDdDZiV1NaUFdEWVFsQ1RocUg0RV81M2JRVnpBRVJ3NnhVRnJfaDJWQjBRVUV2eUpOVGxoQWN0LU9KMUFralppWGdsRGU3eC1SSFlmYkI2cmExaTl6VE1ScWFQeHZvMDBhVl8ydDVveW5IWkVEczVJMk9QUTZ0aUhpNXNxcHFGdnhhRC1JOEF5OHBTRnN4aGEw0gG7AUFVX3lxTE1UVUtPdlkyYlo4c01WYjFac09CVGxscDN5NzZfbmkwMURSM1hYelRnXy15Ql9MYzBhUklzZWJDczJxRWtCMFRlcktubGdnNzNYclJCV201d0VvM0tEaW0yZTA1NV9FUld0TlF3WVNlNjl5a3pxYVdWejk3bkg4dG9tcGdDLVQ2YlNJZ2JreXRmdHFpRTM2RHpCTTlWY190RHZMbVdEUkhwbFY5azZlUXJIdmZhOE9nM2I5UWs?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T04:00:14.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "3c4c5dac557a",
+   "title": "Tanks, drone and anti-drone vehicles spotted at Zhuhai air show site",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcXFOSl95ZHZHQlhhN3ZnVXMyZnV4ZmR1THo3T191LVZxSjRYLXphdUx6VlVNRGt1cVhycUNFUnlxN1huWmpuMUxRVmc2WEgyUmFiVXR0ZG5yY2NKWGMtZmxtUEFyNWNlY3Q1SDlJWXVHU0xKMy1TSUhlUGJvQy11UEEtekZnT2VTRmlxLVZWTFl1Z0ZlYWxnSDAxTWpwY1JjeEFNV1BXQVRaQ1FuRFRQWVhn0gGyAUFVX3lxTE9FTHNJSWNhVlY5X1h3SzFQcWpCOWJWS21EdUM0VDl2TGFscktDbG5JQVNmQWcwc0E1LTJ6WUtTQ1ktRkhoakY2bFAyenQweXJyWktTNnd0MXBPWUdpeDFJWDhBaXVOUHQ2UzM0MVhPUVd3SEllRlFaOV9MSUl1X09OTVBMMHlvMThld05OV2NfWG9pQkN1czgzemVQTmNnZ0o0RFlLVmt0bXFSaXdBOFh3NWc?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T04:00:12.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -1599,6 +3777,18 @@
    "score": 3
   },
   {
+   "id": "3b1f14ef0359",
+   "title": "Anthropic pulls off mega IPO amid AI slump, gold tumbles: Markets this week",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3Bka1J1d0JBMDJQczRQQkJjWGVtbnhPNTNQSzVCaHlUaFZBV09DS21BNmRuOXRjN2NCd3h6REl6UWU0NTgyUDdDT3NPSTAwazVNNlM0WkFTUm1HbGViRi1ZcnREb0pyTGZ2U19DM2pVZ0NJVE1ReUh0NHR3WXgyazYwVmRTUFZrRUlfeXNoaFJKYXd1MUVCZ204UThZNXo0YmxBd25tbmI2QmhxWDYzTVBSTHFCWHZ1SG8wc0E3ODRyQUtJc0NhSg?oc=5",
+   "source": "The Straits Times",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T04:00:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "632f46eddef6",
    "title": "In Bago City, a Hiligaynon storybook addresses history gaps, reading struggles",
    "url": "https://www.rappler.com/people/human-interest/bago-city-hiligaynon-storybook-negros-history-reading-struggles/",
@@ -1608,7 +3798,8 @@
    "published": "2026-11-21T04:00:00.000Z",
    "desc": "Through bright illustrations and simple Hiligaynon dialogue, Bago City’s new children's book tackles two urgent local challenges — improving early reading skills and keeping the legacy of Al Cinco de Noviembre alive",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "Through bright illustrations and simple Hiligaynon dialogue, Bago City’s new children's book tackles two urgent local challenges — improving early reading skill"
   },
   {
    "id": "f1c7ef38a91f",
@@ -1689,7 +3880,8 @@
    "published": "2026-11-21T03:50:00.000Z",
    "desc": "Bekas Ahli Parlimen Bangi berkata kontroversi terbaharu itu adalah satu contoh DAP menembak kakinya sendiri.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "Bekas Ahli Parlimen Bangi berkata kontroversi terbaharu itu adalah satu contoh DAP menembak kakinya sendiri."
   },
   {
    "id": "86d280207414",
@@ -1701,6 +3893,30 @@
    "published": "2026-11-21T03:44:44.000Z",
    "desc": "",
    "fetched": "2026-11-21T08:12:13.269Z",
+   "score": 3
+  },
+  {
+   "id": "ba70b54e15fc",
+   "title": "META_TITLE_SECTORS",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KOFBhX0cwcURCekpUS0tkVExiSFRVeXdtWF9qWnNuN1ZUU3A0eE80VGd0cVdDS2pNN0lpU1JncU1kSkp2UFd6R1JqYzJ5NjY3M2syZkphVQ?oc=5",
+   "source": "Yahoo Finance",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T03:41:41.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "2d87b63efdaa",
+   "title": "Anutin rejects claims Thailand will lose out in US trade deal, pledges safeguards for farmers",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxbGE1QVUyQWhIVmFQNWtXcUg1Y1pxb2NKS05IX3BWVV9aWFBYZnBmcVhmTUtoUjNRTjZQUHNtRS1sektmLXVxZjBnUWVjWDN2NW5VMEhFV0xQSzdIX3NScDQ4ZmFLTG8?oc=5",
+   "source": "Nation Thailand",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T03:40:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -1780,6 +3996,19 @@
    "imgTried": true
   },
   {
+   "id": "dadcd1f4cfeb",
+   "title": "美股一夜崩盘，AI 泡沫真要破了？",
+   "url": "https://www.ifanr.com/1690789?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+   "source": "爱范儿",
+   "feed": "爱范儿",
+   "cat": "tech",
+   "published": "2026-11-21T03:30:42.000Z",
+   "desc": "AI 泡沫要破了吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3,
+   "sum": "AI 泡沫要破了吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+  },
+  {
    "id": "5427aa027f5d",
    "title": "Laos prioritises strategic financing ahead of LDC graduation",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPalJkMENidXotMWYxYWdMTVM1OV9VTWNCZUNBcnZONmZJRUJVQS02WDRhYlNocy02SnVrQVR3Q0dOeTFoX0JLU2cxcVgzLUFJLWoxWVBseEpWWHpDcWFOVDFYb3RuUDhVd1NrdVpxQ214STdVR216X3BQZkZGaDNlTno4WlVjYUsxMXR6V3Y5SUk5ZVpibjd4eUstMUc5WW1ab3VEWXlCNUdqRFRFV3NKcE8zTXlQanhiTW5lVzFHVFE?oc=5",
@@ -1851,6 +4080,18 @@
    "short": "美法院裁定开支法案违宪",
    "key": "疫情期间代理投票程序惹议",
    "score": 2
+  },
+  {
+   "id": "a5a9987a3d7e",
+   "title": "Ford reopens Canadian plant in defiance of Trump tariffs",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqV3BxS1VkeEY0ZUctY3MwSDUySF9BVEwyc2htekxSTGZKT3l2bHFuRjBqNzhqUHJmYTUtMmhHRHYzTnFMODExZ2cxd21ZS19L?oc=5",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "finance",
+   "published": "2026-11-21T03:11:44.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "be75ea6ce39a",
@@ -1970,7 +4211,8 @@
    "published": "2026-11-21T03:00:00.000Z",
    "desc": "Discovering YouTube creators like Dan and Phil and Smosh was a solitary experience. Filipino fans are making it a communal one.",
    "fetched": "2026-11-21T08:12:13.269Z",
-   "score": 3
+   "score": 3,
+   "sum": "Discovering YouTube creators like Dan and Phil and Smosh was a solitary experience. Filipino fans are making it a communal one."
   },
   {
    "id": "4cf28f629d06",
@@ -2008,6 +4250,18 @@
    "short": "秘鲁中部发生6.7级震",
    "key": "震源深度达129公里",
    "score": 2
+  },
+  {
+   "id": "bae8bcc3a5f6",
+   "title": "Govt will continue to expand entrepreneurship opportunities for Indian community, says Ramanan",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZHM4X09MQm9oenJ4R3pmbmo5Z0JMa1VINXlwNURrWHdhTnUyX0tRTk9NdVhiQzRyVElDVnpfUFRDU3JHb2JlbUR0VGdhZEJRNXQ1ek1pUzBCdW9sOS1wSWVSYlVpMW4ydzZXUDFhUlZzU2VjY19TTEhIc0tSdjRGOHBrYzM0UmRhLTVyQ05iUjR5MW5HUmxPX1F4aGN3a2dsXzEtUHJjQW1PQ05ncXV3Z1pXX29TVGxmNHdFY05ZMkVpeVRCU200UkY3MGZsWTRlS2FfcFZTR2Fndlk?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-21T02:51:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "1270441dac72",
@@ -2173,6 +4427,18 @@
    "score": 2
   },
   {
+   "id": "3e7b39dd2493",
+   "title": "EXPLAINER: How ASEAN benefits Filipinos",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hQmluUmNxbDB1OFhBc3NpU2lPR0NIZ2h0aU5ZZEVKTXV1YTQ1Q0loS1d2QTBMMmUzaWEwUEVlTzhDQnRiQnBYaWtUdWl5WTU1eFZHODhDR1JFN1EzR3JENlh4OWY4OHBwbWxLelVLN1JWSHhFZnc?oc=5",
+   "source": "thechronicle.com.ph",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T02:30:18.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "cabccda4a315",
    "title": "Pakatan dengan PBK tak banyak beri manfaat pada DAP, kata penganalisis",
    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/21/pakatan-dengan-pbk-tak-banyak-beri-manfaat-pada-dap-kata-penganalisis",
@@ -2248,6 +4514,42 @@
    "score": 3
   },
   {
+   "id": "76239a760e07",
+   "title": "Diabetes Malaysia And Alpro Pharmacy Set National Record With 11,007 Most Blood Glucose Screenings Conducted Across Malaysia In Just 48 Hours",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iU1lsWDVNX1ZPZ01lczdfZmViak1iWnNuZXYxQlM2NnBpbFN0RGxIVnJaOXdNZmpEUHhzczJKZ1RTbURZNHlfS3N3d21qRjNWbFlXUmo0OWc4SnE2LWNRSTBOZ2pHZkxTTkVyeHhxS1AwY0xXeWxRaGk1cVBhTDg?oc=5",
+   "source": "Sin Chew Daily",
+   "feed": "星洲日报",
+   "cat": "malaysia",
+   "published": "2026-11-21T02:20:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "03404f487a96",
+   "title": "Fujimori discusses ties with US and China | NHK WORLD-JAPAN News",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lQVpuVG1EbEpXbG5xZnVwOTZEYlcwc0JrZDE3NnpkNzBLQnFmUU44blRycU9RMmNweGpiZXZhOU1NQTk4djdTdzV5NVZSSllEZ01FdmJydGVxYlRidDRfWU0xRQ?oc=5",
+   "source": "NHKニュース",
+   "feed": "NHK World",
+   "cat": "world",
+   "published": "2026-11-21T02:20:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "12242bcdb176",
+   "title": "Saudi-led forces strike Yemeni capital and port | NHK WORLD-JAPAN News",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZSVVBdTRiYlJSTGZ1T0dIdV83QUJ5SlJGZlNkUHFLa0JDM2h4WXBNLVpiTzVMRVBjWGZFbEJUeWxJbmdEcC1ZWUZHTXF1MURkZHJzV0tRS2Q5UjljRmV6cURlZw?oc=5",
+   "source": "NHKニュース",
+   "feed": "NHK World",
+   "cat": "world",
+   "published": "2026-11-21T02:19:58.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "8bcd706bdf2a",
    "title": "North Korea’s Kim visits factory sites after apparent Trump snub",
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/north-korea-s-kim-visits-factory-sites-after-apparent-trump-snub",
@@ -2263,6 +4565,18 @@
    ],
    "short": "特朗普未见金正恩",
    "key": "朝鲜最高领导人视察工厂",
+   "score": 3
+  },
+  {
+   "id": "1284748c3926",
+   "title": "Finance Talk",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPXzBzckR0SFZndUZQdF9XemV4RHFKWUR0c0w5dHdvUG1lQVFhb1gxWlZnc3JiZUJZcW1yMXVDTjFiU1NUTkNWejJXdU9ydm16bUJNcksyTzZZVFpWOUdnaG50Z2xjVXp2cFc3OEdiaUJMLUJKbmY2YXNGa01oOHROQmhGWQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T02:10:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -2282,6 +4596,18 @@
    "short": "行动党议员就祈祷言论致歉",
    "key": "邱培栋澄清无意贬低宗教",
    "score": 2
+  },
+  {
+   "id": "12ca7a5b67ca",
+   "title": "After mistrial, US jury convicts man of starting 2025 LA blaze that killed 12, destroyed thousands of homes",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVDNxOVpmekhvMFBnSXJVSzF1NnNGd2pQb19PMlEwanN4X05CNmdZVDFoYXc1aGRhb0o1LVhlZkJrS2tCeG1USWVER1NqRk94dndtbXNBRFAyVFlNcmFWQm1hbFBpdm1pemVsRnJadFZYcS1LaWhEOVhTRHdUS2s0Q1g5bEhXYkdVZmVya0w1VW1oUEsyUTdZOWMxVkJCcGxweUdYRmNlNDBOX1J3b0sxZW9NMzB1SUtibVh5UWMwZEUzUmdTNGhYTm5VTThRc0J1MHY3Tjc1cXllckJyOEN4aVZOdWV3d282ZTM1N0ZKRF94Z9IB9wFBVV95cUxOenJfZS1WOEFvNndFZkdNVjBnSmF6WXJSZGQzNktZU1kwWjQxYjRTNkVmSm05YXdqNUxyYnZCMmM0dWU4dG5UOU5IQUFkOFZ3ZmxXdkxLdUJHaE1oNU9qU01TU2lOLWE0dW9ZOGc2bXdPWUlaZ3RUOXBfMHZwcWdEV0x5bGN4SlZVTlVGYzdaNFFUSXJIMUFUSjA5eHRtSWd4V2ZzUHhkTy1yUVQwUlQ2bTNyYnc3R3JZZkxxTWRmeU5uTGFfMHR1WG1LWnJMS1g2RE1kbzltcXNuNXNzUFJjNm5DRVctdjNnb1VZOGZwQ0FQbFRtQkVF?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-21T02:00:44.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "c143c52e3254",
@@ -2371,6 +4697,18 @@
    ],
    "short": "特朗普吁黄仁勋回归",
    "key": "喊话科技巨头给予前总裁第二次机会",
+   "score": 3
+  },
+  {
+   "id": "c1bb3f232cfd",
+   "title": "#SHOWBIZ: Adam Driver, Scarlett Johansson star in New York family crime drama 'Paper Tiger'",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVlJHdVp6dWF3cTlDamxRaS1HX1Z4bDdKX0liaDVJd0YwT0o0V2h6RmRFV29laXJuVzlZX0Rma1BCWUo4aHVoQXBoRTJ3cGUwRTJYS250SHJRb0NIenZhY3AtcktYUmtnTkVJOVh4RFlTbDZPZEFkc0k5dU1YbVZaamdKOFNPY3I0MXcya2h4V0JYRXFWdDMwcHRiWUxnMHZ2S0tvNmR5Rzg3WHhZTW9GeENhRC1aWk8tb19MM0xWLVYtcGPSAcMBQVVfeXFMTVZSR3VaenVhd3E5Q2psUWktR19WeGw3Sl9JYmg1SXdGME9KNFdoekZkRVdvZWlyblc5WV9EZmtQQllKOGh1aEFwaEUyd3BlMEUyWEtudEhyUW9DSHp2YWNwLXJLWFJrZ05FSTlYeERZU2w2T2RBZHNJOXVNWG1WWmpnSjhTT2NyNDF3MmtoeFdCWEVxVnQzMHB0YllMZzB2dktLbzZkeUc4N1h4WU1vRnhDYUQtWlpPLW9fTDNMVi1WLXBj?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T01:47:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -2577,6 +4915,19 @@
    "score": 1
   },
   {
+   "id": "9e4715cb5384",
+   "title": "刚刚，曝黎曼猜想被证明，Claude 立大功",
+   "url": "https://www.ifanr.com/1690750?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=",
+   "source": "爱范儿",
+   "feed": "爱范儿",
+   "cat": "tech",
+   "published": "2026-11-21T01:29:09.000Z",
+   "desc": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3,
+   "sum": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。"
+  },
+  {
    "id": "f9d282f431d4",
    "title": "Nasdaq 100 has worst week since 2020 on AI drama",
    "url": "https://theedgemalaysia.com/node/826730",
@@ -2678,6 +5029,30 @@
    "score": 2
   },
   {
+   "id": "ce11787dd982",
+   "title": "Major European and U.S. stock indices decline collectively; precious metals slump as spot silver falls nearly 4% | Global Markets",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR0tEaVRIZGFoNGxmRTB0T3lDMmlqRFZaWHRPS2dOOUhuT0hXSFB3V1ZwbVc2QVN0WlpHM1VGMUtMMzNXLUtQbmd1VGhoSVh3bXlEREl4U083eF9sVHVrUnNka0k3ZDdqdl9jcHBQMl91d2w1VUxja2hyVFFqX05DZGZTT2JUZ05md1FOSnhhQS1TX3ByNkxYRVdVaTFhMHJpOTQyajZjV2FiUnkyUHlsSElpU0Radw?oc=5",
+   "source": "富途牛牛",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T01:17:10.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "f9f3bb4d2fb8",
+   "title": "Trump vows to punish US firms building data centers abroad",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOW5QcEFOU0xGX3otSEdndlF1UXNxVXU0M2ZCM2s3Q053cDZ3ellNbEFWMmxwUlUyRWdVUnZTNGRUUkJYcEZ6bjV5QUFvNnRHZ0RtakRxQmxORXVDVTBfV1VTeWd5Q0thY2xySjZJbVJmT0tic2EzNVRBejdzcy1pSFRRSjVYYWJaZFcxZ3BCdFgwOFlfZzJWQXhvM3ZEUkM5SVR6YzJQdmp0a1Zjc0E?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T01:16:47.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "9823b865d2e8",
    "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
    "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
@@ -2713,6 +5088,18 @@
    ],
    "short": "丹麦驱逐俄外交官",
    "key": "指控莫斯科策划暗杀乌克兰艺人",
+   "score": 3
+  },
+  {
+   "id": "911558f6f691",
+   "title": "DAP MP Khoo apologises over remarks on Kuala Terengganu Friday closure directive",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcTJYUlFrQlRIcVhYNEpnX0pncmpXVEdXaVBPVDFpN2owdlc4VDg1QzVtZVFQUzBrRnNqbmlEa2RUX1d1Zm9RaU5LenQtcy03TXpheThjcDhDSnlpd0hpakd6dEZOb3JmWmdsQkVUbWlabS0zN2ZJRVE4eU9XN3JrcmlrME4zTklja0U0c285d1duMHduR2FHNWg4LWEyTHZVMi1NWEd0SmhpOXFneThXckNkSk1Dd1lIT0NTWC14b9IBvwFBVV95cUxPcTJYUlFrQlRIcVhYNEpnX0pncmpXVEdXaVBPVDFpN2owdlc4VDg1QzVtZVFQUzBrRnNqbmlEa2RUX1d1Zm9RaU5LenQtcy03TXpheThjcDhDSnlpd0hpakd6dEZOb3JmWmdsQkVUbWlabS0zN2ZJRVE4eU9XN3JrcmlrME4zTklja0U0c285d1duMHduR2FHNWg4LWEyTHZVMi1NWEd0SmhpOXFneThXckNkSk1Dd1lIT0NTWC14bw?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-21T01:11:34.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -2909,7 +5296,8 @@
    "published": "2026-11-21T00:55:01.000Z",
    "desc": "Mauricio Pochettino will take charge of Manchester United for the first time on Sunday, in a trip to rivals Liverpool.",
    "fetched": "2026-11-21T08:12:13.270Z",
-   "score": 3
+   "score": 3,
+   "sum": "Mauricio Pochettino will take charge of Manchester United for the first time on Sunday, in a trip to rivals Liverpool."
   },
   {
    "id": "1e0e05f4246d",
@@ -3141,6 +5529,18 @@
    "score": 2
   },
   {
+   "id": "ad04c53194b2",
+   "title": "3 Investment Bank Stocks Riding the Debt Boom in 2026",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLUJnTzF5RE9LZGJMNHV5bkFUb19RdlRBV3RtSGI2eEhKNnRHcjY0X29JOS1YMDJhSVhPbG9kN0FCeGdWSFlPNmZYRzFaWFJERWhpYXB0ZUtnR281WFltc3F0alFPdk9WdkMwWmVyOFpvQWwweW5oUVdqdHNZbksxQWJTSjNRRF9Pb2R6U0xaRnNseC1PbnFrOE1iV3A?oc=5",
+   "source": "Yahoo Finance",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T00:14:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "bca2533e2d1e",
    "title": "Martian landscapes, underground mosques and wild desert camping in Kazakhstan's remote west",
    "url": "https://www.channelnewsasia.com/travel/kazakhstan-mangystau-desert-camping-martian-landscape-6530751",
@@ -3150,7 +5550,8 @@
    "published": "2026-11-21T00:02:34.000Z",
    "desc": "In Kazakhstan’s remote Mangystau region, a four-day journey across ancient seabeds, towering limestone formations and vast desert landscapes reveals a world shaped by millions of years of geological change.",
    "fetched": "2026-11-21T08:12:13.270Z",
-   "score": 3
+   "score": 3,
+   "sum": "In Kazakhstan’s remote Mangystau region, a four-day journey across ancient seabeds, towering limestone formations and vast desert landscapes reveals a world sha"
   },
   {
    "id": "e0d4eb93fc02",
@@ -3340,6 +5741,18 @@
    "imgTried": true
   },
   {
+   "id": "ba1a35fe6ab9",
+   "title": "S&P 500 correction: Five forces behind the market sell-off",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBVdEZSRFJHbTVUcnFhajRic19hWTN3bFdWTTNHcG4xZ1FOUkIwbTlxM25RRnNubWg4eFdMN091NVdrNFRrLXNxYkVRdE5RMmxUdjEtLVB1d0ZvS0V0S05mVGRpdWliYXE0YV9sSHZndlNfenJBUl90YlZR0gF_QVVfeXFMTjdUUUM2aGNWRGk0VGM5TGpacVBtZjNLNnRiWmE1clBxSnBZenR2anotRF9lU1pEQXJKVjhoaEh6VHZ5b2hWMktPZEI0N1FmWW80S2N0anRHS3djeHVuOTRibk1wanNiNEZoY0FyVlFxbXA4N1hWWlZIZzlWdHVqdw?oc=5",
+   "source": "CNBC",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T23:53:21.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "1858ad2945b9",
    "title": "Fraudsters harness AI to refine scams",
    "url": "https://www.bangkokpost.com/business/general/3358779/fraudsters-harness-ai-to-refine-scams",
@@ -3414,6 +5827,19 @@
    "score": 2
   },
   {
+   "id": "96a7f9767d2d",
+   "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+   "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation",
+   "source": "The Guardian Business",
+   "feed": "The Guardian Business",
+   "cat": "finance",
+   "published": "2026-11-20T23:42:43.000Z",
+   "desc": "German company faced 65,000 claims from people who said they developed cancer after using weedkiller A Missouri judge on Friday approved Bayer ’s $7.25bn settlement of lawsuits ⁠alleging that its weedkiller ​Roundup causes cancer, potentially resolving litigation that has weighed on the German company for close to a decade. Judge Timothy Boyer of a state court in St Louis ⁠found the settlement “fair, reasonable and adequate”. Continue reading...",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3,
+   "sum": "German company faced 65,000 claims from people who said they developed cancer after using weedkiller A Missouri judge on Friday approved Bayer ’s $7.25bn settle"
+  },
+  {
    "id": "5fa2f907b661",
    "title": "Databricks in early talks to raise funds at $225 billion valuation, WSJ reports",
    "url": "https://www.channelnewsasia.com/business/databricks-in-early-talks-raise-funds-225-billion-valuation-wsj-reports-6570836",
@@ -3486,6 +5912,18 @@
    ],
    "short": "印尼消费信贷放缓",
    "key": "反映民众消费能力受限",
+   "score": 3
+  },
+  {
+   "id": "332d0018a929",
+   "title": "Top Stock Market Highlights of the Week: Anthropic, Frasers Property and Asean Digital Payments",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV1p0WGhHUWhBQTUwUFhQOFBFSnN0c0xlQ2p3TW5YMVZaT3RlTGxZWEdodFNkYWpZNmFHQTdRM3I5WE9zcWY3MVBNWXotekh2aVNoYjhZUERlRkRXNC1zenZXaHNlODRDUXVCeWd1SDVEdWgySTlvTWg2VHIwNEdSWV9Eb0hWQmRudnlraTBMa3d1blVIYmM4dTVfLXR4bFVIZjEyR3JiVlFGOFJQZG82bndibUV1OXVsekp4dXpCRUVDZUVW?oc=5",
+   "source": "The Smart Investor",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-20T23:30:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -3798,6 +6236,30 @@
    "score": 2
   },
   {
+   "id": "6aa0a9a630cc",
+   "title": "EXCLUSIVE: Lutnick asked battery startup Pure Lithium to accept US takeover, documents and source say",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWkJkSzhOU0N6b2RzbFVVSXBxWUF1SElaZDVUSk52cFFkV1k1RXNKeGhmNTd2OFgwYnR0RFd5YXpHT25oRjNKVmFRYXRpWlNfdndhZjVjYnd2YjMyMkl5SGxlMHZMajlDbkFhdF9RMmpuSGxEQk9VT2JzdGx0Nmo5TnJ1ODU1T2dfN3ZXQnFIdmFYbThKOU5YbjVFN0h6eWJsdzJpNkQ5VWpDQUhBeGN5VTVpSkRfdk80ZDBQTmE0YkVIbjZK?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-20T23:11:18.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "8a7c60857a83",
+   "title": "Araqchi says Iran wants diplomacy to end war, Trump says terms unacceptable",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMmJ1MkI1NFRhVGFBd09OcklwWXpmN2taa1EtT1pfNWxDSzZhamdaUkJubjMxb01yQV9zQ0hqQ0JFVGFGUE92RFRvRjh1Q21UeElHcWFxWnRhdnFlZFNuT1BBY081U2tyTVpaZmU5RmR6cmRfcklWUG1LeXRfdUZJTlNGQ213X0JDNGdzMTZOdVlPTVZYZVZaUmdGVVFpYmJFdG5xSUlBclI0QWlPYzdsTFdncWJjeF80XzI5N3NXMDM4b1E?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-20T23:11:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "6db0fde3718c",
    "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
    "url": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb",
@@ -3910,6 +6372,18 @@
    "short": "美光大马员工提升技能",
    "key": "从工厂车间迈向人工智能领域",
    "score": 2
+  },
+  {
+   "id": "065ca763bf65",
+   "title": "Japan’s Rabbit Island draws tourists with fluffy bunnies and dark wartime past",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUTJGLXF0MmtyV0NUTkUySzk3UEdLblFYcUdWcEQ3cEYxQmhnaVY1QXhxZ3kwVVViaXRBczZucWdUX3ppbDFyR3QzSG5jQzdWbFVpeGVYRFpBT2JMcFlsX1RlSU9DNW5JZ3VMaUNCbXZrdjZkczNGVmM1TlNza2JWR190T1d1Y0Z2WnR1cGpSQ1VHM3Y2WUpvZk9HV09QTEhkX1NKT2pYbDFlLWdxcXFiUy1VYUlHUFY0VmtIRWhxN1IwVWFubXRMcVJ2SdIB0AFBVV95cUxOa3gwRTFEbE1zcHMwTUFiakQ5QTQ5ZzEzQUJxczVHbHhmUl8tejh6dVRhR1lMNHNoREk3TmRMSFhuWENlcFhRWFdPdUNPMFNCZXRtZmtfVFJsLW10TkNBRmlIcm56em1kZ2lfenoybDJpVmFCWTR4RXZhdnB2WVNWc28xaks1U2JzaXRjbDJwNVcwZ2xENkUyOHdaZVJaeGNwLUF4VGRDOHVCVjdfb3VOTkx1N2tqOFQ4NlZOT09JR3J1RjZSVWV0QjVUMkdRN3JT?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-20T23:05:40.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "f638fa3bd1e4",
@@ -4087,6 +6561,18 @@
    "score": 2
   },
   {
+   "id": "7cbd68f4d718",
+   "title": "FACT FOCUS: A look at false and misleading claims Trump made at news conference after his Asia trip",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV05PLWlWVkJwN3pKcDZCWnA4UWxlN3JFREtNYzQ0c21TMTRyZ0xpaVE0M05xbVVHNTNRVFFteEpXeTlqa0VwSW43N1QxdWZJZlh4cjA4SnYzamw5c014OVhtRHVjY2hBSjlwQ0RUcUJLTHFiVzVwT1I0V0g5LUttX0U4UzZvUHlPUG5OSnhBYXhNbkgxdHA2eVlRcnJUMkhRcmk5ak85VQ?oc=5",
+   "source": "AP News",
+   "feed": "AP News",
+   "cat": "world",
+   "published": "2026-11-20T22:37:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "a4915b2cbcf7",
    "title": "Princeton PhD student from China detained by ICE after US academic conference",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHhnNlVHYzVaRFF2c0w3NmpXNEVTTXlLUlRyRmhDRjZ3SVRtT2ZoMHpveTNPcEd1MGRheTdWTXc4N1I2MTZhYmY0dlBpN2RfNDV2U3Y5dzBiSGhoaUlSQmlZZHRsdDRKd0FIeE90MWxWVmo2YlZ0SWZQbGE0a2FyOXRLbUYyaWN3RG1vNmFnU2NPcWNGdTRCdjQzbUt5d0NpcWl0S29ucmxGS1VQblBOT1VhaEFVQndIVjhvcm1NbGh5QdIBwgFBVV95cUxPWktoRkZsajg2amdZejZTVGhEX3ZXdENqT3ZIOHVmUWpkWE5SUnZ5Tkh1YXNBLVdCZUdWNmhiNmlBQlN2ZWdTcF9la2lCT2wtTkpvdG1IN0d0Z05XZUhaTTBCcDdpVWxFblZwQ285V0t5VHlxWmItUFp2SUJQMGU5RVVHR0RhcWlua281c0J4ZjA5aGZVNkN5NzhKMzZpVDNqTGFpNXVHSUNlSXg3bmZxSjI1U25UdWowQy1zYUNiSWY5QQ?oc=5",
@@ -4103,6 +6589,18 @@
    ],
    "short": "中国博士生美国被扣",
    "key": "学术交流遭移民局扣留",
+   "score": 3
+  },
+  {
+   "id": "8ccc1616f856",
+   "title": "GLOBAL MARKETS-Tech leads global stocks rout, Treasury yields fall",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNEczS1YtZzNQWmtzWjF2Vi1SZmkza3FkQXN0VUlpUHhIeXJBZ0NLRmVPTGVtLUpFSzNTUlQzbXVOdnJPcXlwdEJMNVFWNG5TMnNfLWZJLTBqVUNyWWllOUxfVjRqTEN5cXZHTUxoTm12TkV5bjlieV9jQkxnbjNjN0xDTHFnSXZZaXluQkFkMzRCZTBvWUduMmlIZGNGS1AtMXJ2SFN1c3BZOWhPOUVXcWZQaEFwRFNraXlxMDNxQ2k5bHh6SlZn0gHHAUFVX3lxTE00RzNLVi1nM1Baa3NaMXZWLVJmaTNrcWRBc3RVSWlQeEh5ckFnQ0tGZU9MZW0tSkVLM1NSVDNtdU52ck9xeXB0Qkw1UVY0blMyc18tZkktMGpVQ3JZaWU5TF9WNGpMQ3lxdkdNTGhObXZORXluOWJ5X2NCTGduM2M3TENMcWdJdllpeW5CQWQzNEJlMG9ZR24yaUhkY0ZLUC0xcnZIU3VzcFk5aE85RVdxZlBoQXBEU2tpeXEwM3FDaTlseHpKVmc?oc=5",
+   "source": "Devdiscourse",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T22:34:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -4132,6 +6630,18 @@
    },
    "detailTried": true,
    "imgTried": true
+  },
+  {
+   "id": "a57ccd5eb2a5",
+   "title": "Fresh off China trip, Trump bobs and weaves in freewheeling press conference",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWG5NdVlTX1ppNTh5S3dwUUZPbHUzLWdzYl9YQmNkTlFQODYxbXRrNFhiQzZiUWU1TW5sZ0dLdVFOTlZmNi10UHA3OWxNbXBVajNUM1JSYi1QVXUxbnNWLUhla0staGxiSlMzOE5Ed3NENmtGVU1ZYm1iWWZZTjgtZ1NWYzB1TEg3SE9ubFBtVU1tQTlnSXpXeGM4ckVBN3RpMnhUZVAtZDQxbDlBQ2szR1paRm45dW8?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters World",
+   "cat": "world",
+   "published": "2026-11-20T22:33:34.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "95fec16f88d3",
@@ -4216,7 +6726,8 @@
     "过去一个月来，人工智能热潮面临投资回报周期过长的质疑，加上数据中心建设的政治阻力和英伟达的领导层动荡，导致科技巨头股价普遍承压。英伟达股价重挫14%，Meta和微软等公司也录得明显跌幅。",
     "市场分析指出，投资人在追捧人工智能增长时变得更为挑剔，并对短期内的市场波动保持谨慎。不过，分析机构预计基准追踪基金可能在年底前买入Anthropic高达30%的股份，为股价提供一定支撑。",
     "这次上市引发了市场将其与埃隆·马斯克的SpaceX首次公开招股相提并论，两者在上市初期皆经历剧烈波动。随着Anthropic即将于下周推出期权交易，市场预期该股短期内将继续维持高波动性。"
-   ]
+   ],
+   "imgTried": true
   },
   {
    "id": "59613f0fad66",
@@ -4337,6 +6848,18 @@
    ],
    "short": "美国国际信任危机",
    "key": "盟友不再信任其领导地位"
+  },
+  {
+   "id": "771eb4475f83",
+   "title": "ATP Finals semis are set: Alcaraz vs Shelton and Zverev vs Medvedev",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVlHSksyenR0RGNiYW1SMVNCUUEwaGZOa1BucHVoT0p4Vzh5QnpqNGc1cV9qNzZ3YUJrbGFOUVFWd3BuQUlLMjRaaHBWUzFRbUdDQ21JUHU5Nm4xcl83MUgxcWpWajFYM1BOQTBNWDZTU2w1b1l4akdOUWRmYlljb1hFQmk0R2s0MG9KVWRvcDdqd0ROTWx1R253?oc=5",
+   "source": "AP News",
+   "feed": "AP News",
+   "cat": "world",
+   "published": "2026-11-20T22:12:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "798910f8804e",
@@ -4793,6 +7316,18 @@
    "key": "引发抗议者强烈批评"
   },
   {
+   "id": "b884ab3f89f1",
+   "title": "Japan proposes Asia oil security task force at ASEAN summit",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYmN5Y25vWXVHNmNFSUJ0TGdVTjZtb2k3QXAtMUs5bEJjZ2ZmTC0wOVRrTmMxTEdYMThQcTJaNmk3YWlhMFR5NDBWOWN4bERPdHRLMnR2dnh0OHRwWUVYRDhGS0l4dVJqN2w5eExvRUNTdXpRMTJueWkxZHp2c21qcmRHWm9sU0RSWXRNajFoUFREWEZDb0c2bDBmZ1ZRRHdVNlZFTXBLYTFCWW8?oc=5",
+   "source": "The Daily Star",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-20T21:13:59.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "15b88f5f7bb5",
    "title": "Gold and silver suffer brutal losses as liquidity crunch deepens, but analysts see signs of a bottom",
    "url": "https://www.kitco.com/news/article/2026-11-20/gold-and-silver-suffer-brutal-losses-liquidity-crunch-deepens-analysts-see",
@@ -4833,6 +7368,18 @@
     "kind": "A"
    },
    "imgTried": true
+  },
+  {
+   "id": "69ec18792103",
+   "title": "Missouri judge approves Bayer's $7.25 billion Roundup settlement",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ3l1OGtkWDFDWVotN3ZQazJBOWVuVUFqaFBQSWR1WWpUY0s1TnNsMnJlSmlzN3VuSTVnX0FKT1ItRm93RFhPYm9URXBzYnRIZW04NndYNlVQVncxZ3BmcTZ2U21NVVZBZDZwRERERjJ2czFyNHlnU2ZrbjVGa09XMW92dmdLVDB3UmRzbTlHRXprS2wyV0RWeXowVWJOWlAzUGpQbm1MVkg0NHM4UWVlSnM4MnU?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-20T21:13:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "3d617bdf334a",
@@ -4928,6 +7475,30 @@
    ]
   },
   {
+   "id": "aeea9d9531e3",
+   "title": "Gold and silver prices fall again: How much lower could they go?",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkh2d29XWFItYzI5aWhZeTZuZmNTMFJoaGYzQy02MHQxR1Iwc0RCelhrUGZaYkNYSEs2NDNsLVJqU3ZoeW9ndWxxeWdnamxDak5GbE1YX2hNM2lZNVlQQU52QkF5X0V1eDF3eVI4d2ZVdk1yWFNiMTNMT1B3RjFuSlpQaXhhZlVBbmd0SlpPdDZ3RF9VMTBDdDJQN0d3OVFEbG1VZ2hn?oc=5",
+   "source": "Kitco",
+   "feed": "Kitco",
+   "cat": "finance",
+   "published": "2026-11-20T21:00:25.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "61f05bbc64d7",
+   "title": "ASEAN countries agree to plant 1 billion trees",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNGJyc3FIOTFUNWx1TkdJZTR3V0dfckwwbWFwLW5yYS01V1hGOGtjc2VreFJIU3pIM2ZIaS1yUEIxWXBiSnRlU2RMa1ZzRDJERVJ1QXVRQmVDTW9kVjJtNmxYOHdxV1JZUGRCbDRhRlkwU0dFRXFPb1pjdTJQTXBZZw?oc=5",
+   "source": "TV BRICS",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-20T21:00:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "868e9366e68a",
    "title": "In the AI race with the US, this is the one advantage China has",
    "url": "https://www.straitstimes.com/asia/in-the-ai-race-with-the-us-this-is-the-one-advantage-china-has",
@@ -5002,6 +7573,18 @@
    "key": "专家警告小心美人计阴谋"
   },
   {
+   "id": "909f4b42e534",
+   "title": "Coffee Shop",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05eEZtS2ZvNGJsUWJQanNfOW1WWG5JM1hpR1E3VEF2S0JEYlBXdHZsZ2JRdWl3LW9zNVVqMENIT3VVYVBIXzgzd0hENndfLXZhcGVlS1czU0h0dWxUR3c?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-20T20:58:05.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "37e8aad02ee1",
    "title": "Mexican cell carriers facing widespread outages, users report",
    "url": "https://www.channelnewsasia.com/business/mexican-cell-carriers-facing-widespread-outages-users-report-6570581",
@@ -5029,7 +7612,8 @@
    "published": "2026-11-20T20:54:12.000Z",
    "desc": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
    "fetched": "2026-11-21T08:12:13.270Z",
-   "score": 3
+   "score": 3,
+   "sum": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time."
   },
   {
    "id": "d78d2117a5c1",
@@ -5266,6 +7850,18 @@
    ]
   },
   {
+   "id": "c44851db01a5",
+   "title": "Gold price could drop $300 if $3,500/oz fails, and buyers might hold off until the Fed – Walsh Trading’s Lusk",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1gxakxUOS1VZGh6VUEwdDhhdDAySkdGT3JQU2pUMnVXN2RiNFRHV3g1MEtsaEtfQUVVNGNPRnJTSVJiSGdVTmRFVVVGLTZhcG1jenZPb2JKYWtweUltNi1fLWlFSXVlVWFPNEU2aHlPSkNkUFQyaDEyZlAwVy1waVFZY0dtSGtGTUVUOWw4eUFTRTJ5RENUVUw4Qk9nMFJKbGNTamNHU3F6NDEydHZHU3RLMUhXb2NGd2Jz?oc=5",
+   "source": "Kitco",
+   "feed": "Kitco",
+   "cat": "finance",
+   "published": "2026-11-20T20:12:13.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "e33fedbbab0a",
    "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
    "url": "https://www.channelnewsasia.com/business/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-6570511",
@@ -5340,6 +7936,18 @@
    ],
    "short": "Spotify创始人投核聚变",
    "key": "支持人工智能研究员创业"
+  },
+  {
+   "id": "da2e2d96a881",
+   "title": "The Fed is too busy fighting inflation to rescue the stock market",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXlrMXRSSklDUVdOYXMwYnNBdk1PeXZpcVRwUFY4MDdfR0IzLXdZVGQzX1ZsbzViOXE0ZmdYSjVUWXB2QnY1bVdLMWRmUUx6d3NLUXZBVHl0M0Y4dkJtSnRIR0pjekFtRHJlMXd0X1pvZzZBeVhSNnRaUWJOVHczcU1RbUxQS1NEajhtSV80R0dqNWNZY3lxUGpjbjFmcXc3Z1lhSHhiV2RqNm9r?oc=5",
+   "source": "MarketWatch",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T19:53:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "8b72da353144",
@@ -5435,6 +8043,18 @@
    ],
    "short": "本周国际热点深度解析",
    "key": "汇集多方外派记者见解"
+  },
+  {
+   "id": "59a493013a50",
+   "title": "Articles by Ng Ying Chuan | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwVUJkNDNSMFlwRXJ3Ynd3eXJ0MFdvVWNBeG9JZ0MwWjA1UmN1Vi1qV3h2ZGtKN3VyR3g0QzE5aXhpT1I1RlVlaFNrbk5tdU9GcFktWjctY00wY0NzVGc?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-20T19:40:25.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "04cee6e2e641",
@@ -5561,6 +8181,18 @@
    "key": "因青少年成瘾设计面临赔偿"
   },
   {
+   "id": "70534f718fd4",
+   "title": "Denmark says it thwarted Russian plot to assassinate US-Ukrainian rapper",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3pnR2JQcmdEOFhWYVNRZDdPVG1jRktuenpJdThGbUV6Z3BQV3ZUTHo3Y2ZyY3ZwZ0UzblB0RkZzdExxeV9KaUZFZmEzNlZDSGxhOXFoeXVaSllkQ3ZFZTUzMU9IUGppQjhuSXBMQTlITEJfWTdlN3RCTU82dHNndGFQdGhCZWU1akZ0T2ljWUNTVmtWMmk5SDZHeE1feTZ1aUtTZFNGZU1OLUFFYXBRX2loR0dGZw?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters World",
+   "cat": "world",
+   "published": "2026-11-20T19:19:49.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "51bdd196589e",
    "title": "Belgrade mayor charged with assaulting opposition politician in Serbia",
    "url": "https://www.aljazeera.com/news/2026/11/20/belgrade-mayor-charged-with-assaulting-opposition-politician-in-serbia?traffic_source=rss",
@@ -5635,6 +8267,18 @@
    "key": "战事持续冲击和平倡议"
   },
   {
+   "id": "19c8e6e04e7d",
+   "title": "Trump says China agreed to trilateral despite reluctance, notes nuclear gap",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVU1JenJJRTlJVDR5bklvdE9ZZ1lBWjBhN0xQaUx1dERxaTRwM2xHNU5CZ0tiNko1RGRSbjUyeVJLU3g3SkRhaE1PZDJjN3VVTlVwQUdQTWItWGNwUkpLNWxXdzRNMHhTRzhBV1dZT2Y4Z21EZ2NPSXlqd1FiSEFqdFNNX0RuVkdwZVZ6RDNPekJNVWFSemRNSVBMZGVYN1J2QndmbzBMUmFyY0pKT2tvcloyX3J2RTYzM1FKOXhiSzQ3d2Nh0gHEAUFVX3lxTFBvb1dvQWNLYTJzdU1QQU4tUkN4V3dHRU81cnRTSVFrMG1WY3kwZFhrenIweUdpanFiWEROdDhrVDhvRHZsZUZVSWlhcHhJdWZtaUVNNjF0U2VLZERRc2ptYllnQ0Z4OXVCcTB6anI4YXhnTWxyTTZ1cng5amdaQkxRUEliU0NubFVNYnMtSDVzX09oUFBvWDRJRkFmX0RpU0hmSjdHd3JoWW9adzk3dnJILXlfMmx1N2lFOFQ0NnlsX3Bpcm4?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-20T18:54:33.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "3a0cb236fd32",
    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
@@ -5658,7 +8302,8 @@
    "desc": "Yemen's Houthi rebels launched strikes on Riyadh on Saturday after Saudi-led coalition air raids on Yemen, escalating a months-long surge in cross-border attacks.",
    "fetched": "2026-11-21T08:12:13.270Z",
    "score": 3,
-   "sum": "Yemen's Houthi rebels launched strikes on Riyadh on Saturday after Saudi-led coalition air raids on Yemen, escalating a months-long surge in cross-border attack"
+   "sum": "Yemen's Houthi rebels launched strikes on Riyadh on Saturday after Saudi-led coalition air raids on Yemen, escalating a months-long surge in cross-border attack",
+   "detailTried": true
   },
   {
    "id": "7e0321d75be6",
@@ -5808,6 +8453,18 @@
    "score": 3
   },
   {
+   "id": "156ec62a3f8e",
+   "title": "Yen’s unpredictable game",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFJMLXhlU3VTU0FkVXlHVXBEWklXazhRU1d4UzhtRTRuSzAxNy1ucmU0elB4bHFvMkFZTDcxQmdUOEpnVVFKR2RSR0drWDNXMjdQakt5YUxGMHkwMVBOWVpXWTRaNjRpOWJaSjM5dGtrR2FIZFVlVm1Ebk9kSGswbWpPeGlIaElTeFV5Tw?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-20T18:04:42.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "cf9176ea1753",
    "title": "Building wealth for the long haul",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0s0QmlJQmMydmo0TDF0d2RoMFdSODhNYWdWMEw4eGJFMTFZRTl0NGJkbE80R2FGSkExZEhJLW5Jd216TFI1YXRQTFlSREFoQVVsVEN2eEppekkyU1hfQmJKaXgzQ0k4aURGTFM1RWJhZHBteU05LVVmQzFPdFJpVXF4N1NXc28tNS16dWF4d05QUExkcUdEYnFB?oc=5",
@@ -5885,6 +8542,18 @@
    "sum": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme."
   },
   {
+   "id": "a56db4406441",
+   "title": "Second judge blocks Trump's triumphal arch, calling it a 'rushed job'",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPajdFUmpSOXN6d045Q1JacldoemRSTldiRTFnRWtITzRtdHZsZ0FROGM5V0RZLUVPS25MUUhFdU10WmdDLXNHeXZfRTJxNXRGNVdaQVVnT0Z2X1c4cy1KYVo2NURYZ0JLMmt2VW1iU0F5RlVWV0M0RTZISVlrRUVEY2s4LTNrUU80TnNVS1FCWWplWk1DRUJEUlNfWnpxOE5OelluZ2FZeVZwQQ?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters World",
+   "cat": "world",
+   "published": "2026-11-20T17:47:12.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "123a43892c65",
    "title": "Apollo, Goldman lead $44 billion SpaceX GPU debt financing",
    "url": "https://www.channelnewsasia.com/business/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-6570241",
@@ -5933,6 +8602,18 @@
    "fetched": "2026-11-20T18:30:44.920Z",
    "score": 3,
    "sum": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?"
+  },
+  {
+   "id": "77bcb165200e",
+   "title": "PH eyes jobs from ASEAN-Australia energy cooperation",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzBWX25vamdUVktOTGlwSkhKNWZhbVlTNkhFSDE4VjBCSUhocTVicnZFYTJXTkc5YUJGUk5UbU9tYzE5cGI2TVZ0a1ZJeHdwT243VFlya1NFLXl0M3MtSW9PNlk2MTM1ck5ZMjAyM3lEQmtaVzNvTHVDYmJiVlk4QklFa2JHTmdSQUt3UXhmSFc0aDNONHpOY2J30gGnAUFVX3lxTE42NXljaWg4VFpFU2trQ2paQ0ZQSWpRWFdua1Rucjlkb1oyMVctMmNNRDBQck9FemFYMjFRWmpNdkhSMDJYZlhDekFXaWxPODZ0NVNFZ0RGVFhfTE15Nlo5Zkg2eEN1cEdrZkNYM3B2OVR2Wk9aUmVtd0xqR1BRV1pMQUxkYVpZTFVqbzFQS1JGbk1BZXBrMTRPQXotbE5QWS13ZVZkOGxJ?oc=5",
+   "source": "SunStar Publishing Inc.",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-20T17:38:01.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "c1095d4d9062",
@@ -6060,6 +8741,18 @@
    "sum": "Qatar’s Emir Sheikh Tamim bin Hamad Al Thani called for diplomatic efforts to de-escalate conflicts."
   },
   {
+   "id": "9f62f75156be",
+   "title": "Testing times for E&E",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc2dsUVc0QmhLZ3NEYkxfU282aWEyRW5PUzJselNRMkpYdnYxRjlrZUR0a01Ja2RSNnlDMVY1cnFxV0Zpc0dzajVlTmN3TjQ0MzhFRXhydnlwOElVckx2dGNfRW4wQ0k2SDh2cl8zWTh3T3E2Ym1rVGY5blJxUzBzeg?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-20T17:16:48.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "7b7f33961b75",
    "title": "Nam News Network (NNN) - US F-35 Stealth Fighter Makes Emergency Landing At Western Japan Airport",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5WmN2R1Y1Z0dNYWhrRk5VRS1ud29QbzdzNGQ1bUdMOGxtS1B0NUE3R2Q1SjZ3SGtPeGRkbUhPclREZHdCV3NFUTNDWnc1WFdjQS11RFhjNk40U1dydVE?oc=5",
@@ -6081,6 +8774,18 @@
    "published": "2026-11-20T17:14:00.000Z",
    "desc": "",
    "fetched": "2026-11-21T00:44:44.664Z",
+   "score": 3
+  },
+  {
+   "id": "9ec5335bda8e",
+   "title": "Growth outpaces confidence",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeU9vbnV6N1NLajRDYjhpSlV6bFc0bzl4TWhiOFp5V0hqa2JhS1JBTENuTlRDVkpEalFDQXlCdVp5OEFKSjFyRWxQUVVrZkExZ29hNF9BQUNESEw3THA1U29UckZGUk81b01XWEZBbVBIczV4aV90RkpUVW9PbTd5WS1DcUp1VWRp?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-20T17:13:40.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -6197,6 +8902,18 @@
    "sum": "Two women, two voices, two destinies: Malian performer Mariam continues her musical journey after the 2025 passing of Amadou, her partner in life and on stage. "
   },
   {
+   "id": "077da7e32c75",
+   "title": "Canadian Dollar gains ground as Middle East geopolitical tensions support Oil prices",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR1FxSW9id0hKak90SHJGM1JXWFNMSU4zakpZV0dIa0d3NHc5Ui1pRkQzTHZOZVFyaDVNUkdscUoxRXBaMGN2REE2TFl4eGtnS3ZYbnR1VVRWb0pEbUg1RXFjMm1ESlB5LWs0aV9lX3pwX19fWWd5YzQwUkd3YTUybklNVVBEVjVWXzFyVVNpSzJyWlZYSUEwbWRvMXcwODEyV3FUN0xTUnI2cXJmUmpNNnpYVEdXX09IQTktSE1TZjNYdFpyRWpmSHZEOXRQMVRxVk9mYThYWThYVXZnZ2w4b0FmWjQ?oc=5",
+   "source": "www.tmgm.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-20T17:00:41.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
    "id": "6d3849d9e83b",
    "title": "Flesh-eating screwworm cases surge in US, keeping ranchers on alert",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPc2lqWVFOMmRqdUZHalN1T0U2SUd0Y2swNjc3VHZoX0tSTGtuVjdoUDBKU0kwbXdGRi1iUExlRUdKWWtvWWFwSW5XeC1KdTBLbk1oWFNZT0o1V0VVckZYQmpJNFFRS1lZM1hkTE9LeEFYcW9ETndrMVJQX3NnOEtVNDhOZUU2VjRpR3M5cXF6djU5VVBCcEZNYUVEZ2c3TXFnRkNYUDhfUU16X3JBeHRYcnJPakpENEp4Ui1TNzlKbHFSc20yNjJtNTJTaFM?oc=5",
@@ -6243,6 +8960,18 @@
    "published": "2026-11-20T16:51:30.000Z",
    "desc": "",
    "fetched": "2026-11-21T03:38:53.896Z",
+   "score": 3
+  },
+  {
+   "id": "ea49c719c968",
+   "title": "China-ASEAN Legal Forum Launches Secretariat and AI Research Alliance in Chongqing",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHdmZllfeWM3NUEzMUwyUll6dUJQNk5scGE5VHo1dk5jblgyS0ExWk5weGFwancyRzM4d2NIRVFQeVEtcXhKM1RtNUN6cGx1ZGo0NFFSWEZMYTN6djhhelE3N01NRUtPTHpscXF4eFNCYlpsSzdxak9sNDdzdjhRcEY5XzBmSjhIMHZfZlpLUEh4Qk04T1EzU1lCWWVnRG95RW1HS2Ffb3Fxb2E1U3FTMElnMzZRbFpibXRMSzRxTTlIVEx4R0NIZA?oc=5",
+   "source": "Plataforma Media",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-20T16:51:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
    "score": 3
   },
   {
@@ -6308,6 +9037,18 @@
    "fetched": "2026-11-20T18:30:44.920Z",
    "score": 3,
    "sum": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Cl"
+  },
+  {
+   "id": "fb7174b1b876",
+   "title": "Alibaba Lowers Cloud Growth Outlook After U.S. Chip Curbs",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeHVzU3lQLVhNdE0tV1R0Mmx4d1RXbFpwcDl0NXdMLVJRZ2ZRSm9KZmZVdXRYN2hDVWJzcnBiYXNvU0FtcnhDbjdMakZRZkF5RlpfaGdfWERWZ3FTYWRnQ01mbzBYcjVUT0tCanM4WG1EZVRTQ3RybnhBLWRRb2c4ampIT0JmVTZVYTd5dVZDQW5OVXNPT0Q5UFVwRzRVOXRhRlpWNTE5aGZja2NHLVg0?oc=5",
+   "source": "Caixin Global",
+   "feed": "Caixin Global",
+   "cat": "china",
+   "published": "2026-11-20T16:31:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
   },
   {
    "id": "2089726452d9",
@@ -11650,8 +14391,7 @@
     "sea": "区域内的难民安置问题可能受到各国的持续关注与探讨。",
     "world": "跨国难民安置合作受到国际人道主义组织和相关国家的关注。"
    },
-   "detailTried": true,
-   "_img": "https://cassette.sphdigital.com.sg/image/zaobao/831f893da518464ad09db401681357fb5a64d46edbf83a17214981a80b648707"
+   "detailTried": true
   },
   {
    "id": "32c8ff00dc9d",
@@ -14227,8 +16967,7 @@
     "my": "这项政策可能强化东马的边境安全与移民管控，减少非法移民对当地社会的冲击。",
     "sea": "此举可能对区域内难民流动的管控政策产生一定的示范或溢出效应。",
     "world": "这反映出大马在处理难民和边境管控问题上正采取更为收紧的本土政策。"
-   },
-   "_img": "https://s.malaysiakini.com/i/d36KHZ-BBLXosV0whdOZEC5JXRg=/1200x0/filters:strip_exif()/file/1333/a2fc3c9726bfbc53cc1c75d0074d850f.jpeg"
+   }
   },
   {
    "id": "85766ef099d9",
