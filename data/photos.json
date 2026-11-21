@@ -141,6 +141,78 @@
    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/ASEAN_leaders_facing_Myanmar_Junta_leader.jpg/960px-ASEAN_leaders_facing_Myanmar_Junta_leader.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "credit": "Government of Indonesia / BPMI Setpres/L · Wikimedia Commons · Public domain",
    "kind": "B"
+  },
+  "新加坡": {
+   "at": 1795235126206,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg/960px-ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "印尼": {
+   "at": 1795235127077,
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Jakarta_Skyline_%28Resize%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "Kris100 · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "泰国": {
+   "at": 1795235127940,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Bangkok_skytrain_sunset.jpg/960px-Bangkok_skytrain_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "User:Diliff · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "越南": {
+   "at": 1795235128834,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hanoi_Skyline.jpg/960px-Hanoi_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Minhvuong308hn · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "菲律宾": {
+   "at": 1795235129820,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Skyline_in_Manila_16.jpg/960px-Skyline_in_Manila_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "SwarmCheng · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "马来西亚政治": {
+   "at": 1795235131146,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Sarawak_state_assembly_building.jpg/960px-Sarawak_state_assembly_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Cerevisae · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "国际政治": {
+   "at": 1795235132216,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2226.jpg/960px-Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jakub Hałun · Wikimedia Commons · CC BY 4.0",
+   "kind": "B"
+  },
+  "战争冲突": {
+   "at": 1795235133348,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Military_convoy_through_Saint_Lo.jpg/960px-Military_convoy_through_Saint_Lo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Post-Work: User:W.wolny · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "中东": {
+   "at": 1795235134364,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Doha%2C_Qatar%2C_Middle_East.jpg/960px-Doha%2C_Qatar%2C_Middle_East.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Fatih Renkligil · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "俄乌": {
+   "at": 1795235135372,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kyiv_City_Council_during_Euromaidan.JPG/960px-Kyiv_City_Council_during_Euromaidan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Андрей Романенко · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "能源": {
+   "at": 1795235136443,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Kimanis_Sabah_Kimanis-Power-Plant-01.jpg/960px-Kimanis_Sabah_Kimanis-Power-Plant-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "CEphoto, Uwe Aranas · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "气候": {
+   "at": 1795235137365,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg/960px-Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Geographer · Wikimedia Commons · CC BY-SA 2.0",
+   "kind": "B"
   }
  },
  "logos": []
