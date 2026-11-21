@@ -11,7 +11,7 @@ export async function gdeltRatio(query) {
   const url = `https://api.gdeltproject.org/api/v2/doc/doc?query=${encodeURIComponent(query)}&mode=timelinevol&timespan=7d&format=json`;
   try {
     let txt = '';
-    for (let i = 0; i < 4; i++) { // GitHub's shared servers often hit GDELT's 1-per-5-seconds limit: wait and retry
+    for (let i = 0; i < 2; i++) { // GitHub's shared servers often hit GDELT's 1-per-5-seconds limit: wait and retry
       const r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(20000) });
       txt = await r.text();
       if (!/limit requests/i.test(txt)) break;
