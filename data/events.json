@@ -1,12 +1,368 @@
 {
  "events": [
   {
+   "id": "6e6b7acb",
+   "first": "2026-11-21T22:12:19.702Z",
+   "lines": [
+    {
+     "id": "6e6b7acb-1",
+     "t": "COP31气候峰会因化石燃料分歧陷入僵局",
+     "ids": [
+      "a3764b25182c",
+      "b7be9e2e4afd",
+      "c3012d485eca",
+      "6b56be4bc539",
+      "89090d2f3063",
+      "4e24f14be340",
+      "688095944714"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "a3764b25182c": {
+     "id": "a3764b25182c",
+     "title": "'Worst Ever' COP Summit?",
+     "zh": "联合国气候变化大会成史上最糟糕一届？",
+     "short": "气候大会遭质疑",
+     "url": "https://www.france24.com/en/tv-shows/spotlight/20261121-worst-ever-cop-summit",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T20:08:48.000Z",
+     "sum": "由于政治领导力有限、缺乏美国官方代表团以及官僚延误带来的挫败感，舆论对本次联合国气候变化大会的有效性提出了质疑。各方正在讨论这是否是有史以来最糟糕的一届气候峰会。"
+    },
+    "b7be9e2e4afd": {
+     "id": "b7be9e2e4afd",
+     "title": "COP31: Deep divisions persist over energy, finance and science",
+     "zh": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+     "short": "联合国气候大会陷入僵局",
+     "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T17:26:47.000Z",
+     "sum": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方在化石燃料、气候融资和减排目标上分歧严重。修订后的草案删除了所有关于化石燃料的内容，引发欧盟及十多个国家的强烈不满。"
+    },
+    "c3012d485eca": {
+     "id": "c3012d485eca",
+     "title": "Countries race to secure Cop31 deal",
+     "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+     "short": "各国力争达成气候协议",
+     "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T15:52:00.000Z",
+     "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。"
+    },
+    "6b56be4bc539": {
+     "id": "6b56be4bc539",
+     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+     "zh": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+     "short": "气候峰会因化石燃料陷僵局",
+     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T07:31:05.000Z",
+     "sum": "近200个国家的代表在第31届联合国气候变化大会谈判中陷入僵局。各国在化石燃料削减等关键条款上分歧严重，导致新的全球气候协议难以敲定。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "89090d2f3063": {
+     "id": "89090d2f3063",
+     "title": "COP31 deal stalls as nations struggle to agree on climate plan",
+     "zh": "各国难就气候计划达成一致，COP31协议陷入僵局",
+     "short": "气候协议陷入僵局",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T01:44:09.000Z"
+    },
+    "4e24f14be340": {
+     "id": "4e24f14be340",
+     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+     "zh": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+     "short": "气候峰会因化石燃料延时",
+     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T23:06:41.000Z"
+    },
+    "688095944714": {
+     "id": "688095944714",
+     "title": "‘We didn’t come here to beg’: Africa’s message at COP31",
+     "zh": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+     "short": "非洲国家诉求气候公正",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/we-didnt-come-here-to-beg-africas-message-at-cop31?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:55:16.000Z"
+    }
+   },
+   "name": "第31届联合国气候大会分歧",
+   "en": "cop31 climate summit fossil fuels deadlock",
+   "wiki": "2026 United Nations Climate Change Conference",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false,
+   "heat": {
+    "score": 1,
+    "sources": 3,
+    "stories": 7,
+    "gdelt": null,
+    "wiki": {
+     "title": "2026 United Nations Climate Change Conference",
+     "views": 1055,
+     "ratio": 0.8
+    },
+    "at": "2026-11-21T22:25:23.779Z"
+   }
+  },
+  {
+   "id": "baacab83",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "baacab83-1",
+     "t": "《侠盗猎车手6》首日销售额破纪录",
+     "ids": [
+      "4b3f595fab30",
+      "499417bebfbd",
+      "5ac335d3fdf5",
+      "5ca931d42cae"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "4b3f595fab30": {
+     "id": "4b3f595fab30",
+     "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+     "zh": "《侠盗猎车手6》首发日销售额达37.9亿美元",
+     "short": "GTA6首日销售破纪录",
+     "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+     "source": "The Verge",
+     "cat": "tech",
+     "published": "2026-11-20T19:35:06.000Z",
+     "sum": "备受瞩目的游戏大作《侠盗猎车手6》在发售首日实现37.9亿美元的惊人销售额，打破了所有媒介的娱乐产业纪录。同时，该游戏也录得了3250万份的预售佳绩。"
+    },
+    "499417bebfbd": {
+     "id": "499417bebfbd",
+     "title": "Grand Theft Auto VI takes record US$3.8bil on first day",
+     "zh": "《侠盗猎车手6》首日创下38亿美元纪录，为前作近五倍",
+     "short": "GTA6首日大卖38亿美元",
+     "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/21/grand-theft-auto-vi-takes-record-us-3-8bil-on-first-day",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-20T23:00:00.000Z"
+    },
+    "5ac335d3fdf5": {
+     "id": "5ac335d3fdf5",
+     "title": "GTA VI books record $3.79 billion in sales on first day of launch",
+     "zh": "《GTA 6》首日创下37.9亿美元销售纪录",
+     "short": "GTA6首日狂揽38亿",
+     "url": "https://www.channelnewsasia.com/business/gta-vi-books-record-379-billion-in-sales-first-day-launch-6570471",
+     "source": "CNA Business",
+     "cat": "tech",
+     "published": "2026-11-20T19:43:16.000Z"
+    },
+    "5ca931d42cae": {
+     "id": "5ca931d42cae",
+     "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
+     "zh": "《GTA 6》引爆下载热潮，预计销售额突破23亿美元",
+     "short": "GTA6热销",
+     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "tech",
+     "published": "2026-11-20T13:08:30.000Z"
+    }
+   },
+   "name": "GTA 6发售创下销售纪录",
+   "en": "gta 6 record sales launch day",
+   "wiki": "Grand Theft Auto VI",
+   "cat": "tech",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false,
+   "heat": {
+    "score": 3,
+    "sources": 4,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": {
+     "title": "Grand Theft Auto VI",
+     "views": 540793,
+     "ratio": 2.4
+    },
+    "at": "2026-11-21T22:26:11.668Z"
+   }
+  },
+  {
+   "id": "7d01a8b9",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "7d01a8b9-1",
+     "t": "欧洲多国年轻人走上街头抗议高生活成本",
+     "ids": [
+      "c902a31706b5",
+      "b0ff52fa3422",
+      "9da0d3967904",
+      "517e76bd6677",
+      "4bef99f0e187",
+      "d8aa0d67cbef"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "c902a31706b5": {
+     "id": "c902a31706b5",
+     "title": "Thousands protest across Europe over living costs and housing",
+     "zh": "欧洲各地爆发抗议生活成本和住房危机的示威",
+     "short": "欧洲爆发生活成本示威",
+     "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T20:47:50.000Z"
+    },
+    "b0ff52fa3422": {
+     "id": "b0ff52fa3422",
+     "title": "France’s sixth consecutive Saturday of protests draw lower turnout",
+     "zh": "法国连续第六个星期六抗议活动参与人数下降",
+     "short": "法国抗议人数减少",
+     "url": "https://www.france24.com/en/france/20261121-france-s-sixth-consecutive-saturday-of-protests-draw-lower-turnout",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T20:20:37.000Z"
+    },
+    "9da0d3967904": {
+     "id": "9da0d3967904",
+     "title": "French protesters rally for sixth weekend over living costs, public services",
+     "zh": "法国抗议者第六个周末集会抗议生活成本",
+     "short": "法国民众周末抗议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:53:42.000Z"
+    },
+    "517e76bd6677": {
+     "id": "517e76bd6677",
+     "title": "Thousands protest overs prices, education, military spending in France and Europe",
+     "zh": "欧洲多国爆发抗议活动反对生活成本上涨与教育削减",
+     "short": "欧洲爆发抗议浪潮",
+     "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:48:46.000Z"
+    },
+    "4bef99f0e187": {
+     "id": "4bef99f0e187",
+     "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+     "zh": "欧洲多国爆发Z世代抗议，反对战争、高昂生活成本与气候危机",
+     "short": "欧洲Z世代抗议生活成本",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T02:49:16.000Z"
+    },
+    "d8aa0d67cbef": {
+     "id": "d8aa0d67cbef",
+     "title": "Young protesters hit the streets across Europe",
+     "zh": "欧洲各地年轻人走上街头抗议高生活成本",
+     "short": "欧洲年轻人上街抗议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/young-protesters-hit-the-streets-across-europe",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T02:39:11.000Z"
+    }
+   },
+   "name": "欧洲多国爆发Z世代抗议潮",
+   "en": "generation z protests europe cost of living",
+   "wiki": "Protests in Europe",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false
+  },
+  {
+   "id": "c87ad0cf",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "c87ad0cf-1",
+     "t": "美国联邦调查局数据库疑遭黑客入侵",
+     "ids": [
+      "ddb90bb60acc",
+      "17d8c5527403",
+      "d3ae8b6abe06",
+      "07601b60021e"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "ddb90bb60acc": {
+     "id": "ddb90bb60acc",
+     "title": "FBI national crime database suffers suspected breach: Reports",
+     "zh": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
+     "short": "美国联邦调查局系统被黑",
+     "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-21T18:19:10.000Z",
+     "sum": "美国联邦调查局的国家犯罪信息中心数据库据报遭遇黑客入侵并正接受调查。这是近期美国政府部门遭遇的一连串网络泄密和系统故障中的最新一起。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "17d8c5527403": {
+     "id": "17d8c5527403",
+     "title": "US Agriculture Department, FBI breached by hackers",
+     "zh": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/us-agriculture-department-fbi-breached-by-hackers",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-21T07:23:59.000Z",
+     "sum": "美国农业部证实其农民补贴支付系统遭黑客入侵，同时美国联邦调查局也遭遇了自9月以来的第二次网络攻击。两家主要联邦机构连续被黑，引发对政府关键网络安全防御的广泛担忧。"
+    },
+    "d3ae8b6abe06": {
+     "id": "d3ae8b6abe06",
+     "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+     "zh": "美国农业部与联邦调查局遭黑客网络攻击",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+     "source": "France 24",
+     "cat": "tech",
+     "published": "2026-11-21T07:01:04.000Z"
+    },
+    "07601b60021e": {
+     "id": "07601b60021e",
+     "title": "FBI reportedly investigating apparent hack of its criminal database",
+     "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
+     "short": "联邦调查局数据库疑遭黑客入侵",
+     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T16:35:15.000Z"
+    }
+   },
+   "name": "联邦调查局数据库疑遭黑客入侵",
+   "en": "fbi national crime information center hacked breach",
+   "wiki": "Cyberattack",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false
+  },
+  {
    "id": "f4bb4b75",
    "first": "2026-11-21T03:41:42.627Z",
    "lines": [
     {
      "id": "f4bb4b75-1",
-     "t": "基辅空袭与俄罗斯攻势",
+     "t": "导弹或无人机坠落波兰引发戒备",
      "ids": [
       "f5aa2c1600b1",
       "6fca891ece5d",
@@ -15,32 +371,41 @@
       "dfff6b708f3a",
       "1425c009d761",
       "80605099f5e4",
-      "c06f290ca0b1"
+      "c06f290ca0b1",
+      "1204031f81c5"
      ],
      "w": {
-      "short": "俄空袭基辅及波兰",
-      "key": "俄罗斯对乌克兰发动大规模空袭并波及波兰领空，引发区域局势紧张。",
-      "title": "俄罗斯空袭基辅与波兰边境，乌克兰战局与区域安全再升级",
-      "summary": "俄罗斯近日对乌克兰首都基辅及多地发动了大规模空袭，目标涵盖桥梁、能源设施及基础设施，造成多人死伤。同时，袭击事件波及邻国波兰领空，引发北约及国际社会的强烈关注与谴责。此次行动被视为对先前克里米亚大桥受损的报复。",
+      "short": "俄导弹落入波兰",
+      "key": "俄罗斯导弹与飞行物坠落波兰领空，引发区域安全警戒与北约谴责。",
+      "title": "俄罗斯导弹与飞行物坠落波兰领空 引发区域安全高度戒备",
+      "summary": "俄罗斯近日对乌克兰发动大规模空袭，期间有导弹和飞行物落入波兰领空，引发区域安全高度关注。波兰官方强烈谴责此事件为莫斯科的严重挑衅，北约也对此表达谴责并紧急应对。同时，乌克兰多地基础设施与桥梁遭到猛烈轰炸，造成多人死伤。",
       "common": [
        {
-        "t": "俄罗斯对基辅及多地发动大规模导弹与无人机空袭。",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "袭击造成乌克兰多人死伤并破坏了桥梁等基础设施。",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "俄罗斯导弹或飞行物侵犯了邻国波兰的领空。",
+        "t": "俄罗斯导弹落入波兰领空",
         "src": [
          "AP News",
+         "BBC World",
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "波兰谴责俄罗斯挑衅",
+        "src": [
+         "BBC World",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "北约回应并谴责违规",
+        "src": [
+         "AP News",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "俄罗斯对乌克兰发动空袭",
+        "src": [
          "BBC World",
          "Al Jazeera"
         ]
@@ -48,106 +413,146 @@
       ],
       "single": [
        {
-        "t": "法国正寻求召开联合国安理会紧急会议以商讨乌克兰局势。",
-        "src": "France 24"
+        "t": "波兰防长指出坠落的是Kh-101导弹并落在诺维利波维茨",
+        "src": "BBC World"
+       },
+       {
+        "t": "波兰总理指周五清晨有三件飞行物侵犯领空",
+        "src": "BBC World"
        }
       ],
-      "views": [],
-      "unknown": "目前关于波兰境内落入的俄罗斯导弹的具体发射意图及完整破坏细节仍在调查中。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "AP News",
+         "BBC World",
+         "Al Jazeera"
+        ],
+        "t": "认为俄罗斯此举是针对乌克兰早前攻击克里米亚大桥的报复性打击，并加剧了欧洲地缘政治紧张。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World",
+         "Free Malaysia Today"
+        ],
+        "t": "波兰官方及北约则将导弹落入境内事件视为莫斯科的严重挑衅与领空侵犯行为。"
+       }
+      ],
+      "unknown": "目前对于落入波兰境内的具体飞行物数量及完整细节仍有待进一步调查核实。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "欧洲地缘政治紧张局势进一步加剧，并引发国际社会对区域安全的广泛担忧。"
+       "world": "欧洲地缘政治紧张局势因俄罗斯对乌大规模空袭及导弹波及波兰而进一步加剧。"
       },
       "people": [
        "Volodymyr Zelenskyy",
        "Vladimir Putin"
       ],
-      "photo": "missile strike",
+      "photo": "missile defense system",
       "per": [
        {
         "id": "80605099f5e4",
         "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹落入波兰境内，北约称此举明显违约并加剧紧张。",
+        "says": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。",
         "same": [
-         "导弹落入波兰"
+         "导弹落入波兰",
+         "北约回应违规"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "c06f290ca0b1",
         "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "欧洲多国军队在波兰举行战后任务演习。",
-        "same": [],
+        "says": "",
+        "same": [
+         "波兰举行演习"
+        ],
         "view": null
        },
        {
         "id": "f5aa2c1600b1",
         "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "俄罗斯夜间对基辅及多地发动大规模空袭，作为对克里米亚大桥受损的报复。",
+        "says": "Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge.",
         "same": [
-         "大规模空袭",
-         "报复克里米亚"
+         "俄罗斯空袭基辅"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "6fca891ece5d",
         "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "波兰称三件飞行物侵犯领空，北约紧急出动战机应对。",
+        "says": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。",
         "same": [
-         "导弹落入波兰"
+         "导弹落入波兰",
+         "波兰谴责挑衅"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "968b51712184",
         "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "基辅空袭波及欧洲使馆，法国寻求召开联合国安理会会议。",
-        "same": [],
+        "says": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议。",
+        "same": [
+         "俄军空袭基辅"
+        ],
         "view": null
        },
        {
         "id": "b4d8b1b930db",
         "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "俄罗斯发射大量导弹和无人机轰炸基辅桥梁及能源设施，造成人员死伤。",
+        "says": "Russia has launched a barrage of air attacks on Ukraine, killing eight people, as it targeted Kyiv’s bridges and infrastructure.",
         "same": [
-         "大规模空袭",
-         "报复克里米亚"
+         "俄罗斯空袭基辅"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "dfff6b708f3a",
         "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄罗斯全天候攻击基辅并导致使馆受损。",
-        "same": [],
+        "says": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级。",
+        "same": [
+         "俄罗斯空袭基辅"
+        ],
         "view": null
        },
        {
         "id": "1425c009d761",
         "t": "波兰谴责俄罗斯领空遭三度侵犯",
-        "says": "波兰谴责领空遭到多次侵犯。",
+        "says": "",
         "same": [
-         "导弹落入波兰"
+         "波兰谴责挑衅"
         ],
-        "view": null
+        "view": "看法 B"
        }
       ]
      },
      "loose": false,
-     "sig": "2ec16f2d",
+     "sig": "d4a2991e",
      "v": 2,
-     "at": "2026-11-21T04:22:27.211Z",
+     "at": "2026-11-21T22:15:46.118Z",
      "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
-      "credit": "BBC World",
-      "kind": "A"
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_%2831-12-2025%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "credit": "Press Service of the President of Ukrain · Wikimedia Commons · CC BY 4.0",
+        "kind": "B",
+        "person": "Volodymyr Zelenskyy"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Putin_V_2026_08_10.png/960px-Putin_V_2026_08_10.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Пресс-служба Президента России · Wikimedia Commons · CC BY 4.0",
+        "kind": "B",
+        "person": "Vladimir Putin"
+       }
+      ]
      }
     },
     {
      "id": "f4bb4b75-2",
-     "t": "和平谈判与安全保障分歧",
+     "t": "美俄乌高层表态与安全保证分歧",
      "ids": [
       "acc8f3177f53",
       "b38e5a17b7df",
@@ -155,23 +560,32 @@
       "5142390aaa16",
       "8bd76ee26afb",
       "7018d0e3b351",
-      "b2c8270dd931"
+      "b2c8270dd931",
+      "ac3f47852a51",
+      "d5f4d08731f7"
      ],
      "w": {
-      "short": "乌克兰和平与安全保障",
-      "key": "各方对乌克兰未来安全保障及北约成员国身份存在严重分歧。",
-      "title": "乌克兰战争和平谈判与安全保障分歧",
-      "summary": "美国特使称俄罗斯对乌克兰类北约安全保障持开放态度，但俄罗斯副外长随后予以明确拒绝。法国总统呼吁重新讨论乌克兰加入北约的议题，引发莫斯科的强烈反弹。与此同时，各方仍在通过外交途径探寻结束冲突的方案。",
+      "short": "美俄乌安全保障分歧加剧",
+      "key": "美特使提类北约保障遭俄拒绝",
+      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
+      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
       "common": [
        {
-        "t": "美国特使库什纳称俄罗斯对类北约安全保障持开放态度。",
+        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
         "src": [
          "Al Jazeera",
          "Free Malaysia Today"
         ]
        },
        {
-        "t": "俄罗斯副外长拒绝了乌克兰加入北约或任何形式的准成员国地位。",
+        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
         "src": [
          "Al Jazeera",
          "Free Malaysia Today"
@@ -180,7 +594,15 @@
       ],
       "single": [
        {
-        "t": "法国总统马克龙在柏林峰会上提出应重新考虑乌克兰的北约成员国身份。",
+        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
         "src": "Free Malaysia Today"
        }
       ],
@@ -190,92 +612,92 @@
         "src": [
          "Al Jazeera"
         ],
-        "t": "美方特使认为俄罗斯能够接受基于北约集体防御概念的战后安全保障。"
+        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
        },
        {
         "label": "看法 B",
         "src": [
          "Free Malaysia Today"
         ],
-        "t": "俄方明确表示绝对不会接受乌克兰加入北约或任何准成员国地位。"
+        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
        }
       ],
-      "unknown": "乌克兰未来是否能获得有效的类北约安全保障目前尚不确定。",
+      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "乌克兰战后安全架构与和平谈判牵动大国地缘政治格局。"
+       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
       },
       "people": [
        "Donald Trump",
        "Vladimir Putin"
       ],
-      "photo": "diplomatic meeting",
+      "photo": null,
       "per": [
-       {
-        "id": "acc8f3177f53",
-        "t": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-        "says": "伊朗希望通过外交和保证结束与美国的冲突，但特朗普认为条件不可接受。",
-        "same": [],
-        "view": null
-       },
        {
         "id": "b38e5a17b7df",
         "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-        "says": "特朗普与普京会晤并互称朋友，泽连斯基则公开反驳并称普京为杀手。",
-        "same": [],
+        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
+        "same": [
+         "美俄领导人会晤",
+         "削减军援基辅"
+        ],
         "view": null
        },
        {
         "id": "3a083cc0df3b",
         "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-        "says": "美方特使表示俄罗斯对战后乌克兰的类北约安全保障感到适应。",
+        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
         "same": [
-         "类北约安全保障"
+         "类北约保障",
+         "马克龙提北约",
+         "美俄中国会晤"
         ],
         "view": "看法 A"
        },
        {
-        "id": "5142390aaa16",
-        "t": "巴基斯坦部长自2025年战争以来首次访问印度",
-        "says": "巴基斯坦部长赴印度出席上合组织论坛，为两国关系解冻铺路。",
-        "same": [],
-        "view": null
-       },
-       {
         "id": "8bd76ee26afb",
         "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-        "says": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。",
+        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
         "same": [
-         "拒绝北约式保障"
+         "拒绝北约保障",
+         "马克龙提北约",
+         "欧洲特使赴俄"
         ],
         "view": "看法 B"
        },
        {
-        "id": "7018d0e3b351",
-        "t": "乌克兰三方峰会难为和平带来希望",
-        "says": "三方峰会未能给乌克兰和平带来实质希望。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "b2c8270dd931",
-        "t": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-        "says": "德国官员警告雅尔塔模式无法带来和平。",
-        "same": [],
+        "id": "ac3f47852a51",
+        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
+        "same": [
+         "欧洲防务开支",
+         "拒绝领土割让"
+        ],
         "view": null
        }
       ]
      },
-     "loose": true,
-     "sig": "52f8e645",
-     "at": "2026-11-21T04:22:40.792Z",
+     "loose": false,
+     "sig": "e0733d78",
+     "at": "2026-11-21T22:17:32.053Z",
      "img": {
       "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
       "credit": "Al Jazeera",
       "kind": "A"
      },
      "v": 2
+    },
+    {
+     "id": "f4bb4b75-3",
+     "t": "俄罗斯空袭泽连斯基家乡与基辅",
+     "ids": [
+      "b0b72e86c2bd",
+      "286cc01f5f7e",
+      "aedff471d118",
+      "cbeed7399dad",
+      "ecdeb85fd175"
+     ]
     }
    ],
    "minor": [],
@@ -440,23 +862,123 @@
      "source": "AP News",
      "cat": "world",
      "published": "2026-11-20T19:47:00.000Z"
+    },
+    "b0b72e86c2bd": {
+     "id": "b0b72e86c2bd",
+     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
+     "short": "俄袭击乌总统家乡",
+     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:56:39.000Z",
+     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
+    },
+    "286cc01f5f7e": {
+     "id": "286cc01f5f7e",
+     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
+     "short": "俄狂轰基辅致7死",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T18:42:38.000Z",
+     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "aedff471d118": {
+     "id": "aedff471d118",
+     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
+     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
+     "short": "俄导弹袭泽连斯基家乡",
+     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:55:07.000Z"
+    },
+    "cbeed7399dad": {
+     "id": "cbeed7399dad",
+     "title": "Russia strikes Zelenskyy's hometown, killing 2",
+     "zh": "俄军空袭泽连斯基家乡致2人死亡",
+     "short": "俄军空袭泽连斯基家乡",
+     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-21T14:44:00.000Z"
+    },
+    "ecdeb85fd175": {
+     "id": "ecdeb85fd175",
+     "title": "Emergency crews in Ukraine hit by a double-tap strike",
+     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
+     "short": "乌救援队遭俄军二次空袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T07:12:03.000Z"
+    },
+    "1204031f81c5": {
+     "id": "1204031f81c5",
+     "title": "Russia tests NATO’s eastern defences",
+     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
+     "short": "俄导弹疑似落入波兰",
+     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:50:35.000Z",
+     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
+    },
+    "ac3f47852a51": {
+     "id": "ac3f47852a51",
+     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
+     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+     "short": "特朗普不满欧洲援乌",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:15:30.000Z",
+     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "d5f4d08731f7": {
+     "id": "d5f4d08731f7",
+     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
+     "short": "特朗普称普京朋友泽连斯基驳斥",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T08:10:25.000Z",
+     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
     }
    },
    "name": "乌克兰战争与安全局势",
-   "en": "Ukraine war Russia missile security",
-   "wiki": "Russian_invasion_of_Ukraine",
+   "en": "ukraine war russia missile poland zelensky",
+   "wiki": "Russian invasion of Ukraine",
    "cat": "world",
-   "last": "2026-11-21T03:51:30.997Z",
+   "last": "2026-11-21T22:12:19.702Z",
    "hidden": false,
-   "short": "俄乌战事升级与安全博弈",
-   "key": "基辅遭大规模空袭，安全保障谈判陷僵局",
-   "overview": "俄罗斯对基辅及多地发动大规模空袭波及波兰领空引发北约关注，同时美俄在乌克兰安全保障及和平谈判问题上分歧严重。",
+   "short": "乌克兰战局与安全局势",
+   "key": "导弹坠波兰与战后安保博弈",
+   "overview": "俄罗斯对乌克兰发动大规模空袭并有导弹落入波兰领空，引发北约高度戒备；同时美欧俄就乌克兰战后安全保障及领土问题分歧严重，和谈陷入僵局。",
    "minorText": [],
    "links": [
     {
      "from": "f4bb4b75-1",
      "to": "f4bb4b75-2",
-     "t": "俄罗斯大规模空袭基辅并波及邻国，加剧了各方对安全保障和和平谈判的分歧。"
+     "t": "俄罗斯大规模空袭乌克兰基辅及基础设施，加剧了战后和平安排与安全保障的紧张局势"
     }
    ],
    "img": {
@@ -465,16 +987,16 @@
     "kind": "A"
    },
    "heat": {
-    "score": 2,
-    "sources": 6,
-    "stories": 15,
+    "score": 3,
+    "sources": 7,
+    "stories": 23,
     "gdelt": null,
     "wiki": {
-     "title": "Russian_invasion_of_Ukraine",
+     "title": "Russian invasion of Ukraine",
      "views": 973,
      "ratio": 1
     },
-    "at": "2026-11-21T16:51:52.333Z"
+    "at": "2026-11-21T22:22:19.832Z"
    }
   },
   {
@@ -483,7 +1005,7 @@
    "lines": [
     {
      "id": "5a1cdc28-1",
-     "t": "国际法院裁决及各方反应",
+     "t": "国际法院罗兴亚人种族灭绝裁决",
      "ids": [
       "978f89b95795",
       "75c4f6000f48",
@@ -496,122 +1018,86 @@
       "9823b865d2e8",
       "16b950be37c5",
       "3bcfa52a6aed",
-      "3640a3fbb952"
+      "3640a3fbb952",
+      "135e6ee7403e",
+      "6cc38668b794"
      ],
      "w": {
-      "short": "国际法院裁定缅甸灭绝罗兴亚人",
-      "key": "国际法院裁定缅甸对罗兴亚人犯下灭绝罪，成首个被裁定违公约国家。",
-      "title": "国际法院历史性裁定缅甸对罗兴亚人犯下灭绝罪，各方反应不一",
-      "summary": "联合国国际法院历史上首次裁定一个国家犯下种族灭绝罪，裁定缅甸在2017年的镇压行动中对罗兴亚人犯下灭绝罪，并下令赔偿和允许难民安全回国。缅甸官方批评裁决不公并重申行动针对武装叛乱，中国则对司法过度干预表示担忧。此项裁决对国际法及其他类似案件具有深远的历史意义。",
+      "short": "缅甸罗兴亚裁决",
+      "key": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪",
+      "title": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪，创下历史先例",
+      "summary": "联合国国际法院在一项历史性裁决中，裁定缅甸在2017年的镇压行动中对罗兴亚人犯下种族灭绝罪，成为首个被裁定违反1948年公约的国家。法院下令缅甸停止暴力、赔偿受害者并允许难民安全回国。此裁决在国际社会引发不同反应，缅甸批评裁决不公，中国表达关切，而大马等收容国则面临庇护政策压力。",
       "common": [
        {
-        "t": "国际法院裁定缅甸犯下种族灭绝罪",
-        "src": [
-         "France 24",
-         "CNA Asia",
-         "BBC 中文"
-        ]
-       },
-       {
-        "t": "案件源于2017年对罗兴亚人的镇压",
+        "t": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪。",
         "src": [
          "France 24",
          "CNA Asia",
          "Free Malaysia Today",
-         "BBC 中文"
-        ]
-       },
-       {
-        "t": "法院下令赔偿并允许难民安全回国",
-        "src": [
-         "CNA Asia",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "缅甸官方批评裁决不公平",
-        "src": [
-         "CNA Asia",
-         "Malaysiakini",
-         "Free Malaysia Today"
+         "BBC 中文",
+         "Malaysiakini"
         ]
        }
       ],
       "single": [
        {
-        "t": "中国对国际法院的裁决表示担忧，认为存在司法过度干预的问题。",
-        "src": "Free Malaysia Today"
+        "t": "长期收容难民的马来西亚，面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。",
+        "src": "France 24"
        },
        {
-        "t": "英国要求紧急召开安理会会议并宣布驱逐缅甸驻伦敦国防武官。",
-        "src": "BBC 中文"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "CNA Asia",
-         "Malaysiakini",
-         "Free Malaysia Today"
-        ],
-        "t": "缅甸官方认为裁决不公，并重申其行动针对的是武装叛乱。"
+        "t": "中国指出国际法院存在司法过度干预的问题，认为此举不利于解决争端。",
+        "src": "d3549ebb0236"
        },
        {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today",
-         "CNA Asia"
-        ],
-        "t": "中国认为存在司法过度干预和扩大解释，不利于解决争端。"
+        "t": "英国已要求紧急召开安理会会议、宣布驱逐缅甸驻伦敦国防武官，并承诺採取其他措施。",
+        "src": "408065c2f975"
        }
       ],
-      "unknown": "由于国际法院缺乏执法机制，缅甸是否会遵守命令目前仍是未知数。",
+      "views": [],
+      "unknown": "目前尚不清楚缅甸是否会遵守国际法院的裁决以及最终如何落实赔偿与难民遣返。",
       "impact": {
-       "my": "长期收容难民的马来西亚，面对日益高涨的反感与社会压力，其难民庇护政策正面临历史性抉择。",
-       "sea": "裁决可能对缅甸领导人带来更多国际外交压力，并对区域局势产生深远影响。",
-       "world": "这是国际法院首次裁定国家犯下灭绝罪，并为加沙等其他种族灭绝案件设定了重要的举證标准先例。"
+       "my": "大马长期收容难民，裁决引发的局势变化使国内难民庇护政策面临严峻考验。",
+       "sea": "裁决对缅甸军政府构成更大外交压力，并牵动区域内罗兴亚难民的去留与人道安置。",
+       "world": "作为国际法院首个种族灭绝罪名裁决，为日后审理其他国际冲突（如加沙案）树立了重要的法律先例。"
       },
       "people": [
        "Yuji Iwasawa",
        "Min Aung Hlaing"
       ],
-      "photo": null,
+      "photo": "refugee camp",
       "per": [
        {
         "id": "978f89b95795",
         "t": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
-        "says": "国际法院裁定缅甸在2017年犯下灭绝罪，大马庇护政策正面临抉择。",
+        "says": "国际法院裁定缅甸犯下灭绝罪，大马面对本土压力，庇护政策面临抉择。",
         "same": [
-         "灭绝罪",
-         "大马庇护政策"
+         "种族灭绝罪"
         ],
         "view": null
        },
        {
         "id": "75c4f6000f48",
         "t": "联合国针对缅甸作出具里程碑意义裁决",
-        "says": "国际法院裁定缅甸对罗兴亚人犯下灭绝罪，下令提供赔偿。",
+        "says": "国际法院以9比6多数裁定缅甸犯下种族灭绝，限期两年报告赔偿与整改措施。",
         "same": [
-         "灭绝罪",
-         "赔偿"
+         "历史性裁决",
+         "赔偿受害者"
         ],
         "view": null
        },
        {
         "id": "afbc4c41b87d",
         "t": "缅甸称国际法院的种族灭绝裁决“不公平”",
-        "says": "缅甸批评裁决不公并否认指控，中国表达担忧。",
+        "says": "缅甸总统府发言人批评裁决不公，强调行动针对武装叛乱，缅方一贯否认指控。",
         "same": [
-         "裁决不公",
-         "中国担忧"
+         "裁决不公平"
         ],
         "view": "看法 A"
        },
        {
         "id": "d3549ebb0236",
         "t": "中国称缅甸种族灭绝裁决“不利于”解决争端",
-        "says": "中国对国际法院裁决表示担忧，认为存在司法过度干预。",
+        "says": "中国外交部表示关注司法过度干预，认为不利于解决争端，并指陪审员独立履行职责。",
         "same": [
          "司法过度干预"
         ],
@@ -620,24 +1106,23 @@
        {
         "id": "408065c2f975",
         "t": "缅甸种族灭绝裁决影响深远的历史意义",
-        "says": "国际法院历史性裁定缅甸犯下种族灭绝罪，对其他案件产生影响。",
+        "says": "国际法院裁定缅甸种族灭绝具深远意义，釐清了举证标准并对加沙等其他案件产生影响。",
         "same": [
-         "历史意义",
-         "灭绝罪"
+         "首个裁决"
         ],
         "view": null
        },
        {
         "id": "7745a81f8be2",
         "t": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
-        "says": "探讨罗兴亚种族灭绝裁决对加沙案件的影响。",
+        "says": "探讨国际法院罗兴亚裁决对加沙局势的潜在影响。",
         "same": [],
         "view": null
        },
        {
         "id": "c45b740ac23d",
         "t": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
-        "says": "缅甸称国际法院的裁决不公。",
+        "says": "缅甸官方回应国际法院裁决并指责其不公。",
         "same": [
          "裁决不公"
         ],
@@ -646,7 +1131,7 @@
        {
         "id": "6b17d8cfc59e",
         "t": "缅甸发言人称国际法院的种族灭绝裁决不公",
-        "says": "缅甸发言人指国际法院的种族灭绝裁决不公。",
+        "says": "缅甸发言人指国际法院种族灭绝裁决不公。",
         "same": [
          "裁决不公"
         ],
@@ -654,19 +1139,19 @@
        }
       ]
      },
-     "loose": false,
-     "sig": "69a873c5",
-     "at": "2026-11-21T04:22:14.271Z",
+     "loose": true,
+     "sig": "f31056b5",
+     "at": "2026-11-21T22:15:06.773Z",
      "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
-      "credit": "CNA Asia",
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/be362aef-61ea-4370-b235-fb4ab69fe2f5-14456296_cropped_1.webp",
+      "credit": "Free Malaysia Today",
       "kind": "A"
      },
      "v": 2
     },
     {
      "id": "5a1cdc28-2",
-     "t": "大马安置罗兴亚难民计划",
+     "t": "大马内阁同意将罗兴亚难民安置土耳其",
      "ids": [
       "391dc893b136",
       "bbc90da3ec13",
@@ -864,7 +1349,7 @@
      "id": "391dc893b136",
      "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
      "zh": "大马计划将1万名罗兴亚难民安置在土耳其",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG5MbTZoN1FoMXEteXA0UE9mM0huZ3VudkhPa2F5b09TMXBJNlZkVGhwRXUxemJIUjlCalVQOTdReDNaakpRTC1xcDdNZXZyMVlyYi1KN3c0eWk2ZHNLN0wyMUp2TlBndGhwWnZPSWVsa2czMFV3SW5Gc08zZ1hxS2JPeWpBUmpxZTEzVUxZc1NRcVRrWm5J?oc=5",
+     "url": "https://www.zaobao.com.sg/en/news/sea/malaysia-plans-resettle-10000-rohingya-refugees-turkey",
      "source": "联合早报",
      "cat": "sea",
      "published": "2026-11-20T09:02:34.000Z",
@@ -949,17 +1434,37 @@
      "source": "Malaysiakini",
      "cat": "malaysia",
      "published": "2026-11-20T23:00:00.000Z"
+    },
+    "135e6ee7403e": {
+     "id": "135e6ee7403e",
+     "title": "‘The world now knows’: Myanmar refugees welcome ICJ landmark ruling on genocide",
+     "zh": "缅甸难民欢迎国际法院就种族灭绝案作出的裁决",
+     "short": "缅难民欢迎国际法院裁决",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3hGVlR5VkJNR2NzMTB0bjRFVU9RUGlNWVVpdGxwTF8wWWZZNWpoYkVoUmpEMzA0alhSM3l2aTJlMVlrcTBuQ0drbmo4elVzT0pWR1h5bW9ZbThpVGN4THlJcDZIZWNfcVZsZ1JLV2JqUXMzZHRxdkVlYjRCOFBDTXp6NVdEcmJzMjZ6ZnBIbExIRmFib1BKZllULTRtWnFnM200LV9kYjhtaXE4SlE3N0djNzdVVU8xb05SWEpteTlVTElldXYyWElpQdIB0AFBVV95cUxNM01Rc01PODlMbXVsMXpkcjVUNndwSkQzc1pvQnd4b2lvMmdfVHdNMDhFdHZ2dHcxc1Z6VFRxNkRyc1RTVktWYmtleU1oRE8yWEtOTC0xODFGWURRbFhFZnIwU2d6WnFjVHotOUYyLWZWUVBJeTZKZDRVWGI5VFdHckVZaUdPakVxRkYzZHROOVRIbGJaMGduc1Y0Smg4enp0NHpaTlBTbFkxcDdNZExvYXdab2s1eFloRko3VzVTcXg1OWZmdTNHS1BnNzRqdnQw?oc=5",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-21T06:46:58.000Z"
+    },
+    "6cc38668b794": {
+     "id": "6cc38668b794",
+     "title": "What are the implications of the ICJ Rohingya genocide ruling?",
+     "zh": "国际法院罗兴亚种族灭绝裁决带来何种影响？",
+     "short": "国际法院罗兴亚裁决",
+     "url": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "sea",
+     "published": "2026-11-20T19:12:14.000Z"
     }
    },
    "name": "国际法院罗兴亚人裁决",
-   "en": "ICJ Rohingya genocide ruling",
-   "wiki": "Rohingya_genocide_case",
-   "cat": "sea",
-   "last": "2026-11-21T03:51:30.997Z",
+   "en": "icj rohingya genocide myanmar ruling",
+   "wiki": "Rohingya genocide",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.702Z",
    "hidden": false,
-   "short": "国际法院裁决缅甸种族灭绝",
-   "key": "国际法院裁定缅甸犯下灭绝罪并下令赔偿",
-   "overview": "联合国国际法院历史上首次裁定缅甸对罗兴亚人犯下种族灭绝罪，大马则宣布将把一万名难民安置到土耳其。",
+   "short": "国际法院罗兴亚人裁决",
+   "key": "国际法院裁定缅甸犯种族灭绝罪",
+   "overview": "国际法院裁定缅甸对罗兴亚人犯种族灭绝罪；面临收容压力的大马内阁则批准将万人难民安置到土耳其，并收紧境内出行管控。",
    "minorText": [],
    "links": [],
    "img": {
@@ -969,15 +1474,15 @@
    },
    "heat": {
     "score": 4,
-    "sources": 8,
-    "stories": 17,
+    "sources": 9,
+    "stories": 19,
     "gdelt": null,
     "wiki": {
-     "title": "Rohingya_genocide_case",
-     "views": 3572,
-     "ratio": 4.3
+     "title": "Rohingya genocide",
+     "views": 11111,
+     "ratio": 3.6
     },
-    "at": "2026-11-21T16:52:40.194Z"
+    "at": "2026-11-21T22:23:06.753Z"
    }
   },
   {
@@ -986,7 +1491,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "AI泡沫与股市抛售潮",
+     "t": "全球股市暴跌与AI板块重挫",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -1006,242 +1511,267 @@
       "a4b668b9adb1",
       "1e0e05f4246d",
       "b1b265aef11e",
-      "a6a8f43c9365"
+      "a6a8f43c9365",
+      "f9d282f431d4",
+      "e42cb66d0684",
+      "fe7ae0ade208"
      ],
      "w": {
-      "short": "全球股市暴跌AI遭抛售",
-      "key": "人工智能板块抛售潮引发全球股市与多类资产大幅下挫。",
-      "title": "全球股市遭遇AI板块抛售重创，多重宏观压力加剧市场震荡",
-      "summary": "由于投资者对人工智能板块的高估值和盈利风险产生担忧，加之美联储政策预期与地缘政治因素，全球股市及多种金融资产近期遭遇全线抛售。亚洲市场创下自2020年以来的最糟单周表现，欧美股市也显著下跌。市场避险情绪升温导致市值大幅蒸发。",
+      "short": "全球股市与AI板块暴跌",
+      "key": "科技股抛售重创全球股市",
+      "title": "人工智能热潮退温与高利率忧虑交加 科技股抛售潮致全球股市大幅下挫",
+      "summary": "全球金融市场遭遇科技股与人工智能相关资产的大规模抛售，欧美及亚洲主要股指全线大跌，亚洲市场更录得2020年以来最差单周表现。市场对人工智能盈利能力及估值过高的担忧升温，加之对美联储维持鹰派货币政策的预期，进一步加剧了投资者的避险情绪。除了股票市场，贵金属与加密货币等资产也同步承压走低。",
       "common": [
        {
-        "t": "全球股市因人工智能板块抛售而遭遇下跌。施压主要市场。",
+        "t": "科技股与人工智能板块遭遇抛售，拖累全球主要股市全面下挫。",
         "src": [
+         "AP News",
          "Yahoo Finance",
          "Anadolu Ajansı",
          "London South East",
          "The Guardian World",
-         "Devdiscourse"
+         "TradingView"
         ]
        },
        {
-        "t": "亚洲股市迎来2020年以来最糟糕的一周。表现显著低迷。",
+        "t": "亚洲股市遭受重挫，录得自2020年以来表现最糟糕的一周。",
         "src": [
          "London South East",
-         "The Guardian World",
-         "Devdiscourse"
+         "The Guardian World"
+        ]
+       },
+       {
+        "t": "人工智能巨头Anthropic挂牌后股价回落，未能遏制相关板块的抛售潮。",
+        "src": [
+         "Yahoo Finance",
+         "The Guardian World"
+        ]
+       },
+       {
+        "t": "市场对美联储维持高利率或鹰派货币政策的担忧压制了风险偏好。",
+        "src": [
+         "Anadolu Ajansı",
+         "TradingView"
         ]
        }
       ],
       "single": [
        {
-        "t": "Anthropic的首次公开募股未能阻止人工智能板块的抛售潮，其股价在上市冲高后回落至接近发行价水平。",
-        "src": "The Guardian World"
-       },
-       {
-        "t": "全球金融市场在过去24小时内有高达4.28万亿美元的市值蒸发，股票、加密货币、黄金和白银价格集体大跌。",
+        "t": "全球金融市场单日蒸发约4.28万亿美元市值，黄金、白银及加密货币市场集体大幅受挫。",
         "src": "TradingView"
        },
        {
-        "t": "由于市场对美联储维持鹰派货币政策的预期升温，加之人工智能盈利风险引发担忧，全球市场普遍出现下滑。",
-        "src": "Anadolu Ajansı"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Yahoo Finance",
-         "The Guardian World"
-        ],
-        "t": "市场抛售主要是受到投资者对高估值科技板块的担忧以及人工智能盈利能力不足的重新评估所驱动。"
+        "t": "台湾股市大跌6.7%，东京上市的软银集团因人工智能投资策略拖累单日重挫14.5%。",
+        "src": "The Guardian World"
        },
        {
-        "label": "看法 B",
-        "src": [
-         "TradingView"
-        ],
-        "t": "抛售的核心原因是担忧美联储可能维持高利率更长时间，并伴随地缘政治紧张局势加剧与流动性紧缩。"
+        "t": "标普500指数大幅下挫3.7%，纳斯达克综合指数年内涨幅全数回吐并转跌。",
+        "src": "AP News"
        }
       ],
-      "unknown": "目前尚不确定高利率环境和人工智能板块的盈利风险将持续对全球跨国资产价格造成多大程度的长期压抑。",
+      "views": [],
+      "unknown": null,
       "impact": {
-       "my": null,
-       "sea": "东南亚区域股市随亚洲整体市场遭遇自2020年以来最糟糕的一周表现。",
-       "world": "全球主要股市、加密货币及大宗商品普遍下挫，数万亿美元市值蒸发。"
+       "my": "马股科技板块或将面临外溢抛售压力，投资者避险情绪升温恐影响令吉与本地股市走势。",
+       "sea": "亚洲及东南亚科技供应链和区域主要股市随全球科技股重挫而面临显著资本外流压力。",
+       "world": "全球高估值资产遭遇流动性冲击，投资者重新审视人工智能商业化前景及高利率环境的持续风险。"
       },
       "people": [],
-      "photo": "global stock market crash",
+      "photo": "stock market crash",
       "per": [
        {
         "id": "a4b668b9adb1",
         "t": "油金价格下跌拖累多伦多股市期货",
-        "says": "油金价格下跌拖累多伦多股市期货。",
-        "same": [],
+        "says": "油价与金价走低拖累多伦多股市期货表现。",
+        "same": [
+         "大宗商品走低"
+        ],
+        "view": null
+       },
+       {
+        "id": "e42cb66d0684",
+        "t": "标普500暴跌3.7%纳指转跌，科技股抛售潮加剧",
+        "says": "科技股抛售加剧致标普500暴跌3.7%，纳斯达克指数今年首次转跌，全球市场承压。",
+        "same": [
+         "科技股遭抛售",
+         "全球股市下跌"
+        ],
         "view": null
        },
        {
         "id": "370e31bae833",
         "t": "科技股领跌全球股市，美国国债收益率下跌",
-        "says": "全球股市遭遇科技股领衔的抛售潮，美国国债收益率下跌，反映出对高估值科技板块的担忧。",
+        "says": "科技股领跌全球市场，美国国债收益率同步下滑，反映投资者对高估值科技板块的忧虑。",
         "same": [
-         "科技板块抛售",
+         "科技股遭抛售",
          "全球股市下跌"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "af87ca270f5d",
-        "t": "美联储鹰派预期与AI盈利风险致全球市场下跌",
-        "says": "美联储鹰派预期升温加之人工智能盈利风险，导致全球市场普遍下滑。",
+        "t": "美联储鹰派预期与人工智能盈利风险致全球市场下跌",
+        "says": "美联储鹰派政策预期升温及人工智能盈利风险压抑了风险偏好，导致全球资产价格下调。",
         "same": [
-         "全球市场下跌"
+         "全球股市下跌",
+         "美联储高利率",
+         "AI盈利担忧"
         ],
         "view": null
        },
        {
         "id": "907f3c71c379",
-        "t": "AI抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
-        "says": "人工智能板块遭抛售加剧全球股市下跌，亚洲迎来2020年最糟一周。",
+        "t": "人工智能抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
+        "says": "人工智能板块抛售拖累全球，亚洲股市录得2020年以来表现最差的一周。",
         "same": [
-         "亚洲最糟一周",
-         "AI板块抛售"
+         "亚洲表现最糟",
+         "AI遭抛售",
+         "全球股市下跌"
         ],
         "view": null
        },
        {
         "id": "fd2811614640",
-        "t": "The Guardian World: 全球股市暴跌，AI板块抛售潮未止",
-        "says": "Anthropic首次公开募股未能阻止抛售，亚洲创2020年以来最糟一周，科技股大跌。",
+        "t": "全球股市暴跌，人工智能板块抛售潮未止",
+        "says": "Anthropic上市表现平淡未能提振市场，全球股市重挫，亚洲创2020年以来最差单周表现，日韩台科技股暴跌。",
         "same": [
-         "亚洲最糟一周",
-         "AI板块抛售"
+         "亚洲表现最糟",
+         "AI遭抛售",
+         "Anthropic"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "72d18114a820",
-        "t": "美股期指下跌，AI担忧拖累全球市场",
-        "says": "受Anthropic股价回落及人工智能担忧影响，美国股指期货下跌并拖累全球市场。",
+        "t": "美股期指下跌，人工智能担忧拖累全球市场",
+        "says": "受Anthropic股价回落及人工智能板块担忧影响，美国股指期货走低并冲击全球情绪。",
         "same": [
-         "全球市场情绪"
+         "AI遭抛售",
+         "Anthropic",
+         "全球股市下跌"
         ],
         "view": null
        },
        {
         "id": "3fc446211522",
         "t": "股票加密货币黄金白银遭抛售，4.28万亿美元蒸发",
-        "says": "全球金融市场全线抛售，市值蒸发4.28万亿美元，美联储利率担忧与地缘政治引发震荡。",
+        "says": "市场担忧美联储维持高利率，股票、加密货币与贵金属遭全面抛售，单日蒸发4.28万亿美元市值。",
         "same": [
-         "全线抛售"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "e91b65d7d40b",
-        "t": "亚股迎2020年以来最惨一周，受人工智能交易情绪低迷拖累",
-        "says": "亚洲股市遭遇自2020年以来最糟糕的一周，受人工智能交易情绪低迷拖累。",
-        "same": [
-         "亚洲最糟一周"
+         "全球股市下跌",
+         "美联储高利率",
+         "科技股遭抛售"
         ],
         "view": null
        }
       ]
      },
-     "loose": true,
-     "sig": "d98dc978",
-     "at": "2026-11-21T04:21:31.700Z",
+     "loose": false,
+     "sig": "e617e5f3",
+     "at": "2026-11-21T22:13:31.617Z",
      "img": {
-      "src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/20/thumbs_b_c_de941811efadf77c214072969144364d.jpg",
-      "credit": "Anadolu Ajansı",
+      "src": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+      "credit": "The Guardian World",
       "kind": "A"
      },
      "v": 2
     },
     {
      "id": "3700168d-2",
-     "t": "Anthropic上市与估值争议",
+     "t": "Anthropic上市表现与AI担忧",
      "ids": [
       "80fbf8621612",
       "9d458302cf21",
       "98b21ae2ff05",
       "ec0544a9c756",
       "fec7d71f414f",
-      "a2c31a96cd92"
+      "a2c31a96cd92",
+      "d4047cfd06a2"
      ],
      "w": {
-      "short": "Anthropic上市未能消除AI泡沫疑虑",
-      "key": "Anthropic上市表现未能消除市场对人工智能泡沫与高估值的担忧",
-      "title": "Anthropic创纪录上市未能消除人工智能泡沫与股市抛售疑虑",
-      "summary": "人工智能独角兽Anthropic进行大规模首次公开招股（IPO），然而其上市表现未能消弭市场对人工智能板块成長與估值的擔憂，华尔街股市近期也因板块抛售及美联储政策信号而承受下行壓力。多家媒体指出，投资者正对人工智能熱潮採取更審慎的態度。",
+      "short": "全球AI泡沫与股市抛售",
+      "key": "Anthropic上市未能消除市场对AI板块的担忧",
+      "title": "全球AI泡沫与股市抛售：Anthropic上市表现与AI担忧",
+      "summary": "人工智能巨头Anthropic首次公开招股上市表现开高走低，股价在上市后遭遇抛售并录得明显跌幅。这次备受瞩目的首次公开招股未能消除投资人对人工智能板块增长、高估值以及回报周期的悲观情绪。同时，多只科技股与芯片股也普遍承压，加剧了市场对全球人工智能热潮的担忧。",
       "common": [
        {
-        "t": "Anthropic进行了备受瞩目的首次公开招股上市。",
-        "src": [
-         "BBC World",
-         "Free Malaysia Today",
-         "CNA Business",
-         "BBC 中文"
-        ]
-       },
-       {
-        "t": "市场对人工智能板块的增长前景、高估值及回报率存在担忧。",
+        "t": "Anthropic上市股价暴跌",
         "src": [
          "Free Malaysia Today",
          "CNA Business",
-         "BBC 中文"
+         "NST Online"
         ]
        },
        {
-        "t": "华尔街主要股指近期因科技股和人工智能相关股票遭到抛售而下跌。",
+        "t": "上市未能消除AI担忧",
         "src": [
          "Free Malaysia Today",
-         "CNA Business"
+         "CNA Business",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "科技股与芯片股普遍下跌",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Business",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "估值过高引发市场戒心",
+        "src": [
+         "CNA Business",
+         "NST Online"
         ]
        }
       ],
       "single": [
        {
-        "t": "Anthropic的一位员工兼数学家利用Claude聊天机器人对黎曼猜想进行了长达约六周的详细证明。",
-        "src": "BBC World"
+        "t": "美联储官员的鹰派信号以及通胀过高言论也对市场情绪造成了压力。",
+        "src": "Free Malaysia Today"
        },
        {
-        "t": "英伟达总裁黄仁勳请辞，此前有报道指控其涉及婚外情。",
-        "src": "BBC 中文"
+        "t": "Anthropic的上市筹资额增至935亿美元并打破纪录。",
+        "src": "NST Online"
+       },
+       {
+        "t": "Anthropic员工兼数学家利用Claude聊天机器人证明了著名的黎曼猜想。",
+        "src": "BBC World"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "CNA Business"
+         "CNA Business",
+         "NST Online"
         ],
-        "t": "投资者依然相信人工智能，但对估值和支付意愿变得更具选择性。"
+        "t": "基准追踪基金可能在年底前买入Anthropic的大量股份，为股价提供潜在支撑。"
        },
        {
         "label": "看法 B",
         "src": [
-         "BBC 中文"
+         "CNA Business"
         ],
-        "t": "人工智能目前毫无疑问处于金融泡沫之中，随着竞争加剧，技术将被商品化，价格和利润最终会被压低。"
+        "t": "投资者依然相信人工智能，但对愿意为增长支付的价格变得更加挑剔。"
        }
       ],
-      "unknown": "目前尚不清楚Anthropic的高估值是否能够长期持续，以及未来的人工智能首次公开招股计划是否会受到影响。",
+      "unknown": "目前尚不清楚Anthropic的估值是否能长期维持，以及基准追踪基金最终会在年底前买入多少比例的股份。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "全球人工智能板块与科技股近期遭遇抛售，市场对人工智能产业的估值与投资回报率产生了更广泛的疑虑。"
+       "world": "全球人工智能板块与股市受到Anthropic上市表现及估值担忧的拖动而普遍走低。"
       },
       "people": [
        "Dario Amodei",
-       "Daniela Amodei"
+       "Jensen Huang"
       ],
       "photo": "stock market trading floor",
       "per": [
        {
         "id": "80fbf8621612",
         "t": "在AI解决数学问题的一年里，Anthropic或已攻克最大难题",
-        "says": "Anthropic员工利用Claude聊天机器人对黎曼猜想进行了长达数周的研究并提交了证明，引发数学界关注。",
+        "says": "Anthropic员工利用其聊天机器人证明了黎曼猜想，引发数学界关注。",
         "same": [
          "Anthropic上市"
         ],
@@ -1250,66 +1780,76 @@
        {
         "id": "9d458302cf21",
         "t": "Anthropic上市表现未能消除AI投资者担忧",
-        "says": "美股因Anthropic股价回落及美联储鹰派信号而下跌，未能打消市场对人工智能板块增长和高昂支出的担忧。",
+        "says": "Anthropic股价在盘前交易下跌，美股因AI担忧与美联储信号走低。",
         "same": [
-         "Anthropic上市",
-         "投资者担忧"
+         "AI投资者担忧",
+         "股价下跌"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "98b21ae2ff05",
         "t": "Anthropic首秀后遭遇滑铁卢，为AI热潮敲响警钟",
-        "says": "Anthropic华尔街首秀后股价回落，显示市场对人工智能热潮的乐观情绪降温，投资者对估值更加挑剔。",
+        "says": "Anthropic上市后回落，显示大热IPO未能消除市场对AI板块的悲观情绪。",
         "same": [
-         "Anthropic上市",
-         "投资者担忧"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "ec0544a9c756",
-        "t": "Anthropic破纪录IPO能否阻止AI泡沫破裂？",
-        "says": "Anthropic进行大规模IPO，但市场对人工智能泡沫是否破裂、循环融资及高昂成本存在隐忧。",
-        "same": [
-         "Anthropic上市",
-         "泡沫疑虑"
+         "上市遭遇滑铁卢",
+         "AI热潮敲响警钟"
         ],
         "view": "看法 B"
        },
        {
+        "id": "ec0544a9c756",
+        "t": "Anthropic破纪录IPO能否阻止AI泡沫破裂？",
+        "says": "Anthropic进行大规模IPO，但市场对其估值逻辑与AI泡沫破裂存有疑虑。",
+        "same": [
+         "破纪录IPO",
+         "AI泡沫"
+        ],
+        "view": null
+       },
+       {
         "id": "fec7d71f414f",
         "t": "评论：Anthropic创纪录810亿美元估值上市是对人工智能的信任票吗？",
-        "says": "探讨Anthropic创纪录估值上市对人工智能行业的意义。",
+        "says": "探讨Anthropic的高估值上市是否代表市场对人工智能的信任。",
         "same": [
-         "Anthropic上市"
+         "810亿美元估值"
         ],
         "view": null
        },
        {
         "id": "a2c31a96cd92",
         "t": "Anthropic上市筹资额增至935亿美元",
-        "says": "报道Anthropic上市筹资额度变化。",
+        "says": "报道Anthropic上市筹资额的最新数据。",
         "same": [
          "Anthropic上市"
         ],
         "view": null
+       },
+       {
+        "id": "d4047cfd06a2",
+        "t": "NST Online：Anthropic股价上市后暴跌8.5%，AI股遭抛售",
+        "says": "Anthropic上市表现开高走低，股价暴跌8.5%，拖累人工智能概念股遭普遍抛售。",
+        "same": [
+         "股价上市后暴跌",
+         "AI股遭抛售"
+        ],
+        "view": "看法 A"
        }
       ]
      },
      "loose": false,
-     "sig": "4786e2b7",
-     "at": "2026-11-21T16:48:05.308Z",
+     "sig": "a57d0f11",
+     "at": "2026-11-21T22:17:55.842Z",
      "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
-      "credit": "BBC World",
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/04/e7178e1a-12796253_1600x1000_1.webp",
+      "credit": "Free Malaysia Today",
       "kind": "A"
      },
      "v": 2
     },
     {
      "id": "3700168d-3",
-     "t": "特朗普对海外数据中心与黄仁勋态度",
+     "t": "特朗普威胁对海外数据中心征税",
      "ids": [
       "703b07e4b163",
       "2c3757b0893a",
@@ -1326,23 +1866,27 @@
       "7b99bc6bd507",
       "e02bde69f109",
       "f592a0c493ff",
-      "41857d96f900"
+      "41857d96f900",
+      "bca7f25a0cd6",
+      "9dbc27ab9aa4",
+      "3d617bdf334a",
+      "1308417160fd"
      ],
      "w": {
-      "short": "全球AI泡沫与英伟达风波",
-      "key": "英伟达卷入涉华调查与会计审查，特朗普威胁向海外数据中心征税。",
-      "title": "全球人工智能泡沫与股市抛售：英伟达面临美方多重调查，特朗普对海外数据中心与黄仁勋态度引发关注",
-      "summary": "由于涉嫌芯片违规出口中国及会计账目遭美方调查，人工智能芯片巨头英伟达股价重挫，引发全球科技股抛售与人工智能泡沫担忧。同时，美国总统特朗普威胁对在海外兴建数据中心的企业征收巨额关税，并表态主张仅向中国出售较旧型号芯片。马来西亚方面，杨忠礼电力否认其柔佛数据中心协助转运芯片给中国客户。",
+      "short": "特朗普威胁对海外数据中心征税",
+      "key": "美国总统特朗普威胁对在海外建造数据中心的企业征收巨额关税，旨在将科技基础设施留在本土。",
+      "title": "全球人工智能震荡：特朗普拟对海外数据中心征税，英伟达深陷调查风波",
+      "summary": "美国总统特朗普威胁对在海外建造数据中心的企业征收关税，以将科技投资留在本土。同时，人工智能芯片巨头英伟达因涉及芯片出口中国及会计账目等问题，正面临美国证券交易委员会及加州总检察长的调查，导致股价大跌。此外，台积电也配合美国新规收紧了对中国的先进芯片制造服务限制。",
       "common": [
        {
-        "t": "美国正对英伟达展开涉及芯片流向或会计账目的调查。",
+        "t": "英伟达正面临美国监管机构调查",
         "src": [
          "Reuters",
          "The Guardian World"
         ]
        },
        {
-        "t": "特朗普主张对华维持或收紧芯片出口限制。",
+        "t": "美国收紧对华人工智能芯片出口限制",
         "src": [
          "Free Malaysia Today",
          "联合早报"
@@ -1351,72 +1895,89 @@
       ],
       "single": [
        {
-        "t": "英伟达前总裁黄仁勋因婚外情丑闻辞职，并面临美国国会听证。",
-        "src": "The Guardian World"
+        "t": "特朗普威胁对在海外建造数据中心的企业征收巨额关税",
+        "src": "The Edge Malaysia"
        },
        {
-        "t": "特朗普威胁对在海外建造数据中心的美国企业征收关税。",
-        "src": "The Edge Malaysia"
+        "t": "杨忠礼电力澄清其柔佛数据中心未受调查，并否认协助将芯片转移给中国客户",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "台积电配合美国新规，要求中国芯片设计客户暂停部分采用16纳米及以下工艺的受影响订单",
+        "src": "Free Malaysia Today"
        }
       ],
       "views": [],
-      "unknown": "目前尚不清楚英伟达会计账目调查的具体细节，以及美中全面协议的具体内容。",
+      "unknown": "相关监管调查的具体细节及美中全面协议的具体内容尚未完全披露。",
       "impact": {
-       "my": "杨忠礼电力否认其柔佛数据中心涉嫌协助中国客户远程访问英伟达芯片。",
-       "sea": "新加坡相关企业Megaspeed因涉嫌采购并转运芯片至中国而受到调查。",
-       "world": "全球科技股因人工智能泡沫担忧与监管收紧而遭遇抛售，供应链与海外数据中心布局受到政策威胁。"
+       "my": "柔佛州的数据中心项目受到纽约时报等外媒报道关注，但本地运营商杨忠礼电力已公开澄清并强调合规。",
+       "sea": "区域内的跨国数据中心布局与供应链可能受到美国最新出口管制与关税政策的潜在牵连。",
+       "world": "全球人工智能概念股与高估值科技股遭遇抛售压力，半导体供应链格局面临进一步调整。"
       },
       "people": [
        "Jensen Huang",
        "Donald Trump"
       ],
-      "photo": "microchip",
+      "photo": "microchip production line",
       "per": [
        {
         "id": "ad379fa36e36",
         "t": "消息称英伟达会计账目正遭美国证券交易委员会调查",
-        "says": "美国证券交易委员会正对英伟达会计账目进行调查，具体细节尚未完全披露，恐冲击高估值科技股情绪。",
+        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，可能对高估值科技股的市场情绪造成冲击。",
         "same": [
-         "英伟达调查"
+         "英伟达正面临调查"
         ],
+        "view": null
+       },
+       {
+        "id": "1308417160fd",
+        "t": "特朗普称仍支持鲁特尼克，敦促英伟达黄仁勋道歉",
+        "says": "特朗普在相关涉华及人事表态中提及英伟达前总裁黄仁勋。",
+        "same": [],
         "view": null
        },
        {
         "id": "703b07e4b163",
         "t": "杨忠礼电力否认协助将英伟达芯片转移给中国客户",
-        "says": "YTL Power否认柔佛数据中心协助阿里巴巴等中国客户远程访问英伟达芯片，强调业务符合法律与美国管制。",
-        "same": [],
+        "says": "YTL Power否认柔佛数据中心协助转移英伟达芯片给中国客户，强调营运符合法律与美国贸易管制。",
+        "same": [
+         "杨忠礼电力"
+        ],
         "view": null
        },
        {
         "id": "2c3757b0893a",
         "t": "加州就芯片出口是否流入中国一事调查英伟达",
-        "says": "加州总检察长对英伟达及辞职的前总裁黄仁勋发出传票，调查先进芯片是否违规流入中国及是否误导投资者。",
+        "says": "加州总检察长向英伟达发出传票，调查其高级芯片是否流入中国及前总裁是否误导投资者。",
         "same": [
-         "英伟达调查"
+         "英伟达正面临调查"
         ],
         "view": null
        },
        {
         "id": "4cf449e2548c",
         "t": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
-        "says": "台积电配合美国新规收紧中国AI芯片限制，暂停受影响的先进代工订单。",
-        "same": [],
+        "says": "台积电配合美国最新出口管制，收紧中国芯片设计客户的先进制造服务订单。",
+        "same": [
+         "收紧对华芯片限制"
+        ],
         "view": null
        },
        {
         "id": "4dc84061523a",
         "t": "纽约时报称杨忠礼数据中心助阿里巴巴远端访问英伟达芯片，管理层澄清未受调查",
-        "says": "报道称柔佛数据中心涉嫌协助阿里巴巴远端访问芯片，但管理层向分析师澄清未受调查。",
-        "same": [],
+        "says": "报道称柔佛数据中心涉嫌协助阿里巴巴远端访问芯片，但管理层澄清未受调查且业绩强劲。",
+        "same": [
+         "杨忠礼电力"
+        ],
         "view": null
        },
        {
         "id": "75075c1c3f03",
         "t": "特朗普称只应向中国出售较旧芯片",
-        "says": "特朗普表示美国应仅向中国出售较旧芯片，并透露正就全面协议与中国协商。",
+        "says": "特朗普表示美国希望仅向中国出售技术较落后的旧款芯片，凸显美方持续对华半导体限制。",
         "same": [
-         "对华芯片限制"
+         "收紧对华芯片限制"
         ],
         "view": null
        },
@@ -1424,27 +1985,33 @@
         "id": "3c220e7da811",
         "t": "特朗普威胁对在海外建数据中心的企开征关税",
         "says": "特朗普警告将对在海外兴建数据中心的美国企业征收巨额关税，以促使投资留在本土。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "34ae805d994f",
-        "t": "受美国出口许可证数据冲击，英伟达再遭打击",
-        "says": "英伟达面临新的美国出口许可证数据冲击，市场对其海外销售与供应链前景感到担忧。",
-        "same": [],
+        "same": [
+         "海外数据中心关税"
+        ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "c2a54841",
-     "at": "2026-11-21T04:21:44.848Z",
+     "sig": "ac8f9e38",
+     "at": "2026-11-21T22:14:30.964Z",
      "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/3801d3ad-ytl-data-centers-ytl-pic-220525.webp",
-      "credit": "Free Malaysia Today",
+      "src": "https://i.guim.co.uk/img/media/d8e256cb4f13741672cadb73a1484717745e43a9/424_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba5ae30a51442a04ba6a938dbed986dd",
+      "credit": "The Guardian World",
       "kind": "A"
      },
      "v": 2
+    },
+    {
+     "id": "3700168d-4",
+     "t": "其他股市与资产价格波动",
+     "ids": [
+      "e1fabe30b917",
+      "a25ba2a33cc0",
+      "15b88f5f7bb5",
+      "266e8b8ed15c",
+      "be75ea6ce39a"
+     ]
     }
    ],
    "minor": [],
@@ -1915,33 +2482,204 @@
      "cat": "world",
      "published": "2026-11-20T21:05:07.000Z",
      "sum": "美国总统特朗普在记者会上为其与普京的关系进行了辩护，并再次强调人工智能数据中心必须留在美国本土。他还谈及伊朗局势，并对近期的中国之行给予积极评价。相关言论引发国际社会对美俄关系及科技政策的关注。"
+    },
+    "f9d282f431d4": {
+     "id": "f9d282f431d4",
+     "title": "Nasdaq 100 has worst week since 2020 on AI drama",
+     "zh": "受人工智能板块震荡影响，纳斯达克100指数创2020年以来最差单周表现",
+     "short": "纳指创最差单周表现",
+     "url": "https://theedgemalaysia.com/node/826730",
+     "source": "The Edge Malaysia",
+     "cat": "finance",
+     "published": "2026-11-21T01:25:16.000Z",
+     "sum": "受人工智能相关股票剧烈波动拖累，纳斯达克100指数录得自2020年以来的最糟糕单周表现。市场对高估值科技巨头的盈利持续性产生怀疑，引发资金从科技板块撤离。科技股的集体重挫对整体美股投资情绪造成重大打击。",
+     "img": {
+      "src": "https://assets.theedgemarkets.com/NASDAQ_BLOOMBERG%20(CONFIRMED).jpg",
+      "credit": "The Edge Malaysia",
+      "kind": "A"
+     }
+    },
+    "e42cb66d0684": {
+     "id": "e42cb66d0684",
+     "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+     "zh": "标普500暴跌3.7%纳指转跌，科技股抛售潮加剧",
+     "short": "美股遭遇科技股抛售",
+     "url": "https://apnews.com/article/stock-markets-anthropic-ai-chips-boom-c4c3f4878b12989347f8a930ed813dad",
+     "source": "AP News",
+     "cat": "finance",
+     "published": "2026-11-20T23:29:00.000Z",
+     "sum": "受科技股抛售潮加剧影响，标普500指数大幅下挫3.7%，纳斯达克综合指数今年以来首次转跌。全球市场正面临抛售压力。"
+    },
+    "fe7ae0ade208": {
+     "id": "fe7ae0ade208",
+     "title": "AI Fears Put Global Stocks On Track For Worst Week Since 2025",
+     "zh": "人工智能恐慌致全球股市创2025年以来最糟单周表现",
+     "short": "AI恐慌致全球股市大跌",
+     "url": "https://www.forbesmiddleeast.com/money/markets/ai-selloff-puts-us-european-stocks-on-track-for-worst-week-since-2025",
+     "source": "Forbes Middle East",
+     "cat": "finance",
+     "published": "2026-11-20T20:49:02.000Z",
+     "sum": "受人工智能相关担忧拖累，全球股市正迈向2025年以来表现最糟糕的一周。投资者对科技板块的前景感到焦虑。",
+     "img": {
+      "src": "https://d1epq84pwgteub.cloudfront.net/3d4d766ca2b14d5dab924bb3b8f83342.jpeg",
+      "credit": "Forbes Middle East",
+      "kind": "A"
+     }
+    },
+    "d4047cfd06a2": {
+     "id": "d4047cfd06a2",
+     "title": "Anthropic shares plunge 8.5pct in post-IPO reality check as AI stocks tumble",
+     "zh": "Anthropic股价上市后暴跌8.5%，AI股遭抛售",
+     "short": "Anthropic股价暴跌",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1582336/anthropic-shares-plunge-85pct-post-ipo-reality-check-ai-stocks",
+     "source": "NST Online",
+     "cat": "tech",
+     "published": "2026-11-20T22:23:44.000Z",
+     "sum": "在上市后迎来现实检验，人工智能概念股遭到普遍抛售，Anthropic股价重挫8.5%。市场对人工智能估值的担忧正在加剧。"
+    },
+    "bca7f25a0cd6": {
+     "id": "bca7f25a0cd6",
+     "title": "US SEC investigation focuses on Nvidia’s accounting practices: sources",
+     "zh": "消息：美国证券交易委员会调查英伟达会计准则做法",
+     "short": "美证监会调查英伟达会计",
+     "url": "https://www.zaobao.com.sg/en/news/world/us-sec-investigation-focuses-nvidias-accounting-practices-sources",
+     "source": "联合早报",
+     "cat": "finance",
+     "published": "2026-11-21T05:28:03.000Z",
+     "sum": "消息人士透露，美国证券交易委员会正在对半导体巨头英伟达的会计准则操作展开调查。市场正高度关注调查是否涉及营收确认或相关供应链财务细节。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/0cf882501a98a3d26743e8491c2f50c0448cbc416dc042f7b79505f1909716b6",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "9dbc27ab9aa4": {
+     "id": "9dbc27ab9aa4",
+     "title": "Trump ancam kenakan cukai tinggi terhadap syarikat AS bina pusat data di luar negara",
+     "zh": "特朗普威胁对在海外建数据中心的美国企业征收高额关税",
+     "short": "特朗普拟对海外数据中心征税",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/21/trump-ancam-kenakan-cukai-tinggi-terhadap-syarikat-as-bina-pusat-data-di-luar-negara",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T14:41:00.000Z",
+     "sum": "美国总统特朗普警告称，将对在海外建设数据中心的美国公司征收高额关税。此举旨在将人工智能基础设施留在美国本土，以应对来自中国的激烈竞争。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/9b27852c-donald-trump-1.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "3d617bdf334a": {
+     "id": "3d617bdf334a",
+     "title": "Trump threatens tax on US tech firms building AI data centres abroad",
+     "zh": "特朗普威胁对在海外建AI数据中心的美国科技企业征重税",
+     "short": "美拟对海外AI数据中心征税",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-20T21:10:53.000Z",
+     "sum": "美国总统特朗普警告称，如果美国科技公司选择在海外建设人工智能数据中心，将面临巨额税收惩罚。此举旨在将人工智能基础设施留在国内。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795209047.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "1308417160fd": {
+     "id": "1308417160fd",
+     "title": "Trump says he still backs Lutnick, urges Nvidia's Huang to apologize",
+     "zh": "特朗普称仍支持鲁特尼克，敦促英伟达黄仁勋道歉",
+     "short": "特朗普敦促黄仁勋道歉",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSGQwWUVrODhUa2V5cklXNHcxR3pRbVlPaWxkRlJqV1JYZ3JaV200OHUyZ2JhMUNKbTdFMjlEWEJNNUZPQjFDSG1ZLTlMWGJQZUJSalNuVXVDU0pBRkZERkpTOGZ0SkpHYWlWcGJJUmhMeG9JMmphSk5QSkl0ZlNaaGF4TndiT3FKbUZWbUhzbkdrellveFBtQTdoc2loWHdkREt1NzhfXzI0djg4?oc=5",
+     "source": "Reuters",
+     "cat": "world",
+     "published": "2026-11-20T19:45:38.000Z"
+    },
+    "e1fabe30b917": {
+     "id": "e1fabe30b917",
+     "title": "Bitcoin rises over 2% to more than $60,000",
+     "zh": "比特币上涨逾百分之二并突破六万美元",
+     "short": "比特币涨超2%破六万",
+     "url": "https://www.channelnewsasia.com/business/bitcoin-rises-over-2-more-60000-6571851",
+     "source": "CNA Business",
+     "cat": "finance",
+     "published": "2026-11-21T15:24:55.000Z",
+     "sum": "加密货币市场迎来反弹，比特币盘中涨幅超过百分之二，价格重新站上六万美元关口。市场情绪的改善吸引了部分资金重新流入数字资产板块。",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--bKak8Pxg--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-21T152455Z_1_LYNXNPEMAK0D5_RTROPTP_3_FINTECH-CRYPTO-BITCOIN.JPG?itok=XHMQSHEt",
+      "credit": "CNA Business",
+      "kind": "A"
+     }
+    },
+    "a25ba2a33cc0": {
+     "id": "a25ba2a33cc0",
+     "title": "Bitcoin falls to its lowest in two years",
+     "zh": "比特币价格持续下挫，跌至两年来最低水平",
+     "short": "比特币跌至两年新低",
+     "url": "https://www.channelnewsasia.com/business/bitcoin-falls-its-lowest-in-two-years-6571321",
+     "source": "CNA Business",
+     "cat": "finance",
+     "published": "2026-11-21T06:05:00.000Z",
+     "sum": "比特币价格出现大幅下跌，触及过去两年以来的最低点。这反映出数码资产市场整体抛售压力加剧，投资者避险情绪升温。",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--sVtCslyA--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-21T060500Z_2_LYNXNPEMAK02U_RTROPTP_3_FINTECH-CRYPTO-BITCOIN.JPG?itok=euORnUVo",
+      "credit": "CNA Business",
+      "kind": "A"
+     }
+    },
+    "15b88f5f7bb5": {
+     "id": "15b88f5f7bb5",
+     "title": "Gold and silver suffer brutal losses as liquidity crunch deepens, but analysts see signs of a bottom",
+     "zh": "流动性紧缩加剧，金银价格遭受惨重损失但现筑底迹象",
+     "short": "金银暴跌现筑底迹象",
+     "url": "https://www.kitco.com/news/article/2026-11-20/gold-and-silver-suffer-brutal-losses-liquidity-crunch-deepens-analysts-see",
+     "source": "Kitco",
+     "cat": "finance",
+     "published": "2026-11-20T21:13:14.000Z",
+     "sum": "由于流动性紧缩加剧，黄金和白银价格近期遭遇惨重损失。不过分析师认为，市场已经出现一些潜在的筑底迹象。",
+     "img": {
+      "src": "https://images.kitco.com/img/extract_0_0_1000_562,width_1200,enlarge,format_jpeg/icms/de24d31a-ea00-42a5-a19d-d260a29bf84c.png",
+      "credit": "Kitco",
+      "kind": "A"
+     }
+    },
+    "266e8b8ed15c": {
+     "id": "266e8b8ed15c",
+     "title": "STI falls below 5,000; analysts see next support at 4,860",
+     "zh": "海峡时报指数跌破5000点，分析师看好4860点支撑",
+     "short": "新加坡股市跌破5000点",
+     "url": "https://www.zaobao.com.sg/en/finance/singapore/sti-falls-below-5000-analysts-see-next-support-4860",
+     "source": "联合早报",
+     "cat": "finance",
+     "published": "2026-11-20T13:21:56.000Z",
+     "sum": "新加坡海峡时报指数近期跌破5000点关口，引发市场关注。分析师认为，下一个关键技术支撑位在4860点附近。股市下行反映出区域投资情绪趋于谨慎。"
+    },
+    "be75ea6ce39a": {
+     "id": "be75ea6ce39a",
+     "title": "Bursa Malaysia braces for cautious week ahead as US economic data, Thanksgiving thin trading loom",
+     "zh": "马股迎谨慎交易周，关注美经济数据与感恩节",
+     "short": "马股料谨慎交投",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQ0szeUVranBqVEx3QjF3aGQ0R2xaamJOcV84VDdWR0RrR3p1Yks5V05YbGVLb1VJdGRGdlUzYnRQamxjNU5PeGF2REFLSE9fSUpoRldEVFZhRWxUaHZiWXU5V2FZVGNtZGZhd2c2SnpnSHA0MGdTSnRGaEtqUDdTMnNtRFJ4dzVPMU9uSUNfYTlLdTVJNjdYRlZjeUtVNFdmdDJOLW5UbVZ0czBkTXdkd3F1aFM5OGRJNm9PdjNGcTlkWWpRa0pfbHRyTG1WNWhnX1RqemNQdEdLajNUeGRCamFkcWhjd9IB6wFBVV95cUxQRUJmQ1FUNll2Wm92ajZDVGJtb2J3QnlJRGYxQjcyZzdkT0FwZ2N1a2tKcVVUanQzRHNYX1pRaWplVVl4dHBYUEtxNmJJc1JjeVlzaWp0OC1pX055Z3pkYnByb3dYaDZnUnpqVTN0ME9rX05TQjFwLWplTGFPamVuOG5jczBzUkJFMG1TYVZJME14VHlnb2l3aEtJUGVjVUJOYmJUY3dzQ0xEQVR6SG02X21kc3dPRktGdXVKY1ozTmhBYmFacW1GYWM4MmtMaFozNVppVEQ0a2g4YXlpbnhLcDlrODdFTkEzNzVF?oc=5",
+     "source": "Malay Mail",
+     "cat": "finance",
+     "published": "2026-11-21T03:11:15.000Z"
     }
    },
    "name": "全球AI泡沫与股市抛售",
-   "en": "AI bubble stock market selloff Anthropic IPO",
-   "wiki": "Artificial_intelligence_boom",
+   "en": "artificial intelligence stock market selloff anthropic",
+   "wiki": "AI boom and bust",
    "cat": "finance",
-   "last": "2026-11-21T03:51:30.996Z",
+   "last": "2026-11-21T22:12:19.702Z",
    "hidden": false,
    "short": "全球AI泡沫与股市抛售",
-   "key": "人工智能板块遭抛售，全球股市遭遇重挫",
-   "overview": "由于人工智能板块高估值担忧、美联储政策预期及地缘政治影响，全球股市及金融资产遭遇全线抛售，市值大幅蒸发；Anthropic上市未能消弭泡沫隐忧，英伟达则面临调查与芯片出口限制。",
+   "key": "科技股与人工智能板块遭遇抛售，全球股市大幅下挫",
+   "overview": "受美联储鹰派预期、人工智能板块估值过高担忧以及Anthropic上市表现平淡拖累，全球金融市场遭遇大规模抛售，亚洲市场录得2020年以来最差单周表现。同时，美国政治监管与贸易限制也加剧了科技股的动荡。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "AI泡沫与股市抛售潮报道了Anthropic首次公开募股未能阻止市场抛售。"
-    },
-    {
-     "from": "3700168d-2",
-     "to": "3700168d-1",
-     "t": "Anthropic上市与估值争议报道了华尔街因板块抛售及美联储政策信号承受下行压力。"
-    },
-    {
-     "from": "3700168d-3",
-     "to": "3700168d-1",
-     "t": "特朗普对海外数据中心与黄仁勋态度报道了英伟达股价重挫引发全球科技股抛售与人工智能泡沫担忧。"
+     "t": "Anthropic上市表现平淡未能提振市场，加剧全球股市重挫"
     }
    ],
    "img": {
@@ -1951,15 +2689,11 @@
    },
    "heat": {
     "score": 5,
-    "sources": 23,
-    "stories": 41,
+    "sources": 27,
+    "stories": 54,
     "gdelt": null,
-    "wiki": {
-     "title": "Artificial_intelligence_boom",
-     "views": 2,
-     "ratio": 0.5
-    },
-    "at": "2026-11-21T16:53:26.229Z"
+    "wiki": null,
+    "at": "2026-11-21T22:23:51.159Z"
    }
   },
   {
@@ -1968,7 +2702,7 @@
    "lines": [
     {
      "id": "493f4a17-1",
-     "t": "三方峰会与大国格局",
+     "t": "亚太三边峰会与大国外交后续",
      "ids": [
       "cd30e168a012",
       "c8a6f004d720",
@@ -2141,6 +2875,34 @@
       "kind": "A"
      },
      "v": 2
+    },
+    {
+     "id": "493f4a17-2",
+     "t": "新加坡总理黄循财访华会见李强",
+     "ids": [
+      "3e11c67b2837",
+      "c073df4bb7ca"
+     ]
+    },
+    {
+     "id": "493f4a17-3",
+     "t": "欧盟与印尼签署自由贸易协定",
+     "ids": [
+      "396def59db66",
+      "ae393107aeab",
+      "a1b6e93c1720",
+      "8b72da353144"
+     ]
+    },
+    {
+     "id": "493f4a17-4",
+     "t": "欧盟与英国达成脱欧后重建关系协议",
+     "ids": [
+      "7c408c6ff522",
+      "0cfb735f2465",
+      "4cf56d1e0614",
+      "d78d2117a5c1"
+     ]
     }
    ],
    "minor": [],
@@ -2284,13 +3046,124 @@
      "source": "CNA Asia",
      "cat": "china",
      "published": "2026-11-20T22:00:00.000Z"
+    },
+    "3e11c67b2837": {
+     "id": "3e11c67b2837",
+     "title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+     "zh": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
+     "short": "星洲欢迎中国真诚投资",
+     "url": "https://www.straitstimes.com/asia/east-asia/spore-welcomes-genuine-chinese-investments-but-not-abuse-of-its-trusted-position-pm-wong",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-21T13:10:00.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡欢迎来自中国的真诚投资，但绝不允许滥用其受信赖的地位。同时，他有信心新加坡凭借与美国的强韧关系能确保所需芯片供应。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    "c073df4bb7ca": {
+     "id": "c073df4bb7ca",
+     "title": "PM Wong meets Chinese Premier Li Qiang in Beijing",
+     "zh": "新加坡总理黄循财在北京会见中国国务院总理李强",
+     "short": "黄循财会见李强",
+     "url": "https://www.zaobao.com.sg/en/news/singapore/pm-wong-meets-chinese-premier-li-qiang-beijing",
+     "source": "联合早报",
+     "cat": "china",
+     "published": "2026-11-21T03:32:13.000Z",
+     "sum": "新加坡总理黄循财在访问北京期间，与中国国务院总理李强举行了会晤。双方就双边关系及区域合作等议题进行了深入交流。此次高层会晤有助于巩固双边外交与经贸联系。"
+    },
+    "396def59db66": {
+     "id": "396def59db66",
+     "title": "EU, Indonesia Sign FTA Eliminating 90% of Tariffs, Opening a Single Market of 730 Million People",
+     "zh": "欧盟与印尼签署自贸协定取消90%关税",
+     "short": "欧盟印尼签自贸协定",
+     "url": "https://finance.biggo.com/news/5a256349-aac5-43e7-b493-28bf1c51ef27",
+     "source": "BigGo Finance",
+     "cat": "sea",
+     "published": "2026-11-21T15:25:00.000Z",
+     "sum": "欧盟与印度尼西亚正式签署自由贸易协定，将取消高达90%的关税壁垒，并开启拥有7.3亿人口的庞大单一市场。这项历史性协议将大幅促进双方的双边贸易与投资往来。"
+    },
+    "ae393107aeab": {
+     "id": "ae393107aeab",
+     "title": "EU and Indonesia sign trade deals to open markets and secure supply chains",
+     "zh": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
+     "short": "欧盟印尼签署贸易协议",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGQ0cXQ4UTVWcVVpRnZjTUFnMklESFg4b2xGVi1nLTFOQXUwQldWVGtBVGd3b2dTbG1jR2pWS3dKb05DbjRQdDlMNHFFRzFQLXJHTzlVY3hwd2dBeXpvQllUQUQ2a1h5SkhQTmY4UG1PRFl6N2RBWGo3ZDM2U29lNWNkRjJnNm90dUZxTlJyMUFOd3ZxY0FxSHFJNUZsMjJOMGdLRWZqOUtaOVpUWDBCUFpxbERKemtxNmJqSWdsWFNuenZac3MzYmhxdWp5aV91bDgxVUdzV2o?oc=5",
+     "source": "INSIGHT EU MONITORING",
+     "cat": "sea",
+     "published": "2026-11-21T15:25:21.000Z",
+     "sum": "欧盟与印度尼西亚正式签署贸易协议，旨在进一步开放彼此市场并确保关键供应链的安全。此举标志着双方在深化经贸合作与应对全球供应链风险方面迈出重要一步。"
+    },
+    "a1b6e93c1720": {
+     "id": "a1b6e93c1720",
+     "title": "EU and Indonesia sign trade deal",
+     "zh": "欧盟与印尼正式签署自由贸易协定",
+     "short": "欧盟印尼签自贸协定",
+     "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "sea",
+     "published": "2026-11-21T15:21:00.000Z",
+     "sum": "欧盟与印尼经过近十年谈判后，正式签署了一项涵盖7.3亿人口的自由贸易协定。该协定旨在降低关税并带来新的投资机会，随着全球经济紧张局势加剧，欧盟正借此多元化其贸易关系。"
+    },
+    "8b72da353144": {
+     "id": "8b72da353144",
+     "title": "IEU CEPA: Ushering in a new era of economic partnership",
+     "zh": "印尼欧盟全面经济伙伴关系协定迈入新时代",
+     "short": "印尼欧盟签署经贸协定",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVWNQeVpJVVBva2hGTl81Skg0Z3pnSGI2b1pOYVRoR0l4Um5DNnEtYTVLLV8wRzFTckM5SGZJQmpzbi1DdjluaThaQnVWRjRHTDB0azdaNWlkNlhBMTh6UnRnSGx3NGxoN3hxaDdaUVdKQVdHQW0wVEp3NGx3RlVXQkR4cWRvdm9ra0s1Nm4xcFlMeXQxTXAtMHlGRVNhTjZnTXoyVEVhcw?oc=5",
+     "source": "The Jakarta Post",
+     "cat": "sea",
+     "published": "2026-11-20T19:52:30.000Z"
+    },
+    "7c408c6ff522": {
+     "id": "7c408c6ff522",
+     "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
+     "zh": "欧盟与英国达成“历史性协议”以深化脱欧后关系",
+     "short": "英欧达成重要协议",
+     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-20T11:30:00.000Z",
+     "sum": "欧盟与英国就青年流动和贸易等议题达成了一项被形容为“历史性”的协议。双方领导人对此高度评价，并借此寻求修复并深化脱欧后的紧密联系。此举标志着双方关系走向务实解冻。"
+    },
+    "0cfb735f2465": {
+     "id": "0cfb735f2465",
+     "title": "EU and UK seal reset deal",
+     "zh": "欧盟与英国达成关系重置协议",
+     "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:20:19.000Z",
+     "sum": "欧盟与英国正式达成一项旨在重置双边关系的协议。这项突发新闻引发外界对双方未来贸易与政策合作的关注。双方希望借此修复脱欧后的一些紧张关系。"
+    },
+    "4cf56d1e0614": {
+     "id": "4cf56d1e0614",
+     "title": "EU and UK strike 'landmark deal' to rebuild ties after Brexit",
+     "zh": "欧盟与英国达成脱欧后重建关系的里程碑协议",
+     "short": "英欧达成重建关系协议",
+     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-rebuild-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-20T11:30:00.000Z"
+    },
+    "d78d2117a5c1": {
+     "id": "d78d2117a5c1",
+     "title": "Can the UK and EU turn the page on Brexit?",
+     "zh": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
+     "short": "英欧能否走出脱欧阴影",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T20:51:19.000Z"
     }
    },
    "name": "中美欧领导人外交与峰会",
-   "en": "US China Europe summit diplomacy",
-   "wiki": "APEC_Malaysia",
-   "cat": "world",
-   "last": "2026-11-21T03:41:42.627Z",
+   "en": "xi jinping trump singapore premier china eu",
+   "wiki": "China-United States relations",
+   "cat": "china",
+   "last": "2026-11-21T22:12:19.702Z",
    "hidden": false,
    "short": "中美欧峰会与大国外交",
    "key": "中美俄举行三方峰会，周边外交持续深化",
@@ -2303,14 +3176,18 @@
     "kind": "A"
    },
    "heat": {
-    "score": 2,
-    "sources": 6,
-    "stories": 13,
+    "score": 3,
+    "sources": 11,
+    "stories": 23,
     "gdelt": null,
-    "wiki": null,
-    "at": "2026-11-21T16:54:11.745Z"
+    "wiki": {
+     "title": "China-United States relations",
+     "views": 2,
+     "ratio": 0.7
+    },
+    "at": "2026-11-21T22:24:37.683Z"
    }
   }
  ],
- "updated": "2026-11-21T16:54:11.746Z"
+ "updated": "2026-11-21T22:26:11.668Z"
 }
