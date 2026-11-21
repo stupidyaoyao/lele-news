@@ -13,7 +13,8 @@ import { gdeltRatio, wikiViews, heatScore } from './heat.mjs';
 
 const OUT = new URL('../data/events.json', import.meta.url);
 const WINDOW_H = 48, HIDE_DAYS = 14, DROP_DAYS = 60;
-const MAX_WRITEUPS = 6;           // storyline write-ups per run (free AI limits)
+const MAX_WRITEUPS = 6;
+const WRITE_V = 2;               // bump to rewrite all storylines once (after prompt changes)           // storyline write-ups per run (free AI limits)
 const AGENCIES = /reuters|路透|\bap\b|associated press|bernama|afp|法新/i;
 const GLOSSARY = '马来西亚常用译名：MCA=马华，MIC=国大党，UMNO=巫统，PH=希盟，BN=国阵，PAS=伊党，PN=国盟，DAP=行动党，PKR=公正党，Bursa=马股，ringgit=令吉。英文缩写写成中文（AI→人工智能，Fed→美联储，IPO→首次公开招股，GDP→国内生产总值，CEO→总裁）。';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -154,7 +155,7 @@ export async function updateEvents(items, { ask, readPage, logoSet }) {
   let budget = MAX_WRITEUPS;
   const live = db.events.filter((e) => !e.hidden && now - Date.parse(e.last) < 3 * 864e5);
   const todo = live.flatMap((ev) => ev.lines.map((l) => ({ ev, l })))
-    .filter(({ l }) => l.sig !== hid(l.ids.slice().sort().join()))
+    .filter(({ l }) => l.sig !== hid(l.ids.slice().sort().join()) || l.v !== WRITE_V)
     .sort((a, b) => b.l.ids.length - a.l.ids.length);
   const changed = new Set();
   for (const { ev, l } of todo) {
@@ -182,7 +183,7 @@ export async function updateEvents(items, { ask, readPage, logoSet }) {
       if (w.views.length < 2) w.views = []; // a "difference" needs at least two sides
       l.w = w;
       l.loose = w.common.length < 3; // Frank's rule: fewer than 3 shared facts → not combined
-      l.sig = hid(l.ids.slice().sort().join());
+      l.sig = hid(l.ids.slice().sort().join()); l.v = WRITE_V;
       l.at = new Date().toISOString();
       changed.add(ev);
       console.log(`  分线 「${l.t}」: ${members.length} stories, ${srcNames.length} sources, ${w.common.length} shared facts${l.loose ? ' (kept separate)' : ''}`);
