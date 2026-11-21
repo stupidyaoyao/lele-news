@@ -1,12 +1,877 @@
 {
  "events": [
   {
+   "id": "f4bb4b75",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "f4bb4b75-1",
+     "t": "基辅空袭与俄罗斯攻势",
+     "ids": [
+      "f5aa2c1600b1",
+      "6fca891ece5d",
+      "968b51712184",
+      "b4d8b1b930db",
+      "dfff6b708f3a",
+      "1425c009d761",
+      "80605099f5e4",
+      "c06f290ca0b1"
+     ]
+    },
+    {
+     "id": "f4bb4b75-2",
+     "t": "和平谈判与安全保障分歧",
+     "ids": [
+      "acc8f3177f53",
+      "b38e5a17b7df",
+      "3a083cc0df3b",
+      "5142390aaa16",
+      "8bd76ee26afb",
+      "7018d0e3b351",
+      "b2c8270dd931"
+     ],
+     "w": {
+      "short": "美俄乌和平谈判与安全保障存分歧",
+      "key": "美俄乌就战后乌克兰的安全保障与和平谈判条件存在重大分歧。",
+      "title": "美俄乌安全保障与和平谈判分歧引发关注",
+      "summary": "美国与俄罗斯领导人在中国会晤后，美方特使称俄罗斯对北约式安全保障持开放态度，但遭到俄罗斯副外长明确拒绝。与此同时，法国呼吁重新考虑乌克兰加入北约，而乌克兰总统泽连斯基则对美俄走近表达了强烈不满。",
+      "common": [
+       {
+        "t": "美国与俄罗斯领导人进行了会晤",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "美方特使称俄罗斯对乌安全保障持开放态度",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "俄罗斯副外长拒绝了北约式准成员国地位",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "法国总统呼吁重新考虑乌克兰加入北约",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "乌克兰总统泽连斯基公开称普京为杀手，并拒绝特朗普将普京视为朋友的说法。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera"
+        ],
+        "t": "美方特使认为俄罗斯对战后乌克兰的北约式安全保障感到适应和开放。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "俄罗斯副外长明确表示莫斯科绝对不会接受乌克兰加入北约或任何形式的准成员国地位。"
+       }
+      ],
+      "unknown": "目前尚不清楚美俄在闭门会晤中达成的具体妥协细节以及欧洲特使未来访问莫斯科的最终成效。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "美俄乌的安全保障与和平谈判分歧直接牵动全球地缘政治格局与大国关系。"
+      },
+      "people": [
+       "Donald Trump",
+       "Vladimir Putin"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "acc8f3177f53",
+        "t": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
+        "says": "伊朗希望通过外交结束与美国的战争并寻求保证，但特朗普称其条件不可接受。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "b38e5a17b7df",
+        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+        "says": "美俄领导人会晤并互称朋友，泽连斯基则公开反驳称普京为敌人和杀手。",
+        "same": [
+         "美俄领导人会晤"
+        ],
+        "view": null
+       },
+       {
+        "id": "3a083cc0df3b",
+        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+        "says": "美方特使库什纳称俄罗斯对战后乌克兰的北约式安全保障持开放态度。",
+        "same": [
+         "北约式安全保障",
+         "俄罗斯对乌安全保障"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "5142390aaa16",
+        "t": "巴基斯坦部长自2025年战争以来首次访问印度",
+        "says": "巴基斯坦部长出席上合组织论坛，成为两国冲突后首位访印的联邦部长。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "8bd76ee26afb",
+        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+        "says": "俄罗斯副外长明确拒绝了类似北约的乌克兰安全保障提议。",
+        "same": [
+         "北约式安全保障",
+         "俄罗斯拒绝准成员国"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "7018d0e3b351",
+        "t": "乌克兰三方峰会难为和平带来希望",
+        "says": "",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "b2c8270dd931",
+        "t": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
+        "says": "",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "52f8e645",
+     "at": "2026-11-21T03:42:44.533Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "f5aa2c1600b1": {
+     "id": "f5aa2c1600b1",
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+     "short": "俄空袭基辅",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T13:01:16.000Z",
+     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。"
+    },
+    "6fca891ece5d": {
+     "id": "6fca891ece5d",
+     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+     "short": "俄导弹落入波兰",
+     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T12:56:48.000Z",
+     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
+    },
+    "968b51712184": {
+     "id": "968b51712184",
+     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
+     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+     "short": "俄空袭基辅击中欧洲使馆",
+     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T12:04:16.000Z",
+     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
+    },
+    "b4d8b1b930db": {
+     "id": "b4d8b1b930db",
+     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:54:00.000Z",
+     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
+    },
+    "dfff6b708f3a": {
+     "id": "dfff6b708f3a",
+     "title": "Russia’s day-long attack on Kyiv damages embassies",
+     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T08:56:08.000Z",
+     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
+    },
+    "1425c009d761": {
+     "id": "1425c009d761",
+     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
+     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
+     "short": "波兰谴责俄侵犯领空",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T11:45:35.000Z"
+    },
+    "acc8f3177f53": {
+     "id": "acc8f3177f53",
+     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
+     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
+     "short": "美伊外交谈判遇阻",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T01:21:44.000Z",
+     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "b38e5a17b7df": {
+     "id": "b38e5a17b7df",
+     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
+     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+     "short": "泽连斯基斥普京为杀手",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T23:25:36.000Z",
+     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
+    },
+    "3a083cc0df3b": {
+     "id": "3a083cc0df3b",
+     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
+     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:01:51.000Z",
+     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
+    },
+    "5142390aaa16": {
+     "id": "5142390aaa16",
+     "title": "Pakistan minister visits India for first time since 2025 war",
+     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:11:57.000Z",
+     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
+    },
+    "8bd76ee26afb": {
+     "id": "8bd76ee26afb",
+     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
+     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T09:08:29.000Z",
+     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
+    },
+    "7018d0e3b351": {
+     "id": "7018d0e3b351",
+     "title": "3-way summit offers little hope for peace in Ukraine",
+     "zh": "乌克兰三方峰会难为和平带来希望",
+     "short": "乌克兰三方峰会难寻和平",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:58:52.000Z"
+    },
+    "b2c8270dd931": {
+     "id": "b2c8270dd931",
+     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
+     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
+     "short": "德政要称雅尔塔模式无用",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:47:21.000Z"
+    },
+    "80605099f5e4": {
+     "id": "80605099f5e4",
+     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
+     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
+     "short": "俄导弹落入波兰",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T22:15:00.000Z",
+     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
+    },
+    "c06f290ca0b1": {
+     "id": "c06f290ca0b1",
+     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
+     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+     "short": "11国欧洲军队波兰演习",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T19:47:00.000Z"
+    }
+   },
+   "name": "乌克兰战争与安全局势",
+   "en": "Ukraine war Russia missile security",
+   "wiki": "Russian_invasion_of_Ukraine",
+   "cat": "world",
+   "last": "2026-11-21T03:51:30.997Z",
+   "hidden": false,
+   "short": "美俄乌安全与和平博弈",
+   "key": "美俄谈判分歧大，泽连斯基表达强烈不满",
+   "overview": "美俄领导人会晤引发关注，美方特使称俄对安全保障持开放态度但遭俄方拒绝，法国呼吁重考乌加入北约，泽连斯基强烈不满美俄走近并称普京为敌人。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 6,
+    "stories": 15,
+    "gdelt": null,
+    "wiki": {
+     "title": "Russian_invasion_of_Ukraine",
+     "views": 973,
+     "ratio": 1
+    },
+    "at": "2026-11-21T04:00:33.520Z"
+   }
+  },
+  {
+   "id": "5a1cdc28",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "5a1cdc28-1",
+     "t": "国际法院裁决及各方反应",
+     "ids": [
+      "978f89b95795",
+      "75c4f6000f48",
+      "afbc4c41b87d",
+      "d3549ebb0236",
+      "408065c2f975",
+      "7745a81f8be2",
+      "c45b740ac23d",
+      "6b17d8cfc59e",
+      "9823b865d2e8",
+      "16b950be37c5",
+      "3bcfa52a6aed",
+      "3640a3fbb952"
+     ],
+     "w": {
+      "short": "国际法院裁定缅甸灭绝罗兴亚人",
+      "key": "国际法院首次裁定缅甸对罗兴亚人犯下种族灭绝罪，引发各方高度关注与不同反应。",
+      "title": "国际法院裁定缅甸罗兴亚人遭灭绝 创历史先例各方反应不一",
+      "summary": "联合国国际法院历史上首次裁定一个国家犯下种族灭绝罪，认定缅甸在2017年的军事镇压中对罗兴亚人犯下灭绝罪，并下令赔偿及允许难民安全回国。缅甸官方批评裁决不公并重申行动针对武装叛乱，中国则对司法过度干预表达担忧。此项具有里程碑意义的裁决也对马来西亚的难民政策及国际上其他相关诉讼产生深远影响。",
+      "common": [
+       {
+        "t": "国际法院裁定缅甸犯下种族灭绝",
+        "src": [
+         "France 24",
+         "CNA Asia",
+         "BBC 中文"
+        ]
+       },
+       {
+        "t": "裁决要求缅甸向受害者赔偿",
+        "src": [
+         "CNA Asia",
+         "Free Malaysia Today",
+         "BBC 中文"
+        ]
+       },
+       {
+        "t": "超过百万罗兴亚难民逃往孟加拉",
+        "src": [
+         "CNA Asia",
+         "Free Malaysia Today",
+         "BBC 中文"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "长期收容难民的马来西亚，面对日益高涨的反感与社会压力，难民庇护政策面临历史性抉择。",
+        "src": "France 24"
+       },
+       {
+        "t": "缅甸总统府发言人Khaing Khaing Soe称裁决不公，并指出15名法官中有6名投了反对票。",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "中国外交部发言人郭嘉昆表示关切司法过度干预和扩大解释，认为不利于解决争端。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "CNA Asia",
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ],
+        "t": "缅甸官方坚称国际法院的裁决并不公平，并重申其军事行动针对的是武装叛乱。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "中国认为国际法院存在司法过度干预和扩大解释的问题，此类做法不利于争端的解决。"
+       }
+      ],
+      "unknown": "由于国际法院缺乏执法机制，缅甸最终是否会遵守裁决命令仍是未知数。",
+      "impact": {
+       "my": "长期收容难民的大马正面临日益高涨的本土反感与难民政策抉择。",
+       "sea": "历史性裁决对缅甸军政府带来更多国际外交压力，并牵动区域难民安置问题。",
+       "world": "创下国际法院首度裁定国家犯下灭绝罪的先例，并将对加沙等其他国际灭绝种族指控案件产生深远影响。"
+      },
+      "people": [
+       "Yuji Iwasawa",
+       "Min Aung Hlaing"
+      ],
+      "photo": "refugee camp",
+      "per": [
+       {
+        "id": "978f89b95795",
+        "t": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
+        "says": "国际法院裁定缅甸在2017年犯下灭绝罪，大马面对本土压力，庇护政策面临抉择。",
+        "same": [
+         "灭绝罪",
+         "罗兴亚人"
+        ],
+        "view": null
+       },
+       {
+        "id": "75c4f6000f48",
+        "t": "联合国针对缅甸作出具里程碑意义裁决",
+        "says": "国际法院以九比六裁定缅甸犯下种族灭绝，下令赔偿及设定两年汇报期限。",
+        "same": [
+         "灭绝罪",
+         "赔偿"
+        ],
+        "view": null
+       },
+       {
+        "id": "afbc4c41b87d",
+        "t": "缅甸称国际法院的种族灭绝裁决“不公平”",
+        "says": "缅甸官方批评裁决不公并否认指控，因缺乏执法机制使遵守成谜。",
+        "same": [
+         "灭绝罪"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "d3549ebb0236",
+        "t": "中国称缅甸种族灭绝裁决“不利于”解决争端",
+        "says": "中国对国际法院裁决表示担忧，认为存在司法过度干预且不利于解决争端。",
+        "same": [
+         "灭绝罪"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "408065c2f975",
+        "t": "缅甸种族灭绝裁决影响深远的历史意义",
+        "says": "法院首次裁定国家犯下种族灭绝，裁决厘清举证标准并影响其他相关案件。",
+        "same": [
+         "灭绝罪",
+         "罗兴亚人"
+        ],
+        "view": null
+       },
+       {
+        "id": "7745a81f8be2",
+        "t": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
+        "says": "探讨国际法院裁决对加沙局势的潜在影响。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "c45b740ac23d",
+        "t": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
+        "says": "缅甸官方回应国际法院裁决指控并不公正。",
+        "same": [
+         "灭绝罪"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b17d8cfc59e",
+        "t": "缅甸发言人称国际法院的种族灭绝裁决不公",
+        "says": "缅甸发言人公开批评国际法院的裁决并不公平。",
+        "same": [
+         "灭绝罪"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "69a873c5",
+     "at": "2026-11-21T03:55:25.352Z",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
+      "credit": "CNA Asia",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "5a1cdc28-2",
+     "t": "大马安置罗兴亚难民计划",
+     "ids": [
+      "391dc893b136",
+      "bbc90da3ec13",
+      "8539895b5c90",
+      "e6579b6ff7f7",
+      "e0f1a40bb1a0"
+     ],
+     "w": {
+      "short": "大马计划安置罗兴亚难民",
+      "key": "马来西亚内阁批准将1万名罗兴亚难民重新安置到土耳其。",
+      "title": "马来西亚内阁批准将1万名罗兴亚难民重新安置到土耳其",
+      "summary": "马来西亚内阁已批准将1万名罗兴亚难民重新安置到土耳其，这些难民在安置前将接受技能培训。同时，内政部也针对难民证持有者的管理及入境限制做出说明。",
+      "common": [
+       {
+        "t": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。",
+        "src": [
+         "联合早报",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "马来西亚内阁已批准或同意这项安置计划。",
+        "src": [
+         "联合早报",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "副首相阿末扎希涉及此项难民安置计划的相关事务。",
+        "src": [
+         "联合早报",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "难民在安置前将先接受符合各行业雇主需求的技能培训，或为期三至六个月的技术与职业教育培训。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "难民证持有者禁止入境沙巴、砂拉越和纳闽，且该证件不赋予永久居民身份或公民途径。",
+        "src": "Malaysiakini"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "有助于马来西亚调整和管理国内的罗兴亚难民人数及相关证件政策。",
+       "sea": null,
+       "world": null
+      },
+      "people": [
+       "Ahmad Zahid Hamidi",
+       "Suhaizan Kaiat"
+      ],
+      "photo": "refugee camp",
+      "per": [
+       {
+        "id": "391dc893b136",
+        "t": "大马计划将1万名罗兴亚难民安置在土耳其",
+        "says": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。内阁已对此予以批准，此前副首相阿末扎希曾对该国进行工作访问。",
+        "same": [
+         "安置罗兴亚难民",
+         "计划安置到土耳其"
+        ],
+        "view": null
+       },
+       {
+        "id": "bbc90da3ec13",
+        "t": "内阁同意将1万名罗兴亚难民安置在土耳其",
+        "says": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。",
+        "same": [
+         "安置罗兴亚难民",
+         "计划安置到土耳其"
+        ],
+        "view": null
+       },
+       {
+        "id": "8539895b5c90",
+        "t": "扎希德：1万名罗兴亚难民将安置到土耳其",
+        "says": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。",
+        "same": [
+         "安置罗兴亚难民",
+         "计划安置到土耳其"
+        ],
+        "view": null
+       },
+       {
+        "id": "e6579b6ff7f7",
+        "t": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
+        "says": "内政部在国会书面答复中指出，难民证持有者禁止入境沙巴、砂拉越和纳闽，且该计划旨在逐步取代联合国难民署的难民登记功能。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "e0f1a40bb1a0",
+        "t": "莫哈末沙布：仇外心理是大马经济的定时炸弹",
+        "says": "莫哈末沙布认为仇外心理是大马经济的定时炸弹。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "afb96d25",
+     "at": "2026-11-21T03:56:21.318Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/d36KHZ-BBLXosV0whdOZEC5JXRg=/1200x0/filters:strip_exif()/file/1333/a2fc3c9726bfbc53cc1c75d0074d850f.jpeg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "978f89b95795": {
+     "id": "978f89b95795",
+     "title": "Malaysia's unwanted refugees: The plight of the Rohingya",
+     "zh": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
+     "short": "国际法院裁定缅甸灭绝罪",
+     "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya",
+     "source": "France 24",
+     "cat": "sea",
+     "published": "2026-11-20T11:28:30.000Z",
+     "sum": "国际法院裁定缅甸在2017年对罗兴亚人犯下灭绝罪。长期收容难民的马来西亚，面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。"
+    },
+    "75c4f6000f48": {
+     "id": "75c4f6000f48",
+     "title": "CNA Explains: Can a country be held accountable for genocide?",
+     "zh": "联合国针对缅甸作出具里程碑意义裁决",
+     "url": "https://www.channelnewsasia.com/asia/icj-un-court-ruling-genocide-myanmar-rohingya-atrocities-explainer-6568961",
+     "source": "CNA Asia",
+     "cat": "world",
+     "published": "2026-11-20T10:45:30.000Z",
+     "sum": "联合国本周对缅甸作出历史性裁决，引发关于国家如何承担灭绝种族罪责任的讨论。然而，判决的执行以及受害者能否获得正义仍面临诸多疑问。"
+    },
+    "afbc4c41b87d": {
+     "id": "afbc4c41b87d",
+     "title": "Myanmar says international court's genocide ruling 'not fair'",
+     "zh": "缅甸称国际法院的种族灭绝裁决“不公平”",
+     "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946",
+     "source": "CNA Asia",
+     "cat": "sea",
+     "published": "2026-11-20T09:36:33.000Z",
+     "sum": "缅甸官方公开批评国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。缅甸一贯否认相关指控。"
+    },
+    "d3549ebb0236": {
+     "id": "d3549ebb0236",
+     "title": "China says Myanmar genocide ruling ‘not conducive’ to solving disputes",
+     "zh": "中国称缅甸种族灭绝裁决“不利于”解决争端",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-myanmar-genocide-ruling-not-conducive-to-solving-disputes",
+     "source": "Free Malaysia Today",
+     "cat": "china",
+     "published": "2026-11-20T09:10:11.000Z",
+     "sum": "中国外交部表示，对国际法院的管辖权过度延伸和扩大解释感到关切，认为此类做法不利于争端的解决。中方就缅甸相关涉外司法裁决表明了立场。"
+    },
+    "408065c2f975": {
+     "id": "408065c2f975",
+     "title": "緬甸種族滅絕裁決影響深遠的歷史意義",
+     "zh": "缅甸种族灭绝裁决影响深远的历史意义",
+     "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "sea",
+     "published": "2026-11-20T08:53:00.000Z",
+     "sum": "国际法院对缅甸的种族灭绝裁决具有深远的历史意义。法律界正研究冈比亚如何证明缅甸具有实施种族灭绝的意图。"
+    },
+    "7745a81f8be2": {
+     "id": "7745a81f8be2",
+     "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
+     "zh": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
+     "short": "国际法院裁决意义",
+     "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T12:20:29.000Z"
+    },
+    "c45b740ac23d": {
+     "id": "c45b740ac23d",
+     "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
+     "zh": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
+     "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
+     "source": "Malaysiakini",
+     "cat": "world",
+     "published": "2026-11-20T11:02:46.000Z"
+    },
+    "6b17d8cfc59e": {
+     "id": "6b17d8cfc59e",
+     "title": "International court’s genocide ruling ‘not fair’, says Myanmar spokeswoman",
+     "zh": "缅甸发言人称国际法院的种族灭绝裁决不公",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/international-court-s-genocide-ruling-not-fair-says-myanmar-spokeswoman",
+     "source": "Free Malaysia Today",
+     "cat": "sea",
+     "published": "2026-11-20T08:47:00.000Z"
+    },
+    "391dc893b136": {
+     "id": "391dc893b136",
+     "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
+     "zh": "大马计划将1万名罗兴亚难民安置在土耳其",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG5MbTZoN1FoMXEteXA0UE9mM0huZ3VudkhPa2F5b09TMXBJNlZkVGhwRXUxemJIUjlCalVQOTdReDNaakpRTC1xcDdNZXZyMVlyYi1KN3c0eWk2ZHNLN0wyMUp2TlBndGhwWnZPSWVsa2czMFV3SW5Gc08zZ1hxS2JPeWpBUmpxZTEzVUxZc1NRcVRrWm5J?oc=5",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-20T09:02:34.000Z",
+     "sum": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。内阁已对此予以批准，此前副首相阿末扎希曾对该国进行工作访问。"
+    },
+    "bbc90da3ec13": {
+     "id": "bbc90da3ec13",
+     "title": "Cabinet nod to resettle 10,000 Rohingya refugees in Turkey",
+     "zh": "内阁同意将1万名罗兴亚难民安置在土耳其",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/cabinet-nod-to-resettle-10-000-rohingya-refugees-in-turkey",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-20T08:29:00.000Z",
+     "sum": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。"
+    },
+    "8539895b5c90": {
+     "id": "8539895b5c90",
+     "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
+     "zh": "扎希德：1万名罗兴亚难民将安置到土耳其",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-20T08:20:00.000Z",
+     "sum": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。"
+    },
+    "e6579b6ff7f7": {
+     "id": "e6579b6ff7f7",
+     "title": "Home Ministry: Refugee card holders barred from entering Sabah, Sarawak and Labuan",
+     "zh": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
+     "url": "https://www.malaysiakini.com/news/889501-home-ministry-refugee-card-holders-barred-from-entering-sabah-sarawak-and-labuan",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-20T04:45:41.000Z",
+     "sum": "大马内政部宣布，持联合国难民署证件的人士一律被禁止入境沙巴、砂拉越及纳闽。此举旨在加强东马两州的边境管控与移民安全。"
+    },
+    "9823b865d2e8": {
+     "id": "9823b865d2e8",
+     "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+     "zh": "孟加拉罗兴亚人欢迎联合国法院裁决，但仍希望重返缅甸",
+     "short": "罗兴亚人望重返缅甸",
+     "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-21T01:14:00.000Z"
+    },
+    "3bcfa52a6aed": {
+     "id": "3bcfa52a6aed",
+     "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
+     "zh": "喜极而泣祈祷回家：罗兴亚人对灭绝裁决的反应",
+     "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "sea",
+     "published": "2026-11-20T05:36:21.000Z",
+     "sum": "For refugees, the ICJ ruling that Myanmar committed genocide is a vindication. But will they be able to return home?"
+    },
+    "16b950be37c5": {
+     "id": "16b950be37c5",
+     "title": "UN General Assembly chief tells Myanmar to ‘bring Rohingya home’",
+     "zh": "联合国大会主席敦促缅甸将罗兴亚人接回家园",
+     "url": "https://www.channelnewsasia.com/asia/myanmar-rohingya-genocide-un-icj-6568711",
+     "source": "CNA Asia",
+     "cat": "world",
+     "published": "2026-11-20T07:32:00.000Z",
+     "sum": "\"A judgment on paper is not justice in life - now it must be given effect,\" said Khalilur Rahman, head of the United Nations General Assembly."
+    },
+    "3640a3fbb952": {
+     "id": "3640a3fbb952",
+     "title": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
+     "zh": "本周世界：焦点访谈、缅甸种族灭绝裁决与欧盟扩张",
+     "short": "本周国际热点深度解析",
+     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T19:42:58.000Z"
+    },
+    "e0f1a40bb1a0": {
+     "id": "e0f1a40bb1a0",
+     "title": "Xenophobia a 'ticking time bomb' for M'sian economy - Mat Sabu",
+     "zh": "莫哈末沙布：仇外心理是大马经济的定时炸弹",
+     "short": "莫哈末沙布警惕仇外心理",
+     "url": "https://www.malaysiakini.com/news/889484-xenophobia-a-ticking-time-bomb-for-msian-economy-mat-sabu",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-20T23:00:00.000Z"
+    }
+   },
+   "name": "国际法院罗兴亚人裁决",
+   "en": "ICJ Rohingya genocide ruling",
+   "wiki": "Rohingya_genocide_case",
+   "cat": "sea",
+   "last": "2026-11-21T03:51:30.997Z",
+   "hidden": false,
+   "short": "国际法院裁决缅甸灭绝罪",
+   "key": "国际法院历史首次裁定缅甸犯下种族灭绝罪",
+   "overview": "联合国国际法院首次裁定缅甸犯下针对罗兴亚人的灭绝罪并下令赔偿，引发国际关注；大马则宣布批准将1万名罗兴亚难民安置到土耳其。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "5a1cdc28-1",
+     "to": "5a1cdc28-2",
+     "t": "国际法院的裁决对大马的难民政策及本土安置压力产生了深远影响。"
+    }
+   ],
+   "img": {
+    "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
+    "credit": "CNA Asia",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 4,
+    "sources": 8,
+    "stories": 17,
+    "gdelt": null,
+    "wiki": {
+     "title": "Rohingya_genocide_case",
+     "views": 3572,
+     "ratio": 4.3
+    },
+    "at": "2026-11-21T04:00:49.977Z"
+   }
+  },
+  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "美股及全球股市遭遇AI抛售重挫",
+     "t": "AI泡沫与股市抛售潮",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -23,48 +888,77 @@
       "6ac291173776",
       "19df749068f8",
       "de20bdb4ceca",
-      "a4b668b9adb1"
+      "a4b668b9adb1",
+      "1e0e05f4246d",
+      "b1b265aef11e",
+      "a6a8f43c9365"
      ],
      "w": {
-      "short": "全球股市遭遇AI抛售重挫",
-      "key": "人工智能板块遭抛售引发全球股市大跌，市值蒸发数万亿美元。",
-      "title": "全球股市遭遇人工智能抛售重挫，亚洲创多年来最惨单周表现",
-      "summary": "由于人工智能板块遭遇抛售潮，加上美联储鹰派预期升温，全球股市与金融市场迎来重挫。亚洲股市更创下2020年以来最糟糕的一周，科技股与跨国资产普遍承压下调。市场情绪已从低吸转向担忧人工智能估值过高与盈利能力不足。",
-      "common": [],
-      "single": [
+      "short": "全球股市暴跌AI遭抛售",
+      "key": "人工智能板块抛售潮引发全球股市与多类资产显著下挫，蒸发巨额市值。",
+      "title": "全球人工智能板块遭抛售引发股市重挫，亚洲创多年来最糟单周表现",
+      "summary": "受人工智能板块抛售潮、美联储政策预期及地缘政治紧张局势影响，全球股市与多类资产遭遇全线抛售，蒸发数万亿美元市值。亚洲股市创下2020年以来最糟糕的一周，美欧主要市场也普遍大幅下跌。投资者对高估值科技板块的担忧与宏观经济走势的评估导致避险情绪显著升温。",
+      "common": [
        {
-        "t": "Anthropic的首次公开募股未能阻止人工智能板块的抛售潮。",
-        "src": "fd2811614640"
+        "t": "全球股市遭遇科技股与人工智能板块抛售拖累而下跌",
+        "src": [
+         "Yahoo Finance",
+         "Anadolu Ajansı",
+         "London South East",
+         "The Guardian World",
+         "TradingView",
+         "Devdiscourse"
+        ]
        },
        {
-        "t": "全球金融市场全线抛售导致总计约4.28万亿美元市值蒸发。",
-        "src": "3fc446211522"
+        "t": "亚洲股市创下2020年以来最糟糕的一周",
+        "src": [
+         "London South East",
+         "The Guardian World",
+         "Devdiscourse"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "全球金融市场在全线抛售中共有约4.28万亿美元市值蒸发",
+        "src": "TradingView"
+       },
+       {
+        "t": "人工智能巨头Anthropic首次公开募股未能提振市场信心且股价回落",
+        "src": "The Guardian World"
+       },
+       {
+        "t": "美国国债收益率录得下跌",
+        "src": "Yahoo Finance"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "fd2811614640"
+         "Yahoo Finance",
+         "Anadolu Ajansı",
+         "The Guardian World"
         ],
-        "t": "市场情绪转变是因为担忧人工智能估值过高、盈利能力不足及投资可持续性。"
+        "t": "市场下跌源于投资者对人工智能估值过高、盈利风险的担忧，以及对美联储维持高利率与鹰派政策的忧虑。"
        },
        {
         "label": "看法 B",
         "src": [
-         "3fc446211522"
+         "TradingView"
         ],
-        "t": "核心原因是担忧美联储可能维持高利率更长时间，且摩根大通预测联储或连续三次加息。"
+        "t": "市场抛售的核心原因是担忧美联储可能维持高利率更长时间，加之黄金下跌反映出市场对通货紧缩的担忧及中东地缘政治紧张的影响。"
        }
       ],
-      "unknown": null,
+      "unknown": "目前尚不确定美联储接下来的具体加息路径以及人工智能板块的抛售潮何时能够见底止跌。",
       "impact": {
-       "my": null,
-       "sea": null,
-       "world": "全球金融市场与股市遭遇科技股抛售重挫，市值大幅蒸发。"
+       "my": "环球股市与科技板块大跌可能通过投资者情绪和资金流向波及马股表现。",
+       "sea": "区域股市普遍遭遇自2020年以来最差单周表现，东南亚市场难免受到整体情绪拖累。",
+       "world": "人工智能板块泡沫破裂与多类资产遭到抛售导致全球市值蒸发，市场避险情绪显著升温。"
       },
       "people": [],
-      "photo": "global stock market crash",
+      "photo": "stock market crash",
       "per": [
        {
         "id": "a4b668b9adb1",
@@ -78,37 +972,37 @@
         "t": "科技股领跌全球股市，美国国债收益率下跌",
         "says": "全球股市遭遇科技股领衔的抛售潮，美国国债收益率下跌，反映出对高估值科技板块的担忧。",
         "same": [
-         "全球股市",
-         "抛售潮"
+         "科技股抛售",
+         "全球股市下跌"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "af87ca270f5d",
         "t": "美联储鹰派预期与AI盈利风险致全球市场下跌",
-        "says": "美联储鹰派货币政策预期升温加之人工智能盈利风险，导致全球市场普遍下滑。",
+        "says": "美联储鹰派预期升温与人工智能盈利风险导致全球市场普遍下滑。",
         "same": [
-         "全球市场",
-         "下滑"
+         "全球市场下跌",
+         "人工智能盈利风险"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "907f3c71c379",
         "t": "AI抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
-        "says": "人工智能板块遭抛售加剧全球股市下跌，亚洲股市面临2020年以来最糟一周。",
+        "says": "人工智能板块遭抛售加剧全球股市下跌，亚洲迎来2020年以来最糟一周。",
         "same": [
-         "全球股市",
+         "AI板块遭抛售",
          "亚洲最糟一周"
         ],
         "view": null
        },
        {
         "id": "fd2811614640",
-        "t": "全球股市暴跌，AI板块抛售潮未止",
-        "says": "Anthropic首次公开募股未能阻止抛售潮，全球股市暴跌，亚洲创2020年以来最糟糕一周。",
+        "t": "The Guardian World: 全球股市暴跌，AI板块抛售潮未止",
+        "says": "Anthropic首次公开募股未能阻止AI抛售潮，全球股市重挫，亚洲创2020年最糟一周。",
         "same": [
-         "全球股市",
+         "全球股市重挫",
          "亚洲最糟一周"
         ],
         "view": "看法 A"
@@ -116,29 +1010,29 @@
        {
         "id": "72d18114a820",
         "t": "美股期指下跌，AI担忧拖累全球市场",
-        "says": "受Anthropic股价回落及人工智能担忧影响，美国股指期货下跌并拖累全球市场。",
+        "says": "Anthropic股价回落及人工智能担忧拖累美国股指期货与全球市场。",
         "same": [
-         "全球市场",
-         "抛售"
+         "AI担忧",
+         "全球市场情绪"
         ],
         "view": null
        },
        {
         "id": "3fc446211522",
         "t": "股票加密货币黄金白银遭抛售，4.28万亿美元蒸发",
-        "says": "全球金融市场全线抛售蒸发4.28万亿美元，美联储可能维持高利率引发担忧。",
+        "says": "全球金融市场全线抛售蒸发4.28万亿美元，美联储利率担忧与地缘政治加剧震荡。",
         "same": [
-         "全球抛售",
-         "市值蒸发"
+         "金融市场抛售",
+         "科技股受创"
         ],
         "view": "看法 B"
        },
        {
         "id": "e91b65d7d40b",
         "t": "亚股迎2020年以来最惨一周，受人工智能交易情绪低迷拖累",
-        "says": "人工智能板块情绪低迷，导致亚洲股市遭遇自2020年以来最糟糕的一周。",
+        "says": "人工智能交易情绪低迷拖累亚股遭遇自2020年以来最糟糕的一周。",
         "same": [
-         "亚洲最糟一周",
+         "亚洲最惨一周",
          "人工智能情绪"
         ],
         "view": null
@@ -146,17 +1040,17 @@
       ]
      },
      "loose": true,
-     "sig": "cc22634a",
-     "at": "2026-11-21T03:41:49.463Z",
+     "sig": "d98dc978",
+     "at": "2026-11-21T03:54:31.871Z",
      "img": {
-      "src": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
-      "credit": "The Guardian World",
+      "src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/20/thumbs_b_c_de941811efadf77c214072969144364d.jpg",
+      "credit": "Anadolu Ajansı",
       "kind": "A"
      }
     },
     {
      "id": "3700168d-2",
-     "t": "Anthropic上市表现与泡沫担忧",
+     "t": "Anthropic上市与估值争议",
      "ids": [
       "80fbf8621612",
       "9d458302cf21",
@@ -306,7 +1200,7 @@
     },
     {
      "id": "3700168d-3",
-     "t": "英伟达面临美国调查与限制压力",
+     "t": "特朗普对海外数据中心与黄仁勋态度",
      "ids": [
       "703b07e4b163",
       "2c3757b0893a",
@@ -321,125 +1215,160 @@
       "85c8a58c4cf3",
       "5aea106d45bc",
       "7b99bc6bd507",
-      "e02bde69f109"
+      "e02bde69f109",
+      "f592a0c493ff",
+      "41857d96f900"
      ],
      "w": {
-      "short": "英伟达遭美调查与限制",
-      "key": "英伟达面临美国监管调查与出口限制，引发全球芯片股抛售。",
-      "title": "英伟达卷入美国调查与对华限制风波，引发全球科技股抛售与市场震荡",
-      "summary": "美国监管机构与加州司法部门正对英伟达的会计账目及芯片去向展开调查，前总裁黄仁勋也因丑闻离职。同时，美国收紧对华出口管制，台积电等供应链企业同步收紧限制，导致英伟达市值大幅缩水，并引发海外数据中心相关争议。",
+      "short": "英伟达遭调查与抛售",
+      "key": "英伟达卷入涉华芯片出口调查与会计审查，股价与市值遭遇重创。",
+      "title": "英伟达面临美国多重调查与抛售，特朗普主张对华维持芯片限制",
+      "summary": "由于前总裁黄仁勋因丑闻辞职以及涉及将先进芯片输往中国的指控，英伟达正面临美国加州司法部长及证券交易委员会的调查，导致其股价大跌和市值蒸发。与此同时，美国总统特朗普主张仅向中国出售旧款芯片，并威胁对在海外建造数据中心的企业征收关税。马来西亚杨忠礼电力则澄清其柔佛数据中心未参与违规转运。",
       "common": [
        {
-        "t": "美国调查英伟达芯片流向",
+        "t": "美国正对英伟达涉嫌将芯片违规输往中国展开调查。",
         "src": [
          "Free Malaysia Today",
          "The Guardian World",
          "The Edge Malaysia"
         ]
+       },
+       {
+        "t": "英伟达近期面临市场抛售与股价下跌的压力。",
+        "src": [
+         "Reuters",
+         "The Guardian World",
+         "South China Morning Post"
+        ]
        }
       ],
       "single": [
        {
-        "t": "台积电收紧中国AI芯片限制，限制使用28和40纳米等较旧工艺",
-        "src": "4cf449e2548c"
+        "t": "美国证券交易委员会正对英伟达的会计账目进行调查。",
+        "src": "Reuters"
        },
        {
-        "t": "特朗普威胁对在海外建造数据中心的企业征收关税",
-        "src": "3c220e7da811"
+        "t": "台积电收紧对中国AI芯片的制造限制，暂停部分16纳米及以下工艺订单。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "美国总统特朗普威胁对在海外兴建数据中心的美国企业征收巨额关税。",
+        "src": "The Edge Malaysia"
        }
       ],
-      "views": [],
-      "unknown": "美中全面协议的具体细节目前仍在协商阶段，尚未完全披露。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Free Malaysia Today",
+         "The Edge Malaysia"
+        ],
+        "t": "杨忠礼电力管理层澄清柔佛数据中心仅提供国际客户托管服务，未涉及协助转移英伟达芯片给中国客户。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today",
+         "The Guardian World",
+         "The Edge Malaysia"
+        ],
+        "t": "纽约时报等报道指出，阿里巴巴曾通过新加坡Megaspeed及柔佛数据中心远端访问英伟达芯片，引发美国对海外设施安全隐患的关注。"
+       }
+      ],
+      "unknown": "目前关于美国证券交易委员会对英伟达会计账目调查的具体细节尚未完全披露。",
       "impact": {
-       "my": "柔佛杨忠礼数据中心被外媒指称涉嫌协助远端访问英伟达芯片，管理层已对此进行澄清并否认受调查。",
-       "sea": "新加坡企业Megaspeed因涉嫌协助将受限制的芯片转移至中国而受到调查。",
-       "world": "美国对英伟达的调查及进一步收紧的出口管制，加剧了全球人工智能泡沫破裂与科技股抛售潮。"
+       "my": "柔佛州的数据中心业务受到国际媒体关注与审视，但管理层强调营运符合法规并对前景保持信心。",
+       "sea": "东南亚地区作为跨国科技企业布局数据中心的重要枢纽，正面临美国出口管制与海外数据中心政策的潜在合规压力。",
+       "world": "全球人工智能泡沫与监管收紧导致科技股遭到抛售，半导体供应链与中美技术竞争格局面临进一步调整。"
       },
       "people": [
        "Jensen Huang",
-       "Alice Huang"
+       "Rob Bonta"
       ],
       "photo": "microchip",
       "per": [
        {
         "id": "ad379fa36e36",
         "t": "消息称英伟达会计账目正遭美国证券交易委员会调查",
-        "says": "美国证券交易委员会正对英伟达的会计账目进行调查，可能对高估值科技股市场情绪造成冲击。",
+        "says": "美国证交会正调查英伟达会计账目，恐冲击高估值科技股情绪。",
         "same": [
-         "美国调查英伟达"
+         "股价下跌",
+         "监管调查"
         ],
         "view": null
        },
        {
         "id": "703b07e4b163",
         "t": "杨忠礼电力否认协助将英伟达芯片转移给中国客户",
-        "says": "YTL Power否认柔佛数据中心协助将英伟达芯片转移给中国客户，强调仅提供合规的科洛凯ーション服务。",
+        "says": "YTL Power否认柔佛数据中心涉及芯片违规转运，强调仅提供合法 kolokasi 服务。",
         "same": [
-         "芯片流向中国"
+         "柔佛数据中心"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "2c3757b0893a",
         "t": "加州就芯片出口是否流入中国一事调查英伟达",
-        "says": "加州总检察长对英伟达及前总裁黄仁勋发出传票，调查其先进芯片是否违规流入中国及是否误导投资者。",
+        "says": "加州总检察长对英伟达及前总裁黄仁勋发出传票，调查其是否将先进芯片违规输华并误导投资者。",
         "same": [
-         "美国调查英伟达",
-         "芯片流向中国"
+         "涉华芯片出口",
+         "股价下跌"
         ],
         "view": null
        },
        {
         "id": "4cf449e2548c",
         "t": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
-        "says": "台积电配合美国新规向中国客户发出通知，暂停部分先进代工订单，收紧28纳米和40纳米等工艺限制。",
+        "says": "台积电配合美国新规向中国客户发出通知，收紧先进制造服务限制。",
         "same": [
-         "收紧对华限制"
+         "限制中国AI芯片"
         ],
         "view": null
        },
        {
         "id": "4dc84061523a",
         "t": "纽约时报称杨忠礼数据中心助阿里巴巴远端访问英伟达芯片，管理层澄清未受调查",
-        "says": "外媒报道指杨忠礼柔佛数据中心涉嫌让阿里巴巴远端访问英伟达芯片，但管理层向分析师澄清未受调查。",
+        "says": "外媒指控柔佛数据中心协助阿里远端访问英伟达芯片，但管理层澄清未受调查且业绩表现强劲。",
         "same": [
-         "芯片流向中国"
+         "柔佛数据中心"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "75075c1c3f03",
         "t": "特朗普称只应向中国出售较旧芯片",
-        "says": "美国总统特朗普表示美国应仅向中国出售技术较落后的旧款芯片，凸显美方持续对华技术限制。",
+        "says": "特朗普表示美国应仅向中国出售技术较落后的旧款芯片，凸显持续对华技术限制。",
         "same": [
-         "收紧对华限制"
+         "对华芯片限制"
         ],
         "view": null
        },
        {
         "id": "3c220e7da811",
         "t": "特朗普威胁对在海外建数据中心的企开征关税",
-        "says": "特朗普警告将对在海外建造数据中心的美国企业征收沉重关税，以促使科技基础设施留在本土。",
-        "same": [],
+        "says": "特朗普警告将对在海外兴建数据中心的美国企业征收重税，以促使投资留在本土。",
+        "same": [
+         "海外数据中心"
+        ],
         "view": null
        },
        {
         "id": "34ae805d994f",
         "t": "受美国出口许可证数据冲击，英伟达再遭打击",
-        "says": "英伟达面临新的美国出口许可证数据冲击，市场对其海外芯片销售和供应链前景感到担忧。",
+        "says": "英伟达因新的美国出口许可证数据受到市场对其业务前景的担忧冲击。",
         "same": [
-         "市场压力"
+         "股价下跌"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "7866c9b6",
-     "at": "2026-11-21T03:42:03.067Z",
+     "sig": "c2a54841",
+     "at": "2026-11-21T03:54:47.450Z",
      "img": {
-      "src": "https://i.guim.co.uk/img/media/d8e256cb4f13741672cadb73a1484717745e43a9/424_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba5ae30a51442a04ba6a938dbed986dd",
-      "credit": "The Guardian World",
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/3801d3ad-ytl-data-centers-ytl-pic-220525.webp",
+      "credit": "Free Malaysia Today",
       "kind": "A"
      }
     }
@@ -746,7 +1675,12 @@
      "source": "联合早报",
      "cat": "tech",
      "published": "2026-11-21T01:41:54.000Z",
-     "sum": "美国总统特朗普公开表示，应该仅向中国出售技术较为落后的旧款芯片。此举凸显美方意图在半导体领域对华持续维持技术限制。相关政策动向可能进一步牵动全球芯片产业链格局。"
+     "sum": "美国总统特朗普公开表示，应该仅向中国出售技术较为落后的旧款芯片。此举凸显美方意图在半导体领域对华持续维持技术限制。相关政策动向可能进一步牵动全球芯片产业链格局。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/f04a2dbb7d6ed37ee4c97d418b3184e670063bd9fa3f11e67e69558df925bbc8",
+      "credit": "联合早报",
+      "kind": "A"
+     }
     },
     "3c220e7da811": {
      "id": "3c220e7da811",
@@ -843,28 +1777,97 @@
      "source": "Al Jazeera",
      "cat": "tech",
      "published": "2026-11-21T01:49:07.000Z"
+    },
+    "1e0e05f4246d": {
+     "id": "1e0e05f4246d",
+     "title": "Has AI’s honeymoon ended on Wall Street?",
+     "zh": "华尔街对人工智能的热情冷却？科技股遭遇重挫",
+     "short": "华尔街人工智能热情降温",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/21/has-ai-s-honeymoon-ended-on-wall-street",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-21T00:55:00.000Z",
+     "sum": "华尔街对人工智能的热情似乎正在降温，以科技股为主的纳斯达克指数周五暴跌5.28%。这抹去了该指数自今年初以来的所有涨幅，显示市场情绪发生显著转变。投资人对高估值科技板块的担忧进一步加剧。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/10/9b8b434d-wall-street.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "b1b265aef11e": {
+     "id": "b1b265aef11e",
+     "title": "US Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 sink on AI selloff after Anthropic IPO",
+     "zh": "美股受人工智能抛售潮拖累集体下挫",
+     "short": "美股因AI抛售潮下跌",
+     "url": "https://beinsure.com/news/us-stock-market-today-dow-jones-sp-500-nasdaq-100-plunge-on-ai-selloff/",
+     "source": "Beinsure",
+     "cat": "finance",
+     "published": "2026-11-20T19:38:31.000Z",
+     "sum": "美国股市主要指数在人工智能相关股票遭遇抛售潮的拖累下集体下滑。市场情绪受到科技板块表现及相关首次公开招股影响而趋于谨慎。"
+    },
+    "a6a8f43c9365": {
+     "id": "a6a8f43c9365",
+     "title": "US Dollar Index (DXY) hesitates below 104.00 as AI jitters offset Fed hiking bets",
+     "zh": "美元指数徘徊于104下方，AI担忧冲抵降息预期",
+     "short": "美元指数受压",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTmdrNVhLdHhEaVFJc08zdUZndkJjMzRwcUxOajkzZGZCR1JKc3N4MXM3WVNoX0xJUG9PYkRVYTBTaEN6bG1sYjFRUjlleFJ5S0trY1J3V00wZFpVUFpWV1ViQU5RamlTMzR2R09qQ1VIaGR5bC1RNTBOdWxyZERibTVTek0zMGZqNnRJdndzeTRhNEdxMmVudk9CZGppMnFQY0Y1T3g3NE1zOGVHWDRreDZQZkZxSGl4STNzTHdCM1Q3Q3lZUUY5Mzc1UFFiZ1liZVVXNDBHamh0UXdU?oc=5",
+     "source": "www.tmgm.com",
+     "cat": "finance",
+     "published": "2026-11-20T23:55:35.000Z"
+    },
+    "f592a0c493ff": {
+     "id": "f592a0c493ff",
+     "title": "Former Nvidia CEO Jensen Huang agrees to appear at public Senate hearing, says senator’s aide",
+     "zh": "前英伟达总裁黄仁勋同意出席美国参议院公开听证会",
+     "short": "黄仁勋将出席美听证会",
+     "url": "https://www.zaobao.com.sg/en/news/world/former-nvidia-ceo-jensen-huang-agrees-appear-public-senate-hearing-says-senators-aide",
+     "source": "联合早报",
+     "cat": "tech",
+     "published": "2026-11-21T00:50:34.000Z",
+     "sum": "前英伟达总裁黄仁勋已同意出席美国参议院的公开听证会。此消息由参议员助手证实，引发外界对相关监管动向的关注。听证会预计将聚焦科技巨头的影响力及相关政策问题。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/39c7233b57880fed0c3916376202dcd9cbde8b8d08ea8e8f93e872d7236e5bb7",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "41857d96f900": {
+     "id": "41857d96f900",
+     "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+     "zh": "特朗普为普京关系辩护，警告人工智能数据中心必须留在美国",
+     "short": "特朗普谈美俄及AI数据中心",
+     "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T21:05:07.000Z",
+     "sum": "美国总统特朗普在记者会上为其与普京的关系进行了辩护，并再次强调人工智能数据中心必须留在美国本土。他还谈及伊朗局势，并对近期的中国之行给予积极评价。相关言论引发国际社会对美俄关系及科技政策的关注。"
     }
    },
    "name": "全球AI泡沫与股市抛售",
-   "en": "global stock market crash AI selloff",
-   "wiki": "Stock market crash",
+   "en": "AI bubble stock market selloff Anthropic IPO",
+   "wiki": "Artificial_intelligence_boom",
    "cat": "finance",
-   "last": "2026-11-21T03:41:42.627Z",
+   "last": "2026-11-21T03:51:30.996Z",
    "hidden": false,
    "short": "全球AI泡沫与股市抛售",
    "key": "人工智能板块遭抛售，全球股市遭遇重挫",
-   "overview": "由于人工智能板块遭遇抛售潮、美联储鹰派预期升温，加之Anthropic首次公开招股未能扭转市场情绪，全球股市迎来暴跌。同时，英伟达面临美国监管调查及收紧的对华出口限制。",
+   "overview": "受人工智能板块抛售潮、美联储鹰派预期及地缘政治紧张局势影响，全球股市蒸发数万亿美元市值；Anthropic上市未能平息高估值担忧，同时英伟达面临美国监管调查及出口限制。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "美股抛售潮中提到Anthropic首次公开招股未能阻止市场下挫"
+     "t": "人工智能板块遭抛售拖累全球股市，Anthropic首次公开募股未能阻止这一趋势。"
     },
     {
      "from": "3700168d-2",
      "to": "3700168d-1",
-     "t": "Anthropic上市后股价回落加剧了全球科技股的广泛抛售"
+     "t": "Anthropic上市后股价回落，未能平息市场对人工智能行业增长和估值的担忧。"
+    },
+    {
+     "from": "3700168d-3",
+     "to": "3700168d-1",
+     "t": "英伟达遭遇调查与股价大跌，进一步冲击了高估值科技股的整体市场情绪。"
     }
    ],
    "img": {
@@ -874,15 +1877,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 22,
-    "stories": 36,
+    "sources": 23,
+    "stories": 41,
     "gdelt": null,
     "wiki": {
-     "title": "Stock market crash",
-     "views": 1162,
-     "ratio": 3.8
+     "title": "Artificial_intelligence_boom",
+     "views": 2,
+     "ratio": 0.5
     },
-    "at": "2026-11-21T03:43:53.929Z"
+    "at": "2026-11-21T03:58:21.961Z"
    }
   },
   {
@@ -891,7 +1894,7 @@
    "lines": [
     {
      "id": "493f4a17-1",
-     "t": "习特普三边峰会及大国博弈",
+     "t": "三方峰会与大国格局",
      "ids": [
       "cd30e168a012",
       "c8a6f004d720",
@@ -906,7 +1909,162 @@
       "eee3df9e9738",
       "cef4b62147ef",
       "0a224ee81be0"
-     ]
+     ],
+     "w": {
+      "short": "中美俄三方峰会举行",
+      "key": "中美俄领导人举行历史性三方峰会，引发全球关注与分析。",
+      "title": "中美俄领导人深圳举行三方峰会，大国格局与区域局势成焦点",
+      "summary": "中国、美国与俄罗斯领导人在亚太经合组织峰会期间举行了历史性的三方峰会，引发国际社会对大国格局及全球外交走向的广泛讨论。与此同时，各国领导人也在多边与双边场合展开密集会晤，推动经贸及地缘战略合作。然而，分析指出多项实质性协议与缓和关系仍面临诸多现实考验。",
+      "common": [
+       {
+        "t": "中美俄领导人举行了历史性的三方峰会",
+        "src": [
+         "CNA Asia",
+         "BBC 中文"
+        ]
+       },
+       {
+        "t": "峰会讨论了乌克兰、中东等广泛地缘政治议题",
+        "src": [
+         "CNA Asia",
+         "BBC 中文"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "中国国家主席习近平在深圳机场亲自迎接美国总统特朗普",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "中国称日本必须在台湾及历史问题上改变态度，此前习近平冷落了日本首相高市早苗",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "CNA Asia"
+        ],
+        "t": "此次三方峰会为中国带来了外交声誉，展现了其凝聚大国的能力，同时也让美国总统特朗普向国内受众展现了强大的全球领袖形象。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC 中文"
+        ],
+        "t": "此次三方峰会的象征意义大于实际政策突破，三方在核心地缘政治议题上仍存在分歧。"
+       }
+      ],
+      "unknown": "三方峰会后续是否会建立常规化的定期会晤机制尚不明确。",
+      "impact": {
+       "my": "马来西亚首相安华与中国国家主席习近平会谈，巩固了两国多领域合作关系。",
+       "sea": "美国商务部收紧对东南亚第三方数据中心获取美制人工智能芯片的出口管制，引发关注。",
+       "world": "中美俄三方领导人的互动与大国博弈牵动全球市场神经，并对区域安全同盟产生影响。"
+      },
+      "people": [
+       "Xi Jinping",
+       "Donald Trump"
+      ],
+      "photo": "diplomatic summit meeting",
+      "per": [
+       {
+        "id": "cd30e168a012",
+        "t": "历史性习特普三边峰会对全球外交的信号",
+        "says": "中美俄领导人举行三方峰会，达成关于核风险及能源合作的联合声明，但缺乏具体落实机制。",
+        "same": [
+         "三方峰会",
+         "地缘政治议题"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c8a6f004d720",
+        "t": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
+        "says": "中美领导人善意面临AI芯片限制及关税协议等新考验，双边关系走向牵动全球市场。",
+        "same": [
+         "美中缓和"
+        ],
+        "view": null
+       },
+       {
+        "id": "0ec39da12e53",
+        "t": "黄循财会见李强，双边将达成逾20项协议",
+        "says": "新加坡总理黄循财与中国领导人会晤，推进多领域合作并强调多边主义。",
+        "same": [
+         "双边合作"
+        ],
+        "view": null
+       },
+       {
+        "id": "09df6df0da50",
+        "t": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
+        "says": "美中俄峰会可能带来全球格局转变，中小国家或加速建立安全同盟。",
+        "same": [
+         "三方峰会"
+        ],
+        "view": null
+       },
+       {
+        "id": "01a3193d29ee",
+        "t": "中国称日本必须改变态度，此前习近平冷落高市",
+        "says": "中国要求日本纠正涉台错误言论，习近平在会上冷落日本首相高市早苗。",
+        "same": [
+         "习近平"
+        ],
+        "view": null
+       },
+       {
+        "id": "1c361a8b39a7",
+        "t": "印尼普拉博沃与中国习近平讨论未来南海合作",
+        "says": "印尼总统普拉博沃与习近平会晤，讨论南海合作及经贸伙伴关系。",
+        "same": [
+         "习近平"
+        ],
+        "view": null
+       },
+       {
+        "id": "dcb0cd1db1e0",
+        "t": "安华与中国国家主席习近平讨论多领域合作",
+        "says": "马中领导人会谈，巩固双边多领域合作。",
+        "same": [
+         "习近平"
+        ],
+        "view": null
+       },
+       {
+        "id": "03aaf90f76e4",
+        "t": "中俄美三方峰会“场面大于实质成果”",
+        "says": "三方峰会象征意义大于实际突破，核心分歧仍然存在。",
+        "same": [
+         "三方峰会",
+         "地缘政治"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "b1f9e7ae",
+     "at": "2026-11-21T03:55:03.137Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Xi_Jinping_on_August_18%2C_2026_%28cropped%29.jpg/960px-Xi_Jinping_on_August_18%2C_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Presidencia de la República del Ecuador · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Xi Jinping"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Daniel Torok · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Donald Trump"
+       }
+      ]
+     }
     }
    ],
    "minor": [],
@@ -929,7 +2087,12 @@
      "source": "CNA Asia",
      "cat": "china",
      "published": "2026-11-20T05:32:00.000Z",
-     "sum": "在APEC峰会期间实现短暂缓和后，中美两国领导人展现出的善意正面临后续一系列双边与经贸问题的全新考验。两国关系的走向牵动全球市场神经。"
+     "sum": "在APEC峰会期间实现短暂缓和后，中美两国领导人展现出的善意正面临后续一系列双边与经贸问题的全新考验。两国关系的走向牵动全球市场神经。",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--kbKPNcoZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/18/img_1745.jpg?itok=romWTHDE",
+      "credit": "CNA Asia",
+      "kind": "A"
+     }
     },
     "0ec39da12e53": {
      "id": "0ec39da12e53",
@@ -940,7 +2103,12 @@
      "source": "The Straits Times",
      "cat": "sea",
      "published": "2026-11-21T03:31:14.000Z",
-     "sum": "新加坡总理黄循财会见了中国国务院总理李强。双方预计在双边合作联合委员会上总结并落实超过20项合作协议与倡议。李强重申了中国对多边主义和自由贸易的坚定承诺。"
+     "sum": "新加坡总理黄循财会见了中国国务院总理李强。双方预计在双边合作联合委员会上总结并落实超过20项合作协议与倡议。李强重申了中国对多边主义和自由贸易的坚定承诺。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/15320117467b9b83f5d6a261bd3adb911dd8deec05cad19d1fe7cf4dc367d6c6?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
     },
     "09df6df0da50": {
      "id": "09df6df0da50",
@@ -1043,14 +2211,14 @@
     }
    },
    "name": "中美欧领导人外交与峰会",
-   "en": "US China Russia summit diplomacy",
-   "wiki": null,
+   "en": "US China Europe summit diplomacy",
+   "wiki": "APEC_Malaysia",
    "cat": "world",
    "last": "2026-11-21T03:41:42.627Z",
    "hidden": false,
-   "short": "中美欧领导人外交峰会",
-   "key": "大国领导人密集会晤引发全球关注",
-   "overview": "中美欧领导人近期展开密集外交与峰会，各方就全球经济、地缘政治及气候变化等核心议题展开深入磋商，备受国际社会瞩目。",
+   "short": "中美欧峰会与大国格局",
+   "key": "中美俄峰会举行，大国外交密集博弈",
+   "overview": "中美俄领导人在亚太经合组织峰会期间举行历史性三方峰会并达成部分联合声明，同时各方展开密集双边会晤，推动经贸及地缘战略合作，但实质性突破仍面临考验。",
    "minorText": [],
    "links": [],
    "img": {
@@ -1064,710 +2232,9 @@
     "stories": 13,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-21T03:44:10.036Z"
-   }
-  },
-  {
-   "id": "f4bb4b75",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "f4bb4b75-1",
-     "t": "俄罗斯持续空袭基辅及周边",
-     "ids": [
-      "f5aa2c1600b1",
-      "6fca891ece5d",
-      "968b51712184",
-      "b4d8b1b930db",
-      "dfff6b708f3a",
-      "1425c009d761"
-     ]
-    },
-    {
-     "id": "f4bb4b75-2",
-     "t": "美俄乌安全保障与和平谈判分歧",
-     "ids": [
-      "acc8f3177f53",
-      "b38e5a17b7df",
-      "3a083cc0df3b",
-      "5142390aaa16",
-      "8bd76ee26afb",
-      "7018d0e3b351",
-      "b2c8270dd931"
-     ],
-     "w": {
-      "short": "美俄乌和平谈判与安全保障存分歧",
-      "key": "美俄乌就战后乌克兰的安全保障与和平谈判条件存在重大分歧。",
-      "title": "美俄乌安全保障与和平谈判分歧引发关注",
-      "summary": "美国与俄罗斯领导人在中国会晤后，美方特使称俄罗斯对北约式安全保障持开放态度，但遭到俄罗斯副外长明确拒绝。与此同时，法国呼吁重新考虑乌克兰加入北约，而乌克兰总统泽连斯基则对美俄走近表达了强烈不满。",
-      "common": [
-       {
-        "t": "美国与俄罗斯领导人进行了会晤",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "美方特使称俄罗斯对乌安全保障持开放态度",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "俄罗斯副外长拒绝了北约式准成员国地位",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "法国总统呼吁重新考虑乌克兰加入北约",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "乌克兰总统泽连斯基公开称普京为杀手，并拒绝特朗普将普京视为朋友的说法。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Al Jazeera"
-        ],
-        "t": "美方特使认为俄罗斯对战后乌克兰的北约式安全保障感到适应和开放。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "俄罗斯副外长明确表示莫斯科绝对不会接受乌克兰加入北约或任何形式的准成员国地位。"
-       }
-      ],
-      "unknown": "目前尚不清楚美俄在闭门会晤中达成的具体妥协细节以及欧洲特使未来访问莫斯科的最终成效。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "美俄乌的安全保障与和平谈判分歧直接牵动全球地缘政治格局与大国关系。"
-      },
-      "people": [
-       "Donald Trump",
-       "Vladimir Putin"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "acc8f3177f53",
-        "t": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-        "says": "伊朗希望通过外交结束与美国的战争并寻求保证，但特朗普称其条件不可接受。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "b38e5a17b7df",
-        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-        "says": "美俄领导人会晤并互称朋友，泽连斯基则公开反驳称普京为敌人和杀手。",
-        "same": [
-         "美俄领导人会晤"
-        ],
-        "view": null
-       },
-       {
-        "id": "3a083cc0df3b",
-        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-        "says": "美方特使库什纳称俄罗斯对战后乌克兰的北约式安全保障持开放态度。",
-        "same": [
-         "北约式安全保障",
-         "俄罗斯对乌安全保障"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "5142390aaa16",
-        "t": "巴基斯坦部长自2025年战争以来首次访问印度",
-        "says": "巴基斯坦部长出席上合组织论坛，成为两国冲突后首位访印的联邦部长。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "8bd76ee26afb",
-        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-        "says": "俄罗斯副外长明确拒绝了类似北约的乌克兰安全保障提议。",
-        "same": [
-         "北约式安全保障",
-         "俄罗斯拒绝准成员国"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "7018d0e3b351",
-        "t": "乌克兰三方峰会难为和平带来希望",
-        "says": "",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "b2c8270dd931",
-        "t": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-        "says": "",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "52f8e645",
-     "at": "2026-11-21T03:42:44.533Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "f5aa2c1600b1": {
-     "id": "f5aa2c1600b1",
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-     "short": "俄空袭基辅",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T13:01:16.000Z",
-     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。"
-    },
-    "6fca891ece5d": {
-     "id": "6fca891ece5d",
-     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-     "short": "俄导弹落入波兰",
-     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T12:56:48.000Z",
-     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
-    },
-    "968b51712184": {
-     "id": "968b51712184",
-     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
-     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-     "short": "俄空袭基辅击中欧洲使馆",
-     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-20T12:04:16.000Z",
-     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
-    },
-    "b4d8b1b930db": {
-     "id": "b4d8b1b930db",
-     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:54:00.000Z",
-     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
-    },
-    "dfff6b708f3a": {
-     "id": "dfff6b708f3a",
-     "title": "Russia’s day-long attack on Kyiv damages embassies",
-     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T08:56:08.000Z",
-     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
-    },
-    "1425c009d761": {
-     "id": "1425c009d761",
-     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
-     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
-     "short": "波兰谴责俄侵犯领空",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T11:45:35.000Z"
-    },
-    "acc8f3177f53": {
-     "id": "acc8f3177f53",
-     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
-     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-     "short": "美伊外交谈判遇阻",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T01:21:44.000Z",
-     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。"
-    },
-    "b38e5a17b7df": {
-     "id": "b38e5a17b7df",
-     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
-     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-     "short": "泽连斯基斥普京为杀手",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T23:25:36.000Z",
-     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
-    },
-    "3a083cc0df3b": {
-     "id": "3a083cc0df3b",
-     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:01:51.000Z",
-     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
-    },
-    "5142390aaa16": {
-     "id": "5142390aaa16",
-     "title": "Pakistan minister visits India for first time since 2025 war",
-     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
-     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:11:57.000Z",
-     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
-    },
-    "8bd76ee26afb": {
-     "id": "8bd76ee26afb",
-     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
-     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T09:08:29.000Z",
-     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
-    },
-    "7018d0e3b351": {
-     "id": "7018d0e3b351",
-     "title": "3-way summit offers little hope for peace in Ukraine",
-     "zh": "乌克兰三方峰会难为和平带来希望",
-     "short": "乌克兰三方峰会难寻和平",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:58:52.000Z"
-    },
-    "b2c8270dd931": {
-     "id": "b2c8270dd931",
-     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
-     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-     "short": "德政要称雅尔塔模式无用",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:47:21.000Z"
-    }
-   },
-   "name": "乌克兰战争与安全局势",
-   "en": "Ukraine war Russia security guarantees",
-   "wiki": "Russian invasion of Ukraine",
-   "cat": "world",
-   "last": "2026-11-21T03:41:42.627Z",
-   "hidden": false,
-   "short": "美俄乌安全与和平博弈",
-   "key": "美俄谈判分歧大，泽连斯基表达强烈不满",
-   "overview": "美俄领导人会晤引发关注，美方特使称俄对安全保障持开放态度但遭俄方拒绝，法国呼吁重考乌加入北约，泽连斯基强烈不满美俄走近并称普京为敌人。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-    "credit": "Al Jazeera",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 2,
-    "sources": 5,
-    "stories": 13,
-    "gdelt": {
-     "ratio": 0.8,
-     "share": 0.2563
-    },
-    "wiki": {
-     "title": "Russian invasion of Ukraine",
-     "views": 973,
-     "ratio": 1
-    },
-    "at": "2026-11-21T03:44:29.754Z"
-   }
-  },
-  {
-   "id": "5a1cdc28",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "5a1cdc28-1",
-     "t": "国际法院裁定缅甸罗兴亚人遭灭绝",
-     "ids": [
-      "978f89b95795",
-      "75c4f6000f48",
-      "afbc4c41b87d",
-      "d3549ebb0236",
-      "408065c2f975",
-      "7745a81f8be2",
-      "c45b740ac23d",
-      "6b17d8cfc59e"
-     ],
-     "w": {
-      "short": "国际法院裁定缅甸灭绝罗兴亚人",
-      "key": "国际法院历史性裁定缅甸对罗兴亚人犯下种族灭绝罪，引发各方关注与审视。",
-      "title": "国际法院裁定缅甸罗兴亚人遭灭绝，成首个被追责国家",
-      "summary": "联合国国际法院在一项具有里程碑意义的裁决中，认定缅甸在2017年的军事镇压中对罗兴亚人犯下种族灭绝罪，这是该法院80年来首次裁定国家犯下此罪。法院下令缅甸停止暴力、赔偿受害者并允许难民安全回国。缅甸官方批评裁决不公，中国则对司法过度干预表示担忧，而此案也被视为对全球其他种族灭绝指控的重要先例。",
-      "common": [
-       {
-        "t": "国际法院裁定缅甸犯灭绝罪",
-        "src": [
-         "France 24",
-         "CNA Asia"
-        ]
-       },
-       {
-        "t": "案件源于2017年军事镇压",
-        "src": [
-         "France 24",
-         "CNA Asia"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "马来西亚面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。",
-        "src": "France 24"
-       },
-       {
-        "t": "中国指出国际法院存在司法过度干预和扩大解释的问题，认为不利于争端解决。",
-        "src": "d3549ebb0236"
-       },
-       {
-        "t": "英国要求紧急召开安理会会议并驱逐缅甸驻伦敦国防武官。",
-        "src": "408065c2f975"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "afbc4c41b87d",
-         "c45b740ac23d",
-         "6b17d8cfc59e"
-        ],
-        "t": "缅甸官方认为国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "d3549ebb0236"
-        ],
-        "t": "中国认为国际法院存在司法过度干预和扩大解释，相关做法不利于争端解决。"
-       }
-      ],
-      "unknown": "由于国际法院缺乏执法机制，缅甸是否会遵守命令以及难民能否顺利回国目前仍是未知数。",
-      "impact": {
-       "my": "长期收容难民的马来西亚，其庇护政策正面对本土社会压力与历史性抉择的考验。",
-       "sea": "裁决对缅甸政权带来更多国际外交压力，并牵动区域难民安置与地缘政治局势。",
-       "world": "创下国际法院首次追责国家灭绝罪的先例，并对加沙等其他国际种族灭绝指控的举证标准产生深远影响。"
-      },
-      "people": [
-       "Yuji Iwasawa",
-       "Min Aung Hlaing"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "978f89b95795",
-        "t": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
-        "says": "国际法院裁定缅甸犯下灭绝罪，大马庇护政策面临严峻考验。",
-        "same": [
-         "国际法院裁定缅甸"
-        ],
-        "view": null
-       },
-       {
-        "id": "75c4f6000f48",
-        "t": "联合国针对缅甸作出具里程碑意义裁决",
-        "says": "国际法院以九比六裁定缅甸犯下灭绝罪，下令赔偿并提交报告。",
-        "same": [
-         "国际法院裁定缅甸",
-         "下令赔偿"
-        ],
-        "view": null
-       },
-       {
-        "id": "afbc4c41b87d",
-        "t": "缅甸称国际法院的种族灭绝裁决“不公平”",
-        "says": "缅甸批评裁决不公并否认指控，面对缺乏执法机制的现状，缅甸是否遵守仍是未知数。",
-        "same": [
-         "缅甸称裁决不公"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "d3549ebb0236",
-        "t": "中国称缅甸种族灭绝裁决“不利于”解决争端",
-        "says": "中国对国际法院的司法过度干预表示担忧，认为不利于解决争端。",
-        "same": [
-         "国际法院裁定缅甸"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "408065c2f975",
-        "t": "缅甸种族灭绝裁决影响深远的历史意义",
-        "says": "国际法院历史性裁定缅甸犯灭绝罪，对全球其他相关案件产生深远影响。",
-        "same": [
-         "国际法院裁定缅甸"
-        ],
-        "view": null
-       },
-       {
-        "id": "7745a81f8be2",
-        "t": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
-        "says": "探讨罗兴亚裁决对加沙案件的影响。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "c45b740ac23d",
-        "t": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
-        "says": "缅甸官方指裁决不公平。",
-        "same": [
-         "缅甸称裁决不公"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6b17d8cfc59e",
-        "t": "缅甸发言人称国际法院的种族灭绝裁决不公",
-        "says": "缅甸发言人指裁决不公平。",
-        "same": [
-         "缅甸称裁决不公"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "607bd6b5",
-     "at": "2026-11-21T03:42:31.631Z",
-     "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
-      "credit": "CNA Asia",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "5a1cdc28-2",
-     "t": "马来西亚宣布安置1万名罗兴亚难民",
-     "ids": [
-      "391dc893b136",
-      "bbc90da3ec13",
-      "8539895b5c90",
-      "e6579b6ff7f7"
-     ]
-    },
-    {
-     "id": "5a1cdc28-3",
-     "t": "难民对裁决的反应与返乡愿望",
-     "ids": [
-      "9823b865d2e8",
-      "3bcfa52a6aed",
-      "16b950be37c5"
-     ]
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "978f89b95795": {
-     "id": "978f89b95795",
-     "title": "Malaysia's unwanted refugees: The plight of the Rohingya",
-     "zh": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
-     "short": "国际法院裁定缅甸灭绝罪",
-     "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya",
-     "source": "France 24",
-     "cat": "sea",
-     "published": "2026-11-20T11:28:30.000Z",
-     "sum": "国际法院裁定缅甸在2017年对罗兴亚人犯下灭绝罪。长期收容难民的马来西亚，面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。"
-    },
-    "75c4f6000f48": {
-     "id": "75c4f6000f48",
-     "title": "CNA Explains: Can a country be held accountable for genocide?",
-     "zh": "联合国针对缅甸作出具里程碑意义裁决",
-     "url": "https://www.channelnewsasia.com/asia/icj-un-court-ruling-genocide-myanmar-rohingya-atrocities-explainer-6568961",
-     "source": "CNA Asia",
-     "cat": "world",
-     "published": "2026-11-20T10:45:30.000Z",
-     "sum": "联合国本周对缅甸作出历史性裁决，引发关于国家如何承担灭绝种族罪责任的讨论。然而，判决的执行以及受害者能否获得正义仍面临诸多疑问。"
-    },
-    "afbc4c41b87d": {
-     "id": "afbc4c41b87d",
-     "title": "Myanmar says international court's genocide ruling 'not fair'",
-     "zh": "缅甸称国际法院的种族灭绝裁决“不公平”",
-     "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946",
-     "source": "CNA Asia",
-     "cat": "sea",
-     "published": "2026-11-20T09:36:33.000Z",
-     "sum": "缅甸官方公开批评国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。缅甸一贯否认相关指控。"
-    },
-    "d3549ebb0236": {
-     "id": "d3549ebb0236",
-     "title": "China says Myanmar genocide ruling ‘not conducive’ to solving disputes",
-     "zh": "中国称缅甸种族灭绝裁决“不利于”解决争端",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-myanmar-genocide-ruling-not-conducive-to-solving-disputes",
-     "source": "Free Malaysia Today",
-     "cat": "china",
-     "published": "2026-11-20T09:10:11.000Z",
-     "sum": "中国外交部表示，对国际法院的管辖权过度延伸和扩大解释感到关切，认为此类做法不利于争端的解决。中方就缅甸相关涉外司法裁决表明了立场。"
-    },
-    "408065c2f975": {
-     "id": "408065c2f975",
-     "title": "緬甸種族滅絕裁決影響深遠的歷史意義",
-     "zh": "缅甸种族灭绝裁决影响深远的历史意义",
-     "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC 中文",
-     "cat": "sea",
-     "published": "2026-11-20T08:53:00.000Z",
-     "sum": "国际法院对缅甸的种族灭绝裁决具有深远的历史意义。法律界正研究冈比亚如何证明缅甸具有实施种族灭绝的意图。"
-    },
-    "7745a81f8be2": {
-     "id": "7745a81f8be2",
-     "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
-     "zh": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
-     "short": "国际法院裁决意义",
-     "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T12:20:29.000Z"
-    },
-    "c45b740ac23d": {
-     "id": "c45b740ac23d",
-     "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
-     "zh": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
-     "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
-     "source": "Malaysiakini",
-     "cat": "world",
-     "published": "2026-11-20T11:02:46.000Z"
-    },
-    "6b17d8cfc59e": {
-     "id": "6b17d8cfc59e",
-     "title": "International court’s genocide ruling ‘not fair’, says Myanmar spokeswoman",
-     "zh": "缅甸发言人称国际法院的种族灭绝裁决不公",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/international-court-s-genocide-ruling-not-fair-says-myanmar-spokeswoman",
-     "source": "Free Malaysia Today",
-     "cat": "sea",
-     "published": "2026-11-20T08:47:00.000Z"
-    },
-    "391dc893b136": {
-     "id": "391dc893b136",
-     "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
-     "zh": "大马计划将1万名罗兴亚难民安置在土耳其",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeG5MbTZoN1FoMXEteXA0UE9mM0huZ3VudkhPa2F5b09TMXBJNlZkVGhwRXUxemJIUjlCalVQOTdReDNaakpRTC1xcDdNZXZyMVlyYi1KN3c0eWk2ZHNLN0wyMUp2TlBndGhwWnZPSWVsa2czMFV3SW5Gc08zZ1hxS2JPeWpBUmpxZTEzVUxZc1NRcVRrWm5J?oc=5",
-     "source": "联合早报",
-     "cat": "sea",
-     "published": "2026-11-20T09:02:34.000Z",
-     "sum": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。内阁已对此予以批准，此前副首相阿末扎希曾对该国进行工作访问。"
-    },
-    "bbc90da3ec13": {
-     "id": "bbc90da3ec13",
-     "title": "Cabinet nod to resettle 10,000 Rohingya refugees in Turkey",
-     "zh": "内阁同意将1万名罗兴亚难民安置在土耳其",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/cabinet-nod-to-resettle-10-000-rohingya-refugees-in-turkey",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-20T08:29:00.000Z",
-     "sum": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。"
-    },
-    "8539895b5c90": {
-     "id": "8539895b5c90",
-     "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
-     "zh": "扎希德：1万名罗兴亚难民将安置到土耳其",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-20T08:20:00.000Z",
-     "sum": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。"
-    },
-    "e6579b6ff7f7": {
-     "id": "e6579b6ff7f7",
-     "title": "Home Ministry: Refugee card holders barred from entering Sabah, Sarawak and Labuan",
-     "zh": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
-     "url": "https://www.malaysiakini.com/news/889501-home-ministry-refugee-card-holders-barred-from-entering-sabah-sarawak-and-labuan",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-20T04:45:41.000Z",
-     "sum": "大马内政部宣布，持联合国难民署证件的人士一律被禁止入境沙巴、砂拉越及纳闽。此举旨在加强东马两州的边境管控与移民安全。"
-    },
-    "9823b865d2e8": {
-     "id": "9823b865d2e8",
-     "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
-     "zh": "孟加拉罗兴亚人欢迎联合国法院裁决，但仍希望重返缅甸",
-     "short": "罗兴亚人望重返缅甸",
-     "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-21T01:14:00.000Z"
-    },
-    "3bcfa52a6aed": {
-     "id": "3bcfa52a6aed",
-     "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
-     "zh": "喜极而泣祈祷回家：罗兴亚人对灭绝裁决的反应",
-     "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "sea",
-     "published": "2026-11-20T05:36:21.000Z",
-     "sum": "For refugees, the ICJ ruling that Myanmar committed genocide is a vindication. But will they be able to return home?"
-    },
-    "16b950be37c5": {
-     "id": "16b950be37c5",
-     "title": "UN General Assembly chief tells Myanmar to ‘bring Rohingya home’",
-     "zh": "联合国大会主席敦促缅甸将罗兴亚人接回家园",
-     "url": "https://www.channelnewsasia.com/asia/myanmar-rohingya-genocide-un-icj-6568711",
-     "source": "CNA Asia",
-     "cat": "world",
-     "published": "2026-11-20T07:32:00.000Z",
-     "sum": "\"A judgment on paper is not justice in life - now it must be given effect,\" said Khalilur Rahman, head of the United Nations General Assembly."
-    }
-   },
-   "name": "国际法院罗兴亚人裁决",
-   "en": "ICJ Rohingya genocide ruling",
-   "wiki": "Rohingya genocide case",
-   "cat": "sea",
-   "last": "2026-11-21T03:41:42.627Z",
-   "hidden": false,
-   "short": "国际法院裁定缅甸灭绝罗兴亚人",
-   "key": "国际法院80年来首裁国家灭绝罪",
-   "overview": "联合国国际法院历史性裁定缅甸对罗兴亚人犯下种族灭绝罪，下令停止暴力并赔偿，引发国际社会广泛关注与缅甸官方的反对。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/960px-International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "International Court of Justice; original · Wikimedia Commons · Public domain",
-    "kind": "B"
-   },
-   "heat": {
-    "score": 4,
-    "sources": 8,
-    "stories": 15,
-    "gdelt": null,
-    "wiki": {
-     "title": "Rohingya genocide case",
-     "views": 3572,
-     "ratio": 4.3
-    },
-    "at": "2026-11-21T03:44:47.076Z"
+    "at": "2026-11-21T03:58:54.435Z"
    }
   }
  ],
- "updated": "2026-11-21T03:44:47.077Z"
+ "updated": "2026-11-21T04:00:49.977Z"
 }
