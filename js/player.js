@@ -7,6 +7,7 @@
 'use strict';
 
 let clipIdx = { clips: {} };
+const SPECIAL = { intro: () => '乐乐新闻', brief: () => '今日重点', date: () => clipIdx.clips.date?.title || '今天', outro: () => '接下来：未读新闻', gold: () => '金价' };
 const AU = new Audio();
 AU.preload = 'auto';
 let sess = null;           // { chapters:[{key,title,start,end,kind}], url, label, cont }
@@ -56,7 +57,9 @@ async function playKeys(keys, { label = '我选的', cont = true, digestMode = f
   try { AU.src = SILENT; AU.play().catch(() => {}); } catch {}
   stopSpeaking();
   const parts = [];
-  if (hasClip('intro')) parts.push('intro');
+  // opening: today's date + main news (for today's list) or just the date (for your own picks)
+  const opener = digestMode && hasClip('brief') ? 'brief' : hasClip('date') ? 'date' : hasClip('intro') ? 'intro' : null;
+  if (opener) parts.push(opener);
   parts.push(...ok);
   if (digestMode && hasClip('gold')) parts.push('gold');
   let more = [];
@@ -69,7 +72,7 @@ async function playKeys(keys, { label = '我选的', cont = true, digestMode = f
   try {
     const bufs = await Promise.all(parts.map((k) => fetch(`audio/${clipOf(k).f}`).then((r) => { if (!r.ok) throw new Error(r.status); return r.arrayBuffer(); })));
     let t = 0;
-    const chapters = parts.map((k) => { const d = clipOf(k).d || 0; const c = { key: k, title: k === 'intro' ? '乐乐新闻' : k === 'outro' ? '接下来：未读新闻' : k === 'gold' ? '金价' : titleOf(k), start: t, end: t + d, extra: more.includes(k) }; t += d; return c; });
+    const chapters = parts.map((k) => { const d = clipOf(k).d || 0; const c = { key: k, title: SPECIAL[k] ? SPECIAL[k]() : titleOf(k), start: t, end: t + d, extra: more.includes(k) }; t += d; return c; });
     if (sess?.url) URL.revokeObjectURL(sess.url);
     const url = URL.createObjectURL(new Blob(bufs, { type: 'audio/mpeg' }));
     sess = { chapters, url, label, cont, at: 0 };
@@ -211,7 +214,7 @@ const clipBadge = (k) => (hasClip(k) ? '<span class="bd g mini">🎧✓</span>' 
 let plTab = 'mine';
 function openPlaylist() {
   const m = $('#modal');
-  const lists = { mine: sess ? sess.chapters.filter((c) => !['intro', 'outro', 'gold'].includes(c.key)).map((c) => c.key) : picked, today: digestKeys().filter(hasClip), later: Object.keys(later()).filter(hasClip) };
+  const lists = { mine: sess ? sess.chapters.filter((c) => !SPECIAL[c.key]).map((c) => c.key) : picked, today: digestKeys().filter(hasClip), later: Object.keys(later()).filter(hasClip) };
   const cur = sess ? sess.chapters[curChapter()]?.key : null;
   const list = lists[plTab];
   m.innerHTML = `<div class="modal sheet" role="dialog" aria-modal="true">
@@ -265,12 +268,17 @@ function closeDrive(fromBack = false) {
 let driveSig = '';
 function renderDrive(full = true) {
   const el = $('#drive');
+  if (!sess && drivePicking) { renderDrivePick(); driveSig = ''; return; }
   if (!sess) {
+    const all = driveItems();
     el.innerHTML = `<div class="drive"><div class="dv-top"><b>🚗 驾驶模式</b><button class="dv-exit" data-action="close-drive">退出</button></div>
       <div class="dv-mid"><div class="dv-title" style="font-size:1.7rem">今天的新闻，一则接一则</div>
-      <div class="dv-sub">共 ${digestKeys().filter(hasClip).length} 则有录音 · 关屏也会继续</div></div>
-      <div class="dv-ctrl"><button class="dv-main big" data-action="drive-start" aria-label="开始播放">▶</button></div>
-      <div class="dv-note">按一下「▶」开始。之后不用再按，播完会继续播未读新闻。</div></div>`;
+      <div class="dv-sub">共 ${all.length} 则有录音 · 约 ${minsOf(all.flatMap((i) => i.keys))} 分钟 · 关屏也会继续</div></div>
+      <div class="dv-start">
+        <button class="dv-big solid" data-action="drive-start">▶ 播今天全部</button>
+        <button class="dv-big line" data-action="drive-pick">☑ 自己选</button>
+      </div>
+      <div class="dv-note">按一下就开始，之后不用再按。播完会继续播未读新闻。</div></div>`;
     driveSig = ''; return;
   }
   const i = curChapter(); const c = sess.chapters[i]; const nx = sess.chapters[i + 1];
@@ -292,6 +300,56 @@ function renderDrive(full = true) {
       <button class="dv-side" data-action="au-next" aria-label="下一则">⏭</button></div>
     ${nx ? `<div class="dv-next"><span>下一则</span><b>${esc(nx.title)}</b></div>` : ''}
     <div class="dv-note">屏幕可以关掉，会继续播放<br>方向盘 / 车上音响的 ⏭ 也能换下一则</div></div>`;
+}
+
+// ---------- 驾驶模式: choose your own (big list, with 10 / 20 / 30 分钟 quick picks) ----------
+let drivePicking = false, drivePicked = new Set();
+function driveItems() {
+  const items = [];
+  for (const ev of activeEvents().slice(0, 3)) { const keys = eventKeys(ev).filter(hasClip); if (keys.length) items.push({ id: 'ev:' + ev.id, keys, title: '大事件：' + ev.name, tag: '📌 大事件' }); }
+  const seen = new Set(items.flatMap((i) => i.keys));
+  const add = (x, tag) => { if (x && hasClip(x.id) && !seen.has(x.id)) { seen.add(x.id); items.push({ id: x.id, keys: [x.id], title: shortT(x), tag, read: readSet().has(x.id) }); } };
+  const d = digest();
+  d.top.forEach((x, i) => add(x, `${i + 1} · ${CATS[x.cat] || ''}`));
+  d.rec.forEach((r) => add(r.x, '为你推荐'));
+  Object.keys(clipIdx.clips || {}).map((k) => byId.get(k)).filter(Boolean)
+    .sort((a, b) => (b.score ?? 3) - (a.score ?? 3) || b.published.localeCompare(a.published)).slice(0, 20)
+    .forEach((x) => add(x, CATS[x.cat] || '新闻'));
+  return items;
+}
+const itemMins = (it) => it.keys.reduce((s, k) => s + (clipOf(k)?.d || 40), 0) / 60;
+function driveFit(mins) { // most important first, until the time is full
+  drivePicked = new Set(); let t = (clipOf('date')?.d || 3) / 60;
+  for (const it of driveItems()) { if (it.read) continue; const m = itemMins(it); if (t + m <= mins + 0.5) { drivePicked.add(it.id); t += m; } }
+  renderDrivePick();
+}
+function renderDrivePick() {
+  const items = driveItems();
+  const sel = items.filter((i) => drivePicked.has(i.id));
+  const tot = sel.reduce((s, i) => s + itemMins(i), 0);
+  $('#drive').innerHTML = `<div class="drive dv-pick"><div class="dv-top"><b>☑ 自己选</b><button class="dv-exit" data-action="drive-pick-back">返回</button></div>
+    <div class="dv-chips">${[10, 20, 30].map((m) => `<button data-action="drive-fit" data-m="${m}">${m} 分钟</button>`).join('')}<button data-action="drive-clear">清除</button></div>
+    <div class="dv-list">${items.map((it) => `<button class="dv-row ${drivePicked.has(it.id) ? 'on' : ''}" data-action="drive-toggle" data-k="${esc(it.id)}">
+      <span class="dv-check">${drivePicked.has(it.id) ? '✓' : ''}</span>
+      <span class="dv-rt"><span class="dv-tag">${esc(it.tag)}${it.read ? ' · 看过' : ''}</span><b>${esc(it.title)}</b></span>
+      <span class="dv-min">${Math.max(1, Math.round(itemMins(it)))} 分</span></button>`).join('')}</div>
+    <div class="dv-bottom"><div>已选 ${sel.length} 则 · 约 ${Math.round(tot) || 0} 分钟</div>
+      <button class="dv-big solid" data-action="drive-go" ${sel.length ? '' : 'disabled'}>▶ 开始</button></div></div>`;
+}
+function driveAction(a, b) {
+  switch (a) {
+    case 'drive-pick': drivePicking = true; renderDrive(); return true;
+    case 'drive-pick-back': drivePicking = false; renderDrive(); return true;
+    case 'drive-fit': driveFit(Number(b.dataset.m)); return true;
+    case 'drive-clear': drivePicked = new Set(); renderDrivePick(); return true;
+    case 'drive-toggle': { const k = b.dataset.k; drivePicked.has(k) ? drivePicked.delete(k) : drivePicked.add(k); const sc = $('.dv-list')?.scrollTop; renderDrivePick(); if ($('.dv-list')) $('.dv-list').scrollTop = sc; return true; }
+    case 'drive-go': {
+      const keys = driveItems().filter((i) => drivePicked.has(i.id)).flatMap((i) => i.keys);
+      drivePicking = false; track('drive_pick', null, { n: drivePicked.size });
+      playKeys(keys, { label: '我选的' }); return true;
+    }
+  }
+  return false;
 }
 
 // ---------- links that open straight into listening (for phone automations) ----------

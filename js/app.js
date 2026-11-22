@@ -1276,7 +1276,7 @@ function pushState() {
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-action]'); if (!b) return;
   if (b.closest('#onboarding') && b.dataset.action !== 'privacy-more') return; // setup has its own handler
-  if (adminAction(b.dataset.action, b)) return;
+  if (adminAction(b.dataset.action, b) || driveAction(b.dataset.action, b)) return;
   if (pickMode && b.closest('#v-news') && !['pick-cancel', 'pick-all', 'topic', 'topic-all', 'finish'].includes(b.dataset.action)) {
     const card = b.closest('.card');
     if (card?.dataset.id) { togglePick([card.dataset.id]); return; }

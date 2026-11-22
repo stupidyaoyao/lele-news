@@ -66,8 +66,27 @@ def line_text(ev, l):
 
 # ---------- what to record (most important first) ----------
 now = datetime.now(timezone.utc)
+def now_utc_ok(iso, hours=36):
+    return now - datetime.fromisoformat(iso.replace('Z', '+00:00')) <= timedelta(hours=hours)
 want = []  # (key, text, title, priority, google_ok)
-want.append(('intro', '这里是乐乐新闻。下面为你播放新闻。', '乐乐新闻', 100, False))
+WEEK = '一二三四五六日'
+nm = datetime.now(MYT)
+date_line = f"{nm.month}月{nm.day}日，星期{WEEK[nm.weekday()]}。"
+want.append(('date', date_line, f'{nm.month}月{nm.day}日', 100, False))
+# 今日重点: the date + the 3 biggest things right now (re-recorded at most every 3 hours)
+tops = []
+for ev in sorted([e for e in events.get('events', []) if not e.get('hidden') and any(l.get('w') and not l.get('loose') for l in e.get('lines', []))],
+                 key=lambda e: -((e.get('heat') or {}).get('score', 1)))[:2]:
+    if now_utc_ok(ev['last']): tops.append(ev.get('short') or ev['name'])
+for x in sorted([x for x in news.get('items', []) if x.get('ai') and x.get('short') and now_utc_ok(x['published'], 18)],
+                key=lambda x: ((x.get('score') or 3), x['published']), reverse=True):
+    if len(tops) >= 3: break
+    if x['short'] not in tops: tops.append(x['short'])
+brief = date_line + ('今天的重点：' + '；'.join(clean(t) for t in tops) + '。' if tops else '')
+old = clips.get('brief')
+fresh = old and old.get('day') == nm.strftime('%Y-%m-%d') and (datetime.now(timezone.utc) - datetime.fromisoformat(old['at'])) < timedelta(hours=3)
+if fresh: brief = old.get('text', brief)  # keep the same opening for up to 3 hours
+want.append(('brief', brief, '今日重点', 101, not (old and old.get('day') == nm.strftime('%Y-%m-%d'))))  # Google voice for the first one each day
 s = gold.get('spot') or {}
 if s.get('g999'):
     gt = f"最后是金价。九九九黄金每克{round(s['g999'])}令吉"
@@ -80,7 +99,7 @@ for ev in events.get('events', []):
     if now - last > timedelta(hours=36): continue
     lines = [l for l in ev.get('lines', []) if l.get('w') and not l.get('loose')]
     if ev.get('overview') and lines:
-        want.append((f"ev:{ev['id']}", f"乐乐新闻大事件：{ev['name']}。{end(ev['overview'])}", ev['name'], 90 + (ev.get('heat') or {}).get('score', 1), True))
+        want.append((f"ev:{ev['id']}", f"大事件：{ev['name']}。{end(ev['overview'])}", ev['name'], 90 + (ev.get('heat') or {}).get('score', 1), True))
     for l in lines:
         want.append((f"ln:{l['id']}", line_text(ev, l), l['t'], 80 + (ev.get('heat') or {}).get('score', 1), True))
 for x in news.get('items', []):
@@ -166,6 +185,7 @@ for key, text, title, pri, google_ok in want:
         try: os.remove(os.path.join(SITE_AUDIO, c['f']))
         except OSError: pass
     clips[key] = {'f': f, 'd': duration(out), 'v': voice, 't': th, 'title': title, 'at': now.isoformat()}
+    if key == 'brief': clips[key].update(day=datetime.now(MYT).strftime('%Y-%m-%d'), text=text)
 
 # ---------- drop old recordings ----------
 cut = now - timedelta(hours=KEEP_H)

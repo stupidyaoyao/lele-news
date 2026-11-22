@@ -411,3 +411,19 @@ body.picking .view { padding-bottom: calc(env(safe-area-inset-bottom) + 12rem); 
 .link-box span { flex: none; font-weight: 800; } .link-box code { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .72rem; color: var(--muted); }
 .set-group details { margin-top: .6rem; } .set-group summary { cursor: pointer; padding: .3rem 0; }
 .steps-ol { margin: .3rem 0 0; padding-left: 1.3rem; font-size: .88rem; line-height: 1.7; }
+/* 驾驶模式: start buttons + 自己选 list */
+.dv-start { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 1rem; }
+.dv-big { height: 5rem; border-radius: 1.3rem; font-size: 1.5rem; font-weight: 900; border: 0; }
+.dv-big.solid { background: #fb923c; color: #1b1209; } .dv-big.line { background: none; border: 2px solid #fb923c; color: #fb923c; }
+.dv-big:disabled { opacity: .4; }
+.dv-pick { padding-bottom: calc(env(safe-area-inset-bottom) + 1rem); }
+.dv-chips { display: flex; gap: .5rem; margin: 1rem 0 .7rem; }
+.dv-chips button { flex: 1; height: 3.2rem; border-radius: 1rem; border: 1.5px solid #5c6069; background: #1b1c20; color: #f6f5f1; font-size: 1.05rem; font-weight: 800; }
+.dv-list { flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: .55rem; padding-bottom: .5rem; }
+.dv-row { display: flex; align-items: center; gap: .8rem; min-height: 4.6rem; border-radius: 1.1rem; border: 1.5px solid #2c2d33; background: #1b1c20; color: #f6f5f1; padding: .6rem .9rem; text-align: left; }
+.dv-row.on { border-color: #fb923c; background: #2a1a10; }
+.dv-check { width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 2px solid #5c6069; flex: none; display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.2rem; }
+.dv-row.on .dv-check { background: #fb923c; border-color: #fb923c; color: #1b1209; }
+.dv-rt { flex: 1; min-width: 0; display: flex; flex-direction: column; } .dv-rt b { font-size: 1.2rem; line-height: 1.35; } .dv-tag { font-size: .8rem; color: #a0a3aa; }
+.dv-min { flex: none; color: #a0a3aa; font-weight: 800; }
+.dv-bottom { padding-top: .7rem; display: flex; flex-direction: column; gap: .6rem; text-align: center; color: #d4d4d8; font-weight: 800; }
