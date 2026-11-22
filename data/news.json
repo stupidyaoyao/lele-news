@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-22T03:39:51.101Z",
+ "updated": "2026-11-22T04:10:41.526Z",
  "ai": "gemini",
- "aiStatus": "error",
+ "aiStatus": "partial",
  "feeds": [
   "OK   南洋商报: 1",
   "OK   南洋商报·新闻: 0",
   "OK   星洲日报: 5",
   "OK   东方日报: 12",
-  "OK   中国报: 11",
+  "OK   中国报: 8",
   "OK   马来西亚财经: 0",
   "OK   联合早报: 20",
   "OK   联合早报·财经: 0",
@@ -57,6 +57,63 @@
  ],
  "items": [
   {
+   "id": "e86126ead25d",
+   "title": "Revoke Deutsche Bank's licence if 1MDB breaches proven, Lip Eng urges Bank Negara",
+   "url": "https://www.malaysiakini.com/news/889585-revoke-deutsche-banks-licence-if-1mdb-breaches-proven-lip-eng-urges-bank-negara",
+   "source": "Malaysiakini",
+   "feed": "Malaysiakini",
+   "cat": "malaysia",
+   "published": "2026-11-22T03:44:17.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "行动党议员促国家银行对德意志银行采取行动",
+   "tags": [
+    "马来西亚政治",
+    "银行",
+    "经济"
+   ],
+   "short": "促对德意志银行查照",
+   "key": "涉一马发展公司案应吊销执照",
+   "score": 3
+  },
+  {
+   "id": "3bcbebfc7b79",
+   "title": "YMCA Singapore data breach may have exposed details of over 13,000 youth programme participants",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQVhNUWtfWDQyTFJ0RHRGUG90RjNsNjdRRy16cWxlN2xITUYzeHFUQm8wemV4T0lmVmNlczJKWkhwVTVsMVpwMExmbXItT0h5YzFSVmdxUmhzRUdvWjV4VWlJM2czRlhsd0pUVWgzaUVVdm8xWFdTT2E1M3hLVjI1YzNOOEVyaVRRaUlRYy1jbFNxS2VqRUFka1F0blRRb3IwNWJsSXY1VUc1TkdGUUpNckFMb2lOdl9CVmlpRzRMb01tQ0ZsUkxZYjY2UUl4TWVSZFlfYmxCbnprQjdQN0N0c2swUjc1dGVR0gHuAUFVX3lxTFB0X3hxUjF6TFlZaTR4SGMzVVlMNVR4TlRPTGgxQkd6M3cwbUZfMlJuM1FDNG9VZjA5QjFlUk9nOWc5TUYtMlZnTzItZlJ6Wm5GWlFjNkltX1JzVlZfZ1duRFF0S0lMTGptSlgtTG1ZaVQwTUdPWTYtOGpXTlVNV1ZleTNyaG9XZnBnWlY5cDlKeGhKR0RkaWtPOW5sMG5uZzJ1UFg2RVFndDhGRU9SQ0lfQjJpbmNweXY2LXRpTnF1UG5FbHd5TUFCSjhGZnJCR2d2WmNBdFpaV2VUcExoWDdMOWl2YlB0R1JacGtWa2c?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "sea",
+   "published": "2026-11-22T03:41:12.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "新加坡基督教青年会数据泄露",
+   "tags": [
+    "新加坡",
+    "科技公司"
+   ],
+   "short": "新青安数据疑泄露",
+   "key": "逾万名青年参与者资料外泄",
+   "score": 2
+  },
+  {
+   "id": "9a91f1486292",
+   "title": "Laos marks World Children's Day",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVF9iVlRSYVl0VExOSlUyY0NmOGpTa2sxb0lndThjOGtGZVJQY3ptbmkxSHh4aGVDNlVtUTVjcGVHMmt3aDNQTTJUdVJmYTl1a3IzZ3VBcUQ3NDdJZnlVRk4xbDUwWlVlSVZvaFZ2bFhxYUZQdEtNSUljN1BEVHJpa1N5cDVndlA5SlJiZ2hkb294SnNnRm9tUEdnRWg?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "sea",
+   "published": "2026-11-22T03:35:00.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "老挝庆祝世界儿童日",
+   "tags": [
+    "东盟"
+   ],
+   "short": "老挝庆祝儿童日",
+   "key": "举办各项儿童关怀活动",
+   "score": 1
+  },
+  {
    "id": "a983ea99da6a",
    "title": "DAP rakan setia, tiada sebab keluar PH, kata Faiz",
    "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/22/dap-rakan-setia-tiada-sebab-keluar-ph-kata-faiz",
@@ -64,9 +121,15 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-22T03:15:42.000Z",
-   "desc": "Setiausaha agung Amanah berkata kerjasama PH dengan DAP bukan sebab keuntungan politik, tetapi atas dasar prinsip berteraskan nilai dan khidmat untuk rakyat.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "诚信党秘书长：行动党是忠实伙伴无须退出希盟",
+   "tags": [
+    "马来西亚政治"
+   ],
+   "short": "诚信党力挺行动党",
+   "key": "强调合作基于原则非政治利益"
   },
   {
    "id": "18e233591a30",
@@ -76,9 +139,17 @@
    "feed": "NHK World",
    "cat": "world",
    "published": "2026-11-22T03:15:03.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "泽连斯基称三方峰会对俄罗斯而言不成功",
+   "tags": [
+    "俄乌",
+    "战争冲突",
+    "国际政治"
+   ],
+   "short": "泽连斯基称峰会挫俄",
+   "key": "对俄国外交战略造成打击"
   },
   {
    "id": "4352898761cc",
@@ -86,59 +157,83 @@
    "url": "https://www.malaysiakini.com/news/889586-turkiye-calls-10000-rohingya-resettlement-claim-unfounded-zahids-aide-says-plan-ongoing",
    "source": "Malaysiakini",
    "feed": "Malaysiakini",
-   "cat": "malaysia",
+   "cat": "world",
    "published": "2026-11-22T03:13:22.000Z",
-   "desc": "'The public is earnestly requested not to give credence to content that is untrue.'",
    "fetched": "2026-11-22T03:32:13.500Z",
+   "score": 2,
+   "ai": true,
+   "zh": "土耳其否认收容万名罗兴亚人传言",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "土耳其否认收容难民",
+   "key": "称移居传言毫无根据"
+  },
+  {
+   "id": "7c4707f9611b",
+   "title": "Travel more, spend less: how mainland China’s weak consumer mood shapes outbound tourism",
+   "url": "https://www.bangkokpost.com/business/general/3359251/travel-more-spend-less-how-mainland-chinas-weak-consumer-mood-shapes-outbound-tourism",
+   "source": "Bangkok Post",
+   "feed": "Bangkok Post",
+   "cat": "china",
+   "published": "2026-11-22T03:08:00.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "中国游客出境游追求性价比消费降级",
+   "tags": [
+    "中国经济",
+    "东盟"
+   ],
+   "short": "中国游客出境趋保守",
+   "key": "更倾向周边游与高性价比",
    "score": 3
   },
   {
-   "id": "c633fa2a2cca",
-   "title": "Rescuers search for 39 missing after factory fire in Indonesia",
-   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/rescuers-search-for-39-missing-after-factory-fire-in-indonesia",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-22T03:11:03.000Z",
-   "desc": "The Fonusa Agung Mulia factory, located in the Serang district around 50km from the capital, caught fire on Saturday afternoon.",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "01f47f787d20",
-   "title": "Rescuers say 39 missing after Indonesia factory fire",
-   "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
-   "source": "The Straits Times",
-   "feed": "The Straits Times",
-   "cat": "sea",
-   "published": "2026-11-22T03:06:00.000Z",
-   "desc": "TV images taken overnight showed parts of the factory on fire, with parts of its roof collapsed.",
-   "fetched": "2026-11-22T03:32:13.500Z",
+   "id": "a9a964663b25",
+   "title": "More firms miss Q3 earnings forecasts",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV01KVWhONkVkRG1nd0dLcjVoVnlkWmM1LThNekRTY3NCM3BNZ1p3LWFtdFRENlB5Y2tjRnVmSkxtaXIxaHNVVmFGSHU3UWdUdGhhMFJIWksxWi1OSkxJa0ZkQWllWURjQmFieHBjNlJ4N01hdUF0aDBxNHM3TW1MS21OWW1VYjc0RWhIZW5qb0ZlX3MxT0hjM0R3WmFwRjFv0gGgAUFVX3lxTE1XTUpVaE42RWREbWd3R0tyNWhWeWRaYzUtOE16RFNjc0IzcE1nWnctYW10VEQ2UHlja2NGdWZKTG1pcjFoc1VWYUZIdTdRZ1R0aGEwUkhaSzFaLU5KTElrRmRBaWVZRGNCYWJ4cGM2Ung3TWF1QXRoMHE0czdNbUxLbU5ZbVViNzRFaEhlbmpvRmVfczFPSGMzRHdaYXBGMW8?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "finance",
+   "published": "2026-11-22T03:06:26.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "更多企业第三季度业绩逊于预期",
+   "tags": [
+    "经济",
+    "股市"
+   ],
+   "short": "企业第三季业绩逊色",
+   "key": "多家公司未能达市场盈利预测",
    "score": 3
   },
   {
    "id": "2544609c5935",
    "title": "BofA's Michael Hartnett: The Surest Way to Sideline the Fed — Stocks Must Give Up All of 2026's Gains",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTHhvY05RNmhjdVZZRUJtRzJUNTAyZWRnTGxTUUVzalNHcmRSSXRwWlpQUzE2UVItVzV4b1NZbWRiWXdxRHRsWTZqelRMWnpVQzF6T1B1aHVQM1d0X2YwbS10R2VHWEJZSWVKVkd6WU90SXcwdDNwZms2X25hd2ZxZXhqQQ?oc=5",
+   "url": "https://thedarksideoftheboom.substack.com/p/bofas-michael-hartnett-the-surest",
    "source": "The Dark Side Of The Boom",
    "feed": "Global markets",
    "cat": "finance",
    "published": "2026-11-22T03:01:25.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "6d6b8b96b62b",
-   "title": "[Two Pronged] My son’s future wife is 5 months pregnant with someone else’s baby",
-   "url": "https://www.rappler.com/people/human-interest/two-pronged-son-future-wife-pregnant-not-his-baby/",
-   "source": "Rappler",
-   "feed": "Rappler",
-   "cat": "sea",
-   "published": "2026-11-22T03:00:00.000Z",
-   "desc": "Our letter sender is worried about her son, who loves someone who came back into his life when she was five months pregnant. How does one respond to a situation like this?",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "美银分析师：股市必须回吐涨幅才能让美联储收手",
+   "tags": [
+    "美股",
+    "美联储",
+    "利率"
+   ],
+   "short": "美银称美股须回吐",
+   "key": "抑制美联储加息需股市下跌",
+   "sum": "分析认为，若要让美联储放缓货币紧缩步伐，标普等美股市场可能需要吐出涨幅。这种通过资本市场回调来调整政策预期的观点引发关注。",
+   "impact": {
+    "my": "可能拖累大马股市跟随美股走势波动。",
+    "sea": "可能影响区域股市投资情绪及资金流向。",
+    "world": "可能引发全球股市震荡并重塑美联储政策预期。"
+   },
+   "detailTried": true,
+   "imgTried": true
   },
   {
    "id": "483c269f9b85",
@@ -148,9 +243,92 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-22T02:58:23.000Z",
-   "desc": "Kementerian Luar Negeri berkata hasil dapatan ICJ selaras pendirian Malaysia dalam melindungi golongan rentan.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "大马尊重国际法院关于罗兴亚人裁决",
+   "tags": [
+    "马来西亚政治",
+    "国际政治"
+   ],
+   "short": "大马尊重国际裁决",
+   "key": "结果符合我国保护弱势立场"
+  },
+  {
+   "id": "ea7b6279a011",
+   "title": "Three dead, 36 missing after Indonesia factory fire",
+   "url": "https://www.channelnewsasia.com/asia/indonesia-factory-fire-39-missing-6572421",
+   "source": "CNA Asia",
+   "feed": "CNA Asia",
+   "cat": "sea",
+   "published": "2026-11-22T02:58:00.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "印尼工厂火灾致3死36失踪",
+   "tags": [
+    "印尼",
+    "东盟"
+   ],
+   "short": "印尼工厂大火酿死伤",
+   "key": "部分厂房持续燃烧搜救受阻",
+   "score": 4,
+   "sum": "印尼一间工厂发生严重火灾，造成多人死伤及数十人失踪。由于现场部分区域火势未灭，搜救行动面临困难。",
+   "impact": {
+    "my": null,
+    "sea": "可能引起区域内对工业安全的关注。",
+    "world": null
+   },
+   "detailTried": true,
+   "detail": [
+    "印尼雅加达以西的一家糖果厂在周六下午发生火灾，造成3人死亡，仍有36人失踪。",
+    "火灾发生后，有4人被送往附近的医院和卫生诊所接受治疗。",
+    "事发工厂位于距离首都约50公里的西朗区，过火面积大且导致部分屋顶坍塌。",
+    "搜救人员指出，周日部分厂区仍有明火燃烧，给搜救失踪者的工作带来了很大困难。",
+    "联合搜救队正在全力寻找受害者，同时将现场救援人员的安全放在首位。",
+    "当地灾害管理机构表示，这起事故的具体起火原因目前仍在调查中。"
+   ],
+   "img": {
+    "src": "https://dam.mediacorp.sg/image/upload/s--GVce6cjN--/c_crop,h_720,w_1280,x_0,y_243/c_fill,g_auto,h_676,w_1200/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/22/6057799991327134063.jpg?itok=DsHPIUzd",
+    "credit": "CNA Asia",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "f6de207f1ae3",
+   "title": "China’s US$1.7 tril AI rout turns hot trade into losing bet",
+   "url": "https://theedgemalaysia.com/node/826752",
+   "source": "The Edge Malaysia",
+   "feed": "The Edge Malaysia",
+   "cat": "china",
+   "published": "2026-11-22T02:56:01.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "中国人工智能板块蒸发1.7万亿美元",
+   "tags": [
+    "人工智能",
+    "科技公司",
+    "股市"
+   ],
+   "short": "中国人工智能遭抛售",
+   "key": "热门科技交易遭遇重挫",
+   "score": 4,
+   "sum": "中国的人工智能相关板块市值大幅蒸发，曾经的热门投资遭遇资金撤离。市场情绪降温导致相关资产表现低迷。",
+   "impact": {
+    "my": "可能拖累大马本地科技股的投资情绪。",
+    "sea": "可能影响东南亚地区对人工智能概念股的信心。",
+    "world": "可能打击全球投资者对中国科技板块的风险偏好。"
+   },
+   "detailTried": true,
+   "detail": [
+    "中国的人工智能股票遭到抛售，自6月底以来，三个科技指数的市值总计蒸发了1.7万亿美元。",
+    "由于估值过高以及对政策扶持的依赖，全球人工智能热潮的降温对中国市场造成了沉重打击。",
+    "美国近期收紧了科技出口限制，进一步测试了中国芯片供应链的自给自足能力。",
+    "美国市场的恐慌情绪蔓延，追踪中国科创50指数的交易所买卖基金在美盘交易中跌幅超过4%。",
+    "腾讯和阿里等中国科技巨头面临高昂的研发成本、国内消费疲软以及激烈的价格战等挑战。",
+    "尽管短期内面临算力瓶颈和美国限制的压力，但部分分析认为本土半导体代工厂或能从中获得替代订单。"
+   ],
+   "imgTried": true
   },
   {
    "id": "e05c1d6797c4",
@@ -158,10 +336,37 @@
    "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/22/kumpulan-rohingya-sambut-baik-keputusan-icj-terhadap-myanmar",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "world",
    "published": "2026-11-22T02:50:07.000Z",
-   "desc": "Kumpulan itu juga gesa PBB dan masyarakat antarabangsa pastikan Myanmar mematuhi keputusan ICJ.",
    "fetched": "2026-11-22T03:32:13.500Z",
+   "score": 3,
+   "ai": true,
+   "zh": "罗兴亚群体欢迎国际法院对缅甸裁决",
+   "tags": [
+    "国际政治",
+    "东盟"
+   ],
+   "short": "罗兴亚人欢迎裁决",
+   "key": "促国际社会确保缅甸遵守"
+  },
+  {
+   "id": "0cabc46b2072",
+   "title": "ETF Daily Report (Nov 17) | NVIDIA Earnings Window Approaches; Hong Kong Internet Stocks Lead Decline; Crude Oil Market Supply-Demand Outlook Shifts to Surplus",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOFZkc3B4SnI1OE1rYUdRU0Y1bFZwWUw1TjFhZ3JVb2lCTjBobUxaVy03X1hkV19Hc0ZvTWN2MWcyWEZfX1NnUWlOZ25BMXlfa3ZmdUJlNFFlM1lHY29XWlRPbDF1aVFhM3dzVUtSZ3R6azB5V1JsalNTODgtTzFDZWVXcjB0ZjFhYW16SnJ5NG9VMWZ4bjRoTGtIamJaWk56Z1ZQdGxFSndhZw?oc=5",
+   "source": "Moomoo",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-22T02:49:29.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "港股互联网股领跌与原油供应前景转变",
+   "tags": [
+    "港股",
+    "油价",
+    "能源"
+   ],
+   "short": "港股互联网股领跌",
+   "key": "原油市场供需预期转向过剩",
    "score": 3
   },
   {
@@ -172,21 +377,15 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-22T02:45:00.000Z",
-   "desc": "An analyst says MCA faces an uphill task in seeking new political partners as it has long relied on Malay votes secured through Umno.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "1fd01b7b4c35",
-   "title": "Muslim platform M3+ unveils new identity and refreshed five focus areas",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObmc0QzdXam1GRnc1M1YwZ3BIUmRUWWs2QjZNeTJCRmNEV2ZYRE1fS2tGamlkTmt2bTZPZEhHd0xIcjN2X3B3eEN0Q3QweWQ1YUcxeXJRV0NlWHdBZVRPNGVnbEZOaUgxV2ItM2VHbGpNdU5sckRTX0g3c0NKV21EcC0wT0Y3WGQzS1JuZVF1b1VJVnRaRmNaeGRXb05FT0dzaXBVenliX2JEaGg2d1dhdmthZUY?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-22T02:44:32.000Z",
-   "desc": "",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "分析：马华在国阵外寻新盟友面临严峻挑战",
+   "tags": [
+    "马来西亚政治"
+   ],
+   "short": "马华寻新盟友面临挑战",
+   "key": "长期依赖巫统马来选票"
   },
   {
    "id": "325f1a2a1c9a",
@@ -196,9 +395,15 @@
    "feed": "The Guardian World",
    "cat": "world",
    "published": "2026-11-22T02:44:01.000Z",
-   "desc": "The sergeant, who was shot, fired his weapon a number of times after alleged ‘targeted’ attack outside island’s police station Get our breaking news email , free app or daily news podcast A police officer who was shot outside a remote Tasmanian police station is alleged to have shot and killed his attacker in response to what authorities believe was a “targeted” incident. Tasmania police deputy commissioner, Jonathan Higgins, said the sergeant had just come off shift at Whitemark police station on Flinders Island, which is north-east of the Tasmanian mainland. He had parked and gotten out of h",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "澳大利亚塔斯马尼亚发生警局外枪击案，男子身亡",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "澳警局外发生枪击案",
+   "key": "警员开枪击毙嫌疑人"
   },
   {
    "id": "93cce3f7a739",
@@ -224,11 +429,40 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/us-iran-deal-vital-to-easing-global-financial-crises",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "world",
    "published": "2026-11-22T02:42:22.000Z",
-   "desc": "Turkish foreign minister Hakan Fidan expressed hope that a US-Iran deal would succeed, saying Ankara was doing all it could to help.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "土耳其外长：美伊协议对缓解全球金融危机至关重要",
+   "tags": [
+    "经济",
+    "国际政治",
+    "中东"
+   ],
+   "short": "土外长：美伊协议关键",
+   "key": "助缓全球金融危机",
+   "sum": "土耳其外长呼吁推进美伊协议以缓解全球金融危机。安卡拉正为此提供外交协助。这可能影响中东地缘政治及全球能源和金融市场稳定。",
+   "impact": {
+    "my": null,
+    "sea": null,
+    "world": "可能有助于缓和中东紧张局势，对稳定全球能源和金融市场产生正面影响。"
+   },
+   "detailTried": true,
+   "detail": [
+    "土耳其外长哈坎·菲丹表示，华盛顿与德黑兰之间达成协议，对缓解全球经济压力具有关键意义。",
+    "他指出，美伊协议不仅有助于重新开放霍尔木兹海峡，还能在一定程度上减轻全球金融危机。",
+    "伊朗战争带来的经济负担日益加重，缺乏解决方案正逐渐对许多国家产生极具破坏性的影响。",
+    "各方围绕霍尔木兹海峡的外交斡旋仍在积极进行，相关诉求和信息也在持续传递中。",
+    "菲丹透露，他最近与卡塔尔首相兼外长讨论了这一危机，并确认各方的调解努力仍在继续。",
+    "他主张伊核问题可在美欧和联合国框架内处理，而其他地区问题应由本地区国家直接解决。"
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/11/0546dc8d-hakan-fidan-04112025.webp",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "imgTried": true
   },
   {
    "id": "abea2f1fd69f",
@@ -254,23 +488,17 @@
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/rohingya-groups-welcome-genocide-ruling-against-myanmar-urge-action",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "sea",
    "published": "2026-11-22T02:37:00.000Z",
-   "desc": "The groups described the 2019 ruling in the case brought by The Gambia as a historic step toward justice for Rohingya victims and survivors.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "5473ae5bf210",
-   "title": "Paolo Bulgari, the Italian jeweller who turned a family business into global luxury brand, dies at 89",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcGRHX0dOdGxhS0JuSk5sOWlGcWxkUjYtUXFOU3ZKS2VYUW1uTF9xN2xvaVlDa3hKOVFiVDVWZ3duUnFkQUQ3UFRhMURwdkc2NmE3Z1hHN3Q4RGZIOURtWVdVcTlvcy1TTTIxSVVoRExaYTlHbWQ5NkhHT0wwc1ZTS2RDY3dodXlkYUhkSXlmVlN2c1dtN2pQTHZId3RzdEJBVUk4V1psU0hQSTMtMHFPUUdsNDBfdlFNZnJERkhFQkNDUGpvTjV1MFpIWS1GWFhjZVHSAcQBQVVfeXFMTVE5VWlGTlJyZHB4TWY0UUg5dXRxeWV4MjNDX2VfdkFKdnRPcktBTmhrd2I4Q0xPS3dTNUdYYzRDX1FGOVNBVHV4UmtmLV9OZkRqaThRTUVfNzJadU9BLVc0RUxZeVpuSzEyMU5pQzlqeUxka1JCYVdCRWxiRl9nN09WVXlIdjItdjFocVF2eVU3U19MY0p0WjM4ZW5GRXU0dUZObnRqNG53bW1JQ21DUFBCMTdacWF4Q1RTYW9KUUVpdWhSZA?oc=5",
-   "source": "NST Online",
-   "feed": "NST Business",
-   "cat": "finance",
-   "published": "2026-11-22T02:36:48.000Z",
-   "desc": "",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "罗兴亚组织欢迎针对缅甸的灭绝种族裁决，促请采取行动",
+   "tags": [
+    "东盟"
+   ],
+   "short": "罗兴亚组织欢迎裁决",
+   "key": "促国际采取实质行动"
   },
   {
    "id": "08e3c8cb9587",
@@ -280,9 +508,16 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-22T02:36:22.000Z",
-   "desc": "Menteri Dalam Negeri Saifuddin Nasution Ismail berkata seramai 3,899 banduan lagi dibebaskan secara parol dalam usaha kurangkan kesesakan penjara.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "内政部：2.5万名囚犯透过释囚计划获释",
+   "tags": [
+    "马来西亚政治",
+    "就业"
+   ],
+   "short": "2.5万囚犯透过释囚计划获释",
+   "key": "旨在缓解监狱拥挤"
   },
   {
    "id": "4211371d7e8f",
@@ -310,23 +545,18 @@
    "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/22/malaysia-respects-icj-judgment-on-rohingya-genocide-in-myanmar",
    "source": "Free Malaysia Today",
    "feed": "Free Malaysia Today",
-   "cat": "malaysia",
+   "cat": "sea",
    "published": "2026-11-22T02:32:13.000Z",
-   "desc": "Foreign ministry says the International Court of Justice’s findings align with Malaysia’s position on protecting vulnerable communities.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "23f016484249",
-   "title": "At 60, dog trainer takes on world championship with her 9½-year-old dog",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV1p3NDhOTnp0N05lWlk4S1g5ZUpEclk0ZThNdzJSQ0ZJQnRMVHBtdU1qRG0zU0laWDRQZEtLZDVvVUR1YnIxd0thSGd2SWl2QWxMdEQ2V2kzNGxVTElNa0ZGTzMwN3dKNVZfNDg4dmhydE1neHMxYko4LW84WWs3d1Fhb2ZjYWxIajV4RWpEZTBkQmdTLTRvN05xS3g5WmN5ZVdZamJGRVM?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-22T02:30:40.000Z",
-   "desc": "",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "大马外交部：尊重国际法院关于缅甸罗兴亚人裁决",
+   "tags": [
+    "东盟",
+    "马来西亚政治"
+   ],
+   "short": "大马尊重国际法院裁决",
+   "key": "符合大马保护弱势群体立场"
   },
   {
    "id": "2113f33673b4",
@@ -350,14 +580,63 @@
   {
    "id": "2b1c270f952c",
    "title": "Singapore, China to speed up talks on FTA upgrade as Wong meets Li in Beijing",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOXBmam1ETXpCZVVhM0xrdkZqX1lBNFg4MG5qR3VaRlVmYkpEdGJRNFJUUmJERVJsTElYQVBtMTZnNm1Tb2swREI4Ym9TSGxYRjU1cnlRZ2N0akVWMGxsU0xyN2tUZFZEU0Y0SjVRblRaQ0RNQWMtS0hnbW5EM3Y0S0dYbEdmSDNwOE13MVhBSlVXSUlUTEg0UE5pNlNlTDRzM1FpQ1oteGQ1Zmw1alJRZ2JkX1M0LVdIb0FuanJjQjVWaC16VjRxNTg3S28zTWdiTExteVp30gHWAUFVX3lxTE05cGZqbURNekJlVWEzTGt2RmpfWUE0WDgwbmpHdVpGVWZiSkR0YlE0UlRSYkRFUmxMSVhBUG0xNmc2bVNvazBEQjhib1NIbFhGNTVyeVFnY3RqRVYwbGxTTHI3a1RkVkRTRjRKNVFuVFpDRE1BYy1LSGdtbkQzdjRLR1hsR2ZIM3A4TXcxWEFKVVdJSVRMSDRQTmk2U2VMNHMzUWlDWi14ZDVmbDVqUlFnYmRfUzQtV0hvQW5qcmNCNVZoLXpWNHE1ODdLbzNNZ2JMTG15Wnc?oc=5",
+   "url": "https://www.malaymail.com/amp/news/singapore/2026/11/22/singapore-china-to-speed-up-talks-on-fta-upgrade-as-wong-meets-li-in-beijing/244274",
    "source": "Malay Mail",
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-22T02:24:08.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "黄循财会见李强，新中同意加速自贸协定升级谈判",
+   "tags": [
+    "新加坡",
+    "贸易",
+    "经济"
+   ],
+   "short": "新中加速自贸协定谈判",
+   "key": "黄循财北京会见李强",
+   "sum": "新加坡总理黄循财在北京会见中国总理李强，双方同意加快推进自由贸易协定升级谈判。此举旨在深化两国经贸合作，并应对当前复杂的区域与国际环境。双方展现了进一步加强双边经济伙伴关系的意愿。",
+   "impact": {
+    "my": "可能进一步促进区域供应链合作，对马中及新马之间的双边贸易与投资氛围产生间接辐射效应。",
+    "sea": "可能为东南亚国家与中国深化经贸合作树立示范，推动区域经济一体化进程。",
+    "world": "显示区域国家持续推进多边经贸合作，有助于稳定区域供应链。"
+   },
+   "detailTried": true,
+   "detail": [
+    "中国总理李强在北京会见了到访的新加坡总理黄循财，双方同意加速自贸协定升级谈判。",
+    "李强表示，中方愿与新加坡加强战略沟通，巩固政治互信，并在核心利益问题上相互支持。",
+    "两国领导人提出要深化人工智能、清洁能源、互联互通和金融等领域的务实合作。",
+    "双方同意加强在联合国和亚太经合组织等框架下的协调配合，共同维护多边贸易体制。",
+    "中国支持新加坡在明年担任东盟轮值主席国，并愿推动中国-东盟自贸区3.0版升级议定书的落实。",
+    "黄循财祝贺中国成功主办亚太经合组织领导人非正式会议，并期待与中方深化各领域的交流合作。"
+   ],
+   "img": {
+    "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/22/375721.webp?v=1795320000",
+    "credit": "Malay Mail",
+    "kind": "A"
+   },
+   "imgTried": true
+  },
+  {
+   "id": "eed2cb87ae0b",
+   "title": "Berjaya Property, Prince Court team up on healthcare perks",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX1FfY2ZfQ19EYlNaRmt1UTlUTGZYeU5pS0xWYWZYMUVmeWhob2Z6XzJnUTh5NktOZ0pRZUJQQ0tJamlmMGl3OWJaam9lMFpIQ0Ezc1NhbUVTN185S3FtVE4zRWY0ZmlaeDRJQzFGdXN1UUpJY1k4UFNFR0Y1eXNSV2Q2TDBINmVXTlV4cnNVMkt6WUU4WFhqQlBLZjFFMExCdnZrS2FxX2NucndmU1dNX2I3TdIBswFBVV95cUxNX1FfY2ZfQ19EYlNaRmt1UTlUTGZYeU5pS0xWYWZYMUVmeWhob2Z6XzJnUTh5NktOZ0pRZUJQQ0tJamlmMGl3OWJaam9lMFpIQ0Ezc1NhbUVTN185S3FtVE4zRWY0ZmlaeDRJQzFGdXN1UUpJY1k4UFNFR0Y1eXNSV2Q2TDBINmVXTlV4cnNVMkt6WUU4WFhqQlBLZjFFMExCdnZrS2FxX2NucndmU1dNX2I3TQ?oc=5",
+   "source": "NST Online",
+   "feed": "NST Business",
+   "cat": "malaysia",
+   "published": "2026-11-22T02:21:40.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "成功置地与太子阁医疗中心合作推医疗福利",
+   "tags": [
+    "马来西亚",
+    "房地产",
+    "健康"
+   ],
+   "short": "成功置地推医疗福利",
+   "key": "联手太子阁提供专属健康优惠",
+   "score": 1
   },
   {
    "id": "47d6a952cb16",
@@ -517,14 +796,49 @@
   {
    "id": "103d116583ed",
    "title": "EU and Indonesia Sign Landmark Trade and Investment Deal",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mcG9TSGx4dDZrUENTX0JKSzVpN05BQTNxZ0p2RXNKMEluX2lnSDVNZmM3UDhuZU12X1FkUEpvbmszb1RBOEMyeHFHSTBpYmtkNjdiS19CUWpySnNGZk9WQmtqMzFCUTBE?oc=5",
+   "url": "https://cwibc.co.id/en/eu-indonesia-trade-investment-deal",
    "source": "cwibc.co.id",
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-22T02:02:19.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "欧盟与印尼签署历史性贸易与投资协定",
+   "tags": [
+    "印尼",
+    "东盟",
+    "贸易"
+   ],
+   "short": "欧盟印尼签贸易协定",
+   "key": "达成历史性投资协议",
+   "sum": "欧盟与印尼正式签署了一项具有里程碑意义的贸易与投资协定。该协议旨在深化双方经济联系，扩大市场准入。这也反映出欧盟正积极加强与东南亚主要经济体的经贸布局。",
+   "impact": {
+    "my": "可能加剧区域内对欧资的竞争，但也为大马企业在东盟与欧洲的贸易合作带来外部参考。",
+    "sea": "可能显著提升印尼的吸引力，带动外资流入，并促进东盟与欧盟的整体经贸合作。",
+    "world": "进一步拓展了欧盟在印太地区的经济版图，对全球双边贸易格局产生示范效应。"
+   },
+   "detailTried": true,
+   "imgTried": true
+  },
+  {
+   "id": "55048d3aede5",
+   "title": "Turnout dips but French protesters march for sixth straight weekend over living costs",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQM0ZxTVdSbTZ6OGhGeWt3VWpfMGlNbWozOWlPcFFBSno2N2V4U2p0eDViWEQ5cW9KQ0JLX2hNRzFOWWhOamV3Z3BydUVianVuVlVkUXBONFRNZXp5M19uWklMbERFenhTYUF2Vy1acVJLSzdiSHJPYy1LUHlUZ09tZHRreEhZSE13amRlMFVOMm5vSHZxcFcwRkZWa2lDamp2RXZWMFNZaHlNcWliYmVvVWtON3VHMnRQdHNFY253U1RFTHBPcXp3LUl4X2I1MWlYRUFCYlVWTDFYTFNC0gHcAUFVX3lxTFAzRnFNV1JtNno4aEZ5a3dVal8waU1tajM5aU9wUUFKejY3ZXhTanR4NWJYRDlxb0pDQktfaE1HMU5ZaE5qZXdncHJ1RWJqdW5WVWRRcE40VE1lenkzX25aSUxsREV6eFNhQXZXLVpxUktLN2JIck9jLUtQeVRnT21kdGt4SFlITXdqZGUwVU4ybm9IdnFwVzBGRlZraUNqanZFdlYwU1loeU1xaWJiZW9Va043dUcydFB0c0VjbndTVEVMcE9xenctSXhfYjUxaVhFQUJiVVZMMVhMU0I?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "world",
+   "published": "2026-11-22T02:02:04.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "法国抗议生活成本游行已持续六周",
+   "tags": [
+    "国际政治",
+    "就业"
+   ],
+   "short": "法国抗议生活成本",
+   "key": "民怨未平参与人数有所放缓",
+   "score": 2
   },
   {
    "id": "c8de67b85377",
@@ -547,28 +861,23 @@
    "score": 3
   },
   {
-   "id": "ed8a45f6c600",
-   "title": "Anak kejar impian di litar, ibu bapa berkorban apa sahaja",
-   "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/22/anak-kejar-impian-di-litar-ibu-bapa-berkorban-apa-sahaja",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-22T02:00:00.000Z",
-   "desc": "Bekas pelumba motosikal negara melihat ibu bapa pelumba sebagai pejuang sebenar yang berkorban demi kejayaan anak.",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
    "id": "9da719b042d7",
    "title": "How one teen turns internet trends into viral Filipino covers",
    "url": "https://www.rappler.com/people/artists/malin-tiktok-internet-trends-viral-filipino-covers/",
    "source": "Rappler",
    "feed": "Rappler",
-   "cat": "sea",
+   "cat": "tech",
    "published": "2026-11-22T02:00:00.000Z",
-   "desc": "After listeners mistook his recordings for AI-generated music, young TikTok creator Malin — whose hit covers include 'Seis Syete' and 'Made in Philippines' — makes it clear that every lyric and note comes from his own voice and effort",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "菲国少年用实力打破AI质疑，将网络热梗唱红网络",
+   "tags": [
+    "人工智能",
+    "科技公司"
+   ],
+   "short": "菲少年用实力打破AI质疑",
+   "key": "澄清并非人工智能生成"
   },
   {
    "id": "6c526964adea",
@@ -694,11 +1003,17 @@
    "url": "https://www.straitstimes.com/asia/australianz/the-secret-courage-of-australias-bondi-shooting-hero-one-year-on",
    "source": "The Straits Times",
    "feed": "The Straits Times",
-   "cat": "sea",
+   "cat": "world",
    "published": "2026-11-22T01:58:00.000Z",
-   "desc": "Fruit seller Ahmed al Ahmed said his wounds still ache and he issued a plea for unity.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 1,
+   "ai": true,
+   "zh": "澳洲邦迪枪击案英雄一年后吐露心声，呼吁团结",
+   "tags": [
+    "国际政治"
+   ],
+   "short": "澳洲枪击案英雄呼吁团结",
+   "key": "伤口隐隐作痛盼社会团结"
   },
   {
    "id": "e3d9933e3ab7",
@@ -755,9 +1070,16 @@
    "feed": "SEA news",
    "cat": "sea",
    "published": "2026-11-22T01:41:27.000Z",
-   "desc": "",
    "fetched": "2026-11-22T02:58:23.536Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "黄循财：新加坡在多极世界中通过价值创造立足",
+   "tags": [
+    "新加坡",
+    "东盟"
+   ],
+   "short": "黄循财谈多极世界定位",
+   "key": "不从美中竞争看待一切"
   },
   {
    "id": "a3a3f08d9e02",
@@ -831,40 +1153,23 @@
    "score": 2
   },
   {
-   "id": "52b157d0bac8",
-   "title": "5 further glimpses into the oddities of the natural world",
-   "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/22/5-further-glimpses-into-the-oddities-of-the-natural-world",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-22T01:30:00.000Z",
-   "desc": "From an iguana detected via DNA in Sarawak to penguin poo changing Antarctic snow, nature continues to produce some wonderfully strange science.",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
    "id": "9e9f44cb0aca",
    "title": "A nation’s architect",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtT0ZmSjVEcy1PVWtlMm51WU9nTVUzNlRUVC0zVHAxdEllaTdpbzZPMklkbl96c1lrWUNYOVFnOFc4aHVpTE1Ob3FSS0JaZG1T?oc=5",
    "source": "The Edge Malaysia",
    "feed": "The Edge Malaysia",
-   "cat": "finance",
+   "cat": "malaysia",
    "published": "2026-11-22T01:30:00.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "bc2df3b13fec",
-   "title": "Love at first bite: The Paltok bakery that sells out early",
-   "url": "https://www.rappler.com/people/human-interest/bong-dynah-bakeshop-paltok-quezon-city/",
-   "source": "Rappler",
-   "feed": "Rappler",
-   "cat": "sea",
-   "published": "2026-11-22T01:30:00.000Z",
-   "desc": "Residents of Paltok, Quezon City, flock to a yellow-walled corner bakery every day before its freshly baked bread sells out",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "一个国家的建筑师：专访大马发展史上的关键人物",
+   "tags": [
+    "经济",
+    "马来西亚政治"
+   ],
+   "short": "专访大马国家建筑师",
+   "key": "回顾国家建设历程"
   },
   {
    "id": "dbf43521e43f",
@@ -903,30 +1208,6 @@
    "score": 3
   },
   {
-   "id": "da17c7f42a84",
-   "title": "Messi, Miami stunned by Columbus in MLS playoff opener",
-   "url": "https://www.freemalaysiatoday.com/category/sports/2026/11/22/messi-miami-stunned-by-columbus-in-mls-playoff-opener",
-   "source": "Free Malaysia Today",
-   "feed": "Free Malaysia Today",
-   "cat": "malaysia",
-   "published": "2026-11-22T01:27:13.000Z",
-   "desc": "Columbus Crew beat 10-man Inter Miami 3-0 away in their playoff opener, with Gonzalo Tapia scoring twice around Taha Habroune's second-half goal.",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
-   "id": "eea6939855cd",
-   "title": "Executive loses RM617,159 to friend in fake loan, investment scam",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOV05UUWNZeGNmV1JscS1oRUF0eklvS21JSmlrN3JCcVlGc29WOHNaNEJKMGtPVU44T0wyUFdkWHV4NWhvelNKUURnWVY3a1otenNrLTI2LVpFMWtXV1pBZHNMVmMxSEF4UzVQMHZkVlhwLVU0d3lsNW0zV19kdlQwU1JWekpCZzhHUzBKTFJLNnZmb3UxMTFkbWo3V1VkeUtJZG5aLUR6TkpYX19vck04eERnQ1TSAbQBQVVfeXFMTldOVFFjWXhjZldSbHEtaEVBdHpJb0ttSUppazdyQnFZRnNvVjhzWjRCSjBrT1VOOE9MMlBXZFh1eDVob3pTSlFEZ1lWN2taLXpzay0yNi1aRTFrV1daQWRzTFZjMUhBeFM1UDB2ZFZYcC1VNHd5bDVtM1dfZHZUMFNSVnpKQmc4R1MwSkxSSzZ2Zm91MTExZG1qN1dVZHlLSWRuWi1Eek5KWF9fb3JNOHhEZ0NU?oc=5",
-   "source": "NST Online",
-   "feed": "NST Business",
-   "cat": "finance",
-   "published": "2026-11-22T01:26:48.000Z",
-   "desc": "",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
    "id": "39997968e30f",
    "title": "Security likely to be tightened at bases after 96.6kg drug discovery",
    "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/22/security-likely-to-be-tightened-at-bases-after-96-6kg-drug-discovery",
@@ -950,11 +1231,18 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkhJbW9oUndrT2U1bmduTUdyQmY4amhDT3lOYm9QS1lpVDFNekV2dExBc2VFQzRnNHQwNkJNM1k4VS1zck81QXM0THhWRlkzWU9SdzNGeUFDSWZjelJOS0JVVkJWdGExV2I0TU5OQ2l0VGNvWWFfempQTnA5a1Q3RmNldWIzcHZMOGc5WGtjQ25ZSndXa09BcEllN2U3NEVLdzFRa2JRcjE3Zw?oc=5",
    "source": "The Star",
    "feed": "The Star Business",
-   "cat": "finance",
+   "cat": "malaysia",
    "published": "2026-11-22T01:18:00.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "本地行政人员误信“朋友”推介，堕入60万令吉投资骗局",
+   "tags": [
+    "经济",
+    "银行"
+   ],
+   "short": "行政人员误信朋友被骗",
+   "key": "假投资骗走约60万令吉"
   },
   {
    "id": "b41be5e3c38f",
@@ -1083,9 +1371,15 @@
    "feed": "Al Jazeera",
    "cat": "world",
    "published": "2026-11-22T01:07:19.000Z",
-   "desc": "Moviegoers head for the exits as quake strikes Peru",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 2,
+   "ai": true,
+   "zh": "秘鲁突发地震，电影院观众慌忙疏散",
+   "tags": [
+    "气候"
+   ],
+   "short": "秘鲁突发地震",
+   "key": "观众紧急疏散避险"
   },
   {
    "id": "0accfbb4be94",
@@ -1132,9 +1426,37 @@
    "feed": "Free Malaysia Today",
    "cat": "malaysia",
    "published": "2026-11-22T01:00:00.000Z",
-   "desc": "Mengapa PRU16 bakal menjadi pertarungan sengit antara Zahid Hamidi dan Anwar Ibrahim yang masing-masing memiliki kelebihan dalam strategi serta percaturan politik.",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 4,
+   "ai": true,
+   "zh": "安华与扎希如何运筹帷幄，在布城权力博弈中占据先机",
+   "tags": [
+    "马来西亚政治"
+   ],
+   "short": "安华扎希布城权力博弈",
+   "key": "第16届大选竞争料激烈",
+   "sum": "分析指出，首相安华与副首相扎希在应对政局时各有政治策略与优势，这预示着第16届全国大选将是一场激烈的权力博弈。两位领袖的合作与博弈直接牵动团结政府的执政稳定性。朝野政党正积极布局未来的政权争夺战。",
+   "impact": {
+    "my": "可能影响团结政府的政策走向、政局稳定性及外资对大马政治长远走向的信心。",
+    "sea": null,
+    "world": null
+   },
+   "detailTried": true,
+   "detail": [
+    "政治分析预测，第16届全国大选在半岛的主要竞争将围绕希盟与国盟展开，但实质上是一场考验巫统主席扎希与首相安华政治智慧的策略博弈。",
+    "扎希擅长政治策略与谈判，其领导的巫统正积极拉拢马来选民，但仍需依靠国阵传统盟友来攻克非马来人及城市选区。",
+    "安华作为改革派领袖，擅长制定政策与长远布局，目前透过掌控国家预算和行政资源来稳扎稳打，应对寻求提前大选的扎希。",
+    "两人在政坛的交手长达三十年，扎希在1998年安华被革职后曾短暂跟随马哈迪，展现出注重实际利益的政治生存本能。",
+    "在2022年大选巫统仅赢下26席后，扎希顶住压力与安华合作出任副首相，并透过政府资源恢复巫统影响力。",
+    "总检察署在2025年12月给予扎希阿卡布迪基金会案47项贪污控状的释放不等于无罪裁决，引发批评但遭否认，扎希借此巩固马来团结叙事。",
+    "随着朝野政党积极排兵布阵，这场最高权力之争的最终结果将取决于半岛选民的抉择以及沙巴和砂拉越本土政党的取态。"
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/07/b7962fcd-anwar-ibrahim-dan-zahid-hamidi-pada-mesyuarat-kabinet-fb-pic-22726.webp",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "imgTried": true
   },
   {
    "id": "bdc3723f3912",
@@ -1213,6 +1535,24 @@
    ],
    "short": "菲副总统辩护遭质疑",
    "key": "承诺的关键证人未现",
+   "score": 2
+  },
+  {
+   "id": "1d56bf66da01",
+   "title": "Syed Saddiq’s Ironman finish comes 48 minutes too late for Muar’s RM200,000 pledge",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYXpCTy1EcW14dExudmNVbXRsVWZKSkJiYnZ6MHpLSVN5bXFqZG4tWmhwOWxJdEtRd1BnMi0wbkhGdlJRSm9RR0FLenhrV3BxdVpPVGtpbXFrSk1mOENXTGZYdTNMS2xJVFlvOUtlLUNwUU5wS2NpTFZ5OVNIMDY0WXJDRkhBazV0SzdXV0QtZDB2bkY3SnYybWIxMzJVNlgtc25ZOFdVTnlMMFpDYWUtbFZkY1pXRW85bnh1dTQ2cHBCTGkwbTYxVzZCSjNsMC1YeE440gHYAUFVX3lxTE14WlJrR3p0Q3ZkRm0zbmFYM1lnZmNYX1JsN0VWX29VaHd1and1RTVMa3RsTzRwV1czNWZ0Qnd3djN5UXIybnh2T0xsakxDZ3E2OGI0TjVRd014dkVZZmdia29kZ0JQaHlQRVpkWGU3WDZSVGNvckVLamozNDU5UTFDMHZUVWJ3NUg5V2lLWWp6ZVBGbEpZOEw4Z0Z0RVZOWHg0aGNKWWNCTDdLdE9JVHd5ZDdzQUtDb1hlMVdZRkRBVE14bnJqZHJJbkhsQjVfVE1wNWRyZGdtVQ?oc=5",
+   "source": "Malay Mail",
+   "feed": "Malay Mail",
+   "cat": "malaysia",
+   "published": "2026-11-22T00:56:10.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "赛沙迪完成铁人三项但错过麻坡筹款目标",
+   "tags": [
+    "马来西亚政治"
+   ],
+   "short": "赛沙迪完成铁人赛",
+   "key": "慢了48分钟错失二十万筹款",
    "score": 2
   },
   {
@@ -1451,11 +1791,19 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbk5nX3lQTUFxYTdTVTk4cTlmVFNGSXkyalY5aG9rVGdVQnE2WXAzS3p0STRNX1FVVUdHQUtsSTU5VFItQzR5Y0tSUjVzS3ZnRHBBUE1zQ1hMQi1QTnBwZkluV2tUU2k5Z0V0aHVBOGl4Xy1UWExXRnA0TFY3YVpjVFF0Zk1zU2plTFBnTm5rOGNtRENMd2hSNmxfdDloOVRjdE5abE5pd1ljZFdMTmfSAa4BQVVfeXFMUHBfZGU0b21kZDhIZ0c4WnJ5MEFBN25TZ3hrSXpRbmltVVJJdGRWTW91U0VMWkdZd2RGdkVHZ1d5S1k2OUs2a1hjOHlkbk9nR2pncGZPTVhqT3FyVG9TVWU3RnJPb3lmVVRxbUNDLW9ob3BoQk4yRkU3SDdWRTZBZG1QYlN0bGVrakVJVVhIN2tFYV9Eb2t2RTdTa21vbTBBemQ5bjluclU1TUZfZmlR?oc=5",
    "source": "South China Morning Post",
    "feed": "SCMP China",
-   "cat": "china",
+   "cat": "world",
    "published": "2026-11-22T00:00:12.000Z",
-   "desc": "",
    "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
+   "score": 3,
+   "ai": true,
+   "zh": "日防相高市早苗陷两难：弱势日元与特朗普的双重压力",
+   "tags": [
+    "汇率",
+    "国际政治",
+    "经济"
+   ],
+   "short": "高市早苗面临防务压力",
+   "key": "受困弱势日元与特朗普"
   },
   {
    "id": "a9414d6b26df",
@@ -1606,18 +1954,6 @@
    "score": 2
   },
   {
-   "id": "4cf85f0c8002",
-   "title": "- chinapress.com.my",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUUYzOVZLZFlPdGFETjNuOVpzRXoyWi1lbVJTVmVhcUg5dUIxa05kZkpNV2RYXzcxLW5LZ2prSzQzemJJdDZjdGh2d2JBSkVia1Jxc1E3cDFfa21OWlo3X3ctVDNjNnVFdHkwZmdNSjRNSzlpTFlfMFRneXlReS1NRnJtdFFwM0hqQTJmeldFOA?oc=5",
-   "source": "chinapress.com.my",
-   "feed": "中国报",
-   "cat": "malaysia",
-   "published": "2026-11-21T23:33:32.000Z",
-   "desc": "",
-   "fetched": "2026-11-22T03:32:13.500Z",
-   "score": 3
-  },
-  {
    "id": "3f07e6c3e422",
    "title": "Last week’s box office: Top two swap places as Johnny Depp misses top three",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQXzhiUU1BVjFDelF1akN2MXJzb0ZEYVJYOTl4d3U4eGl5Q3E1M01yUXBrMDdxWDZhRHY1Z0lLeF82dncyY0xaSGVsVGNjR2dNUGdhS1RVOHVpUWRneFRQajk1UUdXdk1SX0JOd2lXNXZlRTNnWWxyRk9wZ0dLWVBFRm9PTU95endMY1FvdU5UOWtBaThwc0NxekduTjZDVldrTGRRX1E0WDJleERDeEI1RnExdw?oc=5",
@@ -1647,6 +1983,24 @@
    "short": "伊朗面临无声经济战",
    "key": "总统称正遭经济战围困",
    "score": 2
+  },
+  {
+   "id": "9145cf5db127",
+   "title": "Omega 3 in Animal Feed Market Forecast to 2035, Driven by Aquaculture Demand and Algal Oil Adoption",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNDRKY1ZRTDhhOUpXbVBwQ2VjVVBDZ2drakhzVDFMOUJySkw5ai10ZzJXbWxwOHl3RlktNGIxSGI5Q1puTlZTbUJ6eW1lekxRYmFxdFRUZTNZZWk4cGVKQWNZSHlEUlAzbkpMdThjbmNEV0M0ZlZNSjhNcmk4Rnl3Q1RteUQwTjB5czhMSFNXZUVLR1V1SnRHd0xQVHo1MENMcW9NSWU2emcxTFU3X0o0ei11QU93ems0Nm81Y0JCVmxTX0lzWXUw?oc=5",
+   "source": "IndexBox",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T23:11:05.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "动物饲料中欧米伽3市场预测至2035年",
+   "tags": [
+    "经济"
+   ],
+   "short": "饲料欧米伽3市场增长",
+   "key": "水产养殖需求驱动藻油采用",
+   "score": 1
   },
   {
    "id": "148bb1f6a297",
@@ -2508,6 +2862,24 @@
    "desc": "",
    "fetched": "2026-11-22T02:58:23.536Z",
    "score": 3
+  },
+  {
+   "id": "a04a7716693b",
+   "title": "Oriental Rise Holdings Ltd (ORISF.PK) | Stock Price & Latest News",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmQkFUS0VyMjJ5bVUyOHN4UVA2VXR2c2dOUkRSS1M4NURPSnpIb09wbEtnNjNvc1poZTdjSnFyOUprZFdkRkpEODR3Y1ZKYWkzelVSYVlRWDY0UDNTbnI4N1hveXBJZXUwUTR3RmhPaHg?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-21T19:08:37.000Z",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "ai": true,
+   "zh": "东方崛起控股公司股价与最新消息",
+   "tags": [
+    "股市"
+   ],
+   "short": "东方崛起股价动态",
+   "key": "提供最新股票价格与资讯",
+   "score": 1
   },
   {
    "id": "034170feebdc",
@@ -3384,7 +3756,8 @@
    "published": "2026-11-21T15:45:00.000Z",
    "desc": "Negotiators expected a revised draft on November 20. But by the afternoon of November 21, with no new text on the table, hopes for significant changes have faded and frustration is mounting.",
    "fetched": "2026-11-22T02:58:23.537Z",
-   "score": 3
+   "score": 3,
+   "sum": "Negotiators expected a revised draft on November 20. But by the afternoon of November 21, with no new text on the table, hopes for significant changes have fade"
   },
   {
    "id": "543bd2973fb7",
@@ -3603,6 +3976,18 @@
    "score": 2
   },
   {
+   "id": "63f68bd88ef9",
+   "title": "Chinese politics",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43SmZyX1g0bzZCM3FycmxIUTB2SE9aTm5ycWVDeUJSVF9VaXFkVklYdWRiWkJrVjNGQUVFeTd4aEUzTWg0WEppVktHRVJCTGdjQjlEdVh1Sk4yamtzRnF4cU1HYkI?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T15:17:41.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
+  },
+  {
    "id": "ac3f47852a51",
    "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
    "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
@@ -3654,6 +4039,18 @@
    "published": "2026-11-21T15:15:24.000Z",
    "desc": "",
    "fetched": "2026-11-22T02:58:23.537Z",
+   "score": 3
+  },
+  {
+   "id": "90df492a06f0",
+   "title": "Articles by Goh Yi Jin | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CVGpGUXVKLUR1LUYyMEJSZVpPVWJ0ZnhFM2IwTlk2U2hiS1RMRmhRT09aZ0xwZXRNS1lrYjM5TkJIbzh1THgxOHpXaU9zNHBhSjFPSmtpNHZYUQ?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T15:14:58.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
    "score": 3
   },
   {
@@ -3717,6 +4114,18 @@
    "published": "2026-11-21T15:06:04.000Z",
    "desc": "",
    "fetched": "2026-11-22T02:58:23.537Z",
+   "score": 3
+  },
+  {
+   "id": "a1c42cf3f7c4",
+   "title": "Articles by Wendy Yang | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WVUYzM1ZYYTh2cVl3SF9zaDR2LUhoU05uLUFpb2hTUThYazJodU5hVE9US0tTYjZwTmNWZk9pMFF2ZXJiX2dVWjBUNnRyZlVhblNDOGRsRFRidw?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T15:02:33.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
    "score": 3
   },
   {
@@ -4218,6 +4627,30 @@
    ]
   },
   {
+   "id": "816db3c96854",
+   "title": "Civil Litigation | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EQzhMeW5aeU85bDdYaHpoZ0xwVnBFUUJ6M0RiWVF1Zmk3alpXeWpzUlc5X0lqeHdSMnNrbEdBYkN3MXBIQnhSSlQ2NjZTWERFckxzNm1lVG8zdkY1czY1aWdwVW8?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T14:02:37.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
+  },
+  {
+   "id": "0c3fec9a444e",
+   "title": "Why a slow-paced show about broken friendships is China’s antidote to AI fatigue",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZExfZ1JiWVV0OWNULWo4OVdXb3ZxNWc0Vk1KVXJZRzNBSHNaZnMxVUhNOUxkc19uTm5jNjg1LXR2b2lVVjRTdXFWZlVMRFIyTkVhUHNLbVBCMWYzZEEwby1wT09scDNpWXozUnhwY3BhdHY5bElrcVVTWG1WbDduRjFjdlZXNnlzTVVRdWg3cV9yNEt0dS12RXJqbHVwb3Q5MlUxZFFSd3JmYlA3aGZsZVNOdGZlRjVOSUpQU2RaOTE2VUh1bVY40gHHAUFVX3lxTE0xQnlQODM4RGhEekY1dm1DZ0R3MFF0MEdrdVBTWlZwbEZXMndBY0JNUWVCcU9ZdHE0cFNqNVdQTF9fSzVwcGVVTEZ2empwM0huUlRpQ1BGcjYybVNjSGZZekJzcG1PXzVadXQydHpteUkybU10Vkt6ZGsweFdRNWlmdk4tcUpPTU5fSkFPb2xYSnp4ZUh2cmYzVVBnemlDVVFBNENNa1duMWJtcVB5bzB2dXB2WElXZTBTdHNMb3NpaXVGMzhSWVU?oc=5",
+   "source": "South China Morning Post",
+   "feed": "SCMP China",
+   "cat": "china",
+   "published": "2026-11-21T14:00:05.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
+  },
+  {
    "id": "e74727ec8af7",
    "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
    "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
@@ -4681,6 +5114,18 @@
    "score": 3
   },
   {
+   "id": "1045c331418f",
+   "title": "3020.J3 - | Stock Price & Latest News",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpOVUtX0ducVhXcnJzbmFNTWU1LTk0R0FCNmRoZU5TWUlaSEFBT2xBYkJ4YWJjVjE1N1dZQW5hLUdob3ZuM1VkNTNyN28zMWhQZnhqaHZNVTJzWjBHU0F0UDJvMU9MdUdnNXdmWWdR?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-21T12:41:38.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
+  },
+  {
    "id": "53c4accc2919",
    "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
    "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
@@ -4764,6 +5209,18 @@
    "published": "2026-11-21T12:27:00.000Z",
    "desc": "",
    "fetched": "2026-11-21T16:44:09.067Z",
+   "score": 3
+  },
+  {
+   "id": "169a4d649ef9",
+   "title": "examination",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QREl0MkRwODhBakRHZmsybWpPTkYyeEw5eDkwaGd1SENFbVM2dG84cUhVdXRhVTBiakpvQ2RGdUQ0MWhZWXV1cDlEWURxUzkyREVMemcwWnd4VU5CQnc?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T12:25:08.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
    "score": 3
   },
   {
@@ -4909,7 +5366,17 @@
    "desc": "Proposal seeks to widen coalition's appeal among Malay voters.",
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
-   "sum": "Proposal seeks to widen coalition's appeal among Malay voters."
+   "sum": "Proposal seeks to widen coalition's appeal among Malay voters.",
+   "detailTried": true,
+   "detail": [
+    "土团党总秘书阿兹敏表示，他将把诚信党总秘书法依兹提出的“大帐篷”合作建议提呈给党最高领导层考虑。",
+    "该提议旨在第16届全国大选前扩大希盟的政治合作，将土团党等以马来人为主的政党纳入其中，以巩固马来选民的支持。",
+    "诚信党在近期马六甲州选全军覆没后提出这项倡议，认为政府施政表现尚未完全转化为选民支持，必须正视政治现实。",
+    "土团党此前在马六甲州选因谈判破裂而独立上阵但全军覆没，党魁慕尤丁先前也曾证实与其他政党探讨第16届大选的新政治联盟。",
+    "阿兹敏透露，双方目前仍处于非正式讨论阶段，土团党将评估细节再决定下一步行动。",
+    "在州级层面，土团党11名雪州议员早前表决支持雪州总值33亿令吉的2027年财政预算案，强调以民生和水灾危机为先。",
+    "在联邦层面，以慕尤丁为首的6名土团党国会议员已于10月底与政府签署信任与供应协议，跨党合作正逐步成形。"
+   ]
   },
   {
    "id": "700e6a70db92",
@@ -4922,7 +5389,17 @@
    "desc": "A nearly 10 km stretch of the Ho Chi Minh City-Long Thanh Expressway in Dong Nai has been widened to 10 lanes and will open to traffic on Sunday.",
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
-   "sum": "A nearly 10 km stretch of the Ho Chi Minh City-Long Thanh Expressway in Dong Nai has been widened to 10 lanes and will open to traffic on Sunday."
+   "sum": "A nearly 10 km stretch of the Ho Chi Minh City-Long Thanh Expressway in Dong Nai has been widened to 10 lanes and will open to traffic on Sunday.",
+   "detailTried": true,
+   "detail": [
+    "连接胡志明市与同奈省的胡志明市-隆城高速公路长达近10公里的路段已扩建至10车道，并将于周日正式开放通行。",
+    "该扩建项目于2025年8月动工，总投资额超过1万4945亿越南盾（折合约5.8亿美元），全长约22公里。",
+    "项目完成后将进一步强化胡志明市与越南最大机场隆城国际机场的交通连接，该机场预计于12月投入运营。",
+    "从周日起，车辆将被分流至新车道，以便施工方对原有路面进行翻新和升级改造。",
+    "作为项目核心部分，隆城大桥旁正在兴建一座长逾2公里、宽近24米的全新并行跨桥，预计在2027年第一季度完工。",
+    "全长55公里的胡志明市-隆城-敦杰高速公路自2015年开通以来，近年来因车流量巨大而在周末和公共假期频繁出现严重拥堵。",
+    "此次扩建工程整体已完成约81%，施工进度正全面加速，力争在2026年基本完工并全面提升通行效率。"
+   ]
   },
   {
    "id": "264c5c071204",
@@ -4935,7 +5412,17 @@
    "desc": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $240 million in a Series D round, capping a banner stretch that includes a $300 million order from FedEx and a new defense contract with the US military. Harbinger is stacking up […]",
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
-   "sum": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $"
+   "sum": "While legacy automakers tap the brakes on electric vehicles, one startup is hitting the accelerator. Earlier this month, electric truck maker Harbinger raised $",
+   "detailTried": true,
+   "detail": [
+    "电动卡车初创公司Harbinger在D轮融资中成功筹集2.4亿美元，并斩获联邦快递3.0亿美元的大笔订单及美国军方防务合同。",
+    "该公司选择避开竞争激烈的乘用车电动车市场，专攻大型车企忽视的中型商用货车和厢式卡车领域。",
+    "Harbinger由Canoo和法拉第未来等前员工于2021年创立，采用高度垂直整合的模式，在内部自主组装电池组和驱动单元。",
+    "传统车企如福特和通用汽车曾尝试进军中型商用车市场，但因销量低迷和失去联邦补贴而被迫取消相关电动车型。",
+    "面对柴油价格因地缘冲突飙升的现状，电动汽车能有效协助企业降低运营成本，使Harbinger迎来市场商机。",
+    "除了商用货车外，该公司还将业务拓展至能源储存领域，并与美国军方及企业合作开发自动驾驶混合动力军用补给车。",
+    "在获得巨额资金与重大合同后，Harbinger面临的最大挑战将是证明其具备实现大规模量产的可行性。"
+   ]
   },
   {
    "id": "115943d969e4",
@@ -4976,6 +5463,18 @@
    "score": 3
   },
   {
+   "id": "3472fef57a61",
+   "title": "Articles by Jacynth Wang | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qUXJGTG1SNnhrUWtsLTZxVUR6ZFN2b3BWRzVTQmdLRkJaaHVRRlBlSE9CdlBqQmEzTEtkcno4SXlyblFaVU1nLXZOZ29aSDNmYUM5U0g4TE1qeC00?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T11:44:24.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
+  },
+  {
    "id": "48e10a387b48",
    "title": "Why is GTA VI so expensive to play?",
    "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
@@ -4987,6 +5486,18 @@
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
    "sum": "Grand Theft Auto VI costs less than GTA V to buy, yet far more to play. AJLabs explains where the money goes."
+  },
+  {
+   "id": "8562d453000a",
+   "title": "Saving the Javan rhino requires more than relocation",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXo2cktrYVhOdXJvdnNZMUFsX0hjbVk3Q2p5U3Y2SUYwNmliRjBtaG9JN0Q2TVM4WTFXeWxRSk5JQjBDTGZOWGVBa29XSi1TZlVvRnl3VWs2U2hOZ3AyWVctQlBENmhTdFJPSHJ4d19VTXNRVTBPNEx2QzhkMkl1UUVMZFJBeXpWWHpSMGdQb0V2di1MejZyNGZWdEJPU2tzMzBMUg?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T11:37:30.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.662Z",
+   "score": 3
   },
   {
    "id": "d1bb5aa5dd45",
@@ -5133,7 +5644,8 @@
    "desc": "Around 300 migrants have crossed from Guatemala into Mexico, hoping to reach the United States.",
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
-   "sum": "Around 300 migrants have crossed from Guatemala into Mexico, hoping to reach the United States."
+   "sum": "Around 300 migrants have crossed from Guatemala into Mexico, hoping to reach the United States.",
+   "detailTried": true
   },
   {
    "id": "3f4caaf27bff",
@@ -5420,6 +5932,18 @@
    "score": 3
   },
   {
+   "id": "7ca0f2c5c333",
+   "title": "Bank of China Ltd (3988.F) | Stock Price & Latest News",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRXZrYmNyRjJhVnhOUTdPbkpjYjEwOTlBSWVuMURCVGRmd0I5UmlxM0diMHpjaHJuLXVqazZubXJVUkVkR25DOWpXYWo0eDRnX29sWm1kWVFRbkw3VWlJN2VkSW93Wm1NNkJqT2pvelE4Z0RUMHllZU92SHhFTXJVV1lzX1BfZl9a?oc=5",
+   "source": "Reuters",
+   "feed": "Reuters Markets",
+   "cat": "finance",
+   "published": "2026-11-21T10:01:33.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "9c82b560ad7c",
    "title": "Indonesian city Bima’s ex-narcotics chief gets 20 years’ jail for trafficking drugs",
    "url": "https://www.straitstimes.com/asia/se-asia/indonesian-city-bimas-ex-narcotics-chief-gets-20-years-jail-for-trafficking-drugs",
@@ -5481,6 +6005,18 @@
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
    "sum": "Exclusive: Countries at Cop31 are being urged to commit to deriving 35% of their energy from electricity by 2035 Cop31 live – latest updates China is pushing fo"
+  },
+  {
+   "id": "2277533874eb",
+   "title": "Singapore News | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZRjBjZ05EaU4xYjhmeGVaQ0J4UkhZb1RvRlJOd0hVZXhSbjFXTkRKZTRWRXRqMkRTbVMxZWwta3F0UEE0QmZzbmV0WmpBWm8?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T09:44:44.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
   },
   {
    "id": "12ae0e388d5d",
@@ -5606,6 +6142,18 @@
    "score": 3
   },
   {
+   "id": "4b098caf8ece",
+   "title": "Articles by Chua Wei Qian | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4Z093SUt4ZWE0Y3o1SGNmb2FwdFc2aTVkd3RhX2JubjN4TFY3bWhNU0c0dGhQRWtQTnd1d00tbWdKOXowVjI2NWV6aWQxZDAzUGx5WjRmNjFuOHNtelE?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T09:00:20.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "c68f4c02b30f",
    "title": "Latest",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9odEdJaVQtbnZWSkl2eU4zTUJ1TlFJa1VwYVlCeTdKV0k0OWpHajNYX0ZDWHMxWTgzUF81ODB4NEhUT2JPcWVjVzJpX3BjaHhjZ1JteWZpS25aVTZZS08yZVk4U3lfd21NMUE?oc=5",
@@ -5703,6 +6251,18 @@
    "fetched": "2026-11-21T16:44:09.067Z",
    "score": 3,
    "sum": "Hosting the summit offered Xi a platform to cast himself as a central player in managing global affairs, analysts said."
+  },
+  {
+   "id": "918fbafe4aed",
+   "title": "Nepal to seek measures to boost exports during PM’s India visit",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVkFmQnlMRlI4UENEZ000QWRZN2pmZV9CX2pZSGVWWGR0dDN1bXQwaVl1Y1d2eUNWNDl1Ri1LT1pHeEY1RFF2QlhkVVFFN1hGSG9tQzFNbk43UG1TUnZjdWlETFJ6N0pxTkE1bkVyaThYRm1RbVN1b1B6clVhRkhMc3ZRZUdUbHNBaXVKeDZENWVPbjNJQnlBU0FXRktHZ2NyVE92S01vS2hYUnNPYi1KTlhNQ2VDR3ByWTVwdmpKRndHRk0?oc=5",
+   "source": "The Star",
+   "feed": "The Star Business",
+   "cat": "finance",
+   "published": "2026-11-21T08:33:00.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
   },
   {
    "id": "6899c4628e5c",
@@ -5925,6 +6485,18 @@
    "score": 3
   },
   {
+   "id": "d908ee5bbe62",
+   "title": "Health and Wellness | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EWDVxemFYOXNhVFExTmVYTnI3S2FkOUs5RXVJS1BybmRHaUJpYnFCbEZYbG5IRnJfaEJGQUREdHA5RV9ZNjJlRlp3Q0Y1QkQ5Q2E2N2tyUHlRVnhXdmV5c3Zaa2xnVDlI?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T08:02:33.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "e8ac6f7d2627",
    "title": "Mainland Chinese travelling more but keeping a tighter grip on spending",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZE9Gc1kwTk5zZk9iNmZvT1J0RnFON2pNaDZUUWNhSkdsbmdhX3dtaGo5YkZVVnVYWE5yY19HVjhvN1BjTUZQZzBPZG1zZFp0OUJBOVVrUnh4TlNxdUdsTHVkVERZUTExR2hwdXlyRHZoMERLZU16bGZDSk1qa0dJRm96d0tRdnIyS0hoWUxINXY3OE5taXozWFVfRHNDcFdyRDB5VFhGNkhMN0ZmZF9hVmZVby1tM0VaVkJWNHJTcXItbmJsZTlGSmVyQXI0RVQyOFRWdDJ0d2JycHM00gHcAUFVX3lxTE5fSHpjTXFMWXBHTTI3d0x6Vnl3NFRpLXBsV1kzWXluR3RueFBwUDcxci1jVGVfX0hYaFpRbzJMaDB0Um1pNVVCdkZuaHZFOWM5emZfRmVCQzBKZExJYUJkYlZqYUhyLW5iQ3ZOMDZIUHRNMFNRbFZvemd6a0l5ci01M3BNcDZlX21YYmtORlEyQ1Rmb0U1dnV4TXZTUVJBc0lWZE1kcDRVZHJXYU5HeVdENUpkU05xOVZzR2I1ajFhYmVKcTNVM3F3T0hSWEZhSmxYVUNsZ1ltdmNnMks?oc=5",
@@ -5965,6 +6537,18 @@
    ],
    "short": "新国大排名跃居全球第二",
    "key": "跨学科科学排名超越斯坦福仅次麻省理工",
+   "score": 3
+  },
+  {
+   "id": "5bc12b7adf70",
+   "title": "Articles by Kerr Puay Hian | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE14U3hkVlpERS1LRzl3Nm10TG9tTWt0N01WSmJKV1k0cVlUODRpdXV0MnpNOVVVQ0MzbW5KTjczUGVDVjZQTnpIWmM0dDZqLTBRZEhkdF9TaTBTUWpUYk1R?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T07:58:45.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
    "score": 3
   },
   {
@@ -6236,6 +6820,18 @@
    ],
    "short": "乌救援队遭俄军二次空袭",
    "key": "急救队现场施救时再遭飞弹打击",
+   "score": 3
+  },
+  {
+   "id": "e3720d5669b4",
+   "title": "Federal Govt Pushes Production-Driven Economy As Non-Oil Exports Hit $6.1bn",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2s4MzdYSHN5MHFKbVc2b19COFc0UGdiQ0hfTmJvXzdMeENGZ0kyZXdPeExoUExGWTBPeXo4bjZoV2Vmd2I2NTJTclRnNm5OazBjeDV4LW11Y1d4eTk5ckRQQkRpMDluYnpJV2MweFIzOVF0VUxwdVhQLTdPaGpuUzQ3akV4TlJMRGhVRDJoOHA4TXlraWwyRDN0Q2R4dw?oc=5",
+   "source": "LEADERSHIP Newspapers",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T07:11:09.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
    "score": 3
   },
   {
@@ -7162,6 +7758,18 @@
    "score": 3
   },
   {
+   "id": "191154f6dbfa",
+   "title": "World News: Today's Breaking News, Headlines, and Opinion",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE14cTJSLXZSeGNnbGJpaUNqV2ZPRUhxQnA4enhMeUtGZElZTE5Cb3ZIa0JINFZteDdBdmd1UlVKeEhzc0l6bjVDVDRqZWc?oc=5",
+   "source": "The Jakarta Post",
+   "feed": "Jakarta Post",
+   "cat": "sea",
+   "published": "2026-11-21T05:49:25.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "70058c4d649e",
    "title": "Mat Sabu: Reject calls for Malay unity that shield corrupt leaders",
    "url": "https://www.malaysiakini.com/news/889558-mat-sabu-reject-calls-for-malay-unity-that-shield-corrupt-leaders",
@@ -7413,6 +8021,18 @@
    "score": 1
   },
   {
+   "id": "83e8ae15c0b8",
+   "title": "Articles by Sierra Zhang | Lianhe Zaobao",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OVkJkTDJPRUJFTXZtaTYzWm5GTm50ZUZieUM1YUhENzh6czJ1WXZEYjdnV08yX1BSelhpRGxYY3JPdi00andUR0pMWXh6dWY5aGRnZlVxQzJYVWFH?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T05:20:26.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "f0205efa4fe3",
    "title": "Azizulhasni bawa nama UKM ke Olimpik LA 2028 sebagai Duta Global",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcDZfUkhBVnM2QWlzQTE0VnZaLWlKNGgybk5nM3V5SXN4UWhmNUdiUk1jVnBQM3g3WU5odVozV096VHFPSHVaM0llSU9PUTlPSTNKZ1laemxfRzFYQjRieFFlT1hUb1FUQWk2eTRxT0hDd2J5ak1vblFDWWlSYzBwNWtjV3FOWnhFME91UlpaWjF5U01IZ0p6RGJjV0ZNNnc4RTd0cnp0azVFWG5qazRNajhRaTVjTzdpWDRtUV85dWbSAcYBQVVfeXFMUDJWTzVaSzVhNWF6azJYNnlyZl9aellqNnJvZjMxOEN5U25HU2Y5QkMtNDdiSlhSUWZUcFpoYU05TTkzOGQ4N29sT3pIbE1sUlVXNU1ya1FXaGdUcEtrbVE5bTMxZkVqNUVvTWQ3dW41bzBJenFBMDluUW9rMzF6RXNHYmRkM2xIbThMemgyWm5vcUdQaDNYUlM1UElQVWx6S09GTnhpWnpYcTF1ZkRkSG04dHRJRHVpRTBxZlppQkxTd3hMcE53?oc=5",
@@ -7434,6 +8054,18 @@
    "published": "2026-11-21T05:13:49.000Z",
    "desc": "",
    "fetched": "2026-11-21T16:44:09.068Z",
+   "score": 3
+  },
+  {
+   "id": "29a3f54b394a",
+   "title": "UK stocks sink as global selloff weighs on banks and miners",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNcThNbEhJUUVZOG5VVkx5UGZpOU9jSWhLc1J2eTNZMWkxWS05eHlhQlEtOVZlSEpEb1dyQmkyQ0VuYVROVEJBLXR3S25PSHZLTHVEZHRmZ3RTWWR6YXF3VjNpb2JXMm5JYVhmenpnYm1Mb0ZjVEc0RDdTQTJCMzlaQXlvakdMZ1M1bWVYeGloWkRodkZQWEFJcWQyRmpIMlFQeWpIMFFNa0tuTDd0THVHOEVsX1pGLUtzcHpRaXJVbWFMZWJYX3lSc0FkcmZpdXpYZ0lLOUFFYmIzQUdwX0E?oc=5",
+   "source": "The Economic Times",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T05:12:07.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
    "score": 3
   },
   {
@@ -7555,6 +8187,18 @@
    "score": 3
   },
   {
+   "id": "8324bba1c410",
+   "title": "BLACKPINK",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QcG1aZFllZ3hGa1VWTGszckNzc0txZ2tFZDhQVVFMbFlYdEx4bGFCUFhKbjk4N0JGWW9DU3NuVE4zXzlKOVlWeGdWN1NobUxzeUh6MGJjb0JReGM?oc=5",
+   "source": "联合早报",
+   "feed": "联合早报",
+   "cat": "world",
+   "published": "2026-11-21T04:56:36.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "43dd23a865d0",
    "title": "Vietnam Is Set to Overtake Indonesia in GDP per Capita. What Comes Next?",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HUjRCQWhGZkFfYzVsSWJzMkF4dF9sLUJfUzRqR0JpVjUyX1F3RHk1bTVZQmhyWVBrYnp2Qk1aQlpKODhYYWxHU1BOUG8wOEprWTRGQTZQci1DaXFqSkJuRGZuUmdaM2JmRG1xZWdRd19nV2kzUkRF?oc=5",
@@ -7603,6 +8247,18 @@
    "score": 3
   },
   {
+   "id": "1e04252dcda6",
+   "title": "From Philippine Durian to Chongqing EVs, Businesses Seek New ASEAN-China Deals",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaEViN3Zyd2JzazZEMHphRmUyRzlPTGwyUHhjTmFpTWxicFNJaWJRb3MtbUN3ZzJ0X1lhWEs1NkVmRjNCLWYyWURXOTlqcTB6X2tZNEMtb1BZM3lKck5fT1pxRl9ibXhQM2FPaWVwb2owN3ZtUkVreUF1SmdfQmw0bWUzakdmUUJXUnl6NjRoLWtTOGNPWmpfa3MyQUVNaXkyUHdaSjE5SS1BRDAxWTVyNXNSWmFFZWZU0gG-AUFVX3lxTE1DN1NqQ1RFZXRBWC1qTjBkYk85Q1p5ZFFsMFp5R2IzWEphbU1EWWZpbFZoS3JBeUNSZ1hMMUFydVNfLS1rbmk2d0dHQWxGdmZ0QlVrX0NOUmlJazVVR2JNeFhsaWpHendtam82THdvMlV1Q2xJWl9rTUNodmpHSllzWFg4ZGU3WG8yUlEzQk9YNG9URVFqa1lMU001TnNHNnhNOVlHS2R6dk9PRlJQQUJVbGx3cUx6X0RYY2laaHc?oc=5",
+   "source": "iChongqing",
+   "feed": "SEA news",
+   "cat": "sea",
+   "published": "2026-11-21T04:44:11.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
+  },
+  {
    "id": "e75debc60ef6",
    "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
    "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
@@ -7624,6 +8280,18 @@
     "警方在逮捕该少年时，当场缴获了一定数量的可卡因、三部手机以及现金。",
     "警方此前曾于11月16日公开呼吁公众协助识别“Onepercent”的真实身份，希望有知情人士能提供线索以瓦解有组织犯罪网络。"
    ]
+  },
+  {
+   "id": "052746028933",
+   "title": "USD/JPY Weekly Outlook: Yen Carry Unwind Risks Flash Red",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQk5Ja2tkZGE3cHdtVUh5R3NvbXNGeHBkTFBMTHc0cHQ4YTl1YzExYXNXNDFqTkVLNmREOEt2NUdMRHZ2aEhwMk1WczdVQ1hxNWNDaEtic21IWTFxVVJhcGp1U0lnczI0N0VFVm5HZTB1aGxBSDJiQkdjUEFFZTNzV1c0Z2tnaVRzTGRsNndkNlZjd2RIVGNEbUpEX1ZldUpnNTByRQ?oc=5",
+   "source": "FOREX.com",
+   "feed": "Global markets",
+   "cat": "finance",
+   "published": "2026-11-21T04:40:31.000Z",
+   "desc": "",
+   "fetched": "2026-11-22T03:59:47.663Z",
+   "score": 3
   },
   {
    "id": "63a9f0ea4997",
@@ -10675,8 +11343,7 @@
     "此前不久，OpenAI在9月份也曾宣称利用其人工智能工具解决了纳维尔-斯托克斯方程的部分难题，引发了学术界的争议。",
     "尽管人工智能在高等数学上取得了一系列进展，但部分学者批评科技公司过度夸大成果，认为这构成了对知识工作的普遍威胁。",
     "专家指出，无论是Anthropic还是OpenAI的最新成果，都需要经过全球数学专家数月甚至更长时间的严格评审才能确认其有效性。"
-   ],
-   "_img": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg"
+   ]
   },
   {
    "id": "08acbc1c55d7",
@@ -16753,8 +17420,7 @@
     "美联储官员近期接连释放鹰派信号，其中费城联储主席安娜·保尔森暗示通胀过高需要再次加息。",
     "市场目前预期美联储在12月会议上加息的概率高达98.4%，即将公布的个人消费支出数据将指引未来的货币政策方向。",
     "与此同时，国际油价因供应过剩预期连续第三周下跌，而投资者也在密切评估川普与中俄领导人会晤后的地缘政治局势。"
-   ],
-   "_img": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/04/e7178e1a-12796253_1600x1000_1.webp"
+   ]
   },
   {
    "id": "cb9f9423964b",
@@ -17256,7 +17922,8 @@
     "缅甸官方对裁决结果表示不满，批评该决定不公且未经全票通过，但国际法院的终审裁决具有法律约束力，缅甸必须履行。",
     "法律专家指出，这项判决可能严重削弱缅甸军方领导人敏昂莱等人的合法性，并对国际刑事法院（ICC）的相关审判产生连锁效应。",
     "分析认为，这一历史性裁决也可能令其他面临种族灭绝指控的国家和政府在国际上面临更严格的审查。"
-   ]
+   ],
+   "_img": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR"
   },
   {
    "id": "17ed4b065d02",
@@ -17616,8 +18283,7 @@
     "追踪指数的基金预计将在年底前吸纳高达30%的股份，有望为股价提供潜在支撑。",
     "散户在首日交易中表现活跃，交易额创下自2012年有记录以来的首次公开招股新高。",
     "此次市场反应为整个人工智能热潮敲响警钟，投资者的关注点随后将转向传闻明年上市的OpenAI。"
-   ],
-   "_img": "https://dam.mediacorp.sg/image/upload/s--hZJ3ukf---/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-19T231911Z_3_LYNXNPEMAI2JV_RTROPTP_3_ANTHROPIC-IPO-NASDAQ.JPG?itok=Nz32dczn"
+   ]
   },
   {
    "id": "5adb22313fa5",
@@ -18697,7 +19363,8 @@
     "针对中国法官的立场，郭嘉昆回应称，陪审团成员是依据国际法和案件事实独立且专业地履行职责。",
     "目前有超过一百万罗兴亚人生活在孟加拉国，多在2017年逃离缅甸的军事迫害。",
     "联合国秘书长古特雷斯敦促缅甸当局允许被驱逐的罗兴亚难民安全返回家园。"
-   ]
+   ],
+   "_img": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/be362aef-61ea-4370-b235-fb4ab69fe2f5-14456296_cropped_1.webp"
   },
   {
    "id": "8bd76ee26afb",
@@ -18817,8 +19484,7 @@
     "sea": "区域内的难民安置问题可能受到各国的持续关注与探讨。",
     "world": "跨国难民安置合作受到国际人道主义组织和相关国家的关注。"
    },
-   "detailTried": true,
-   "_img": "https://cassette.sphdigital.com.sg/image/zaobao/831f893da518464ad09db401681357fb5a64d46edbf83a17214981a80b648707"
+   "detailTried": true
   },
   {
    "id": "32c8ff00dc9d",
@@ -19005,7 +19671,8 @@
     "国际法院以9比6的投票结果通过裁定，并指出虽然难以取得官方文件，但可通过大规模暴行的行为模式推断出种族灭绝意图。",
     "这项裁定厘清了举证标准，也将对南非控告以色列在加沙地带对巴勒斯坦人实施种族灭绝的案件产生深远影响。",
     "尽管裁定为罗兴亚人带来了迟来的公义和慰藉，但由于国际法院没有强制执行机制，当地难民的困境短期内难以彻底改善。"
-   ]
+   ],
+   "_img": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg"
   },
   {
    "id": "cb6585ed2b00",
@@ -19352,7 +20019,8 @@
     "东盟目前估计价值1万亿美元的综合数字经济规模，预计将在2030年前翻倍至2万亿美元。",
     "协议为区域内的数字贸易、跨境电商和电子支付建立了统一且安全的规则与系统，保障交易的高效和互信。",
     "微型、小型和中型企业及劳动者将从中受惠，获得进入更多市场及参与数字服务和创意产业的新机遇。"
-   ]
+   ],
+   "_img": "https://pna.gov.ph/_assets/storage/photo-assets/kyS6xIPWGqZjHJuVfuVBxaPSqyzc13S449bKm4Pj.webp"
   },
   {
    "id": "f90cfa4ee4f6",
@@ -19840,8 +20508,7 @@
     "与此同时，美国公众对人工智能引发的失业潮及庞大资源消耗感到担忧，导致多地通过资料中心开发限制令。",
     "英伟达首席执行官黄仁勳因个人丑闻辞职，加上公司股价自高点下跌三成，使市场开始寻找新的行业领袖。",
     "尽管面临泡沫化与监管隐忧，投资者因害怕错过机会的热情依然高涨，此次首次公开募股认购申请量超过供应量六倍。"
-   ],
-   "_img": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg"
+   ]
   },
   {
    "id": "aff768dd0726",
@@ -21397,8 +22064,7 @@
     "my": "这项政策可能强化东马的边境安全与移民管控，减少非法移民对当地社会的冲击。",
     "sea": "此举可能对区域内难民流动的管控政策产生一定的示范或溢出效应。",
     "world": "这反映出大马在处理难民和边境管控问题上正采取更为收紧的本土政策。"
-   },
-   "_img": "https://s.malaysiakini.com/i/d36KHZ-BBLXosV0whdOZEC5JXRg=/1200x0/filters:strip_exif()/file/1333/a2fc3c9726bfbc53cc1c75d0074d850f.jpeg"
+   }
   },
   {
    "id": "85766ef099d9",
@@ -23979,286 +24645,6 @@
    "published": "2026-11-19T21:51:38.000Z",
    "desc": "",
    "fetched": "2026-11-20T13:37:16.035Z",
-   "score": 3
-  },
-  {
-   "id": "f2dddf2ea7d8",
-   "title": "These tech outages are giving Y2K, AI agent style",
-   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
-   "source": "TechCrunch",
-   "feed": "TechCrunch",
-   "cat": "tech",
-   "published": "2026-11-19T21:42:31.000Z",
-   "desc": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something dee"
-  },
-  {
-   "id": "58092317bcef",
-   "title": "Gold the top commodity pick for 2027 even as broader commodities likely to underperform – Morgan Stanley",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdlhJdHg0aEg5QXkwU0VUNXJCazVXaTlEQ0NjZ1pRRnEtNHJvaGFrWnFUVHUyVU1pSkRiemxWMld1czNOdDFYb3pERnZzN0w2OHhyc29Sbk80N0g2NVFQUmR2YW5QSlNBQ1BocHRpXzRDZ0lWZC1HTjh2Uzd5VDNyVlZPMDhma0dJUzk2V1A4bmZPaTBiVXFMUWtBdUwzajJSbW94ZG03Z29MUHlwLWpLTWxiQzVQc2FWZGFn?oc=5",
-   "source": "Kitco",
-   "feed": "Kitco",
-   "cat": "finance",
-   "published": "2026-11-19T21:30:14.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:37:16.035Z",
-   "score": 3
-  },
-  {
-   "id": "6138e3836df1",
-   "title": "Highway Industry Must Be Open To Media Criticism – Nanta",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43MHNkbDJwYV80VEFITVBOemhwcnVBenhuNmcyMlZYeDVscS14Ykp2dEpDNDREdmg3TkR2NGdHN3VNYVJYeG5rZFRTRURQMllMRkpnamc1eTZfZw?oc=5",
-   "source": "bernama",
-   "feed": "Bernama",
-   "cat": "malaysia",
-   "published": "2026-11-19T21:25:05.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3
-  },
-  {
-   "id": "7a3963926359",
-   "title": "Meta now sells 3D movies on Quest VR headsets",
-   "url": "https://www.theverge.com/tech/1038157/meta-quest-vr-3d-movies-tv-app",
-   "source": "The Verge",
-   "feed": "The Verge",
-   "cat": "tech",
-   "published": "2026-11-19T21:12:06.000Z",
-   "desc": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are available in Meta's TV app and include titles like Avatar, Spider-Man: Far From Home, Jurassic World Rebirth, Wicked: For Good, and a Billie […]",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Meta now offers more than 150 3D movies that you can buy or rent to watch in VR on its Quest 3 and 3S headsets, the company announced today. The movies are avai"
-  },
-  {
-   "id": "13f85371cec9",
-   "title": "Trump says nuclear arms limits with China, Russia will be very hard to achieve",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMVJxajFFWVpKWFIzZjFkQjg3bzRfeTRmbGdhX0JtYmhXMDFiSDhmZ012TXRfUTYxOG8yNXQ1NFBWTWp5NDRIdzludmtZS0xGLXNENE5LNHo0Zk01OHR4S2hRZFhjRUZKMkRRdHBiQm1BTFluWWVzTTJORmluTXNCSWxmUV8xVEJ3Vlc4Q1l5NU9sQ3VxUzlMOEZUa21nZW11UFZtb3lVNGlEaGdNb25WazZISXFhQXY5dG1OZzVGUS0zN2pMTFE?oc=5",
-   "source": "Reuters",
-   "feed": "Reuters Markets",
-   "cat": "finance",
-   "published": "2026-11-19T21:09:00.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3
-  },
-  {
-   "id": "6a4b0057745a",
-   "title": "Intuit to sell Mailchimp at about a third of its 2021 purchase price, shares slump",
-   "url": "https://www.channelnewsasia.com/business/intuit-sell-mailchimp-about-third-its-2021-purchase-price-shares-slump-6567301",
-   "source": "CNA Business",
-   "feed": "CNA Business",
-   "cat": "finance",
-   "published": "2026-11-19T21:07:19.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "2f50068d9d55",
-   "title": "Putin proposes second humanitarian ceasefire — is it a trap?",
-   "url": "https://www.dw.com/en/putin-proposes-second-humanitarian-ceasefire-is-it-a-trap/a-79996772?maca=en-rss-en-world-4025-rdf",
-   "source": "DW",
-   "feed": "DW",
-   "cat": "world",
-   "published": "2026-11-19T20:53:00.000Z",
-   "desc": "Russian President Putin has suggested evacuating civilians from the embattled Ukrainian city of Kostiantynivka. But experts warn this could serve military, not humanitarian, aims. What should Kyiv do?",
-   "fetched": "2026-11-20T18:30:44.920Z",
-   "score": 3,
-   "sum": "Russian President Putin has suggested evacuating civilians from the embattled Ukrainian city of Kostiantynivka. But experts warn this could serve military, not "
-  },
-  {
-   "id": "ab4cde291418",
-   "title": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
-   "url": "https://www.dw.com/en/humanitarian-mission-for-kostiantynivka-is-it-a-trap/a-79996772?maca=en-rss-en-world-4025-rdf",
-   "source": "DW",
-   "feed": "DW",
-   "cat": "world",
-   "published": "2026-11-19T20:53:00.000Z",
-   "desc": "Russian President Putin has proposed an evacuation of the Ukrainian city of Kostiantynivka, like the recent operation in Oleshky. Experts warn this could serve military, not humanitarian, aims. What should Kyiv do?",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Russian President Putin has proposed an evacuation of the Ukrainian city of Kostiantynivka, like the recent operation in Oleshky. Experts warn this could serve "
-  },
-  {
-   "id": "99553a6ab17a",
-   "title": "AI surge could strain US capacity and overheat economy, Fed's Goolsbee says",
-   "url": "https://www.channelnewsasia.com/business/ai-surge-could-strain-us-capacity-and-overheat-economy-feds-goolsbee-says-6567271",
-   "source": "CNA Business",
-   "feed": "CNA Business",
-   "cat": "finance",
-   "published": "2026-11-19T20:37:11.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "b0341a0ae375",
-   "title": "Meta’s Muse Charm might cost $300",
-   "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-   "source": "The Verge",
-   "feed": "The Verge",
-   "cat": "tech",
-   "published": "2026-11-19T20:22:17.000Z",
-   "desc": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but […]",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO M"
-  },
-  {
-   "id": "a3f0de4cd9e3",
-   "title": "Meta to price Muse Charm gadget at $300, The Information reports",
-   "url": "https://www.channelnewsasia.com/business/meta-price-muse-charm-gadget-300-information-reports-6567231",
-   "source": "CNA Business",
-   "feed": "CNA Business",
-   "cat": "finance",
-   "published": "2026-11-19T20:16:49.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "62d75bd78986",
-   "title": "Japanese investors sought $9.4 billion of shares in Anthropic IPO, sources say",
-   "url": "https://www.channelnewsasia.com/business/japanese-investors-sought-94-billion-shares-in-anthropic-ipo-sources-say-6567206",
-   "source": "CNA Business",
-   "feed": "CNA Business",
-   "cat": "finance",
-   "published": "2026-11-19T20:07:17.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "4a3c8ccbfdfd",
-   "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&amp;at_campaign=rss",
-   "source": "BBC World",
-   "feed": "BBC World",
-   "cat": "world",
-   "published": "2026-11-19T20:07:02.000Z",
-   "desc": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands."
-  },
-  {
-   "id": "debb2745feba",
-   "title": "China-centred order or host duties? Experts weigh in on Xi-Trump-Putin seating",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT1NKU1VNU1kxWXpYcmdEQ0lyOWlqSlVYUlRXMENVc29XdS1zUGotTXlqVks4WnZ1TEtjX2dUYVI4Xzc2RjRjMUI0aUgyZ0RvT0xmb1ZLWmMwVUFLTFExWmpxaXdDazRUZHFIUjg2bzJHOUljNWFqRjdlUldTa0xHMGNyaC1QRm1UOWhBWXRwM2ZTS3J2azRlZHlNMGxYZVIxOU4wcnVfVHFWQW9qZlpNNFRjUXBCSnY2ODJR0gG7AUFVX3lxTE84X2tDNE5YdENKSlFSRGlRUlpNbF9tRFRIZ0o3Sks3bGxNaWJ4ODBXYnZlZFpXcDIzNDNWVnV5VkZONk1uRnNqYjlubnJ2azFRVHk0eXdHeUQyTlBiS1ZqQ3N2S3QtVGVEeU9DSHRlMTVKWTJKcHNXTDhyMWpWY01NSFI4bF9xSHN0TVQ2Y0hLaUJKS1FhR0VRM09kUWYydW11a01VT3FrM2NxYW9JYUpCZWU5ZVFLbEFjc0U?oc=5",
-   "source": "South China Morning Post",
-   "feed": "SCMP China",
-   "cat": "china",
-   "published": "2026-11-19T20:05:44.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3
-  },
-  {
-   "id": "6900f6014b2a",
-   "title": "Google is putting AI chats right on the homepage",
-   "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
-   "source": "The Verge",
-   "feed": "The Verge",
-   "cat": "tech",
-   "published": "2026-11-19T20:05:06.000Z",
-   "desc": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsibl"
-  },
-  {
-   "id": "cfc45da501c8",
-   "title": "For the first time, UN’s highest court finds a country responsible for genocide: Myanmar",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUGx4TzFaSGk2N3lyTXBVRkEtazdmRjNrcy1TZzN1M2dLNlJEZlRDRFY5cXlKT2s0a09fc05FYW9DT3pFeUd0d0VaaVJtRmkzbFBpcWZ0RnVFQUFjUFFCZVBNVlNPUHNZaGs0ZVkyMDdiXzhubDJmUFBIZVNnbkxCLWNMbmJvQUcxTGtqLTB5M1F1YUdvMFRGZjNsMA?oc=5",
-   "source": "AP News",
-   "feed": "AP News",
-   "cat": "world",
-   "published": "2026-11-19T20:05:00.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3
-  },
-  {
-   "id": "ee22b96368ba",
-   "title": "Why the World Court's genocide verdict has significance way beyond Myanmar",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlbFVBZVkxWHdDd2NPU0VVNUJTS0R0U2xmMlRKNHVpZEdudUUtTWh6Vzc3UHRXeUNnOGM1ZWltVktrMm1QTUtkOXV2RjNVSF9lZnkyUlRxMkl2Uy1ielpuSTNoQkphb1U?oc=5",
-   "source": "Reuters",
-   "feed": "Reuters World",
-   "cat": "world",
-   "published": "2026-11-19T19:44:18.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T18:30:44.920Z",
-   "score": 3
-  },
-  {
-   "id": "4500a48207cf",
-   "title": "FCC greenlights rule allowing prisons to jam cellphone signals",
-   "url": "https://www.theverge.com/policy/1037987/fcc-prison-cellphone-signal-jamming",
-   "source": "The Verge",
-   "feed": "The Verge",
-   "cat": "tech",
-   "published": "2026-11-19T19:40:28.000Z",
-   "desc": "The Federal Communications Commission voted unanimously to allow state and local prisons to jam cellphones. In an announcement on Thursday, the FCC argues the rule will help combat an \"influx of contraband cellphones\" used to carry out crimes from prison. Jammers are generally banned under Section 333 of the Communications Act of 1934, though they're […]",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "The Federal Communications Commission voted unanimously to allow state and local prisons to jam cellphones. In an announcement on Thursday, the FCC argues the r"
-  },
-  {
-   "id": "b4ccb03d3681",
-   "title": "Uganda minister at COP31: 'We need a just transition'",
-   "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-world-4025-rdf",
-   "source": "DW",
-   "feed": "DW",
-   "cat": "world",
-   "published": "2026-11-19T19:31:00.000Z",
-   "desc": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3,
-   "sum": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country"
-  },
-  {
-   "id": "9cd20387d3ef",
-   "title": "China-Africa economic, trade expo opens South Africa session",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaEZUT0YyWnNkdkNqc3FYTVpHcEphZDl0NTNNb1dhNzNmWnk5SEJNMXZTUDFwc3VuZkZQQ3IyN3ZOWHZCcXktSGkxSTRZNFd3cHU4QmVhdjFaOHE2Z3MzUnFIMFdJTVR2dnh6UWNaRV92N1cyOTc1aHRLRXVDYXc5YnBXaGRCaDFkWkNNSy1VS1dYTVUyaWdBX2hCSTJlNWhoSU1fN1JVaUpzZzA1?oc=5",
-   "source": "The Star",
-   "feed": "The Star Business",
-   "cat": "finance",
-   "published": "2026-11-19T19:29:00.000Z",
-   "score": 3,
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "8889f174524e",
-   "title": "US ⁠judge allows Trump’s $15bn lawsuit against New York Times to proceed",
-   "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-lawsuit-new-york-times",
-   "source": "The Guardian Business",
-   "feed": "The Guardian Business",
-   "cat": "finance",
-   "published": "2026-11-19T19:27:51.000Z",
-   "score": 3,
-   "sum": "Trump alleges defamation by three Times reporters and Penguin Random House in campaign against news outlets A federal ⁠judge in Florida on Thursday said Donald ",
-   "fetched": "2026-11-20T08:37:32.177Z"
-  },
-  {
-   "id": "58151fc67388",
-   "title": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but deliver no breakthroughs",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZko0TjU0LUdSMUxlTkNVcnJsSThoSFo5Y2ZuamRVQ2tidnZQa2M5N1o0dlpndmptSGxNTGhYYS1IUXVKMjZibjFPcWVURHJRaHNfclhIMHlSVFdIN3VkZUxFVEo5Z1JoZFR0bkdHOUd1UUNuNXRCVDBKUlhPaGItcmVfY09NQ1U5WmhHYzRNZHdtWDVVay1JalhlNA?oc=5",
-   "source": "AP News",
-   "feed": "AP News",
-   "cat": "world",
-   "published": "2026-11-19T19:24:00.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T13:21:00.153Z",
-   "score": 3
-  },
-  {
-   "id": "495c5e06a425",
-   "title": "medication",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TdE9odGxIeUQ3NmxpZnpXX0s5Tjl5NmJJc1JDWGpyZ05yZkp2UE8yWVVYZ1Y0S3FPYnJwbmtIM29PZHhjcVp6SXNJU1JNOFUwOU9mLXY4Y216SzB0?oc=5",
-   "source": "联合早报",
-   "feed": "联合早报",
-   "cat": "world",
-   "published": "2026-11-19T19:23:19.000Z",
-   "desc": "",
-   "fetched": "2026-11-20T09:57:25.800Z",
    "score": 3
   }
  ]
