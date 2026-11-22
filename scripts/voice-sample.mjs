@@ -1,5 +1,6 @@
 // One-off: make a sample clip with Google's Gemini voice, for comparing voices (samples/google-*.mp3).
-import { writeFile } from 'node:fs/promises';
+import { writeFile, mkdir } from 'node:fs/promises';
+await mkdir('samples', { recursive: true });
 import { execFileSync } from 'node:child_process';
 const KEY = process.env.GEMINI_API_KEY;
 const T = '乐乐新闻大事件。中美俄三国领导人在亚太经合组织峰会期间，举行了历史性的三方峰会，发表了联合公报，并讨论了核风险及全球事务，但外界认为，象征意义大于实质突破。与此同时，马来西亚首相安华、新加坡总理黄循财，也分别同中国领导人展开双边会谈。金价方面，九九九黄金每克四百六十七令吉。';
