@@ -1,0 +1,4 @@
+kokoro-onnx==0.6.1
+misaki[zh]
+soundfile
+cn2an
