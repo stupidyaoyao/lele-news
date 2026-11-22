@@ -366,3 +366,10 @@ html[data-theme="dark"] .bd.g { background: #14281b; }
 .tg-nav { display: flex; gap: .6rem; margin: .4rem 0 .6rem; } .tg-nav .btn { flex: 1; justify-content: center; height: 3.2rem; font-size: 1rem; font-weight: 800; }
 .tg-nav .btn:disabled { opacity: .4; }
 .c-main .meta { flex-wrap: nowrap; } .c-main .meta > span:nth-child(2) { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .c-main .meta .readmark { flex: none; }
+
+/* 👑 管理 */
+.admin .label { font-size: .8rem; font-weight: 800; color: var(--muted); margin: 1.1rem 0 .5rem; letter-spacing: .05em; }
+.avatar.sm { width: 2.4rem; height: 2.4rem; font-size: 1rem; }
+.feed { background: var(--card); border: 1px solid var(--line); border-radius: 1rem; padding: .3rem .8rem; }
+.feed-row { display: flex; gap: .6rem; padding: .45rem 0; border-bottom: 1px solid var(--line); font-size: .88rem; line-height: 1.5; }
+.feed-row:last-child { border-bottom: 0; } .feed-row > .note { flex: none; width: 2.8rem; }

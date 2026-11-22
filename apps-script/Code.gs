@@ -34,6 +34,8 @@ const LABELS = {
   search: '🔍搜索', finish: '✅今天看完', settings: '改设置', topics: '改类别', tab: '切换页面', gold: '💰看金价',
   gold_range: '💰金价走势', login: '登入', switch_user: '换人登入', logout: '🚪退出',
   mute: '少推荐', unmute: '恢复推荐', undo: '↩撤销', listen_story: '🎧听这则',
+  event_open: '📌看大事件', line_open: '📌看分线', together: '📰一起读', follow: '📌追踪大事件', unfollow: '取消追踪',
+  heat_info: '🔥看热度说明', listen_event: '🎧听大事件', listen_line: '🎧听分线', listen_text: '🎧听一篇',
 };
 
 function sheet_(name, headers) {
@@ -60,7 +62,7 @@ function doPost(e) {
   try {
     const p = JSON.parse(e.postData.contents);
     const events = Array.isArray(p.events) ? p.events.slice(0, 300) : [];
-    logEvents_(p, events.filter((e) => e.ev !== 'hist' && e.ev !== 'sync'));
+    logEvents_(p, events.filter((e) => e.ev !== 'hist' && e.ev !== 'sync' && e.ev !== 'ping')); // ping = "app still open", only updates 最近活动
     updateUser_(p, events);
     updateFavs_(p, events);
     updateHist_(p, events);
@@ -91,7 +93,59 @@ function doGet(e) {
       .filter(Boolean);
     return ContentService.createTextOutput(JSON.stringify({ favs })).setMimeType(ContentService.MimeType.JSON);
   }
+  if (action === 'admin') {
+    return ContentService.createTextOutput(JSON.stringify(admin_(e.parameter))).setMimeType(ContentService.MimeType.JSON);
+  }
   return ContentService.createTextOutput('乐乐新闻 tracker is running ✅');
+}
+
+// ---------- 👑 管理 (owner only, needs the 6-digit PIN saved in Script Properties as ADMIN_PIN) ----------
+const iso_ = (v) => { if (v instanceof Date) return v.toISOString(); const d = new Date(String(v).replace(' ', 'T') + '+08:00'); return isNaN(d) ? '' : d.toISOString(); };
+function admin_(q) {
+  const pin = PropertiesService.getScriptProperties().getProperty('ADMIN_PIN');
+  if (!pin) return { error: 'nopin' };
+  const cache = CacheService.getScriptCache();
+  const fails = Number(cache.get('adminFails') || 0);
+  if (fails >= 5) return { error: 'locked' };
+  if (String(q.pin || '') !== String(pin).trim()) { cache.put('adminFails', String(fails + 1), 900); return { error: 'wrong', left: Math.max(0, 4 - fails) }; }
+  cache.remove('adminFails');
+
+  // people: newest row per name from 用户总览 (one row per phone)
+  const byName = {};
+  sheet_(USERS, USER_HEADERS).getDataRange().getValues().slice(1).forEach((r) => {
+    const k = key_(r[1]); if (!k) return;
+    const u = { name: r[1], city: r[2], os: r[5], first: iso_(r[6]), last: iso_(r[7]), opens: Number(r[8]) || 0, days: Number(r[9]) || 0, streak: Number(r[10]) || 0, readToday: Number(r[11]) || 0, size: r[12], phones: 1 };
+    const o = byName[k];
+    if (!o) { byName[k] = u; return; }
+    const keep = o.last >= u.last ? o : u;
+    keep.opens = o.opens + u.opens; keep.days = Math.max(o.days, u.days); keep.first = o.first < u.first ? o.first : u.first; keep.phones = o.phones + 1;
+    byName[k] = keep;
+  });
+  const users = Object.values(byName).sort((a, b) => (b.last || '').localeCompare(a.last || ''));
+  const cut = Date.now() - 3 * 60e3;
+  const online = users.filter((u) => u.last && Date.parse(u.last) >= cut).map((u) => u.name);
+
+  // recent actions (last 3000 rows)
+  const sh = sheet_(EVENTS, EVENT_HEADERS);
+  const last = sh.getLastRow();
+  const from = Math.max(2, last - 2999);
+  const rows = last >= 2 ? sh.getRange(from, 1, last - from + 1, EVENT_HEADERS.length).getValues() : [];
+  const evs = rows.map((r) => ({ t: iso_(r[0]), name: r[1], city: r[2], what: r[3], title: r[4], detail: r[5], os: r[8] })).filter((x) => x.t);
+  const feed = evs.slice(-50).reverse();
+  const today = Utilities.formatDate(new Date(), TZ, 'yyyy-MM-dd');
+  const isToday = (t) => Utilities.formatDate(new Date(t), TZ, 'yyyy-MM-dd') === today;
+  const t = {};
+  evs.filter((x) => isToday(x.t) && x.name && x.name !== '(未登入)').forEach((x) => {
+    const k = key_(x.name);
+    const o = t[k] || (t[k] = { name: x.name, first: x.t, last: x.t, actions: 0, reads: 0, listens: 0, city: x.city, os: x.os, logins: 0 });
+    o.last = x.t; o.actions++;
+    if (/详细版|已读|看分线/.test(x.what)) o.reads++;
+    if (/🎧/.test(x.what)) o.listens++;
+    if (/登入/.test(x.what)) o.logins++;
+  });
+  const out = { online, users, today: Object.values(t).sort((a, b) => b.last.localeCompare(a.last)), feed, at: new Date().toISOString() };
+  if (q.who) { const k = key_(q.who); out.person = evs.filter((x) => key_(x.name) === k).slice(-30).reverse(); }
+  return out;
 }
 
 function logEvents_(p, events) {

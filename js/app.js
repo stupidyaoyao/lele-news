@@ -624,6 +624,7 @@ function renderMine() {
       <div class="me-name">${esc(displayName())}${profile.owner ? ' 👑' : ''}</div>
       <button class="round" data-action="logout" aria-label="换人">${ic('users')}</button>
       <button class="round" data-action="open-settings" aria-label="设置">${ic('gear')}</button></div>
+    ${profile.owner ? `<button class="mrow" data-action="open-admin" style="background:var(--ink);color:var(--bg);border:0"><span style="font-size:1.6rem">👑</span><span class="m-txt"><b>管理 · 谁在用</b><span style="color:inherit;opacity:.75">在线、今天、所有人、最新动作</span></span><span class="chev">${ic('chev')}</span></button>` : ''}
     <div class="stats">
       <div class="stat"><span class="c-accent">${ic('flame')}</span><b>${streakNow()}</b><span>连续天数</span></div>
       <div class="stat"><span class="c-up">${ic('eye')}</span><b>${H.length}</b><span>看过</span></div>
@@ -1263,6 +1264,7 @@ function pushState() {
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-action]'); if (!b) return;
   if (b.closest('#onboarding') && b.dataset.action !== 'privacy-more') return; // setup has its own handler
+  if (adminAction(b.dataset.action, b)) return;
   const a = b.dataset.action, id = b.dataset.id;
   const topicsChanged = () => { const sc = $('#setchips'); if (sc) sc.innerHTML = chipsHtml(); if (speakCtx === 'digest') stopSpeaking(); render(); };
   switch (a) {
@@ -1329,7 +1331,7 @@ $('#tabbar').addEventListener('click', (e) => {
 });
 // phone back button closes the top overlay
 window.addEventListener('popstate', () => {
-  for (const id of ['#together', '#reader', '#line', '#event', '#search', '#settings', '#goldpage']) if (!$(id).hidden) { closeOverlay(id); return; }
+  for (const id of ['#admin', '#together', '#reader', '#line', '#event', '#search', '#settings', '#goldpage']) if (!$(id).hidden) { if (id === '#admin') closeAdmin(); closeOverlay(id); return; }
 });
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) flush(true);
@@ -1339,6 +1341,8 @@ document.addEventListener('visibilitychange', () => {
 // ---------- boot ----------
 renderTabbar(); render(); load();
 setInterval(load, 10 * 60 * 1000);
+// "still here" signal every 2 minutes while the app is open (for 👑 管理 → 在线); not shown in 动作记录
+setInterval(() => { if (curKey && !profile.owner && !document.hidden) track('ping'); }, 120000);
 if (!curKey) openOnboarding(0);
 else if (!profile.onboarded) openOnboarding(1);
 geo().then(() => { track('open'); flush(); loadWeather(); });

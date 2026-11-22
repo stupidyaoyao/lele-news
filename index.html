@@ -2,6 +2,7 @@
 <html lang="zh-CN" data-theme="auto" data-size="normal">
 <head>
 <meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>乐乐新闻 Happy News</title>
 <meta name="description" content="每天10分钟，看完或听完你要的新闻">
@@ -21,7 +22,7 @@
     document.documentElement.dataset.size = p.size || 'normal';
   } catch (e) {}
 </script>
-<link rel="stylesheet" href="css/app.css?v=21">
+<link rel="stylesheet" href="css/app.css?v=22">
 </head>
 <body>
 <main id="app">
@@ -48,13 +49,15 @@
 <div class="overlay" id="event" hidden></div>
 <div class="overlay" id="line" hidden></div>
 <div class="overlay" id="together" hidden></div>
+<div class="overlay" id="admin" hidden></div>
 <div class="overlay onb" id="onboarding" hidden></div>
 <div class="modal-bg" id="modal" hidden></div>
 <div class="undo" id="undo" hidden role="status"></div>
 <div class="toast" id="toast"></div>
 
-<script src="js/config.js?v=21"></script>
-<script src="js/events.js?v=21"></script>
-<script src="js/app.js?v=21"></script>
+<script src="js/config.js?v=22"></script>
+<script src="js/events.js?v=22"></script>
+<script src="js/admin.js?v=22"></script>
+<script src="js/app.js?v=22"></script>
 </body>
 </html>
