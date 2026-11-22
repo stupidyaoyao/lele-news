@@ -889,9 +889,6 @@ function openSettings() {
       <button data-set="theme" data-v="dark" class="${profile.theme === 'dark' ? 'on' : ''}">🌙 黑色</button>
       <button data-set="theme" data-v="auto" class="${profile.theme === 'auto' ? 'on' : ''}">📱 跟手机</button></div></div>
     <div class="set-group"><h4>今日要闻的类别</h4><div class="chips" id="setchips" style="flex-wrap:wrap;padding:0">${chipsHtml()}</div></div>
-    <div class="set-group"><h4>在哪里听</h4><div class="seg">
-      ${[['car', '🚗 开车'], ['ear', '🎧 耳机'], ['speaker', '🔊 外放']].map(([k, l]) => `<button data-set="listenOut" data-v="${k}" class="${profile.listenOut === k ? 'on' : ''}">${l}</button>`).join('')}</div>
-      <p class="note">选「开车」：按收听会直接打开大按钮的驾驶模式。</p></div>
     ${installGuideHtml()}
     ${autoGuideHtml()}
     <div class="set-group"><h4>收听速度</h4><div class="seg">
@@ -1334,8 +1331,8 @@ document.addEventListener('click', (e) => {
     case 'go-news': go('news'); { const d = digest(); const r = readSet(); const nx = d.all.find((x) => !r.has(x.id)); if (nx) setTimeout(() => document.getElementById(`c-${nx.id}`)?.scrollIntoView({ block: 'center' }), 50); } break;
     case 'go-live': go('live'); break;
     case 'go-mine': if (b.dataset.m) mineTab = b.dataset.m; go('mine'); break;
-    case 'listen-all': listenKeys(digestKeys(), { label: '今日要闻', digestMode: true }, () => { track('listen'); startSpeaking('digest', buildDigestQueue()); }); break;
-    case 'drive-now': profile.listenOut = 'car'; touchSettings(); openDrive(); break;
+    case 'listen-all': listenKeys(digestKeys(), { label: '今日要闻', digestMode: true, startScreen: true }, () => { track('listen'); startSpeaking('digest', buildDigestQueue()); }); break;
+    case 'drive-now': openDrive(); break;
     case 'drive-start': playKeys(digestKeys(), { label: '今日要闻', digestMode: true }).then((ok) => { if (!ok) toast('今天的录音还在准备中，请稍后再试'); }); break;
     case 'close-drive': closeDrive(); break;
     case 'au-toggle': auToggle(); break;
@@ -1346,7 +1343,7 @@ document.addEventListener('click', (e) => {
     case 'pick-all': { const d = digest(); const all = [...activeEvents().slice(0, 3).flatMap(eventKeys), ...d.all.map((x) => x.id)]; picked = picked.length === all.length ? [] : all; render(); break; }
     case 'pick-play': case 'pick-drive': {
       const keys = [...picked]; pickMode = false; picked = []; render();
-      if (b.dataset.action === 'pick-drive') { profile.listenOut = 'car'; openDrive(); playKeys(keys, { label: '我选的' }); }
+      if (b.dataset.action === 'pick-drive') { openDrive(); playKeys(keys, { label: '我选的' }); }
       else listenKeys(keys, { label: '我选的' }, () => toast('选的新闻还没有录音，请稍后再试'));
       break;
     }

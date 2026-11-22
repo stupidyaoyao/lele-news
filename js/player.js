@@ -162,30 +162,36 @@ function setAuIcon() {
 function showAuPlayer() { $('#player').hidden = false; document.body.classList.add('playing'); setAuIcon(); onAuTime(true); }
 
 // ---------- how are you listening? 🚗 / 🎧 / 🔊 ----------
+// asked every time you start listening (Frank, 22 Nov); the last choice is highlighted
 function chooseOut(then) {
-  if (profile.listenOut) { then(profile.listenOut); return; }
+  const last = profile.listenOut || '';
+  const hi = (k) => (k === last ? 'border-color:var(--accent);background:var(--accent-soft);' : '');
   const m = $('#modal');
   m.innerHTML = `<div class="modal" role="dialog" aria-modal="true"><p style="font-weight:900">你在哪里听？</p>
     <div class="stack">
-      <button data-m="car" style="height:auto;padding:.8rem 1rem;text-align:left"><b>🚗 开车</b><br><span class="note">大按钮的驾驶模式，蓝牙或 CarPlay 都可以</span></button>
-      <button data-m="ear" style="height:auto;padding:.8rem 1rem;text-align:left"><b>🎧 耳机</b><br><span class="note">走路、搭车时用，耳机按钮可以控制</span></button>
-      <button data-m="speaker" style="height:auto;padding:.8rem 1rem;text-align:left"><b>🔊 手机外放</b></button>
-    </div><p class="note" style="margin:.6rem 0 0">会记住你的选择，可以在设置里改。</p></div>`;
+      <button data-m="car" style="height:auto;padding:.8rem 1rem;text-align:left;${hi('car')}"><b>🚗 开车</b><br><span class="note">大按钮的驾驶模式，蓝牙或 CarPlay 都可以</span></button>
+      <button data-m="ear" style="height:auto;padding:.8rem 1rem;text-align:left;${hi('ear')}"><b>🎧 耳机</b><br><span class="note">走路、搭车时用，耳机按钮可以控制</span></button>
+      <button data-m="speaker" style="height:auto;padding:.8rem 1rem;text-align:left;${hi('speaker')}"><b>🔊 手机外放</b></button>
+      <button data-m="cancel" style="border:0;background:none;color:var(--muted)">取消</button>
+    </div></div>`;
   m.hidden = false;
   m.onclick = (e) => {
     const k = e.target.closest('[data-m]')?.dataset.m;
-    if (e.target === m) { m.hidden = true; return; }
-    if (k) { m.hidden = true; profile.listenOut = k; touchSettings(); then(k); }
+    if (e.target === m || k === 'cancel') { m.hidden = true; return; }
+    if (k) { m.hidden = true; profile.listenOut = k; saveProfile(); then(k); }
   };
 }
 // main entry: play these keys (falls back to the phone voice when nothing is recorded)
 async function listenKeys(keys, opts = {}, fallback) {
   const go = async (out) => {
+    // 🚗 for today's news: open the start screen (▶ 播今天全部 / ☑ 自己选) instead of starting right away
+    if (out === 'car' && opts.startScreen && !sess) { openDrive(); return; }
     if (out === 'car') openDrive(false);
     const ok = await playKeys(keys, opts);
     if (!ok && fallback) { if (out === 'car') closeDrive(); fallback(); }
   };
-  if (profile.listenOut) await go(profile.listenOut); else chooseOut(go);
+  if (!$('#drive').hidden) { await go('car'); return; } // already in 驾驶模式
+  chooseOut(go);
 }
 
 // ---------- 选几则 (pick mode in 要闻) ----------
@@ -268,7 +274,7 @@ function closeDrive(fromBack = false) {
 let driveSig = '';
 function renderDrive(full = true) {
   const el = $('#drive');
-  if (!sess && drivePicking) { renderDrivePick(); driveSig = ''; return; }
+  if (drivePicking) { renderDrivePick(); driveSig = ''; return; }
   if (!sess) {
     const all = driveItems();
     el.innerHTML = `<div class="drive"><div class="dv-top"><b>🚗 驾驶模式</b><button class="dv-exit" data-action="close-drive">退出</button></div>
@@ -291,7 +297,7 @@ function renderDrive(full = true) {
     return;
   }
   driveSig = sig;
-  el.innerHTML = `<div class="drive"><div class="dv-top"><b>🚗 驾驶模式</b><button class="dv-exit" data-action="close-drive">退出</button></div>
+  el.innerHTML = `<div class="drive"><div class="dv-top"><b>🚗 驾驶模式</b><span><button class="dv-exit" data-action="drive-pick" style="margin-right:.4rem">☑ 自己选</button><button class="dv-exit" data-action="close-drive">退出</button></span></div>
     <div class="dv-mid"><div class="dv-kicker">第 ${i + 1} / ${sess.chapters.length} 则${c.extra ? ' · 未读新闻' : ''}</div>
       <div class="dv-title">${esc(c.title)}</div>
       <div class="dv-bar"><i style="width:${pos / len * 100}%"></i></div><div class="dv-time"><span>${fmt(pos)}</span><span>${fmt(len)}</span></div></div>
@@ -346,7 +352,8 @@ function driveAction(a, b) {
     case 'drive-go': {
       const keys = driveItems().filter((i) => drivePicked.has(i.id)).flatMap((i) => i.keys);
       drivePicking = false; track('drive_pick', null, { n: drivePicked.size });
-      playKeys(keys, { label: '我选的' }); return true;
+      if (sess) auStop();
+      openDrive(); playKeys(keys, { label: '我选的' }); return true;
     }
   }
   return false;
@@ -357,7 +364,7 @@ function startFromHash() {
   const h = location.hash;
   if (!curKey || !['#drive', '#listen'].includes(h)) return;
   history.replaceState(null, '', location.pathname);
-  if (h === '#drive') { profile.listenOut = profile.listenOut || 'car'; openDrive(); }
+  if (h === '#drive') openDrive();
   else {
     const m = $('#modal');
     m.innerHTML = `<div class="modal" role="dialog" aria-modal="true"><p style="font-weight:900;font-size:1.2rem">🎧 听今天的新闻</p>
