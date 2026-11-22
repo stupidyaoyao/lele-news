@@ -178,32 +178,38 @@
     },
     {
      "id": "493f4a17-2",
-     "t": "新加坡总理黄循财访华及双边会晤",
+     "t": "黄循财会见李强达成多项协议",
      "ids": [
       "3e11c67b2837",
-      "c073df4bb7ca"
+      "c073df4bb7ca",
+      "2b1c270f952c"
      ],
      "w": {
-      "short": "黄循财访华双边会晤",
-      "key": "新加坡总理黄循财访华与中国领导人会晤，谈及经贸合作与防范信誉滥用。",
-      "title": "新加坡总理黄循财访华会见中国领导人，探讨双边合作与半导体出口管控",
-      "summary": "新加坡总理黄循财近日对中国展开工作访问，在北京分别与中国领导人举行双边会晤，双方探讨了深化各领域合作及即将召开的新中双边合作联合委员会会议。黄循财在受访时表示，新加坡欢迎中国真诚投资，但也高度警惕并防范企业滥用新加坡信誉来规避美国出口管制。",
+      "short": "黄循财访华会见李强",
+      "key": "黄循财访华会见李强达成多项合作共识",
+      "title": "新加坡总理黄循财访华会见李强，探讨深化各领域合作",
+      "summary": "新加坡总理黄循财访问中国并会见中国国务院总理李强，双方回顾了双边关系进展。两国领导人探讨了在多个领域的务实合作，并强调在复杂多变的国际环境中加强伙伴关系的重要性。",
       "common": [
        {
-        "t": "新加坡总理黄循财对中国展开访问并举行双边会晤。",
+        "t": "新加坡总理黄循财在北京与中国国务院总理李强举行双边会谈。",
         "src": [
          "The Straits Times",
-         "联合早报"
+         "联合早报",
+         "Malay Mail"
         ]
        }
       ],
       "single": [
        {
-        "t": "黄循财指出新加坡警惕中国企业滥用信誉规避美国芯片出口管制。",
+        "t": "黄循财表示欢迎中国真诚投资，但对滥用新加坡信誉规避美国出口管制的行为表示关切。",
         "src": "The Straits Times"
        },
        {
-        "t": "黄循财在北京宣布新中双边合作联合委员会会议预计将取得20多项合作成果。",
+        "t": "李强表示中国愿与新加坡加速推进中新自由贸易协定4.0升级谈判。",
+        "src": "Malay Mail"
+       },
+       {
+        "t": "黄循财提到即将召开的新中双边合作联合委员会会议预计将取得20多项合作成果。",
         "src": "联合早报"
        }
       ],
@@ -211,8 +217,8 @@
       "unknown": null,
       "impact": {
        "my": null,
-       "sea": "新加坡与中国的紧密双边合作及对区域稳定的重视，对东南亚区域经济格局有积极作用。",
-       "world": "中美在半导体等科技领域的出口管制与供应链动向持续受到国际关注。"
+       "sea": "新加坡明年将担任东盟轮值主席国，新中加强合作与自由贸易协定升级有助于推动区域经济一体化。",
+       "world": "在复杂多变的全球环境中，新中两国强调维护多边贸易体制与开放型世界经济。"
       },
       "people": [
        "Lawrence Wong",
@@ -223,7 +229,7 @@
        {
         "id": "3e11c67b2837",
         "t": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
-        "says": "黄循财在结束访华行程时表示，新加坡欢迎中国真诚投资，但正密切关注并防范企业滥用新加坡名义规避美国出口管制。",
+        "says": "黄循财指出中国企业投资带来实际效益，但担忧有人滥用新加坡信誉规避美国出口管制。",
         "same": [
          "黄循财访华"
         ],
@@ -232,8 +238,19 @@
        {
         "id": "c073df4bb7ca",
         "t": "新加坡总理黄循财在北京会见中国国务院总理李强",
-        "says": "黄循财在北京与中国总理李强举行双边会谈，双方回顾了新中全方位高质量的前瞻性伙伴关系，并期望双边合作取得更多成果。",
+        "says": "黄循财在北京与李强举行双边会谈，指出全球环境复杂下深化新中伙伴关系的重要性。",
         "same": [
+         "会见李强",
+         "黄循财访华"
+        ],
+        "view": null
+       },
+       {
+        "id": "2b1c270f952c",
+        "t": "黄循财会见李强，新中同意加速自贸协定升级谈判",
+        "says": "李强在会谈中表示中国愿与新加坡加速自贸协定4.0谈判，并深化各领域务实合作。",
+        "same": [
+         "会见李强",
          "黄循财访华"
         ],
         "view": null
@@ -241,9 +258,9 @@
       ]
      },
      "loose": true,
-     "sig": "aa9e405e",
+     "sig": "df72c55b",
      "v": 2,
-     "at": "2026-11-22T11:11:53.653Z",
+     "at": "2026-11-22T18:30:50.268Z",
      "img": {
       "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
       "credit": "The Straits Times",
@@ -252,7 +269,7 @@
     },
     {
      "id": "493f4a17-3",
-     "t": "欧盟印尼签署自贸协定降关税",
+     "t": "关税取消与签署历史性协定",
      "ids": [
       "396def59db66",
       "ae393107aeab",
@@ -1036,23 +1053,39 @@
      "source": "NST Online",
      "cat": "sea",
      "published": "2026-11-21T23:58:42.000Z"
+    },
+    "2b1c270f952c": {
+     "id": "2b1c270f952c",
+     "title": "Singapore, China to speed up talks on FTA upgrade as Wong meets Li in Beijing",
+     "zh": "黄循财会见李强，新中同意加速自贸协定升级谈判",
+     "short": "新中加速自贸协定谈判",
+     "url": "https://www.malaymail.com/amp/news/singapore/2026/11/22/singapore-china-to-speed-up-talks-on-fta-upgrade-as-wong-meets-li-in-beijing/244274",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-22T02:24:08.000Z",
+     "sum": "新加坡总理黄循财在北京会见中国总理李强，双方同意加快推进自由贸易协定升级谈判。此举旨在深化两国经贸合作，并应对当前复杂的区域与国际环境。双方展现了进一步加强双边经济伙伴关系的意愿。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/22/375721.webp?v=1795320000",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
     }
    },
-   "name": "欧盟与印尼签署自贸协定",
-   "en": "European Union Indonesia free trade agreement",
-   "wiki": "European Union–Indonesia Free Trade Agreement",
-   "cat": "world",
-   "last": "2026-11-22T11:06:08.835Z",
+   "name": "新加坡总理黄循财访华",
+   "en": "Lawrence Wong visit China Beijing",
+   "wiki": "Singapore–China relations",
+   "cat": "china",
+   "last": "2026-11-22T18:29:48.483Z",
    "hidden": false,
-   "short": "欧盟印尼签署自贸协定",
-   "key": "欧盟与印尼正式签署自由贸易与投资保护协定",
-   "overview": "欧盟与印尼在布鲁塞尔签署全面经济伙伴关系协定，覆盖7.3亿人口市场；同时，APEC峰会期间中美俄互动、新中双边会晤以及欧盟英国脱欧后关系重建也备受瞩目。",
+   "short": "黄循财访华会见李强",
+   "key": "新中深化合作与自贸协定谈判",
+   "overview": "新加坡总理黄循财访问中国并会见李强，双方探讨了务实合作，并预期将在多领域达成多项协议与倡议。",
    "minorText": [],
    "links": [
     {
-     "from": "493f4a17-3",
-     "to": "493f4a17-1",
-     "t": "欧盟与印尼签署自贸协定旨在美中贸易困难之际保持开放"
+     "from": "493f4a17-1",
+     "to": "493f4a17-2",
+     "t": "新加坡总理黄循财与中国领导人会晤，推进多领域协议"
     }
    ],
    "img": {
@@ -1062,14 +1095,362 @@
    },
    "heat": {
     "score": 5,
-    "sources": 20,
-    "stories": 35,
-    "gdelt": {
-     "ratio": 10.3,
-     "share": 0.0185
+    "sources": 21,
+    "stories": 36,
+    "gdelt": null,
+    "wiki": {
+     "title": "Singapore–China relations",
+     "views": 2,
+     "ratio": 7
     },
-    "wiki": null,
-    "at": "2026-11-22T11:14:11.287Z"
+    "at": "2026-11-22T18:32:20.311Z"
+   }
+  },
+  {
+   "id": "6e6b7acb",
+   "first": "2026-11-21T22:12:19.702Z",
+   "lines": [
+    {
+     "id": "6e6b7acb-1",
+     "t": "协议草案僵局与延时谈判",
+     "ids": [
+      "a3764b25182c",
+      "b7be9e2e4afd",
+      "c3012d485eca",
+      "6b56be4bc539",
+      "89090d2f3063",
+      "4e24f14be340",
+      "688095944714",
+      "cf86cc1e39a1",
+      "9167ab9ea179",
+      "eadc5b447bb3",
+      "e0aab1d66fdb",
+      "ed7322a5b6c5"
+     ],
+     "w": {
+      "short": "气候大会延时陷入僵局",
+      "key": "第31届联合国气候大会因化石燃料等议题分歧陷入僵局并超时谈判。",
+      "title": "第31届联合国气候大会陷入僵局：化石燃料去留引发超时谈判",
+      "summary": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方因协议草案剔除化石燃料内容而陷入严重僵局。欧盟及多个国家对此强烈不满并威胁退出，沙特等产油国则主张移除相关表述。大会主席国正紧急斡旋，力求在最后期限前达成妥协。",
+      "common": [
+       {
+        "t": "第31届联合国气候大会因分歧陷入超时谈判",
+        "src": [
+         "France 24",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "最新协议草案删除了关于化石燃料的内容",
+        "src": [
+         "France 24",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "欧盟及多国对草案剔除化石燃料表示强烈不满",
+        "src": [
+         "France 24",
+         "BBC World",
+         "NST Online"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "大会可能首次承认全球气温升幅超过1.5摄氏度的目标已经错过",
+        "src": "BBC World"
+       },
+       {
+        "t": "非洲国家在大会上喊话称他们不是来乞讨的",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC World"
+        ],
+        "t": "本次峰会应聚焦于落实和向清洁能源转型，因此无需在协议中强制纳入关于化石燃料的措辞。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World",
+         "NST Online"
+        ],
+        "t": "协议若不提及化石燃料或缺乏实质内容是不可接受的，这触及了应对气候变化的根本红线。"
+       }
+      ],
+      "unknown": "目前尚不确定在延时谈判的最后期限前，各方是否能彻底化解分歧并最终签署全球气候协议。",
+      "impact": {
+       "my": "极端天气和全球气候变化可能对马来西亚的农业、水资源及沿海地区产生长期影响。",
+       "sea": "东南亚地区正面临气候相关灾害和极端天气的威胁，全球气候协议的走向将直接影响区域减排与适应能力。",
+       "world": "全球各国在化石燃料和减排目标上的博弈，将决定国际社会应对气温上升和气候危机的整体成效。"
+      },
+      "people": [],
+      "photo": "climate change conference negotiation",
+      "per": [
+       {
+        "id": "a3764b25182c",
+        "t": "联合国气候变化大会成史上最糟糕一届？",
+        "says": "由于政治领导力有限及官僚延误，舆论质疑本次大会有效性并讨论其是否为最糟一届。",
+        "same": [
+         "气候大会有效性受质疑"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7be9e2e4afd",
+        "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+        "says": "大会进入加时阶段，修订后草案删除了化石燃料内容，引发欧盟及十多国强烈不满。",
+        "same": [
+         "大会陷入超时谈判",
+         "草案剔除化石燃料",
+         "欧盟不满"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "c3012d485eca",
+        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+        "says": "谈判因对早期草案的批评而超时，欧盟警告若无实质内容峰会将沦为化石燃料峰会。",
+        "same": [
+         "谈判超时"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "6b56be4bc539",
+        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+        "says": "各部长力争将摆脱油气煤的承诺写回协议，澳大利亚代表则认为峰会应聚焦清洁能源转型。",
+        "same": [
+         "化石燃料存分歧"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "89090d2f3063",
+        "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
+        "says": "大会因化石燃料争议进入延时，多国批评最新草案删除了相关表述并削弱了减排力度。",
+        "same": [
+         "大会陷入超时谈判",
+         "草案剔除化石燃料"
+        ],
+        "view": null
+       },
+       {
+        "id": "4e24f14be340",
+        "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+        "says": "化石燃料谈判陷入僵局，COP31气候峰会延时进行。",
+        "same": [
+         "大会陷入超时谈判"
+        ],
+        "view": null
+       },
+       {
+        "id": "688095944714",
+        "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+        "says": "非洲国家在联合国气候变化大会喊话称我们不是来乞讨的。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "cf86cc1e39a1",
+        "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+        "says": "气候谈判进入加时赛，草案剔除煤油气引发退场威胁，主席国正紧急斡旋求取妥协。",
+        "same": [
+         "大会陷入超时谈判",
+         "草案剔除化石燃料"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "f357f6ae",
+     "v": 2,
+     "at": "2026-11-22T18:29:56.884Z",
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Tuvalu_woman_speaking_on_the_climate_threat_her_culture_and_nation_face.jpg/960px-Tuvalu_woman_speaking_on_the_climate_threat_her_culture_and_nation_face.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Takver from Australia · Wikimedia Commons · CC BY-SA 2.0",
+      "kind": "B"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "a3764b25182c": {
+     "id": "a3764b25182c",
+     "title": "'Worst Ever' COP Summit?",
+     "zh": "联合国气候变化大会成史上最糟糕一届？",
+     "short": "气候大会遭质疑",
+     "url": "https://www.france24.com/en/tv-shows/spotlight/20261121-worst-ever-cop-summit",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T20:08:48.000Z",
+     "sum": "由于政治领导力有限、缺乏美国官方代表团以及官僚延误带来的挫败感，舆论对本次联合国气候变化大会的有效性提出了质疑。各方正在讨论这是否是有史以来最糟糕的一届气候峰会。"
+    },
+    "b7be9e2e4afd": {
+     "id": "b7be9e2e4afd",
+     "title": "COP31: Deep divisions persist over energy, finance and science",
+     "zh": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+     "short": "联合国气候大会陷入僵局",
+     "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T17:26:47.000Z",
+     "sum": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方在化石燃料、气候融资和减排目标上分歧严重。修订后的草案删除了所有关于化石燃料的内容，引发欧盟及十多个国家的强烈不满。"
+    },
+    "c3012d485eca": {
+     "id": "c3012d485eca",
+     "title": "Countries race to secure Cop31 deal",
+     "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+     "short": "各国力争达成气候协议",
+     "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T15:52:00.000Z",
+     "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。"
+    },
+    "6b56be4bc539": {
+     "id": "6b56be4bc539",
+     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+     "zh": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+     "short": "气候峰会因化石燃料陷僵局",
+     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T07:31:05.000Z",
+     "sum": "近200个国家的代表在第31届联合国气候变化大会谈判中陷入僵局。各国在化石燃料削减等关键条款上分歧严重，导致新的全球气候协议难以敲定。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "89090d2f3063": {
+     "id": "89090d2f3063",
+     "title": "COP31 deal stalls as nations struggle to agree on climate plan",
+     "zh": "各国难就气候计划达成一致，COP31协议陷入僵局",
+     "short": "气候协议陷入僵局",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T01:44:09.000Z"
+    },
+    "4e24f14be340": {
+     "id": "4e24f14be340",
+     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+     "zh": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+     "short": "气候峰会因化石燃料延时",
+     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T23:06:41.000Z"
+    },
+    "688095944714": {
+     "id": "688095944714",
+     "title": "‘We didn’t come here to beg’: Africa’s message at COP31",
+     "zh": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+     "short": "非洲国家诉求气候公正",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/we-didnt-come-here-to-beg-africas-message-at-cop31?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:55:16.000Z"
+    },
+    "cf86cc1e39a1": {
+     "id": "cf86cc1e39a1",
+     "title": "Fossil fuel dispute threatens to scupper climate deal",
+     "zh": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+     "short": "化石燃料分歧危及谈判",
+     "url": "https://www.nst.com.my/amp/business/economy/2026/11/1583019/fossil-fuel-dispute-threatens-scupper-climate-deal",
+     "source": "NST Online",
+     "cat": "world",
+     "published": "2026-11-22T01:16:36.000Z",
+     "sum": "围绕化石燃料退出的核心争议正在加剧，各方在减排路线上的严重分歧可能导致国际气候协议谈判破裂。与会代表在过渡期及能源使用限制上仍未达成一致共识。"
+    },
+    "9167ab9ea179": {
+     "id": "9167ab9ea179",
+     "title": "COP31 climate talks close to final deal",
+     "zh": "联合国气候变化大会COP31接近达成最终协议",
+     "short": "气候大会接近协议",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2FaTnMxeHpPSzF3d2RROXhyckZCOFFXWmJKbUgzZmIzT3hIdlROZVBTMldPZXlMT0QtcXQ0NkVkaHZDVTFoU3UwZmJZWHlTWW1pa29yemp2WTJXV2pWVzJRdnpoNFBhSVUwdS1oWnZ3VUk4ZXhoSEY5UDZMRzAwVFBn?oc=5",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T02:16:36.000Z"
+    },
+    "ed7322a5b6c5": {
+     "id": "ed7322a5b6c5",
+     "title": "COP31 draft agreement stresses electrification of global economy",
+     "zh": "联合国气候峰会草案强调全球经济电气化",
+     "short": "气候峰会强调电气化",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU9SYW5xSUZyTkNlUmhDTWs4VkdGZndFYTZPWUc3MVltaWlqNFZsSklPUDBLOERtQXBkU2tmdW9aZlR0VmJvMF9mLUxHaWFQTHlSVzltVEJ3SmV0MzFkY0h1M3hQcnE1UjMxemZkVEdPRnR0bEtkc0hZN203VVRSYTQtWF8tRkdvSEFBZHRYNnZmNEJPa0lmSmJ2a2lYUnBvajEw?oc=5",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T09:30:17.000Z"
+    },
+    "eadc5b447bb3": {
+     "id": "eadc5b447bb3",
+     "title": "UN climate talks collapse without a deal",
+     "zh": "联合国气候谈判破裂未达成协议",
+     "short": "联合国气候大会破裂",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T18:04:25.000Z",
+     "sum": "联合国历史最长的一次气候峰会在土耳其结束，但未能达成任何最终协议。这是自2009年以来，气候谈判首次以无协议告终。"
+    },
+    "e0aab1d66fdb": {
+     "id": "e0aab1d66fdb",
+     "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+     "zh": "气候大会因产油国反对未达成协议遭批令人失望",
+     "short": "气候大会无果而终",
+     "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T16:33:26.000Z",
+     "sum": "联合国气候变化大会在经历激烈讨论后结束，但未能达成实质性协议。由于部分产油国坚决反对在最终文本中纳入淘汰化石燃料的明确措辞，各方分歧难以弥合。许多代表对此结果表示极度失望，认为文本力度过于软弱，无法有效应对全球气候危机。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b031379-1795363705.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    }
+   },
+   "name": "第31届联合国气候大会",
+   "en": "COP31 climate summit",
+   "wiki": "United Nations Climate Change Conference",
+   "cat": "world",
+   "last": "2026-11-22T18:29:48.482Z",
+   "hidden": false,
+   "heat": {
+    "score": 3,
+    "sources": 5,
+    "stories": 12,
+    "gdelt": {
+     "ratio": 5.2,
+     "share": 0.2121
+    },
+    "wiki": {
+     "title": "United Nations Climate Change Conference",
+     "views": 623,
+     "ratio": 1.3
+    },
+    "at": "2026-11-22T18:33:08.824Z"
+   },
+   "short": "COP31陷入僵局",
+   "key": "草案剔除化石燃料引发各方激烈对抗",
+   "overview": "第31届联合国气候变化大会进入加时阶段，由于修订草案删除了化石燃料相关内容，引发欧盟等十多国强烈不满与退场威胁，主席国正紧急斡旋中。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+    "credit": "BBC World",
+    "kind": "A"
    }
   },
   {
@@ -1078,7 +1459,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "纳斯达克与科技股创最差表现",
+     "t": "科技股与纳斯达克大跌",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -1260,7 +1641,7 @@
     },
     {
      "id": "3700168d-2",
-     "t": "Anthropic上市暴跌与估值讨论",
+     "t": "Anthropic上市与市场估值冲击",
      "ids": [
       "80fbf8621612",
       "9d458302cf21",
@@ -1407,7 +1788,7 @@
     },
     {
      "id": "3700168d-3",
-     "t": "特朗普威胁对海外数据中心征税",
+     "t": "特朗普关税与海外数据中心限制",
      "ids": [
       "703b07e4b163",
       "2c3757b0893a",
@@ -1692,7 +2073,70 @@
      "ids": [
       "dbbd82f4c3b5",
       "70a91fbd611f"
-     ]
+     ],
+     "w": {
+      "short": "人工智能基建与耗电压力",
+      "key": "人工智能全球竞赛推动数据中心基建发展",
+      "title": "人工智能板块抛售与数据中心基建压力：韩国加速布局及大马本土化考量",
+      "summary": "全球人工智能竞赛白热化，韩国总统视察建设中的大型数据中心以推动区域增长，并强调速度至关重要。同时，马来西亚政府也探讨为新数据中心设定本土化要求。相关基建与耗电需求正受到各方密切关注。",
+      "common": [
+       {
+        "t": "人工智能与数据中心建设受到关注",
+        "src": [
+         "CNA Business",
+         "The Edge Malaysia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "韩国总统 Lee Jae-myung 视察蔚山数据中心并强调速度在人工智能竞赛中至关重要",
+        "src": "CNA Business"
+       },
+       {
+        "t": "马来西亚政府拟为新数据中心设定至少30%本土化要求",
+        "src": "The Edge Malaysia"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "大马政府拟为新数据中心设定本土化要求，或对本地供应链和投资门槛带来调整。",
+       "sea": "区域各国正加速数据中心与人工智能相关基建的投资与规划。",
+       "world": "全球正处于人工智能与芯片需求的高速竞争期，对大型数据中心的电力与建设需求剧增。"
+      },
+      "people": [],
+      "photo": "data center construction",
+      "per": [
+       {
+        "id": "dbbd82f4c3b5",
+        "t": "韩国总统视察数据中心 指速度在人工智能竞赛中至关重要",
+        "says": "韩国总统 Lee Jae-myung 视察蔚山的数据中心时强调全球人工智能竞赛中速度至关重要，该项目由 SK 集团与亚马逊云科技合作兴建。",
+        "same": [
+         "数据中心建设"
+        ],
+        "view": null
+       },
+       {
+        "id": "70a91fbd611f",
+        "t": "副部长：政府拟为新数据中心设定至少30%本土化要求",
+        "says": "马来西亚副部长表示，政府计划为新的数据中心设定至少百分之三十的本土化要求。",
+        "same": [
+         "数据中心建设"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "0048f5fe",
+     "v": 2,
+     "at": "2026-11-22T18:31:07.415Z",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--SCyF_Jg1--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-21T053426Z_1_LYNXNPEMAK03Y_RTROPTP_3_APEC-SUMMIT.JPG?itok=_0cBCYuf",
+      "credit": "CNA Business",
+      "kind": "A"
+     }
     }
    ],
    "minor": [
@@ -2484,15 +2928,15 @@
      "sum": "中国的人工智能相关板块市值大幅蒸发，曾经的热门投资遭遇资金撤离。市场情绪降温导致相关资产表现低迷。"
     }
    },
-   "name": "人工智能板块抛售与冲击",
-   "en": "artificial intelligence stock market crash tech selloff",
-   "wiki": "Nvidia",
+   "name": "人工智能板块抛售",
+   "en": "artificial intelligence stock selloff",
+   "wiki": "AI boom and stock market impact",
    "cat": "finance",
    "last": "2026-11-22T11:06:08.835Z",
    "hidden": false,
-   "short": "人工智能板块遭遇抛售",
-   "key": "全球股市蒸发数万亿美元",
-   "overview": "受人工智能板块抛售潮及美联储鹰派预期加剧影响，全球股市、加密货币与贵金属遭遇全线大跌，Anthropic上市表现不振加剧了市场对高估值的担忧。",
+   "short": "人工智能板块抛售",
+   "key": "全球人工智能板块遭抛售，美股与加密货币大跌",
+   "overview": "受人工智能板块抛售潮及美联储鹰派预期影响，全球股市、加密货币及贵金属遭遇全线重挫，Anthropic上市表现未能提振信心，英伟达则面临美国监管部门调查。",
    "minorText": [
     "中国人工智能板块蒸发1.7万亿美元"
    ],
@@ -2500,17 +2944,17 @@
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "纳斯达克与科技股下跌受到Anthropic上市后股价回落及人工智能板块抛售的直接拖累。"
+     "t": "科技股大跌受Anthropic上市后股价回落及人工智能板块抛售加剧拖累。"
     },
     {
      "from": "3700168d-2",
      "to": "3700168d-1",
-     "t": "Anthropic的首次公开招股未能稳住人工智能交易，进而引发美股期货与全球市场的大幅下跌。"
+     "t": "Anthropic首次公开招股未能阻止人工智能板块抛售，导致全球股市下挫。"
     },
     {
-     "from": "3700168d-4",
+     "from": "3700168d-3",
      "to": "3700168d-1",
-     "t": "新加坡海峡时报指数等区域股市因全球人工智能抛售与资金撤离而走低。"
+     "t": "英伟达遭调查及海外数据中心限制加剧了科技股与全球市场的避险情绪。"
     }
    ],
    "img": {
@@ -2523,355 +2967,8 @@
     "sources": 30,
     "stories": 66,
     "gdelt": null,
-    "wiki": {
-     "title": "Nvidia",
-     "views": 15218,
-     "ratio": 0.2
-    },
-    "at": "2026-11-22T11:14:56.897Z"
-   }
-  },
-  {
-   "id": "6e6b7acb",
-   "first": "2026-11-21T22:12:19.702Z",
-   "lines": [
-    {
-     "id": "6e6b7acb-1",
-     "t": "气候大会成史上最糟及延时",
-     "ids": [
-      "a3764b25182c",
-      "b7be9e2e4afd",
-      "c3012d485eca",
-      "6b56be4bc539",
-      "89090d2f3063",
-      "4e24f14be340",
-      "688095944714",
-      "cf86cc1e39a1",
-      "9167ab9ea179"
-     ],
-     "w": {
-      "short": "联合国气候峰会陷入僵局",
-      "key": "化石燃料存分歧气候峰会延时",
-      "title": "第31届联合国气候大会协议草案删化石燃料引发反弹 谈判陷入僵局进入加时",
-      "summary": "第31届联合国气候变化大会在土耳其举行期间，因最新协议草案删除了所有关于煤炭、石油和天然气等化石燃料的表述，引发欧盟及多个岛屿与发展中国家的强烈反弹并扬言退场。以沙特阿拉伯为首的产油国极力主张剔除化石燃料内容，导致谈判超过预定闭幕时间严重超时。大会主席团正加紧紧急斡旋，试图在化石燃料退场与清洁能源承诺之间寻求折中方案。",
-      "common": [
-       {
-        "t": "第31届联合国气候峰会在土耳其举行，因化石燃料议题分歧严重导致谈判超时进入加时阶段。",
-        "src": [
-         "France 24",
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "最新修改的协议草案删除了所有关于化石燃料的内容，引发欧盟等多个国家和地区的强烈不满与批评。",
-        "src": [
-         "France 24",
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "以沙特阿拉伯为首的化石燃料生产大国向大会施压，要求将化石燃料相关字眼从最终协议中剔除。",
-        "src": [
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "欧盟等多方警告若最终协议缺乏化石燃料相关实质内容，宁可无协议也不接受糟糕的协议。",
-        "src": [
-         "France 24",
-         "NST Online"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "峰会协定可能首次承认无法实现将全球升温控制在1.5摄氏度以内的目标，全球正进入超温时期。",
-        "src": "BBC World"
-       },
-       {
-        "t": "有提案建议以产油国承诺到2035年使其35%的能源消耗来自电力，来换取不在协议中提及化石燃料。",
-        "src": "BBC World"
-       },
-       {
-        "t": "本届大会还面临美国官方代表团缺席、缺乏政治领导力以及官僚延误导致有效性受质疑等问题。",
-        "src": "France 24"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "France 24",
-         "BBC World",
-         "NST Online"
-        ],
-        "t": "最终协议必须明确纳入摆脱石油、天然气和煤炭的承诺，删除化石燃料表述是不可接受的倒退。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World"
-        ],
-        "t": "峰会重点应放在具体落实与转向清洁能源上，无需在协议措辞中硬性纳入化石燃料内容。"
-       }
-      ],
-      "unknown": "各国能否在土耳其主席团给出的最后期限前就第三份最终协议文本达成共识仍未确定。",
-      "impact": {
-       "my": null,
-       "sea": "若峰会未能达成减排共识导致全球升温突破1.5摄氏度，包括印尼等东南亚低洼岛屿和沿海区域将面临更严峻的海平面上升与极端天气风险。",
-       "world": "化石燃料转型承诺的缺失可能动摇全球气候治理根基，加剧气候灾难并延缓全球能源转型的法律约束力。"
-      },
-      "people": [
-       "Murat Kurum",
-       "Wopke Hoekstra"
-      ],
-      "photo": "COP31 climate summit",
-      "per": [
-       {
-        "id": "a3764b25182c",
-        "t": "联合国气候变化大会成史上最糟糕一届？",
-        "says": "大会因政治领导力有限、缺少美国官方代表团及官僚延误，其有效性遭到各界广泛质疑。",
-        "same": [
-         "领导力缺失",
-         "谈判延误"
-        ],
-        "view": null
-       },
-       {
-        "id": "b7be9e2e4afd",
-        "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
-        "says": "土耳其COP31进入加时，修订后草案删除了关于化石燃料的全部内容，引发欧盟和十多国强烈抗议。",
-        "same": [
-         "草案删燃料",
-         "加时谈判",
-         "欧盟抗议"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c3012d485eca",
-        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
-        "says": "谈判超时后各国加紧磋商，欧盟警告提案若无实质内容，大会恐沦为化石燃料峰会。",
-        "same": [
-         "谈判超时",
-         "草案遭批评",
-         "欧盟警告"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6b56be4bc539",
-        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
-        "says": "沙特主导剔除化石燃料内容引发巴拿马等国愤怒，但主持谈判的澳洲部长认为峰会应专注清洁能源落实而非争论燃料措辞。",
-        "same": [
-         "燃料存分歧",
-         "峰会陷僵局",
-         "沙特施压"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "89090d2f3063",
-        "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
-        "says": "在主要化石燃料生产国施压下，协议草案删除了化石燃料表述并削弱了关键议题立场，导致大会进入延时。",
-        "same": [
-         "谈判陷僵局",
-         "大会延时",
-         "产油国施压"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "4e24f14be340",
-        "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
-        "says": "化石燃料议题谈判陷入胶着状态，第31届气候峰会不得不延时推进。",
-        "same": [
-         "燃料现僵局",
-         "峰会延时"
-        ],
-        "view": null
-       },
-       {
-        "id": "688095944714",
-        "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
-        "says": "非洲代表团在大会上就气候议题发出强烈呼吁，强调自身诉求的正当性。",
-        "same": [
-         "气候大会"
-        ],
-        "view": null
-       },
-       {
-        "id": "cf86cc1e39a1",
-        "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
-        "says": "协议草案剔除煤炭和油气引发退场威胁，土耳其主席团召集欧盟与沙特连夜紧急磋商以争取达成最终协议。",
-        "same": [
-         "草案删燃料",
-         "延时谈判",
-         "威胁退场"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "770185f7",
-     "v": 2,
-     "at": "2026-11-22T03:04:14.125Z",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [
-    "ed7322a5b6c5"
-   ],
-   "stories": {
-    "a3764b25182c": {
-     "id": "a3764b25182c",
-     "title": "'Worst Ever' COP Summit?",
-     "zh": "联合国气候变化大会成史上最糟糕一届？",
-     "short": "气候大会遭质疑",
-     "url": "https://www.france24.com/en/tv-shows/spotlight/20261121-worst-ever-cop-summit",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T20:08:48.000Z",
-     "sum": "由于政治领导力有限、缺乏美国官方代表团以及官僚延误带来的挫败感，舆论对本次联合国气候变化大会的有效性提出了质疑。各方正在讨论这是否是有史以来最糟糕的一届气候峰会。"
-    },
-    "b7be9e2e4afd": {
-     "id": "b7be9e2e4afd",
-     "title": "COP31: Deep divisions persist over energy, finance and science",
-     "zh": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
-     "short": "联合国气候大会陷入僵局",
-     "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T17:26:47.000Z",
-     "sum": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方在化石燃料、气候融资和减排目标上分歧严重。修订后的草案删除了所有关于化石燃料的内容，引发欧盟及十多个国家的强烈不满。"
-    },
-    "c3012d485eca": {
-     "id": "c3012d485eca",
-     "title": "Countries race to secure Cop31 deal",
-     "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
-     "short": "各国力争达成气候协议",
-     "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T15:52:00.000Z",
-     "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。"
-    },
-    "6b56be4bc539": {
-     "id": "6b56be4bc539",
-     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-     "zh": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
-     "short": "气候峰会因化石燃料陷僵局",
-     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T07:31:05.000Z",
-     "sum": "近200个国家的代表在第31届联合国气候变化大会谈判中陷入僵局。各国在化石燃料削减等关键条款上分歧严重，导致新的全球气候协议难以敲定。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    "89090d2f3063": {
-     "id": "89090d2f3063",
-     "title": "COP31 deal stalls as nations struggle to agree on climate plan",
-     "zh": "各国难就气候计划达成一致，COP31协议陷入僵局",
-     "short": "气候协议陷入僵局",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T01:44:09.000Z"
-    },
-    "4e24f14be340": {
-     "id": "4e24f14be340",
-     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-     "zh": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
-     "short": "气候峰会因化石燃料延时",
-     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T23:06:41.000Z"
-    },
-    "688095944714": {
-     "id": "688095944714",
-     "title": "‘We didn’t come here to beg’: Africa’s message at COP31",
-     "zh": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
-     "short": "非洲国家诉求气候公正",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/we-didnt-come-here-to-beg-africas-message-at-cop31?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:55:16.000Z"
-    },
-    "cf86cc1e39a1": {
-     "id": "cf86cc1e39a1",
-     "title": "Fossil fuel dispute threatens to scupper climate deal",
-     "zh": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
-     "short": "化石燃料分歧危及谈判",
-     "url": "https://www.nst.com.my/amp/business/economy/2026/11/1583019/fossil-fuel-dispute-threatens-scupper-climate-deal",
-     "source": "NST Online",
-     "cat": "world",
-     "published": "2026-11-22T01:16:36.000Z",
-     "sum": "围绕化石燃料退出的核心争议正在加剧，各方在减排路线上的严重分歧可能导致国际气候协议谈判破裂。与会代表在过渡期及能源使用限制上仍未达成一致共识。"
-    },
-    "9167ab9ea179": {
-     "id": "9167ab9ea179",
-     "title": "COP31 climate talks close to final deal",
-     "zh": "联合国气候变化大会COP31接近达成最终协议",
-     "short": "气候大会接近协议",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2FaTnMxeHpPSzF3d2RROXhyckZCOFFXWmJKbUgzZmIzT3hIdlROZVBTMldPZXlMT0QtcXQ0NkVkaHZDVTFoU3UwZmJZWHlTWW1pa29yemp2WTJXV2pWVzJRdnpoNFBhSVUwdS1oWnZ3VUk4ZXhoSEY5UDZMRzAwVFBn?oc=5",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-22T02:16:36.000Z"
-    },
-    "ed7322a5b6c5": {
-     "id": "ed7322a5b6c5",
-     "title": "COP31 draft agreement stresses electrification of global economy",
-     "zh": "联合国气候峰会草案强调全球经济电气化",
-     "short": "气候峰会强调电气化",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU9SYW5xSUZyTkNlUmhDTWs4VkdGZndFYTZPWUc3MVltaWlqNFZsSklPUDBLOERtQXBkU2tmdW9aZlR0VmJvMF9mLUxHaWFQTHlSVzltVEJ3SmV0MzFkY0h1M3hQcnE1UjMxemZkVEdPRnR0bEtkc0hZN203VVRSYTQtWF8tRkdvSEFBZHRYNnZmNEJPa0lmSmJ2a2lYUnBvajEw?oc=5",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-22T09:30:17.000Z"
-    }
-   },
-   "name": "第31届联合国气候大会",
-   "en": "COP31 climate change conference fossil fuels",
-   "wiki": "United Nations Climate Change Conference",
-   "cat": "world",
-   "last": "2026-11-22T11:06:08.835Z",
-   "hidden": false,
-   "heat": {
-    "score": 2,
-    "sources": 5,
-    "stories": 10,
-    "gdelt": null,
-    "wiki": {
-     "title": "United Nations Climate Change Conference",
-     "views": 623,
-     "ratio": 1.3
-    },
-    "at": "2026-11-22T11:15:32.607Z"
-   },
-   "short": "COP31化石燃料分歧致僵局",
-   "key": "协议草案删化石燃料惹众怒",
-   "overview": "第31届联合国气候大会因草案删除化石燃料表述引发欧盟及多国强烈抗议与退场威胁，谈判超时陷入僵局，主席团正紧急斡旋。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-    "credit": "BBC World",
-    "kind": "A"
+    "wiki": null,
+    "at": "2026-11-22T18:32:43.058Z"
    }
   },
   {
@@ -2880,7 +2977,7 @@
    "lines": [
     {
      "id": "f4bb4b75-1",
-     "t": "泽连斯基家乡遭弹道导弹袭击",
+     "t": "波兰领空落入导弹危机",
      "ids": [
       "f5aa2c1600b1",
       "6fca891ece5d",
@@ -3477,9 +3574,9 @@
      "published": "2026-11-22T09:01:43.000Z"
     }
    },
-   "name": "乌克兰战争与导弹袭击",
-   "en": "Ukraine war missile strike Russia",
-   "wiki": "Russian invasion of Ukraine",
+   "name": "乌克兰战争导弹袭击",
+   "en": "Ukraine war missile strikes",
+   "wiki": "Russian strikes during the Russian invasion of Ukraine",
    "cat": "world",
    "last": "2026-11-22T11:06:08.835Z",
    "hidden": false,
@@ -3501,15 +3598,14 @@
    },
    "heat": {
     "score": 3,
-    "sources": 7,
-    "stories": 23,
-    "gdelt": null,
-    "wiki": {
-     "title": "Russian invasion of Ukraine",
-     "views": 973,
-     "ratio": 1
+    "sources": 8,
+    "stories": 25,
+    "gdelt": {
+     "ratio": 0.5,
+     "share": 0.041
     },
-    "at": "2026-11-22T03:10:25.374Z"
+    "wiki": null,
+    "at": "2026-11-22T18:33:30.293Z"
    }
   },
   {
@@ -4077,14 +4173,14 @@
     "stories": 24,
     "gdelt": {
      "ratio": 10,
-     "share": 0.0243
+     "share": 0.0438
     },
     "wiki": {
      "title": "Rohingya genocide case",
      "views": 1348,
      "ratio": 1.1
     },
-    "at": "2026-11-22T11:13:52.782Z"
+    "at": "2026-11-22T18:33:49.240Z"
    }
   },
   {
@@ -4265,10 +4361,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Grand Theft Auto VI",
-     "views": 540793,
-     "ratio": 2.2
+     "views": 393338,
+     "ratio": 1.4
     },
-    "at": "2026-11-22T11:16:09.703Z"
+    "at": "2026-11-22T18:34:38.978Z"
    },
    "short": "GTA 6首日破纪录",
    "key": "首日创下37.9亿美元销售纪录",
@@ -4287,7 +4383,7 @@
    "lines": [
     {
      "id": "7d01a8b9-1",
-     "t": "法国第六周抗议生活成本",
+     "t": "法国第六周生活成本抗议",
      "ids": [
       "c902a31706b5",
       "b0ff52fa3422",
@@ -4482,8 +4578,8 @@
     }
    },
    "name": "欧洲多国Z世代抗议潮",
-   "en": "Europe Z generation protests cost of living",
-   "wiki": "Protests against the cost of living",
+   "en": "European youth protests cost of living",
+   "wiki": "Cost-of-living crisis",
    "cat": "world",
    "last": "2026-11-21T22:12:19.703Z",
    "hidden": false,
@@ -4512,7 +4608,7 @@
    "lines": [
     {
      "id": "c87ad0cf-1",
-     "t": "FBI数据库疑遭黑客入侵",
+     "t": "NCIC数据库及农业部受黑客攻击",
      "ids": [
       "ddb90bb60acc",
       "17d8c5527403",
@@ -4690,8 +4786,8 @@
     }
    },
    "name": "联邦调查局数据库疑遭黑客",
-   "en": "FBI database cyber attack hack",
-   "wiki": "FBI",
+   "en": "FBI database hack breach",
+   "wiki": "Data breach",
    "cat": "tech",
    "last": "2026-11-21T22:12:19.703Z",
    "hidden": false,
@@ -4719,5 +4815,5 @@
    }
   }
  ],
- "updated": "2026-11-22T11:16:26.211Z"
+ "updated": "2026-11-22T18:34:38.978Z"
 }
