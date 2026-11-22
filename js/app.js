@@ -892,6 +892,7 @@ function openSettings() {
     <div class="set-group"><h4>在哪里听</h4><div class="seg">
       ${[['car', '🚗 开车'], ['ear', '🎧 耳机'], ['speaker', '🔊 外放']].map(([k, l]) => `<button data-set="listenOut" data-v="${k}" class="${profile.listenOut === k ? 'on' : ''}">${l}</button>`).join('')}</div>
       <p class="note">选「开车」：按收听会直接打开大按钮的驾驶模式。</p></div>
+    ${installGuideHtml()}
     ${autoGuideHtml()}
     <div class="set-group"><h4>收听速度</h4><div class="seg">
       ${[0.85, 1, 1.25, 1.5].map((r) => `<button data-set="rate" data-v="${r}" class="${profile.rate === r ? 'on' : ''}">${r}x</button>`).join('')}</div></div>
@@ -911,6 +912,36 @@ function openSettings() {
     b.parentElement.querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
   };
 }
+
+// ---------- 📲 put the app on the phone's home screen ----------
+let installEvt = null; // Android Chrome can show its own "install" box
+window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvt = e; });
+function installGuideHtml() {
+  if (isStandalone) return `<div class="set-group"><h4>📲 放到手机桌面</h4><p class="note" style="margin:0">✅ 你已经是从手机桌面打开乐乐新闻了。</p></div>`;
+  const ios = `<ol class="steps-ol big">
+      <li>用 <b>Safari</b> 打开乐乐新闻（Chrome 也可以）</li>
+      <li>按下面的 <b>分享</b> 按钮 <span class="kbd">⬆︎</span>（方框加箭头；Chrome 在网址栏右边）</li>
+      <li>往下滑，按 <b>「添加到主屏幕」</b>（Add to Home Screen）</li>
+      <li>右上角按 <b>「添加」</b>，桌面就会出现 乐 的图标</li></ol>`;
+  const android = `<ol class="steps-ol big">
+      <li>用 <b>Chrome</b> 打开乐乐新闻</li>
+      <li>按右上角 <span class="kbd">⋮</span></li>
+      <li>按 <b>「添加到主屏幕」</b> 或 <b>「安装应用」</b></li>
+      <li>按 <b>「安装 / 添加」</b>，桌面就会出现 乐 的图标</li></ol>
+      <p class="note">三星浏览器：按右下 <span class="kbd">≡</span> → 「添加页面到」→「主屏幕」</p>`;
+  return `<div class="set-group"><h4>📲 放到手机桌面（像 app 一样打开）</h4>
+    <p class="note" style="margin-top:0">放到桌面后，一按就打开，不用找链接；字更大、画面更干净。</p>
+    ${installEvt ? '<button class="btn primary" style="width:100%;justify-content:center;height:3rem;margin-bottom:.6rem" data-action="install-app">📲 一键放到桌面</button>' : ''}
+    <div class="seg" style="margin-bottom:.4rem"><button data-guide="ios" class="${isIOS ? 'on' : ''}">🍎 iPhone</button><button data-guide="android" class="${isIOS ? '' : 'on'}">🤖 Android</button></div>
+    <div data-guide-body="ios" ${isIOS ? '' : 'hidden'}>${ios}</div>
+    <div data-guide-body="android" ${isIOS ? 'hidden' : ''}>${android}</div></div>`;
+}
+document.addEventListener('click', (e) => {
+  const g = e.target.closest('[data-guide]'); if (!g) return;
+  const box = g.closest('.set-group');
+  box.querySelectorAll('[data-guide]').forEach((b) => b.classList.toggle('on', b === g));
+  box.querySelectorAll('[data-guide-body]').forEach((d) => { d.hidden = d.dataset.guideBody !== g.dataset.guide; });
+});
 
 // ---------- login + first setup ----------
 let onbStep = 0;
@@ -1320,6 +1351,7 @@ document.addEventListener('click', (e) => {
       break;
     }
     case 'open-playlist': openPlaylist(); break;
+    case 'install-app': if (installEvt) { installEvt.prompt(); installEvt.userChoice.then((c) => { track('install', null, { result: c.outcome }); installEvt = null; }); } break;
     case 'copy-link': navigator.clipboard?.writeText(b.dataset.link).then(() => toast('已复制'), () => toast('请长按链接复制')); break;
     case 'listen-story': {
       if (speakCtx === 'story' && speaking) { stopSpeaking(); break; }
