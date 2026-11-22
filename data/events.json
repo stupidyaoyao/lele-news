@@ -6,7 +6,7 @@
    "lines": [
     {
      "id": "6e6b7acb-1",
-     "t": "COP31气候峰会因化石燃料分歧陷入僵局",
+     "t": "化石燃料存分歧导致谈判僵局",
      "ids": [
       "a3764b25182c",
       "b7be9e2e4afd",
@@ -14,8 +14,189 @@
       "6b56be4bc539",
       "89090d2f3063",
       "4e24f14be340",
-      "688095944714"
-     ]
+      "688095944714",
+      "cf86cc1e39a1",
+      "9167ab9ea179"
+     ],
+     "w": {
+      "short": "联合国气候峰会陷入僵局",
+      "key": "化石燃料存分歧气候峰会延时",
+      "title": "第31届联合国气候大会协议草案删化石燃料引发反弹 谈判陷入僵局进入加时",
+      "summary": "第31届联合国气候变化大会在土耳其举行期间，因最新协议草案删除了所有关于煤炭、石油和天然气等化石燃料的表述，引发欧盟及多个岛屿与发展中国家的强烈反弹并扬言退场。以沙特阿拉伯为首的产油国极力主张剔除化石燃料内容，导致谈判超过预定闭幕时间严重超时。大会主席团正加紧紧急斡旋，试图在化石燃料退场与清洁能源承诺之间寻求折中方案。",
+      "common": [
+       {
+        "t": "第31届联合国气候峰会在土耳其举行，因化石燃料议题分歧严重导致谈判超时进入加时阶段。",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "最新修改的协议草案删除了所有关于化石燃料的内容，引发欧盟等多个国家和地区的强烈不满与批评。",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "以沙特阿拉伯为首的化石燃料生产大国向大会施压，要求将化石燃料相关字眼从最终协议中剔除。",
+        "src": [
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "欧盟等多方警告若最终协议缺乏化石燃料相关实质内容，宁可无协议也不接受糟糕的协议。",
+        "src": [
+         "France 24",
+         "NST Online"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "峰会协定可能首次承认无法实现将全球升温控制在1.5摄氏度以内的目标，全球正进入超温时期。",
+        "src": "BBC World"
+       },
+       {
+        "t": "有提案建议以产油国承诺到2035年使其35%的能源消耗来自电力，来换取不在协议中提及化石燃料。",
+        "src": "BBC World"
+       },
+       {
+        "t": "本届大会还面临美国官方代表团缺席、缺乏政治领导力以及官僚延误导致有效性受质疑等问题。",
+        "src": "France 24"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "France 24",
+         "BBC World",
+         "NST Online"
+        ],
+        "t": "最终协议必须明确纳入摆脱石油、天然气和煤炭的承诺，删除化石燃料表述是不可接受的倒退。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "峰会重点应放在具体落实与转向清洁能源上，无需在协议措辞中硬性纳入化石燃料内容。"
+       }
+      ],
+      "unknown": "各国能否在土耳其主席团给出的最后期限前就第三份最终协议文本达成共识仍未确定。",
+      "impact": {
+       "my": null,
+       "sea": "若峰会未能达成减排共识导致全球升温突破1.5摄氏度，包括印尼等东南亚低洼岛屿和沿海区域将面临更严峻的海平面上升与极端天气风险。",
+       "world": "化石燃料转型承诺的缺失可能动摇全球气候治理根基，加剧气候灾难并延缓全球能源转型的法律约束力。"
+      },
+      "people": [
+       "Murat Kurum",
+       "Wopke Hoekstra"
+      ],
+      "photo": "COP31 climate summit",
+      "per": [
+       {
+        "id": "a3764b25182c",
+        "t": "联合国气候变化大会成史上最糟糕一届？",
+        "says": "大会因政治领导力有限、缺少美国官方代表团及官僚延误，其有效性遭到各界广泛质疑。",
+        "same": [
+         "领导力缺失",
+         "谈判延误"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7be9e2e4afd",
+        "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+        "says": "土耳其COP31进入加时，修订后草案删除了关于化石燃料的全部内容，引发欧盟和十多国强烈抗议。",
+        "same": [
+         "草案删燃料",
+         "加时谈判",
+         "欧盟抗议"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c3012d485eca",
+        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+        "says": "谈判超时后各国加紧磋商，欧盟警告提案若无实质内容，大会恐沦为化石燃料峰会。",
+        "same": [
+         "谈判超时",
+         "草案遭批评",
+         "欧盟警告"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b56be4bc539",
+        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+        "says": "沙特主导剔除化石燃料内容引发巴拿马等国愤怒，但主持谈判的澳洲部长认为峰会应专注清洁能源落实而非争论燃料措辞。",
+        "same": [
+         "燃料存分歧",
+         "峰会陷僵局",
+         "沙特施压"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "89090d2f3063",
+        "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
+        "says": "在主要化石燃料生产国施压下，协议草案删除了化石燃料表述并削弱了关键议题立场，导致大会进入延时。",
+        "same": [
+         "谈判陷僵局",
+         "大会延时",
+         "产油国施压"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "4e24f14be340",
+        "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+        "says": "化石燃料议题谈判陷入胶着状态，第31届气候峰会不得不延时推进。",
+        "same": [
+         "燃料现僵局",
+         "峰会延时"
+        ],
+        "view": null
+       },
+       {
+        "id": "688095944714",
+        "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+        "says": "非洲代表团在大会上就气候议题发出强烈呼吁，强调自身诉求的正当性。",
+        "same": [
+         "气候大会"
+        ],
+        "view": null
+       },
+       {
+        "id": "cf86cc1e39a1",
+        "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+        "says": "协议草案剔除煤炭和油气引发退场威胁，土耳其主席团召集欧盟与沙特连夜紧急磋商以争取达成最终协议。",
+        "same": [
+         "草案删燃料",
+         "延时谈判",
+         "威胁退场"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "770185f7",
+     "v": 2,
+     "at": "2026-11-22T03:04:14.125Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
     }
    ],
    "minor": [],
@@ -98,905 +279,56 @@
      "source": "Al Jazeera",
      "cat": "world",
      "published": "2026-11-20T11:55:16.000Z"
+    },
+    "cf86cc1e39a1": {
+     "id": "cf86cc1e39a1",
+     "title": "Fossil fuel dispute threatens to scupper climate deal",
+     "zh": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+     "short": "化石燃料分歧危及谈判",
+     "url": "https://www.nst.com.my/amp/business/economy/2026/11/1583019/fossil-fuel-dispute-threatens-scupper-climate-deal",
+     "source": "NST Online",
+     "cat": "world",
+     "published": "2026-11-22T01:16:36.000Z",
+     "sum": "围绕化石燃料退出的核心争议正在加剧，各方在减排路线上的严重分歧可能导致国际气候协议谈判破裂。与会代表在过渡期及能源使用限制上仍未达成一致共识。"
+    },
+    "9167ab9ea179": {
+     "id": "9167ab9ea179",
+     "title": "COP31 climate talks close to final deal",
+     "zh": "联合国气候变化大会COP31接近达成最终协议",
+     "short": "气候大会接近协议",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2FaTnMxeHpPSzF3d2RROXhyckZCOFFXWmJKbUgzZmIzT3hIdlROZVBTMldPZXlMT0QtcXQ0NkVkaHZDVTFoU3UwZmJZWHlTWW1pa29yemp2WTJXV2pWVzJRdnpoNFBhSVUwdS1oWnZ3VUk4ZXhoSEY5UDZMRzAwVFBn?oc=5",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T02:16:36.000Z"
     }
    },
    "name": "第31届联合国气候大会分歧",
-   "en": "cop31 climate summit fossil fuels deadlock",
-   "wiki": "2026 United Nations Climate Change Conference",
+   "en": "COP31 climate summit fossil fuels",
+   "wiki": "United Nations Climate Change Conference",
    "cat": "world",
-   "last": "2026-11-21T22:12:19.703Z",
+   "last": "2026-11-22T03:01:03.168Z",
    "hidden": false,
    "heat": {
-    "score": 1,
-    "sources": 3,
-    "stories": 7,
+    "score": 2,
+    "sources": 5,
+    "stories": 9,
     "gdelt": null,
     "wiki": {
-     "title": "2026 United Nations Climate Change Conference",
-     "views": 1055,
-     "ratio": 0.8
-    },
-    "at": "2026-11-21T22:25:23.779Z"
-   }
-  },
-  {
-   "id": "baacab83",
-   "first": "2026-11-21T22:12:19.703Z",
-   "lines": [
-    {
-     "id": "baacab83-1",
-     "t": "《侠盗猎车手6》首日销售额破纪录",
-     "ids": [
-      "4b3f595fab30",
-      "499417bebfbd",
-      "5ac335d3fdf5",
-      "5ca931d42cae"
-     ]
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "4b3f595fab30": {
-     "id": "4b3f595fab30",
-     "title": "Rockstar says GTA VI made $3.79 billion in its first day",
-     "zh": "《侠盗猎车手6》首发日销售额达37.9亿美元",
-     "short": "GTA6首日销售破纪录",
-     "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
-     "source": "The Verge",
-     "cat": "tech",
-     "published": "2026-11-20T19:35:06.000Z",
-     "sum": "备受瞩目的游戏大作《侠盗猎车手6》在发售首日实现37.9亿美元的惊人销售额，打破了所有媒介的娱乐产业纪录。同时，该游戏也录得了3250万份的预售佳绩。"
-    },
-    "499417bebfbd": {
-     "id": "499417bebfbd",
-     "title": "Grand Theft Auto VI takes record US$3.8bil on first day",
-     "zh": "《侠盗猎车手6》首日创下38亿美元纪录，为前作近五倍",
-     "short": "GTA6首日大卖38亿美元",
-     "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/21/grand-theft-auto-vi-takes-record-us-3-8bil-on-first-day",
-     "source": "Free Malaysia Today",
-     "cat": "tech",
-     "published": "2026-11-20T23:00:00.000Z"
-    },
-    "5ac335d3fdf5": {
-     "id": "5ac335d3fdf5",
-     "title": "GTA VI books record $3.79 billion in sales on first day of launch",
-     "zh": "《GTA 6》首日创下37.9亿美元销售纪录",
-     "short": "GTA6首日狂揽38亿",
-     "url": "https://www.channelnewsasia.com/business/gta-vi-books-record-379-billion-in-sales-first-day-launch-6570471",
-     "source": "CNA Business",
-     "cat": "tech",
-     "published": "2026-11-20T19:43:16.000Z"
-    },
-    "5ca931d42cae": {
-     "id": "5ca931d42cae",
-     "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
-     "zh": "《GTA 6》引爆下载热潮，预计销售额突破23亿美元",
-     "short": "GTA6热销",
-     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC Business",
-     "cat": "tech",
-     "published": "2026-11-20T13:08:30.000Z"
-    }
-   },
-   "name": "GTA 6发售创下销售纪录",
-   "en": "gta 6 record sales launch day",
-   "wiki": "Grand Theft Auto VI",
-   "cat": "tech",
-   "last": "2026-11-21T22:12:19.703Z",
-   "hidden": false,
-   "heat": {
-    "score": 3,
-    "sources": 4,
-    "stories": 4,
-    "gdelt": null,
-    "wiki": {
-     "title": "Grand Theft Auto VI",
-     "views": 540793,
-     "ratio": 2.4
-    },
-    "at": "2026-11-21T22:26:11.668Z"
-   }
-  },
-  {
-   "id": "7d01a8b9",
-   "first": "2026-11-21T22:12:19.703Z",
-   "lines": [
-    {
-     "id": "7d01a8b9-1",
-     "t": "欧洲多国年轻人走上街头抗议高生活成本",
-     "ids": [
-      "c902a31706b5",
-      "b0ff52fa3422",
-      "9da0d3967904",
-      "517e76bd6677",
-      "4bef99f0e187",
-      "d8aa0d67cbef"
-     ]
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "c902a31706b5": {
-     "id": "c902a31706b5",
-     "title": "Thousands protest across Europe over living costs and housing",
-     "zh": "欧洲各地爆发抗议生活成本和住房危机的示威",
-     "short": "欧洲爆发生活成本示威",
-     "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T20:47:50.000Z"
-    },
-    "b0ff52fa3422": {
-     "id": "b0ff52fa3422",
-     "title": "France’s sixth consecutive Saturday of protests draw lower turnout",
-     "zh": "法国连续第六个星期六抗议活动参与人数下降",
-     "short": "法国抗议人数减少",
-     "url": "https://www.france24.com/en/france/20261121-france-s-sixth-consecutive-saturday-of-protests-draw-lower-turnout",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T20:20:37.000Z"
-    },
-    "9da0d3967904": {
-     "id": "9da0d3967904",
-     "title": "French protesters rally for sixth weekend over living costs, public services",
-     "zh": "法国抗议者第六个周末集会抗议生活成本",
-     "short": "法国民众周末抗议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T15:53:42.000Z"
-    },
-    "517e76bd6677": {
-     "id": "517e76bd6677",
-     "title": "Thousands protest overs prices, education, military spending in France and Europe",
-     "zh": "欧洲多国爆发抗议活动反对生活成本上涨与教育削减",
-     "short": "欧洲爆发抗议浪潮",
-     "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T12:48:46.000Z"
-    },
-    "4bef99f0e187": {
-     "id": "4bef99f0e187",
-     "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
-     "zh": "欧洲多国爆发Z世代抗议，反对战争、高昂生活成本与气候危机",
-     "short": "欧洲Z世代抗议生活成本",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T02:49:16.000Z"
-    },
-    "d8aa0d67cbef": {
-     "id": "d8aa0d67cbef",
-     "title": "Young protesters hit the streets across Europe",
-     "zh": "欧洲各地年轻人走上街头抗议高生活成本",
-     "short": "欧洲年轻人上街抗议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/young-protesters-hit-the-streets-across-europe",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T02:39:11.000Z"
-    }
-   },
-   "name": "欧洲多国爆发Z世代抗议潮",
-   "en": "generation z protests europe cost of living",
-   "wiki": "Protests in Europe",
-   "cat": "world",
-   "last": "2026-11-21T22:12:19.703Z",
-   "hidden": false
-  },
-  {
-   "id": "c87ad0cf",
-   "first": "2026-11-21T22:12:19.703Z",
-   "lines": [
-    {
-     "id": "c87ad0cf-1",
-     "t": "美国联邦调查局数据库疑遭黑客入侵",
-     "ids": [
-      "ddb90bb60acc",
-      "17d8c5527403",
-      "d3ae8b6abe06",
-      "07601b60021e"
-     ]
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "ddb90bb60acc": {
-     "id": "ddb90bb60acc",
-     "title": "FBI national crime database suffers suspected breach: Reports",
-     "zh": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
-     "short": "美国联邦调查局系统被黑",
-     "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "tech",
-     "published": "2026-11-21T18:19:10.000Z",
-     "sum": "美国联邦调查局的国家犯罪信息中心数据库据报遭遇黑客入侵并正接受调查。这是近期美国政府部门遭遇的一连串网络泄密和系统故障中的最新一起。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "17d8c5527403": {
-     "id": "17d8c5527403",
-     "title": "US Agriculture Department, FBI breached by hackers",
-     "zh": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
-     "short": "美农业部与FBI遭黑客攻击",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/us-agriculture-department-fbi-breached-by-hackers",
-     "source": "Free Malaysia Today",
-     "cat": "tech",
-     "published": "2026-11-21T07:23:59.000Z",
-     "sum": "美国农业部证实其农民补贴支付系统遭黑客入侵，同时美国联邦调查局也遭遇了自9月以来的第二次网络攻击。两家主要联邦机构连续被黑，引发对政府关键网络安全防御的广泛担忧。"
-    },
-    "d3ae8b6abe06": {
-     "id": "d3ae8b6abe06",
-     "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
-     "zh": "美国农业部与联邦调查局遭黑客网络攻击",
-     "short": "美农业部与FBI遭黑客攻击",
-     "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
-     "source": "France 24",
-     "cat": "tech",
-     "published": "2026-11-21T07:01:04.000Z"
-    },
-    "07601b60021e": {
-     "id": "07601b60021e",
-     "title": "FBI reportedly investigating apparent hack of its criminal database",
-     "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
-     "short": "联邦调查局数据库疑遭黑客入侵",
-     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T16:35:15.000Z"
-    }
-   },
-   "name": "联邦调查局数据库疑遭黑客入侵",
-   "en": "fbi national crime information center hacked breach",
-   "wiki": "Cyberattack",
-   "cat": "world",
-   "last": "2026-11-21T22:12:19.703Z",
-   "hidden": false
-  },
-  {
-   "id": "f4bb4b75",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "f4bb4b75-1",
-     "t": "导弹或无人机坠落波兰引发戒备",
-     "ids": [
-      "f5aa2c1600b1",
-      "6fca891ece5d",
-      "968b51712184",
-      "b4d8b1b930db",
-      "dfff6b708f3a",
-      "1425c009d761",
-      "80605099f5e4",
-      "c06f290ca0b1",
-      "1204031f81c5"
-     ],
-     "w": {
-      "short": "俄导弹落入波兰",
-      "key": "俄罗斯导弹与飞行物坠落波兰领空，引发区域安全警戒与北约谴责。",
-      "title": "俄罗斯导弹与飞行物坠落波兰领空 引发区域安全高度戒备",
-      "summary": "俄罗斯近日对乌克兰发动大规模空袭，期间有导弹和飞行物落入波兰领空，引发区域安全高度关注。波兰官方强烈谴责此事件为莫斯科的严重挑衅，北约也对此表达谴责并紧急应对。同时，乌克兰多地基础设施与桥梁遭到猛烈轰炸，造成多人死伤。",
-      "common": [
-       {
-        "t": "俄罗斯导弹落入波兰领空",
-        "src": [
-         "AP News",
-         "BBC World",
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "波兰谴责俄罗斯挑衅",
-        "src": [
-         "BBC World",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "北约回应并谴责违规",
-        "src": [
-         "AP News",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "俄罗斯对乌克兰发动空袭",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "波兰防长指出坠落的是Kh-101导弹并落在诺维利波维茨",
-        "src": "BBC World"
-       },
-       {
-        "t": "波兰总理指周五清晨有三件飞行物侵犯领空",
-        "src": "BBC World"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "AP News",
-         "BBC World",
-         "Al Jazeera"
-        ],
-        "t": "认为俄罗斯此举是针对乌克兰早前攻击克里米亚大桥的报复性打击，并加剧了欧洲地缘政治紧张。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World",
-         "Free Malaysia Today"
-        ],
-        "t": "波兰官方及北约则将导弹落入境内事件视为莫斯科的严重挑衅与领空侵犯行为。"
-       }
-      ],
-      "unknown": "目前对于落入波兰境内的具体飞行物数量及完整细节仍有待进一步调查核实。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "欧洲地缘政治紧张局势因俄罗斯对乌大规模空袭及导弹波及波兰而进一步加剧。"
-      },
-      "people": [
-       "Volodymyr Zelenskyy",
-       "Vladimir Putin"
-      ],
-      "photo": "missile defense system",
-      "per": [
-       {
-        "id": "80605099f5e4",
-        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。",
-        "same": [
-         "导弹落入波兰",
-         "北约回应违规"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "c06f290ca0b1",
-        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "",
-        "same": [
-         "波兰举行演习"
-        ],
-        "view": null
-       },
-       {
-        "id": "f5aa2c1600b1",
-        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "Russia targeted bridges in Kyiv and railway stations overnight in a major attack launched days after Ukraine badly damaged the strategically important Crimean Bridge.",
-        "same": [
-         "俄罗斯空袭基辅"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6fca891ece5d",
-        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。",
-        "same": [
-         "导弹落入波兰",
-         "波兰谴责挑衅"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "968b51712184",
-        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议。",
-        "same": [
-         "俄军空袭基辅"
-        ],
-        "view": null
-       },
-       {
-        "id": "b4d8b1b930db",
-        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "Russia has launched a barrage of air attacks on Ukraine, killing eight people, as it targeted Kyiv’s bridges and infrastructure.",
-        "same": [
-         "俄罗斯空袭基辅"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "dfff6b708f3a",
-        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级。",
-        "same": [
-         "俄罗斯空袭基辅"
-        ],
-        "view": null
-       },
-       {
-        "id": "1425c009d761",
-        "t": "波兰谴责俄罗斯领空遭三度侵犯",
-        "says": "",
-        "same": [
-         "波兰谴责挑衅"
-        ],
-        "view": "看法 B"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "d4a2991e",
-     "v": 2,
-     "at": "2026-11-21T22:15:46.118Z",
-     "img": {
-      "kind": "B",
-      "people": [
-       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_%2831-12-2025%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "credit": "Press Service of the President of Ukrain · Wikimedia Commons · CC BY 4.0",
-        "kind": "B",
-        "person": "Volodymyr Zelenskyy"
-       },
-       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Putin_V_2026_08_10.png/960px-Putin_V_2026_08_10.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Пресс-служба Президента России · Wikimedia Commons · CC BY 4.0",
-        "kind": "B",
-        "person": "Vladimir Putin"
-       }
-      ]
-     }
-    },
-    {
-     "id": "f4bb4b75-2",
-     "t": "美俄乌高层表态与安全保证分歧",
-     "ids": [
-      "acc8f3177f53",
-      "b38e5a17b7df",
-      "3a083cc0df3b",
-      "5142390aaa16",
-      "8bd76ee26afb",
-      "7018d0e3b351",
-      "b2c8270dd931",
-      "ac3f47852a51",
-      "d5f4d08731f7"
-     ],
-     "w": {
-      "short": "美俄乌安全保障分歧加剧",
-      "key": "美特使提类北约保障遭俄拒绝",
-      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
-      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
-      "common": [
-       {
-        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Al Jazeera"
-        ],
-        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
-       }
-      ],
-      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
-      },
-      "people": [
-       "Donald Trump",
-       "Vladimir Putin"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "b38e5a17b7df",
-        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
-        "same": [
-         "美俄领导人会晤",
-         "削减军援基辅"
-        ],
-        "view": null
-       },
-       {
-        "id": "3a083cc0df3b",
-        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
-        "same": [
-         "类北约保障",
-         "马克龙提北约",
-         "美俄中国会晤"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "8bd76ee26afb",
-        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
-        "same": [
-         "拒绝北约保障",
-         "马克龙提北约",
-         "欧洲特使赴俄"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ac3f47852a51",
-        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
-        "same": [
-         "欧洲防务开支",
-         "拒绝领土割让"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "e0733d78",
-     "at": "2026-11-21T22:17:32.053Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     },
-     "v": 2
-    },
-    {
-     "id": "f4bb4b75-3",
-     "t": "俄罗斯空袭泽连斯基家乡与基辅",
-     "ids": [
-      "b0b72e86c2bd",
-      "286cc01f5f7e",
-      "aedff471d118",
-      "cbeed7399dad",
-      "ecdeb85fd175"
-     ]
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "f5aa2c1600b1": {
-     "id": "f5aa2c1600b1",
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-     "short": "俄空袭基辅",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T13:01:16.000Z",
-     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。"
-    },
-    "6fca891ece5d": {
-     "id": "6fca891ece5d",
-     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-     "short": "俄导弹落入波兰",
-     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T12:56:48.000Z",
-     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
-    },
-    "968b51712184": {
-     "id": "968b51712184",
-     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
-     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-     "short": "俄空袭基辅击中欧洲使馆",
-     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-20T12:04:16.000Z",
-     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
-    },
-    "b4d8b1b930db": {
-     "id": "b4d8b1b930db",
-     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:54:00.000Z",
-     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
-    },
-    "dfff6b708f3a": {
-     "id": "dfff6b708f3a",
-     "title": "Russia’s day-long attack on Kyiv damages embassies",
-     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T08:56:08.000Z",
-     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
-    },
-    "1425c009d761": {
-     "id": "1425c009d761",
-     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
-     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
-     "short": "波兰谴责俄侵犯领空",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T11:45:35.000Z"
-    },
-    "acc8f3177f53": {
-     "id": "acc8f3177f53",
-     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
-     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-     "short": "美伊外交谈判遇阻",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T01:21:44.000Z",
-     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "b38e5a17b7df": {
-     "id": "b38e5a17b7df",
-     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
-     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-     "short": "泽连斯基斥普京为杀手",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T23:25:36.000Z",
-     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
-    },
-    "3a083cc0df3b": {
-     "id": "3a083cc0df3b",
-     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:01:51.000Z",
-     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
-    },
-    "5142390aaa16": {
-     "id": "5142390aaa16",
-     "title": "Pakistan minister visits India for first time since 2025 war",
-     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
-     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:11:57.000Z",
-     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
-    },
-    "8bd76ee26afb": {
-     "id": "8bd76ee26afb",
-     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
-     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T09:08:29.000Z",
-     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
-    },
-    "7018d0e3b351": {
-     "id": "7018d0e3b351",
-     "title": "3-way summit offers little hope for peace in Ukraine",
-     "zh": "乌克兰三方峰会难为和平带来希望",
-     "short": "乌克兰三方峰会难寻和平",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:58:52.000Z"
-    },
-    "b2c8270dd931": {
-     "id": "b2c8270dd931",
-     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
-     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-     "short": "德政要称雅尔塔模式无用",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:47:21.000Z"
-    },
-    "80605099f5e4": {
-     "id": "80605099f5e4",
-     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
-     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
-     "short": "俄导弹落入波兰",
-     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T22:15:00.000Z",
-     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
-    },
-    "c06f290ca0b1": {
-     "id": "c06f290ca0b1",
-     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
-     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-     "short": "11国欧洲军队波兰演习",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T19:47:00.000Z"
-    },
-    "b0b72e86c2bd": {
-     "id": "b0b72e86c2bd",
-     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
-     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
-     "short": "俄袭击乌总统家乡",
-     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:56:39.000Z",
-     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
-    },
-    "286cc01f5f7e": {
-     "id": "286cc01f5f7e",
-     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
-     "short": "俄狂轰基辅致7死",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T18:42:38.000Z",
-     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "aedff471d118": {
-     "id": "aedff471d118",
-     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
-     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
-     "short": "俄导弹袭泽连斯基家乡",
-     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:55:07.000Z"
-    },
-    "cbeed7399dad": {
-     "id": "cbeed7399dad",
-     "title": "Russia strikes Zelenskyy's hometown, killing 2",
-     "zh": "俄军空袭泽连斯基家乡致2人死亡",
-     "short": "俄军空袭泽连斯基家乡",
-     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "world",
-     "published": "2026-11-21T14:44:00.000Z"
-    },
-    "ecdeb85fd175": {
-     "id": "ecdeb85fd175",
-     "title": "Emergency crews in Ukraine hit by a double-tap strike",
-     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
-     "short": "乌救援队遭俄军二次空袭",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T07:12:03.000Z"
-    },
-    "1204031f81c5": {
-     "id": "1204031f81c5",
-     "title": "Russia tests NATO’s eastern defences",
-     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
-     "short": "俄导弹疑似落入波兰",
-     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T12:50:35.000Z",
-     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
-    },
-    "ac3f47852a51": {
-     "id": "ac3f47852a51",
-     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
-     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-     "short": "特朗普不满欧洲援乌",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T15:15:30.000Z",
-     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "d5f4d08731f7": {
-     "id": "d5f4d08731f7",
-     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
-     "short": "特朗普称普京朋友泽连斯基驳斥",
-     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T08:10:25.000Z",
-     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    }
-   },
-   "name": "乌克兰战争与安全局势",
-   "en": "ukraine war russia missile poland zelensky",
-   "wiki": "Russian invasion of Ukraine",
-   "cat": "world",
-   "last": "2026-11-21T22:12:19.702Z",
-   "hidden": false,
-   "short": "乌克兰战局与安全局势",
-   "key": "导弹坠波兰与战后安保博弈",
-   "overview": "俄罗斯对乌克兰发动大规模空袭并有导弹落入波兰领空，引发北约高度戒备；同时美欧俄就乌克兰战后安全保障及领土问题分歧严重，和谈陷入僵局。",
-   "minorText": [],
-   "links": [
-    {
-     "from": "f4bb4b75-1",
-     "to": "f4bb4b75-2",
-     "t": "俄罗斯大规模空袭乌克兰基辅及基础设施，加剧了战后和平安排与安全保障的紧张局势"
-    }
-   ],
-   "img": {
-    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-    "credit": "Al Jazeera",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 3,
-    "sources": 7,
-    "stories": 23,
-    "gdelt": null,
-    "wiki": {
-     "title": "Russian invasion of Ukraine",
-     "views": 973,
+     "title": "United Nations Climate Change Conference",
+     "views": 498,
      "ratio": 1
     },
-    "at": "2026-11-21T22:22:19.832Z"
+    "at": "2026-11-22T03:07:12.039Z"
+   },
+   "short": "COP31化石燃料分歧致僵局",
+   "key": "协议草案删化石燃料惹众怒",
+   "overview": "第31届联合国气候大会因草案删除化石燃料表述引发欧盟及多国强烈抗议与退场威胁，谈判超时陷入僵局，主席团正紧急斡旋。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+    "credit": "BBC World",
+    "kind": "A"
    }
   },
   {
@@ -1005,7 +337,7 @@
    "lines": [
     {
      "id": "5a1cdc28-1",
-     "t": "国际法院罗兴亚人种族灭绝裁决",
+     "t": "国际法院裁定缅甸罗兴亚人种族灭绝",
      "ids": [
       "978f89b95795",
       "75c4f6000f48",
@@ -1151,13 +483,14 @@
     },
     {
      "id": "5a1cdc28-2",
-     "t": "大马内阁同意将罗兴亚难民安置土耳其",
+     "t": "内阁同意将罗兴亚难民安置到土耳其",
      "ids": [
       "391dc893b136",
       "bbc90da3ec13",
       "8539895b5c90",
       "e6579b6ff7f7",
-      "e0f1a40bb1a0"
+      "e0f1a40bb1a0",
+      "842207c32407"
      ],
      "w": {
       "short": "大马计划安置万名罗兴亚难民",
@@ -1454,13 +787,23 @@
      "source": "Al Jazeera",
      "cat": "sea",
      "published": "2026-11-20T19:12:14.000Z"
+    },
+    "842207c32407": {
+     "id": "842207c32407",
+     "title": "Govt urged to clarify Rohingya resettlement plan after Zahid deletes post",
+     "zh": "扎希删除贴文后，政府受促厘清罗兴亚人安置计划",
+     "short": "促厘清罗兴亚安置计划",
+     "url": "https://www.malaysiakini.com/news/889577-putrajaya-urged-to-clarify-rohingya-resettlement-plan-after-zahid-deletes-post",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-21T23:00:00.000Z"
     }
    },
-   "name": "国际法院罗兴亚人裁决",
-   "en": "icj rohingya genocide myanmar ruling",
-   "wiki": "Rohingya genocide",
-   "cat": "world",
-   "last": "2026-11-21T22:12:19.702Z",
+   "name": "马来西亚安置罗兴亚难民争议",
+   "en": "Malaysia Rohingya refugee relocation",
+   "wiki": "Rohingya genocide case",
+   "cat": "malaysia",
+   "last": "2026-11-22T03:01:03.168Z",
    "hidden": false,
    "short": "国际法院罗兴亚人裁决",
    "key": "国际法院裁定缅甸犯种族灭绝罪",
@@ -1475,14 +818,14 @@
    "heat": {
     "score": 4,
     "sources": 9,
-    "stories": 19,
+    "stories": 20,
     "gdelt": null,
     "wiki": {
-     "title": "Rohingya genocide",
-     "views": 11111,
-     "ratio": 3.6
+     "title": "Rohingya genocide case",
+     "views": 3572,
+     "ratio": 3.8
     },
-    "at": "2026-11-21T22:23:06.753Z"
+    "at": "2026-11-22T03:11:14.867Z"
    }
   },
   {
@@ -1491,7 +834,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "全球股市暴跌与AI板块重挫",
+     "t": "全球股市因AI抛售重挫",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -1514,16 +857,17 @@
       "a6a8f43c9365",
       "f9d282f431d4",
       "e42cb66d0684",
-      "fe7ae0ade208"
+      "fe7ae0ade208",
+      "cdf73407c7b6"
      ],
      "w": {
-      "short": "全球股市与AI板块暴跌",
-      "key": "科技股抛售重创全球股市",
-      "title": "人工智能热潮退温与高利率忧虑交加 科技股抛售潮致全球股市大幅下挫",
-      "summary": "全球金融市场遭遇科技股与人工智能相关资产的大规模抛售，欧美及亚洲主要股指全线大跌，亚洲市场更录得2020年以来最差单周表现。市场对人工智能盈利能力及估值过高的担忧升温，加之对美联储维持鹰派货币政策的预期，进一步加剧了投资者的避险情绪。除了股票市场，贵金属与加密货币等资产也同步承压走低。",
+      "short": "全球股市暴跌AI遭抛售",
+      "key": "人工智能板块抛售潮引发全球股市重挫",
+      "title": "全球股市遭人工智能抛售潮重挫，市值蒸发逾四万亿美元",
+      "summary": "受人工智能板块抛售潮加剧及美联储鹰派预期影响，全球股市与多类资产遭遇全线抛重挫，市值大幅蒸发。亚洲市场迎来了多年来表现最糟糕的一周，科技股领跌主要市场。美股与欧洲股市也普遍录得显著下跌。",
       "common": [
        {
-        "t": "科技股与人工智能板块遭遇抛售，拖累全球主要股市全面下挫。",
+        "t": "全球股市遭遇科技股及人工智能板块抛售潮重挫。",
         "src": [
          "AP News",
          "Yahoo Finance",
@@ -1534,47 +878,49 @@
         ]
        },
        {
-        "t": "亚洲股市遭受重挫，录得自2020年以来表现最糟糕的一周。",
+        "t": "亚洲股市创下自2020年以来最糟糕的一周表现。",
         "src": [
          "London South East",
          "The Guardian World"
-        ]
-       },
-       {
-        "t": "人工智能巨头Anthropic挂牌后股价回落，未能遏制相关板块的抛售潮。",
-        "src": [
-         "Yahoo Finance",
-         "The Guardian World"
-        ]
-       },
-       {
-        "t": "市场对美联储维持高利率或鹰派货币政策的担忧压制了风险偏好。",
-        "src": [
-         "Anadolu Ajansı",
-         "TradingView"
         ]
        }
       ],
       "single": [
        {
-        "t": "全球金融市场单日蒸发约4.28万亿美元市值，黄金、白银及加密货币市场集体大幅受挫。",
+        "t": "全球金融市场在过去24小时内总共蒸发了约4.28万亿美元市值。",
         "src": "TradingView"
        },
        {
-        "t": "台湾股市大跌6.7%，东京上市的软银集团因人工智能投资策略拖累单日重挫14.5%。",
+        "t": "Anthropic的首次公开募股未能阻止相关公司的抛售潮。",
         "src": "The Guardian World"
        },
        {
-        "t": "标普500指数大幅下挫3.7%，纳斯达克综合指数年内涨幅全数回吐并转跌。",
-        "src": "AP News"
+        "t": "多伦多股市期货因油金价格下跌而受拖累。",
+        "src": "a4b668b9adb1"
        }
       ],
-      "views": [],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Anadolu Ajansı",
+         "TradingView"
+        ],
+        "t": "市场下跌源于美联储维持鹰派货币政策或高利率的预期升温。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "The Guardian World"
+        ],
+        "t": "市场情绪转变是因为担忧人工智能估值过高、盈利能力不足及投资可持续性。"
+       }
+      ],
       "unknown": null,
       "impact": {
-       "my": "马股科技板块或将面临外溢抛售压力，投资者避险情绪升温恐影响令吉与本地股市走势。",
-       "sea": "亚洲及东南亚科技供应链和区域主要股市随全球科技股重挫而面临显著资本外流压力。",
-       "world": "全球高估值资产遭遇流动性冲击，投资者重新审视人工智能商业化前景及高利率环境的持续风险。"
+       "my": null,
+       "sea": null,
+       "world": "全球股市因人工智能板块遭抛售而普遍重挫，市值蒸发逾四万亿美元。"
       },
       "people": [],
       "photo": "stock market crash",
@@ -1582,102 +928,90 @@
        {
         "id": "a4b668b9adb1",
         "t": "油金价格下跌拖累多伦多股市期货",
-        "says": "油价与金价走低拖累多伦多股市期货表现。",
+        "says": "油金价格下跌拖累多伦多股市期货。",
         "same": [
-         "大宗商品走低"
+         "股市期货下跌"
         ],
         "view": null
        },
        {
         "id": "e42cb66d0684",
         "t": "标普500暴跌3.7%纳指转跌，科技股抛售潮加剧",
-        "says": "科技股抛售加剧致标普500暴跌3.7%，纳斯达克指数今年首次转跌，全球市场承压。",
+        "says": "受科技股抛售潮影响，标普500指数大幅下挫，纳斯达克综合指数转跌。",
         "same": [
-         "科技股遭抛售",
-         "全球股市下跌"
+         "科技股抛售加剧"
         ],
         "view": null
        },
        {
         "id": "370e31bae833",
         "t": "科技股领跌全球股市，美国国债收益率下跌",
-        "says": "科技股领跌全球市场，美国国债收益率同步下滑，反映投资者对高估值科技板块的忧虑。",
+        "says": "全球股市遭遇科技股领衔的抛售，美国国债收益率下跌，反映投资者对高估值科技板块的担忧。",
         "same": [
-         "科技股遭抛售",
-         "全球股市下跌"
+         "科技股领跌全球"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "af87ca270f5d",
-        "t": "美联储鹰派预期与人工智能盈利风险致全球市场下跌",
-        "says": "美联储鹰派政策预期升温及人工智能盈利风险压抑了风险偏好，导致全球资产价格下调。",
+        "t": "美联储鹰派预期与AI盈利风险致全球市场下跌",
+        "says": "美联储鹰派预期升温加上人工智能盈利风险，导致全球市场普遍下滑。",
         "same": [
-         "全球股市下跌",
-         "美联储高利率",
-         "AI盈利担忧"
+         "全球市场下跌"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "907f3c71c379",
-        "t": "人工智能抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
-        "says": "人工智能板块抛售拖累全球，亚洲股市录得2020年以来表现最差的一周。",
+        "t": "AI抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
+        "says": "人工智能板块遭抛售引发全球跌势，亚洲迎来2020年以来最糟一周。",
         "same": [
-         "亚洲表现最糟",
-         "AI遭抛售",
-         "全球股市下跌"
+         "亚洲最糟一周"
         ],
         "view": null
        },
        {
         "id": "fd2811614640",
-        "t": "全球股市暴跌，人工智能板块抛售潮未止",
-        "says": "Anthropic上市表现平淡未能提振市场，全球股市重挫，亚洲创2020年以来最差单周表现，日韩台科技股暴跌。",
+        "t": "全球股市暴跌，AI板块抛售潮未止",
+        "says": "Anthropic首次公开募股未能阻止AI抛售潮，全球股市重挫，亚洲创下最糟单周表现。",
         "same": [
-         "亚洲表现最糟",
-         "AI遭抛售",
-         "Anthropic"
+         "全球股市暴跌"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "72d18114a820",
-        "t": "美股期指下跌，人工智能担忧拖累全球市场",
-        "says": "受Anthropic股价回落及人工智能板块担忧影响，美国股指期货走低并冲击全球情绪。",
+        "t": "美股期指下跌，AI担忧拖累全球市场",
+        "says": "受Anthropic股价回落及AI担忧影响，美股期指下跌并拖累全球市场。",
         "same": [
-         "AI遭抛售",
-         "Anthropic",
-         "全球股市下跌"
+         "美股期指下跌"
         ],
         "view": null
        },
        {
         "id": "3fc446211522",
         "t": "股票加密货币黄金白银遭抛售，4.28万亿美元蒸发",
-        "says": "市场担忧美联储维持高利率，股票、加密货币与贵金属遭全面抛售，单日蒸发4.28万亿美元市值。",
+        "says": "全球金融市场遭全线抛售蒸发4.28万亿美元，核心原因是担忧美联储维持高利率。",
         "same": [
-         "全球股市下跌",
-         "美联储高利率",
-         "科技股遭抛售"
+         "全球金融市场抛售"
         ],
-        "view": null
+        "view": "看法 A"
        }
       ]
      },
-     "loose": false,
-     "sig": "e617e5f3",
-     "at": "2026-11-21T22:13:31.617Z",
+     "loose": true,
+     "sig": "3c35755d",
+     "at": "2026-11-22T03:01:13.244Z",
      "img": {
-      "src": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
-      "credit": "The Guardian World",
+      "src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/20/thumbs_b_c_de941811efadf77c214072969144364d.jpg",
+      "credit": "Anadolu Ajansı",
       "kind": "A"
      },
      "v": 2
     },
     {
      "id": "3700168d-2",
-     "t": "Anthropic上市表现与AI担忧",
+     "t": "Anthropic上市与AI估值争议",
      "ids": [
       "80fbf8621612",
       "9d458302cf21",
@@ -1870,94 +1204,104 @@
       "bca7f25a0cd6",
       "9dbc27ab9aa4",
       "3d617bdf334a",
-      "1308417160fd"
+      "1308417160fd",
+      "8b48e02b9863",
+      "127326b87b53",
+      "4211371d7e8f"
      ],
      "w": {
-      "short": "特朗普威胁对海外数据中心征税",
-      "key": "美国总统特朗普威胁对在海外建造数据中心的企业征收巨额关税，旨在将科技基础设施留在本土。",
-      "title": "全球人工智能震荡：特朗普拟对海外数据中心征税，英伟达深陷调查风波",
-      "summary": "美国总统特朗普威胁对在海外建造数据中心的企业征收关税，以将科技投资留在本土。同时，人工智能芯片巨头英伟达因涉及芯片出口中国及会计账目等问题，正面临美国证券交易委员会及加州总检察长的调查，导致股价大跌。此外，台积电也配合美国新规收紧了对中国的先进芯片制造服务限制。",
+      "short": "全球AI震荡与特朗普征税",
+      "key": "美国监管与特朗普言论引发全球人工智能股票抛售与行业动荡。",
+      "title": "全球人工智能泡沫与股市抛售：英伟达遭调查，特朗普威胁海外数据中心征税",
+      "summary": "近期全球人工智能板块遭遇抛售与股市震荡，美国证券交易委员会与加州司法部门正对英伟达的会计账目及芯片出口是否流入中国展开调查。同时，美国总统特朗普威胁对在海外兴建数据中心的企业征收关税，并表示应仅向中国出售旧款芯片。马来西亚的杨忠礼电力则澄清其柔佛数据中心未参与违规转运芯片。",
       "common": [
        {
-        "t": "英伟达正面临美国监管机构调查",
+        "t": "英伟达正面临美国相关部门的调查。",
         "src": [
          "Reuters",
          "The Guardian World"
         ]
        },
        {
-        "t": "美国收紧对华人工智能芯片出口限制",
+        "t": "美国收紧对华人工智能芯片及技术的出口限制。",
         "src": [
          "Free Malaysia Today",
          "联合早报"
+        ]
+       },
+       {
+        "t": "杨忠礼电力否认柔佛数据中心协助将芯片转移给中国。",
+        "src": [
+         "Free Malaysia Today",
+         "The Edge Malaysia"
         ]
        }
       ],
       "single": [
        {
-        "t": "特朗普威胁对在海外建造数据中心的企业征收巨额关税",
+        "t": "特朗普威胁对在海外建造数据中心的企业征收巨额关税。",
         "src": "The Edge Malaysia"
        },
        {
-        "t": "杨忠礼电力澄清其柔佛数据中心未受调查，并否认协助将芯片转移给中国客户",
+        "t": "台积电已向中国芯片设计客户发出通知，收紧先进制造服务的相关限制。",
         "src": "Free Malaysia Today"
        },
        {
-        "t": "台积电配合美国新规，要求中国芯片设计客户暂停部分采用16纳米及以下工艺的受影响订单",
-        "src": "Free Malaysia Today"
+        "t": "加州总检察长对英伟达发出传票，调查前总裁黄仁勋的不当行为及潜在机密外泄。",
+        "src": "The Guardian World"
        }
       ],
       "views": [],
-      "unknown": "相关监管调查的具体细节及美中全面协议的具体内容尚未完全披露。",
+      "unknown": "美中全面协议的具体细节及相关调查的最终结果目前尚未完全确定。",
       "impact": {
-       "my": "柔佛州的数据中心项目受到纽约时报等外媒报道关注，但本地运营商杨忠礼电力已公开澄清并强调合规。",
-       "sea": "区域内的跨国数据中心布局与供应链可能受到美国最新出口管制与关税政策的潜在牵连。",
-       "world": "全球人工智能概念股与高估值科技股遭遇抛售压力，半导体供应链格局面临进一步调整。"
+       "my": "柔佛数据中心的合规性及大马相关基建发展备受市场关注。",
+       "sea": "区域内的跨国数据中心布局可能受到美国最新出口管制与关税威胁的影响。",
+       "world": "全球人工智能概念股遭到抛售，芯片供应链与跨国科技投资面临地缘政治冲击。"
       },
       "people": [
        "Jensen Huang",
        "Donald Trump"
       ],
-      "photo": "microchip production line",
+      "photo": "server racks",
       "per": [
        {
         "id": "ad379fa36e36",
         "t": "消息称英伟达会计账目正遭美国证券交易委员会调查",
-        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，可能对高估值科技股的市场情绪造成冲击。",
+        "says": "美国证券交易委员会正对英伟达会计账目进行调查，冲击高估值科技股市场情绪。",
         "same": [
-         "英伟达正面临调查"
+         "英伟达面临调查"
         ],
         "view": null
        },
        {
         "id": "1308417160fd",
         "t": "特朗普称仍支持鲁特尼克，敦促英伟达黄仁勋道歉",
-        "says": "特朗普在相关涉华及人事表态中提及英伟达前总裁黄仁勋。",
+        "says": "特朗普表态支持相关人事并敦促黄仁勋道歉。",
         "same": [],
         "view": null
        },
        {
         "id": "703b07e4b163",
         "t": "杨忠礼电力否认协助将英伟达芯片转移给中国客户",
-        "says": "YTL Power否认柔佛数据中心协助转移英伟达芯片给中国客户，强调营运符合法律与美国贸易管制。",
+        "says": "YTL Power否认柔佛数据中心涉嫌协助转移英伟达芯片给中国客户的报道。",
         "same": [
-         "杨忠礼电力"
+         "否认涉芯片转移"
         ],
         "view": null
        },
        {
         "id": "2c3757b0893a",
         "t": "加州就芯片出口是否流入中国一事调查英伟达",
-        "says": "加州总检察长向英伟达发出传票，调查其高级芯片是否流入中国及前总裁是否误导投资者。",
+        "says": "加州向英伟达发出调查传票，审查芯片出口及前总裁黄仁勋的行为是否违规。",
         "same": [
-         "英伟达正面临调查"
+         "英伟达面临调查"
         ],
         "view": null
        },
        {
         "id": "4cf449e2548c",
         "t": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
-        "says": "台积电配合美国最新出口管制，收紧中国芯片设计客户的先进制造服务订单。",
+        "says": "台积电配合美国新规收紧中国AI芯片限制，暂停部分先进制程代工订单。",
         "same": [
          "收紧对华芯片限制"
         ],
@@ -1966,16 +1310,16 @@
        {
         "id": "4dc84061523a",
         "t": "纽约时报称杨忠礼数据中心助阿里巴巴远端访问英伟达芯片，管理层澄清未受调查",
-        "says": "报道称柔佛数据中心涉嫌协助阿里巴巴远端访问芯片，但管理层澄清未受调查且业绩强劲。",
+        "says": "针对纽约时报指其数据中心涉嫌协助远端访问芯片，YTL管理层澄清未受调查。",
         "same": [
-         "杨忠礼电力"
+         "否认涉芯片转移"
         ],
         "view": null
        },
        {
         "id": "75075c1c3f03",
         "t": "特朗普称只应向中国出售较旧芯片",
-        "says": "特朗普表示美国希望仅向中国出售技术较落后的旧款芯片，凸显美方持续对华半导体限制。",
+        "says": "特朗普表示美国应仅向中国出售旧款芯片，并透露美中正就全面协议协商。",
         "same": [
          "收紧对华芯片限制"
         ],
@@ -1984,20 +1328,18 @@
        {
         "id": "3c220e7da811",
         "t": "特朗普威胁对在海外建数据中心的企开征关税",
-        "says": "特朗普警告将对在海外兴建数据中心的美国企业征收巨额关税，以促使投资留在本土。",
-        "same": [
-         "海外数据中心关税"
-        ],
+        "says": "特朗普警告将对在海外建造数据中心的美国企业征收重税，以推动本土投资。",
+        "same": [],
         "view": null
        }
       ]
      },
-     "loose": true,
-     "sig": "ac8f9e38",
-     "at": "2026-11-21T22:14:30.964Z",
+     "loose": false,
+     "sig": "2ddbf7a1",
+     "at": "2026-11-22T03:01:27.379Z",
      "img": {
-      "src": "https://i.guim.co.uk/img/media/d8e256cb4f13741672cadb73a1484717745e43a9/424_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba5ae30a51442a04ba6a938dbed986dd",
-      "credit": "The Guardian World",
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/3801d3ad-ytl-data-centers-ytl-pic-220525.webp",
+      "credit": "Free Malaysia Today",
       "kind": "A"
      },
      "v": 2
@@ -2663,23 +2005,80 @@
      "source": "Malay Mail",
      "cat": "finance",
      "published": "2026-11-21T03:11:15.000Z"
+    },
+    "cdf73407c7b6": {
+     "id": "cdf73407c7b6",
+     "title": "Global Stock Markets Plunge as AI Sell-Off Spreads",
+     "zh": "人工智能板块遭抛售，全球股市遭遇重挫",
+     "short": "人工智能抛售致股市跌",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XMzlhZG9YdG1QS21EcHRpUHpseU9EYzJhYWtCQ1h0aFJXRWpZLVl6S0Q5MWFQRV9vX0tBbEVGeW1pZmJoUWJQN3NtNlBQVnNJNDFOMEJ2VTM3R1F2eFZWSFlsSjRKNUVxOWFsSW8yVEFRRHlTZ1JqcHZVVmg?oc=5",
+     "source": "STL.News",
+     "cat": "finance",
+     "published": "2026-11-21T14:42:46.000Z",
+     "sum": "由于人工智能相关股票遭到抛售，全球股票市场集体大跌。科技板块的下挫引发了投资者的恐慌情绪，并迅速蔓延至全球主要金融市场。"
+    },
+    "8b48e02b9863": {
+     "id": "8b48e02b9863",
+     "title": "Nvidia faces SEC probe amid turmoil following Huang's resignation",
+     "zh": "辉达面临美国证交会调查，黄仁勋辞职引发动荡",
+     "short": "辉达遭SEC调查",
+     "url": "https://www.nst.com.my/amp/world/world/2026/11/1582860/nvidia-faces-sec-probe-amid-turmoil-following-huangs-resignation",
+     "source": "NST Online",
+     "cat": "tech",
+     "published": "2026-11-21T23:02:13.000Z",
+     "sum": "人工智能芯片巨头辉达在首席执行官黄仁勋辞职后陷入动荡，并面临美国证券交易委员会的调查。这一连串变故引发市场对该公司未来走向的高度关注。"
+    },
+    "127326b87b53": {
+     "id": "127326b87b53",
+     "title": "A tale of two Nvidias",
+     "zh": "英伟达的两种面貌：财报与高管呼吁黄仁勋回归",
+     "short": "英伟达财报高管呼声",
+     "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-21T21:07:42.000Z"
+    },
+    "4211371d7e8f": {
+     "id": "4211371d7e8f",
+     "title": "US securities regulator investigates Nvidia’s accounting practices",
+     "zh": "美国证券监管机构正调查英伟达会计实务",
+     "short": "美国调查英伟达账目",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQVIyb1RGR3RrakRHbTB2QXYwOWZFSW82VHRSMFJXN3hmbkVwZlVuWEFzcEhFQk1DQTRNbjU0YVVESVRoMVAwZXV5eEFHTTlrby1QSXk3MFBBVklGcEJ1R0xjb0xyVGFPNWNfNEt3c0xKelJ0NDVfbHpkRXEtNnE0MFBzdENGTzZxU1IzM0V3QnBZTF9fLXNyajZlaEFVbEpWelpjamJaS1A?oc=5",
+     "source": "联合早报",
+     "cat": "tech",
+     "published": "2026-11-22T02:33:04.000Z"
     }
    },
    "name": "全球AI泡沫与股市抛售",
-   "en": "artificial intelligence stock market selloff anthropic",
-   "wiki": "AI boom and bust",
-   "cat": "finance",
-   "last": "2026-11-21T22:12:19.702Z",
+   "en": "artificial intelligence stock market crash selloff",
+   "wiki": "Artificial intelligence boom",
+   "cat": "tech",
+   "last": "2026-11-22T03:01:03.167Z",
    "hidden": false,
    "short": "全球AI泡沫与股市抛售",
-   "key": "科技股与人工智能板块遭遇抛售，全球股市大幅下挫",
-   "overview": "受美联储鹰派预期、人工智能板块估值过高担忧以及Anthropic上市表现平淡拖累，全球金融市场遭遇大规模抛售，亚洲市场录得2020年以来最差单周表现。同时，美国政治监管与贸易限制也加剧了科技股的动荡。",
+   "key": "人工智能板块遭抛售引发全球股市重挫",
+   "overview": "受人工智能板块抛售潮与美联储鹰派预期影响，全球股市大幅下挫；Anthropic高估值上市开高走低未能消除泡沫疑虑，叠加美国对英伟达调查与特朗普关税威胁，加剧市场震荡。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "Anthropic上市表现平淡未能提振市场，加剧全球股市重挫"
+     "t": "全球股市重挫受到Anthropic首次公开招股表现不佳及人工智能板块抛售的直接拖累"
+    },
+    {
+     "from": "3700168d-1",
+     "to": "3700168d-3",
+     "t": "全球股市与科技板块抛售伴随着美国对英伟达的调查及特朗普对海外数据中心的关税威胁"
+    },
+    {
+     "from": "3700168d-2",
+     "to": "3700168d-1",
+     "t": "Anthropic股价回落引发人工智能担忧，并进一步拖累美股期指与全球金融市场下跌"
+    },
+    {
+     "from": "3700168d-3",
+     "to": "3700168d-1",
+     "t": "英伟达遭遇调查等监管压力，直接冲击了高估值科技股的市场情绪并引发板块抛售"
     }
    ],
    "img": {
@@ -2702,7 +2101,7 @@
    "lines": [
     {
      "id": "493f4a17-1",
-     "t": "亚太三边峰会与大国外交后续",
+     "t": "亚太峰会三边外交与融冰",
      "ids": [
       "cd30e168a012",
       "c8a6f004d720",
@@ -2716,50 +2115,42 @@
       "b8fdbe6aa1fc",
       "eee3df9e9738",
       "cef4b62147ef",
-      "0a224ee81be0"
+      "0a224ee81be0",
+      "944462cb3f32"
      ],
      "w": {
-      "short": "中美俄三方峰会",
-      "key": "中美俄领导人举行历史性三方峰会，但实质成果有限。",
-      "title": "中美俄领导人举行历史性三方峰会，多方聚焦大国格局与区域合作",
-      "summary": "中美俄三国领导人在亚太经合组织峰会期间举行了历史性的三方峰会，发表了联合公报并讨论了核风险及全球事务，但外界认为其象征意义大于实质突破。与此同时，马来西亚首相安华、新加坡总理黄循财及印尼总统普拉博沃等多国领导人也分别同中国领导人展开双边会谈，深化各领域合作。此外，中日关系因涉台及历史问题持续紧绷，中国要求日本纠正错误言行。",
+      "short": "大国三边峰会与区域外交",
+      "key": "中美俄举行历史性三边会晤，引发全球高度关注。",
+      "title": "中美俄领导人举行历史性三边峰会，亚太区域外交与双边合作成焦点",
+      "summary": "中国、美国和俄罗斯领导人在亚太峰会期间举行了历史性的三边会晤，就核风险、能源及多边合作发表了联合声明，但分析认为其象征意义大于实质突破。与此同时，多国领导人在峰会期间展开密集双边外交，探讨经贸、南海合作及区域稳定。中美关系虽有缓和迹象，但美方近期对华芯片限制等举措仍对其构成考验。",
       "common": [
        {
-        "t": "中美俄三国领导人举行了历史性的三方峰会",
+        "t": "中美俄三国领导人举行了历史性的三边峰会。",
         "src": [
          "CNA Asia",
          "BBC 中文"
         ]
        },
        {
-        "t": "三方峰会发表了联合公报并提及核风险与战略稳定等议题",
+        "t": "三方会晤发布了联合公报，承诺就核风险与能源供应等议题进行后续对话。",
         "src": [
          "CNA Asia",
          "BBC 中文"
-        ]
-       },
-       {
-        "t": "多国领导人在亚太经合组织峰会期间与中国领导人会晤",
-        "src": [
-         "CNA Asia",
-         "The Straits Times",
-         "Free Malaysia Today",
-         "The Edge Malaysia"
         ]
        }
       ],
       "single": [
        {
-        "t": "中国要求日本必须在台湾及历史问题上纠正错误言行，此前习近平冷落了日本首相高市早苗",
-        "src": "Free Malaysia Today"
+        "t": "习近平在深圳机场亲自迎接特朗普，展现高规格接待。",
+        "src": "CNA Asia"
        },
        {
-        "t": "马来西亚首相安华与中国国家主席习近平进行了会谈，讨论多领域合作",
-        "src": "The Edge Malaysia"
-       },
-       {
-        "t": "新加坡总理黄循财与中国国务院总理李强会面，双边预计将达成逾20项协议",
+        "t": "新加坡首相黄循财与中国国务院总理李强会面，预期将达成逾20项双边协议。",
         "src": "The Straits Times"
+       },
+       {
+        "t": "印尼总统普拉博沃与习近平会晤，讨论南海合作及经济投资伙伴关系。",
+        "src": "Free Malaysia Today"
        }
       ],
       "views": [
@@ -2768,117 +2159,131 @@
         "src": [
          "CNA Asia"
         ],
-        "t": "三方峰会是一场外交胜利，为主席带来了声望，也让美国总统向国内展示了强有力领导人形象。"
+        "t": "三边峰会是一次外交胜利，有助于中国展现大国凝聚力，并让特朗普向国内受众展现全球领导力。"
        },
        {
         "label": "看法 B",
         "src": [
          "BBC 中文"
         ],
-        "t": "三方峰会场面大于实质成果，联合公报内容相对笼统，且美国总统对俄乌相关领导人的亲密态度引发国内两党议员的担忧与批评。"
+        "t": "三边峰会场面大于实质成果，联合公报内容笼统，缺乏具体落实机制。"
        }
       ],
-      "unknown": "目前三方峰会后续是否会有具体的落实机制或进一步的定期会晤安排尚不明确。",
+      "unknown": "三边峰会后续是否有具体落实的时间表或机制尚不明确。",
       "impact": {
-       "my": "首相安华与中国领导人的会谈有助于进一步巩固马中双边经贸与多领域合作关系。",
-       "sea": "新加坡与印尼等东南亚国家积极推进与中国的高层对话及经贸合作，同时关注美中博弈对区域带来的影响。",
-       "world": "中美俄三大国的高层互动与地缘政治格局的调整，牵动着全球市场神经并引发中小国家对安全同盟的重新评估。"
+       "my": "马来西亚首相安华与中国国家主席习近平进行了会谈，探讨巩固双边关系。",
+       "sea": "东南亚国家积极与中国深化经贸与人工智能合作，同时面对大国博弈与南海合作议题。",
+       "world": "中美俄三边峰会及密集双边外交牵动全球市场神经，并对国际地缘政治格局产生深远影响。"
       },
       "people": [
        "Xi Jinping",
-       "Donald Trump"
+       "Donald Trump",
+       "Vladimir Putin",
+       "Lawrence Wong",
+       "Prabowo Subianto"
       ],
       "photo": null,
       "per": [
        {
         "id": "cd30e168a012",
         "t": "历史性习特普三边峰会对全球外交的信号",
-        "says": "习特普三人举行了历史性三方峰会并达成联合公报，但缺乏具体落实机制。",
+        "says": "中、美、普三位领导人在深圳举行历史性三边峰会，就核风险和能源供应等达成联合声明，分析认为对各自具政治象征意义。",
         "same": [
-         "三方峰会",
-         "联合公报"
+         "三边峰会",
+         "核风险"
         ],
         "view": "看法 A"
        },
        {
         "id": "c8a6f004d720",
         "t": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
-        "says": "中美短暂缓和后，面临人工智能芯片限制与关税等新考验。",
+        "says": "中美首脑在APEC期间短暂缓和，但美方随后的AI芯片出口管制及关税问题正对双边关系构成持续考验。",
         "same": [
-         "中美缓和"
+         "融冰与考验"
         ],
         "view": null
        },
        {
         "id": "0ec39da12e53",
         "t": "黄循财会见李强，双边将达成逾20项协议",
-        "says": "新加坡总理黄循财会见李强，双边致力于深化各领域合作并达成多项协议。",
+        "says": "新加坡总理黄循财访华并与中国总理李强会面，双方期望在多个领域达成超过20项合作协议。",
         "same": [
-         "双边会谈"
+         "双边合作"
         ],
         "view": null
        },
        {
         "id": "09df6df0da50",
         "t": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
-        "says": "美中俄峰会可能带来全球格局转变，中小国家加速建立安全同盟。",
+        "says": "美中俄领导人齐聚引发全球瞩目，分析指出中小国家或面临压力加速构建安全同盟。",
         "same": [
-         "三方峰会"
+         "三大巨头"
         ],
         "view": null
        },
        {
         "id": "01a3193d29ee",
         "t": "中国称日本必须改变态度，此前习近平冷落高市",
-        "says": "中国要求日本在台湾及历史问题上纠正错误言行，此前高市早苗遭冷落。",
+        "says": "中国外交部指出日本必须在台湾等问题上纠正错误言行，此前习近平未与日本首相高市早苗举行正式会晤。",
         "same": [
-         "中日关系"
+         "日本态度"
         ],
         "view": null
        },
        {
         "id": "1c361a8b39a7",
         "t": "印尼普拉博沃与中国习近平讨论未来南海合作",
-        "says": "印尼总统普拉博沃与习近平会晤，讨论南海合作及全面经济伙伴关系。",
+        "says": "印尼总统普拉博沃与习近平会面，讨论南海合作、经贸伙伴关系及加入世界人工智能合作组织。",
         "same": [
-         "双边会谈"
+         "南海合作"
         ],
         "view": null
        },
        {
         "id": "dcb0cd1db1e0",
         "t": "安华与中国国家主席习近平讨论多领域合作",
-        "says": "大马首相安华与习近平会谈以巩固双边关系。",
+        "says": "马来西亚首相安华与中国国家主席习近平会谈，巩固多领域双边关系。",
         "same": [
-         "双边会谈"
+         "多领域合作"
         ],
         "view": null
        },
        {
         "id": "03aaf90f76e4",
         "t": "中俄美三方峰会“场面大于实质成果”",
-        "says": "中俄美三方峰会象征意义大于实际突破，且引发美国国内批评。",
+        "says": "中俄美三方峰会象征意义大于实际突破，联合公报相对笼统，特朗普的亲密表现引发国内批评。",
         "same": [
-         "三方峰会",
-         "联合公报"
+         "象征意义"
         ],
         "view": "看法 B"
        }
       ]
      },
-     "loose": false,
-     "sig": "b1f9e7ae",
-     "at": "2026-11-21T04:22:00.266Z",
+     "loose": true,
+     "sig": "b30c931f",
+     "at": "2026-11-22T03:01:43.263Z",
      "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--Oslzadnf--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/trump_xi_putin_2.jpg?itok=bba0M6VR",
-      "credit": "CNA Asia",
-      "kind": "A"
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Xi_Jinping_on_August_18%2C_2026_%28cropped%29.jpg/960px-Xi_Jinping_on_August_18%2C_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Presidencia de la República del Ecuador · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Xi Jinping"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Daniel Torok · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Donald Trump"
+       }
+      ]
      },
      "v": 2
     },
     {
      "id": "493f4a17-2",
-     "t": "新加坡总理黄循财访华会见李强",
+     "t": "新加坡总理黄循财访华会晤李强",
      "ids": [
       "3e11c67b2837",
       "c073df4bb7ca"
@@ -3157,17 +2562,33 @@
      "source": "Al Jazeera",
      "cat": "world",
      "published": "2026-11-20T20:51:19.000Z"
+    },
+    "944462cb3f32": {
+     "id": "944462cb3f32",
+     "title": "分析：APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
+     "zh": "分析：APEC上与习近平特朗普会晤，对普京是一场胜利",
+     "short": "APEC美中俄互动",
+     "url": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "world",
+     "published": "2026-11-22T02:11:02.000Z",
+     "sum": "分析指出，在亚太经合组织会议期间，美中俄领导人的会晤为俄罗斯总统普京提供了重要的外交舞台。不过，这并不能让莫斯科在俄乌战争中更接近实质性胜利。各方博弈仍在持续。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
     }
    },
    "name": "中美欧领导人外交与峰会",
-   "en": "xi jinping trump singapore premier china eu",
-   "wiki": "China-United States relations",
-   "cat": "china",
-   "last": "2026-11-21T22:12:19.702Z",
+   "en": "APEC summit Xi Jinping Trump",
+   "wiki": "APEC",
+   "cat": "world",
+   "last": "2026-11-22T03:01:03.167Z",
    "hidden": false,
-   "short": "中美欧峰会与大国外交",
-   "key": "中美俄举行三方峰会，周边外交持续深化",
-   "overview": "中美俄领导人在亚太经合组织峰会期间举行历史性三方峰会，马来西亚、新加坡、印尼等多国领导人也同中国展开双边会谈，深化各领域合作。",
+   "short": "亚太峰会中美俄三方外交",
+   "key": "中美俄历史性会晤，多边外交与博弈并行",
+   "overview": "中美俄领导人举行历史性三边会晤，亚太峰会期间多国密集展开双边外交，唯中美科技与贸易分歧仍存考验。",
    "minorText": [],
    "links": [],
    "img": {
@@ -3187,7 +2608,1025 @@
     },
     "at": "2026-11-21T22:24:37.683Z"
    }
+  },
+  {
+   "id": "baacab83",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "baacab83-1",
+     "t": "《侠盗猎车手6》首日销售额破纪录",
+     "ids": [
+      "4b3f595fab30",
+      "499417bebfbd",
+      "5ac335d3fdf5",
+      "5ca931d42cae"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "4b3f595fab30": {
+     "id": "4b3f595fab30",
+     "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+     "zh": "《侠盗猎车手6》首发日销售额达37.9亿美元",
+     "short": "GTA6首日销售破纪录",
+     "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+     "source": "The Verge",
+     "cat": "tech",
+     "published": "2026-11-20T19:35:06.000Z",
+     "sum": "备受瞩目的游戏大作《侠盗猎车手6》在发售首日实现37.9亿美元的惊人销售额，打破了所有媒介的娱乐产业纪录。同时，该游戏也录得了3250万份的预售佳绩。"
+    },
+    "499417bebfbd": {
+     "id": "499417bebfbd",
+     "title": "Grand Theft Auto VI takes record US$3.8bil on first day",
+     "zh": "《侠盗猎车手6》首日创下38亿美元纪录，为前作近五倍",
+     "short": "GTA6首日大卖38亿美元",
+     "url": "https://www.freemalaysiatoday.com/category/leisure/2026/11/21/grand-theft-auto-vi-takes-record-us-3-8bil-on-first-day",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-20T23:00:00.000Z"
+    },
+    "5ac335d3fdf5": {
+     "id": "5ac335d3fdf5",
+     "title": "GTA VI books record $3.79 billion in sales on first day of launch",
+     "zh": "《GTA 6》首日创下37.9亿美元销售纪录",
+     "short": "GTA6首日狂揽38亿",
+     "url": "https://www.channelnewsasia.com/business/gta-vi-books-record-379-billion-in-sales-first-day-launch-6570471",
+     "source": "CNA Business",
+     "cat": "tech",
+     "published": "2026-11-20T19:43:16.000Z"
+    },
+    "5ca931d42cae": {
+     "id": "5ca931d42cae",
+     "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
+     "zh": "《GTA 6》引爆下载热潮，预计销售额突破23亿美元",
+     "short": "GTA6热销",
+     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "tech",
+     "published": "2026-11-20T13:08:30.000Z"
+    }
+   },
+   "name": "GTA 6发售创下销售纪录",
+   "en": "gta 6 record sales launch day",
+   "wiki": "Grand Theft Auto VI",
+   "cat": "tech",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false,
+   "heat": {
+    "score": 3,
+    "sources": 4,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": {
+     "title": "Grand Theft Auto VI",
+     "views": 540793,
+     "ratio": 2.2
+    },
+    "at": "2026-11-22T03:08:02.128Z"
+   },
+   "short": "GTA 6发售破纪录",
+   "key": "发售首日即刷新全球娱乐销售纪录",
+   "overview": "备受瞩目的《侠盗猎车手6》（GTA 6）正式发售，首日销量及销售额即打破全球娱乐产业历史纪录，引发全球玩家狂热抢购并带动相关硬件热销。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/GameCube-Set.jpg/960px-GameCube-Set.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Evan-Amos · Wikimedia Commons · Public domain",
+    "kind": "B"
+   }
+  },
+  {
+   "id": "7d01a8b9",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "7d01a8b9-1",
+     "t": "生活成本与气候危机抗议",
+     "ids": [
+      "c902a31706b5",
+      "b0ff52fa3422",
+      "9da0d3967904",
+      "517e76bd6677",
+      "4bef99f0e187",
+      "d8aa0d67cbef"
+     ],
+     "w": {
+      "short": "欧洲多国爆发Z世代抗议",
+      "key": "欧洲多国年轻人走上街头抗议生活成本上涨",
+      "title": "欧洲多国爆发Z世代抗议潮：聚焦生活成本与未来危机",
+      "summary": "欧洲多国近日爆发由年轻人和学生发起的抗议活动，抗议生活成本高昂、住房负担重及公共服务削减。法国迎来了第六个周末的示威游行，葡萄牙等地也有数千人走上街头。这场抗议浪潮已蔓延至德国和瑞典等多个欧洲国家。",
+      "common": [
+       {
+        "t": "欧洲多国爆发抗议活动，抗议生活成本高昂和公共服务问题。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today",
+         "France 24"
+        ]
+       },
+       {
+        "t": "法国的抗议活动已经持续了第六个周末。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today",
+         "France 24"
+        ]
+       },
+       {
+        "t": "示威活动最初由9月份要求改善教育条件的学生发起，随后扩大为全国范围的运动。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "葡萄牙的抗议活动由该国最大工会联合会组织，民众冒雨在里斯本游行，抗议当地房价自2017年以来翻倍。",
+        "src": "Al Jazeera"
+       },
+       {
+        "t": "法国巴黎的抗议集会现场气氛较为节日化，有音乐家演奏、餐车、服装和自制标语。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "欧洲多国爆发年轻人主导的抗议潮，反映出全球青年面临的经济不稳定和生活压力正向政治层面施加巨大压力。"
+      },
+      "people": [
+       "Emmanuel Macron",
+       "Manon Moret",
+       "Michel Zecler"
+      ],
+      "photo": "protest crowd",
+      "per": [
+       {
+        "id": "c902a31706b5",
+        "t": "欧洲各地爆发抗议生活成本和住房危机的示威",
+        "says": "欧洲多国爆发抗议生活成本、住房危机和公共服务削减的示威，法国和葡萄牙民众纷纷走上街头。",
+        "same": [
+         "生活成本",
+         "法国葡萄牙"
+        ],
+        "view": null
+       },
+       {
+        "t": "法国连续第六个星期六抗议活动参与人数下降",
+        "says": "法国迎来了第六个周末的抗议活动。",
+        "same": [
+         "第六个周末"
+        ],
+        "view": null
+       },
+       {
+        "id": "9da0d3967904",
+        "t": "法国抗议者第六个周末集会抗议生活成本",
+        "says": "法国抗议者第六个周末在巴黎集会，抗议生活成本和警察暴力，这场由学生发起的运动已蔓延至欧洲多国。",
+        "same": [
+         "生活成本",
+         "学生发起"
+        ],
+        "view": null
+       },
+       {
+        "id": "517e76bd6677",
+        "t": "欧洲多国爆发抗议活动反对生活成本上涨与教育削减",
+        "says": "欧洲多国爆发抗议活动，反对生活成本上涨与教育削减。",
+        "same": [
+         "生活成本"
+        ],
+        "view": null
+       },
+       {
+        "id": "4bef99f0e187",
+        "t": "欧洲多国爆发Z世代抗议，反对战争、高昂生活成本与气候危机",
+        "says": "欧洲多国爆发Z世代抗议，反对战争、高昂生活成本与气候危机。",
+        "same": [
+         "生活成本"
+        ],
+        "view": null
+       },
+       {
+        "id": "d8aa0d67cbef",
+        "t": "欧洲各地年轻人走上街头抗议高生活成本",
+        "says": "欧洲各地年轻人走上街头抗议高生活成本。",
+        "same": [
+         "生活成本"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "1d265bbf",
+     "v": 2,
+     "at": "2026-11-22T03:04:26.787Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-21T171053Z_1177590545_RC2FSOAHFU7E_RTRMADP_3_PORTUGAL-POLITICS-PROTESTS-1795290649.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "c902a31706b5": {
+     "id": "c902a31706b5",
+     "title": "Thousands protest across Europe over living costs and housing",
+     "zh": "欧洲各地爆发抗议生活成本和住房危机的示威",
+     "short": "欧洲爆发生活成本示威",
+     "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T20:47:50.000Z"
+    },
+    "b0ff52fa3422": {
+     "id": "b0ff52fa3422",
+     "title": "France’s sixth consecutive Saturday of protests draw lower turnout",
+     "zh": "法国连续第六个星期六抗议活动参与人数下降",
+     "short": "法国抗议人数减少",
+     "url": "https://www.france24.com/en/france/20261121-france-s-sixth-consecutive-saturday-of-protests-draw-lower-turnout",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T20:20:37.000Z"
+    },
+    "9da0d3967904": {
+     "id": "9da0d3967904",
+     "title": "French protesters rally for sixth weekend over living costs, public services",
+     "zh": "法国抗议者第六个周末集会抗议生活成本",
+     "short": "法国民众周末抗议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/french-protesters-rally-for-sixth-weekend-over-living-costs-public-services",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:53:42.000Z"
+    },
+    "517e76bd6677": {
+     "id": "517e76bd6677",
+     "title": "Thousands protest overs prices, education, military spending in France and Europe",
+     "zh": "欧洲多国爆发抗议活动反对生活成本上涨与教育削减",
+     "short": "欧洲爆发抗议浪潮",
+     "url": "https://www.france24.com/en/thousands-protest-overs-prices-education-military-spending-in-france-and-europe",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:48:46.000Z"
+    },
+    "4bef99f0e187": {
+     "id": "4bef99f0e187",
+     "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+     "zh": "欧洲多国爆发Z世代抗议，反对战争、高昂生活成本与气候危机",
+     "short": "欧洲Z世代抗议生活成本",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T02:49:16.000Z"
+    },
+    "d8aa0d67cbef": {
+     "id": "d8aa0d67cbef",
+     "title": "Young protesters hit the streets across Europe",
+     "zh": "欧洲各地年轻人走上街头抗议高生活成本",
+     "short": "欧洲年轻人上街抗议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/young-protesters-hit-the-streets-across-europe",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T02:39:11.000Z"
+    }
+   },
+   "name": "欧洲多国爆发Z世代抗议潮",
+   "en": "European youth protests cost of living",
+   "wiki": "Protests in Europe",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false,
+   "short": "欧洲多国爆发Z世代抗议",
+   "key": "年轻人抗议生活成本与气候危机",
+   "overview": "欧洲多国近日爆发由Z世代发起的抗议潮，年轻人和学生走上街头，反对生活成本高昂、住房负担重、教育与公共服务削减及气候危机。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-21T171053Z_1177590545_RC2FSOAHFU7E_RTRMADP_3_PORTUGAL-POLITICS-PROTESTS-1795290649.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 1,
+    "sources": 3,
+    "stories": 6,
+    "gdelt": null,
+    "wiki": null,
+    "at": "2026-11-22T03:08:49.288Z"
+   }
+  },
+  {
+   "id": "c87ad0cf",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "c87ad0cf-1",
+     "t": "FBI国家犯罪信息中心数据库受黑客攻击",
+     "ids": [
+      "ddb90bb60acc",
+      "17d8c5527403",
+      "d3ae8b6abe06",
+      "07601b60021e"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "ddb90bb60acc": {
+     "id": "ddb90bb60acc",
+     "title": "FBI national crime database suffers suspected breach: Reports",
+     "zh": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
+     "short": "美国联邦调查局系统被黑",
+     "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-21T18:19:10.000Z",
+     "sum": "美国联邦调查局的国家犯罪信息中心数据库据报遭遇黑客入侵并正接受调查。这是近期美国政府部门遭遇的一连串网络泄密和系统故障中的最新一起。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "17d8c5527403": {
+     "id": "17d8c5527403",
+     "title": "US Agriculture Department, FBI breached by hackers",
+     "zh": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/us-agriculture-department-fbi-breached-by-hackers",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-21T07:23:59.000Z",
+     "sum": "美国农业部证实其农民补贴支付系统遭黑客入侵，同时美国联邦调查局也遭遇了自9月以来的第二次网络攻击。两家主要联邦机构连续被黑，引发对政府关键网络安全防御的广泛担忧。"
+    },
+    "d3ae8b6abe06": {
+     "id": "d3ae8b6abe06",
+     "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+     "zh": "美国农业部与联邦调查局遭黑客网络攻击",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+     "source": "France 24",
+     "cat": "tech",
+     "published": "2026-11-21T07:01:04.000Z"
+    },
+    "07601b60021e": {
+     "id": "07601b60021e",
+     "title": "FBI reportedly investigating apparent hack of its criminal database",
+     "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
+     "short": "联邦调查局数据库疑遭黑客入侵",
+     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T16:35:15.000Z"
+    }
+   },
+   "name": "联邦调查局数据库疑遭黑客入侵",
+   "en": "FBI database hacked cyber attack",
+   "wiki": "Federal Bureau of Investigation",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.703Z",
+   "hidden": false,
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": {
+     "title": "Federal Bureau of Investigation",
+     "views": 1760,
+     "ratio": 0.9
+    },
+    "at": "2026-11-22T03:09:37.539Z"
+   }
+  },
+  {
+   "id": "f4bb4b75",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "f4bb4b75-1",
+     "t": "俄罗斯大规模空袭基辅及各地",
+     "ids": [
+      "f5aa2c1600b1",
+      "6fca891ece5d",
+      "968b51712184",
+      "b4d8b1b930db",
+      "dfff6b708f3a",
+      "1425c009d761",
+      "80605099f5e4",
+      "c06f290ca0b1",
+      "1204031f81c5",
+      "b0b72e86c2bd",
+      "286cc01f5f7e",
+      "aedff471d118"
+     ],
+     "w": {
+      "short": "俄对乌最大规模空袭",
+      "key": "俄罗斯大规模空袭乌克兰多地并击中基辅桥梁与能源设施",
+      "title": "俄罗斯大规模空袭乌克兰多地 基辅桥梁与能源设施受损",
+      "summary": "俄罗斯对乌克兰发动了战争以来最大规模之一的空袭，针对基辅的桥梁、住宅及多地的能源与交通基础设施进行轰炸。袭击造成多人死伤，并导致全国多处电力中断。与此同时，事件还波及邻国波兰领空，引发区域安全高度关注。",
+      "common": [
+       {
+        "t": "俄军对乌克兰发动大规模空袭",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "基辅的桥梁和关键设施遭到轰炸",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击导致多人死伤并影响电力供应",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "俄罗斯导弹或飞行物侵犯波兰领空",
+        "src": [
+         "AP News",
+         "BBC World",
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "法国要求召集联合国安理会会议商讨基辅使馆受波及局势",
+        "src": "France 24"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ],
+        "t": "这是俄罗斯为报复乌克兰袭击克里米亚大桥而采取的行动。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "波兰官方认为俄导弹侵犯领空是来自莫斯科的严重挑衅。"
+       }
+      ],
+      "unknown": "目前关于波兰境内被击中具体设施的损失细节及各方最终伤亡人数仍有待完全厘清。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "俄罗斯对乌克兰的大规模空袭及领空波及波兰事件，进一步加剧了欧洲地缘政治紧张局势与区域安全担忧。"
+      },
+      "people": [
+       "Volodymyr Zelenskyy",
+       "Vladimir Putin"
+      ],
+      "photo": "missile strike aftermath",
+      "per": [
+       {
+        "id": "80605099f5e4",
+        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
+        "says": "俄罗斯导弹落入波兰境内引发关注，北约称此为明显的违约行为。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": null
+       },
+       {
+        "id": "c06f290ca0b1",
+        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+        "says": "欧洲多国军队在波兰进行军事演习。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "f5aa2c1600b1",
+        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+        "says": "俄军对基辅桥梁和全国各地发动战争以来最大规模空袭，造成多人死伤并遭到普京报复威胁。",
+        "same": [
+         "大规模空袭乌克兰",
+         "基辅桥梁受损"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6fca891ece5d",
+        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+        "says": "俄罗斯导弹击中波兰领土并侵犯领空，波兰谴责莫斯科挑衅，北约紧急出动战机。",
+        "same": [
+         "导弹落入波兰",
+         "盟友举行军演"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "968b51712184",
+        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+        "says": "基辅欧洲使馆受波及，法国寻求召开联合国安理会紧急会议。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "b4d8b1b930db",
+        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
+        "says": "俄军报复性轰炸乌克兰桥梁与基础设施，造成死伤及全国多地断电。",
+        "same": [
+         "大规模空袭乌克兰",
+         "基辅桥梁受损",
+         "电力中断"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "dfff6b708f3a",
+        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+        "says": "俄军对基辅全天候攻击导致多国使馆受损，加剧国际担忧。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "1425c009d761",
+        "t": "波兰谴责俄罗斯领空遭三度侵犯",
+        "says": "波兰谴责俄罗斯领空遭侵犯。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "1ee8a3eb",
+     "v": 2,
+     "at": "2026-11-22T03:02:04.961Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "f4bb4b75-2",
+     "t": "俄乌和平谈判与安全保障分歧",
+     "ids": [
+      "acc8f3177f53",
+      "b38e5a17b7df",
+      "3a083cc0df3b",
+      "5142390aaa16",
+      "8bd76ee26afb",
+      "7018d0e3b351",
+      "b2c8270dd931",
+      "ac3f47852a51",
+      "d5f4d08731f7"
+     ],
+     "w": {
+      "short": "美俄乌安全保障分歧加剧",
+      "key": "美特使提类北约保障遭俄拒绝",
+      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
+      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
+      "common": [
+       {
+        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera"
+        ],
+        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
+       }
+      ],
+      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
+      },
+      "people": [
+       "Donald Trump",
+       "Vladimir Putin"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "b38e5a17b7df",
+        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
+        "same": [
+         "美俄领导人会晤",
+         "削减军援基辅"
+        ],
+        "view": null
+       },
+       {
+        "id": "3a083cc0df3b",
+        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
+        "same": [
+         "类北约保障",
+         "马克龙提北约",
+         "美俄中国会晤"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "8bd76ee26afb",
+        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
+        "same": [
+         "拒绝北约保障",
+         "马克龙提北约",
+         "欧洲特使赴俄"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ac3f47852a51",
+        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
+        "same": [
+         "欧洲防务开支",
+         "拒绝领土割让"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "e0733d78",
+     "at": "2026-11-21T22:17:32.053Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     },
+     "v": 2
+    },
+    {
+     "id": "f4bb4b75-3",
+     "t": "俄罗斯空袭泽连斯基家乡与基辅",
+     "ids": [
+      "cbeed7399dad",
+      "ecdeb85fd175"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "f5aa2c1600b1": {
+     "id": "f5aa2c1600b1",
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+     "short": "俄空袭基辅",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T13:01:16.000Z",
+     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。"
+    },
+    "6fca891ece5d": {
+     "id": "6fca891ece5d",
+     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+     "short": "俄导弹落入波兰",
+     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T12:56:48.000Z",
+     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
+    },
+    "968b51712184": {
+     "id": "968b51712184",
+     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
+     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+     "short": "俄空袭基辅击中欧洲使馆",
+     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T12:04:16.000Z",
+     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
+    },
+    "b4d8b1b930db": {
+     "id": "b4d8b1b930db",
+     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:54:00.000Z",
+     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
+    },
+    "dfff6b708f3a": {
+     "id": "dfff6b708f3a",
+     "title": "Russia’s day-long attack on Kyiv damages embassies",
+     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T08:56:08.000Z",
+     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
+    },
+    "1425c009d761": {
+     "id": "1425c009d761",
+     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
+     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
+     "short": "波兰谴责俄侵犯领空",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T11:45:35.000Z"
+    },
+    "acc8f3177f53": {
+     "id": "acc8f3177f53",
+     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
+     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
+     "short": "美伊外交谈判遇阻",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T01:21:44.000Z",
+     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "b38e5a17b7df": {
+     "id": "b38e5a17b7df",
+     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
+     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+     "short": "泽连斯基斥普京为杀手",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T23:25:36.000Z",
+     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
+    },
+    "3a083cc0df3b": {
+     "id": "3a083cc0df3b",
+     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
+     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:01:51.000Z",
+     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
+    },
+    "5142390aaa16": {
+     "id": "5142390aaa16",
+     "title": "Pakistan minister visits India for first time since 2025 war",
+     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:11:57.000Z",
+     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
+    },
+    "8bd76ee26afb": {
+     "id": "8bd76ee26afb",
+     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
+     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T09:08:29.000Z",
+     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
+    },
+    "7018d0e3b351": {
+     "id": "7018d0e3b351",
+     "title": "3-way summit offers little hope for peace in Ukraine",
+     "zh": "乌克兰三方峰会难为和平带来希望",
+     "short": "乌克兰三方峰会难寻和平",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:58:52.000Z"
+    },
+    "b2c8270dd931": {
+     "id": "b2c8270dd931",
+     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
+     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
+     "short": "德政要称雅尔塔模式无用",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:47:21.000Z"
+    },
+    "80605099f5e4": {
+     "id": "80605099f5e4",
+     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
+     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
+     "short": "俄导弹落入波兰",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T22:15:00.000Z",
+     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
+    },
+    "c06f290ca0b1": {
+     "id": "c06f290ca0b1",
+     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
+     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+     "short": "11国欧洲军队波兰演习",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T19:47:00.000Z"
+    },
+    "b0b72e86c2bd": {
+     "id": "b0b72e86c2bd",
+     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
+     "short": "俄袭击乌总统家乡",
+     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:56:39.000Z",
+     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
+    },
+    "286cc01f5f7e": {
+     "id": "286cc01f5f7e",
+     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
+     "short": "俄狂轰基辅致7死",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T18:42:38.000Z",
+     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "aedff471d118": {
+     "id": "aedff471d118",
+     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
+     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
+     "short": "俄导弹袭泽连斯基家乡",
+     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:55:07.000Z"
+    },
+    "cbeed7399dad": {
+     "id": "cbeed7399dad",
+     "title": "Russia strikes Zelenskyy's hometown, killing 2",
+     "zh": "俄军空袭泽连斯基家乡致2人死亡",
+     "short": "俄军空袭泽连斯基家乡",
+     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-21T14:44:00.000Z"
+    },
+    "ecdeb85fd175": {
+     "id": "ecdeb85fd175",
+     "title": "Emergency crews in Ukraine hit by a double-tap strike",
+     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
+     "short": "乌救援队遭俄军二次空袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T07:12:03.000Z"
+    },
+    "1204031f81c5": {
+     "id": "1204031f81c5",
+     "title": "Russia tests NATO’s eastern defences",
+     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
+     "short": "俄导弹疑似落入波兰",
+     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:50:35.000Z",
+     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
+    },
+    "ac3f47852a51": {
+     "id": "ac3f47852a51",
+     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
+     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+     "short": "特朗普不满欧洲援乌",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:15:30.000Z",
+     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "d5f4d08731f7": {
+     "id": "d5f4d08731f7",
+     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
+     "short": "特朗普称普京朋友泽连斯基驳斥",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T08:10:25.000Z",
+     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    }
+   },
+   "name": "乌克兰战争与安全局势",
+   "en": "Ukraine war Russia missile strike",
+   "wiki": "Russian invasion of Ukraine",
+   "cat": "world",
+   "last": "2026-11-21T22:12:19.702Z",
+   "hidden": false,
+   "short": "乌克兰战局与安全局势",
+   "key": "俄军大规模空袭基辅并波及邻国，和平谈判陷僵局",
+   "overview": "俄罗斯对乌克兰发动最大规模空袭，造成重大伤亡与断电并波及波兰领空；同时，美欧关于乌克兰的安全保障构想遭莫斯科拒绝，泽连斯基与特朗普就普京评价产生分歧，和谈陷入僵局。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "f4bb4b75-1",
+     "to": "f4bb4b75-2",
+     "t": "俄罗斯对乌克兰发动大规模空袭，伴随着普京的报复威胁，使得美欧推进的和平谈判与安全保障构想面临更大阻力。"
+    }
+   ],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 3,
+    "sources": 7,
+    "stories": 23,
+    "gdelt": null,
+    "wiki": {
+     "title": "Russian invasion of Ukraine",
+     "views": 973,
+     "ratio": 1
+    },
+    "at": "2026-11-22T03:10:25.374Z"
+   }
   }
  ],
- "updated": "2026-11-21T22:26:11.668Z"
+ "updated": "2026-11-22T03:11:14.867Z"
 }
