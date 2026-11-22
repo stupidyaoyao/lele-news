@@ -124,7 +124,7 @@ function eventCard(ev, big = true) {
   const followed = follows().includes(ev.id);
   return `<article class="card ev-card" data-ev="${ev.id}">
     ${big ? heroPic({ cat: ev.cat, img: ev.img }, 'ev-pic') : ''}
-    <div class="meta"><span class="tag">📌 大事件 · ${CATS[ev.cat] || ''}</span><span>${ago(ev.last)}更新</span>${followed ? '<span class="tag">· 已追踪</span>' : ''}</div>
+    <div class="meta">${pickMode ? pickMark(eventKeys(ev)) : ''}<span class="tag">📌 大事件 · ${CATS[ev.cat] || ''}</span><span>${ago(ev.last)}更新</span>${followed ? '<span class="tag">· 已追踪</span>' : ''}${clipBadge('ev:' + ev.id)}</div>
     <h2 role="button" tabindex="0" data-action="open-event" data-ev="${ev.id}">${esc(ev.name)}</h2>
     <p class="key">${esc(ev.short || ev.key || '')}</p>
     <div class="badges">${heatBadge(ev)}<span class="bd">📰 ${ev.heat?.sources || '-'} 家媒体 · ${Object.keys(ev.stories).length} 则</span>${views ? '<span class="bd v">⚖️ 有不同说法</span>' : ''}</div>
@@ -307,11 +307,17 @@ function buildEventQueue(ev, mode) {
 }
 function listenEvent(id) {
   const ev = evById(id); if (!ev) return;
+  if (eventKeys(ev).some(hasClip)) { listenKeys(eventKeys(ev), { label: ev.name }, () => listenEventVoice(ev)); return; }
+  listenEventVoice(ev);
+}
+function listenEventVoice(ev) {
   chooseListenMode((mode) => { track('listen_event', null, { event: ev.name, mode }); startSpeaking('event', buildEventQueue(ev, mode)); });
 }
 function listenLine(lid) {
   const r = lineById(lid); if (!r) return;
   if (speakCtx === 'event' && speaking && queue[qi]?.line === lid) { stopSpeaking(); return; }
+  if (sess && sess.chapters.some((c) => c.key === 'ln:' + lid)) { auStop(); return; }
+  if (hasClip('ln:' + lid)) { track('listen_line', null, { line: r.l.t }); listenKeys(['ln:' + lid], { label: r.l.t, cont: false }); return; }
   const lines = r.ev.lines.filter(combined); const i = lines.findIndex((x) => x.id === lid);
   track('listen_line', null, { line: r.l.t });
   startSpeaking('event', lineScript(r.ev, r.l, i + 1, profile.listenMode === 'quick' ? 'std' : (profile.listenMode || 'std'), null));

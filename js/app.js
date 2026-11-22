@@ -182,6 +182,8 @@ async function load() {
   try { gold = await (await fetch(`data/gold.json?t=${Date.now()}`, { cache: 'no-store' })).json(); } catch {}
   try { events = await (await fetch(`data/events.json?t=${Date.now()}`, { cache: 'no-store' })).json(); indexEvents(); } catch {}
   try { photos = await (await fetch(`data/photos.json?t=${Date.now()}`, { cache: 'no-store' })).json(); } catch {}
+  await loadClips();
+  if (!load.started) { load.started = true; startFromHash(); }
   if (!speaking || tab !== 'news') render();
 }
 const updatedText = () => data.updated ? '更新于 ' + new Date(data.updated).toLocaleString('zh-CN', { timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '加载中…';
@@ -395,6 +397,7 @@ function render() {
   else if (tab === 'news') renderNews();
   else if (tab === 'live') renderLive();
   else if (tab === 'mine') renderMine();
+  renderPickBar();
 }
 function refreshAll() {
   render();
@@ -465,6 +468,7 @@ function renderHome() {
         <div class="L-left">${done ? '✅ 今天的新闻看完了' : `今天还有 ${total - n} 条新闻`}</div>
         <div class="L-bar"><div class="track"><i style="width:${total ? n / total * 100 : 0}%"></i></div><span>${n}/${total}</span></div>
         <button class="L-btn solid" data-action="listen-all">${ic('headphones')}听新闻</button>
+        <button class="L-btn line" data-action="drive-now">🚗 开车听</button>
         <button class="L-btn line" data-action="go-news">${ic('news')}看新闻</button>
       </div>
       ${s ? `<button class="L-row gold" data-action="open-gold"><span class="L-ic" style="background:#fde68a;color:#8a5300">${ic('coin')}</span>
@@ -525,10 +529,10 @@ function actionsHtml(x, opts = {}) {
   </div>`;
 }
 function card(x, label, read, reason) {
-  return `<article class="card ${read ? 'read' : ''}" id="c-${x.id}" data-id="${x.id}">
+  return `<article class="card ${read ? 'read' : ''} ${pickMode && picked.includes(x.id) ? 'picked' : ''}" id="c-${x.id}" data-id="${x.id}">
     <div class="c-row"><div class="c-main">
-    <div class="meta"><span class="tag">${label ? `${label} · ` : ''}${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${ago(x.published)}</span><span class="spacer"></span>
-      <button class="readmark ${read ? 'on' : ''}" data-action="read" data-id="${x.id}" aria-label="${read ? '已读，按一下取消' : '标为已读'}">${ic('check')}${read ? '已读' : ''}</button></div>
+    <div class="meta">${pickMode ? pickMark([x.id]) : ''}<span class="tag">${label ? `${label} · ` : ''}${CATS[x.cat] || ''}</span><span>${esc(x.source)} · ${ago(x.published)}</span>${clipBadge(x.id)}<span class="spacer"></span>
+      ${pickMode ? "" : `<button class="readmark ${read ? 'on' : ''}" data-action="read" data-id="${x.id}" aria-label="${read ? '已读，按一下取消' : '标为已读'}">${ic('check')}${read ? '已读' : ''}</button>`}</div>
     ${reason ? `<span class="reason ${reason.discover ? 'discover' : ''}">${reason.discover ? '🔭 ' : ''}${esc(reason.reason)}</span>` : ''}
     <h2 role="button" tabindex="0" data-action="open" data-id="${x.id}">${esc(shortT(x))}</h2>
     ${x.key ? `<p class="key">${esc(x.key)}</p>` : ''}
@@ -538,7 +542,8 @@ function card(x, label, read, reason) {
 }
 function renderNews() {
   const el = $('#v-news');
-  const head = `<div class="vhead"><h1>${profile.size === 'large' ? '新闻' : '要闻'}</h1>
+  const head = pickMode ? pickHead() : `<div class="vhead"><h1>${profile.size === 'large' ? '新闻' : '要闻'}</h1>
+    <button class="btn" data-action="pick-start">${ic('headphones')}选几则听</button>
     <button class="round" data-action="open-search" aria-label="搜索">${ic('search')}</button></div>
     <div class="chips">${chipsHtml()}</div>`;
   if (!profile.topics.length) { el.innerHTML = head + `<div class="empty">在上面选至少一个类别</div>`; return; }
@@ -884,6 +889,10 @@ function openSettings() {
       <button data-set="theme" data-v="dark" class="${profile.theme === 'dark' ? 'on' : ''}">🌙 黑色</button>
       <button data-set="theme" data-v="auto" class="${profile.theme === 'auto' ? 'on' : ''}">📱 跟手机</button></div></div>
     <div class="set-group"><h4>今日要闻的类别</h4><div class="chips" id="setchips" style="flex-wrap:wrap;padding:0">${chipsHtml()}</div></div>
+    <div class="set-group"><h4>在哪里听</h4><div class="seg">
+      ${[['car', '🚗 开车'], ['ear', '🎧 耳机'], ['speaker', '🔊 外放']].map(([k, l]) => `<button data-set="listenOut" data-v="${k}" class="${profile.listenOut === k ? 'on' : ''}">${l}</button>`).join('')}</div>
+      <p class="note">选「开车」：按收听会直接打开大按钮的驾驶模式。</p></div>
+    ${autoGuideHtml()}
     <div class="set-group"><h4>收听速度</h4><div class="seg">
       ${[0.85, 1, 1.25, 1.5].map((r) => `<button data-set="rate" data-v="${r}" class="${profile.rate === r ? 'on' : ''}">${r}x</button>`).join('')}</div></div>
     <div class="set-group"><div class="row"><h4 style="margin:0">打开新闻网站前先提醒</h4>
@@ -1099,6 +1108,7 @@ function speakNext() {
 }
 function startSpeaking(ctx, q) {
   if (!synth) { toast('这个浏览器不支持朗读'); return; }
+  if (sess) auStop();
   synth.cancel();
   queue = q; qi = 0; speaking = true; paused = false; speakCtx = ctx;
   $('#player').hidden = false; document.body.classList.add('playing'); setPlayerIcon();
@@ -1126,7 +1136,9 @@ function jump(delta) {
   paused = false; setPlayerIcon();
   setTimeout(() => { if (speaking && !paused) speakNext(); }, 120);
 }
+$('#mp-now').onclick = () => openPlaylist();
 $('#mp-play').onclick = () => {
+  if (sess) { auToggle(); return; }
   if (!speaking) return;
   if (paused) { paused = false; setPlayerIcon(); speakNext(); }
   else { paused = true; synth.cancel(); setPlayerIcon(); }
@@ -1135,9 +1147,9 @@ $('#mp-play').onclick = () => {
 let holdT = null, held = false;
 $('#mp-next').onpointerdown = () => { held = false; holdT = setTimeout(() => { held = true; if (speakCtx === 'event' && speaking) { synth.cancel(); qi = jumpLine(1); paused = false; setPlayerIcon(); setTimeout(() => speaking && speakNext(), 120); toast('下一条线'); } }, 650); };
 $('#mp-next').onpointerup = $('#mp-next').onpointerleave = () => clearTimeout(holdT);
-$('#mp-next').onclick = () => { if (!held) jump(1); held = false; };
-$('#mp-prev').onclick = () => jump(-1);
-$('#mp-stop').onclick = () => stopSpeaking();
+$('#mp-next').onclick = () => { if (sess) { seekChapter(1); return; } if (!held) jump(1); held = false; };
+$('#mp-prev').onclick = () => (sess ? seekChapter(-1) : jump(-1));
+$('#mp-stop').onclick = () => (sess ? auStop() : stopSpeaking());
 if (synth) synth.onvoiceschanged = () => {};
 
 // ---------- tracking (Google Sheet via Apps Script) ----------
@@ -1265,6 +1277,11 @@ document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-action]'); if (!b) return;
   if (b.closest('#onboarding') && b.dataset.action !== 'privacy-more') return; // setup has its own handler
   if (adminAction(b.dataset.action, b)) return;
+  if (pickMode && b.closest('#v-news') && !['pick-cancel', 'pick-all', 'topic', 'topic-all', 'finish'].includes(b.dataset.action)) {
+    const card = b.closest('.card');
+    if (card?.dataset.id) { togglePick([card.dataset.id]); return; }
+    if (card?.dataset.ev) { const ev = evById(card.dataset.ev); if (ev) togglePick(eventKeys(ev)); return; }
+  }
   const a = b.dataset.action, id = b.dataset.id;
   const topicsChanged = () => { const sc = $('#setchips'); if (sc) sc.innerHTML = chipsHtml(); if (speakCtx === 'digest') stopSpeaking(); render(); };
   switch (a) {
@@ -1286,10 +1303,30 @@ document.addEventListener('click', (e) => {
     case 'go-news': go('news'); { const d = digest(); const r = readSet(); const nx = d.all.find((x) => !r.has(x.id)); if (nx) setTimeout(() => document.getElementById(`c-${nx.id}`)?.scrollIntoView({ block: 'center' }), 50); } break;
     case 'go-live': go('live'); break;
     case 'go-mine': if (b.dataset.m) mineTab = b.dataset.m; go('mine'); break;
-    case 'listen-all': track('listen'); startSpeaking('digest', buildDigestQueue()); break;
+    case 'listen-all': listenKeys(digestKeys(), { label: '今日要闻', digestMode: true }, () => { track('listen'); startSpeaking('digest', buildDigestQueue()); }); break;
+    case 'drive-now': profile.listenOut = 'car'; touchSettings(); openDrive(); break;
+    case 'drive-start': playKeys(digestKeys(), { label: '今日要闻', digestMode: true }).then((ok) => { if (!ok) toast('今天的录音还在准备中，请稍后再试'); }); break;
+    case 'close-drive': closeDrive(); break;
+    case 'au-toggle': auToggle(); break;
+    case 'au-next': seekChapter(1); break;
+    case 'au-prev': seekChapter(-1); break;
+    case 'pick-start': pickMode = true; picked = []; render(); window.scrollTo(0, 0); break;
+    case 'pick-cancel': pickMode = false; picked = []; render(); break;
+    case 'pick-all': { const d = digest(); const all = [...activeEvents().slice(0, 3).flatMap(eventKeys), ...d.all.map((x) => x.id)]; picked = picked.length === all.length ? [] : all; render(); break; }
+    case 'pick-play': case 'pick-drive': {
+      const keys = [...picked]; pickMode = false; picked = []; render();
+      if (b.dataset.action === 'pick-drive') { profile.listenOut = 'car'; openDrive(); playKeys(keys, { label: '我选的' }); }
+      else listenKeys(keys, { label: '我选的' }, () => toast('选的新闻还没有录音，请稍后再试'));
+      break;
+    }
+    case 'open-playlist': openPlaylist(); break;
+    case 'copy-link': navigator.clipboard?.writeText(b.dataset.link).then(() => toast('已复制'), () => toast('请长按链接复制')); break;
     case 'listen-story': {
       if (speakCtx === 'story' && speaking) { stopSpeaking(); break; }
-      const x = story(id); if (x) { track('listen_story', id); signal(id, 1); startSpeaking('story', buildStoryQueue(x)); }
+      const x = story(id); if (!x) break;
+      track('listen_story', id); signal(id, 1);
+      if (hasClip(id)) { listenKeys([id], { label: shortT(x), cont: false }, () => startSpeaking('story', buildStoryQueue(x))); break; }
+      startSpeaking('story', buildStoryQueue(x));
       break;
     }
     case 'open-gold': openGold(); break;
@@ -1331,6 +1368,7 @@ $('#tabbar').addEventListener('click', (e) => {
 });
 // phone back button closes the top overlay
 window.addEventListener('popstate', () => {
+  if (!$('#drive').hidden) { closeDrive(true); return; }
   for (const id of ['#admin', '#together', '#reader', '#line', '#event', '#search', '#settings', '#goldpage']) if (!$(id).hidden) { if (id === '#admin') closeAdmin(); closeOverlay(id); return; }
 });
 document.addEventListener('visibilitychange', () => {
