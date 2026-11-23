@@ -1,1544 +1,12 @@
 {
  "events": [
   {
-   "id": "493f4a17",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "493f4a17-1",
-     "t": "APEC峰会中美互动与普京角色",
-     "ids": [
-      "cd30e168a012",
-      "c8a6f004d720",
-      "0ec39da12e53",
-      "09df6df0da50",
-      "01a3193d29ee",
-      "1c361a8b39a7",
-      "dcb0cd1db1e0",
-      "03aaf90f76e4",
-      "51f9c2eaca46",
-      "b8fdbe6aa1fc",
-      "eee3df9e9738",
-      "cef4b62147ef",
-      "0a224ee81be0",
-      "944462cb3f32",
-      "8bcd706bdf2a",
-      "18e233591a30"
-     ],
-     "w": {
-      "short": "中美俄三方峰会",
-      "key": "中美俄领导人举行历史性三边峰会但被指实质成果有限",
-      "title": "中美俄历史性三方峰会举行，多国领袖聚焦区域与全球外交",
-      "summary": "中国、美国和俄罗斯领导人在亚太经合组织峰会期间举行了历史性的三边峰会，引发全球高度关注。与此同时，各国领导人也在多边与双边场合就经贸、区域安全及未来合作展开密集讨论。",
-      "common": [
-       {
-        "t": "中美俄领导人举行了历史性三边峰会",
-        "src": [
-         "CNA Asia",
-         "The Straits Times",
-         "Free Malaysia Today",
-         "BBC 中文"
-        ]
-       },
-       {
-        "t": "三方峰会发表了联合宣言或公报",
-        "src": [
-         "CNA Asia",
-         "BBC 中文"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "三方峰会进行了为期90分钟的闭门会谈",
-        "src": "CNA Asia"
-       },
-       {
-        "t": "美国总统特朗普在亚洲之行中对普京和习近平表现亲密并称普京为朋友",
-        "src": "BBC 中文"
-       },
-       {
-        "t": "中国指出日本必须纠正涉台错误言论并改变对华态度",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "CNA Asia"
-        ],
-        "t": "三方峰会是中国的重大外交胜利，提升了中国作为能将对手聚在一起的大国形象。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC 中文"
-        ],
-        "t": "峰会象征意义大于实际政策突破，场面大于实质成果，且特朗普对普京的亲密态度引发国内两党议员批评。"
-       }
-      ],
-      "unknown": "目前尚不清楚三方峰会后续的具体落实时间表、具体执行机制及下一次会晤的计划。",
-      "impact": {
-       "my": "大马首相安华在会上与中国领导人讨论了霹雳河输水至槟城、人工智能及稀土等多元合作，进一步深化双边关系。",
-       "sea": "东盟与中国领导人致力于加强区域和平稳定、深化经济贸易及探讨人工智能等新兴科技合作。",
-       "world": "中美俄三大国的高层互动与全球地缘政治走向牵动国际市场及中小国家的战略安全布局。"
-      },
-      "people": [
-       "Xi Jinping",
-       "Donald Trump"
-      ],
-      "photo": "trilateral summit",
-      "per": [
-       {
-        "id": "cd30e168a012",
-        "t": "历史性习特普三边峰会对全球外交的信号",
-        "says": "中、美、普京三方举行历史性三边峰会并达成联合宣言，但分析认为将其转化为实质行动将十分艰难。",
-        "same": [
-         "历史性三边峰会",
-         "联合宣言"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c8a6f004d720",
-        "t": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
-        "says": "中美两国元首在APEC期间短暂缓和，但美方新限制及华盛顿政治动态正对双边关系构成全新考验。",
-        "same": [
-         "APEC峰会"
-        ],
-        "view": null
-       },
-       {
-        "id": "0ec39da12e53",
-        "t": "黄循财会见李强，双边将达成逾20项协议",
-        "says": "新加坡总理黄循财与中国领导人会晤，双方预期将在JCBC达成逾20项涵盖多领域的协议与倡议。",
-        "same": [
-         "双边合作"
-        ],
-        "view": null
-       },
-       {
-        "id": "09df6df0da50",
-        "t": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
-        "says": "美中俄领导人峰会可能带来全球格局根本性转变，中小国家或面临压力建立安全同盟。",
-        "same": [
-         "美中俄领导人峰会"
-        ],
-        "view": null
-       },
-       {
-        "id": "01a3193d29ee",
-        "t": "中国称日本必须改变态度，此前习近平冷落高市",
-        "says": "中国表示日本必须在台湾问题上纠正错误言论，此前习近平在区域会议上冷落了日本首相高市早苗。",
-        "same": [
-         "深圳"
-        ],
-        "view": null
-       },
-       {
-        "id": "1c361a8b39a7",
-        "t": "印尼普拉博沃与中国习近平讨论未来南海合作",
-        "says": "印尼总统普拉博沃与中国国家主席习近平会晤，讨论经济伙伴关系及南海联合开发进展。",
-        "same": [
-         "南海合作"
-        ],
-        "view": null
-       },
-       {
-        "id": "dcb0cd1db1e0",
-        "t": "安华与中国国家主席习近平讨论多领域合作",
-        "says": "马来西亚首相安华与习近平会晤，讨论了霹雳河水供槟城项目、人工智能及稀土等跨领域合作。",
-        "same": [
-         "习近平会晤"
-        ],
-        "view": null
-       },
-       {
-        "id": "03aaf90f76e4",
-        "t": "中俄美三方峰会“场面大于实质成果”",
-        "says": "美中俄三方举行峰会但外界普遍认为象征意义大于实际突破，且特朗普对普京表现亲密引发争议。",
-        "same": [
-         "三方峰会",
-         "联合公报"
-        ],
-        "view": "看法 B"
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "b2b95c85",
-     "at": "2026-11-22T04:06:03.022Z",
-     "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--Oslzadnf--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/trump_xi_putin_2.jpg?itok=bba0M6VR",
-      "credit": "CNA Asia",
-      "kind": "A"
-     },
-     "v": 2
-    },
-    {
-     "id": "493f4a17-2",
-     "t": "黄循财谈及对中国投资与合作立场",
-     "ids": [
-      "3e11c67b2837",
-      "c073df4bb7ca",
-      "2b1c270f952c",
-      "391f570c75a2"
-     ],
-     "w": {
-      "short": "黄循财访华谈合作与投资",
-      "key": "黄循财访华强调欢迎真诚投资并深化新中双边合作。",
-      "title": "新加坡总理黄循财访华：欢迎中国真诚投资，新中深化多领域合作",
-      "summary": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨了深化经贸、自贸协定升级及多领域合作。黄循财表示新加坡欢迎中国企业的真诚投资，但也强调必须防范滥用新加坡信誉规避美国出口管制的行为。",
-      "common": [
-       {
-        "t": "黄循财与李强在北京举行双边会谈。",
-        "src": [
-         "联合早报",
-         "Malay Mail"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "黄循财指出新加坡欢迎中国真诚投资，但对滥用信誉规避美国出口管制的行为表示关切。",
-        "src": "The Straits Times"
-       },
-       {
-        "t": "李强表示中国愿与新加坡加速自贸协定4.0升级谈判。",
-        "src": "Malay Mail"
-       },
-       {
-        "t": "黄循财提到新中双边合作委员会即将召开，预计将取得超过20项合作成果。",
-        "src": "联合早报"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": null,
-       "sea": "中国支持新加坡担任明年东南亚国家联盟轮值主席国，推动区域经济一体化。",
-       "world": "在复杂多变的全球环境中，新中两国强调维护多边贸易体系与开放型世界经济。"
-      },
-      "people": [
-       "Lawrence Wong",
-       "Li Qiang"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "3e11c67b2837",
-        "t": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
-        "says": "中国企业投资新加坡带来实际效益，但政府关注滥用新加坡信誉规避美国出口管制的现象。",
-        "same": [
-         "真诚投资",
-         "规避管制"
-        ],
-        "view": null
-       },
-       {
-        "id": "c073df4bb7ca",
-        "t": "新加坡总理黄循财在北京会见中国国务院总理李强",
-        "says": "黄循财在北京与李强举行双边会谈，指出新中双边合作委员会将带来多项合作成果。",
-        "same": [
-         "会见李强",
-         "双边会谈"
-        ],
-        "view": null
-       },
-       {
-        "id": "2b1c270f952c",
-        "t": "黄循财会见李强，新中同意加速自贸协定升级谈判",
-        "says": "李强表示中国愿与新加坡加速自贸协定升级谈判，并在多个领域深化务实合作。",
-        "same": [
-         "会见李强",
-         "自贸协定"
-        ],
-        "view": null
-       },
-       {
-        "id": "391f570c75a2",
-        "t": "黄循财：新加坡在多极世界中通过价值创造立足",
-        "says": "黄循财强调新加坡在多极世界中的立足之道。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "77a7f420",
-     "v": 2,
-     "at": "2026-11-23T00:15:48.972Z",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
-      "credit": "The Straits Times",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "493f4a17-3",
-     "t": "欧盟与印尼正式签署自贸协定",
-     "ids": [
-      "396def59db66",
-      "ae393107aeab",
-      "a1b6e93c1720",
-      "8b72da353144",
-      "103d116583ed",
-      "2d84193be60f",
-      "5648849fe01f"
-     ],
-     "w": {
-      "short": "欧印签署自贸协定",
-      "key": "欧盟与印尼正式签署自由贸易与投资保护协定",
-      "title": "欧盟与印尼历经多年谈判正式签署全面经济伙伴关系协定",
-      "summary": "欧盟与印度尼西亚在比利时布鲁塞尔总部正式签署了《全面经济伙伴关系协定》及投资保护协定，旨在深化经贸合作、开放市场并确保关键供应链安全。历经十年谈判达成的该协议预计于2027年正式实施，将逐步取消绝大多数进出口关税。此举标志着双方经贸关系迈入新阶段，有助于欧盟实现贸易伙伴多元化。",
-      "common": [
-       {
-        "t": "欧盟与印尼正式签署全面经贸协定",
-        "src": [
-         "BigGo Finance",
-         "INSIGHT EU MONITORING",
-         "DW",
-         "The Jakarta Post",
-         "cwibc.co.id",
-         "NST Online",
-         "KONTAN"
-        ]
-       },
-       {
-        "t": "双方历经近十年艰难谈判后达成协议",
-        "src": [
-         "DW",
-         "KONTAN"
-        ]
-       },
-       {
-        "t": "协议预计将于2027年正式实施生效",
-        "src": [
-         "DW",
-         "NST Online",
-         "KONTAN"
-        ]
-       },
-       {
-        "t": "逐步取消超过90%产品的进口关税",
-        "src": [
-         "BigGo Finance",
-         "KONTAN"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "协议涵盖电动汽车、电子产品和医药等战略行业的投资吸引",
-        "src": "DW"
-       },
-       {
-        "t": "棕榈油与森林砍伐问题曾是谈判的主要绊脚石",
-        "src": "DW"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "DW"
-        ],
-        "t": "欧盟认为此举是在别人关门时保持大门敞开，并在美中贸易变得困难时减少对单一经济伙伴的依赖。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "KONTAN"
-        ],
-        "t": "分析指出此举旨在协助欧盟实现贸易伙伴多元化，并以此对冲美国关税政策带来的负面冲击。"
-       }
-      ],
-      "unknown": null,
-      "impact": {
-       "my": null,
-       "sea": "东南亚最大经济体印尼与欧盟正式签署自贸协定，建立起涵盖7.3万人口的自贸区，深化了欧洲与东南亚的经贸布局。",
-       "world": "欧盟通过与印尼签署雄心勃勃的自贸协定，进一步推动贸易伙伴多元化并确保关键供应链安全。"
-      },
-      "people": [
-       "Ursula von der Leyen",
-       "Prabowo Subianto"
-      ],
-      "photo": "signing ceremony business agreement",
-      "per": [
-       {
-        "id": "396def59db66",
-        "t": "欧盟与印尼签署自贸协定取消90%关税",
-        "says": "欧盟与印尼在布鲁塞尔总部签署全面经济伙伴关系协定与投资保护协定，将取消90%以上进出口商品的关税。",
-        "same": [
-         "取消关税"
-        ],
-        "view": null
-       },
-       {
-        "id": "ae393107aeab",
-        "t": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
-        "says": "双方正式签署贸易协议以开放彼此市场并确保关键供应链安全，标志着深化经贸合作的重要一步。",
-        "same": [
-         "签署贸易协议"
-        ],
-        "view": null
-       },
-       {
-        "id": "a1b6e93c1720",
-        "t": "欧盟与印尼正式签署自由贸易协定",
-        "says": "历经近10年谈判后签署自贸协定，代表市场规模达7.3亿人，旨在减少贸易壁垒并吸引战略行业投资。",
-        "same": [
-         "十年谈判"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "8b72da353144",
-        "t": "印尼欧盟全面经济伙伴关系协定迈入新时代",
-        "says": "印尼与欧盟的全面经济伙伴关系协定迈入新时代。",
-        "same": [
-         "经贸协定"
-        ],
-        "view": null
-       },
-       {
-        "id": "103d116583ed",
-        "t": "欧盟与印尼签署历史性贸易与投资协定",
-        "says": "正式签署历史性协定以深化经济联系并扩大市场准入，反映欧盟加强与东南亚主要经济体经贸布局。",
-        "same": [
-         "签署协定"
-        ],
-        "view": null
-       },
-       {
-        "id": "2d84193be60f",
-        "t": "欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
-        "says": "欧盟与印尼签署了雄心勃勃的贸易协定，计划于2027年实施。",
-        "same": [
-         "2027年实施"
-        ],
-        "view": null
-       },
-       {
-        "id": "5648849fe01f",
-        "t": "KONTAN",
-        "says": "经过十年艰难谈判正式签署双边贸易协定，预计2027年初生效，用以实现贸易多元化并对冲美国关税冲击。",
-        "same": [
-         "2027年实施"
-        ],
-        "view": "看法 B"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "0b23e6b3",
-     "v": 2,
-     "at": "2026-11-23T00:15:23.412Z",
-     "img": {
-      "src": "https://static.dw.com/image/57193875_6.jpg",
-      "credit": "DW",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "493f4a17-4",
-     "t": "欧盟与英国达成脱欧后重建关系协议",
-     "ids": [
-      "7c408c6ff522",
-      "0cfb735f2465",
-      "4cf56d1e0614",
-      "d78d2117a5c1"
-     ],
-     "w": {
-      "short": "欧英达成脱欧重建协议",
-      "key": "欧盟与英国在峰会后达成多项脱欧后重建关系协议",
-      "title": "欧盟与英国达成历史性协议以深化脱欧后关系",
-      "summary": "欧盟高级官员与英国首相安迪·伯纳姆在布鲁塞尔峰会上宣布，双方已就贸易、青年流动及碳市场等领域达成重建关系的协议。这是自英国脱欧十年后迈出的重要一步，但双方也指出后续仍需进行数月的谈判与法律落实工作。",
-      "common": [
-       {
-        "t": "欧盟与英国在布鲁塞尔峰会达成脱欧后关系协议。",
-        "src": [
-         "DW",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "双方达成了青年流动计划及碳市场或碳排放交易系统链接协议。",
-        "src": [
-         "DW",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "英国首相称这是英国和欧洲的好日子。",
-        "src": [
-         "DW",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "英国首相表示该协议可能为英国经济增添0.5%的增长。",
-        "src": "Al Jazeera"
-       },
-       {
-        "t": "欧盟委员会主席提到英国将重新加入伊拉斯谟+计划。",
-        "src": "DW"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚不清楚未来更深层次关系重置所需耗费的具体最终时间，官方指未来还需数月或数年的谈判。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "作为欧洲两大经济实体，欧盟与英国达成重建关系协议有助于缓和脱欧后的紧张局势，对全球贸易与区域稳定具有示范意义。"
-      },
-      "people": [
-       "Andy Burnham",
-       "Ursula von der Leyen"
-      ],
-      "photo": "EU UK summit meeting",
-      "per": [
-       {
-        "id": "7c408c6ff522",
-        "t": "欧盟与英国达成“历史性协议”以深化脱欧后关系",
-        "says": "欧盟官员与英国首相在布鲁塞尔峰会宣布达成贸易与青年流动协议，并形容其为转折点与里程碑。",
-        "same": [
-         "布鲁塞尔峰会",
-         "青年流动计划"
-        ],
-        "view": null
-       },
-       {
-        "id": "0cfb735f2465",
-        "t": "欧盟与英国达成关系重置协议",
-        "says": "英国与欧盟在食品、动物商品及流动等领域达成三项政策协议，双方将着手推进落实工作。",
-        "same": [
-         "青年流动计划",
-         "好日子"
-        ],
-        "view": null
-       },
-       {
-        "id": "4cf56d1e0614",
-        "t": "欧盟与英国达成脱欧后重建关系的里程碑协议",
-        "says": "欧盟与英国达成脱欧后重建关系的里程碑协议。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "d78d2117a5c1",
-        "t": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
-        "says": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "7537e8b5",
-     "v": 2,
-     "at": "2026-11-22T11:09:23.413Z",
-     "img": {
-      "src": "https://static.dw.com/image/80001113_6.jpg",
-      "credit": "DW",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "493f4a17-5",
-     "t": "东盟区域合作与经济框架协议",
-     "ids": [
-      "70bca87e1fa6",
-      "4e75c39059e4",
-      "50d9a4610259",
-      "d0922ea49c9f",
-      "787703f95831",
-      "b41be5e3c38f",
-      "7559c1dcf91c"
-     ],
-     "w": {
-      "short": "东盟签署数字经济框架协定",
-      "key": "东盟签署数字经济框架协定并推进中小微企业人工智能发展",
-      "title": "东盟签署数字经济框架协定与推进中小微企业人工智能发展",
-      "summary": "东盟峰会期间正式签署了东盟数字经济框架协定，旨在推动区域内数字经济强劲增长并协助中小微企业发展。同时，领导人通过了关于促进中小微企业人工智能增长的宣言，致力于提供更具包容性的数字未来。然而，分析指出东盟在面对大国博弈及区域内部分裂时，仍需将凝聚力转化为实际行动。",
-      "common": [
-       {
-        "t": "东盟签署数字经济框架协定",
-        "src": [
-         "Philippine News Agency",
-         "Daily Tribune"
-        ]
-       },
-       {
-        "t": "推动中小微企业人工智能与数字增长",
-        "src": [
-         "News On AIR",
-         "Philippine News Agency"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "东盟面临大国博弈与内部裂变的选择",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "菲律宾初创企业将受益于数字经济协定",
-        "src": "Daily Tribune"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Eurasia Review"
-        ],
-        "t": "东盟需要在中美之间寻找平衡以维护战略自主"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "东盟面临大国博弈场风险，内部存在诸多裂痕与执行力不足的问题"
-       }
-      ],
-      "unknown": "目前尚不确定东盟能否有效化解内部裂痕并将凝聚力转化为实际行动以应对大国博弈。",
-      "impact": {
-       "my": "东盟签署数字经济框架协定及推动中小微企业人工智能发展，将为大马企业和数字经济带来新的区域合作机遇，但同时也需面对区域地缘经济竞争的影响。",
-       "sea": "东盟通过数字经济框架协定与人工智能宣言，有助于促进区域经济一体化，但内部裂痕与大国博弈仍对区域稳定构成挑战。",
-       "world": "在全球秩序裂变背景下，东盟作为首个区域性数字经济协定的推动者，在全球数字经济与印太地缘格局中扮演日益重要的角色。"
-      },
-      "people": [
-       "Ferdinand R. Marcos Jr.",
-       "Min Aung Hlaing"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "70bca87e1fa6",
-        "t": "分析：东盟发生了什么？印太地区的经济地缘战场",
-        "says": "印太地区大国竞争加剧，东盟正逐渐成为地缘经济交汇的重要战场。区域内国家需要在中美之间寻找平衡。",
-        "same": [
-         "大国竞争",
-         "寻找平衡"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "4e75c39059e4",
-        "t": "东盟通过决议推动区域中小微企业人工智能增长",
-        "says": "东盟领导人通过了关于促进中小微企业人工智能增长的宣言，致力于让小型企业更容易负担和获取人工智能技术。",
-        "same": [
-         "中小微企业",
-         "人工智能"
-        ],
-        "view": null
-       },
-       {
-        "id": "50d9a4610259",
-        "s": "Free Malaysia Today",
-        "t": "东盟在裂变世界中面临抉择：化凝聚力为实际行动或沦为大国博弈场",
-        "says": "在裂变的全球秩序中，东盟面临抉择：是转化为实际行动还是沦为大国博弈场。组织内部面临诸多裂痕。",
-        "same": [
-         "大国博弈场"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "d0922ea49c9f",
-        "t": "数字经济框架协议确保东盟数字经济强劲增长",
-        "says": "东盟数字经济因签署东盟数字经济框架协定而获得动力。该协定是全球首个区域性数字经济协定。",
-        "same": [
-         "数字经济框架协定"
-        ],
-        "view": null
-       },
-       {
-        "id": "787703f95831",
-        "t": "菲律宾初创企业将受益于东盟数字经济协定",
-        "says": "菲律宾初创企业预计将从新签署的东盟数字经济协定中获得发展红利，协定旨在促进区域内数字合作与经济增长。",
-        "same": [
-         "数字经济协定"
-        ],
-        "view": null
-       },
-       {
-        "id": "b41be5e3c38f",
-        "t": "菲律宾面临中小微企业信贷缺口 关键基建项目出现延误",
-        "says": "菲律宾面临中小微企业信贷缺口及关键基建项目延误的问题。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "7559c1dcf91c",
-        "t": "菲律宾参议院协助将东盟协议转化为经济红利",
-        "says": "菲律宾参议院正协助将东盟相关协议转化为经济红利。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "060dca80",
-     "v": 2,
-     "at": "2026-11-22T04:06:29.444Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/13ae9530-51cc-44a6-a3cb-67f46a606695-Asean-new-emblem-and-flag-Philippines-ASEAN-pic-151126.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "cd30e168a012": {
-     "id": "cd30e168a012",
-     "title": "What historic Xi-Trump-Putin trilateral summit signals for global diplomacy",
-     "zh": "历史性习特普三边峰会对全球外交的信号",
-     "url": "https://www.channelnewsasia.com/east-asia/xi-trump-putin-trilateral-summit-apec-diplomacy-6551676",
-     "source": "CNA Asia",
-     "cat": "world",
-     "published": "2026-11-20T06:26:00.000Z",
-     "sum": "中、美、俄三国领导人举行了历史性的三边峰会，引发全球高度关注。这场会晤被视为大国外交的重要转折点，释放出重塑全球地缘政治格局的信号。"
-    },
-    "c8a6f004d720": {
-     "id": "c8a6f004d720",
-     "title": "Warm embrace, fragile truce: Trump-Xi goodwill faces fresh tests after APEC summit",
-     "zh": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
-     "url": "https://www.channelnewsasia.com/east-asia/trump-xi-us-china-goodwill-ties-apec-analysis-6561621",
-     "source": "CNA Asia",
-     "cat": "china",
-     "published": "2026-11-20T05:32:00.000Z",
-     "sum": "在APEC峰会期间实现短暂缓和后，中美两国领导人展现出的善意正面临后续一系列双边与经贸问题的全新考验。两国关系的走向牵动全球市场神经。",
-     "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--kbKPNcoZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/18/img_1745.jpg?itok=romWTHDE",
-      "credit": "CNA Asia",
-      "kind": "A"
-     }
-    },
-    "0ec39da12e53": {
-     "id": "0ec39da12e53",
-     "title": "PM Wong meets Chinese Premier Li Qiang, says over 20 agreements, initiatives to be concluded at JCBC",
-     "zh": "黄循财会见李强，双边将达成逾20项协议",
-     "short": "新中将达成20余项协议",
-     "url": "https://www.straitstimes.com/asia/east-asia/pm-wong-meets-chinese-premier-li-qiang-says-over-20-agreements-initiatives-to-be-concluded-at-jcbc",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-21T03:31:14.000Z",
-     "sum": "新加坡总理黄循财会见了中国国务院总理李强。双方预计在双边合作联合委员会上总结并落实超过20项合作协议与倡议。李强重申了中国对多边主义和自由贸易的坚定承诺。",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/15320117467b9b83f5d6a261bd3adb911dd8deec05cad19d1fe7cf4dc367d6c6?t=og",
-      "credit": "The Straits Times",
-      "kind": "A"
-     }
-    },
-    "09df6df0da50": {
-     "id": "09df6df0da50",
-     "title": "Trump-Xi-Putin summit: Does it herald a fundamental shift to a world dictated by the ‘Big Three’?",
-     "zh": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
-     "short": "大国峰会引热议",
-     "url": "https://www.straitstimes.com/asia/east-asia/trump-xi-putin-summit-does-it-herald-a-fundamental-shift-to-a-world-dictated-by-the-big-three",
-     "source": "The Straits Times",
-     "cat": "world",
-     "published": "2026-11-20T12:45:00.000Z",
-     "sum": "分析指出美中俄领导人峰会可能带来全球格局的根本性转变。中小国家或将面临压力，加速建立或加强各自的安全同盟。"
-    },
-    "01a3193d29ee": {
-     "id": "01a3193d29ee",
-     "title": "China says Japan must change ‘attitude’, after Xi snub of Takaichi",
-     "zh": "中国称日本必须改变态度，此前习近平冷落高市",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi",
-     "source": "Free Malaysia Today",
-     "cat": "china",
-     "published": "2026-11-20T08:16:28.000Z",
-     "sum": "在中国领导人习近平冷落日本政客高市早苗后，中国官方公开表示日本必须改变“态度”。中日两国的地缘政治摩擦持续引发外界关注。"
-    },
-    "1c361a8b39a7": {
-     "id": "1c361a8b39a7",
-     "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
-     "zh": "印尼普拉博沃与中国习近平讨论未来南海合作",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/indonesia-s-prabowo-china-s-xi-discuss-future-south-china-sea-cooperation",
-     "source": "Free Malaysia Today",
-     "cat": "sea",
-     "published": "2026-11-20T06:49:54.000Z",
-     "sum": "印尼总统普拉博沃与中国国家主席习近平会晤，双方就未来南海合作及双边关系发展进行讨论。两国领导人强调了维护区域稳定与深化战略伙伴关系的重要性。"
-    },
-    "dcb0cd1db1e0": {
-     "id": "dcb0cd1db1e0",
-     "title": "Anwar, China's Xi discuss various fields of cooperation to strengthen bilateral relations",
-     "zh": "安华与中国国家主席习近平讨论多领域合作",
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wZk92Tk9SOU9NbU1fdE1aTVZ6emphSXpyRmJYQ0dZQjhtYzVOdGVjb1dHSDNfcHBjNy1nNHlSOEl2aWRYYkRlM2hMUDhPcUdD?oc=5",
-     "source": "The Edge Malaysia",
-     "cat": "china",
-     "published": "2026-11-20T05:51:32.000Z",
-     "sum": "马来西亚首相安华与中国国家主席习近平进行了会谈，双方就多个领域的合作展开讨论，以进一步巩固双边关系。"
-    },
-    "03aaf90f76e4": {
-     "id": "03aaf90f76e4",
-     "title": "中俄美三方峰會「場面大於實質成果」",
-     "zh": "中俄美三方峰会“场面大于实质成果”",
-     "url": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
-     "source": "BBC 中文",
-     "cat": "china",
-     "published": "2026-11-20T05:46:09.000Z",
-     "sum": "中俄美三方近日举行峰会，但外界普遍认为此次会议的象征意义大于实际政策突破。三方在核心地缘政治议题上仍存在分歧。"
-    },
-    "51f9c2eaca46": {
-     "id": "51f9c2eaca46",
-     "title": "Trump seeks diplomatic breakthrough on Asia trip amid domestic turmoil and election setbacks",
-     "zh": "特朗普在内乱与选举挫折中寻求亚洲之行外交突破",
-     "url": "https://www.zaobao.com.sg/en/news/world/trump-seeks-diplomatic-breakthrough-asia-trip-amid-domestic-turmoil-and-election-setbacks",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-20T05:35:12.000Z",
-     "sum": "面对国内政治动荡和选举受挫的压力，美国政坛高层试图通过亚洲访问来寻求外交上的突破。相关行程备受区域关注。"
-    },
-    "b8fdbe6aa1fc": {
-     "id": "b8fdbe6aa1fc",
-     "title": "Xi: China ready to play active role in easing Thailand-Cambodia tensions",
-     "zh": "习近平：中方愿为缓和泰柬紧张局势发挥积极作用",
-     "url": "https://www.zaobao.com.sg/en/news/china/xi-china-ready-play-active-role-easing-thailand-cambodia-tensions",
-     "source": "联合早报",
-     "cat": "china",
-     "published": "2026-11-20T08:44:08.000Z",
-     "sum": "中国领导人表示，中方随时准备在缓和泰柬紧张局势方面发挥积极作用。这体现了中国对促进地区和平稳定的外交努力。"
-    },
-    "eee3df9e9738": {
-     "id": "eee3df9e9738",
-     "title": "As Trump courts Xi and Putin, middle powers make their own moves",
-     "zh": "当特朗普拉拢中俄时，中等强国正采取各自行动",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/as-trump-courts-xi-and-putin-middle-powers-make-their-own-moves",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T09:38:00.000Z"
-    },
-    "cef4b62147ef": {
-     "id": "cef4b62147ef",
-     "title": "[Opinion] From Yalta to Shenzhen, a changing Big Three",
-     "zh": "从雅尔塔到深圳：不断变化的三巨头格局",
-     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb1dydHlDejZJcmdSUVBjZ19FMkU3TXRRVWd2b1VhUTRHQkxJRklQeVVCRS1RZ1E0RFJJR2cxTGo5eDhERmxIXzVRSUxYRXgxOUZxd29IOXFGTE9BZDZzMTRiS1NXOVd6ZENKSFdnYWlBWVBPU0Uya2NhUlNOaXl5bUNURTJqVEdIX2c?oc=5",
-     "source": "联合早报",
-     "cat": "china",
-     "published": "2026-11-20T09:21:08.000Z"
-    },
-    "0a224ee81be0": {
-     "id": "0a224ee81be0",
-     "title": "From vases to silk scarves: How China wove symbolism into its APEC summit",
-     "zh": "从花瓶到丝巾：中国如何将象征意义融入亚太经合组织峰会",
-     "short": "中国将象征融入亚太峰会",
-     "url": "https://www.channelnewsasia.com/east-asia/apec-shenzhen-china-symbolism-soft-power-6568261",
-     "source": "CNA Asia",
-     "cat": "china",
-     "published": "2026-11-20T22:00:00.000Z"
-    },
-    "3e11c67b2837": {
-     "id": "3e11c67b2837",
-     "title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
-     "zh": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
-     "short": "星洲欢迎中国真诚投资",
-     "url": "https://www.straitstimes.com/asia/east-asia/spore-welcomes-genuine-chinese-investments-but-not-abuse-of-its-trusted-position-pm-wong",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-21T13:10:00.000Z",
-     "sum": "新加坡总理黄循财表示，新加坡欢迎来自中国的真诚投资，但绝不允许滥用其受信赖的地位。同时，他有信心新加坡凭借与美国的强韧关系能确保所需芯片供应。",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
-      "credit": "The Straits Times",
-      "kind": "A"
-     }
-    },
-    "c073df4bb7ca": {
-     "id": "c073df4bb7ca",
-     "title": "PM Wong meets Chinese Premier Li Qiang in Beijing",
-     "zh": "新加坡总理黄循财在北京会见中国国务院总理李强",
-     "short": "黄循财会见李强",
-     "url": "https://www.zaobao.com.sg/en/news/singapore/pm-wong-meets-chinese-premier-li-qiang-beijing",
-     "source": "联合早报",
-     "cat": "china",
-     "published": "2026-11-21T03:32:13.000Z",
-     "sum": "新加坡总理黄循财在访问北京期间，与中国国务院总理李强举行了会晤。双方就双边关系及区域合作等议题进行了深入交流。此次高层会晤有助于巩固双边外交与经贸联系。"
-    },
-    "396def59db66": {
-     "id": "396def59db66",
-     "title": "EU, Indonesia Sign FTA Eliminating 90% of Tariffs, Opening a Single Market of 730 Million People",
-     "zh": "欧盟与印尼签署自贸协定取消90%关税",
-     "short": "欧盟印尼签自贸协定",
-     "url": "https://finance.biggo.com/news/5a256349-aac5-43e7-b493-28bf1c51ef27",
-     "source": "BigGo Finance",
-     "cat": "sea",
-     "published": "2026-11-21T15:25:00.000Z",
-     "sum": "欧盟与印度尼西亚正式签署自由贸易协定，将取消高达90%的关税壁垒，并开启拥有7.3亿人口的庞大单一市场。这项历史性协议将大幅促进双方的双边贸易与投资往来。"
-    },
-    "ae393107aeab": {
-     "id": "ae393107aeab",
-     "title": "EU and Indonesia sign trade deals to open markets and secure supply chains",
-     "zh": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
-     "short": "欧盟印尼签署贸易协议",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGQ0cXQ4UTVWcVVpRnZjTUFnMklESFg4b2xGVi1nLTFOQXUwQldWVGtBVGd3b2dTbG1jR2pWS3dKb05DbjRQdDlMNHFFRzFQLXJHTzlVY3hwd2dBeXpvQllUQUQ2a1h5SkhQTmY4UG1PRFl6N2RBWGo3ZDM2U29lNWNkRjJnNm90dUZxTlJyMUFOd3ZxY0FxSHFJNUZsMjJOMGdLRWZqOUtaOVpUWDBCUFpxbERKemtxNmJqSWdsWFNuenZac3MzYmhxdWp5aV91bDgxVUdzV2o?oc=5",
-     "source": "INSIGHT EU MONITORING",
-     "cat": "sea",
-     "published": "2026-11-21T15:25:21.000Z",
-     "sum": "欧盟与印度尼西亚正式签署贸易协议，旨在进一步开放彼此市场并确保关键供应链的安全。此举标志着双方在深化经贸合作与应对全球供应链风险方面迈出重要一步。"
-    },
-    "a1b6e93c1720": {
-     "id": "a1b6e93c1720",
-     "title": "EU and Indonesia sign trade deal",
-     "zh": "欧盟与印尼正式签署自由贸易协定",
-     "short": "欧盟印尼签自贸协定",
-     "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "sea",
-     "published": "2026-11-21T15:21:00.000Z",
-     "sum": "欧盟与印尼经过近十年谈判后，正式签署了一项涵盖7.3亿人口的自由贸易协定。该协定旨在降低关税并带来新的投资机会，随着全球经济紧张局势加剧，欧盟正借此多元化其贸易关系。"
-    },
-    "8b72da353144": {
-     "id": "8b72da353144",
-     "title": "IEU CEPA: Ushering in a new era of economic partnership",
-     "zh": "印尼欧盟全面经济伙伴关系协定迈入新时代",
-     "short": "印尼欧盟签署经贸协定",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVWNQeVpJVVBva2hGTl81Skg0Z3pnSGI2b1pOYVRoR0l4Um5DNnEtYTVLLV8wRzFTckM5SGZJQmpzbi1DdjluaThaQnVWRjRHTDB0azdaNWlkNlhBMTh6UnRnSGx3NGxoN3hxaDdaUVdKQVdHQW0wVEp3NGx3RlVXQkR4cWRvdm9ra0s1Nm4xcFlMeXQxTXAtMHlGRVNhTjZnTXoyVEVhcw?oc=5",
-     "source": "The Jakarta Post",
-     "cat": "sea",
-     "published": "2026-11-20T19:52:30.000Z"
-    },
-    "7c408c6ff522": {
-     "id": "7c408c6ff522",
-     "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
-     "zh": "欧盟与英国达成“历史性协议”以深化脱欧后关系",
-     "short": "英欧达成重要协议",
-     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "world",
-     "published": "2026-11-20T11:30:00.000Z",
-     "sum": "欧盟与英国就青年流动和贸易等议题达成了一项被形容为“历史性”的协议。双方领导人对此高度评价，并借此寻求修复并深化脱欧后的紧密联系。此举标志着双方关系走向务实解冻。"
-    },
-    "0cfb735f2465": {
-     "id": "0cfb735f2465",
-     "title": "EU and UK seal reset deal",
-     "zh": "欧盟与英国达成关系重置协议",
-     "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:20:19.000Z",
-     "sum": "欧盟与英国正式达成一项旨在重置双边关系的协议。这项突发新闻引发外界对双方未来贸易与政策合作的关注。双方希望借此修复脱欧后的一些紧张关系。"
-    },
-    "4cf56d1e0614": {
-     "id": "4cf56d1e0614",
-     "title": "EU and UK strike 'landmark deal' to rebuild ties after Brexit",
-     "zh": "欧盟与英国达成脱欧后重建关系的里程碑协议",
-     "short": "英欧达成重建关系协议",
-     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-rebuild-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "world",
-     "published": "2026-11-20T11:30:00.000Z"
-    },
-    "d78d2117a5c1": {
-     "id": "d78d2117a5c1",
-     "title": "Can the UK and EU turn the page on Brexit?",
-     "zh": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
-     "short": "英欧能否走出脱欧阴影",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T20:51:19.000Z"
-    },
-    "944462cb3f32": {
-     "id": "944462cb3f32",
-     "title": "分析：APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
-     "zh": "分析：APEC上与习近平特朗普会晤，对普京是一场胜利",
-     "short": "APEC美中俄互动",
-     "url": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC 中文",
-     "cat": "world",
-     "published": "2026-11-22T02:11:02.000Z",
-     "sum": "分析指出，在亚太经合组织会议期间，美中俄领导人的会晤为俄罗斯总统普京提供了重要的外交舞台。不过，这并不能让莫斯科在俄乌战争中更接近实质性胜利。各方博弈仍在持续。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
-      "credit": "BBC 中文",
-      "kind": "A"
-     }
-    },
-    "8bcd706bdf2a": {
-     "id": "8bcd706bdf2a",
-     "title": "North Korea’s Kim visits factory sites after apparent Trump snub",
-     "zh": "美总统亚洲行未会面金正恩，朝鲜领导人视察工厂",
-     "short": "特朗普未见金正恩",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/north-korea-s-kim-visits-factory-sites-after-apparent-trump-snub",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T02:14:02.000Z"
-    },
-    "18e233591a30": {
-     "id": "18e233591a30",
-     "title": "Zelenskyy: Trilateral summit 'unsuccessful' for Russia",
-     "zh": "泽连斯基称三方峰会对俄罗斯而言不成功",
-     "short": "泽连斯基称峰会挫俄",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UWUlTMTJUMlFNdUY5dTBNYU9vT3dJTllTSC00WFNzbnZncndYYlVoQzN0clNyX04wUkJRN2tSSGFCTldNNzJlaGFvRG1haFkxRU1jc1Y5eVJ0OVFud21lMVBMMA?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-22T03:15:03.000Z"
-    },
-    "70bca87e1fa6": {
-     "id": "70bca87e1fa6",
-     "title": "What Is Happening To ASEAN? The Indo-Pacific’s Geo-Economic Battleground – Analysis",
-     "zh": "分析：东盟发生了什么？印太地区的经济地缘战场",
-     "short": "东盟成地缘经济战场",
-     "url": "https://www.eurasiareview.com/22112026-what-is-happening-to-asean-the-indo-pacifics-geo-economic-battleground-analysis/",
-     "source": "Eurasia Review",
-     "cat": "sea",
-     "published": "2026-11-22T01:51:19.000Z",
-     "sum": "随着印太地区大国竞争加剧，东盟正逐渐成为地缘经济交汇的重要战场。分析指出，区域内国家需要在中美之间寻找平衡，以维护自身的经济繁荣与战略自主。"
-    },
-    "4e75c39059e4": {
-     "id": "4e75c39059e4",
-     "title": "ASEAN adopts resolution to promote AI-powered growth among MSME acorss the region",
-     "zh": "东盟通过决议推动区域中小微企业人工智能增长",
-     "short": "东盟推动中小企业AI增长",
-     "url": "https://newsonair.gov.in/india-and-asean-agree-to-strengthen-cooperation-in-disaster-management-at-23rd-asean-india-summit-in-manila/",
-     "source": "News On AIR",
-     "cat": "sea",
-     "published": "2026-11-21T16:17:05.000Z",
-     "sum": "东盟正式通过一项新决议，旨在促进区域内中小微企业利用人工智能实现业务增长。此举有助于提升东南亚整体数字经济竞争力，加速区域内的数字化转型步伐。"
-    },
-    "50d9a4610259": {
-     "id": "50d9a4610259",
-     "title": "The Asean paradox",
-     "zh": "东盟在裂变世界中面临抉择：化凝聚力为实际行动或沦为大国博弈场",
-     "short": "东盟面临大国博弈抉择",
-     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/21/the-asean-paradox",
-     "source": "Free Malaysia Today",
-     "cat": "sea",
-     "published": "2026-11-20T23:30:00.000Z",
-     "sum": "在当前碎片化的全球秩序中，东盟面临着关键抉择，必须将自身的凝聚力转化为实际行动。否则，该区域可能沦为大国博弈的竞技场，失去自主地位。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/13ae9530-51cc-44a6-a3cb-67f46a606695-Asean-new-emblem-and-flag-Philippines-ASEAN-pic-151126.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "d0922ea49c9f": {
-     "id": "d0922ea49c9f",
-     "title": "DEFA ensures strong growth of ASEAN’s digital economy",
-     "zh": "数字经济框架协议确保东盟数字经济强劲增长",
-     "url": "https://www.pna.gov.ph/article/defa-ensures-strong-growth-of-aseans-digital-economy",
-     "source": "Philippine News Agency",
-     "cat": "sea",
-     "published": "2026-11-20T08:28:49.000Z",
-     "sum": "数字经济框架协议（DEFA）被认为将确保东盟数字经济实现强劲增长。该协议有助于推动区域内的数字化转型与跨境电商发展。"
-    },
-    "787703f95831": {
-     "id": "787703f95831",
-     "title": "Philippine Startups to Benefit from ASEAN Digital Economy Agreement",
-     "zh": "菲律宾初创企业将受益于东盟数字经济协定",
-     "url": "https://tribune.net.ph/2026/11/20/philippine-innovators-eye-asean-investment-boom",
-     "source": "Daily Tribune",
-     "cat": "sea",
-     "published": "2026-11-20T06:06:42.000Z",
-     "sum": "菲律宾初创企业预计将从新签署的东盟数字经济协定中获得发展红利。该协定旨在促进区域内的数字合作与经济增长。"
-    },
-    "b41be5e3c38f": {
-     "id": "b41be5e3c38f",
-     "title": "BUSINESS HEADLINES (Sunday, November 23, 2026) Subscribe to the paper: https://philstarsubscribe.com/ ‘Philippines faces widening MSME credit gap’ http://tiny.cc/651e101 DEPDev flags delays in key infrastructure projects http://tiny.cc/751e101 EVAP se",
-     "zh": "菲律宾面临中小微企业信贷缺口 关键基建项目出现延误",
-     "short": "菲微企面临信贷缺口",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVXVPeE8wX1h6aGVSb1VNRmlsRlZ5aHdVckJQNGt3WXZIc0hBWkExcTN6d2dQNTE2VXlLM2pTTHU3ck5FUF80MzNjVGU1akNpS2V5V2pMX1c4YlU2UUJJOTRkdmhsZGtzZ05WSUc2NE1VM19Pc1gwQlBmanRWSkJFc1pVX0hUZTRZYkk1M1hmejFjc1FiMW14aDdPajctdlRrRzAtNTlYWUt3Q2k3YVN0dUJ4TU5VM3ppZlRDNnY3dHNDUXpDM2FyTmR0Wi1fMjFMZDBIWF9JQlhLbUZF?oc=5",
-     "source": "Facebook",
-     "cat": "sea",
-     "published": "2026-11-22T01:16:59.000Z"
-    },
-    "7559c1dcf91c": {
-     "id": "7559c1dcf91c",
-     "title": "Senate to help turn Asean pacts into economic gains",
-     "zh": "菲律宾参议院协助将东盟协议转化为经济红利",
-     "short": "菲参议院转化东盟红利",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbThYcEU0TVJrQ2Vhc01WOFJmMDNOblRfVzR1cFdnTmJfUEs3ZXF0UGItbmpqQ084UTlkbVd4aFc5ck1VaTI0Rjhtc0xzaTlSR2F1VXF6RFFjMjBaeE13cUd5RWlsMmU3d1FDNl92cERmYzlOR1dwZFZwNWRMWWRWQU5CbmxHWVVQeHJHUVBwV2RsV1VkSW9TYmtsdWxSeDVvM05ER2R30gGrAUFVX3lxTE4zTGJMVlBYcGdkQ3MwN25RUnREM3BzNzgtaHlKQ1FiUUJxd1JjcHY1Y3ZWWU40ZWp6U3hkcEhFS2FiSExFNjExYTJNVEVOR3RLZlhuc2Y1NEp2dXZLN3RwU2stZ2gySmVFVkczd3Zzd1M2Zll2YTdxXzVxelR0TW1kejFtSGxFSjY4U2t5NV9oQnNHUm43SnNaOGFiRWtmRmktMGFhOEdKWkc0QQ?oc=5",
-     "source": "The Manila Times",
-     "cat": "sea",
-     "published": "2026-11-21T16:04:00.000Z"
-    },
-    "103d116583ed": {
-     "id": "103d116583ed",
-     "title": "EU and Indonesia Sign Landmark Trade and Investment Deal",
-     "zh": "欧盟与印尼签署历史性贸易与投资协定",
-     "short": "欧盟印尼签贸易协定",
-     "url": "https://cwibc.co.id/en/eu-indonesia-trade-investment-deal",
-     "source": "cwibc.co.id",
-     "cat": "sea",
-     "published": "2026-11-22T02:02:19.000Z",
-     "sum": "欧盟与印尼正式签署了一项具有里程碑意义的贸易与投资协定。该协议旨在深化双方经济联系，扩大市场准入。这也反映出欧盟正积极加强与东南亚主要经济体的经贸布局。"
-    },
-    "2d84193be60f": {
-     "id": "2d84193be60f",
-     "title": "EU, Indonesia sign 'ambitious' trade deal, paving way for 2027 rollout",
-     "zh": "欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
-     "short": "欧盟印尼签贸易协定",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUpRaDdscGpxU0s5a3ZfMGJjT3Fpc2xfMi1WMlFyUUxuWEJvdW1OcDg5NHVYTmZzSWJYZzFzX2Y1T25uZFFEenE2aWp1SUFLeWdVNmZmV21mUllEUEk4QzNpNFNFRGhpVlI1MVRDbjlGdGkyZmVfUW9yMk9VQ2JXMWVzdEpFUFdfR2lDSTBpSVJzenhkY0RTclhqNFRuMFdua0hJWWJDVGVWWE5LYVc0ZUhpSThibFlnY2fSAboBQVVfeXFMTnlKUWg3bHBqcVNLOWt2XzBiY09xaXNsXzItVjJRclFMblhCb3VtTnA4OTR1WE5mc0liWGcxc19mNU9ubmRRRHpxNmlqdUlBS3lnVTZmZldtZlJZRFBJOEMzaTRTRURoaVZSNTFUQ245RnRpMmZlX1FvcjJPVUNiVzFlc3RKRVBXX0dpQ0kwaUlSc3p4ZGNEU3JYajRUbjBXbmtISVliQ1RlVlhOS2FXNGVIaUk4YmxZZ2Nn?oc=5",
-     "source": "NST Online",
-     "cat": "sea",
-     "published": "2026-11-21T23:58:42.000Z"
-    },
-    "2b1c270f952c": {
-     "id": "2b1c270f952c",
-     "title": "Singapore, China to speed up talks on FTA upgrade as Wong meets Li in Beijing",
-     "zh": "黄循财会见李强，新中同意加速自贸协定升级谈判",
-     "short": "新中加速自贸协定谈判",
-     "url": "https://www.malaymail.com/amp/news/singapore/2026/11/22/singapore-china-to-speed-up-talks-on-fta-upgrade-as-wong-meets-li-in-beijing/244274",
-     "source": "Malay Mail",
-     "cat": "sea",
-     "published": "2026-11-22T02:24:08.000Z",
-     "sum": "新加坡总理黄循财在北京会见中国总理李强，双方同意加快推进自由贸易协定升级谈判。此举旨在深化两国经贸合作，并应对当前复杂的区域与国际环境。双方展现了进一步加强双边经济伙伴关系的意愿。",
-     "img": {
-      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/22/375721.webp?v=1795320000",
-      "credit": "Malay Mail",
-      "kind": "A"
-     }
-    },
-    "5648849fe01f": {
-     "id": "5648849fe01f",
-     "title": "EU and Indonesia Sign Trade Deal After 10 Years of Negotiations",
-     "zh": "欧盟与印尼历经十年谈判后正式签署贸易协定",
-     "short": "欧盟印尼签贸易协定",
-     "url": "https://english.kontan.co.id/news/eu-and-indonesia-sign-trade-deal-after-10-years-of-negotiations",
-     "source": "KONTAN",
-     "cat": "sea",
-     "published": "2026-11-22T23:29:19.000Z",
-     "sum": "经过长达十年的艰难谈判，欧盟与印尼终于正式签署双边贸易协定。此举将进一步深化双方经贸联系，并为印尼开拓更为广阔的欧洲市场。协议预计将为双方企业带来更多合作机遇。",
-     "img": {
-      "src": "https://foto.kontan.co.id/q2_FgFurOz-I1Yf8ZA5khN_7gRU=/smart/filters:format(webp)/2025/06/07/273764158p.jpg",
-      "credit": "KONTAN",
-      "kind": "A"
-     }
-    },
-    "391f570c75a2": {
-     "id": "391f570c75a2",
-     "title": "'Not everything we do has to be viewed through US-China competition': PM Wong on how S'pore creates value in multipolar world",
-     "zh": "黄循财：新加坡在多极世界中通过价值创造立足",
-     "short": "黄循财谈多极世界定位",
-     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeHZpRHp5c0VwWDk2bXJ0VDJxWWJfclQ5WHJndWZvVkdxdUFqeUxya3dRNlBfUTNrak1KaDl1MnEwNklGSC1GR0ZnMU13aDlqVWNsRFh4RloyY1VNUkloU01JRGRyUVNCeEZSZE5aZVdINk1ZcHh3TGlobEdFWDFDZw?oc=5",
-     "source": "Mothership",
-     "cat": "sea",
-     "published": "2026-11-22T01:41:27.000Z"
-    }
-   },
-   "name": "新加坡总理黄循财访华",
-   "en": "Singapore Prime Minister Lawrence Wong visit China",
-   "wiki": "Lawrence Wong",
-   "cat": "china",
-   "last": "2026-11-23T00:12:38.004Z",
-   "hidden": false,
-   "short": "黄循财访华",
-   "key": "黄循财访华会见李强，探讨深化经贸合作",
-   "overview": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨深化经贸与自贸协定升级，同时强调防范规避美国出口管制的行为。",
-   "minorText": [],
-   "links": [
-    {
-     "from": "493f4a17-2",
-     "to": "493f4a17-1",
-     "t": "黄循财访华期间与中国领导人会晤，推进多领域合作协议。"
-    }
-   ],
-   "img": {
-    "src": "https://dam.mediacorp.sg/image/upload/s--Oslzadnf--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/trump_xi_putin_2.jpg?itok=bba0M6VR",
-    "credit": "CNA Asia",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 5,
-    "sources": 23,
-    "stories": 38,
-    "gdelt": null,
-    "wiki": {
-     "title": "Lawrence Wong",
-     "views": 1560,
-     "ratio": 0.8
-    },
-    "at": "2026-11-23T00:17:07.401Z"
-   }
-  },
-  {
-   "id": "6e6b7acb",
-   "first": "2026-11-21T22:12:19.702Z",
-   "lines": [
-    {
-     "id": "6e6b7acb-1",
-     "t": "大会陷入僵局与各方批评",
-     "ids": [
-      "a3764b25182c",
-      "b7be9e2e4afd",
-      "c3012d485eca",
-      "6b56be4bc539",
-      "89090d2f3063",
-      "4e24f14be340",
-      "688095944714",
-      "cf86cc1e39a1",
-      "9167ab9ea179",
-      "eadc5b447bb3",
-      "e0aab1d66fdb",
-      "ed7322a5b6c5",
-      "919da9bce35e",
-      "83c8a30ff39a"
-     ],
-     "w": {
-      "short": "第31届气候大会陷僵局",
-      "key": "第31届联合国气候大会因化石燃料等议题陷入严重僵局",
-      "title": "第31届联合国气候大会陷入僵局：化石燃料去留引发激烈博弈",
-      "summary": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，由于最新协议草案剔除了化石燃料相关内容，引发欧盟及多个国家强烈不满并导致谈判陷入僵局。各方在气候融资、减排目标以及是否承认全球升温将突破1.5度等问题上分歧严重。会议主席国正紧急斡旋，力求达成最终妥协。",
-      "common": [
-       {
-        "t": "第31届联合国气候变化大会因化石燃料议题陷入加时与僵局。",
-        "src": [
-         "France 24",
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "修订后的协议草案删除了关于化石燃料的内容，引发欧盟及多个国家强烈反对。",
-        "src": [
-         "France 24",
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "非洲国家在大会上喊话表示他们不是来乞讨的。",
-        "src": "Al Jazeera"
-       },
-       {
-        "t": "本次大会可能首次在正式协议中承认全球升温控制在1.5度的目标已经错过。",
-        "src": "BBC World"
-       },
-       {
-        "t": "由于政治领导力有限、缺乏美国官方代表团及官僚延误，外界对本次大会有效性产生质疑。",
-        "src": "France 24"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "France 24",
-         "BBC World",
-         "Al Jazeera",
-         "NST Online"
-        ],
-        "t": "认为必须在最终协议中保留逐步淘汰化石燃料的明确承诺，没有化石燃料提及的协议是不可接受的。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World"
-        ],
-        "t": "澳大利亚气候变化和能源部长认为峰会应当关注向清洁能源过渡和实际执行，而非必须在文本中纠结化石燃料的措辞。"
-       }
-      ],
-      "unknown": "目前尚不清楚各方是否能在最后期限前就修改后的最终协议文本达成一致。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "全球气候协议陷入僵局可能延缓各国应对极端天气和全球变暖的共同行动。"
-      },
-      "people": [
-       "Juan Carlos Navarro",
-       "Monique Barbut"
-      ],
-      "photo": "climate change conference",
-      "per": [
-       {
-        "id": "a3764b25182c",
-        "t": "联合国气候变化大会成史上最糟糕一届？",
-        "says": "由于缺乏美国官方代表团及政治领导力有限，舆论对本次大会有效性提出质疑。",
-        "same": [
-         "大会陷入僵局"
-        ],
-        "view": null
-       },
-       {
-        "id": "b7be9e2e4afd",
-        "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
-        "says": "草案删除了化石燃料内容，引发欧盟及十多个国家强烈不满。",
-        "same": [
-         "剔除化石燃料"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c3012d485eca",
-        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
-        "says": "谈判因对草案批评而超时，欧盟警告若提案缺乏实质内容峰会将沦为化石燃料峰会。",
-        "same": [
-         "大会陷入僵局"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6b56be4bc539",
-        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
-        "says": "多国部长极力争取将摆脱化石燃料的承诺重新写入协议，而澳大利亚则认为峰会应聚焦清洁能源过渡。",
-        "same": [
-         "化石燃料分歧"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "89090d2f3063",
-        "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
-        "says": "COP31因化石燃料的激烈冲突进入加时，多国批评最新草案删除了化石燃料相关表述。",
-        "same": [
-         "剔除化石燃料"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "4e24f14be340",
-        "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
-        "says": "化石燃料谈判陷入僵局，气候峰会延时进行。",
-        "same": [
-         "大会陷入僵局"
-        ],
-        "view": null
-       },
-       {
-        "id": "688095944714",
-        "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
-        "says": "非洲国家在联合国气候变化大会上喊话表示我们不是来乞讨的。",
-        "same": [
-         "大会陷入僵局"
-        ],
-        "view": null
-       },
-       {
-        "id": "cf86cc1e39a1",
-        "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
-        "says": "草案剥离煤炭、石油和天然气引起抗议和退场威胁，欧盟与沙特分歧严重。",
-        "same": [
-         "剔除化石燃料"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "93626ed9",
-     "v": 2,
-     "at": "2026-11-23T00:15:02.767Z",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "a3764b25182c": {
-     "id": "a3764b25182c",
-     "title": "'Worst Ever' COP Summit?",
-     "zh": "联合国气候变化大会成史上最糟糕一届？",
-     "short": "气候大会遭质疑",
-     "url": "https://www.france24.com/en/tv-shows/spotlight/20261121-worst-ever-cop-summit",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T20:08:48.000Z",
-     "sum": "由于政治领导力有限、缺乏美国官方代表团以及官僚延误带来的挫败感，舆论对本次联合国气候变化大会的有效性提出了质疑。各方正在讨论这是否是有史以来最糟糕的一届气候峰会。"
-    },
-    "b7be9e2e4afd": {
-     "id": "b7be9e2e4afd",
-     "title": "COP31: Deep divisions persist over energy, finance and science",
-     "zh": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
-     "short": "联合国气候大会陷入僵局",
-     "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T17:26:47.000Z",
-     "sum": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方在化石燃料、气候融资和减排目标上分歧严重。修订后的草案删除了所有关于化石燃料的内容，引发欧盟及十多个国家的强烈不满。"
-    },
-    "c3012d485eca": {
-     "id": "c3012d485eca",
-     "title": "Countries race to secure Cop31 deal",
-     "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
-     "short": "各国力争达成气候协议",
-     "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T15:52:00.000Z",
-     "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。"
-    },
-    "6b56be4bc539": {
-     "id": "6b56be4bc539",
-     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
-     "zh": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
-     "short": "气候峰会因化石燃料陷僵局",
-     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T07:31:05.000Z",
-     "sum": "近200个国家的代表在第31届联合国气候变化大会谈判中陷入僵局。各国在化石燃料削减等关键条款上分歧严重，导致新的全球气候协议难以敲定。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    "89090d2f3063": {
-     "id": "89090d2f3063",
-     "title": "COP31 deal stalls as nations struggle to agree on climate plan",
-     "zh": "各国难就气候计划达成一致，COP31协议陷入僵局",
-     "short": "气候协议陷入僵局",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T01:44:09.000Z"
-    },
-    "4e24f14be340": {
-     "id": "4e24f14be340",
-     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-     "zh": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
-     "short": "气候峰会因化石燃料延时",
-     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T23:06:41.000Z"
-    },
-    "688095944714": {
-     "id": "688095944714",
-     "title": "‘We didn’t come here to beg’: Africa’s message at COP31",
-     "zh": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
-     "short": "非洲国家诉求气候公正",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/we-didnt-come-here-to-beg-africas-message-at-cop31?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:55:16.000Z"
-    },
-    "cf86cc1e39a1": {
-     "id": "cf86cc1e39a1",
-     "title": "Fossil fuel dispute threatens to scupper climate deal",
-     "zh": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
-     "short": "化石燃料分歧危及谈判",
-     "url": "https://www.nst.com.my/amp/business/economy/2026/11/1583019/fossil-fuel-dispute-threatens-scupper-climate-deal",
-     "source": "NST Online",
-     "cat": "world",
-     "published": "2026-11-22T01:16:36.000Z",
-     "sum": "围绕化石燃料退出的核心争议正在加剧，各方在减排路线上的严重分歧可能导致国际气候协议谈判破裂。与会代表在过渡期及能源使用限制上仍未达成一致共识。"
-    },
-    "9167ab9ea179": {
-     "id": "9167ab9ea179",
-     "title": "COP31 climate talks close to final deal",
-     "zh": "联合国气候变化大会COP31接近达成最终协议",
-     "short": "气候大会接近协议",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2FaTnMxeHpPSzF3d2RROXhyckZCOFFXWmJKbUgzZmIzT3hIdlROZVBTMldPZXlMT0QtcXQ0NkVkaHZDVTFoU3UwZmJZWHlTWW1pa29yemp2WTJXV2pWVzJRdnpoNFBhSVUwdS1oWnZ3VUk4ZXhoSEY5UDZMRzAwVFBn?oc=5",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-22T02:16:36.000Z"
-    },
-    "ed7322a5b6c5": {
-     "id": "ed7322a5b6c5",
-     "title": "COP31 draft agreement stresses electrification of global economy",
-     "zh": "联合国气候峰会草案强调全球经济电气化",
-     "short": "气候峰会强调电气化",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU9SYW5xSUZyTkNlUmhDTWs4VkdGZndFYTZPWUc3MVltaWlqNFZsSklPUDBLOERtQXBkU2tmdW9aZlR0VmJvMF9mLUxHaWFQTHlSVzltVEJ3SmV0MzFkY0h1M3hQcnE1UjMxemZkVEdPRnR0bEtkc0hZN203VVRSYTQtWF8tRkdvSEFBZHRYNnZmNEJPa0lmSmJ2a2lYUnBvajEw?oc=5",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-22T09:30:17.000Z"
-    },
-    "eadc5b447bb3": {
-     "id": "eadc5b447bb3",
-     "title": "UN climate talks collapse without a deal",
-     "zh": "联合国气候谈判破裂未达成协议",
-     "short": "联合国气候大会破裂",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-22T18:04:25.000Z",
-     "sum": "联合国历史最长的一次气候峰会在土耳其结束，但未能达成任何最终协议。这是自2009年以来，气候谈判首次以无协议告终。"
-    },
-    "e0aab1d66fdb": {
-     "id": "e0aab1d66fdb",
-     "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
-     "zh": "气候大会因产油国反对未达成协议遭批令人失望",
-     "short": "气候大会无果而终",
-     "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-22T16:33:26.000Z",
-     "sum": "联合国气候变化大会在经历激烈讨论后结束，但未能达成实质性协议。由于部分产油国坚决反对在最终文本中纳入淘汰化石燃料的明确措辞，各方分歧难以弥合。许多代表对此结果表示极度失望，认为文本力度过于软弱，无法有效应对全球气候危机。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b031379-1795363705.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "919da9bce35e": {
-     "id": "919da9bce35e",
-     "title": "Climate talks in Turkey collapse over fossil fuel divisions",
-     "zh": "因化石燃料分歧，土耳其气候大会谈判破裂",
-     "short": "气候峰会谈判破裂",
-     "url": "https://www.zaobao.com.sg/en/news/singapore/climate-talks-turkey-collapse-over-fossil-fuel-divisions",
-     "source": "联合早报",
-     "cat": "world",
-     "published": "2026-11-22T23:22:08.000Z",
-     "sum": "由于各方在化石燃料的淘汰和使用问题上存在严重分歧，于土耳其举行的气候谈判最终宣告破裂。这也凸显了全球各国在绿色转型和能源政策上的巨大利益博弈。气候治理进程再次遭遇挫折。",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/b3c0d5491f75a5b65573692579b973fb159136e0a6d1a023e88d6571d00c3acf",
-      "credit": "联合早报",
-      "kind": "A"
-     }
-    },
-    "83c8a30ff39a": {
-     "id": "83c8a30ff39a",
-     "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
-     "zh": "澳大利亚政坛：气候峰会未能达成协议致分歧难解",
-     "short": "气候峰会分歧难解",
-     "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-     "source": "The Guardian World",
-     "cat": "world",
-     "published": "2026-11-22T23:51:38.000Z"
-    }
-   },
-   "name": "第31届联合国气候大会",
-   "en": "COP31 climate summit fossil fuels",
-   "wiki": "2026 United Nations Climate Change Conference",
-   "cat": "world",
-   "last": "2026-11-23T00:12:38.004Z",
-   "hidden": false,
-   "heat": {
-    "score": 2,
-    "sources": 6,
-    "stories": 14,
-    "gdelt": null,
-    "wiki": {
-     "title": "2026 United Nations Climate Change Conference",
-     "views": 1444,
-     "ratio": 1.5
-    },
-    "at": "2026-11-23T00:17:57.020Z"
-   },
-   "short": "第31届气候大会陷僵局",
-   "key": "草案剔除化石燃料引发强烈不满",
-   "overview": "第31届联合国气候大会因草案剔除化石燃料陷入僵局，欧盟及多国强烈抗议并面临谈判超时，各方在融资和减排目标上分歧严重。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
-    "credit": "BBC World",
-    "kind": "A"
-   }
-  },
-  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "科技股与人工智能板块大跌",
+     "t": "股市抛售与市场波动",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -1568,16 +36,18 @@
       "c8ea599deb5e",
       "e907fc2d9d1c",
       "f6de207f1ae3",
-      "fdc72ec7fe0d"
+      "fdc72ec7fe0d",
+      "7eb4d0b032a7",
+      "8884458ddcb3"
      ],
      "w": {
-      "short": "全球科技股与AI遭抛售",
-      "key": "人工智能板块抛售与科技股大跌引发全球市场震动",
-      "title": "人工智能板块抛售与监管：全球科技股与股市遭遇重挫",
-      "summary": "受人工智能板块抛售潮加剧及投资者对高估值担忧影响，标普500与纳斯达克等美股指数大幅下挫，全球主要股市普遍遭遇重创。亚洲市场迎来数年来的最糟单周表现，多国科技巨头与主要指数显著走低。市场情绪已从低吸转向担忧人工智能的估值与盈利能力。",
+      "short": "全球股市遭遇科技抛售",
+      "key": "人工智能板块抛售潮加剧引发全球股市下跌与市场波动",
+      "title": "人工智能板块抛售与监管压力引发全球股市剧烈波动",
+      "summary": "受人工智能板块抛售潮加剧影响，全球股市近期遭遇重挫，亚洲股市更是迎来2020年以来表现最糟糕的一周。科技股的普遍回落与市场对高估值的担忧，导致主要股市显著下挫，而美国国债收益率也录得下跌。",
       "common": [
        {
-        "t": "全球股市因科技股与人工智能板块抛售而遭遇下跌。",
+        "t": "人工智能板块抛售加剧导致全球股市下跌。",
         "src": [
          "AP News",
          "Yahoo Finance",
@@ -1587,64 +57,67 @@
         ]
        },
        {
-        "t": "亚洲市场面临自2020年以来表现最糟糕的一周。",
+        "t": "亚洲股市表现疲弱并面临严重跌势。",
         "src": [
+         "Reuters",
+         "AP News",
          "London South East",
          "The Guardian World"
+        ]
+       },
+       {
+        "t": "美国股指期货出现反弹或上涨迹象。",
+        "src": [
+         "Reuters",
+         "AP News"
         ]
        }
       ],
       "single": [
        {
-        "t": "人工智能巨头Anthropic的首次公开募股未能阻止相关公司的抛售潮，其股价在冲高后回落至接近发行价水平。",
+        "t": "标普500指数大幅下挫3.7%，纳斯达克综合指数今年以来首次转跌。",
+        "src": "AP News"
+       },
+       {
+        "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮。",
         "src": "The Guardian World"
-       },
-       {
-        "t": "美联储维持鹰派货币政策的预期升温，加之高利率环境持续，压抑了市场风险偏好。",
-        "src": "Anadolu Ajansı"
-       },
-       {
-        "t": "美国国债收益率录得下跌，反映出市场避险情绪升温及对宏观经济走向的重新评估。",
-        "src": "Yahoo Finance"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
+         "AP News",
+         "Yahoo Finance",
+         "London South East",
          "The Guardian World"
         ],
-        "t": "市场情绪转变源于担忧人工智能估值过高、盈利能力不足及投资可持续性。"
+        "t": "市场下跌源于人工智能板块抛售潮加剧及高估值引发的担忧。"
        },
        {
         "label": "看法 B",
         "src": [
          "Anadolu Ajansı"
         ],
-        "t": "全球市场下跌是受美联储鹰派预期与人工智能盈利风险共同导致的。"
-       },
-       {
-        "label": "看法 C",
-        "src": [
-         "Yahoo Finance"
-        ],
-        "t": "抛售反映了投资者对高估值科技板块的担忧以及对宏观经济走向的重新评估。"
+        "t": "全球市场下滑是美联储鹰派预期与人工智能盈利风险共同导致的结果。"
        }
       ],
-      "unknown": null,
+      "unknown": "目前尚不清楚人工智能板块的抛售潮何时能触底企稳以及未来监管政策的具体走向。",
       "impact": {
-       "my": null,
-       "sea": "亚洲市场创下2020年以来最糟糕的一周，亚太主要科技指数大跌。",
-       "world": "全球股市及主要科技板块遭遇重挫，标普500和纳斯达克等指数大幅下挫。"
+       "my": "全球科技板块波动与市场抛售可能通过资金流向间接影响马股投资情绪。",
+       "sea": "区域股市受到全球科技股抛售拖累，亚洲市场录得近年较差表现。",
+       "world": "全球主要股市因人工智能板块遭遇重挫，投资者避险情绪显著升温。"
       },
       "people": [],
-      "photo": "technology stock market crash",
+      "photo": "stock market crash",
       "per": [
        {
         "id": "a4b668b9adb1",
         "t": "油金价格下跌拖累多伦多股市期货",
         "says": "油金价格下跌拖累多伦多股市期货。",
-        "same": [],
+        "same": [
+         "股市期货"
+        ],
         "view": null
        },
        {
@@ -1652,76 +125,74 @@
         "t": "标普500暴跌3.7%纳指转跌，科技股抛售潮加剧",
         "says": "受科技股抛售潮加剧影响，标普500指数大幅下挫3.7%，纳斯达克综合指数今年以来首次转跌。",
         "same": [
-         "科技股抛售",
-         "标普500下跌"
+         "科技股抛售"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "c8ea599deb5e",
         "t": "美股期货反弹，亚洲市场严阵以待人工智能崩盘",
         "says": "美国股指期货在盘前出现反弹迹象，但亚洲股市正严阵以待防范人工智能估值过高引发的抛售。",
         "same": [
+         "美股期货反弹",
+         "亚洲市场"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "8884458ddcb3",
+        "t": "科技股走低拖累亚洲股市多数下跌，美股期货上涨",
+        "says": "受部分大型科技股下跌影响，亚洲股市多数呈现跌势，而美国股指期货逆势走高。",
+        "same": [
          "亚洲股市",
-         "人工智能抛售"
+         "美股期货"
         ],
         "view": null
        },
        {
         "id": "370e31bae833",
         "t": "科技股领跌全球股市，美国国债收益率下跌",
-        "says": "全球股市遭遇科技股领衔的抛售潮，美国国债收益率录得下跌。",
+        "says": "全球股市遭遇科技股领衔的抛售潮显著下挫，同时美国国债收益率录得下跌。",
         "same": [
-         "科技股领跌",
-         "全球股市下跌"
+         "全球股市下挫",
+         "抛售潮"
         ],
-        "view": "看法 C"
+        "view": "看法 A"
        },
        {
         "id": "af87ca270f5d",
         "t": "美联储鹰派预期与AI盈利风险致全球市场下跌",
-        "says": "由于美联储鹰派预期升温加之人工智能盈利风险，全球市场普遍下滑。",
+        "says": "由于美联储鹰派预期升温及人工智能盈利风险引发担忧，全球市场普遍出现下滑。",
         "same": [
-         "全球市场下跌",
-         "人工智能风险"
+         "全球市场下跌"
         ],
         "view": "看法 B"
        },
        {
         "id": "907f3c71c379",
         "t": "AI抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
-        "says": "由于人工智能板块遭抛售，全球股市下跌，亚洲迎来2020年以来最糟一周。",
+        "says": "由于人工智能板块遭抛售，全球股市遭遇跌势，亚洲股市更面临2020年以来表现最糟糕的一周。",
         "same": [
-         "人工智能抛售",
-         "亚洲最糟一周"
-        ],
-        "view": null
-       },
-       {
-        "id": "fd2811614640",
-        "t": "全球股市暴跌，AI板块抛售潮未止",
-        "says": "Anthropic的首次公开募股未能阻止人工智能相关公司抛售，全球股市遭遇重挫。",
-        "same": [
-         "全球股市暴跌",
-         "亚洲最糟一周"
+         "抛售潮",
+         "全球股市下跌"
         ],
         "view": "看法 A"
        },
        {
-        "id": "72d18114a820",
-        "t": "美股期指下跌，AI担忧拖累全球市场",
-        "says": "受Anthropic股价回落及人工智能担忧影响，美国股指期货下跌并拖累全球市场。",
+        "id": "fd2811614640",
+        "t": "The Guardian World: 全球股市暴跌，AI板块抛售潮未止",
+        "says": "由于Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮，全球股市遭遇重挫。",
         "same": [
-         "美股期指下跌",
-         "人工智能担忧"
+         "全球股市暴跌",
+         "抛售潮"
         ],
-        "view": null
+        "view": "看法 A"
        }
       ]
      },
-     "loose": true,
-     "sig": "2ad5bca3",
-     "at": "2026-11-23T00:14:09.671Z",
+     "loose": false,
+     "sig": "e0eb45aa",
+     "at": "2026-11-23T08:54:55.364Z",
      "img": {
       "src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/20/thumbs_b_c_de941811efadf77c214072969144364d.jpg",
       "credit": "Anadolu Ajansı",
@@ -1878,7 +349,7 @@
     },
     {
      "id": "3700168d-3",
-     "t": "特朗普关税威胁与数据中心",
+     "t": "英伟达调查与高层动态",
      "ids": [
       "703b07e4b163",
       "2c3757b0893a",
@@ -1906,16 +377,25 @@
       "ff2e7c21e6ba",
       "868e9366e68a",
       "2f45df99b6bd",
-      "b4e6b4634b9a"
+      "b4e6b4634b9a",
+      "df66e724d6de",
+      "7632ee32cd73"
      ],
      "w": {
-      "short": "英伟达卷入调查与关税威胁",
-      "key": "美国监管机构与加州对英伟达展开调查，同时特朗普威胁对海外数据中心征收关税。",
-      "title": "英伟达面临美证交会及加州调查，特朗普威胁对海外数据中心征关税",
-      "summary": "美国证券交易委员会与加州总检察长正对英伟达及其前总裁黄仁勋展开调查，涉及会计账目及芯片出口是否违规流入中国。与此同时，美国总统特朗普威胁对在海外建造数据中心的企业征收关税，并收紧对中国的芯片出口限制。马来西亚杨忠礼电力则澄清其柔佛数据中心并未涉及协助转移芯片给中国客户的指控。",
+      "short": "英伟达卷入调查与抛售",
+      "key": "英伟达面额监管调查且卷入芯片流向中国风波，引发板块震荡。",
+      "title": "英伟达面临会计与出口调查，柔佛数据中心澄清未涉芯片违规",
+      "summary": "人工智能芯片巨头英伟达因会计账目及高级芯片可能违规流入中国等问题面临美国相关机构调查。与此同时，大马杨忠礼电力否认其柔佛数据中心涉嫌协助将芯片转移给中国客户。此外，美国加强了对先进半导体出口的限制，令全球科技板块情绪承压。",
       "common": [
        {
-        "t": "美国收紧对中国的芯片出口限制",
+        "t": "美国正针对英伟达的芯片出口及相关问题展开调查。",
+        "src": [
+         "Reuters",
+         "The Guardian World"
+        ]
+       },
+       {
+        "t": "美国进一步收紧了对中国获取人工智能先进芯片的限制。",
         "src": [
          "Free Malaysia Today",
          "联合早报"
@@ -1924,130 +404,100 @@
       ],
       "single": [
        {
-        "t": "美国证券交易委员会正对英伟达的会计账目进行调查",
-        "src": "Reuters"
-       },
-       {
-        "t": "杨忠礼电力否认柔佛数据中心协助将英伟达芯片转移给中国客户",
+        "t": "杨忠礼电力澄清其柔佛数据中心仅提供合规的科洛ケーション服务，并未涉嫌协助芯片转移且未受调查。",
         "src": "Free Malaysia Today"
        },
        {
-        "t": "特朗普威胁对在海外兴建数据中心的美国企业征收巨额关税",
+        "t": "特朗普威胁对在海外建造数据中心的企业征收关税。",
         "src": "The Edge Malaysia"
        }
       ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Free Malaysia Today",
-         "The Edge Malaysia"
-        ],
-        "t": "杨忠礼电力澄清其柔佛数据中心仅提供合规的国际 kolokasi 服务，未受调查且营运未受新规影响。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "外媒及相关报道指出，有指控称新加坡 Megaspeed 及其子公司透过柔佛数据中心让阿里巴巴远端访问英伟达芯片。"
-       }
-      ],
-      "unknown": "美中全面协议的具体细节及英伟达相关调查的最终走向目前尚未完全披露。",
+      "views": [],
+      "unknown": "美SEC对英伟达会计调查的具体细节以及美中全面协议的具体内容目前尚未完全披露。",
       "impact": {
-       "my": "柔佛数据中心业务受到国际媒体关注与管理层澄清，但大马分析界仍看好其长远发展前景。",
-       "sea": "新加坡相关企业卷入英伟达芯片流向中国的调查，牵动东南亚区域科技供应链。",
-       "world": "美国对英伟达的监管调查、台积电收紧对华代工限制以及关税威胁，对全球人工智能与芯片产业链造成冲击。"
+       "my": "大马杨忠礼电力的数据中心项目卷入跨国芯片流向争议，但管理层已公开澄清并强调运作合规。",
+       "sea": "东南亚作为区域数据中心枢纽，正密切关注美国对半导体出口与远程访问的最新监管动向。",
+       "world": "引发全球人工智能板块与高估值科技股遭到抛售，并重塑国际芯片供应链与贸易格局。"
       },
       "people": [
        "Jensen Huang",
-       "Rob Bonta"
+       "Alice Huang"
       ],
       "photo": "data center servers",
       "per": [
        {
         "id": "ad379fa36e36",
         "t": "消息称英伟达会计账目正遭美国证券交易委员会调查",
-        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，可能冲击高估值科技股市场情绪。",
+        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，可能对科技股情绪造成冲击。",
         "same": [
-         "英伟达"
+         "SEC调查"
         ],
         "view": null
        },
        {
         "id": "1308417160fd",
         "t": "特朗普称仍支持鲁特尼克，敦促英伟达黄仁勋道歉",
-        "says": "特朗普敦促英伟达黄仁勋道歉并维持相关对华芯片立场。",
-        "same": [
-         "特朗普"
-        ],
+        "says": "特朗普表达了相关政治立场并提及黄仁勋。",
+        "same": [],
         "view": null
        },
        {
         "id": "703b07e4b163",
         "t": "杨忠礼电力否认协助将英伟达芯片转移给中国客户",
-        "says": "YTL Power 否认柔佛数据中心协助转移英伟达芯片给中国客户，强调营运符合法律与美国出口管制。",
+        "says": "YTL Power否认柔佛数据中心协助转移芯片，强调严格遵守当地法律与美国控制。",
         "same": [
-         "杨忠礼电力",
-         "柔佛数据中心"
+         "否认涉华违规"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "2c3757b0893a",
         "t": "加州就芯片出口是否流入中国一事调查英伟达",
-        "says": "加州总检察长对英伟达及前CEO黄仁勋发出传票，调查先进芯片是否违规流入中国及误导投资者。",
+        "says": "加州总检察长对英伟达发出传票，调查其芯片是否违规流入中国及是否误导投资者。",
         "same": [
-         "英伟达",
-         "黄仁勋"
+         "芯片出口调查"
         ],
-        "view": "看法 B"
+        "view": null
        },
        {
         "id": "4cf449e2548c",
         "t": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
-        "says": "台积电配合美国新规收紧对中国AI芯片限制，暂停部分先进制程订单。",
+        "says": "台积电进一步收紧对中国AI芯片的限制，以配合美国新规。",
         "same": [
-         "台积电",
-         "中国"
+         "收紧出口限制"
         ],
         "view": null
        },
        {
         "id": "4dc84061523a",
         "t": "纽约时报称杨忠礼数据中心助阿里巴巴远端访问英伟达芯片，管理层澄清未受调查",
-        "says": "纽约时报指柔佛数据中心协助阿里巴巴远端访问芯片，管理层澄清未受调查且业务前景正面。",
+        "says": "纽约时报报道指阿里通过大马数据中心远程访问芯片，YTL管理层澄清未受调查且业务强劲。",
         "same": [
-         "杨忠礼电力",
          "柔佛数据中心"
         ],
-        "view": "看法 B"
+        "view": null
        },
        {
         "id": "75075c1c3f03",
         "t": "特朗普称只应向中国出售较旧芯片",
-        "says": "特朗普表示美国应仅向中国出售技术较落后的旧款芯片，凸显对华持续维持技术限制。",
+        "says": "特朗普表示美国应仅向中国出售较旧型号芯片，美中正就全面协议进行协商。",
         "same": [
-         "特朗普",
-         "中国"
+         "收紧出口限制"
         ],
         "view": null
        },
        {
         "id": "3c220e7da811",
         "t": "特朗普威胁对在海外建数据中心的企开征关税",
-        "says": "特朗普威胁对在海外兴建数据中心的美国企业征收巨额关税，以促使科技基础设施留在本土。",
-        "same": [
-         "特朗普",
-         "数据中心"
-        ],
+        "says": "特朗普警告将对在海外兴建数据中心的美国企业征收巨额关税。",
+        "same": [],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "6a88337a",
-     "at": "2026-11-23T00:14:28.400Z",
+     "sig": "3631757f",
+     "at": "2026-11-23T08:55:11.962Z",
      "img": {
       "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/3801d3ad-ytl-data-centers-ytl-pic-220525.webp",
       "credit": "Free Malaysia Today",
@@ -2255,7 +705,102 @@
      "ids": [
       "9984992e1309",
       "74f939e081ec"
-     ]
+     ],
+     "w": {
+      "short": "数据中心能源隐忧",
+      "key": "人工智能基础设施引发能源消耗与社区反弹隐忧",
+      "title": "人工智能板块抛售与监管：数据中心和能源消耗隐忧浮现",
+      "summary": "随着人工智能与数据中心建设热潮迎来反弹，大型科技公司的基础设施扩展面临严重的电力与基建压力。东南亚等地的东道国政府正承担相关资源挑战，而公众对能源和水资源消耗的反对声浪也日益高涨。",
+      "common": [
+       {
+        "t": "数据中心建设带来了显著的能源消耗与资源挑战。",
+        "src": [
+         "Modern Diplomacy",
+         "TechCrunch"
+        ]
+       },
+       {
+        "t": "大型科技公司的数据中心扩展正面临来自社区与政治层面的反对压力。",
+        "src": [
+         "Modern Diplomacy",
+         "TechCrunch"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "东南亚演变为芯片供应战场，东道国政府面临基建与电力成本考验。",
+        "src": "Modern Diplomacy"
+       },
+       {
+        "t": "记者巴黎·马克思指出数据中心反对潮是中期选举政治浪潮的动机之一。",
+        "src": "TechCrunch"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "TechCrunch"
+        ],
+        "t": "数据中心建设从根本上是不可持续的，且完全不符合宜居星球的要求。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Modern Diplomacy"
+        ],
+        "t": "海量投资涌入东南亚带动了数字经济，但也对本地资源配置提出了挑战。"
+       }
+      ],
+      "unknown": "目前尚不清楚未来各国政府将如何平衡人工智能发展与数据中心的庞大电力消耗。",
+      "impact": {
+       "my": "马来西亚近期积极推进数据中心枢纽建设，面临日益增长的电力与水资源供应压力。",
+       "sea": "东南亚区域正演变为激烈的芯片供应战场，东道国政府需应对相应的基建与电力成本考验。",
+       "world": "大型科技公司的人工智能基础设施扩展引发全球范围内的社区反弹与政治监管审视。"
+      },
+      "people": [
+       "Paris Marx"
+      ],
+      "photo": "data center cooling towers",
+      "per": [
+       {
+        "id": "9984992e1309",
+        "t": "东南亚数据中心热潮成芯片新战场，东道国政府买单",
+        "says": "随着东南亚迎来数据中心建设热潮，该区域正演变为激烈的芯片供应战场，东道国政府面临基建与电力成本考验。",
+        "same": [
+         "资源挑战",
+         "数据中心"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "74f939e081ec",
+        "t": "为什么数据中心成为大型科技公司反弹焦点",
+        "says": "记者巴黎·马克思探讨了生成式人工智能与数据中心的影响，指出计算基础设施已成为政治地雷和社区反对的目标。",
+        "same": [
+         "反对压力",
+         "能源消耗"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "edbd2124",
+     "v": 2,
+     "at": "2026-11-23T08:56:05.752Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Re-publica_23_-_Tag_2_%2852955995685%29.jpg/960px-Re-publica_23_-_Tag_2_%2852955995685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Anne Barth / re:publica · Wikimedia Commons · CC BY-SA 2.0",
+        "kind": "B",
+        "person": "Paris Marx"
+       }
+      ]
+     }
     }
    ],
    "minor": [],
@@ -3111,38 +1656,86 @@
      "source": "TechCrunch",
      "cat": "tech",
      "published": "2026-11-22T18:08:43.000Z"
+    },
+    "7eb4d0b032a7": {
+     "id": "7eb4d0b032a7",
+     "title": "US, European Stocks Slide As AI Selloff Rattles Global Markets",
+     "zh": "人工智能板块遭抛售，欧美股市随之滑落",
+     "short": "人工智能遭抛售，欧美股市滑落",
+     "url": "https://dmarketforces.com/us-european-stocks-slide-as-ai-selloff-rattles-global-markets/",
+     "source": "MarketForces Africa",
+     "cat": "finance",
+     "published": "2026-11-23T08:48:55.000Z",
+     "sum": "由于市场对人工智能板块的投资回报产生疑虑，引发相关股票遭到抛售。受此拖累，欧美主要股市纷纷滑落，全球金融市场出现波动。这显示出投资者对高估值的科技股转趋谨慎。"
+    },
+    "8884458ddcb3": {
+     "id": "8884458ddcb3",
+     "title": "US futures climb and Asian shares mostly decline as some tech stocks fall",
+     "zh": "科技股走低拖累亚洲股市多数下跌，美股期货上涨",
+     "short": "科技股拖累亚股下跌",
+     "url": "https://apnews.com/article/stocks-markets-rates-technology-ai-anthropic-49ba1beba78fa4ed2bd5898029f79c91",
+     "source": "AP News",
+     "cat": "finance",
+     "published": "2026-11-23T07:09:17.000Z",
+     "sum": "受部分大型科技股下跌影响，亚洲股市多数呈现跌势，而美国股指期货则逆势走高。市场在科技板块的波动下表现分化。"
+    },
+    "df66e724d6de": {
+     "id": "df66e724d6de",
+     "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO – report",
+     "zh": "报道称黄晓微与英伟达总裁恋情期间曾接触中国间谍机构",
+     "short": "英伟达总裁绯闻涉谍",
+     "url": "https://www.rappler.com/technology/alice-huang-contact-chinese-spy-agency-nvidia-ceo-affair/",
+     "source": "Rappler",
+     "cat": "tech",
+     "published": "2026-11-23T07:52:14.000Z",
+     "sum": "外媒报道称，Alice Huang在与英伟达总裁交往期间，曾于特定时间段内与中国国家安全部官员保持接触。这一事件可能引发对跨国科技公司高管背景与国家安全的审查。",
+     "img": {
+      "src": "https://www.rappler.com/tachyon/2026/11/jensen-huang-alice-huang-may-22-2025-reuters.jpg",
+      "credit": "Rappler",
+      "kind": "A"
+     }
+    },
+    "7632ee32cd73": {
+     "id": "7632ee32cd73",
+     "title": "YTL Power clears the air over Nvidia chips",
+     "zh": "杨忠礼电力澄清英伟达芯片相关传闻",
+     "short": "杨忠礼电力澄清传闻",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWDRoWG5IekR1S3BwT1FyZnFFX0IxWW5PVUZ5Q2d5QWt5OTJNeEVwU1ZkbHFkX2pvdDRxQmVENjlfV1VuYzNGWkxYODR1djNmMHV0enpsX1FpWnJQU2VLLXZ4NjRDck1ZMnpBLURYUllEZENkMHpxRE51NkxXV04zTVlrYnRGcjVwOThtd3RYbXViYjhBcGNNQml2S0dGQWhfV2JCTGpR?oc=5",
+     "source": "The Star",
+     "cat": "finance",
+     "published": "2026-11-22T23:43:59.000Z"
     }
    },
    "name": "人工智能板块抛售与监管",
    "en": "artificial intelligence stock selloff",
-   "wiki": "Artificial intelligence boom",
-   "cat": "tech",
-   "last": "2026-11-23T00:12:38.004Z",
+   "wiki": "Artificial intelligence bubble",
+   "cat": "finance",
+   "last": "2026-11-23T08:54:47.155Z",
    "hidden": false,
    "short": "人工智能板块抛售与监管",
-   "key": "人工智能板块遭抛售，巨头上市未消弭泡沫担忧",
-   "overview": "受人工智能板块抛售潮与高估值担忧影响，美股及全球股市大幅下挫。Anthropic上市虽创下巨额筹资纪录但股价回落，未能扭转市场悲观情绪。同时，英伟达面临美国证券交易委员会与加州总检察长调查，特朗普威胁对海外数据中心征收关税，加剧了市场对行业盈利能力与基建压力的忧虑。",
+   "key": "人工智能板块遭抛售与监管加码引发全球股市重挫",
+   "overview": "受人工智能板块抛售潮加剧、Anthropic上市表现不佳及英伟达面临调查影响，全球股市显著下挫，同时数据中心建设与基建压力引发广泛关注。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "科技股大跌受人工智能板块抛售影响，而Anthropic上市未能稳住市场情绪。"
-    },
-    {
-     "from": "3700168d-2",
-     "to": "3700168d-1",
-     "t": "Anthropic上市后股价重挫，引发标普与纳斯达克等美股期货下跌。"
+     "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮，导致全球股市遭遇重挫。"
     },
     {
      "from": "3700168d-1",
      "to": "3700168d-3",
-     "t": "对人工智能盈利的担忧与英伟达等芯片股面临的调查共同拖累了全球科技股市场。"
+     "t": "由于部分大型科技股下跌及英伟达相关调查影响，全球科技板块情绪承压。"
     },
     {
-     "from": "3700168d-3",
-     "to": "3700168d-5",
-     "t": "美国收紧对华芯片出口限制并涉及海外数据中心，引发马来西亚等地对数据中心合规与基建的关注。"
+     "from": "3700168d-2",
+     "to": "3700168d-1",
+     "t": "Anthropic上市表现未能稳住人工智能交易，导致标普和纳斯达克等美股期货下跌。"
+    },
+    {
+     "from": "3700168d-4",
+     "to": "3700168d-1",
+     "t": "由于人工智能投资前景担忧及借贷成本攀升，全球股市与加密货币走低。"
     }
    ],
    "img": {
@@ -3152,15 +1745,1760 @@
    },
    "heat": {
     "score": 5,
-    "sources": 33,
-    "stories": 72,
-    "gdelt": null,
-    "wiki": {
-     "title": "Artificial intelligence boom",
-     "views": 1,
-     "ratio": 0.3
+    "sources": 36,
+    "stories": 76,
+    "gdelt": {
+     "ratio": 0.9,
+     "share": 0.0237
     },
-    "at": "2026-11-23T00:18:13.517Z"
+    "wiki": {
+     "title": "Artificial intelligence bubble",
+     "views": 1,
+     "ratio": 1
+    },
+    "at": "2026-11-23T08:58:40.627Z"
+   }
+  },
+  {
+   "id": "dadddd9d",
+   "first": "2026-11-23T08:54:47.155Z",
+   "lines": [
+    {
+     "id": "dadddd9d-1",
+     "t": "众议院获得多数优势",
+     "ids": [
+      "e6407a78a6d6",
+      "531490dab1ef",
+      "9387b1d7d883",
+      "109f006a5b07"
+     ],
+     "w": {
+      "short": "民主党中期选举大胜",
+      "key": "民主党在众议院获得258席，创下1992年以来最大多数优势。",
+      "title": "民主党美国中期选举大胜：众议院夺258席创多年新高",
+      "summary": "美国中期选举中民主党取得大胜，在众议院拿下258个席位，创下1992年以来的最大多数优势。这场压倒性的胜利让民主党全面掌控参众两院，并有能力阻挠总统唐纳德·特朗普的政策议程。选民对生活成本、关税以及对伊朗战争的不满，被视为导致共和党惨败的主因。",
+      "common": [
+       {
+        "t": "民主党在众议院赢得258席",
+        "src": [
+         "bernama",
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "创下1992年以来的最高多数优势",
+        "src": [
+         "bernama",
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "北卡罗来纳州席位经重新点票后由民主党胜出",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "部分人称参议院需新领袖",
+        "src": "Reuters"
+       },
+       {
+        "t": "仍有四个众议院议席尚未尘埃落定",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚有数个众议院席位仍在统计中，最终总席位仍有微调可能。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "美国国会两院变天及民主党掌控多数，将直接牵动美国未来两年的内外政策走向与对伊朗等国的地缘政治布局。"
+      },
+      "people": [
+       "Chuck Hubbard",
+       "Virginia Foxx"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "531490dab1ef",
+        "t": "民主党获得258席，创1992年以来众议院多数优势",
+        "says": "民主党获得258席，创下1992年以来的众议院多数优势。",
+        "same": [
+         "获得258席",
+         "1992年以来"
+        ],
+        "view": null
+       },
+       {
+        "id": "9387b1d7d883",
+        "t": "舒默率民主党大胜参议院，部分人称需新领袖",
+        "says": "舒默率领民主党在参议院取得大胜，但部分意见认为需要新领袖。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "e6407a78a6d6",
+        "t": "民主党赢得1992年以来美国众议院最大多数席位",
+        "says": "民主党在国会中期选举中赢得258席，创下1992年以来最大多数优势，并获得众参两院全面控制权。",
+        "same": [
+         "赢得258席",
+         "1992年以来"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "109f006a5b07",
+        "t": "民主党赢得北卡罗来纳州席位，创下多数优势",
+        "says": "民主党拿下第258个众议院席位，创下多年来最高纪录，选举结果反映了选民对生活成本及战争的不满。",
+        "same": [
+         "赢得258席",
+         "1992年以来"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "1f676d15",
+     "v": 2,
+     "at": "2026-11-23T08:55:53.960Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8165b534-0724-4565-b20c-bef07d9f9b56-Hakeem-Jeffries-EPA.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "e6407a78a6d6": {
+     "id": "e6407a78a6d6",
+     "title": "Democrats win largest US House majority since 1992",
+     "zh": "民主党赢得1992年以来美国众议院最大多数席位",
+     "short": "民主党大胜美国众议院",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/democrats-win-largest-us-house-majority-since-1992",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-23T07:51:16.000Z",
+     "sum": "美国国会众议院补选中，民主党候选人击败共和党对手，获得关键席位。这使民主党在众议院握有自1992年以来的最大多数优势，对未来的立法走向产生深远影响。"
+    },
+    "531490dab1ef": {
+     "id": "531490dab1ef",
+     "title": "Democrats Secure Largest US House Majority Since 1992 With 258 Seats",
+     "zh": "民主党获得258席，创1992年以来众议院多数优势",
+     "short": "民主党扩大众院优势",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzbFkzQU9nQ1FnbGVOUEphY1VYQ3I3M1BtRS0ydVk3YjRrNG9RN1paMkl3Sy1EU29YbVRvZnd3QmFwbEh3NGhvRFEzR2VacGZ5NEx1a3Nob2xvdjJYdUJwenRsTHo?oc=5",
+     "source": "bernama",
+     "cat": "world",
+     "published": "2026-11-23T07:18:01.000Z"
+    },
+    "9387b1d7d883": {
+     "id": "9387b1d7d883",
+     "title": "Schumer led Democrats to big Senate win. Now, some say they need a new leader",
+     "zh": "舒默率民主党大胜参议院，部分人称需新领袖",
+     "short": "美民主党参院胜选",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTERSMk14WEFYekl4TFNXSVNPMW0xMUFveUdlRG9aNlE3TWtJNWxoUE5HWG95ZUZGdEE2WTBodGwxUVRiTF9XUnBidDlJcDMzdUhMOTVKV2lrRS0wVGZzUW9RcHNVdURKVmVZYVA4REZ6TzZjTGRBN0xNMjZqZHRDNFhOdmp5V2Z5X3N5dzJpVzFwZ2NDbDZCQXdqZ1FVRllsbUdRSHRudkFBMEhRWFdBdjFRUDA4UQ?oc=5",
+     "source": "Reuters",
+     "cat": "world",
+     "published": "2026-11-22T17:05:41.000Z"
+    },
+    "109f006a5b07": {
+     "id": "109f006a5b07",
+     "title": "Democrats win largest House majority since 1992 with North Carolina seat",
+     "zh": "民主党赢得北卡罗来纳州席位，创下多数优势",
+     "short": "民主党扩大众院优势",
+     "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T22:19:47.000Z"
+    }
+   },
+   "name": "美国民主党中期选举大胜",
+   "en": "Democratic Party US midterm elections house",
+   "wiki": "2026 United States elections",
+   "cat": "world",
+   "last": "2026-11-23T08:54:47.155Z",
+   "hidden": false,
+   "short": "民主党中期选举大胜",
+   "key": "民主党大胜掌控参众两院",
+   "overview": "美国中期选举中民主党取得压倒性胜利，在众议院拿下258个席位创下1992年以来最大多数优势，全面掌控参众两院并有能力阻挠特朗普政策议程。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8165b534-0724-4565-b20c-bef07d9f9b56-Hakeem-Jeffries-EPA.jpg",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   }
+  },
+  {
+   "id": "6e6b7acb",
+   "first": "2026-11-21T22:12:19.702Z",
+   "lines": [
+    {
+     "id": "6e6b7acb-1",
+     "t": "化石燃料与草案争议",
+     "ids": [
+      "a3764b25182c",
+      "b7be9e2e4afd",
+      "c3012d485eca",
+      "6b56be4bc539",
+      "89090d2f3063",
+      "4e24f14be340",
+      "688095944714",
+      "cf86cc1e39a1",
+      "9167ab9ea179",
+      "eadc5b447bb3",
+      "e0aab1d66fdb",
+      "ed7322a5b6c5",
+      "919da9bce35e",
+      "83c8a30ff39a",
+      "d6ff3bc231a8"
+     ],
+     "w": {
+      "short": "COP31草案剔除化石燃料陷僵局",
+      "key": "第31届联合国气候大会因化石燃料议题陷入僵局，草案删除相关内容引发强烈不满。",
+      "title": "第31届联合国气候大会陷入僵局：草案删除化石燃料引发各方激烈争端",
+      "summary": "第31届联合国气候变化大会进入加时阶段，由于最新协议草案剔除了所有关于化石燃料的内容，引发欧盟及多个国家的不满与抗争。以沙特阿拉伯为首的化石燃料生产国推动了相关内容的移除，而反对阵营则警告若协议缺乏实质内容将拒绝接受。本次峰会同时面临政治领导力有限、地缘政治紧张以及未能达成全球温升控制目标等多重挑战。",
+      "common": [
+       {
+        "t": "第31届联合国气候大会因化石燃料议题陷入加时与僵局",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "最新协议草案删除了所有关于化石燃料的内容",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "草案剔除化石燃料的做法引发了欧盟及多个国家的强烈不满",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "大会可能首次承认全球温升低于1.5度的目标已经错失，地球正进入超调期",
+        "src": "BBC World"
+       },
+       {
+        "t": "非洲国家在大会上喊话表示他们不是来乞讨的",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC World"
+        ],
+        "t": "澳大利亚气候变化和能源部长克里斯·鲍文认为，本次峰会应当关注清洁能源的转型与实际执行，而非必须在协议中包含化石燃料的字眼。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "法国生态转型部长莫妮克·巴布特指出，不能把碳捕获与储存技术作为各国继续燃烧石油和天然气的许可证。"
+       }
+      ],
+      "unknown": null,
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "全球气候大会因化石燃料去留争议陷入僵局，直接影响未来全球减排承诺与应对极端天气的实际行动。"
+      },
+      "people": [
+       "Juan Carlos Navarro",
+       "Monique Barbut",
+       "Chris Bowen",
+       "Donald Trump",
+       "Xi Jinping",
+       "Vladimir Putin",
+       "Murat Kurum",
+       "Wopke Hoekstra",
+       "Maina Talia",
+       "Darragh O'Brien"
+      ],
+      "photo": "climate change conference protest",
+      "per": [
+       {
+        "id": "a3764b25182c",
+        "t": "联合国气候变化大会成史上最糟糕一届？",
+        "says": "由于政治领导力有限等原因，舆论对本次大会的有效性提出质疑并讨论其是否为最糟糕的一届。",
+        "same": [
+         "气候大会有效性受质疑"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7be9e2e4afd",
+        "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+        "says": "大会进入加时阶段，修订后的草案删除了化石燃料内容，引发欧盟等十多个国家不满。",
+        "same": [
+         "化石燃料",
+         "草案剔除化石燃料",
+         "引发不满"
+        ],
+        "view": null
+       },
+       {
+        "id": "c3012d485eca",
+        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+        "says": "谈判因对早期草案的批评而超时，欧盟警告若提案缺乏实质内容峰会将沦为化石燃料峰会。",
+        "same": [
+         "谈判超时"
+        ],
+        "view": null
+       },
+       {
+        "id": "6b56be4bc539",
+        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+        "says": "在沙特阿拉伯等化石燃料生产国推动移除相关内容后，多国正争取将摆脱化石燃料的承诺重新加入协议。",
+        "same": [
+         "化石燃料分歧",
+         "陷入僵局"
+        ],
+        "view": null
+       },
+       {
+        "id": "89090d2f3063",
+        "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
+        "says": "COP31在围绕化石燃料的争议中进入加班状态，多国批评最新草案删除了相关表述。",
+        "same": [
+         "进入加班状态",
+         "草案删除化石燃料"
+        ],
+        "view": null
+       },
+       {
+        "id": "4e24f14be340",
+        "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+        "says": "化石燃料谈判陷入僵局导致气候峰会延时进行。",
+        "same": [
+         "化石燃料谈判僵局",
+         "峰会延时"
+        ],
+        "view": null
+       },
+       {
+        "id": "688095944714",
+        "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+        "says": "非洲国家在联合国气候变化大会上发出呼吁。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "cf86cc1e39a1",
+        "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+        "says": "由于对化石燃料的争端，全球气候谈判进入第二天的加时赛，草案剔除煤炭、石油和天然气引发抗议。",
+        "same": [
+         "化石燃料分歧",
+         "草案剔除化石燃料"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "bf89567b",
+     "v": 2,
+     "at": "2026-11-23T08:55:41.334Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "a3764b25182c": {
+     "id": "a3764b25182c",
+     "title": "'Worst Ever' COP Summit?",
+     "zh": "联合国气候变化大会成史上最糟糕一届？",
+     "short": "气候大会遭质疑",
+     "url": "https://www.france24.com/en/tv-shows/spotlight/20261121-worst-ever-cop-summit",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T20:08:48.000Z",
+     "sum": "由于政治领导力有限、缺乏美国官方代表团以及官僚延误带来的挫败感，舆论对本次联合国气候变化大会的有效性提出了质疑。各方正在讨论这是否是有史以来最糟糕的一届气候峰会。"
+    },
+    "b7be9e2e4afd": {
+     "id": "b7be9e2e4afd",
+     "title": "COP31: Deep divisions persist over energy, finance and science",
+     "zh": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
+     "short": "联合国气候大会陷入僵局",
+     "url": "https://www.france24.com/en/cop31-deep-divisions-persist-over-energy-finance-and-science",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T17:26:47.000Z",
+     "sum": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方在化石燃料、气候融资和减排目标上分歧严重。修订后的草案删除了所有关于化石燃料的内容，引发欧盟及十多个国家的强烈不满。"
+    },
+    "c3012d485eca": {
+     "id": "c3012d485eca",
+     "title": "Countries race to secure Cop31 deal",
+     "zh": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+     "short": "各国力争达成气候协议",
+     "url": "https://www.france24.com/en/countries-race-to-secure-cop31-deal",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T15:52:00.000Z",
+     "sum": "《联合国气候变化框架公约》第三十一届缔约方会议的气候谈判因对早期草案的批评而超时，各国正加紧磋商以敲定新的全球气候协议。欧盟警告称，若现有提案缺乏实质内容，峰会可能沦为化石燃料峰会。"
+    },
+    "6b56be4bc539": {
+     "id": "6b56be4bc539",
+     "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+     "zh": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+     "short": "气候峰会因化石燃料陷僵局",
+     "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T07:31:05.000Z",
+     "sum": "近200个国家的代表在第31届联合国气候变化大会谈判中陷入僵局。各国在化石燃料削减等关键条款上分歧严重，导致新的全球气候协议难以敲定。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "89090d2f3063": {
+     "id": "89090d2f3063",
+     "title": "COP31 deal stalls as nations struggle to agree on climate plan",
+     "zh": "各国难就气候计划达成一致，COP31协议陷入僵局",
+     "short": "气候协议陷入僵局",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T01:44:09.000Z"
+    },
+    "4e24f14be340": {
+     "id": "4e24f14be340",
+     "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+     "zh": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
+     "short": "气候峰会因化石燃料延时",
+     "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T23:06:41.000Z"
+    },
+    "688095944714": {
+     "id": "688095944714",
+     "title": "‘We didn’t come here to beg’: Africa’s message at COP31",
+     "zh": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
+     "short": "非洲国家诉求气候公正",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/we-didnt-come-here-to-beg-africas-message-at-cop31?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:55:16.000Z"
+    },
+    "cf86cc1e39a1": {
+     "id": "cf86cc1e39a1",
+     "title": "Fossil fuel dispute threatens to scupper climate deal",
+     "zh": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
+     "short": "化石燃料分歧危及谈判",
+     "url": "https://www.nst.com.my/amp/business/economy/2026/11/1583019/fossil-fuel-dispute-threatens-scupper-climate-deal",
+     "source": "NST Online",
+     "cat": "world",
+     "published": "2026-11-22T01:16:36.000Z",
+     "sum": "围绕化石燃料退出的核心争议正在加剧，各方在减排路线上的严重分歧可能导致国际气候协议谈判破裂。与会代表在过渡期及能源使用限制上仍未达成一致共识。"
+    },
+    "9167ab9ea179": {
+     "id": "9167ab9ea179",
+     "title": "COP31 climate talks close to final deal",
+     "zh": "联合国气候变化大会COP31接近达成最终协议",
+     "short": "气候大会接近协议",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa2FaTnMxeHpPSzF3d2RROXhyckZCOFFXWmJKbUgzZmIzT3hIdlROZVBTMldPZXlMT0QtcXQ0NkVkaHZDVTFoU3UwZmJZWHlTWW1pa29yemp2WTJXV2pWVzJRdnpoNFBhSVUwdS1oWnZ3VUk4ZXhoSEY5UDZMRzAwVFBn?oc=5",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T02:16:36.000Z"
+    },
+    "ed7322a5b6c5": {
+     "id": "ed7322a5b6c5",
+     "title": "COP31 draft agreement stresses electrification of global economy",
+     "zh": "联合国气候峰会草案强调全球经济电气化",
+     "short": "气候峰会强调电气化",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU9SYW5xSUZyTkNlUmhDTWs4VkdGZndFYTZPWUc3MVltaWlqNFZsSklPUDBLOERtQXBkU2tmdW9aZlR0VmJvMF9mLUxHaWFQTHlSVzltVEJ3SmV0MzFkY0h1M3hQcnE1UjMxemZkVEdPRnR0bEtkc0hZN203VVRSYTQtWF8tRkdvSEFBZHRYNnZmNEJPa0lmSmJ2a2lYUnBvajEw?oc=5",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T09:30:17.000Z"
+    },
+    "eadc5b447bb3": {
+     "id": "eadc5b447bb3",
+     "title": "UN climate talks collapse without a deal",
+     "zh": "联合国气候谈判破裂未达成协议",
+     "short": "联合国气候大会破裂",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T18:04:25.000Z",
+     "sum": "联合国历史最长的一次气候峰会在土耳其结束，但未能达成任何最终协议。这是自2009年以来，气候谈判首次以无协议告终。"
+    },
+    "e0aab1d66fdb": {
+     "id": "e0aab1d66fdb",
+     "title": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
+     "zh": "气候大会因产油国反对未达成协议遭批令人失望",
+     "short": "气候大会无果而终",
+     "url": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T16:33:26.000Z",
+     "sum": "联合国气候变化大会在经历激烈讨论后结束，但未能达成实质性协议。由于部分产油国坚决反对在最终文本中纳入淘汰化石燃料的明确措辞，各方分歧难以弥合。许多代表对此结果表示极度失望，认为文本力度过于软弱，无法有效应对全球气候危机。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b031379-1795363705.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "919da9bce35e": {
+     "id": "919da9bce35e",
+     "title": "Climate talks in Turkey collapse over fossil fuel divisions",
+     "zh": "因化石燃料分歧，土耳其气候大会谈判破裂",
+     "short": "气候峰会谈判破裂",
+     "url": "https://www.zaobao.com.sg/en/news/singapore/climate-talks-turkey-collapse-over-fossil-fuel-divisions",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T23:22:08.000Z",
+     "sum": "由于各方在化石燃料的淘汰和使用问题上存在严重分歧，于土耳其举行的气候谈判最终宣告破裂。这也凸显了全球各国在绿色转型和能源政策上的巨大利益博弈。气候治理进程再次遭遇挫折。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/b3c0d5491f75a5b65573692579b973fb159136e0a6d1a023e88d6571d00c3acf",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "83c8a30ff39a": {
+     "id": "83c8a30ff39a",
+     "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
+     "zh": "澳大利亚政坛：气候峰会未能达成协议致分歧难解",
+     "short": "气候峰会分歧难解",
+     "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
+     "source": "The Guardian World",
+     "cat": "world",
+     "published": "2026-11-22T23:51:38.000Z"
+    },
+    "d6ff3bc231a8": {
+     "id": "d6ff3bc231a8",
+     "title": "COP31氣候談判破裂，各國為何未能達成共識？",
+     "zh": "联合国气候大会核心协议难产，谈判破裂",
+     "short": "气候大会谈判破裂，未达成共识",
+     "url": "https://www.bbc.com/zhongwen/articles/cmx2xj9d16wlo/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "world",
+     "published": "2026-11-23T08:47:39.000Z",
+     "sum": "联合国气候大会在历经延长谈判后，最终仍未能就核心协议达成共识。各成员国在关键议题上分歧严重，导致谈判宣告破裂。这反映出全球在推行共同气候政策上面临巨大挑战。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/ca56/live/189ec910-e708-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
+    }
+   },
+   "name": "第31届联合国气候大会",
+   "en": "COP31 climate summit fossil fuels",
+   "wiki": "2026 United Nations Climate Change Conference",
+   "cat": "world",
+   "last": "2026-11-23T08:54:47.154Z",
+   "hidden": false,
+   "heat": {
+    "score": 4,
+    "sources": 7,
+    "stories": 15,
+    "gdelt": {
+     "ratio": 12.3,
+     "share": 0.579
+    },
+    "wiki": {
+     "title": "2026 United Nations Climate Change Conference",
+     "views": 1444,
+     "ratio": 1.5
+    },
+    "at": "2026-11-23T08:58:03.703Z"
+   },
+   "short": "COP31气候大会加时",
+   "key": "草案剔除化石燃料引发争议",
+   "overview": "第31届联合国气候变化大会进入加时阶段，因最新协议草案剔除了所有化石燃料内容，遭到欧盟及多国强烈不满与抗争，谈判陷入僵局。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+    "credit": "BBC World",
+    "kind": "A"
+   }
+  },
+  {
+   "id": "493f4a17",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "493f4a17-1",
+     "t": "APEC峰会中美互动与普京角色",
+     "ids": [
+      "cd30e168a012",
+      "c8a6f004d720",
+      "0ec39da12e53",
+      "09df6df0da50",
+      "01a3193d29ee",
+      "1c361a8b39a7",
+      "dcb0cd1db1e0",
+      "03aaf90f76e4",
+      "51f9c2eaca46",
+      "b8fdbe6aa1fc",
+      "eee3df9e9738",
+      "cef4b62147ef",
+      "0a224ee81be0",
+      "944462cb3f32",
+      "8bcd706bdf2a",
+      "18e233591a30"
+     ],
+     "w": {
+      "short": "中美俄三方峰会",
+      "key": "中美俄领导人举行历史性三边峰会但被指实质成果有限",
+      "title": "中美俄历史性三方峰会举行，多国领袖聚焦区域与全球外交",
+      "summary": "中国、美国和俄罗斯领导人在亚太经合组织峰会期间举行了历史性的三边峰会，引发全球高度关注。与此同时，各国领导人也在多边与双边场合就经贸、区域安全及未来合作展开密集讨论。",
+      "common": [
+       {
+        "t": "中美俄领导人举行了历史性三边峰会",
+        "src": [
+         "CNA Asia",
+         "The Straits Times",
+         "Free Malaysia Today",
+         "BBC 中文"
+        ]
+       },
+       {
+        "t": "三方峰会发表了联合宣言或公报",
+        "src": [
+         "CNA Asia",
+         "BBC 中文"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "三方峰会进行了为期90分钟的闭门会谈",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "美国总统特朗普在亚洲之行中对普京和习近平表现亲密并称普京为朋友",
+        "src": "BBC 中文"
+       },
+       {
+        "t": "中国指出日本必须纠正涉台错误言论并改变对华态度",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "CNA Asia"
+        ],
+        "t": "三方峰会是中国的重大外交胜利，提升了中国作为能将对手聚在一起的大国形象。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC 中文"
+        ],
+        "t": "峰会象征意义大于实际政策突破，场面大于实质成果，且特朗普对普京的亲密态度引发国内两党议员批评。"
+       }
+      ],
+      "unknown": "目前尚不清楚三方峰会后续的具体落实时间表、具体执行机制及下一次会晤的计划。",
+      "impact": {
+       "my": "大马首相安华在会上与中国领导人讨论了霹雳河输水至槟城、人工智能及稀土等多元合作，进一步深化双边关系。",
+       "sea": "东盟与中国领导人致力于加强区域和平稳定、深化经济贸易及探讨人工智能等新兴科技合作。",
+       "world": "中美俄三大国的高层互动与全球地缘政治走向牵动国际市场及中小国家的战略安全布局。"
+      },
+      "people": [
+       "Xi Jinping",
+       "Donald Trump"
+      ],
+      "photo": "trilateral summit",
+      "per": [
+       {
+        "id": "cd30e168a012",
+        "t": "历史性习特普三边峰会对全球外交的信号",
+        "says": "中、美、普京三方举行历史性三边峰会并达成联合宣言，但分析认为将其转化为实质行动将十分艰难。",
+        "same": [
+         "历史性三边峰会",
+         "联合宣言"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c8a6f004d720",
+        "t": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
+        "says": "中美两国元首在APEC期间短暂缓和，但美方新限制及华盛顿政治动态正对双边关系构成全新考验。",
+        "same": [
+         "APEC峰会"
+        ],
+        "view": null
+       },
+       {
+        "id": "0ec39da12e53",
+        "t": "黄循财会见李强，双边将达成逾20项协议",
+        "says": "新加坡总理黄循财与中国领导人会晤，双方预期将在JCBC达成逾20项涵盖多领域的协议与倡议。",
+        "same": [
+         "双边合作"
+        ],
+        "view": null
+       },
+       {
+        "id": "09df6df0da50",
+        "t": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
+        "says": "美中俄领导人峰会可能带来全球格局根本性转变，中小国家或面临压力建立安全同盟。",
+        "same": [
+         "美中俄领导人峰会"
+        ],
+        "view": null
+       },
+       {
+        "id": "01a3193d29ee",
+        "t": "中国称日本必须改变态度，此前习近平冷落高市",
+        "says": "中国表示日本必须在台湾问题上纠正错误言论，此前习近平在区域会议上冷落了日本首相高市早苗。",
+        "same": [
+         "深圳"
+        ],
+        "view": null
+       },
+       {
+        "id": "1c361a8b39a7",
+        "t": "印尼普拉博沃与中国习近平讨论未来南海合作",
+        "says": "印尼总统普拉博沃与中国国家主席习近平会晤，讨论经济伙伴关系及南海联合开发进展。",
+        "same": [
+         "南海合作"
+        ],
+        "view": null
+       },
+       {
+        "id": "dcb0cd1db1e0",
+        "t": "安华与中国国家主席习近平讨论多领域合作",
+        "says": "马来西亚首相安华与习近平会晤，讨论了霹雳河水供槟城项目、人工智能及稀土等跨领域合作。",
+        "same": [
+         "习近平会晤"
+        ],
+        "view": null
+       },
+       {
+        "id": "03aaf90f76e4",
+        "t": "中俄美三方峰会“场面大于实质成果”",
+        "says": "美中俄三方举行峰会但外界普遍认为象征意义大于实际突破，且特朗普对普京表现亲密引发争议。",
+        "same": [
+         "三方峰会",
+         "联合公报"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "b2b95c85",
+     "at": "2026-11-22T04:06:03.022Z",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--Oslzadnf--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/trump_xi_putin_2.jpg?itok=bba0M6VR",
+      "credit": "CNA Asia",
+      "kind": "A"
+     },
+     "v": 2
+    },
+    {
+     "id": "493f4a17-2",
+     "t": "黄循财谈及对中国投资与合作立场",
+     "ids": [
+      "3e11c67b2837",
+      "c073df4bb7ca",
+      "2b1c270f952c",
+      "391f570c75a2"
+     ],
+     "w": {
+      "short": "黄循财访华谈合作与投资",
+      "key": "黄循财访华强调欢迎真诚投资并深化新中双边合作。",
+      "title": "新加坡总理黄循财访华：欢迎中国真诚投资，新中深化多领域合作",
+      "summary": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨了深化经贸、自贸协定升级及多领域合作。黄循财表示新加坡欢迎中国企业的真诚投资，但也强调必须防范滥用新加坡信誉规避美国出口管制的行为。",
+      "common": [
+       {
+        "t": "黄循财与李强在北京举行双边会谈。",
+        "src": [
+         "联合早报",
+         "Malay Mail"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "黄循财指出新加坡欢迎中国真诚投资，但对滥用信誉规避美国出口管制的行为表示关切。",
+        "src": "The Straits Times"
+       },
+       {
+        "t": "李强表示中国愿与新加坡加速自贸协定4.0升级谈判。",
+        "src": "Malay Mail"
+       },
+       {
+        "t": "黄循财提到新中双边合作委员会即将召开，预计将取得超过20项合作成果。",
+        "src": "联合早报"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": null,
+       "sea": "中国支持新加坡担任明年东南亚国家联盟轮值主席国，推动区域经济一体化。",
+       "world": "在复杂多变的全球环境中，新中两国强调维护多边贸易体系与开放型世界经济。"
+      },
+      "people": [
+       "Lawrence Wong",
+       "Li Qiang"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "3e11c67b2837",
+        "t": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
+        "says": "中国企业投资新加坡带来实际效益，但政府关注滥用新加坡信誉规避美国出口管制的现象。",
+        "same": [
+         "真诚投资",
+         "规避管制"
+        ],
+        "view": null
+       },
+       {
+        "id": "c073df4bb7ca",
+        "t": "新加坡总理黄循财在北京会见中国国务院总理李强",
+        "says": "黄循财在北京与李强举行双边会谈，指出新中双边合作委员会将带来多项合作成果。",
+        "same": [
+         "会见李强",
+         "双边会谈"
+        ],
+        "view": null
+       },
+       {
+        "id": "2b1c270f952c",
+        "t": "黄循财会见李强，新中同意加速自贸协定升级谈判",
+        "says": "李强表示中国愿与新加坡加速自贸协定升级谈判，并在多个领域深化务实合作。",
+        "same": [
+         "会见李强",
+         "自贸协定"
+        ],
+        "view": null
+       },
+       {
+        "id": "391f570c75a2",
+        "t": "黄循财：新加坡在多极世界中通过价值创造立足",
+        "says": "黄循财强调新加坡在多极世界中的立足之道。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "77a7f420",
+     "v": 2,
+     "at": "2026-11-23T00:15:48.972Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "493f4a17-3",
+     "t": "正式签署与关税削减",
+     "ids": [
+      "396def59db66",
+      "ae393107aeab",
+      "a1b6e93c1720",
+      "8b72da353144",
+      "103d116583ed",
+      "2d84193be60f",
+      "5648849fe01f"
+     ],
+     "w": {
+      "short": "欧印签署自贸协定",
+      "key": "欧盟与印尼正式签署自由贸易与投资保护协定",
+      "title": "欧盟与印尼历经多年谈判正式签署全面经济伙伴关系协定",
+      "summary": "欧盟与印度尼西亚在比利时布鲁塞尔总部正式签署了《全面经济伙伴关系协定》及投资保护协定，旨在深化经贸合作、开放市场并确保关键供应链安全。历经十年谈判达成的该协议预计于2027年正式实施，将逐步取消绝大多数进出口关税。此举标志着双方经贸关系迈入新阶段，有助于欧盟实现贸易伙伴多元化。",
+      "common": [
+       {
+        "t": "欧盟与印尼正式签署全面经贸协定",
+        "src": [
+         "BigGo Finance",
+         "INSIGHT EU MONITORING",
+         "DW",
+         "The Jakarta Post",
+         "cwibc.co.id",
+         "NST Online",
+         "KONTAN"
+        ]
+       },
+       {
+        "t": "双方历经近十年艰难谈判后达成协议",
+        "src": [
+         "DW",
+         "KONTAN"
+        ]
+       },
+       {
+        "t": "协议预计将于2027年正式实施生效",
+        "src": [
+         "DW",
+         "NST Online",
+         "KONTAN"
+        ]
+       },
+       {
+        "t": "逐步取消超过90%产品的进口关税",
+        "src": [
+         "BigGo Finance",
+         "KONTAN"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "协议涵盖电动汽车、电子产品和医药等战略行业的投资吸引",
+        "src": "DW"
+       },
+       {
+        "t": "棕榈油与森林砍伐问题曾是谈判的主要绊脚石",
+        "src": "DW"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "DW"
+        ],
+        "t": "欧盟认为此举是在别人关门时保持大门敞开，并在美中贸易变得困难时减少对单一经济伙伴的依赖。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "KONTAN"
+        ],
+        "t": "分析指出此举旨在协助欧盟实现贸易伙伴多元化，并以此对冲美国关税政策带来的负面冲击。"
+       }
+      ],
+      "unknown": null,
+      "impact": {
+       "my": null,
+       "sea": "东南亚最大经济体印尼与欧盟正式签署自贸协定，建立起涵盖7.3万人口的自贸区，深化了欧洲与东南亚的经贸布局。",
+       "world": "欧盟通过与印尼签署雄心勃勃的自贸协定，进一步推动贸易伙伴多元化并确保关键供应链安全。"
+      },
+      "people": [
+       "Ursula von der Leyen",
+       "Prabowo Subianto"
+      ],
+      "photo": "signing ceremony business agreement",
+      "per": [
+       {
+        "id": "396def59db66",
+        "t": "欧盟与印尼签署自贸协定取消90%关税",
+        "says": "欧盟与印尼在布鲁塞尔总部签署全面经济伙伴关系协定与投资保护协定，将取消90%以上进出口商品的关税。",
+        "same": [
+         "取消关税"
+        ],
+        "view": null
+       },
+       {
+        "id": "ae393107aeab",
+        "t": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
+        "says": "双方正式签署贸易协议以开放彼此市场并确保关键供应链安全，标志着深化经贸合作的重要一步。",
+        "same": [
+         "签署贸易协议"
+        ],
+        "view": null
+       },
+       {
+        "id": "a1b6e93c1720",
+        "t": "欧盟与印尼正式签署自由贸易协定",
+        "says": "历经近10年谈判后签署自贸协定，代表市场规模达7.3亿人，旨在减少贸易壁垒并吸引战略行业投资。",
+        "same": [
+         "十年谈判"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "8b72da353144",
+        "t": "印尼欧盟全面经济伙伴关系协定迈入新时代",
+        "says": "印尼与欧盟的全面经济伙伴关系协定迈入新时代。",
+        "same": [
+         "经贸协定"
+        ],
+        "view": null
+       },
+       {
+        "id": "103d116583ed",
+        "t": "欧盟与印尼签署历史性贸易与投资协定",
+        "says": "正式签署历史性协定以深化经济联系并扩大市场准入，反映欧盟加强与东南亚主要经济体经贸布局。",
+        "same": [
+         "签署协定"
+        ],
+        "view": null
+       },
+       {
+        "id": "2d84193be60f",
+        "t": "欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
+        "says": "欧盟与印尼签署了雄心勃勃的贸易协定，计划于2027年实施。",
+        "same": [
+         "2027年实施"
+        ],
+        "view": null
+       },
+       {
+        "id": "5648849fe01f",
+        "t": "KONTAN",
+        "says": "经过十年艰难谈判正式签署双边贸易协定，预计2027年初生效，用以实现贸易多元化并对冲美国关税冲击。",
+        "same": [
+         "2027年实施"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "0b23e6b3",
+     "v": 2,
+     "at": "2026-11-23T00:15:23.412Z",
+     "img": {
+      "src": "https://static.dw.com/image/57193875_6.jpg",
+      "credit": "DW",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "493f4a17-4",
+     "t": "欧盟与英国达成脱欧后重建关系协议",
+     "ids": [
+      "7c408c6ff522",
+      "0cfb735f2465",
+      "4cf56d1e0614",
+      "d78d2117a5c1"
+     ],
+     "w": {
+      "short": "欧英达成脱欧重建协议",
+      "key": "欧盟与英国在峰会后达成多项脱欧后重建关系协议",
+      "title": "欧盟与英国达成历史性协议以深化脱欧后关系",
+      "summary": "欧盟高级官员与英国首相安迪·伯纳姆在布鲁塞尔峰会上宣布，双方已就贸易、青年流动及碳市场等领域达成重建关系的协议。这是自英国脱欧十年后迈出的重要一步，但双方也指出后续仍需进行数月的谈判与法律落实工作。",
+      "common": [
+       {
+        "t": "欧盟与英国在布鲁塞尔峰会达成脱欧后关系协议。",
+        "src": [
+         "DW",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "双方达成了青年流动计划及碳市场或碳排放交易系统链接协议。",
+        "src": [
+         "DW",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "英国首相称这是英国和欧洲的好日子。",
+        "src": [
+         "DW",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "英国首相表示该协议可能为英国经济增添0.5%的增长。",
+        "src": "Al Jazeera"
+       },
+       {
+        "t": "欧盟委员会主席提到英国将重新加入伊拉斯谟+计划。",
+        "src": "DW"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚未来更深层次关系重置所需耗费的具体最终时间，官方指未来还需数月或数年的谈判。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "作为欧洲两大经济实体，欧盟与英国达成重建关系协议有助于缓和脱欧后的紧张局势，对全球贸易与区域稳定具有示范意义。"
+      },
+      "people": [
+       "Andy Burnham",
+       "Ursula von der Leyen"
+      ],
+      "photo": "EU UK summit meeting",
+      "per": [
+       {
+        "id": "7c408c6ff522",
+        "t": "欧盟与英国达成“历史性协议”以深化脱欧后关系",
+        "says": "欧盟官员与英国首相在布鲁塞尔峰会宣布达成贸易与青年流动协议，并形容其为转折点与里程碑。",
+        "same": [
+         "布鲁塞尔峰会",
+         "青年流动计划"
+        ],
+        "view": null
+       },
+       {
+        "id": "0cfb735f2465",
+        "t": "欧盟与英国达成关系重置协议",
+        "says": "英国与欧盟在食品、动物商品及流动等领域达成三项政策协议，双方将着手推进落实工作。",
+        "same": [
+         "青年流动计划",
+         "好日子"
+        ],
+        "view": null
+       },
+       {
+        "id": "4cf56d1e0614",
+        "t": "欧盟与英国达成脱欧后重建关系的里程碑协议",
+        "says": "欧盟与英国达成脱欧后重建关系的里程碑协议。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "d78d2117a5c1",
+        "t": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
+        "says": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "7537e8b5",
+     "v": 2,
+     "at": "2026-11-22T11:09:23.413Z",
+     "img": {
+      "src": "https://static.dw.com/image/80001113_6.jpg",
+      "credit": "DW",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "493f4a17-5",
+     "t": "东盟区域合作与经济框架协议",
+     "ids": [
+      "70bca87e1fa6",
+      "4e75c39059e4",
+      "50d9a4610259",
+      "d0922ea49c9f",
+      "787703f95831",
+      "b41be5e3c38f",
+      "7559c1dcf91c"
+     ],
+     "w": {
+      "short": "东盟签署数字经济框架协定",
+      "key": "东盟签署数字经济框架协定并推进中小微企业人工智能发展",
+      "title": "东盟签署数字经济框架协定与推进中小微企业人工智能发展",
+      "summary": "东盟峰会期间正式签署了东盟数字经济框架协定，旨在推动区域内数字经济强劲增长并协助中小微企业发展。同时，领导人通过了关于促进中小微企业人工智能增长的宣言，致力于提供更具包容性的数字未来。然而，分析指出东盟在面对大国博弈及区域内部分裂时，仍需将凝聚力转化为实际行动。",
+      "common": [
+       {
+        "t": "东盟签署数字经济框架协定",
+        "src": [
+         "Philippine News Agency",
+         "Daily Tribune"
+        ]
+       },
+       {
+        "t": "推动中小微企业人工智能与数字增长",
+        "src": [
+         "News On AIR",
+         "Philippine News Agency"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "东盟面临大国博弈与内部裂变的选择",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "菲律宾初创企业将受益于数字经济协定",
+        "src": "Daily Tribune"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Eurasia Review"
+        ],
+        "t": "东盟需要在中美之间寻找平衡以维护战略自主"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "东盟面临大国博弈场风险，内部存在诸多裂痕与执行力不足的问题"
+       }
+      ],
+      "unknown": "目前尚不确定东盟能否有效化解内部裂痕并将凝聚力转化为实际行动以应对大国博弈。",
+      "impact": {
+       "my": "东盟签署数字经济框架协定及推动中小微企业人工智能发展，将为大马企业和数字经济带来新的区域合作机遇，但同时也需面对区域地缘经济竞争的影响。",
+       "sea": "东盟通过数字经济框架协定与人工智能宣言，有助于促进区域经济一体化，但内部裂痕与大国博弈仍对区域稳定构成挑战。",
+       "world": "在全球秩序裂变背景下，东盟作为首个区域性数字经济协定的推动者，在全球数字经济与印太地缘格局中扮演日益重要的角色。"
+      },
+      "people": [
+       "Ferdinand R. Marcos Jr.",
+       "Min Aung Hlaing"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "70bca87e1fa6",
+        "t": "分析：东盟发生了什么？印太地区的经济地缘战场",
+        "says": "印太地区大国竞争加剧，东盟正逐渐成为地缘经济交汇的重要战场。区域内国家需要在中美之间寻找平衡。",
+        "same": [
+         "大国竞争",
+         "寻找平衡"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "4e75c39059e4",
+        "t": "东盟通过决议推动区域中小微企业人工智能增长",
+        "says": "东盟领导人通过了关于促进中小微企业人工智能增长的宣言，致力于让小型企业更容易负担和获取人工智能技术。",
+        "same": [
+         "中小微企业",
+         "人工智能"
+        ],
+        "view": null
+       },
+       {
+        "id": "50d9a4610259",
+        "s": "Free Malaysia Today",
+        "t": "东盟在裂变世界中面临抉择：化凝聚力为实际行动或沦为大国博弈场",
+        "says": "在裂变的全球秩序中，东盟面临抉择：是转化为实际行动还是沦为大国博弈场。组织内部面临诸多裂痕。",
+        "same": [
+         "大国博弈场"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "d0922ea49c9f",
+        "t": "数字经济框架协议确保东盟数字经济强劲增长",
+        "says": "东盟数字经济因签署东盟数字经济框架协定而获得动力。该协定是全球首个区域性数字经济协定。",
+        "same": [
+         "数字经济框架协定"
+        ],
+        "view": null
+       },
+       {
+        "id": "787703f95831",
+        "t": "菲律宾初创企业将受益于东盟数字经济协定",
+        "says": "菲律宾初创企业预计将从新签署的东盟数字经济协定中获得发展红利，协定旨在促进区域内数字合作与经济增长。",
+        "same": [
+         "数字经济协定"
+        ],
+        "view": null
+       },
+       {
+        "id": "b41be5e3c38f",
+        "t": "菲律宾面临中小微企业信贷缺口 关键基建项目出现延误",
+        "says": "菲律宾面临中小微企业信贷缺口及关键基建项目延误的问题。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "7559c1dcf91c",
+        "t": "菲律宾参议院协助将东盟协议转化为经济红利",
+        "says": "菲律宾参议院正协助将东盟相关协议转化为经济红利。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "060dca80",
+     "v": 2,
+     "at": "2026-11-22T04:06:29.444Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/13ae9530-51cc-44a6-a3cb-67f46a606695-Asean-new-emblem-and-flag-Philippines-ASEAN-pic-151126.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "cd30e168a012": {
+     "id": "cd30e168a012",
+     "title": "What historic Xi-Trump-Putin trilateral summit signals for global diplomacy",
+     "zh": "历史性习特普三边峰会对全球外交的信号",
+     "url": "https://www.channelnewsasia.com/east-asia/xi-trump-putin-trilateral-summit-apec-diplomacy-6551676",
+     "source": "CNA Asia",
+     "cat": "world",
+     "published": "2026-11-20T06:26:00.000Z",
+     "sum": "中、美、俄三国领导人举行了历史性的三边峰会，引发全球高度关注。这场会晤被视为大国外交的重要转折点，释放出重塑全球地缘政治格局的信号。"
+    },
+    "c8a6f004d720": {
+     "id": "c8a6f004d720",
+     "title": "Warm embrace, fragile truce: Trump-Xi goodwill faces fresh tests after APEC summit",
+     "zh": "亚太峰会后融冰与脆弱停火：特朗普与习近平的善意面临新考验",
+     "url": "https://www.channelnewsasia.com/east-asia/trump-xi-us-china-goodwill-ties-apec-analysis-6561621",
+     "source": "CNA Asia",
+     "cat": "china",
+     "published": "2026-11-20T05:32:00.000Z",
+     "sum": "在APEC峰会期间实现短暂缓和后，中美两国领导人展现出的善意正面临后续一系列双边与经贸问题的全新考验。两国关系的走向牵动全球市场神经。",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--kbKPNcoZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/18/img_1745.jpg?itok=romWTHDE",
+      "credit": "CNA Asia",
+      "kind": "A"
+     }
+    },
+    "0ec39da12e53": {
+     "id": "0ec39da12e53",
+     "title": "PM Wong meets Chinese Premier Li Qiang, says over 20 agreements, initiatives to be concluded at JCBC",
+     "zh": "黄循财会见李强，双边将达成逾20项协议",
+     "short": "新中将达成20余项协议",
+     "url": "https://www.straitstimes.com/asia/east-asia/pm-wong-meets-chinese-premier-li-qiang-says-over-20-agreements-initiatives-to-be-concluded-at-jcbc",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-21T03:31:14.000Z",
+     "sum": "新加坡总理黄循财会见了中国国务院总理李强。双方预计在双边合作联合委员会上总结并落实超过20项合作协议与倡议。李强重申了中国对多边主义和自由贸易的坚定承诺。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/15320117467b9b83f5d6a261bd3adb911dd8deec05cad19d1fe7cf4dc367d6c6?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    "09df6df0da50": {
+     "id": "09df6df0da50",
+     "title": "Trump-Xi-Putin summit: Does it herald a fundamental shift to a world dictated by the ‘Big Three’?",
+     "zh": "特朗普、习近平、普京峰会：是否预示“三大巨头”主导世界？",
+     "short": "大国峰会引热议",
+     "url": "https://www.straitstimes.com/asia/east-asia/trump-xi-putin-summit-does-it-herald-a-fundamental-shift-to-a-world-dictated-by-the-big-three",
+     "source": "The Straits Times",
+     "cat": "world",
+     "published": "2026-11-20T12:45:00.000Z",
+     "sum": "分析指出美中俄领导人峰会可能带来全球格局的根本性转变。中小国家或将面临压力，加速建立或加强各自的安全同盟。"
+    },
+    "01a3193d29ee": {
+     "id": "01a3193d29ee",
+     "title": "China says Japan must change ‘attitude’, after Xi snub of Takaichi",
+     "zh": "中国称日本必须改变态度，此前习近平冷落高市",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi",
+     "source": "Free Malaysia Today",
+     "cat": "china",
+     "published": "2026-11-20T08:16:28.000Z",
+     "sum": "在中国领导人习近平冷落日本政客高市早苗后，中国官方公开表示日本必须改变“态度”。中日两国的地缘政治摩擦持续引发外界关注。"
+    },
+    "1c361a8b39a7": {
+     "id": "1c361a8b39a7",
+     "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
+     "zh": "印尼普拉博沃与中国习近平讨论未来南海合作",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/indonesia-s-prabowo-china-s-xi-discuss-future-south-china-sea-cooperation",
+     "source": "Free Malaysia Today",
+     "cat": "sea",
+     "published": "2026-11-20T06:49:54.000Z",
+     "sum": "印尼总统普拉博沃与中国国家主席习近平会晤，双方就未来南海合作及双边关系发展进行讨论。两国领导人强调了维护区域稳定与深化战略伙伴关系的重要性。"
+    },
+    "dcb0cd1db1e0": {
+     "id": "dcb0cd1db1e0",
+     "title": "Anwar, China's Xi discuss various fields of cooperation to strengthen bilateral relations",
+     "zh": "安华与中国国家主席习近平讨论多领域合作",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wZk92Tk9SOU9NbU1fdE1aTVZ6emphSXpyRmJYQ0dZQjhtYzVOdGVjb1dHSDNfcHBjNy1nNHlSOEl2aWRYYkRlM2hMUDhPcUdD?oc=5",
+     "source": "The Edge Malaysia",
+     "cat": "china",
+     "published": "2026-11-20T05:51:32.000Z",
+     "sum": "马来西亚首相安华与中国国家主席习近平进行了会谈，双方就多个领域的合作展开讨论，以进一步巩固双边关系。"
+    },
+    "03aaf90f76e4": {
+     "id": "03aaf90f76e4",
+     "title": "中俄美三方峰會「場面大於實質成果」",
+     "zh": "中俄美三方峰会“场面大于实质成果”",
+     "url": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "china",
+     "published": "2026-11-20T05:46:09.000Z",
+     "sum": "中俄美三方近日举行峰会，但外界普遍认为此次会议的象征意义大于实际政策突破。三方在核心地缘政治议题上仍存在分歧。"
+    },
+    "51f9c2eaca46": {
+     "id": "51f9c2eaca46",
+     "title": "Trump seeks diplomatic breakthrough on Asia trip amid domestic turmoil and election setbacks",
+     "zh": "特朗普在内乱与选举挫折中寻求亚洲之行外交突破",
+     "url": "https://www.zaobao.com.sg/en/news/world/trump-seeks-diplomatic-breakthrough-asia-trip-amid-domestic-turmoil-and-election-setbacks",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-20T05:35:12.000Z",
+     "sum": "面对国内政治动荡和选举受挫的压力，美国政坛高层试图通过亚洲访问来寻求外交上的突破。相关行程备受区域关注。"
+    },
+    "b8fdbe6aa1fc": {
+     "id": "b8fdbe6aa1fc",
+     "title": "Xi: China ready to play active role in easing Thailand-Cambodia tensions",
+     "zh": "习近平：中方愿为缓和泰柬紧张局势发挥积极作用",
+     "url": "https://www.zaobao.com.sg/en/news/china/xi-china-ready-play-active-role-easing-thailand-cambodia-tensions",
+     "source": "联合早报",
+     "cat": "china",
+     "published": "2026-11-20T08:44:08.000Z",
+     "sum": "中国领导人表示，中方随时准备在缓和泰柬紧张局势方面发挥积极作用。这体现了中国对促进地区和平稳定的外交努力。"
+    },
+    "eee3df9e9738": {
+     "id": "eee3df9e9738",
+     "title": "As Trump courts Xi and Putin, middle powers make their own moves",
+     "zh": "当特朗普拉拢中俄时，中等强国正采取各自行动",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/as-trump-courts-xi-and-putin-middle-powers-make-their-own-moves",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T09:38:00.000Z"
+    },
+    "cef4b62147ef": {
+     "id": "cef4b62147ef",
+     "title": "[Opinion] From Yalta to Shenzhen, a changing Big Three",
+     "zh": "从雅尔塔到深圳：不断变化的三巨头格局",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPb1dydHlDejZJcmdSUVBjZ19FMkU3TXRRVWd2b1VhUTRHQkxJRklQeVVCRS1RZ1E0RFJJR2cxTGo5eDhERmxIXzVRSUxYRXgxOUZxd29IOXFGTE9BZDZzMTRiS1NXOVd6ZENKSFdnYWlBWVBPU0Uya2NhUlNOaXl5bUNURTJqVEdIX2c?oc=5",
+     "source": "联合早报",
+     "cat": "china",
+     "published": "2026-11-20T09:21:08.000Z"
+    },
+    "0a224ee81be0": {
+     "id": "0a224ee81be0",
+     "title": "From vases to silk scarves: How China wove symbolism into its APEC summit",
+     "zh": "从花瓶到丝巾：中国如何将象征意义融入亚太经合组织峰会",
+     "short": "中国将象征融入亚太峰会",
+     "url": "https://www.channelnewsasia.com/east-asia/apec-shenzhen-china-symbolism-soft-power-6568261",
+     "source": "CNA Asia",
+     "cat": "china",
+     "published": "2026-11-20T22:00:00.000Z"
+    },
+    "3e11c67b2837": {
+     "id": "3e11c67b2837",
+     "title": "S’pore welcomes genuine Chinese investments, but not abuse of its trusted position: PM Wong",
+     "zh": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
+     "short": "星洲欢迎中国真诚投资",
+     "url": "https://www.straitstimes.com/asia/east-asia/spore-welcomes-genuine-chinese-investments-but-not-abuse-of-its-trusted-position-pm-wong",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-21T13:10:00.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡欢迎来自中国的真诚投资，但绝不允许滥用其受信赖的地位。同时，他有信心新加坡凭借与美国的强韧关系能确保所需芯片供应。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    "c073df4bb7ca": {
+     "id": "c073df4bb7ca",
+     "title": "PM Wong meets Chinese Premier Li Qiang in Beijing",
+     "zh": "新加坡总理黄循财在北京会见中国国务院总理李强",
+     "short": "黄循财会见李强",
+     "url": "https://www.zaobao.com.sg/en/news/singapore/pm-wong-meets-chinese-premier-li-qiang-beijing",
+     "source": "联合早报",
+     "cat": "china",
+     "published": "2026-11-21T03:32:13.000Z",
+     "sum": "新加坡总理黄循财在访问北京期间，与中国国务院总理李强举行了会晤。双方就双边关系及区域合作等议题进行了深入交流。此次高层会晤有助于巩固双边外交与经贸联系。"
+    },
+    "396def59db66": {
+     "id": "396def59db66",
+     "title": "EU, Indonesia Sign FTA Eliminating 90% of Tariffs, Opening a Single Market of 730 Million People",
+     "zh": "欧盟与印尼签署自贸协定取消90%关税",
+     "short": "欧盟印尼签自贸协定",
+     "url": "https://finance.biggo.com/news/5a256349-aac5-43e7-b493-28bf1c51ef27",
+     "source": "BigGo Finance",
+     "cat": "sea",
+     "published": "2026-11-21T15:25:00.000Z",
+     "sum": "欧盟与印度尼西亚正式签署自由贸易协定，将取消高达90%的关税壁垒，并开启拥有7.3亿人口的庞大单一市场。这项历史性协议将大幅促进双方的双边贸易与投资往来。"
+    },
+    "ae393107aeab": {
+     "id": "ae393107aeab",
+     "title": "EU and Indonesia sign trade deals to open markets and secure supply chains",
+     "zh": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
+     "short": "欧盟印尼签署贸易协议",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdGQ0cXQ4UTVWcVVpRnZjTUFnMklESFg4b2xGVi1nLTFOQXUwQldWVGtBVGd3b2dTbG1jR2pWS3dKb05DbjRQdDlMNHFFRzFQLXJHTzlVY3hwd2dBeXpvQllUQUQ2a1h5SkhQTmY4UG1PRFl6N2RBWGo3ZDM2U29lNWNkRjJnNm90dUZxTlJyMUFOd3ZxY0FxSHFJNUZsMjJOMGdLRWZqOUtaOVpUWDBCUFpxbERKemtxNmJqSWdsWFNuenZac3MzYmhxdWp5aV91bDgxVUdzV2o?oc=5",
+     "source": "INSIGHT EU MONITORING",
+     "cat": "sea",
+     "published": "2026-11-21T15:25:21.000Z",
+     "sum": "欧盟与印度尼西亚正式签署贸易协议，旨在进一步开放彼此市场并确保关键供应链的安全。此举标志着双方在深化经贸合作与应对全球供应链风险方面迈出重要一步。"
+    },
+    "a1b6e93c1720": {
+     "id": "a1b6e93c1720",
+     "title": "EU and Indonesia sign trade deal",
+     "zh": "欧盟与印尼正式签署自由贸易协定",
+     "short": "欧盟印尼签自贸协定",
+     "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "sea",
+     "published": "2026-11-21T15:21:00.000Z",
+     "sum": "欧盟与印尼经过近十年谈判后，正式签署了一项涵盖7.3亿人口的自由贸易协定。该协定旨在降低关税并带来新的投资机会，随着全球经济紧张局势加剧，欧盟正借此多元化其贸易关系。"
+    },
+    "8b72da353144": {
+     "id": "8b72da353144",
+     "title": "IEU CEPA: Ushering in a new era of economic partnership",
+     "zh": "印尼欧盟全面经济伙伴关系协定迈入新时代",
+     "short": "印尼欧盟签署经贸协定",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVWNQeVpJVVBva2hGTl81Skg0Z3pnSGI2b1pOYVRoR0l4Um5DNnEtYTVLLV8wRzFTckM5SGZJQmpzbi1DdjluaThaQnVWRjRHTDB0azdaNWlkNlhBMTh6UnRnSGx3NGxoN3hxaDdaUVdKQVdHQW0wVEp3NGx3RlVXQkR4cWRvdm9ra0s1Nm4xcFlMeXQxTXAtMHlGRVNhTjZnTXoyVEVhcw?oc=5",
+     "source": "The Jakarta Post",
+     "cat": "sea",
+     "published": "2026-11-20T19:52:30.000Z"
+    },
+    "7c408c6ff522": {
+     "id": "7c408c6ff522",
+     "title": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
+     "zh": "欧盟与英国达成“历史性协议”以深化脱欧后关系",
+     "short": "英欧达成重要协议",
+     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-20T11:30:00.000Z",
+     "sum": "欧盟与英国就青年流动和贸易等议题达成了一项被形容为“历史性”的协议。双方领导人对此高度评价，并借此寻求修复并深化脱欧后的紧密联系。此举标志着双方关系走向务实解冻。"
+    },
+    "0cfb735f2465": {
+     "id": "0cfb735f2465",
+     "title": "EU and UK seal reset deal",
+     "zh": "欧盟与英国达成关系重置协议",
+     "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:20:19.000Z",
+     "sum": "欧盟与英国正式达成一项旨在重置双边关系的协议。这项突发新闻引发外界对双方未来贸易与政策合作的关注。双方希望借此修复脱欧后的一些紧张关系。"
+    },
+    "4cf56d1e0614": {
+     "id": "4cf56d1e0614",
+     "title": "EU and UK strike 'landmark deal' to rebuild ties after Brexit",
+     "zh": "欧盟与英国达成脱欧后重建关系的里程碑协议",
+     "short": "英欧达成重建关系协议",
+     "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-rebuild-ties-after-brexit/a-80001076?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-20T11:30:00.000Z"
+    },
+    "d78d2117a5c1": {
+     "id": "d78d2117a5c1",
+     "title": "Can the UK and EU turn the page on Brexit?",
+     "zh": "英国与欧盟能否彻底翻开英国脱欧的新篇章？",
+     "short": "英欧能否走出脱欧阴影",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T20:51:19.000Z"
+    },
+    "944462cb3f32": {
+     "id": "944462cb3f32",
+     "title": "分析：APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
+     "zh": "分析：APEC上与习近平特朗普会晤，对普京是一场胜利",
+     "short": "APEC美中俄互动",
+     "url": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "world",
+     "published": "2026-11-22T02:11:02.000Z",
+     "sum": "分析指出，在亚太经合组织会议期间，美中俄领导人的会晤为俄罗斯总统普京提供了重要的外交舞台。不过，这并不能让莫斯科在俄乌战争中更接近实质性胜利。各方博弈仍在持续。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
+    },
+    "8bcd706bdf2a": {
+     "id": "8bcd706bdf2a",
+     "title": "North Korea’s Kim visits factory sites after apparent Trump snub",
+     "zh": "美总统亚洲行未会面金正恩，朝鲜领导人视察工厂",
+     "short": "特朗普未见金正恩",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/north-korea-s-kim-visits-factory-sites-after-apparent-trump-snub",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T02:14:02.000Z"
+    },
+    "18e233591a30": {
+     "id": "18e233591a30",
+     "title": "Zelenskyy: Trilateral summit 'unsuccessful' for Russia",
+     "zh": "泽连斯基称三方峰会对俄罗斯而言不成功",
+     "short": "泽连斯基称峰会挫俄",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5UWUlTMTJUMlFNdUY5dTBNYU9vT3dJTllTSC00WFNzbnZncndYYlVoQzN0clNyX04wUkJRN2tSSGFCTldNNzJlaGFvRG1haFkxRU1jc1Y5eVJ0OVFud21lMVBMMA?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-22T03:15:03.000Z"
+    },
+    "70bca87e1fa6": {
+     "id": "70bca87e1fa6",
+     "title": "What Is Happening To ASEAN? The Indo-Pacific’s Geo-Economic Battleground – Analysis",
+     "zh": "分析：东盟发生了什么？印太地区的经济地缘战场",
+     "short": "东盟成地缘经济战场",
+     "url": "https://www.eurasiareview.com/22112026-what-is-happening-to-asean-the-indo-pacifics-geo-economic-battleground-analysis/",
+     "source": "Eurasia Review",
+     "cat": "sea",
+     "published": "2026-11-22T01:51:19.000Z",
+     "sum": "随着印太地区大国竞争加剧，东盟正逐渐成为地缘经济交汇的重要战场。分析指出，区域内国家需要在中美之间寻找平衡，以维护自身的经济繁荣与战略自主。"
+    },
+    "4e75c39059e4": {
+     "id": "4e75c39059e4",
+     "title": "ASEAN adopts resolution to promote AI-powered growth among MSME acorss the region",
+     "zh": "东盟通过决议推动区域中小微企业人工智能增长",
+     "short": "东盟推动中小企业AI增长",
+     "url": "https://newsonair.gov.in/india-and-asean-agree-to-strengthen-cooperation-in-disaster-management-at-23rd-asean-india-summit-in-manila/",
+     "source": "News On AIR",
+     "cat": "sea",
+     "published": "2026-11-21T16:17:05.000Z",
+     "sum": "东盟正式通过一项新决议，旨在促进区域内中小微企业利用人工智能实现业务增长。此举有助于提升东南亚整体数字经济竞争力，加速区域内的数字化转型步伐。"
+    },
+    "50d9a4610259": {
+     "id": "50d9a4610259",
+     "title": "The Asean paradox",
+     "zh": "东盟在裂变世界中面临抉择：化凝聚力为实际行动或沦为大国博弈场",
+     "short": "东盟面临大国博弈抉择",
+     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/21/the-asean-paradox",
+     "source": "Free Malaysia Today",
+     "cat": "sea",
+     "published": "2026-11-20T23:30:00.000Z",
+     "sum": "在当前碎片化的全球秩序中，东盟面临着关键抉择，必须将自身的凝聚力转化为实际行动。否则，该区域可能沦为大国博弈的竞技场，失去自主地位。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/13ae9530-51cc-44a6-a3cb-67f46a606695-Asean-new-emblem-and-flag-Philippines-ASEAN-pic-151126.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "d0922ea49c9f": {
+     "id": "d0922ea49c9f",
+     "title": "DEFA ensures strong growth of ASEAN’s digital economy",
+     "zh": "数字经济框架协议确保东盟数字经济强劲增长",
+     "url": "https://www.pna.gov.ph/article/defa-ensures-strong-growth-of-aseans-digital-economy",
+     "source": "Philippine News Agency",
+     "cat": "sea",
+     "published": "2026-11-20T08:28:49.000Z",
+     "sum": "数字经济框架协议（DEFA）被认为将确保东盟数字经济实现强劲增长。该协议有助于推动区域内的数字化转型与跨境电商发展。"
+    },
+    "787703f95831": {
+     "id": "787703f95831",
+     "title": "Philippine Startups to Benefit from ASEAN Digital Economy Agreement",
+     "zh": "菲律宾初创企业将受益于东盟数字经济协定",
+     "url": "https://tribune.net.ph/2026/11/20/philippine-innovators-eye-asean-investment-boom",
+     "source": "Daily Tribune",
+     "cat": "sea",
+     "published": "2026-11-20T06:06:42.000Z",
+     "sum": "菲律宾初创企业预计将从新签署的东盟数字经济协定中获得发展红利。该协定旨在促进区域内的数字合作与经济增长。"
+    },
+    "b41be5e3c38f": {
+     "id": "b41be5e3c38f",
+     "title": "BUSINESS HEADLINES (Sunday, November 23, 2026) Subscribe to the paper: https://philstarsubscribe.com/ ‘Philippines faces widening MSME credit gap’ http://tiny.cc/651e101 DEPDev flags delays in key infrastructure projects http://tiny.cc/751e101 EVAP se",
+     "zh": "菲律宾面临中小微企业信贷缺口 关键基建项目出现延误",
+     "short": "菲微企面临信贷缺口",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVXVPeE8wX1h6aGVSb1VNRmlsRlZ5aHdVckJQNGt3WXZIc0hBWkExcTN6d2dQNTE2VXlLM2pTTHU3ck5FUF80MzNjVGU1akNpS2V5V2pMX1c4YlU2UUJJOTRkdmhsZGtzZ05WSUc2NE1VM19Pc1gwQlBmanRWSkJFc1pVX0hUZTRZYkk1M1hmejFjc1FiMW14aDdPajctdlRrRzAtNTlYWUt3Q2k3YVN0dUJ4TU5VM3ppZlRDNnY3dHNDUXpDM2FyTmR0Wi1fMjFMZDBIWF9JQlhLbUZF?oc=5",
+     "source": "Facebook",
+     "cat": "sea",
+     "published": "2026-11-22T01:16:59.000Z"
+    },
+    "7559c1dcf91c": {
+     "id": "7559c1dcf91c",
+     "title": "Senate to help turn Asean pacts into economic gains",
+     "zh": "菲律宾参议院协助将东盟协议转化为经济红利",
+     "short": "菲参议院转化东盟红利",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbThYcEU0TVJrQ2Vhc01WOFJmMDNOblRfVzR1cFdnTmJfUEs3ZXF0UGItbmpqQ084UTlkbVd4aFc5ck1VaTI0Rjhtc0xzaTlSR2F1VXF6RFFjMjBaeE13cUd5RWlsMmU3d1FDNl92cERmYzlOR1dwZFZwNWRMWWRWQU5CbmxHWVVQeHJHUVBwV2RsV1VkSW9TYmtsdWxSeDVvM05ER2R30gGrAUFVX3lxTE4zTGJMVlBYcGdkQ3MwN25RUnREM3BzNzgtaHlKQ1FiUUJxd1JjcHY1Y3ZWWU40ZWp6U3hkcEhFS2FiSExFNjExYTJNVEVOR3RLZlhuc2Y1NEp2dXZLN3RwU2stZ2gySmVFVkczd3Zzd1M2Zll2YTdxXzVxelR0TW1kejFtSGxFSjY4U2t5NV9oQnNHUm43SnNaOGFiRWtmRmktMGFhOEdKWkc0QQ?oc=5",
+     "source": "The Manila Times",
+     "cat": "sea",
+     "published": "2026-11-21T16:04:00.000Z"
+    },
+    "103d116583ed": {
+     "id": "103d116583ed",
+     "title": "EU and Indonesia Sign Landmark Trade and Investment Deal",
+     "zh": "欧盟与印尼签署历史性贸易与投资协定",
+     "short": "欧盟印尼签贸易协定",
+     "url": "https://cwibc.co.id/en/eu-indonesia-trade-investment-deal",
+     "source": "cwibc.co.id",
+     "cat": "sea",
+     "published": "2026-11-22T02:02:19.000Z",
+     "sum": "欧盟与印尼正式签署了一项具有里程碑意义的贸易与投资协定。该协议旨在深化双方经济联系，扩大市场准入。这也反映出欧盟正积极加强与东南亚主要经济体的经贸布局。"
+    },
+    "2d84193be60f": {
+     "id": "2d84193be60f",
+     "title": "EU, Indonesia sign 'ambitious' trade deal, paving way for 2027 rollout",
+     "zh": "欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
+     "short": "欧盟印尼签贸易协定",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUpRaDdscGpxU0s5a3ZfMGJjT3Fpc2xfMi1WMlFyUUxuWEJvdW1OcDg5NHVYTmZzSWJYZzFzX2Y1T25uZFFEenE2aWp1SUFLeWdVNmZmV21mUllEUEk4QzNpNFNFRGhpVlI1MVRDbjlGdGkyZmVfUW9yMk9VQ2JXMWVzdEpFUFdfR2lDSTBpSVJzenhkY0RTclhqNFRuMFdua0hJWWJDVGVWWE5LYVc0ZUhpSThibFlnY2fSAboBQVVfeXFMTnlKUWg3bHBqcVNLOWt2XzBiY09xaXNsXzItVjJRclFMblhCb3VtTnA4OTR1WE5mc0liWGcxc19mNU9ubmRRRHpxNmlqdUlBS3lnVTZmZldtZlJZRFBJOEMzaTRTRURoaVZSNTFUQ245RnRpMmZlX1FvcjJPVUNiVzFlc3RKRVBXX0dpQ0kwaUlSc3p4ZGNEU3JYajRUbjBXbmtISVliQ1RlVlhOS2FXNGVIaUk4YmxZZ2Nn?oc=5",
+     "source": "NST Online",
+     "cat": "sea",
+     "published": "2026-11-21T23:58:42.000Z"
+    },
+    "2b1c270f952c": {
+     "id": "2b1c270f952c",
+     "title": "Singapore, China to speed up talks on FTA upgrade as Wong meets Li in Beijing",
+     "zh": "黄循财会见李强，新中同意加速自贸协定升级谈判",
+     "short": "新中加速自贸协定谈判",
+     "url": "https://www.malaymail.com/amp/news/singapore/2026/11/22/singapore-china-to-speed-up-talks-on-fta-upgrade-as-wong-meets-li-in-beijing/244274",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-22T02:24:08.000Z",
+     "sum": "新加坡总理黄循财在北京会见中国总理李强，双方同意加快推进自由贸易协定升级谈判。此举旨在深化两国经贸合作，并应对当前复杂的区域与国际环境。双方展现了进一步加强双边经济伙伴关系的意愿。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/22/375721.webp?v=1795320000",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
+    },
+    "5648849fe01f": {
+     "id": "5648849fe01f",
+     "title": "EU and Indonesia Sign Trade Deal After 10 Years of Negotiations",
+     "zh": "欧盟与印尼历经十年谈判后正式签署贸易协定",
+     "short": "欧盟印尼签贸易协定",
+     "url": "https://english.kontan.co.id/news/eu-and-indonesia-sign-trade-deal-after-10-years-of-negotiations",
+     "source": "KONTAN",
+     "cat": "sea",
+     "published": "2026-11-22T23:29:19.000Z",
+     "sum": "经过长达十年的艰难谈判，欧盟与印尼终于正式签署双边贸易协定。此举将进一步深化双方经贸联系，并为印尼开拓更为广阔的欧洲市场。协议预计将为双方企业带来更多合作机遇。",
+     "img": {
+      "src": "https://foto.kontan.co.id/q2_FgFurOz-I1Yf8ZA5khN_7gRU=/smart/filters:format(webp)/2025/06/07/273764158p.jpg",
+      "credit": "KONTAN",
+      "kind": "A"
+     }
+    },
+    "391f570c75a2": {
+     "id": "391f570c75a2",
+     "title": "'Not everything we do has to be viewed through US-China competition': PM Wong on how S'pore creates value in multipolar world",
+     "zh": "黄循财：新加坡在多极世界中通过价值创造立足",
+     "short": "黄循财谈多极世界定位",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeHZpRHp5c0VwWDk2bXJ0VDJxWWJfclQ5WHJndWZvVkdxdUFqeUxya3dRNlBfUTNrak1KaDl1MnEwNklGSC1GR0ZnMU13aDlqVWNsRFh4RloyY1VNUkloU01JRGRyUVNCeEZSZE5aZVdINk1ZcHh3TGlobEdFWDFDZw?oc=5",
+     "source": "Mothership",
+     "cat": "sea",
+     "published": "2026-11-22T01:41:27.000Z"
+    }
+   },
+   "name": "欧盟与印尼自由贸易协定",
+   "en": "European Union Indonesia free trade agreement",
+   "wiki": "Indonesia–European Union Comprehensive Economic Partnership Agreement",
+   "cat": "world",
+   "last": "2026-11-23T00:12:38.004Z",
+   "hidden": false,
+   "short": "黄循财访华",
+   "key": "黄循财访华会见李强，探讨深化经贸合作",
+   "overview": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨深化经贸与自贸协定升级，同时强调防范规避美国出口管制的行为。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "493f4a17-2",
+     "to": "493f4a17-1",
+     "t": "黄循财访华期间与中国领导人会晤，推进多领域合作协议。"
+    }
+   ],
+   "img": {
+    "src": "https://dam.mediacorp.sg/image/upload/s--Oslzadnf--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/trump_xi_putin_2.jpg?itok=bba0M6VR",
+    "credit": "CNA Asia",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 5,
+    "sources": 23,
+    "stories": 38,
+    "gdelt": {
+     "ratio": 1.5,
+     "share": 0.0121
+    },
+    "wiki": null,
+    "at": "2026-11-23T08:57:42.461Z"
    }
   },
   {
@@ -3169,7 +3507,7 @@
    "lines": [
     {
      "id": "f4bb4b75-1",
-     "t": "俄罗斯空袭基辅导致人员伤亡",
+     "t": "俄罗斯夜间空袭基辅及总统家乡",
      "ids": [
       "f5aa2c1600b1",
       "6fca891ece5d",
@@ -3186,52 +3524,41 @@
       "ecdeb85fd175",
       "cbeed7399dad",
       "865fef802953",
-      "53635033745f"
+      "53635033745f",
+      "c689898babc6",
+      "4bd1bf6c7ec7"
      ],
      "w": {
-      "short": "俄空袭基辅死伤",
-      "key": "俄罗斯大规模空袭乌克兰基辅及多地造成人员伤亡。",
-      "title": "俄罗斯空袭基辅导致人员伤亡与基础设施受损",
-      "summary": "俄罗斯对乌克兰发动大规模导弹与无人机空袭，重点轰炸基辅的桥梁及能源设施，造成多人死伤并引发大范围停电。与此同时，事件波及邻国波兰领空，引发国际社会高度关注与强烈谴责。",
+      "short": "俄夜袭基辅波兰",
+      "key": "俄罗斯夜间对基辅及多地发动大规模空袭，并有导弹落入波兰领土。",
+      "title": "俄罗斯夜间空袭基辅及波兰边境，局势进一步升级",
+      "summary": "俄罗斯对乌克兰首都基辅及多座城市发动了夜间大规模导弹与无人机空袭，造成人员伤亡及桥梁等基础设施受损。同时，事件波及邻国波兰领土，引发北约及国际社会的强烈谴责与高度关注。",
       "common": [
        {
-        "t": "俄罗斯对乌克兰及基辅发动空袭",
+        "t": "俄罗斯夜间对基辅及多地发动大规模空袭。",
         "src": [
          "BBC World",
          "Al Jazeera"
         ]
        },
        {
-        "t": "空袭造成人员伤亡",
+        "t": "袭击造成人员伤亡及基础设施受损。",
         "src": [
          "BBC World",
          "Al Jazeera"
         ]
        },
        {
-        "t": "袭击目标包括基辅的桥梁",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "波兰领空遭导弹或飞行物侵犯",
+        "t": "有导弹或飞行物落入波兰境内并引发关注。",
         "src": [
          "AP News",
-         "BBC World",
-         "Al Jazeera",
-         "Free Malaysia Today"
+         "BBC World"
         ]
        }
       ],
       "single": [
        {
-        "t": "乌克兰总统泽连斯基指俄军发射超过110枚导弹和400架无人机",
-        "src": "BBC World"
-       },
-       {
-        "t": "法国要求召开联合国安理会紧急会议",
+        "t": "法国要求就使馆受波及召集联合国安理会会议。",
         "src": "France 24"
        }
       ],
@@ -3242,33 +3569,32 @@
          "BBC World",
          "Al Jazeera"
         ],
-        "t": "这是俄罗斯对乌克兰袭击克里米亚大桥的报复行动。"
+        "t": "这是俄罗斯针对乌克兰此前袭击克里米亚大桥所进行的报复性攻击。"
        },
        {
         "label": "看法 B",
         "src": [
-         "AP News",
-         "Free Malaysia Today"
+         "BBC World"
         ],
-        "t": "俄罗斯导弹落入波兰境内是严重的挑衅与违规行为。"
+        "t": "波兰官方认为导弹落入境内是来自莫斯科的挑衅和严重领空侵犯。"
        }
       ],
-      "unknown": "目前对于波兰境内遭袭的具体损失细节及乌俄双方最终的确切伤亡数字仍有待进一步核实。",
+      "unknown": "目前关于波兰境内落入的俄罗斯导弹所造成的具体损失细节尚待完全厘清。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "乌克兰战事升级及导弹波及北约成员国波兰，令欧洲地缘政治紧张局势进一步加剧。"
+       "world": "俄罗斯对乌克兰的大规模空袭及导弹波及波兰领土，进一步加剧了欧洲地缘政治紧张局势并引发国际安全担忧。"
       },
       "people": [
        "Volodymyr Zelenskyy",
        "Vladimir Putin"
       ],
-      "photo": "missile attack damage",
+      "photo": null,
       "per": [
        {
         "id": "80605099f5e4",
         "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹落入波兰境内引发区域关注，北约回应称此举为明显的违约行为。",
+        "says": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。",
         "same": [
          "导弹落入波兰"
         ],
@@ -3277,24 +3603,33 @@
        {
         "id": "c06f290ca0b1",
         "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "欧洲多国军队在波兰举行相关演习。",
+        "says": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习。",
         "same": [],
+        "view": null
+       },
+       {
+        "id": "c689898babc6",
+        "t": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
+        "says": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪。",
+        "same": [
+         "基辅遭袭击"
+        ],
         "view": null
        },
        {
         "id": "f5aa2c1600b1",
         "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "俄罗斯对基辅桥梁及交通枢纽发动大规模空袭造成多人死亡，泽连斯基指责俄方发动战事以来最猛烈袭击之一。",
+        "says": "俄罗斯夜间对基辅桥梁及多地发动大规模导弹与无人机空袭，造成人员伤亡。",
         "same": [
-         "空袭基辅桥梁",
-         "造成人员伤亡"
+         "基辅遭袭击",
+         "报复袭击"
         ],
         "view": "看法 A"
        },
        {
         "id": "6fca891ece5d",
         "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "波兰称有飞行物侵犯领空并谴责莫斯科挑衅，北约紧急出动战机应对。",
+        "says": "一枚俄罗斯导弹击中波兰领土，波兰官方将此形容为来自莫斯科的挑衅。",
         "same": [
          "导弹落入波兰"
         ],
@@ -3303,42 +3638,37 @@
        {
         "id": "968b51712184",
         "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "基辅使馆区在空袭中受波及，法国寻求召开联合国安理会紧急会议。",
-        "same": [],
+        "says": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及，法国寻求召开联合国安理会紧急会议。",
+        "same": [
+         "基辅遭袭击"
+        ],
         "view": null
        },
        {
         "id": "b4d8b1b930db",
         "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "俄军夜间对乌克兰及基辅桥梁发动报复性空袭导致死伤与大面积停电。",
+        "says": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。",
         "same": [
-         "空袭基辅桥梁",
-         "造成人员伤亡"
+         "基辅遭袭击",
+         "报复袭击"
         ],
         "view": "看法 A"
        },
        {
         "id": "dfff6b708f3a",
         "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄军全天候攻击导致多国使馆受损，引发国际对外交人员安全的担忧。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "1425c009d761",
-        "t": "波兰谴责俄罗斯领空遭三度侵犯",
-        "says": "波兰公开谴责领空遭到侵犯。",
+        "says": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆受损。",
         "same": [
-         "导弹落入波兰"
+         "基辅遭袭击"
         ],
-        "view": "看法 B"
+        "view": null
        }
       ]
      },
      "loose": false,
-     "sig": "3e260554",
+     "sig": "db3bd7e1",
      "v": 2,
-     "at": "2026-11-23T00:14:43.818Z",
+     "at": "2026-11-23T08:55:25.800Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
       "credit": "BBC World",
@@ -3484,10 +3814,7 @@
      "v": 2
     }
    ],
-   "minor": [
-    "4bd1bf6c7ec7",
-    "c689898babc6"
-   ],
+   "minor": [],
    "stories": {
     "f5aa2c1600b1": {
      "id": "f5aa2c1600b1",
@@ -3793,22 +4120,19 @@
    },
    "name": "乌克兰战争导弹袭击",
    "en": "Ukraine war missile drone strikes",
-   "wiki": "Russian invasion of Ukraine",
+   "wiki": "Russian strikes on infrastructure during the Russo-Ukrainian War",
    "cat": "world",
    "last": "2026-11-23T00:12:38.004Z",
    "hidden": false,
-   "short": "俄大规模空袭基辅及波兰",
-   "key": "俄军导弹空袭基辅并波及波兰领空引发国际谴责",
-   "overview": "俄罗斯对基辅发动大规模导弹与无人机空袭造成多人死伤与大面积停电，且飞行物侵犯波兰领空引发北约紧急应对；同时美国特使提出的安全保障构想遭俄罗斯驳回，和平谈判陷僵局。",
-   "minorText": [
-    "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
-    "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪"
-   ],
+   "short": "乌克兰遭空袭波及波兰",
+   "key": "俄军导弹空袭基辅并波及波兰引发谴责",
+   "overview": "俄罗斯对乌克兰基辅及多地发动大规模导弹与无人机空袭，造成人员伤亡与基础设施受损，袭击甚至波及邻国波兰领土引发北约高度关注，同时美欧正就乌克兰战后安全保障构想与莫斯科展开激烈博弈。",
+   "minorText": [],
    "links": [
     {
      "from": "f4bb4b75-1",
      "to": "f4bb4b75-2",
-     "t": "基辅遭猛烈空袭后，泽连斯基对俄方安全保证及外交诚意提出强烈质疑并拒绝妥协。"
+     "t": "基辅遭空袭之际，国际社会也在探讨乌克兰战后的安全保障问题。"
     }
    ],
    "img": {
@@ -3821,12 +4145,8 @@
     "sources": 8,
     "stories": 27,
     "gdelt": null,
-    "wiki": {
-     "title": "Russian invasion of Ukraine",
-     "views": 881,
-     "ratio": 0.9
-    },
-    "at": "2026-11-23T00:18:50.048Z"
+    "wiki": null,
+    "at": "2026-11-23T08:59:24.851Z"
    }
   },
   {
@@ -4395,10 +4715,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Rohingya genocide case",
-     "views": 1348,
-     "ratio": 0.9
+     "views": 901,
+     "ratio": 0.6
     },
-    "at": "2026-11-23T00:19:06.543Z"
+    "at": "2026-11-23T09:00:10.347Z"
    }
   },
   {
@@ -4582,7 +4902,7 @@
      "views": 393338,
      "ratio": 1.2
     },
-    "at": "2026-11-23T00:19:40.621Z"
+    "at": "2026-11-23T09:00:26.839Z"
    },
    "short": "GTA 6首日破纪录",
    "key": "首日创下37.9亿美元销售纪录",
@@ -5033,5 +5353,5 @@
    }
   }
  ],
- "updated": "2026-11-23T00:19:40.621Z"
+ "updated": "2026-11-23T09:00:26.839Z"
 }
