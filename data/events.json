@@ -1747,16 +1747,13 @@
     "score": 5,
     "sources": 36,
     "stories": 76,
-    "gdelt": {
-     "ratio": 0.9,
-     "share": 0.0237
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Artificial intelligence bubble",
      "views": 1,
      "ratio": 1
     },
-    "at": "2026-11-23T08:58:40.627Z"
+    "at": "2026-11-23T21:15:18.864Z"
    }
   },
   {
@@ -1934,6 +1931,18 @@
     "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8165b534-0724-4565-b20c-bef07d9f9b56-Hakeem-Jeffries-EPA.jpg",
     "credit": "Free Malaysia Today",
     "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": {
+     "title": "2026 United States elections",
+     "views": 31811,
+     "ratio": 0.7
+    },
+    "at": "2026-11-23T21:15:35.307Z"
    }
   },
   {
@@ -2321,16 +2330,13 @@
     "score": 4,
     "sources": 7,
     "stories": 15,
-    "gdelt": {
-     "ratio": 12.3,
-     "share": 0.579
-    },
+    "gdelt": null,
     "wiki": {
      "title": "2026 United Nations Climate Change Conference",
-     "views": 1444,
-     "ratio": 1.5
+     "views": 6303,
+     "ratio": 6.2
     },
-    "at": "2026-11-23T08:58:03.703Z"
+    "at": "2026-11-23T21:15:51.811Z"
    },
    "short": "COP31气候大会加时",
    "key": "草案剔除化石燃料引发争议",
@@ -3493,12 +3499,9 @@
     "score": 5,
     "sources": 23,
     "stories": 38,
-    "gdelt": {
-     "ratio": 1.5,
-     "share": 0.0121
-    },
+    "gdelt": null,
     "wiki": null,
-    "at": "2026-11-23T08:57:42.461Z"
+    "at": "2026-11-23T21:16:08.288Z"
    }
   },
   {
@@ -4146,7 +4149,7 @@
     "stories": 27,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-23T08:59:24.851Z"
+    "at": "2026-11-23T21:16:24.784Z"
    }
   },
   {
@@ -4718,7 +4721,7 @@
      "views": 901,
      "ratio": 0.6
     },
-    "at": "2026-11-23T09:00:10.347Z"
+    "at": "2026-11-23T21:16:41.286Z"
    }
   },
   {
@@ -5353,5 +5356,5 @@
    }
   }
  ],
- "updated": "2026-11-23T09:00:26.839Z"
+ "updated": "2026-11-23T21:16:41.286Z"
 }
