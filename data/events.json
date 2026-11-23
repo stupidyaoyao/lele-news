@@ -178,22 +178,22 @@
     },
     {
      "id": "493f4a17-2",
-     "t": "黄循财会见李强达成多项协议",
+     "t": "黄循财谈及对中国投资与合作立场",
      "ids": [
       "3e11c67b2837",
       "c073df4bb7ca",
-      "2b1c270f952c"
+      "2b1c270f952c",
+      "391f570c75a2"
      ],
      "w": {
-      "short": "黄循财访华会见李强",
-      "key": "黄循财访华会见李强达成多项合作共识",
-      "title": "新加坡总理黄循财访华会见李强，探讨深化各领域合作",
-      "summary": "新加坡总理黄循财访问中国并会见中国国务院总理李强，双方回顾了双边关系进展。两国领导人探讨了在多个领域的务实合作，并强调在复杂多变的国际环境中加强伙伴关系的重要性。",
+      "short": "黄循财访华谈合作与投资",
+      "key": "黄循财访华强调欢迎真诚投资并深化新中双边合作。",
+      "title": "新加坡总理黄循财访华：欢迎中国真诚投资，新中深化多领域合作",
+      "summary": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨了深化经贸、自贸协定升级及多领域合作。黄循财表示新加坡欢迎中国企业的真诚投资，但也强调必须防范滥用新加坡信誉规避美国出口管制的行为。",
       "common": [
        {
-        "t": "新加坡总理黄循财在北京与中国国务院总理李强举行双边会谈。",
+        "t": "黄循财与李强在北京举行双边会谈。",
         "src": [
-         "The Straits Times",
          "联合早报",
          "Malay Mail"
         ]
@@ -201,15 +201,15 @@
       ],
       "single": [
        {
-        "t": "黄循财表示欢迎中国真诚投资，但对滥用新加坡信誉规避美国出口管制的行为表示关切。",
+        "t": "黄循财指出新加坡欢迎中国真诚投资，但对滥用信誉规避美国出口管制的行为表示关切。",
         "src": "The Straits Times"
        },
        {
-        "t": "李强表示中国愿与新加坡加速推进中新自由贸易协定4.0升级谈判。",
+        "t": "李强表示中国愿与新加坡加速自贸协定4.0升级谈判。",
         "src": "Malay Mail"
        },
        {
-        "t": "黄循财提到即将召开的新中双边合作联合委员会会议预计将取得20多项合作成果。",
+        "t": "黄循财提到新中双边合作委员会即将召开，预计将取得超过20项合作成果。",
         "src": "联合早报"
        }
       ],
@@ -217,8 +217,8 @@
       "unknown": null,
       "impact": {
        "my": null,
-       "sea": "新加坡明年将担任东盟轮值主席国，新中加强合作与自由贸易协定升级有助于推动区域经济一体化。",
-       "world": "在复杂多变的全球环境中，新中两国强调维护多边贸易体制与开放型世界经济。"
+       "sea": "中国支持新加坡担任明年东南亚国家联盟轮值主席国，推动区域经济一体化。",
+       "world": "在复杂多变的全球环境中，新中两国强调维护多边贸易体系与开放型世界经济。"
       },
       "people": [
        "Lawrence Wong",
@@ -229,38 +229,46 @@
        {
         "id": "3e11c67b2837",
         "t": "新加坡总理黄循财称欢迎中国真诚投资但反对滥用信誉",
-        "says": "黄循财指出中国企业投资带来实际效益，但担忧有人滥用新加坡信誉规避美国出口管制。",
+        "says": "中国企业投资新加坡带来实际效益，但政府关注滥用新加坡信誉规避美国出口管制的现象。",
         "same": [
-         "黄循财访华"
+         "真诚投资",
+         "规避管制"
         ],
         "view": null
        },
        {
         "id": "c073df4bb7ca",
         "t": "新加坡总理黄循财在北京会见中国国务院总理李强",
-        "says": "黄循财在北京与李强举行双边会谈，指出全球环境复杂下深化新中伙伴关系的重要性。",
+        "says": "黄循财在北京与李强举行双边会谈，指出新中双边合作委员会将带来多项合作成果。",
         "same": [
          "会见李强",
-         "黄循财访华"
+         "双边会谈"
         ],
         "view": null
        },
        {
         "id": "2b1c270f952c",
         "t": "黄循财会见李强，新中同意加速自贸协定升级谈判",
-        "says": "李强在会谈中表示中国愿与新加坡加速自贸协定4.0谈判，并深化各领域务实合作。",
+        "says": "李强表示中国愿与新加坡加速自贸协定升级谈判，并在多个领域深化务实合作。",
         "same": [
          "会见李强",
-         "黄循财访华"
+         "自贸协定"
         ],
+        "view": null
+       },
+       {
+        "id": "391f570c75a2",
+        "t": "黄循财：新加坡在多极世界中通过价值创造立足",
+        "says": "黄循财强调新加坡在多极世界中的立足之道。",
+        "same": [],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "df72c55b",
+     "sig": "77a7f420",
      "v": 2,
-     "at": "2026-11-22T18:30:50.268Z",
+     "at": "2026-11-23T00:15:48.972Z",
      "img": {
       "src": "https://cassette.sphdigital.com.sg/image/straitstimes/f26a1110fe34fae4a129c1fff111b4085d5278dd3fd2500606979614be9a1928?t=og",
       "credit": "The Straits Times",
@@ -269,109 +277,119 @@
     },
     {
      "id": "493f4a17-3",
-     "t": "关税取消与签署历史性协定",
+     "t": "欧盟与印尼正式签署自贸协定",
      "ids": [
       "396def59db66",
       "ae393107aeab",
       "a1b6e93c1720",
       "8b72da353144",
       "103d116583ed",
-      "2d84193be60f"
+      "2d84193be60f",
+      "5648849fe01f"
      ],
      "w": {
-      "short": "欧盟印尼签自贸协定",
-      "key": "欧盟与印尼正式签署全面经济伙伴关系协定及投资保护协定，旨在降关税与开放市场。",
-      "title": "欧盟与印尼签署历史性自贸协定：取消九成关税，覆盖7.3亿人口",
-      "summary": "欧盟与印尼在比利时布鲁塞尔欧盟总部正式签署了《全面经济伙伴关系协定》与《投资保护协定》。该协议覆盖7.3亿人口的市场，旨在通过减少贸易壁垒、取消大部分关税来深化经贸合作。协议预计将在经历立法机构批准等流程后推进实施。",
+      "short": "欧印签署自贸协定",
+      "key": "欧盟与印尼正式签署自由贸易与投资保护协定",
+      "title": "欧盟与印尼历经多年谈判正式签署全面经济伙伴关系协定",
+      "summary": "欧盟与印度尼西亚在比利时布鲁塞尔总部正式签署了《全面经济伙伴关系协定》及投资保护协定，旨在深化经贸合作、开放市场并确保关键供应链安全。历经十年谈判达成的该协议预计于2027年正式实施，将逐步取消绝大多数进出口关税。此举标志着双方经贸关系迈入新阶段，有助于欧盟实现贸易伙伴多元化。",
       "common": [
        {
-        "t": "欧盟与印尼签署自由贸易与投资协定",
+        "t": "欧盟与印尼正式签署全面经贸协定",
         "src": [
          "BigGo Finance",
          "INSIGHT EU MONITORING",
          "DW",
          "The Jakarta Post",
          "cwibc.co.id",
-         "NST Online"
+         "NST Online",
+         "KONTAN"
         ]
        },
        {
-        "t": "覆盖7.3亿人口的市场并被称为雄心勃勃的协定",
+        "t": "双方历经近十年艰难谈判后达成协议",
         "src": [
-         "BigGo Finance",
-         "DW"
+         "DW",
+         "KONTAN"
         ]
        },
        {
-        "t": "预计每年为欧洲企业节省超过6亿欧元关税",
+        "t": "协议预计将于2027年正式实施生效",
         "src": [
-         "BigGo Finance",
-         "DW"
+         "DW",
+         "NST Online",
+         "KONTAN"
         ]
        },
        {
-        "t": "将惠及印尼的棕榈油、鞋类和纺织品等出口",
+        "t": "逐步取消超过90%产品的进口关税",
         "src": [
          "BigGo Finance",
-         "DW"
+         "KONTAN"
         ]
        }
       ],
       "single": [
        {
-        "t": "欧盟汽车关税高达50%将在五年内逐步取消",
-        "src": "BigGo Finance"
-       },
-       {
-        "t": "协定还设计了旨在吸引电动汽车、电子产品和制药等战略领域投资的条款",
+        "t": "协议涵盖电动汽车、电子产品和医药等战略行业的投资吸引",
         "src": "DW"
        },
        {
-        "t": "棕榈油和森林砍伐曾是谈判的主要绊脚石，协议包含解决环境关切的专用议定书",
+        "t": "棕榈油与森林砍伐问题曾是谈判的主要绊脚石",
         "src": "DW"
        }
       ],
-      "views": [],
-      "unknown": "协定的最终生效时间在不同报道中存在2026年1月与2027年的不同目标表述。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "DW"
+        ],
+        "t": "欧盟认为此举是在别人关门时保持大门敞开，并在美中贸易变得困难时减少对单一经济伙伴的依赖。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "KONTAN"
+        ],
+        "t": "分析指出此举旨在协助欧盟实现贸易伙伴多元化，并以此对冲美国关税政策带来的负面冲击。"
+       }
+      ],
+      "unknown": null,
       "impact": {
        "my": null,
-       "sea": "加强了欧盟与东南亚最大经济体印尼的经贸联系与供应链布局。",
-       "world": "连接了欧洲与世界第四人口大国，推进了欧盟的全球贸易网络扩展。"
+       "sea": "东南亚最大经济体印尼与欧盟正式签署自贸协定，建立起涵盖7.3万人口的自贸区，深化了欧洲与东南亚的经贸布局。",
+       "world": "欧盟通过与印尼签署雄心勃勃的自贸协定，进一步推动贸易伙伴多元化并确保关键供应链安全。"
       },
       "people": [
        "Ursula von der Leyen",
-       "Airlangga Hartarto"
+       "Prabowo Subianto"
       ],
-      "photo": "EU flag and Indonesian flag",
+      "photo": "signing ceremony business agreement",
       "per": [
        {
         "id": "396def59db66",
         "t": "欧盟与印尼签署自贸协定取消90%关税",
-        "says": "欧盟与印尼签署CEPA与IPA协定，覆盖7.3亿人口，预计每年节省6亿欧元关税并提升对印尼出口。",
+        "says": "欧盟与印尼在布鲁塞尔总部签署全面经济伙伴关系协定与投资保护协定，将取消90%以上进出口商品的关税。",
         "same": [
-         "签署自贸协定",
-         "7.3亿人口",
-         "节省6亿欧元"
+         "取消关税"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "ae393107aeab",
         "t": "欧盟与印度尼西亚签署贸易协议以开放市场并保障供应链",
-        "says": "欧盟与印尼正式签署贸易协议，旨在开放彼此市场并确保供应链安全。",
+        "says": "双方正式签署贸易协议以开放彼此市场并确保关键供应链安全，标志着深化经贸合作的重要一步。",
         "same": [
-         "签署自贸协议"
+         "签署贸易协议"
         ],
         "view": null
        },
        {
         "id": "a1b6e93c1720",
         "t": "欧盟与印尼正式签署自由贸易协定",
-        "says": "欧盟与印尼签署自由贸易与投资保护协定，旨在减少贸易壁垒并在美中贸易困难之际保持开放。",
+        "says": "历经近10年谈判后签署自贸协定，代表市场规模达7.3亿人，旨在减少贸易壁垒并吸引战略行业投资。",
         "same": [
-         "签署自由贸易",
-         "7.3亿人口",
-         "节省6亿欧元"
+         "十年谈判"
         ],
         "view": "看法 A"
        },
@@ -380,34 +398,43 @@
         "t": "印尼欧盟全面经济伙伴关系协定迈入新时代",
         "says": "印尼与欧盟的全面经济伙伴关系协定迈入新时代。",
         "same": [
-         "全面经济伙伴关系"
+         "经贸协定"
         ],
         "view": null
        },
        {
         "id": "103d116583ed",
         "t": "欧盟与印尼签署历史性贸易与投资协定",
-        "says": "欧盟与印尼签署历史性贸易与投资协定，深化经济联系并扩大市场准入。",
+        "says": "正式签署历史性协定以深化经济联系并扩大市场准入，反映欧盟加强与东南亚主要经济体经贸布局。",
         "same": [
-         "签署贸易与投资"
+         "签署协定"
         ],
         "view": null
        },
        {
         "id": "2d84193be60f",
-        "t": "NST Online：欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
+        "t": "欧盟与印尼签署雄心勃勃贸易协定，2027年实施",
         "says": "欧盟与印尼签署了雄心勃勃的贸易协定，计划于2027年实施。",
         "same": [
-         "签署贸易协定"
+         "2027年实施"
         ],
         "view": null
+       },
+       {
+        "id": "5648849fe01f",
+        "t": "KONTAN",
+        "says": "经过十年艰难谈判正式签署双边贸易协定，预计2027年初生效，用以实现贸易多元化并对冲美国关税冲击。",
+        "same": [
+         "2027年实施"
+        ],
+        "view": "看法 B"
        }
       ]
      },
      "loose": false,
-     "sig": "ae5544f0",
+     "sig": "0b23e6b3",
      "v": 2,
-     "at": "2026-11-22T11:06:16.086Z",
+     "at": "2026-11-23T00:15:23.412Z",
      "img": {
       "src": "https://static.dw.com/image/57193875_6.jpg",
       "credit": "DW",
@@ -1069,23 +1096,49 @@
       "credit": "Malay Mail",
       "kind": "A"
      }
+    },
+    "5648849fe01f": {
+     "id": "5648849fe01f",
+     "title": "EU and Indonesia Sign Trade Deal After 10 Years of Negotiations",
+     "zh": "欧盟与印尼历经十年谈判后正式签署贸易协定",
+     "short": "欧盟印尼签贸易协定",
+     "url": "https://english.kontan.co.id/news/eu-and-indonesia-sign-trade-deal-after-10-years-of-negotiations",
+     "source": "KONTAN",
+     "cat": "sea",
+     "published": "2026-11-22T23:29:19.000Z",
+     "sum": "经过长达十年的艰难谈判，欧盟与印尼终于正式签署双边贸易协定。此举将进一步深化双方经贸联系，并为印尼开拓更为广阔的欧洲市场。协议预计将为双方企业带来更多合作机遇。",
+     "img": {
+      "src": "https://foto.kontan.co.id/q2_FgFurOz-I1Yf8ZA5khN_7gRU=/smart/filters:format(webp)/2025/06/07/273764158p.jpg",
+      "credit": "KONTAN",
+      "kind": "A"
+     }
+    },
+    "391f570c75a2": {
+     "id": "391f570c75a2",
+     "title": "'Not everything we do has to be viewed through US-China competition': PM Wong on how S'pore creates value in multipolar world",
+     "zh": "黄循财：新加坡在多极世界中通过价值创造立足",
+     "short": "黄循财谈多极世界定位",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeHZpRHp5c0VwWDk2bXJ0VDJxWWJfclQ5WHJndWZvVkdxdUFqeUxya3dRNlBfUTNrak1KaDl1MnEwNklGSC1GR0ZnMU13aDlqVWNsRFh4RloyY1VNUkloU01JRGRyUVNCeEZSZE5aZVdINk1ZcHh3TGlobEdFWDFDZw?oc=5",
+     "source": "Mothership",
+     "cat": "sea",
+     "published": "2026-11-22T01:41:27.000Z"
     }
    },
    "name": "新加坡总理黄循财访华",
-   "en": "Lawrence Wong visit China Beijing",
-   "wiki": "Singapore–China relations",
+   "en": "Singapore Prime Minister Lawrence Wong visit China",
+   "wiki": "Lawrence Wong",
    "cat": "china",
-   "last": "2026-11-22T18:29:48.483Z",
+   "last": "2026-11-23T00:12:38.004Z",
    "hidden": false,
-   "short": "黄循财访华会见李强",
-   "key": "新中深化合作与自贸协定谈判",
-   "overview": "新加坡总理黄循财访问中国并会见李强，双方探讨了务实合作，并预期将在多领域达成多项协议与倡议。",
+   "short": "黄循财访华",
+   "key": "黄循财访华会见李强，探讨深化经贸合作",
+   "overview": "新加坡总理黄循财访问中国并会见中国总理李强，双方探讨深化经贸与自贸协定升级，同时强调防范规避美国出口管制的行为。",
    "minorText": [],
    "links": [
     {
-     "from": "493f4a17-1",
-     "to": "493f4a17-2",
-     "t": "新加坡总理黄循财与中国领导人会晤，推进多领域协议"
+     "from": "493f4a17-2",
+     "to": "493f4a17-1",
+     "t": "黄循财访华期间与中国领导人会晤，推进多领域合作协议。"
     }
    ],
    "img": {
@@ -1095,15 +1148,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 21,
-    "stories": 36,
+    "sources": 23,
+    "stories": 38,
     "gdelt": null,
     "wiki": {
-     "title": "Singapore–China relations",
-     "views": 2,
-     "ratio": 7
+     "title": "Lawrence Wong",
+     "views": 1560,
+     "ratio": 0.8
     },
-    "at": "2026-11-22T18:32:20.311Z"
+    "at": "2026-11-23T00:17:07.401Z"
    }
   },
   {
@@ -1112,7 +1165,7 @@
    "lines": [
     {
      "id": "6e6b7acb-1",
-     "t": "协议草案僵局与延时谈判",
+     "t": "大会陷入僵局与各方批评",
      "ids": [
       "a3764b25182c",
       "b7be9e2e4afd",
@@ -1125,159 +1178,162 @@
       "9167ab9ea179",
       "eadc5b447bb3",
       "e0aab1d66fdb",
-      "ed7322a5b6c5"
+      "ed7322a5b6c5",
+      "919da9bce35e",
+      "83c8a30ff39a"
      ],
      "w": {
-      "short": "气候大会延时陷入僵局",
-      "key": "第31届联合国气候大会因化石燃料等议题分歧陷入僵局并超时谈判。",
-      "title": "第31届联合国气候大会陷入僵局：化石燃料去留引发超时谈判",
-      "summary": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，各方因协议草案剔除化石燃料内容而陷入严重僵局。欧盟及多个国家对此强烈不满并威胁退出，沙特等产油国则主张移除相关表述。大会主席国正紧急斡旋，力求在最后期限前达成妥协。",
+      "short": "第31届气候大会陷僵局",
+      "key": "第31届联合国气候大会因化石燃料等议题陷入严重僵局",
+      "title": "第31届联合国气候大会陷入僵局：化石燃料去留引发激烈博弈",
+      "summary": "在土耳其举行的第31届联合国气候变化大会进入加时阶段，由于最新协议草案剔除了化石燃料相关内容，引发欧盟及多个国家强烈不满并导致谈判陷入僵局。各方在气候融资、减排目标以及是否承认全球升温将突破1.5度等问题上分歧严重。会议主席国正紧急斡旋，力求达成最终妥协。",
       "common": [
        {
-        "t": "第31届联合国气候大会因分歧陷入超时谈判",
-        "src": [
-         "France 24",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "最新协议草案删除了关于化石燃料的内容",
-        "src": [
-         "France 24",
-         "Al Jazeera",
-         "NST Online"
-        ]
-       },
-       {
-        "t": "欧盟及多国对草案剔除化石燃料表示强烈不满",
+        "t": "第31届联合国气候变化大会因化石燃料议题陷入加时与僵局。",
         "src": [
          "France 24",
          "BBC World",
+         "Al Jazeera",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "修订后的协议草案删除了关于化石燃料的内容，引发欧盟及多个国家强烈反对。",
+        "src": [
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
          "NST Online"
         ]
        }
       ],
       "single": [
        {
-        "t": "大会可能首次承认全球气温升幅超过1.5摄氏度的目标已经错过",
+        "t": "非洲国家在大会上喊话表示他们不是来乞讨的。",
+        "src": "Al Jazeera"
+       },
+       {
+        "t": "本次大会可能首次在正式协议中承认全球升温控制在1.5度的目标已经错过。",
         "src": "BBC World"
        },
        {
-        "t": "非洲国家在大会上喊话称他们不是来乞讨的",
-        "src": "Al Jazeera"
+        "t": "由于政治领导力有限、缺乏美国官方代表团及官僚延误，外界对本次大会有效性产生质疑。",
+        "src": "France 24"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "BBC World"
+         "France 24",
+         "BBC World",
+         "Al Jazeera",
+         "NST Online"
         ],
-        "t": "本次峰会应聚焦于落实和向清洁能源转型，因此无需在协议中强制纳入关于化石燃料的措辞。"
+        "t": "认为必须在最终协议中保留逐步淘汰化石燃料的明确承诺，没有化石燃料提及的协议是不可接受的。"
        },
        {
         "label": "看法 B",
         "src": [
-         "BBC World",
-         "NST Online"
+         "BBC World"
         ],
-        "t": "协议若不提及化石燃料或缺乏实质内容是不可接受的，这触及了应对气候变化的根本红线。"
+        "t": "澳大利亚气候变化和能源部长认为峰会应当关注向清洁能源过渡和实际执行，而非必须在文本中纠结化石燃料的措辞。"
        }
       ],
-      "unknown": "目前尚不确定在延时谈判的最后期限前，各方是否能彻底化解分歧并最终签署全球气候协议。",
+      "unknown": "目前尚不清楚各方是否能在最后期限前就修改后的最终协议文本达成一致。",
       "impact": {
-       "my": "极端天气和全球气候变化可能对马来西亚的农业、水资源及沿海地区产生长期影响。",
-       "sea": "东南亚地区正面临气候相关灾害和极端天气的威胁，全球气候协议的走向将直接影响区域减排与适应能力。",
-       "world": "全球各国在化石燃料和减排目标上的博弈，将决定国际社会应对气温上升和气候危机的整体成效。"
+       "my": null,
+       "sea": null,
+       "world": "全球气候协议陷入僵局可能延缓各国应对极端天气和全球变暖的共同行动。"
       },
-      "people": [],
-      "photo": "climate change conference negotiation",
+      "people": [
+       "Juan Carlos Navarro",
+       "Monique Barbut"
+      ],
+      "photo": "climate change conference",
       "per": [
        {
         "id": "a3764b25182c",
         "t": "联合国气候变化大会成史上最糟糕一届？",
-        "says": "由于政治领导力有限及官僚延误，舆论质疑本次大会有效性并讨论其是否为最糟一届。",
+        "says": "由于缺乏美国官方代表团及政治领导力有限，舆论对本次大会有效性提出质疑。",
         "same": [
-         "气候大会有效性受质疑"
+         "大会陷入僵局"
         ],
         "view": null
        },
        {
         "id": "b7be9e2e4afd",
         "t": "第三十一届联合国气候大会分歧加剧 协议草案剔除化石燃料",
-        "says": "大会进入加时阶段，修订后草案删除了化石燃料内容，引发欧盟及十多国强烈不满。",
+        "says": "草案删除了化石燃料内容，引发欧盟及十多个国家强烈不满。",
         "same": [
-         "大会陷入超时谈判",
-         "草案剔除化石燃料",
-         "欧盟不满"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "c3012d485eca",
-        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
-        "says": "谈判因对早期草案的批评而超时，欧盟警告若无实质内容峰会将沦为化石燃料峰会。",
-        "same": [
-         "谈判超时"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "6b56be4bc539",
-        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
-        "says": "各部长力争将摆脱油气煤的承诺写回协议，澳大利亚代表则认为峰会应聚焦清洁能源转型。",
-        "same": [
-         "化石燃料存分歧"
+         "剔除化石燃料"
         ],
         "view": "看法 A"
        },
        {
+        "id": "c3012d485eca",
+        "t": "各国竞相达成《联合国气候变化框架公约》第三十一届缔约方会议协议",
+        "says": "谈判因对草案批评而超时，欧盟警告若提案缺乏实质内容峰会将沦为化石燃料峰会。",
+        "same": [
+         "大会陷入僵局"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b56be4bc539",
+        "t": "近两百国就化石燃料存分歧 第31届联合国气候峰会陷入僵局",
+        "says": "多国部长极力争取将摆脱化石燃料的承诺重新写入协议，而澳大利亚则认为峰会应聚焦清洁能源过渡。",
+        "same": [
+         "化石燃料分歧"
+        ],
+        "view": "看法 B"
+       },
+       {
         "id": "89090d2f3063",
         "t": "各国难就气候计划达成一致，COP31协议陷入僵局",
-        "says": "大会因化石燃料争议进入延时，多国批评最新草案删除了相关表述并削弱了减排力度。",
+        "says": "COP31因化石燃料的激烈冲突进入加时，多国批评最新草案删除了化石燃料相关表述。",
         "same": [
-         "大会陷入超时谈判",
-         "草案剔除化石燃料"
+         "剔除化石燃料"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "4e24f14be340",
         "t": "化石燃料谈判陷入僵局，COP31气候峰会延时进行",
-        "says": "化石燃料谈判陷入僵局，COP31气候峰会延时进行。",
+        "says": "化石燃料谈判陷入僵局，气候峰会延时进行。",
         "same": [
-         "大会陷入超时谈判"
+         "大会陷入僵局"
         ],
         "view": null
        },
        {
         "id": "688095944714",
         "t": "非洲国家在联合国气候变化大会喊话：我们不是来乞讨的",
-        "says": "非洲国家在联合国气候变化大会喊话称我们不是来乞讨的。",
-        "same": [],
+        "says": "非洲国家在联合国气候变化大会上喊话表示我们不是来乞讨的。",
+        "same": [
+         "大会陷入僵局"
+        ],
         "view": null
        },
        {
         "id": "cf86cc1e39a1",
         "t": "化石燃料分歧加剧 全球气候协议达成恐面临破裂风险",
-        "says": "气候谈判进入加时赛，草案剔除煤油气引发退场威胁，主席国正紧急斡旋求取妥协。",
+        "says": "草案剥离煤炭、石油和天然气引起抗议和退场威胁，欧盟与沙特分歧严重。",
         "same": [
-         "大会陷入超时谈判",
-         "草案剔除化石燃料"
+         "剔除化石燃料"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        }
       ]
      },
-     "loose": false,
-     "sig": "f357f6ae",
+     "loose": true,
+     "sig": "93626ed9",
      "v": 2,
-     "at": "2026-11-22T18:29:56.884Z",
+     "at": "2026-11-23T00:15:02.767Z",
      "img": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Tuvalu_woman_speaking_on_the_climate_threat_her_culture_and_nation_face.jpg/960px-Tuvalu_woman_speaking_on_the_climate_threat_her_culture_and_nation_face.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "Takver from Australia · Wikimedia Commons · CC BY-SA 2.0",
-      "kind": "B"
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5253/live/c9ca5500-e579-11f1-a5f6-b3028adf2d6d.jpg",
+      "credit": "BBC World",
+      "kind": "A"
      }
     }
    ],
@@ -1419,32 +1475,55 @@
       "credit": "Al Jazeera",
       "kind": "A"
      }
+    },
+    "919da9bce35e": {
+     "id": "919da9bce35e",
+     "title": "Climate talks in Turkey collapse over fossil fuel divisions",
+     "zh": "因化石燃料分歧，土耳其气候大会谈判破裂",
+     "short": "气候峰会谈判破裂",
+     "url": "https://www.zaobao.com.sg/en/news/singapore/climate-talks-turkey-collapse-over-fossil-fuel-divisions",
+     "source": "联合早报",
+     "cat": "world",
+     "published": "2026-11-22T23:22:08.000Z",
+     "sum": "由于各方在化石燃料的淘汰和使用问题上存在严重分歧，于土耳其举行的气候谈判最终宣告破裂。这也凸显了全球各国在绿色转型和能源政策上的巨大利益博弈。气候治理进程再次遭遇挫折。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/b3c0d5491f75a5b65573692579b973fb159136e0a6d1a023e88d6571d00c3acf",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "83c8a30ff39a": {
+     "id": "83c8a30ff39a",
+     "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
+     "zh": "澳大利亚政坛：气候峰会未能达成协议致分歧难解",
+     "short": "气候峰会分歧难解",
+     "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
+     "source": "The Guardian World",
+     "cat": "world",
+     "published": "2026-11-22T23:51:38.000Z"
     }
    },
    "name": "第31届联合国气候大会",
-   "en": "COP31 climate summit",
-   "wiki": "United Nations Climate Change Conference",
+   "en": "COP31 climate summit fossil fuels",
+   "wiki": "2026 United Nations Climate Change Conference",
    "cat": "world",
-   "last": "2026-11-22T18:29:48.482Z",
+   "last": "2026-11-23T00:12:38.004Z",
    "hidden": false,
    "heat": {
-    "score": 3,
-    "sources": 5,
-    "stories": 12,
-    "gdelt": {
-     "ratio": 5.2,
-     "share": 0.2121
-    },
+    "score": 2,
+    "sources": 6,
+    "stories": 14,
+    "gdelt": null,
     "wiki": {
-     "title": "United Nations Climate Change Conference",
-     "views": 623,
-     "ratio": 1.3
+     "title": "2026 United Nations Climate Change Conference",
+     "views": 1444,
+     "ratio": 1.5
     },
-    "at": "2026-11-22T18:33:08.824Z"
+    "at": "2026-11-23T00:17:57.020Z"
    },
-   "short": "COP31陷入僵局",
-   "key": "草案剔除化石燃料引发各方激烈对抗",
-   "overview": "第31届联合国气候变化大会进入加时阶段，由于修订草案删除了化石燃料相关内容，引发欧盟等十多国强烈不满与退场威胁，主席国正紧急斡旋中。",
+   "short": "第31届气候大会陷僵局",
+   "key": "草案剔除化石燃料引发强烈不满",
+   "overview": "第31届联合国气候大会因草案剔除化石燃料陷入僵局，欧盟及多国强烈抗议并面临谈判超时，各方在融资和减排目标上分歧严重。",
    "minorText": [],
    "links": [],
    "img": {
@@ -1459,7 +1538,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "科技股与纳斯达克大跌",
+     "t": "科技股与人工智能板块大跌",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -1485,153 +1564,164 @@
       "fe7ae0ade208",
       "cdf73407c7b6",
       "8e797836f2dc",
-      "be75ea6ce39a"
+      "be75ea6ce39a",
+      "c8ea599deb5e",
+      "e907fc2d9d1c",
+      "f6de207f1ae3",
+      "fdc72ec7fe0d"
      ],
      "w": {
-      "short": "全球股市暴跌AI遭抛售",
-      "key": "科技股抛售潮与人工智能担忧引发全球股市与期指大跌",
-      "title": "人工智能抛售潮引发全球股市与美股期指重挫",
-      "summary": "受人工智能板块抛售潮加剧及美联储鹰派预期影响，全球股市与美股期指显著下挫，亚洲市场迎来近年最糟表现。跨国资产与加密货币集体遭遇抛售，总市值大幅蒸发。市场避险情绪升温，投资者对高估值及宏观经济前景感到担忧。",
+      "short": "全球科技股与AI遭抛售",
+      "key": "人工智能板块抛售与科技股大跌引发全球市场震动",
+      "title": "人工智能板块抛售与监管：全球科技股与股市遭遇重挫",
+      "summary": "受人工智能板块抛售潮加剧及投资者对高估值担忧影响，标普500与纳斯达克等美股指数大幅下挫，全球主要股市普遍遭遇重创。亚洲市场迎来数年来的最糟单周表现，多国科技巨头与主要指数显著走低。市场情绪已从低吸转向担忧人工智能的估值与盈利能力。",
       "common": [
        {
-        "t": "全球股市遭遇科技股领衔的抛售潮，主要股市与美联储政策预期引发市场下跌。",
+        "t": "全球股市因科技股与人工智能板块抛售而遭遇下跌。",
         "src": [
          "AP News",
          "Yahoo Finance",
          "Anadolu Ajansı",
          "London South East",
-         "The Guardian World",
-         "TradingView"
+         "The Guardian World"
         ]
        },
        {
-        "t": "美国国债收益率下跌及避险情绪升温，反映出投资者对宏观经济和资产估值的担忧。",
+        "t": "亚洲市场面临自2020年以来表现最糟糕的一周。",
         "src": [
-         "AP News",
-         "Yahoo Finance",
-         "TradingView"
+         "London South East",
+         "The Guardian World"
         ]
        }
       ],
       "single": [
        {
-        "t": "亚洲股市面临2020年以来最糟糕的一周。",
-        "src": "London South East"
+        "t": "人工智能巨头Anthropic的首次公开募股未能阻止相关公司的抛售潮，其股价在冲高后回落至接近发行价水平。",
+        "src": "The Guardian World"
        },
        {
-        "t": "全球金融市场在过去24小时内总共蒸发了约4.28万亿美元市值。",
-        "src": "TradingView"
+        "t": "美联储维持鹰派货币政策的预期升温，加之高利率环境持续，压抑了市场风险偏好。",
+        "src": "Anadolu Ajansı"
+       },
+       {
+        "t": "美国国债收益率录得下跌，反映出市场避险情绪升温及对宏观经济走向的重新评估。",
+        "src": "Yahoo Finance"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "Anadolu Ajansı"
+         "The Guardian World"
         ],
-        "t": "市场下跌由美联储维持鹰派货币政策预期与人工智能盈利风险导致。"
+        "t": "市场情绪转变源于担忧人工智能估值过高、盈利能力不足及投资可持续性。"
        },
        {
         "label": "看法 B",
         "src": [
-         "TradingView"
+         "Anadolu Ajansı"
         ],
-        "t": "核心原因是担忧美联储可能维持高利率更长时间，且摩根大通预测联储接下来可能连续三次加息。"
+        "t": "全球市场下跌是受美联储鹰派预期与人工智能盈利风险共同导致的。"
+       },
+       {
+        "label": "看法 C",
+        "src": [
+         "Yahoo Finance"
+        ],
+        "t": "抛售反映了投资者对高估值科技板块的担忧以及对宏观经济走向的重新评估。"
        }
       ],
       "unknown": null,
       "impact": {
        "my": null,
-       "sea": null,
-       "world": "全球股市与多个主要市场遭受抛售潮重创，跨国资产价格承压调整。"
+       "sea": "亚洲市场创下2020年以来最糟糕的一周，亚太主要科技指数大跌。",
+       "world": "全球股市及主要科技板块遭遇重挫，标普500和纳斯达克等指数大幅下挫。"
       },
       "people": [],
-      "photo": "global stock market crash",
+      "photo": "technology stock market crash",
       "per": [
        {
         "id": "a4b668b9adb1",
         "t": "油金价格下跌拖累多伦多股市期货",
         "says": "油金价格下跌拖累多伦多股市期货。",
-        "same": [
-         "股市期货"
-        ],
+        "same": [],
         "view": null
        },
        {
         "id": "e42cb66d0684",
         "t": "标普500暴跌3.7%纳指转跌，科技股抛售潮加剧",
-        "says": "受科技股抛售潮加剧影响，标普500指数大幅下挫3.7%，纳斯达克综合指数今年以来首次转跌。全球市场正面临抛售压力。",
+        "says": "受科技股抛售潮加剧影响，标普500指数大幅下挫3.7%，纳斯达克综合指数今年以来首次转跌。",
         "same": [
          "科技股抛售",
-         "股市下跌"
+         "标普500下跌"
+        ],
+        "view": null
+       },
+       {
+        "id": "c8ea599deb5e",
+        "t": "美股期货反弹，亚洲市场严阵以待人工智能崩盘",
+        "says": "美国股指期货在盘前出现反弹迹象，但亚洲股市正严阵以待防范人工智能估值过高引发的抛售。",
+        "same": [
+         "亚洲股市",
+         "人工智能抛售"
         ],
         "view": null
        },
        {
         "id": "370e31bae833",
         "t": "科技股领跌全球股市，美国国债收益率下跌",
-        "says": "全球股市遭遇科技股领衔的抛售潮，主要股市显著下挫，同时美国国债收益率录得下跌。市场避险情绪升温。",
+        "says": "全球股市遭遇科技股领衔的抛售潮，美国国债收益率录得下跌。",
         "same": [
          "科技股领跌",
-         "国债收益率"
+         "全球股市下跌"
         ],
-        "view": null
+        "view": "看法 C"
        },
        {
         "id": "af87ca270f5d",
         "t": "美联储鹰派预期与AI盈利风险致全球市场下跌",
-        "says": "由于市场对美联储维持鹰派货币政策的预期升温，加之人工智能盈利风险引发担忧，全球市场普遍出现下滑。",
+        "says": "由于美联储鹰派预期升温加之人工智能盈利风险，全球市场普遍下滑。",
         "same": [
-         "美联储鹰派",
-         "人工智能"
+         "全球市场下跌",
+         "人工智能风险"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        },
        {
         "id": "907f3c71c379",
         "t": "AI抛售潮加剧全球股市下跌，亚洲迎来2020年最糟一周",
-        "says": "由于人工智能板块遭抛售，全球股市遭遇跌势，亚洲股市更面临2020年以来表现最糟糕的一周。",
+        "says": "由于人工智能板块遭抛售，全球股市下跌，亚洲迎来2020年以来最糟一周。",
         "same": [
-         "人工智能",
-         "全球股市"
+         "人工智能抛售",
+         "亚洲最糟一周"
         ],
         "view": null
        },
        {
         "id": "fd2811614640",
         "t": "全球股市暴跌，AI板块抛售潮未止",
-        "says": "由于Anthropic的IPO未能阻止AI相关公司的抛售潮，全球股市遭遇重挫。亚洲市场创下2020年以来最糟糕的一周。",
+        "says": "Anthropic的首次公开募股未能阻止人工智能相关公司抛售，全球股市遭遇重挫。",
         "same": [
-         "人工智能",
-         "全球股市"
+         "全球股市暴跌",
+         "亚洲最糟一周"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "72d18114a820",
         "t": "美股期指下跌，AI担忧拖累全球市场",
-        "says": "受Anthropic股价回落及市场对人工智能板块的担忧影响，美国股指期货下跌，并拖累全球市场情绪。",
+        "says": "受Anthropic股价回落及人工智能担忧影响，美国股指期货下跌并拖累全球市场。",
         "same": [
-         "美股期指",
-         "人工智能"
+         "美股期指下跌",
+         "人工智能担忧"
         ],
         "view": null
-       },
-       {
-        "id": "3fc446211522",
-        "t": "股票加密货币黄金白银遭抛售，4.28万亿美元蒸发",
-        "says": "全球金融市场遭遇全线抛售，股票、加密货币、黄金和白银价格集体大跌，总计有高达4.28万亿美元的市值蒸发。",
-        "same": [
-         "抛售",
-         "美联储高利率"
-        ],
-        "view": "看法 B"
        }
       ]
      },
      "loose": true,
-     "sig": "1d7f9fc8",
-     "at": "2026-11-22T04:05:28.714Z",
+     "sig": "2ad5bca3",
+     "at": "2026-11-23T00:14:09.671Z",
      "img": {
       "src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/20/thumbs_b_c_de941811efadf77c214072969144364d.jpg",
       "credit": "Anadolu Ajansı",
@@ -1788,7 +1878,7 @@
     },
     {
      "id": "3700168d-3",
-     "t": "特朗普关税与海外数据中心限制",
+     "t": "特朗普关税威胁与数据中心",
      "ids": [
       "703b07e4b163",
       "2c3757b0893a",
@@ -1815,16 +1905,17 @@
       "4211371d7e8f",
       "ff2e7c21e6ba",
       "868e9366e68a",
-      "2f45df99b6bd"
+      "2f45df99b6bd",
+      "b4e6b4634b9a"
      ],
      "w": {
-      "short": "英伟达遭调查",
-      "key": "英伟达卷入芯片出口及会计账目调查，引发市场震动。",
-      "title": "美 SEC 与加州调查英伟达：芯片出口及账目问题引发市场震荡",
-      "summary": "美国证券交易委员会及加州司法部门正对英伟达展开调查，聚焦其会计账目及高级芯片出口是否违规流入中国。与此同时，柔佛州的杨忠礼电力数据中心被指涉嫌协助远程访问英伟达芯片，引发马美各界关注与澄清。此外，台积电及美国官方也进一步收紧了对中国的芯片出口和制造限制。",
+      "short": "英伟达卷入调查与关税威胁",
+      "key": "美国监管机构与加州对英伟达展开调查，同时特朗普威胁对海外数据中心征收关税。",
+      "title": "英伟达面临美证交会及加州调查，特朗普威胁对海外数据中心征关税",
+      "summary": "美国证券交易委员会与加州总检察长正对英伟达及其前总裁黄仁勋展开调查，涉及会计账目及芯片出口是否违规流入中国。与此同时，美国总统特朗普威胁对在海外建造数据中心的企业征收关税，并收紧对中国的芯片出口限制。马来西亚杨忠礼电力则澄清其柔佛数据中心并未涉及协助转移芯片给中国客户的指控。",
       "common": [
        {
-        "t": "美国收紧对中国的芯片出口和技术限制",
+        "t": "美国收紧对中国的芯片出口限制",
         "src": [
          "Free Malaysia Today",
          "联合早报"
@@ -1837,69 +1928,87 @@
         "src": "Reuters"
        },
        {
-        "t": "加州总检察长向英伟达发出传票，调查其高级芯片出口是否流入中国",
-        "src": "The Guardian World"
+        "t": "杨忠礼电力否认柔佛数据中心协助将英伟达芯片转移给中国客户",
+        "src": "Free Malaysia Today"
        },
        {
-        "t": "杨忠礼电力否认柔佛数据中心协助转移英伟达芯片给中国客户",
-        "src": "Free Malaysia Today"
+        "t": "特朗普威胁对在海外兴建数据中心的美国企业征收巨额关税",
+        "src": "The Edge Malaysia"
        }
       ],
-      "views": [],
-      "unknown": "目前英伟达相关调查的具体细节尚未完全披露。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Free Malaysia Today",
+         "The Edge Malaysia"
+        ],
+        "t": "杨忠礼电力澄清其柔佛数据中心仅提供合规的国际 kolokasi 服务，未受调查且营运未受新规影响。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "外媒及相关报道指出，有指控称新加坡 Megaspeed 及其子公司透过柔佛数据中心让阿里巴巴远端访问英伟达芯片。"
+       }
+      ],
+      "unknown": "美中全面协议的具体细节及英伟达相关调查的最终走向目前尚未完全披露。",
       "impact": {
-       "my": "柔佛州杨忠礼电力的数据中心被卷入跨国芯片流向争议，引发外界对大马数据中心合规性的关注。",
-       "sea": "新加坡企业Megaspeed及相关子公司因涉嫌转运芯片遭到调查，牵动东南亚区域供应链。",
-       "world": "英伟达面临美中芯片出口管制、监管调查及高管变动，对全球半导体产业链和科技股情绪造成冲击。"
+       "my": "柔佛数据中心业务受到国际媒体关注与管理层澄清，但大马分析界仍看好其长远发展前景。",
+       "sea": "新加坡相关企业卷入英伟达芯片流向中国的调查，牵动东南亚区域科技供应链。",
+       "world": "美国对英伟达的监管调查、台积电收紧对华代工限制以及关税威胁，对全球人工智能与芯片产业链造成冲击。"
       },
       "people": [
        "Jensen Huang",
-       "Alice Huang"
+       "Rob Bonta"
       ],
-      "photo": "server rack",
+      "photo": "data center servers",
       "per": [
        {
         "id": "ad379fa36e36",
         "t": "消息称英伟达会计账目正遭美国证券交易委员会调查",
-        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，具体细节尚未完全披露。",
+        "says": "美国证券交易委员会正在对英伟达的会计账目进行调查，可能冲击高估值科技股市场情绪。",
         "same": [
-         "调查"
+         "英伟达"
         ],
         "view": null
        },
        {
         "id": "1308417160fd",
         "t": "特朗普称仍支持鲁特尼克，敦促英伟达黄仁勋道歉",
-        "says": "特朗普表达了相关政治立场并提及黄仁勋。",
-        "same": [],
+        "says": "特朗普敦促英伟达黄仁勋道歉并维持相关对华芯片立场。",
+        "same": [
+         "特朗普"
+        ],
         "view": null
        },
        {
         "id": "703b07e4b163",
         "t": "杨忠礼电力否认协助将英伟达芯片转移给中国客户",
-        "says": "YTL Power澄清其柔佛数据中心仅提供国际 kolokasi 服务，未协助将芯片转移给中国客户。",
+        "says": "YTL Power 否认柔佛数据中心协助转移英伟达芯片给中国客户，强调营运符合法律与美国出口管制。",
         "same": [
-         "数据中心",
-         "柔佛"
+         "杨忠礼电力",
+         "柔佛数据中心"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "2c3757b0893a",
         "t": "加州就芯片出口是否流入中国一事调查英伟达",
-        "says": "加州总检察长对英伟达发出调查传票，以查明高级芯片是否违规流向中国及是否误导投资者。",
+        "says": "加州总检察长对英伟达及前CEO黄仁勋发出传票，调查先进芯片是否违规流入中国及误导投资者。",
         "same": [
-         "出口",
-         "中国"
+         "英伟达",
+         "黄仁勋"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "4cf449e2548c",
         "t": "台积电收紧中国AI芯片限制以堵住美新规漏洞",
-        "says": "台积电配合美国新规，收紧中国芯片设计客户的先进制造服务限制。",
+        "says": "台积电配合美国新规收紧对中国AI芯片限制，暂停部分先进制程订单。",
         "same": [
-         "限制",
+         "台积电",
          "中国"
         ],
         "view": null
@@ -1907,18 +2016,19 @@
        {
         "id": "4dc84061523a",
         "t": "纽约时报称杨忠礼数据中心助阿里巴巴远端访问英伟达芯片，管理层澄清未受调查",
-        "says": "媒体称柔佛数据中心涉嫌协助阿里巴巴远端访问英伟达芯片，但管理层澄清未受调查。",
+        "says": "纽约时报指柔佛数据中心协助阿里巴巴远端访问芯片，管理层澄清未受调查且业务前景正面。",
         "same": [
-         "数据中心",
-         "柔佛"
+         "杨忠礼电力",
+         "柔佛数据中心"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "75075c1c3f03",
         "t": "特朗普称只应向中国出售较旧芯片",
-        "says": "美国总统特朗普表示应仅向中国出售技术较落后的旧款芯片。",
+        "says": "特朗普表示美国应仅向中国出售技术较落后的旧款芯片，凸显对华持续维持技术限制。",
         "same": [
+         "特朗普",
          "中国"
         ],
         "view": null
@@ -1926,8 +2036,9 @@
        {
         "id": "3c220e7da811",
         "t": "特朗普威胁对在海外建数据中心的企开征关税",
-        "says": "特朗普警告将对在海外兴建数据中心的美国企业征收巨额关税。",
+        "says": "特朗普威胁对在海外兴建数据中心的美国企业征收巨额关税，以促使科技基础设施留在本土。",
         "same": [
+         "特朗普",
          "数据中心"
         ],
         "view": null
@@ -1935,11 +2046,11 @@
       ]
      },
      "loose": true,
-     "sig": "b5f521bb",
-     "at": "2026-11-22T04:02:20.461Z",
+     "sig": "6a88337a",
+     "at": "2026-11-23T00:14:28.400Z",
      "img": {
-      "src": "https://i.guim.co.uk/img/media/d8e256cb4f13741672cadb73a1484717745e43a9/424_0_4240_3392/master/4240.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba5ae30a51442a04ba6a938dbed986dd",
-      "credit": "The Guardian World",
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2025/05/3801d3ad-ytl-data-centers-ytl-pic-220525.webp",
+      "credit": "Free Malaysia Today",
       "kind": "A"
      },
      "v": 2
@@ -2137,11 +2248,17 @@
       "credit": "CNA Business",
       "kind": "A"
      }
+    },
+    {
+     "id": "3700168d-6",
+     "t": "数据中心与能源消耗隐忧",
+     "ids": [
+      "9984992e1309",
+      "74f939e081ec"
+     ]
     }
    ],
-   "minor": [
-    "f6de207f1ae3"
-   ],
+   "minor": [],
    "stories": {
     "370e31bae833": {
      "id": "370e31bae833",
@@ -2926,35 +3043,106 @@
      "cat": "china",
      "published": "2026-11-22T02:56:01.000Z",
      "sum": "中国的人工智能相关板块市值大幅蒸发，曾经的热门投资遭遇资金撤离。市场情绪降温导致相关资产表现低迷。"
+    },
+    "c8ea599deb5e": {
+     "id": "c8ea599deb5e",
+     "title": "US futures bounce while Asia markets brace for AI wipeout",
+     "zh": "美股期货反弹，亚洲市场严阵以待人工智能崩盘",
+     "short": "美股期货反弹",
+     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-22/",
+     "source": "Reuters",
+     "cat": "finance",
+     "published": "2026-11-22T23:49:29.000Z",
+     "sum": "美国股指期货在盘前出现反弹迹象，但亚洲股市正严阵以待，防范因人工智能板块估值过高可能引发的市场抛售潮。投资者对科技股前景保持高度警惕，市场情绪谨慎。"
+    },
+    "e907fc2d9d1c": {
+     "id": "e907fc2d9d1c",
+     "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+     "zh": "旧金山人工智能热潮兴起，泡沫破裂担忧加剧",
+     "short": "人工智能热潮兴起",
+     "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "tech",
+     "published": "2026-11-23T00:08:00.000Z",
+     "sum": "美国旧金山的人工智能产业正迎来蓬勃发展，大量企业和人才涌入这一核心区域。然而，随着估值不断攀升，业内人士对行业是否过热以及未来可能出现泡沫破裂的担忧日益加剧。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4d7f/live/712502a0-e2cd-11f1-99ed-7de3e5932968.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "fdc72ec7fe0d": {
+     "id": "fdc72ec7fe0d",
+     "title": "ASX Preview: Australian Shares to Fall as AI Selloff Deepens; ALS Fiscal H1 Underlying Earnings, Revenue Up",
+     "zh": "澳洲股市预测：受人工智能抛售潮影响将下跌",
+     "short": "澳洲股市或下跌",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2xVcmVlR04yelhEMXBwVmM2ZnhrTmp3cGF1QlNPV3hGQmcwMVYwbFNiUU9LNkszWkxQSl9aQ1hoXzl5LWtHXzFPbURkTm1fV185QU9qYnJsN1YzSmllY1lGSGlCaVNQelVNWlF3amRqZlJwTEs2b1o5Vk5aWDRZQjNHY3FxVWRITnJn?oc=5",
+     "source": "Yahoo Finance Australia",
+     "cat": "finance",
+     "published": "2026-11-22T22:53:22.000Z"
+    },
+    "b4e6b4634b9a": {
+     "id": "b4e6b4634b9a",
+     "title": "China’s spies set sights on AI chips years before Nvidia scandal",
+     "zh": "中国间谍在英伟达丑闻数年前已盯上人工智能芯片",
+     "short": "间谍数年前盯上芯片",
+     "url": "https://www.straitstimes.com/asia/east-asia/chinas-spies-set-sights-on-ai-chips-years-before-nvidia-scandal",
+     "source": "The Straits Times",
+     "cat": "china",
+     "published": "2026-11-23T00:00:00.000Z"
+    },
+    "9984992e1309": {
+     "id": "9984992e1309",
+     "title": "Southeast Asia’s Data-Centre Boom Is the Next Chip Battleground, and the Host Governments Are Holding the Bill",
+     "zh": "东南亚数据中心热潮成芯片新战场，东道国政府买单",
+     "short": "东南亚数据中心热",
+     "url": "https://moderndiplomacy.eu/2026/11/23/us-ai-chip-rule-southeast-asia-data-centres-malaysia-thailand-singapore/",
+     "source": "Modern Diplomacy",
+     "cat": "sea",
+     "published": "2026-11-22T23:00:46.000Z",
+     "sum": "随着东南亚地区迎来数据中心建设热潮，该区域正演变为激烈的芯片供应战场，而东道国政府也面临相应的基建与电力成本考验。海量的投资涌入带动了数字经济，但也对本地资源配置提出挑战。"
+    },
+    "74f939e081ec": {
+     "id": "74f939e081ec",
+     "title": "Why data centers are at the center of the Big Tech backlash",
+     "zh": "为什么数据中心成为大型科技公司反弹焦点",
+     "short": "数据中心成科技界焦点",
+     "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-22T18:08:43.000Z"
     }
    },
-   "name": "人工智能板块抛售",
+   "name": "人工智能板块抛售与监管",
    "en": "artificial intelligence stock selloff",
-   "wiki": "AI boom and stock market impact",
-   "cat": "finance",
-   "last": "2026-11-22T11:06:08.835Z",
+   "wiki": "Artificial intelligence boom",
+   "cat": "tech",
+   "last": "2026-11-23T00:12:38.004Z",
    "hidden": false,
-   "short": "人工智能板块抛售",
-   "key": "全球人工智能板块遭抛售，美股与加密货币大跌",
-   "overview": "受人工智能板块抛售潮及美联储鹰派预期影响，全球股市、加密货币及贵金属遭遇全线重挫，Anthropic上市表现未能提振信心，英伟达则面临美国监管部门调查。",
-   "minorText": [
-    "中国人工智能板块蒸发1.7万亿美元"
-   ],
+   "short": "人工智能板块抛售与监管",
+   "key": "人工智能板块遭抛售，巨头上市未消弭泡沫担忧",
+   "overview": "受人工智能板块抛售潮与高估值担忧影响，美股及全球股市大幅下挫。Anthropic上市虽创下巨额筹资纪录但股价回落，未能扭转市场悲观情绪。同时，英伟达面临美国证券交易委员会与加州总检察长调查，特朗普威胁对海外数据中心征收关税，加剧了市场对行业盈利能力与基建压力的忧虑。",
+   "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "科技股大跌受Anthropic上市后股价回落及人工智能板块抛售加剧拖累。"
+     "t": "科技股大跌受人工智能板块抛售影响，而Anthropic上市未能稳住市场情绪。"
     },
     {
      "from": "3700168d-2",
      "to": "3700168d-1",
-     "t": "Anthropic首次公开招股未能阻止人工智能板块抛售，导致全球股市下挫。"
+     "t": "Anthropic上市后股价重挫，引发标普与纳斯达克等美股期货下跌。"
+    },
+    {
+     "from": "3700168d-1",
+     "to": "3700168d-3",
+     "t": "对人工智能盈利的担忧与英伟达等芯片股面临的调查共同拖累了全球科技股市场。"
     },
     {
      "from": "3700168d-3",
-     "to": "3700168d-1",
-     "t": "英伟达遭调查及海外数据中心限制加剧了科技股与全球市场的避险情绪。"
+     "to": "3700168d-5",
+     "t": "美国收紧对华芯片出口限制并涉及海外数据中心，引发马来西亚等地对数据中心合规与基建的关注。"
     }
    ],
    "img": {
@@ -2964,11 +3152,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 30,
-    "stories": 66,
+    "sources": 33,
+    "stories": 72,
     "gdelt": null,
-    "wiki": null,
-    "at": "2026-11-22T18:32:43.058Z"
+    "wiki": {
+     "title": "Artificial intelligence boom",
+     "views": 1,
+     "ratio": 0.3
+    },
+    "at": "2026-11-23T00:18:13.517Z"
    }
   },
   {
@@ -2977,7 +3169,7 @@
    "lines": [
     {
      "id": "f4bb4b75-1",
-     "t": "波兰领空落入导弹危机",
+     "t": "俄罗斯空袭基辅导致人员伤亡",
      "ids": [
       "f5aa2c1600b1",
       "6fca891ece5d",
@@ -2992,43 +3184,54 @@
       "286cc01f5f7e",
       "aedff471d118",
       "ecdeb85fd175",
-      "cbeed7399dad"
+      "cbeed7399dad",
+      "865fef802953",
+      "53635033745f"
      ],
      "w": {
-      "short": "俄导弹落入波兰领空",
-      "key": "俄罗斯大规模空袭乌克兰并有导弹波及波兰领空引起各方关注。",
-      "title": "俄罗斯大规模空袭乌克兰并有导弹波及波兰领空",
-      "summary": "俄罗斯对乌克兰发动大规模导弹与无人机空袭，造成人员伤亡与基础设施受损。袭击期间，有俄罗斯导弹波及并侵犯了邻国波兰的领空。北约及波兰官方对此表示强烈谴责与关注。",
+      "short": "俄空袭基辅死伤",
+      "key": "俄罗斯大规模空袭乌克兰基辅及多地造成人员伤亡。",
+      "title": "俄罗斯空袭基辅导致人员伤亡与基础设施受损",
+      "summary": "俄罗斯对乌克兰发动大规模导弹与无人机空袭，重点轰炸基辅的桥梁及能源设施，造成多人死伤并引发大范围停电。与此同时，事件波及邻国波兰领空，引发国际社会高度关注与强烈谴责。",
       "common": [
        {
-        "t": "俄罗斯导弹落入或波及波兰领空",
-        "src": [
-         "AP News",
-         "BBC World",
-         "France 24",
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "俄罗斯对乌克兰发动空袭",
+        "t": "俄罗斯对乌克兰及基辅发动空袭",
         "src": [
          "BBC World",
          "Al Jazeera"
         ]
        },
        {
-        "t": "波兰谴责俄罗斯挑衅并要求北约支援",
+        "t": "空袭造成人员伤亡",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击目标包括基辅的桥梁",
+        "src": [
+         "BBC World",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "波兰领空遭导弹或飞行物侵犯",
         "src": [
          "AP News",
          "BBC World",
+         "Al Jazeera",
          "Free Malaysia Today"
         ]
        }
       ],
       "single": [
        {
-        "t": "法国要求召开联合国安理会紧急会议商讨基辅使馆波及局势",
+        "t": "乌克兰总统泽连斯基指俄军发射超过110枚导弹和400架无人机",
+        "src": "BBC World"
+       },
+       {
+        "t": "法国要求召开联合国安理会紧急会议",
         "src": "France 24"
        }
       ],
@@ -3036,112 +3239,106 @@
        {
         "label": "看法 A",
         "src": [
-         "AP News",
          "BBC World",
-         "Free Malaysia Today"
+         "Al Jazeera"
         ],
-        "t": "波兰官方及北约将导弹落入境内事件定性为俄罗斯的违规挑衅行为。"
+        "t": "这是俄罗斯对乌克兰袭击克里米亚大桥的报复行动。"
        },
        {
         "label": "看法 B",
         "src": [
-         "Al Jazeera"
+         "AP News",
+         "Free Malaysia Today"
         ],
-        "t": "俄罗斯国防部表示此次空袭是为了打击用于运送武器和军事装备的桥梁及能源交通基础设施。"
+        "t": "俄罗斯导弹落入波兰境内是严重的挑衅与违规行为。"
        }
       ],
-      "unknown": null,
+      "unknown": "目前对于波兰境内遭袭的具体损失细节及乌俄双方最终的确切伤亡数字仍有待进一步核实。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "乌克兰战事外溢波及北约成员国波兰领空，加剧了欧洲地缘政治与区域安全局势的紧张。"
+       "world": "乌克兰战事升级及导弹波及北约成员国波兰，令欧洲地缘政治紧张局势进一步加剧。"
       },
       "people": [
        "Volodymyr Zelenskyy",
        "Vladimir Putin"
       ],
-      "photo": "missile strike",
+      "photo": "missile attack damage",
       "per": [
        {
         "id": "80605099f5e4",
         "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹近日落入邻近军事演习的波兰境内，北约称违规。",
+        "says": "俄罗斯导弹落入波兰境内引发区域关注，北约回应称此举为明显的违约行为。",
         "same": [
-         "导弹落入波兰",
-         "北约称违规"
+         "导弹落入波兰"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        },
        {
         "id": "c06f290ca0b1",
         "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "来自11个国家的欧洲军队在波兰举行演习。",
-        "same": [
-         "波兰举行军演"
-        ],
+        "says": "欧洲多国军队在波兰举行相关演习。",
+        "same": [],
         "view": null
        },
        {
         "id": "f5aa2c1600b1",
         "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "俄罗斯对乌克兰发动大规模袭击，基辅多处桥梁受损。",
+        "says": "俄罗斯对基辅桥梁及交通枢纽发动大规模空袭造成多人死亡，泽连斯基指责俄方发动战事以来最猛烈袭击之一。",
         "same": [
-         "乌克兰遭空袭"
-        ],
-        "view": null
-       },
-       {
-        "id": "6fca891ece5d",
-        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "俄罗斯导弹击中波兰领土，波兰谴责莫斯科挑衅。",
-        "same": [
-         "导弹落入波兰",
-         "波兰谴责"
+         "空袭基辅桥梁",
+         "造成人员伤亡"
         ],
         "view": "看法 A"
        },
        {
+        "id": "6fca891ece5d",
+        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+        "says": "波兰称有飞行物侵犯领空并谴责莫斯科挑衅，北约紧急出动战机应对。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": "看法 B"
+       },
+       {
         "id": "968b51712184",
         "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "基辅遭空袭使馆受波及，法国寻求召开安理会会议。",
-        "same": [
-         "乌克兰遭空袭"
-        ],
+        "says": "基辅使馆区在空袭中受波及，法国寻求召开联合国安理会紧急会议。",
+        "same": [],
         "view": null
        },
        {
         "id": "b4d8b1b930db",
         "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "俄罗斯对乌克兰发动空袭，轰炸基辅桥梁及基础设施。",
+        "says": "俄军夜间对乌克兰及基辅桥梁发动报复性空袭导致死伤与大面积停电。",
         "same": [
-         "乌克兰遭空袭"
+         "空袭基辅桥梁",
+         "造成人员伤亡"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        },
        {
         "id": "dfff6b708f3a",
         "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄罗斯对基辅发动全天候攻击并波及多国使馆。",
-        "same": [
-         "乌克兰遭空袭"
-        ],
+        "says": "俄军全天候攻击导致多国使馆受损，引发国际对外交人员安全的担忧。",
+        "same": [],
         "view": null
        },
        {
         "id": "1425c009d761",
         "t": "波兰谴责俄罗斯领空遭三度侵犯",
-        "says": "波兰谴责俄罗斯领空遭侵犯。",
+        "says": "波兰公开谴责领空遭到侵犯。",
         "same": [
-         "波兰谴责"
+         "导弹落入波兰"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        }
       ]
      },
      "loose": false,
-     "sig": "1c5e4860",
+     "sig": "3e260554",
      "v": 2,
-     "at": "2026-11-22T04:06:14.361Z",
+     "at": "2026-11-23T00:14:43.818Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
       "credit": "BBC World",
@@ -3572,23 +3769,46 @@
      "source": "Reuters",
      "cat": "world",
      "published": "2026-11-22T09:01:43.000Z"
+    },
+    "865fef802953": {
+     "id": "865fef802953",
+     "title": "Russian strike kills 2 in Kyiv",
+     "zh": "俄罗斯空袭基辅附近公寓致2人死亡",
+     "short": "俄军空袭基辅住宅",
+     "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-22T16:23:23.000Z"
+    },
+    "53635033745f": {
+     "id": "53635033745f",
+     "title": "Ukraine says Russian strikes kill 6 in Kyiv region",
+     "zh": "乌克兰称俄罗斯空袭基辅地区导致六人死亡",
+     "short": "俄军空袭基辅致6死",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/ukraine-says-russian-strikes-kill-6-in-kyiv-region",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-22T22:44:00.000Z"
     }
    },
    "name": "乌克兰战争导弹袭击",
-   "en": "Ukraine war missile strikes",
-   "wiki": "Russian strikes during the Russian invasion of Ukraine",
+   "en": "Ukraine war missile drone strikes",
+   "wiki": "Russian invasion of Ukraine",
    "cat": "world",
-   "last": "2026-11-22T11:06:08.835Z",
+   "last": "2026-11-23T00:12:38.004Z",
    "hidden": false,
-   "short": "乌克兰战事与安全博弈",
-   "key": "俄大规模空袭乌克兰并波及波兰，战后安全保障陷僵局",
-   "overview": "俄罗斯对乌克兰发动大规模导弹空袭并波及波兰领空，引发北约谴责；同时特朗普与普京会晤引发安全保障争端，战后和平安排陷入僵局。",
-   "minorText": [],
+   "short": "俄大规模空袭基辅及波兰",
+   "key": "俄军导弹空袭基辅并波及波兰领空引发国际谴责",
+   "overview": "俄罗斯对基辅发动大规模导弹与无人机空袭造成多人死伤与大面积停电，且飞行物侵犯波兰领空引发北约紧急应对；同时美国特使提出的安全保障构想遭俄罗斯驳回，和平谈判陷僵局。",
+   "minorText": [
+    "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
+    "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪"
+   ],
    "links": [
     {
      "from": "f4bb4b75-1",
      "to": "f4bb4b75-2",
-     "t": "波兰领空遭袭事件加剧了地区紧张局势，凸显了安全保障议题的紧迫性。"
+     "t": "基辅遭猛烈空袭后，泽连斯基对俄方安全保证及外交诚意提出强烈质疑并拒绝妥协。"
     }
    ],
    "img": {
@@ -3599,13 +3819,14 @@
    "heat": {
     "score": 3,
     "sources": 8,
-    "stories": 25,
-    "gdelt": {
-     "ratio": 0.5,
-     "share": 0.041
+    "stories": 27,
+    "gdelt": null,
+    "wiki": {
+     "title": "Russian invasion of Ukraine",
+     "views": 881,
+     "ratio": 0.9
     },
-    "wiki": null,
-    "at": "2026-11-22T18:33:30.293Z"
+    "at": "2026-11-23T00:18:50.048Z"
    }
   },
   {
@@ -4168,19 +4389,16 @@
     "kind": "A"
    },
    "heat": {
-    "score": 4,
+    "score": 3,
     "sources": 9,
     "stories": 24,
-    "gdelt": {
-     "ratio": 10,
-     "share": 0.0438
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Rohingya genocide case",
      "views": 1348,
-     "ratio": 1.1
+     "ratio": 0.9
     },
-    "at": "2026-11-22T18:33:49.240Z"
+    "at": "2026-11-23T00:19:06.543Z"
    }
   },
   {
@@ -4362,9 +4580,9 @@
     "wiki": {
      "title": "Grand Theft Auto VI",
      "views": 393338,
-     "ratio": 1.4
+     "ratio": 1.2
     },
-    "at": "2026-11-22T18:34:38.978Z"
+    "at": "2026-11-23T00:19:40.621Z"
    },
    "short": "GTA 6首日破纪录",
    "key": "首日创下37.9亿美元销售纪录",
@@ -4608,7 +4826,7 @@
    "lines": [
     {
      "id": "c87ad0cf-1",
-     "t": "NCIC数据库及农业部受黑客攻击",
+     "t": "联邦调查局数据库疑遭黑客入侵",
      "ids": [
       "ddb90bb60acc",
       "17d8c5527403",
@@ -4785,10 +5003,10 @@
      "published": "2026-11-21T16:35:15.000Z"
     }
    },
-   "name": "联邦调查局数据库疑遭黑客",
-   "en": "FBI database hack breach",
-   "wiki": "Data breach",
-   "cat": "tech",
+   "name": "联邦调查局等机构遭黑客袭击",
+   "en": "FBI database hack cyber attack",
+   "wiki": "FBI cyber attack",
+   "cat": "world",
    "last": "2026-11-21T22:12:19.703Z",
    "hidden": false,
    "heat": {
@@ -4815,5 +5033,5 @@
    }
   }
  ],
- "updated": "2026-11-22T18:34:38.978Z"
+ "updated": "2026-11-23T00:19:40.621Z"
 }
