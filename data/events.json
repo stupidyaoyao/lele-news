@@ -6,7 +6,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "股市抛售与市场波动",
+     "t": "AI板块抛售与市场影响",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -798,6 +798,114 @@
         "credit": "Anne Barth / re:publica · Wikimedia Commons · CC BY-SA 2.0",
         "kind": "B",
         "person": "Paris Marx"
+       }
+      ]
+     }
+    },
+    {
+     "id": "3700168d-7",
+     "t": "黄仁勋回归与科技股行情",
+     "ids": [
+      "d7c905104257",
+      "b4e96e60bab2",
+      "e308d82743fe",
+      "e36c19927212"
+     ],
+     "w": {
+      "short": "黄仁勋复职带旺科技股",
+      "key": "黄仁勋回归重振人工智能板块，带动全球科技股与股市表现。",
+      "title": "黄仁勋回归重振人工智能热潮 科技股行情全面回暖",
+      "summary": "随着黄仁勋恢复英伟达首席执行官职务，市场对人工智能的信心大振，带动相关科技板块与亚洲股市反弹。这也对全球金融市场产生连锁反应，促使黄金吐出早期涨幅并令英镑兑美元汇率走弱。美国总统特朗普在此次人事变动中通过高级官员进行了斡旋。",
+      "common": [
+       {
+        "t": "黄仁勋回归重振人工智能",
+        "src": [
+         "Bloomberg.com",
+         "纽约时报中文网"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "英镑兑美元汇率走弱受美国人工智能股复苏拖累",
+        "src": "www.tmgm.com"
+       },
+       {
+        "t": "全球人工智能股票回暖导致黄金吐出早期涨幅",
+        "src": "FXStreet"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大的压力，董事会也没有解释决策过程的具体转变。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "黄仁勋回归重振人工智能热潮，推动全球科技板块及相关股市大幅反弹。"
+      },
+      "people": [
+       "Jensen Huang",
+       "Donald Trump"
+      ],
+      "photo": "microchip manufacturing",
+      "per": [
+       {
+        "id": "d7c905104257",
+        "t": "黄仁勋回归重振人工智能热潮，亚洲股市料反弹",
+        "says": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹，利好相关科技板块表现。",
+        "same": [
+         "黄仁勋回归",
+         "人工智能热潮"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4e96e60bab2",
+        "t": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
+        "says": "特朗普派副总统万斯斡旋，促使英伟达董事会恢复黄仁勋的职务，并推动华尔街股价大幅飙升。",
+        "same": [
+         "黄仁勋回归",
+         "股价飙升"
+        ],
+        "view": null
+       },
+       {
+        "id": "e308d82743fe",
+        "t": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
+        "says": "英镑兑美元汇率走弱，受到美国人工智能股复苏的拖累。",
+        "same": [
+         "人工智能股复苏"
+        ],
+        "view": null
+       },
+       {
+        "id": "e36c19927212",
+        "t": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
+        "says": "随着全球人工智能股票回暖，黄金吐出了早期的涨幅。",
+        "same": [
+         "人工智能股票回暖"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "ad20f969",
+     "v": 2,
+     "at": "2026-11-24T05:55:32.535Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/960px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Anderseidesvik · Wikimedia Commons · CC BY-SA 4.0",
+        "kind": "B",
+        "person": "Jensen Huang"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Daniel Torok · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Donald Trump"
        }
       ]
      }
@@ -1704,38 +1812,80 @@
      "source": "The Star",
      "cat": "finance",
      "published": "2026-11-22T23:43:59.000Z"
+    },
+    "d7c905104257": {
+     "id": "d7c905104257",
+     "title": "Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap",
+     "zh": "黄仁勋回归重振人工智能热潮，亚洲股市料反弹",
+     "short": "黄仁勋重振人工智能",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+     "source": "Bloomberg.com",
+     "cat": "finance",
+     "published": "2026-11-24T04:52:34.000Z",
+     "sum": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹。这一利好消息带动了相关科技板块的表现。"
+    },
+    "b4e96e60bab2": {
+     "id": "b4e96e60bab2",
+     "title": "特朗普促成黄仁勋复职：派万斯斡旋，提供关键保证",
+     "zh": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
+     "short": "特朗普助黄仁勋复职",
+     "url": "https://cn.nytimes.com/usa/20261124/trump-nvidia-huang/?utm_source=RSS",
+     "source": "纽约时报中文网",
+     "cat": "tech",
+     "published": "2026-11-24T03:56:31.000Z",
+     "sum": "美国总统特朗普通过派员斡旋，促使英伟达董事会确信总裁黄仁勋没有面临刑事指控且不构成国家安全风险，从而顺利复职。特朗普将此举与美国经济健康紧密相连。该事件凸显了美国政治对核心半导体企业高层的直接影响。",
+     "img": {
+      "src": "https://static01.nyt.com/images/2026/11/23/multimedia/23nvidia-Trump-interview-gwmt/23nvidia-Trump-interview-gwmt-articleLarge.jpg",
+      "credit": "纽约时报中文网",
+      "kind": "A"
+     }
+    },
+    "e308d82743fe": {
+     "id": "e308d82743fe",
+     "title": "British Pound trades vulnerably against US Dollar on revival of US AI stocks",
+     "zh": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
+     "short": "美AI股复苏致英镑跌",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUVBoU21sWDA2bnRoQUJlbEtyUnZ4UkJYNUhKVjNWNG13WVVyUENVR3l0bGpxN2ktdm15MUlVZTRGVGVxcXpQUkpXREEtb3IzcURzQ2w4RG1PWWd0WU9CSU9vMkRpRjZZU1BnWS1oWUltMHpMdWxuNTdhSUtlNFNCQVpLYnlseDlycDJPZWEwaFNnV3JfZEZHRzg5RTZkWk85N19ZWE5DaTNxb1ZsYk5TckJBc1Y5UnhnandQcWV0MkphVjVMSm94aDE3RFdZbGpSQ3hTTUFCczR3TnpVT0E?oc=5",
+     "source": "www.tmgm.com",
+     "cat": "finance",
+     "published": "2026-11-24T04:58:52.000Z"
+    },
+    "e36c19927212": {
+     "id": "e36c19927212",
+     "title": "Gold gives back early gains as global AI stocks regain traction",
+     "zh": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
+     "short": "人工智能股回暖致金价回落",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDZsZHFtWWUtQWMxZ1hMRzhsdFVndExaNEw1Vk45MU9ZdWtTRExYYzJOMVdNMWJzMktaT0ZwSWNubzBMeExScF81OW5JbXBESjdQMExiakdIdmFJM0VkNVBOUmhzZlVkT1h2ZlEtOGJ0cmZoT0hFU0dGalViVC10M0VIS3dPQ2pnd3Q3RUFocUxVZmViaHdIMXRGZlN1QlNpNno4dEttWnlFNHFLOXlDUmpn?oc=5",
+     "source": "FXStreet",
+     "cat": "finance",
+     "published": "2026-11-24T04:02:11.000Z"
     }
    },
    "name": "人工智能板块抛售与监管",
    "en": "artificial intelligence stock selloff",
-   "wiki": "Artificial intelligence bubble",
-   "cat": "finance",
-   "last": "2026-11-23T08:54:47.155Z",
+   "wiki": "AI boom and bust market bubble",
+   "cat": "tech",
+   "last": "2026-11-24T05:54:34.941Z",
    "hidden": false,
    "short": "人工智能板块抛售与监管",
-   "key": "人工智能板块遭抛售与监管加码引发全球股市重挫",
-   "overview": "受人工智能板块抛售潮加剧、Anthropic上市表现不佳及英伟达面临调查影响，全球股市显著下挫，同时数据中心建设与基建压力引发广泛关注。",
+   "key": "人工智能板块遭抛售与监管",
+   "overview": "全球股市因人工智能板块抛售潮与美联储鹰派预期重挫，英伟达面临多重调查，Anthropic上市未能消除市场估值担忧。",
    "minorText": [],
    "links": [
     {
      "from": "3700168d-1",
      "to": "3700168d-2",
-     "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮，导致全球股市遭遇重挫。"
-    },
-    {
-     "from": "3700168d-1",
-     "to": "3700168d-3",
-     "t": "由于部分大型科技股下跌及英伟达相关调查影响，全球科技板块情绪承压。"
+     "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮"
     },
     {
      "from": "3700168d-2",
      "to": "3700168d-1",
-     "t": "Anthropic上市表现未能稳住人工智能交易，导致标普和纳斯达克等美股期货下跌。"
+     "t": "Anthropic上市表现未能稳住人工智能交易导致美股期货下跌"
     },
     {
-     "from": "3700168d-4",
+     "from": "3700168d-3",
      "to": "3700168d-1",
-     "t": "由于人工智能投资前景担忧及借贷成本攀升，全球股市与加密货币走低。"
+     "t": "英伟达面临相关机构调查对科技股情绪造成冲击"
     }
    ],
    "img": {
@@ -1745,15 +1895,729 @@
    },
    "heat": {
     "score": 5,
-    "sources": 36,
-    "stories": 76,
+    "sources": 39,
+    "stories": 80,
+    "gdelt": {
+     "ratio": 4.8,
+     "share": 0.1188
+    },
+    "wiki": null,
+    "at": "2026-11-24T05:59:11.667Z"
+   }
+  },
+  {
+   "id": "f4bb4b75",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "f4bb4b75-1",
+     "t": "基辅等地遭空袭与伤亡",
+     "ids": [
+      "f5aa2c1600b1",
+      "6fca891ece5d",
+      "968b51712184",
+      "b4d8b1b930db",
+      "dfff6b708f3a",
+      "1425c009d761",
+      "80605099f5e4",
+      "c06f290ca0b1",
+      "1204031f81c5",
+      "b0b72e86c2bd",
+      "286cc01f5f7e",
+      "aedff471d118",
+      "ecdeb85fd175",
+      "cbeed7399dad",
+      "865fef802953",
+      "53635033745f",
+      "c689898babc6",
+      "4bd1bf6c7ec7",
+      "20e9d0df2d48",
+      "969b3e367a9a",
+      "fc13a5c4dd16",
+      "06b2152cf892"
+     ],
+     "w": {
+      "short": "俄导弹空袭基辅等多地",
+      "key": "俄罗斯导弹空袭基辅造成死伤并引发国际关注。",
+      "title": "俄罗斯导弹空袭基辅等多地 造成人员死伤并波及使馆",
+      "summary": "俄罗斯对乌克兰基辅等多地发动大规模导弹和无人机空袭，桥梁与居民设施受损，造成多人死伤。事件引发国际社会高度关注与谴责，并波及部分欧洲国家使馆。同时，有报道指导弹落入波兰境内引发区域紧张。",
+      "common": [
+       {
+        "t": "俄罗斯对基辅发动导弹空袭。",
+        "src": [
+         "BBC World",
+         "France 24",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击造成人员死伤。",
+        "src": [
+         "BBC World",
+         "AP News"
+        ]
+       },
+       {
+        "t": "俄罗斯导弹击中波兰领土。",
+        "src": [
+         "AP News",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "空袭波及外国使馆设施。",
+        "src": [
+         "France 24",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "法国正寻求召开联合国安理会紧急会议商讨局势。",
+        "src": "France 24"
+       },
+       {
+        "t": "俄罗斯攻击基辅是为了报复克里米亚大桥受损。",
+        "src": "BBC World"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "AP News"
+        ],
+        "t": "北约称导弹落入波兰境内是明显的违约行为。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "波兰官方将导弹击中领土事件形容为来自莫斯科的挑衅。"
+       }
+      ],
+      "unknown": "目前尚不清楚导弹落入波兰境内的完整细节及后续影响。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "俄罗斯对乌克兰发动大规模导弹空袭并波及波兰领土，进一步加剧了欧洲地缘政治紧张局势与国际安全担忧。"
+      },
+      "people": [
+       "Volodymyr Zelenskyy",
+       "Vladimir Putin"
+      ],
+      "photo": "missile strike damage",
+      "per": [
+       {
+        "id": "80605099f5e4",
+        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
+        "says": "俄罗斯导弹近日落入波兰境内，北约称此为明显的违约行为，加剧欧洲紧张局势。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c06f290ca0b1",
+        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+        "says": "欧洲多国军队在波兰举行演习。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "c689898babc6",
+        "t": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
+        "says": "乌克兰基辅遭到无人机袭击。",
+        "same": [
+         "基辅遭袭击"
+        ],
+        "view": null
+       },
+       {
+        "id": "f5aa2c1600b1",
+        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+        "says": "俄罗斯对基辅桥梁及多地发动大规模空袭以报复克里米亚大桥，造成人员伤亡。",
+        "same": [
+         "基辅遭空袭",
+         "造成人员死伤"
+        ],
+        "view": null
+       },
+       {
+        "id": "6fca891ece5d",
+        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+        "says": "俄罗斯导弹击中波兰领土，波兰形容其为莫斯科的挑衅。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "968b51712184",
+        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+        "says": "基辅遭空袭波及欧洲使馆，法国寻求召开安理会紧急会议。",
+        "same": [
+         "基辅遭空袭",
+         "波及使馆"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4d8b1b930db",
+        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
+        "says": "俄罗斯对基辅桥梁发动报复性攻击。",
+        "same": [
+         "基辅遭空袭"
+        ],
+        "view": null
+       },
+       {
+        "id": "dfff6b708f3a",
+        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+        "says": "俄罗斯对基辅发动全天候攻击，导致多国使馆受损。",
+        "same": [
+         "基辅遭空袭",
+         "波及使馆"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "b1f5d93c",
+     "v": 2,
+     "at": "2026-11-24T05:54:41.111Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "f4bb4b75-2",
+     "t": "特朗普言论引发乌俄安全保证争端",
+     "ids": [
+      "acc8f3177f53",
+      "b38e5a17b7df",
+      "3a083cc0df3b",
+      "5142390aaa16",
+      "8bd76ee26afb",
+      "7018d0e3b351",
+      "b2c8270dd931",
+      "ac3f47852a51",
+      "d5f4d08731f7"
+     ],
+     "w": {
+      "short": "美俄乌安全保障分歧加剧",
+      "key": "美特使提类北约保障遭俄拒绝",
+      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
+      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
+      "common": [
+       {
+        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera"
+        ],
+        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
+       }
+      ],
+      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
+      },
+      "people": [
+       "Donald Trump",
+       "Vladimir Putin"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "b38e5a17b7df",
+        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
+        "same": [
+         "美俄领导人会晤",
+         "削减军援基辅"
+        ],
+        "view": null
+       },
+       {
+        "id": "3a083cc0df3b",
+        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
+        "same": [
+         "类北约保障",
+         "马克龙提北约",
+         "美俄中国会晤"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "8bd76ee26afb",
+        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
+        "same": [
+         "拒绝北约保障",
+         "马克龙提北约",
+         "欧洲特使赴俄"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ac3f47852a51",
+        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
+        "same": [
+         "欧洲防务开支",
+         "拒绝领土割让"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "e0733d78",
+     "at": "2026-11-21T22:17:32.053Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     },
+     "v": 2
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "f5aa2c1600b1": {
+     "id": "f5aa2c1600b1",
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+     "short": "俄空袭基辅",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T13:01:16.000Z",
+     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。",
+     "_img": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg"
+    },
+    "6fca891ece5d": {
+     "id": "6fca891ece5d",
+     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+     "short": "俄导弹落入波兰",
+     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T12:56:48.000Z",
+     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
+    },
+    "968b51712184": {
+     "id": "968b51712184",
+     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
+     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+     "short": "俄空袭基辅击中欧洲使馆",
+     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T12:04:16.000Z",
+     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
+    },
+    "b4d8b1b930db": {
+     "id": "b4d8b1b930db",
+     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:54:00.000Z",
+     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
+    },
+    "dfff6b708f3a": {
+     "id": "dfff6b708f3a",
+     "title": "Russia’s day-long attack on Kyiv damages embassies",
+     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T08:56:08.000Z",
+     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
+    },
+    "1425c009d761": {
+     "id": "1425c009d761",
+     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
+     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
+     "short": "波兰谴责俄侵犯领空",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T11:45:35.000Z"
+    },
+    "acc8f3177f53": {
+     "id": "acc8f3177f53",
+     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
+     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
+     "short": "美伊外交谈判遇阻",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T01:21:44.000Z",
+     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "b38e5a17b7df": {
+     "id": "b38e5a17b7df",
+     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
+     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+     "short": "泽连斯基斥普京为杀手",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T23:25:36.000Z",
+     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
+    },
+    "3a083cc0df3b": {
+     "id": "3a083cc0df3b",
+     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
+     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:01:51.000Z",
+     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
+    },
+    "5142390aaa16": {
+     "id": "5142390aaa16",
+     "title": "Pakistan minister visits India for first time since 2025 war",
+     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:11:57.000Z",
+     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
+    },
+    "8bd76ee26afb": {
+     "id": "8bd76ee26afb",
+     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
+     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T09:08:29.000Z",
+     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
+    },
+    "7018d0e3b351": {
+     "id": "7018d0e3b351",
+     "title": "3-way summit offers little hope for peace in Ukraine",
+     "zh": "乌克兰三方峰会难为和平带来希望",
+     "short": "乌克兰三方峰会难寻和平",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:58:52.000Z"
+    },
+    "b2c8270dd931": {
+     "id": "b2c8270dd931",
+     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
+     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
+     "short": "德政要称雅尔塔模式无用",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:47:21.000Z"
+    },
+    "80605099f5e4": {
+     "id": "80605099f5e4",
+     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
+     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
+     "short": "俄导弹落入波兰",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T22:15:00.000Z",
+     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
+    },
+    "c06f290ca0b1": {
+     "id": "c06f290ca0b1",
+     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
+     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+     "short": "11国欧洲军队波兰演习",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T19:47:00.000Z"
+    },
+    "b0b72e86c2bd": {
+     "id": "b0b72e86c2bd",
+     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
+     "short": "俄袭击乌总统家乡",
+     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:56:39.000Z",
+     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
+    },
+    "286cc01f5f7e": {
+     "id": "286cc01f5f7e",
+     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
+     "short": "俄狂轰基辅致7死",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T18:42:38.000Z",
+     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "aedff471d118": {
+     "id": "aedff471d118",
+     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
+     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
+     "short": "俄导弹袭泽连斯基家乡",
+     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:55:07.000Z"
+    },
+    "cbeed7399dad": {
+     "id": "cbeed7399dad",
+     "title": "Russia strikes Zelenskyy's hometown, killing 2",
+     "zh": "俄军空袭泽连斯基家乡致2人死亡",
+     "short": "俄军空袭泽连斯基家乡",
+     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-21T14:44:00.000Z"
+    },
+    "ecdeb85fd175": {
+     "id": "ecdeb85fd175",
+     "title": "Emergency crews in Ukraine hit by a double-tap strike",
+     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
+     "short": "乌救援队遭俄军二次空袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T07:12:03.000Z"
+    },
+    "1204031f81c5": {
+     "id": "1204031f81c5",
+     "title": "Russia tests NATO’s eastern defences",
+     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
+     "short": "俄导弹疑似落入波兰",
+     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:50:35.000Z",
+     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
+    },
+    "ac3f47852a51": {
+     "id": "ac3f47852a51",
+     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
+     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+     "short": "特朗普不满欧洲援乌",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:15:30.000Z",
+     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "d5f4d08731f7": {
+     "id": "d5f4d08731f7",
+     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
+     "short": "特朗普称普京朋友泽连斯基驳斥",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T08:10:25.000Z",
+     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "4bd1bf6c7ec7": {
+     "id": "4bd1bf6c7ec7",
+     "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+     "zh": "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
+     "short": "行车记录仪拍导弹袭击",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T07:59:29.000Z"
+    },
+    "c689898babc6": {
+     "id": "c689898babc6",
+     "title": "At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says",
+     "zh": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
+     "short": "基辅遭袭14人失踪",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmFwN2pYTHZEVndFX2hfN3VOQnduN3pEYnZXa2tfT1d1UGZDejk3ZU11dkwwLTdsUTltdm0taU8wTnpNTkZVV045Z3pkc0czd2FSS1lEZDhyLVVCNFJvNk9xUHR2ZUxydnAyYTJDVzd3RWIwQ1E0YjAyc2R6bkpkbkt1aThfVldjUGRKbkhXanhraVo3SkJHcHBuMmxBcXJreDhQSEx1QV9ZUXhDOHdhbmZMRkZoeVBOXzJ5ag?oc=5",
+     "source": "Reuters",
+     "cat": "world",
+     "published": "2026-11-22T09:01:43.000Z"
+    },
+    "865fef802953": {
+     "id": "865fef802953",
+     "title": "Russian strike kills 2 in Kyiv",
+     "zh": "俄罗斯空袭基辅附近公寓致2人死亡",
+     "short": "俄军空袭基辅住宅",
+     "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-22T16:23:23.000Z"
+    },
+    "53635033745f": {
+     "id": "53635033745f",
+     "title": "Ukraine says Russian strikes kill 6 in Kyiv region",
+     "zh": "乌克兰称俄罗斯空袭基辅地区导致六人死亡",
+     "short": "俄军空袭基辅致6死",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/ukraine-says-russian-strikes-kill-6-in-kyiv-region",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-22T22:44:00.000Z"
+    },
+    "20e9d0df2d48": {
+     "id": "20e9d0df2d48",
+     "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+     "zh": "乌克兰承认对利比亚附近俄舰发动无人艇袭击",
+     "short": "乌克兰袭击俄舰",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-23T07:37:09.000Z",
+     "sum": "乌克兰总统泽连斯基表示，乌军在一次无人艇行动中击沉了俄罗斯军舰。这次海上袭击发生在利比亚附近海域，行动被形容为模范操作。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b03dca5ac8b-1795415205.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "969b3e367a9a": {
+     "id": "969b3e367a9a",
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "zh": "利比亚班加西港口俄舰遭疑似无人机袭击",
+     "short": "利比亚俄舰遭袭",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "source": "The Guardian World",
+     "cat": "world",
+     "published": "2026-11-22T16:55:49.000Z"
+    },
+    "fc13a5c4dd16": {
+     "id": "fc13a5c4dd16",
+     "title": "Russian ship attacked near Benghazi in suspected drone attack",
+     "zh": "利比亚班加西港一艘俄罗斯船只遭疑似无人机袭击",
+     "short": "俄船只在利比亚遭袭",
+     "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-22T22:37:45.000Z"
+    },
+    "06b2152cf892": {
+     "id": "06b2152cf892",
+     "title": "Russian cargo ship still on fire off Finland after drone attack",
+     "zh": "俄罗斯货船遭无人机袭击后在芬兰附近海域起火",
+     "short": "俄货船遭无人机袭击起火",
+     "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T10:39:50.000Z"
+    }
+   },
+   "name": "乌克兰战争导弹袭击",
+   "en": "Ukraine war missile drone strikes",
+   "wiki": "Russian strikes on Ukraine",
+   "cat": "world",
+   "last": "2026-11-24T05:54:34.941Z",
+   "hidden": false,
+   "short": "乌克兰多地遭导弹袭击",
+   "key": "俄大规模空袭乌克兰基辅等地，波兰领土遭落弹波及",
+   "overview": "俄罗斯对基辅等乌克兰多地发动大规模导弹与无人机空袭，造成桥梁及居民设施受损与人员伤亡，并有导弹落入波兰引发区域紧张，同时特朗普涉乌言论与安全保障构想遭多方反驳，战后和平安排陷入僵局。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "f4bb4b75-1",
+     "to": "f4bb4b75-2",
+     "t": "基辅遭空袭之际，美欧正就乌克兰战后安全保障构想展开外交博弈与争端。"
+    }
+   ],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 3,
+    "sources": 9,
+    "stories": 31,
     "gdelt": null,
     "wiki": {
-     "title": "Artificial intelligence bubble",
-     "views": 1,
+     "title": "Russian strikes on Ukraine",
+     "views": 3,
      "ratio": 1
     },
-    "at": "2026-11-23T21:15:18.864Z"
+    "at": "2026-11-24T06:00:54.655Z"
    }
   },
   {
@@ -1762,7 +2626,7 @@
    "lines": [
     {
      "id": "dadddd9d-1",
-     "t": "众议院获得多数优势",
+     "t": "民主党赢得众议院多数席位",
      "ids": [
       "e6407a78a6d6",
       "531490dab1ef",
@@ -1883,7 +2747,12 @@
      "source": "Free Malaysia Today",
      "cat": "world",
      "published": "2026-11-23T07:51:16.000Z",
-     "sum": "美国国会众议院补选中，民主党候选人击败共和党对手，获得关键席位。这使民主党在众议院握有自1992年以来的最大多数优势，对未来的立法走向产生深远影响。"
+     "sum": "美国国会众议院补选中，民主党候选人击败共和党对手，获得关键席位。这使民主党在众议院握有自1992年以来的最大多数优势，对未来的立法走向产生深远影响。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8165b534-0724-4565-b20c-bef07d9f9b56-Hakeem-Jeffries-EPA.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
     },
     "531490dab1ef": {
      "id": "531490dab1ef",
@@ -1917,8 +2786,8 @@
     }
    },
    "name": "美国民主党中期选举大胜",
-   "en": "Democratic Party US midterm elections house",
-   "wiki": "2026 United States elections",
+   "en": "US midterm elections Democrats win",
+   "wiki": "United States midterm election",
    "cat": "world",
    "last": "2026-11-23T08:54:47.155Z",
    "hidden": false,
@@ -1938,11 +2807,11 @@
     "stories": 4,
     "gdelt": null,
     "wiki": {
-     "title": "2026 United States elections",
-     "views": 31811,
-     "ratio": 0.7
+     "title": "United States midterm election",
+     "views": 4150,
+     "ratio": 0.8
     },
-    "at": "2026-11-23T21:15:35.307Z"
+    "at": "2026-11-24T05:59:46.285Z"
    }
   },
   {
@@ -1951,7 +2820,7 @@
    "lines": [
     {
      "id": "6e6b7acb-1",
-     "t": "化石燃料与草案争议",
+     "t": "核心协议难产与谈判破裂",
      "ids": [
       "a3764b25182c",
       "b7be9e2e4afd",
@@ -2321,8 +3190,8 @@
     }
    },
    "name": "第31届联合国气候大会",
-   "en": "COP31 climate summit fossil fuels",
-   "wiki": "2026 United Nations Climate Change Conference",
+   "en": "UN Climate Change Conference COP",
+   "wiki": "United Nations Climate Change Conference",
    "cat": "world",
    "last": "2026-11-23T08:54:47.154Z",
    "hidden": false,
@@ -2332,11 +3201,11 @@
     "stories": 15,
     "gdelt": null,
     "wiki": {
-     "title": "2026 United Nations Climate Change Conference",
-     "views": 6303,
-     "ratio": 6.2
+     "title": "United Nations Climate Change Conference",
+     "views": 2522,
+     "ratio": 3.3
     },
-    "at": "2026-11-23T21:15:51.811Z"
+    "at": "2026-11-24T06:00:21.671Z"
    },
    "short": "COP31气候大会加时",
    "key": "草案剔除化石燃料引发争议",
@@ -3501,655 +4370,7 @@
     "stories": 38,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-23T21:16:08.288Z"
-   }
-  },
-  {
-   "id": "f4bb4b75",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "f4bb4b75-1",
-     "t": "俄罗斯夜间空袭基辅及总统家乡",
-     "ids": [
-      "f5aa2c1600b1",
-      "6fca891ece5d",
-      "968b51712184",
-      "b4d8b1b930db",
-      "dfff6b708f3a",
-      "1425c009d761",
-      "80605099f5e4",
-      "c06f290ca0b1",
-      "1204031f81c5",
-      "b0b72e86c2bd",
-      "286cc01f5f7e",
-      "aedff471d118",
-      "ecdeb85fd175",
-      "cbeed7399dad",
-      "865fef802953",
-      "53635033745f",
-      "c689898babc6",
-      "4bd1bf6c7ec7"
-     ],
-     "w": {
-      "short": "俄夜袭基辅波兰",
-      "key": "俄罗斯夜间对基辅及多地发动大规模空袭，并有导弹落入波兰领土。",
-      "title": "俄罗斯夜间空袭基辅及波兰边境，局势进一步升级",
-      "summary": "俄罗斯对乌克兰首都基辅及多座城市发动了夜间大规模导弹与无人机空袭，造成人员伤亡及桥梁等基础设施受损。同时，事件波及邻国波兰领土，引发北约及国际社会的强烈谴责与高度关注。",
-      "common": [
-       {
-        "t": "俄罗斯夜间对基辅及多地发动大规模空袭。",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "袭击造成人员伤亡及基础设施受损。",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "有导弹或飞行物落入波兰境内并引发关注。",
-        "src": [
-         "AP News",
-         "BBC World"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "法国要求就使馆受波及召集联合国安理会会议。",
-        "src": "France 24"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "BBC World",
-         "Al Jazeera"
-        ],
-        "t": "这是俄罗斯针对乌克兰此前袭击克里米亚大桥所进行的报复性攻击。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World"
-        ],
-        "t": "波兰官方认为导弹落入境内是来自莫斯科的挑衅和严重领空侵犯。"
-       }
-      ],
-      "unknown": "目前关于波兰境内落入的俄罗斯导弹所造成的具体损失细节尚待完全厘清。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "俄罗斯对乌克兰的大规模空袭及导弹波及波兰领土，进一步加剧了欧洲地缘政治紧张局势并引发国际安全担忧。"
-      },
-      "people": [
-       "Volodymyr Zelenskyy",
-       "Vladimir Putin"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "80605099f5e4",
-        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。",
-        "same": [
-         "导弹落入波兰"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "c06f290ca0b1",
-        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "c689898babc6",
-        "t": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
-        "says": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪。",
-        "same": [
-         "基辅遭袭击"
-        ],
-        "view": null
-       },
-       {
-        "id": "f5aa2c1600b1",
-        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "俄罗斯夜间对基辅桥梁及多地发动大规模导弹与无人机空袭，造成人员伤亡。",
-        "same": [
-         "基辅遭袭击",
-         "报复袭击"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6fca891ece5d",
-        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "一枚俄罗斯导弹击中波兰领土，波兰官方将此形容为来自莫斯科的挑衅。",
-        "same": [
-         "导弹落入波兰"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "968b51712184",
-        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及，法国寻求召开联合国安理会紧急会议。",
-        "same": [
-         "基辅遭袭击"
-        ],
-        "view": null
-       },
-       {
-        "id": "b4d8b1b930db",
-        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。",
-        "same": [
-         "基辅遭袭击",
-         "报复袭击"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "dfff6b708f3a",
-        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆受损。",
-        "same": [
-         "基辅遭袭击"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "db3bd7e1",
-     "v": 2,
-     "at": "2026-11-23T08:55:25.800Z",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "f4bb4b75-2",
-     "t": "特朗普言论引发乌俄安全保证争端",
-     "ids": [
-      "acc8f3177f53",
-      "b38e5a17b7df",
-      "3a083cc0df3b",
-      "5142390aaa16",
-      "8bd76ee26afb",
-      "7018d0e3b351",
-      "b2c8270dd931",
-      "ac3f47852a51",
-      "d5f4d08731f7"
-     ],
-     "w": {
-      "short": "美俄乌安全保障分歧加剧",
-      "key": "美特使提类北约保障遭俄拒绝",
-      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
-      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
-      "common": [
-       {
-        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Al Jazeera"
-        ],
-        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
-       }
-      ],
-      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
-      },
-      "people": [
-       "Donald Trump",
-       "Vladimir Putin"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "b38e5a17b7df",
-        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
-        "same": [
-         "美俄领导人会晤",
-         "削减军援基辅"
-        ],
-        "view": null
-       },
-       {
-        "id": "3a083cc0df3b",
-        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
-        "same": [
-         "类北约保障",
-         "马克龙提北约",
-         "美俄中国会晤"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "8bd76ee26afb",
-        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
-        "same": [
-         "拒绝北约保障",
-         "马克龙提北约",
-         "欧洲特使赴俄"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ac3f47852a51",
-        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
-        "same": [
-         "欧洲防务开支",
-         "拒绝领土割让"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "e0733d78",
-     "at": "2026-11-21T22:17:32.053Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     },
-     "v": 2
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "f5aa2c1600b1": {
-     "id": "f5aa2c1600b1",
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-     "short": "俄空袭基辅",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T13:01:16.000Z",
-     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。"
-    },
-    "6fca891ece5d": {
-     "id": "6fca891ece5d",
-     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-     "short": "俄导弹落入波兰",
-     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T12:56:48.000Z",
-     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
-    },
-    "968b51712184": {
-     "id": "968b51712184",
-     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
-     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-     "short": "俄空袭基辅击中欧洲使馆",
-     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-20T12:04:16.000Z",
-     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
-    },
-    "b4d8b1b930db": {
-     "id": "b4d8b1b930db",
-     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:54:00.000Z",
-     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
-    },
-    "dfff6b708f3a": {
-     "id": "dfff6b708f3a",
-     "title": "Russia’s day-long attack on Kyiv damages embassies",
-     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T08:56:08.000Z",
-     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
-    },
-    "1425c009d761": {
-     "id": "1425c009d761",
-     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
-     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
-     "short": "波兰谴责俄侵犯领空",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T11:45:35.000Z"
-    },
-    "acc8f3177f53": {
-     "id": "acc8f3177f53",
-     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
-     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-     "short": "美伊外交谈判遇阻",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T01:21:44.000Z",
-     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "b38e5a17b7df": {
-     "id": "b38e5a17b7df",
-     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
-     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-     "short": "泽连斯基斥普京为杀手",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T23:25:36.000Z",
-     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
-    },
-    "3a083cc0df3b": {
-     "id": "3a083cc0df3b",
-     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:01:51.000Z",
-     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
-    },
-    "5142390aaa16": {
-     "id": "5142390aaa16",
-     "title": "Pakistan minister visits India for first time since 2025 war",
-     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
-     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:11:57.000Z",
-     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
-    },
-    "8bd76ee26afb": {
-     "id": "8bd76ee26afb",
-     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
-     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T09:08:29.000Z",
-     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
-    },
-    "7018d0e3b351": {
-     "id": "7018d0e3b351",
-     "title": "3-way summit offers little hope for peace in Ukraine",
-     "zh": "乌克兰三方峰会难为和平带来希望",
-     "short": "乌克兰三方峰会难寻和平",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:58:52.000Z"
-    },
-    "b2c8270dd931": {
-     "id": "b2c8270dd931",
-     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
-     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-     "short": "德政要称雅尔塔模式无用",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:47:21.000Z"
-    },
-    "80605099f5e4": {
-     "id": "80605099f5e4",
-     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
-     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
-     "short": "俄导弹落入波兰",
-     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T22:15:00.000Z",
-     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
-    },
-    "c06f290ca0b1": {
-     "id": "c06f290ca0b1",
-     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
-     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-     "short": "11国欧洲军队波兰演习",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T19:47:00.000Z"
-    },
-    "b0b72e86c2bd": {
-     "id": "b0b72e86c2bd",
-     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
-     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
-     "short": "俄袭击乌总统家乡",
-     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:56:39.000Z",
-     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
-    },
-    "286cc01f5f7e": {
-     "id": "286cc01f5f7e",
-     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
-     "short": "俄狂轰基辅致7死",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T18:42:38.000Z",
-     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "aedff471d118": {
-     "id": "aedff471d118",
-     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
-     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
-     "short": "俄导弹袭泽连斯基家乡",
-     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:55:07.000Z"
-    },
-    "cbeed7399dad": {
-     "id": "cbeed7399dad",
-     "title": "Russia strikes Zelenskyy's hometown, killing 2",
-     "zh": "俄军空袭泽连斯基家乡致2人死亡",
-     "short": "俄军空袭泽连斯基家乡",
-     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "world",
-     "published": "2026-11-21T14:44:00.000Z"
-    },
-    "ecdeb85fd175": {
-     "id": "ecdeb85fd175",
-     "title": "Emergency crews in Ukraine hit by a double-tap strike",
-     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
-     "short": "乌救援队遭俄军二次空袭",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T07:12:03.000Z"
-    },
-    "1204031f81c5": {
-     "id": "1204031f81c5",
-     "title": "Russia tests NATO’s eastern defences",
-     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
-     "short": "俄导弹疑似落入波兰",
-     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T12:50:35.000Z",
-     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
-    },
-    "ac3f47852a51": {
-     "id": "ac3f47852a51",
-     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
-     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-     "short": "特朗普不满欧洲援乌",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T15:15:30.000Z",
-     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "d5f4d08731f7": {
-     "id": "d5f4d08731f7",
-     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
-     "short": "特朗普称普京朋友泽连斯基驳斥",
-     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T08:10:25.000Z",
-     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    "4bd1bf6c7ec7": {
-     "id": "4bd1bf6c7ec7",
-     "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-     "zh": "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
-     "short": "行车记录仪拍导弹袭击",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-22T07:59:29.000Z"
-    },
-    "c689898babc6": {
-     "id": "c689898babc6",
-     "title": "At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says",
-     "zh": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
-     "short": "基辅遭袭14人失踪",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmFwN2pYTHZEVndFX2hfN3VOQnduN3pEYnZXa2tfT1d1UGZDejk3ZU11dkwwLTdsUTltdm0taU8wTnpNTkZVV045Z3pkc0czd2FSS1lEZDhyLVVCNFJvNk9xUHR2ZUxydnAyYTJDVzd3RWIwQ1E0YjAyc2R6bkpkbkt1aThfVldjUGRKbkhXanhraVo3SkJHcHBuMmxBcXJreDhQSEx1QV9ZUXhDOHdhbmZMRkZoeVBOXzJ5ag?oc=5",
-     "source": "Reuters",
-     "cat": "world",
-     "published": "2026-11-22T09:01:43.000Z"
-    },
-    "865fef802953": {
-     "id": "865fef802953",
-     "title": "Russian strike kills 2 in Kyiv",
-     "zh": "俄罗斯空袭基辅附近公寓致2人死亡",
-     "short": "俄军空袭基辅住宅",
-     "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-22T16:23:23.000Z"
-    },
-    "53635033745f": {
-     "id": "53635033745f",
-     "title": "Ukraine says Russian strikes kill 6 in Kyiv region",
-     "zh": "乌克兰称俄罗斯空袭基辅地区导致六人死亡",
-     "short": "俄军空袭基辅致6死",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/ukraine-says-russian-strikes-kill-6-in-kyiv-region",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-22T22:44:00.000Z"
-    }
-   },
-   "name": "乌克兰战争导弹袭击",
-   "en": "Ukraine war missile drone strikes",
-   "wiki": "Russian strikes on infrastructure during the Russo-Ukrainian War",
-   "cat": "world",
-   "last": "2026-11-23T00:12:38.004Z",
-   "hidden": false,
-   "short": "乌克兰遭空袭波及波兰",
-   "key": "俄军导弹空袭基辅并波及波兰引发谴责",
-   "overview": "俄罗斯对乌克兰基辅及多地发动大规模导弹与无人机空袭，造成人员伤亡与基础设施受损，袭击甚至波及邻国波兰领土引发北约高度关注，同时美欧正就乌克兰战后安全保障构想与莫斯科展开激烈博弈。",
-   "minorText": [],
-   "links": [
-    {
-     "from": "f4bb4b75-1",
-     "to": "f4bb4b75-2",
-     "t": "基辅遭空袭之际，国际社会也在探讨乌克兰战后的安全保障问题。"
-    }
-   ],
-   "img": {
-    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-    "credit": "Al Jazeera",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 3,
-    "sources": 8,
-    "stories": 27,
-    "gdelt": null,
-    "wiki": null,
-    "at": "2026-11-23T21:16:24.784Z"
+    "at": "2026-11-24T06:00:38.162Z"
    }
   },
   {
@@ -4718,10 +4939,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Rohingya genocide case",
-     "views": 901,
-     "ratio": 0.6
+     "views": 811,
+     "ratio": 0.5
     },
-    "at": "2026-11-23T21:16:41.286Z"
+    "at": "2026-11-24T06:01:11.153Z"
    }
   },
   {
@@ -5356,5 +5577,5 @@
    }
   }
  ],
- "updated": "2026-11-23T21:16:41.286Z"
+ "updated": "2026-11-24T06:01:11.153Z"
 }
