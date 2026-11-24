@@ -6,7 +6,7 @@
    "lines": [
     {
      "id": "3700168d-1",
-     "t": "AI板块抛售与市场影响",
+     "t": "人工智能板块抛售与股市调整",
      "ids": [
       "370e31bae833",
       "af87ca270f5d",
@@ -804,7 +804,7 @@
     },
     {
      "id": "3700168d-7",
-     "t": "黄仁勋回归与科技股行情",
+     "t": "黄仁勋复职与AI热潮反弹",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
@@ -1862,8 +1862,8 @@
     }
    },
    "name": "人工智能板块抛售与监管",
-   "en": "artificial intelligence stock selloff",
-   "wiki": "AI boom and bust market bubble",
+   "en": "artificial intelligence selloff technology stocks",
+   "wiki": "Artificial intelligence boom",
    "cat": "tech",
    "last": "2026-11-24T05:54:34.941Z",
    "hidden": false,
@@ -1897,12 +1897,13 @@
     "score": 5,
     "sources": 39,
     "stories": 80,
-    "gdelt": {
-     "ratio": 4.8,
-     "share": 0.1188
+    "gdelt": null,
+    "wiki": {
+     "title": "Artificial intelligence boom",
+     "views": 0,
+     "ratio": 0
     },
-    "wiki": null,
-    "at": "2026-11-24T05:59:11.667Z"
+    "at": "2026-11-24T17:30:37.953Z"
    }
   },
   {
@@ -2617,7 +2618,7 @@
      "views": 3,
      "ratio": 1
     },
-    "at": "2026-11-24T06:00:54.655Z"
+    "at": "2026-11-24T17:30:54.440Z"
    }
   },
   {
@@ -2811,7 +2812,7 @@
      "views": 4150,
      "ratio": 0.8
     },
-    "at": "2026-11-24T05:59:46.285Z"
+    "at": "2026-11-24T17:31:10.933Z"
    }
   },
   {
@@ -2820,7 +2821,7 @@
    "lines": [
     {
      "id": "6e6b7acb-1",
-     "t": "核心协议难产与谈判破裂",
+     "t": "气候大会因化石燃料分歧谈判破裂",
      "ids": [
       "a3764b25182c",
       "b7be9e2e4afd",
@@ -3190,7 +3191,7 @@
     }
    },
    "name": "第31届联合国气候大会",
-   "en": "UN Climate Change Conference COP",
+   "en": "UN Climate Change Conference negotiations collapse",
    "wiki": "United Nations Climate Change Conference",
    "cat": "world",
    "last": "2026-11-23T08:54:47.154Z",
@@ -3205,7 +3206,7 @@
      "views": 2522,
      "ratio": 3.3
     },
-    "at": "2026-11-24T06:00:21.671Z"
+    "at": "2026-11-24T17:31:27.417Z"
    },
    "short": "COP31气候大会加时",
    "key": "草案剔除化石燃料引发争议",
@@ -4370,7 +4371,7 @@
     "stories": 38,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-24T06:00:38.162Z"
+    "at": "2026-11-24T17:31:43.917Z"
    }
   },
   {
@@ -4942,7 +4943,7 @@
      "views": 811,
      "ratio": 0.5
     },
-    "at": "2026-11-24T06:01:11.153Z"
+    "at": "2026-11-24T17:32:00.414Z"
    }
   },
   {
@@ -5577,5 +5578,5 @@
    }
   }
  ],
- "updated": "2026-11-24T06:01:11.153Z"
+ "updated": "2026-11-24T17:32:00.414Z"
 }
