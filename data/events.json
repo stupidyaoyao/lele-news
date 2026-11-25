@@ -804,21 +804,29 @@
     },
     {
      "id": "3700168d-7",
-     "t": "黄仁勋复职与AI热潮反弹",
+     "t": "英伟达总裁黄仁勋回归及职位变动",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
       "e308d82743fe",
-      "e36c19927212"
+      "e36c19927212",
+      "4207bfe75a6e"
      ],
      "w": {
-      "short": "黄仁勋复职带旺科技股",
-      "key": "黄仁勋回归重振人工智能板块，带动全球科技股与股市表现。",
-      "title": "黄仁勋回归重振人工智能热潮 科技股行情全面回暖",
-      "summary": "随着黄仁勋恢复英伟达首席执行官职务，市场对人工智能的信心大振，带动相关科技板块与亚洲股市反弹。这也对全球金融市场产生连锁反应，促使黄金吐出早期涨幅并令英镑兑美元汇率走弱。美国总统特朗普在此次人事变动中通过高级官员进行了斡旋。",
+      "short": "黄仁勋回归英伟达",
+      "key": "黄仁勋在特朗普政府斡旋下复职英伟达总裁，带动相关科技股与市场反弹。",
+      "title": "黄仁勋复职英伟达总裁引爆市场，多方对透明度及监管存异议",
+      "summary": "在总统特朗普的直接介入和副总统万斯的斡旋下，英伟达董事会重新任命黄仁勋为总裁兼首席执行官，推动华尔街及亚洲股市因人工智能信心恢复而大幅上涨。然而，这一回归也引发了外界对董事会决策透明度、国家安全以及芯片走私审查等问题的质疑。各方对于特朗普施压的程度及内阁内部在监管立场上的分歧持有不同看法。",
       "common": [
        {
-        "t": "黄仁勋回归重振人工智能",
+        "t": "英伟达重新任命黄仁勋为总裁",
+        "src": [
+         "纽约时报中文网",
+         "CNA Business"
+        ]
+       },
+       {
+        "t": "黄仁勋回归带动人工智能及股市表现",
         "src": [
          "Bloomberg.com",
          "纽约时报中文网"
@@ -827,71 +835,96 @@
       ],
       "single": [
        {
-        "t": "英镑兑美元汇率走弱受美国人工智能股复苏拖累",
-        "src": "www.tmgm.com"
+        "t": "英伟达董事会在重新任命过程中面临透明度质疑",
+        "src": "CNA Business"
        },
        {
-        "t": "全球人工智能股票回暖导致黄金吐出早期涨幅",
-        "src": "FXStreet"
+        "t": "美国总统特朗普派副总统万斯斡旋并向董事会提供安全与法律保证",
+        "src": "纽约时报中文网"
+       },
+       {
+        "t": "美国人工智能股复苏拖累了英镑汇率和黄金的早期涨幅",
+        "src": "www.tmgm.com"
        }
       ],
-      "views": [],
-      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大的压力，董事会也没有解释决策过程的具体转变。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "纽约时报中文网"
+        ],
+        "t": "特朗普认为促使黄仁勋复职是拯救了一位天才高管并提振了经济基础。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "纽约时报中文网"
+        ],
+        "t": "批评者和部分内阁成员认为此举忽略了国家安全考量及芯片走私监管问题。"
+       }
+      ],
+      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大的压力，董事会也没有解释决策过程的具体变化。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "黄仁勋回归重振人工智能热潮，推动全球科技板块及相关股市大幅反弹。"
+       "world": "黄仁勋的回归与人工智能板块的波动提振了全球华尔街及亚洲股市的表现。"
       },
       "people": [
        "Jensen Huang",
        "Donald Trump"
       ],
-      "photo": "microchip manufacturing",
+      "photo": "Nvidia logo",
       "per": [
        {
         "id": "d7c905104257",
         "t": "黄仁勋回归重振人工智能热潮，亚洲股市料反弹",
-        "says": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹，利好相关科技板块表现。",
+        "says": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹，带动相关科技板块表现。",
         "same": [
          "黄仁勋回归",
-         "人工智能热潮"
+         "亚洲股市反弹"
         ],
         "view": null
        },
        {
         "id": "b4e96e60bab2",
         "t": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
-        "says": "特朗普派副总统万斯斡旋，促使英伟达董事会恢复黄仁勋的职务，并推动华尔街股价大幅飙升。",
+        "says": "在特朗普推动下，英伟达恢复了黄仁勋的总裁兼首席执行官职务，推动华尔街股市大幅飙升。",
         "same": [
          "黄仁勋回归",
-         "股价飙升"
+         "英伟达"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "e308d82743fe",
         "t": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
-        "says": "英镑兑美元汇率走弱，受到美国人工智能股复苏的拖累。",
-        "same": [
-         "人工智能股复苏"
-        ],
+        "says": "美国人工智能股复苏拖累英镑兑美元汇率走弱。",
+        "same": [],
         "view": null
        },
        {
         "id": "e36c19927212",
         "t": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
-        "says": "随着全球人工智能股票回暖，黄金吐出了早期的涨幅。",
+        "says": "全球人工智能股票回暖导致黄金吐出早期涨幅。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "4207bfe75a6e",
+        "t": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑",
+        "says": "英伟达重新任命黄仁勋为总裁，但董事会面临透明度质疑。",
         "same": [
-         "人工智能股票回暖"
+         "黄仁勋回归",
+         "英伟达"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "ad20f969",
+     "sig": "eee72944",
      "v": 2,
-     "at": "2026-11-24T05:55:32.535Z",
+     "at": "2026-11-25T02:19:34.456Z",
      "img": {
       "kind": "B",
       "people": [
@@ -906,6 +939,330 @@
         "credit": "Daniel Torok · Wikimedia Commons · Public domain",
         "kind": "B",
         "person": "Donald Trump"
+       }
+      ]
+     }
+    },
+    {
+     "id": "3700168d-8",
+     "t": "特朗普介入与赦免黄仁勋讨论",
+     "ids": [
+      "ca6a2bbf5556",
+      "f4b8c1692ea5",
+      "3c774e1dfabf"
+     ],
+     "w": {
+      "short": "特朗普力挺黄仁勋复职",
+      "key": "特朗普介入英伟达丑闻并力挺黄仁勋复职引发各方关注",
+      "title": "特朗普介入英伟达间谍丑闻：力挺黄仁勋复职与政治命运绑定",
+      "summary": "英伟达首席执行官黄仁勋近期因涉嫌与中国情报人员关联的丑闻一度卸任，但在美国总统特朗普及其副手等人的介入下迅速复职，带动公司股价大涨。然而，这一事件也引发了国会两党对其国家安全风险的强烈担忧与调查承诺。多方媒体指出，特朗普的政治命运已与这家科技巨头的表现紧密相连。",
+      "common": [
+       {
+        "t": "黄仁勋卷入与中国有关的间谍丑闻并曾卸任",
+        "src": [
+         "BBC Business",
+         "TechCrunch",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "特朗普及其团队介入并协助黄仁勋复职",
+        "src": [
+         "BBC Business",
+         "TechCrunch",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "黄仁勋复职后英伟达股价随之大幅上涨",
+        "src": [
+         "BBC Business",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "国会将对英伟达及国家安全风险展开调查",
+        "src": [
+         "BBC Business",
+         "纽约时报中文网"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "特朗普表示赦免黄仁勋是一个可能的选项，但认为没有必要",
+        "src": "TechCrunch"
+       },
+       {
+        "t": "特朗普在社交平台上发布了模仿其遭遇刺杀后高举拳头的AI生成图片，主角换成了黄仁勋",
+        "src": "BBC Business"
+       },
+       {
+        "t": "英伟达的贷款承诺和融资安排规模庞大，若按银行规模计算将成为美国第十大银行",
+        "src": "纽约时报中文网"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC Business",
+         "纽约时报中文网"
+        ],
+        "t": "认为黄仁勋复职及涉华关联对美国国家安全构成了严重漏洞与风险，国会议员正寻求通过传唤和听证会追究责任。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "TechCrunch",
+         "纽约时报中文网"
+        ],
+        "t": "认为特朗普政府更看重股市表现与人工智能板块的稳定，因此选择淡化间谍风险并推动力保黄仁勋。"
+       }
+      ],
+      "unknown": "目前尚不清楚黄仁勋与中国的关联究竟对美国国家安全产生了何种具体影响，以及相关走私芯片的技术细节。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "美国人工智能板块的动荡与监管风暴可能对全球芯片供应链和科技市场产生外溢影响。"
+      },
+      "people": [
+       "Jensen Huang",
+       "Donald Trump"
+      ],
+      "photo": "microchip factory",
+      "per": [
+       {
+        "id": "ca6a2bbf5556",
+        "t": "特朗普干预力挺黄仁勋，政治命运与人工智能绑定",
+        "says": "特朗普公开宣称自己促成了黄仁勋回归，并发布AI图片将两人命运绑定，但也引来国会两党对其国家安全风险的质疑与调查。",
+        "same": [
+         "黄仁勋复职",
+         "国会将调查"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "f4b8c1692ea5",
+        "t": "特朗普称赦免黄仁勋是一个可能的选项",
+        "says": "特朗普在采访中表示赦免黄仁勋是可选方案但没必要，并期待他在参议院听证会上说出真相。",
+        "same": [
+         "黄仁勋复职"
+        ],
+        "view": null
+       },
+       {
+        "id": "3c774e1dfabf",
+        "t": "对特朗普来说，科技股价比中国间谍风险更重要",
+        "says": "特朗普为防止人工智能泡沫破裂和股市暴跌而介入促成黄仁勋复职，这表明其将科技股价格置于防范中国间谍风险之上。",
+        "same": [
+         "黄仁勋复职",
+         "股价上涨",
+         "国会将调查"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "04e49b30",
+     "v": 2,
+     "at": "2026-11-25T02:19:49.054Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e638/live/844e1780-e864-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-9",
+     "t": "欧美人工智能板块抛售与股市波及",
+     "ids": [
+      "05f887d0221c",
+      "06b931fd4c68"
+     ],
+     "w": {
+      "short": "人工智能板块抛售与监管",
+      "key": "欧美人工智能板块遭遇抛售并波及亚洲股市，同时面临监管与治理压力",
+      "title": "人工智能板块遭遇欧美抛售与监管风暴，亚洲科技股随之大幅下挫",
+      "summary": "受华尔街隔夜人工智能板块抛售影响，亚洲科技股与半导体板块周三全面大跌，多国芯片巨头股价重挫。与此同时，欧美市场正面临围绕人工智能技术监管、资本开支质疑以及企业高层变动等深层次挑战。科技板块的剧烈波动凸显了全球投资者对人工智能供应链及地缘政治风险的高度敏感。",
+      "common": [
+       {
+        "t": "华尔街人工智能板块隔夜出现抛售并拖累美股",
+        "src": [
+         "TechCrunch",
+         "CNBC Asia"
+        ]
+       },
+       {
+        "t": "人工智能板块波动伴随着市场对高层变动与行业前景的反应",
+        "src": [
+         "TechCrunch",
+         "CNBC Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "耶鲁学者认为英伟达是美国工业实力的负累而非冠军，因其先进芯片流入中国且面临多起诉讼与调查",
+        "src": "TechCrunch"
+       },
+       {
+        "t": "日本、韩国及台湾的半导体与科技股在周三亚太交易时段遭遇集体暴跌",
+        "src": "CNBC Asia"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "TechCrunch"
+        ],
+        "t": "英伟达及其高层回归受到部分投资者欢呼，但批评者认为其存在技术外流风险并引发严重法律与监管危机。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "CNBC Asia"
+        ],
+        "t": "亚洲科技股大跌是由于市场对人工智能资本开支、投资回报率 scepticism 以及循环融资产生担忧所致。"
+       }
+      ],
+      "unknown": "目前尚不确定针对英伟达及其董事会的各项司法诉讼与联邦调查最终将带来何种实质性财务或管理后果。",
+      "impact": {
+       "my": null,
+       "sea": "亚洲多国半导体与科技供应链股价随欧美市场大幅下挫，反映出区域科技板块高度依赖全球人工智能景气循环。",
+       "world": "欧美人工智能板块抛售迅速蔓延至全球主要亚洲科技市场，加剧了全球投资者对人工智能产业估值与供应链安全的担忧。"
+      },
+      "people": [
+       "Jensen Huang",
+       "JD Vance"
+      ],
+      "photo": "semiconductor manufacturing equipment",
+      "per": [
+       {
+        "id": "05f887d0221c",
+        "t": "耶鲁学者：英伟达是美国工业实力的负累而非冠军",
+        "says": "耶鲁学者批评英伟达将先进技术交予对手并面临多起诉讼及调查，而其总裁的回归则受到华盛顿高层施压与市场两极化的反应。",
+        "same": [
+         "总裁回归",
+         "股价与诉讼"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "06b931fd4c68",
+        "t": "华尔街人工智能抛售潮波及亚洲，软银股价大跌14%",
+        "says": "受华尔街抛售拖累，亚洲半导体与科技股周三全面大跌，日本、韩国及台湾多只芯片股重挫，市场对人工智能投资回报及资本开支存疑。",
+        "same": [
+         "华尔街抛售",
+         "亚洲科技股大跌"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "8462b5f5",
+     "v": 2,
+     "at": "2026-11-25T02:20:01.561Z",
+     "img": {
+      "src": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
+      "credit": "TechCrunch",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-10",
+     "t": "美国针对大马企业及芯片禁令",
+     "ids": [
+      "2d004deb0e44",
+      "03bb72c6812c"
+     ],
+     "w": {
+      "short": "美国将大马企业列入黑名单",
+      "key": "美国因人工智能芯片隐患将数家东南亚企业列入贸易黑名单",
+      "title": "美国以人工智能芯片隐患为由将多家东南亚企业列入黑名单",
+      "summary": "美国工业与安全局以转移先进计算设备风险为由，将三家马来西亚企业及其他东南亚公司列入贸易黑名单。马来西亚投资、贸易及工业部此前澄清未批准相关申请。新加坡则表示将协助美国检查以防止被当作转运管道，同时依法对违规企业采取行动。",
+      "common": [
+       {
+        "t": "美国因芯片隐患将东南亚企业列入黑名单。",
+        "src": [
+         "NST Online",
+         "Malay Mail"
+        ]
+       },
+       {
+        "t": "新加坡企业涉及转运及相关调查。",
+        "src": [
+         "NST Online",
+         "Malay Mail"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "三家马来西亚企业被列入美国贸易黑名单。",
+        "src": "NST Online"
+       },
+       {
+        "t": "新加坡总理黄循财表示将协助美国执行芯片检查但依据本国法律行事。",
+        "src": "Malay Mail"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "三家马来西亚企业被美国列入贸易黑名单。",
+       "sea": "多国企业因先进人工智能芯片转运问题受到美国黑名单及调查影响。",
+       "world": "美国加强对人工智能芯片出口管制及防范违规转运。"
+      },
+      "people": [
+       "Lawrence Wong",
+       "Anthony Albanese"
+      ],
+      "photo": "microchip and semiconductor",
+      "per": [
+       {
+        "id": "2d004deb0e44",
+        "t": "美国以先进人工智能芯片隐患为由将三家大马企业列入黑名单",
+        "says": "美国工业与安全局将三家马来西亚企业在内的七家东南亚公司列入黑名单，因担心其将先进计算设备转移给未经授权的用户。",
+        "same": [
+         "列入黑名单",
+         "人工智能芯片"
+        ],
+        "view": null
+       },
+       {
+        "id": "03bb72c6812c",
+        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+        "says": "新加坡将协助美国当局进行检查以防止被用作规避芯片出口控制的管道，并在发现违反本国法律时采取坚决执法行动。",
+        "same": [
+         "新加坡企业",
+         "人工智能芯片"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2e588692",
+     "v": 2,
+     "at": "2026-11-25T02:20:13.505Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lawrence_Wong%2C_August_2026_%28cropped%29.jpg/960px-Lawrence_Wong%2C_August_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Presidencia de la República del Ecuador · Wikimedia Commons · Public domain",
+        "kind": "B",
+        "person": "Lawrence Wong"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Anthony_Albanese_portrait_%28re-crop%29.jpg/960px-Anthony_Albanese_portrait_%28re-crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Australian Government · Wikimedia Commons · CC BY 4.0",
+        "kind": "B",
+        "person": "Anthony Albanese"
        }
       ]
      }
@@ -1859,13 +2216,120 @@
      "source": "FXStreet",
      "cat": "finance",
      "published": "2026-11-24T04:02:11.000Z"
+    },
+    "4207bfe75a6e": {
+     "id": "4207bfe75a6e",
+     "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
+     "zh": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑",
+     "short": "英伟达重新任命黄仁勋",
+     "url": "https://www.channelnewsasia.com/world/nvidia-board-jensen-huang-under-scrutiny-6579411",
+     "source": "CNA Business",
+     "cat": "tech",
+     "published": "2026-11-25T01:57:00.000Z"
+    },
+    "ca6a2bbf5556": {
+     "id": "ca6a2bbf5556",
+     "title": "Trump's Nvidia intervention ties his political fortunes to the AI boom",
+     "zh": "特朗普干预力挺黄仁勋，政治命运与人工智能绑定",
+     "short": "特朗普力挺黄仁勋",
+     "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "tech",
+     "published": "2026-11-25T01:03:05.000Z",
+     "sum": "美国总统对人工智能芯片巨头英伟达总裁黄仁勋的干预和支持，将白宫的政治命运与人工智能热潮紧密联系在一起。这种政商结合反映了当前关键科技产业对国家战略的重要性。这也引发了外界对政策干预自由市场的讨论。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/e638/live/844e1780-e864-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "f4b8c1692ea5": {
+     "id": "f4b8c1692ea5",
+     "title": "Trump reportedly says pardoning Jensen Huang is ‘an option’",
+     "zh": "特朗普称赦免黄仁勋是一个可能的选项",
+     "short": "特朗普称可考虑赦免黄仁勋",
+     "url": "https://techcrunch.com/2026/11/24/trump-reportedly-says-pardoning-jensen-huang-is-an-option-but-that-he-doesnt-think-it-will-be-necessary/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T00:10:27.000Z",
+     "sum": "有报道称，美国前总统特朗普表示特赦英伟达总裁黄仁勋是一个可能的选项。黄仁勋目前正面临有关其与涉嫌将芯片非法输华的前企业相关人员联系的调查与质疑。"
+    },
+    "3c774e1dfabf": {
+     "id": "3c774e1dfabf",
+     "title": "对特朗普来说，科技股价比中国间谍风险更重要",
+     "zh": "对特朗普来说，科技股价比中国间谍风险更重要",
+     "short": "特朗普重科技股价表现",
+     "url": "https://cn.nytimes.com/opinion/20261124/jensen-huang-trump-reinstated/?utm_source=RSS",
+     "source": "纽约时报中文网",
+     "cat": "world",
+     "published": "2026-11-24T04:57:22.000Z",
+     "sum": "分析指出，在特朗普的政策考量中，美国科技板块的股价与经济表现，往往比防范所谓的中国间谍风险更为优先。这显示出其政府与科技寡头之间存在紧密利益同盟。相关政策导向可能对国际经贸格局产生深远影响。",
+     "img": {
+      "src": "https://static01.nyt.com/images/2026/11/23/multimedia/23goldberg-vlph/23goldberg-vlph-videoLarge.jpg",
+      "credit": "纽约时报中文网",
+      "kind": "A"
+     }
+    },
+    "05f887d0221c": {
+     "id": "05f887d0221c",
+     "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
+     "zh": "耶鲁学者：英伟达是美国工业实力的负累而非冠军",
+     "short": "学者指英伟达拖累美国工业",
+     "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T00:12:02.000Z",
+     "sum": "耶鲁大学学者警告称，黄仁勋重返英伟达担任总裁及董事可能是一个重大错误。此举不仅将使董事面临来自大量潜在诉讼的历史性个人责任，还引发了关于英伟达是否在削弱而非支撑美国工业实力的激烈讨论。",
+     "img": {
+      "src": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
+      "credit": "TechCrunch",
+      "kind": "A"
+     }
+    },
+    "06b931fd4c68": {
+     "id": "06b931fd4c68",
+     "title": "SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names",
+     "zh": "华尔街人工智能抛售潮波及亚洲，软银股价大跌14%",
+     "short": "华尔街AI抛售波及亚洲",
+     "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+     "source": "CNBC Asia",
+     "cat": "tech",
+     "published": "2026-11-25T01:57:29.000Z",
+     "sum": "受华尔街人工智能板块遭抛售影响，亚洲科技股全面走低，日本半导体股票领跌。软银股价盘中更大幅下挫百分之十四，打击市场投资情绪。"
+    },
+    "2d004deb0e44": {
+     "id": "2d004deb0e44",
+     "title": "US blacklists three Malaysian firms over advanced AI chip concerns",
+     "zh": "美国以先进人工智能芯片隐患为由将三家大马企业列入黑名单",
+     "short": "美列三马企入黑名单",
+     "url": "https://www.nst.com.my/amp/business/corporate/2026/11/1584475/us-blacklists-three-malaysian-firms-over-advanced-ai-chip",
+     "source": "NST Online",
+     "cat": "malaysia",
+     "published": "2026-11-24T03:28:50.000Z",
+     "sum": "美国政府基于先进人工智能芯片的安全考量，将三家马来西亚企业列入出口管制黑名单。此举反映出美国正进一步收紧对华及东南亚地区高科技转口贸易的审查。相关大马企业面临业务调整及供应链合规压力。"
+    },
+    "03bb72c6812c": {
+     "id": "03bb72c6812c",
+     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
+     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+     "short": "新加坡配合美国芯片禁令",
+     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-25T01:45:47.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
     }
    },
    "name": "人工智能板块抛售与监管",
-   "en": "artificial intelligence selloff technology stocks",
-   "wiki": "Artificial intelligence boom",
+   "en": "NVIDIA selloff regulatory semiconductor",
+   "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-24T05:54:34.941Z",
+   "last": "2026-11-25T02:19:29.834Z",
    "hidden": false,
    "short": "人工智能板块抛售与监管",
    "key": "人工智能板块遭抛售与监管",
@@ -1895,15 +2359,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 39,
-    "stories": 80,
+    "sources": 40,
+    "stories": 88,
     "gdelt": null,
     "wiki": {
-     "title": "Artificial intelligence boom",
-     "views": 0,
-     "ratio": 0
+     "title": "Nvidia",
+     "views": 84245,
+     "ratio": 2.7
     },
-    "at": "2026-11-24T17:30:37.953Z"
+    "at": "2026-11-25T02:21:14.636Z"
    }
   },
   {
@@ -2618,7 +3082,7 @@
      "views": 3,
      "ratio": 1
     },
-    "at": "2026-11-24T17:30:54.440Z"
+    "at": "2026-11-25T02:21:31.094Z"
    }
   },
   {
@@ -2810,9 +3274,9 @@
     "wiki": {
      "title": "United States midterm election",
      "views": 4150,
-     "ratio": 0.8
+     "ratio": 0.9
     },
-    "at": "2026-11-24T17:31:10.933Z"
+    "at": "2026-11-25T02:21:47.591Z"
    }
   },
   {
@@ -3204,9 +3668,9 @@
     "wiki": {
      "title": "United Nations Climate Change Conference",
      "views": 2522,
-     "ratio": 3.3
+     "ratio": 3.1
     },
-    "at": "2026-11-24T17:31:27.417Z"
+    "at": "2026-11-25T02:22:36.042Z"
    },
    "short": "COP31气候大会加时",
    "key": "草案剔除化石燃料引发争议",
@@ -4371,7 +4835,7 @@
     "stories": 38,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-24T17:31:43.917Z"
+    "at": "2026-11-25T02:23:24.462Z"
    }
   },
   {
@@ -4943,7 +5407,7 @@
      "views": 811,
      "ratio": 0.5
     },
-    "at": "2026-11-24T17:32:00.414Z"
+    "at": "2026-11-25T02:24:12.262Z"
    }
   },
   {
@@ -5578,5 +6042,5 @@
    }
   }
  ],
- "updated": "2026-11-24T17:32:00.414Z"
+ "updated": "2026-11-25T02:24:12.263Z"
 }
