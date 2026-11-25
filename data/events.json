@@ -1,131 +1,6 @@
 {
  "events": [
   {
-   "id": "b3d30282",
-   "first": "2026-11-25T12:37:04.088Z",
-   "lines": [
-    {
-     "id": "b3d30282-1",
-     "t": "安华谈难民遣返与缅甸政策",
-     "ids": [
-      "7c80ac0e2ab5",
-      "a901cfe916ed",
-      "b4dce39ee3f3",
-      "43b1484a24fe"
-     ]
-    }
-   ],
-   "minor": [
-    "81fcc05204e4",
-    "4e929bbc26eb",
-    "04e2a80ab80a"
-   ],
-   "stories": {
-    "81fcc05204e4": {
-     "id": "81fcc05204e4",
-     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
-     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
-     "short": "陆兆福细数希盟挑战",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:30:00.000Z"
-    },
-    "4e929bbc26eb": {
-     "id": "4e929bbc26eb",
-     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
-     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
-     "short": "陆兆福称州选竞争不可持续",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:29:00.000Z"
-    },
-    "04e2a80ab80a": {
-     "id": "04e2a80ab80a",
-     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
-     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
-     "short": "陆兆福谈州选竞争",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:00:00.000Z"
-    },
-    "7c80ac0e2ab5": {
-     "id": "7c80ac0e2ab5",
-     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
-     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
-     "short": "土耳其暂难接难民",
-     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:29:55.000Z"
-    },
-    "a901cfe916ed": {
-     "id": "a901cfe916ed",
-     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
-     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
-     "short": "安华辩护缅甸会面",
-     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:28:10.000Z"
-    },
-    "b4dce39ee3f3": {
-     "id": "b4dce39ee3f3",
-     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
-     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
-     "short": "大马将遣返缅移民",
-     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
-     "source": "CNA Asia",
-     "cat": "malaysia",
-     "published": "2026-11-24T04:25:00.000Z"
-    },
-    "43b1484a24fe": {
-     "id": "43b1484a24fe",
-     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
-     "zh": "安华：大马将继续就难民遣返与缅甸合作",
-     "short": "大马续与缅甸合作",
-     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-24T04:17:50.000Z"
-    }
-   },
-   "name": "马来西亚政治与政策",
-   "en": "Malaysia politics government policy",
-   "wiki": "Politics of Malaysia",
-   "cat": "malaysia",
-   "last": "2026-11-25T12:37:04.088Z",
-   "hidden": false,
-   "short": "马来西亚政治与政策动态",
-   "key": "希盟面临选民疲态与经济隐忧",
-   "overview": "陆兆福指出希盟正面临选民疲态及经济隐忧的双重挑战，并强调团结政府中央合作而州选对抗的模式不可持续。",
-   "minorText": [
-    "陆兆福指选民疲态及经济隐忧为希盟挑战",
-    "陆兆福：中央合作却在州属竞争并不可持续",
-    "陆兆福：团结政府中央合作、州选对抗不可持续"
-   ],
-   "links": [],
-   "img": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Kuala_Lumpur_Malaysia_Bangunan_Parlimen_Malaysia-01.jpg/960px-Kuala_Lumpur_Malaysia_Bangunan_Parlimen_Malaysia-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "CEphoto, Uwe Aranas · Wikimedia Commons · CC BY-SA 3.0",
-    "kind": "B"
-   },
-   "heat": {
-    "score": 2,
-    "sources": 4,
-    "stories": 7,
-    "gdelt": null,
-    "wiki": {
-     "title": "Politics of Malaysia",
-     "views": 54,
-     "ratio": 0.8
-    },
-    "at": "2026-11-25T12:42:58.239Z"
-   }
-  },
-  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
@@ -929,7 +804,7 @@
     },
     {
      "id": "3700168d-7",
-     "t": "华尔街抛售潮与亚洲股市波动",
+     "t": "英伟达争议与业务监管",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
@@ -939,101 +814,123 @@
       "ca6a2bbf5556",
       "f4b8c1692ea5",
       "05f887d0221c",
-      "06b931fd4c68"
+      "06b931fd4c68",
+      "fb5a7d58c9a9"
      ],
      "w": {
       "short": "黄仁勋重回英伟达",
-      "key": "黄仁勋复职带动英伟达股价飙升及全球人工智能股回暖",
-      "title": "黄仁勋重掌英伟达引发市场狂欢，特朗普强力干预掀起政商风暴",
-      "summary": "在美国总统特朗普的强力介入与斡旋下，黄仁勋卸任仅一周多便重返英伟达担任总裁兼首席执行官。此举带动英伟达股价大幅飙升，并重振了全球人工智能板块与亚洲股市的信心。然而，其复职决定也引发了外界对国家安全、芯片走私调查以及白宫干预自由市场的广泛争议。",
+      "key": "美国总统特朗普介入推动黄仁勋复职英伟达总裁，引发股市大涨与各界对政治干预及国家安全的广泛讨论。",
+      "title": "特朗普力挺黄仁勋重掌英伟达 掀起政商与人工智能监管风波",
+      "summary": "在美国总统特朗普及其副手万斯的积极斡旋与施压下，因丑闻离职的黄仁勋于周一正式恢复英伟达总裁及首席执行官职务，带动公司股价与亚洲股市大幅反弹。然而，这一干预行动引发了外界对国家安全、芯片出口管制以及行政权力介入私企决策的强烈争议。民主党与部分共和党人计划展开国会调查，而英伟达董事会也面临法律责任与透明度的质疑。",
       "common": [
        {
-        "t": "黄仁勋重新担任英伟达总裁兼首席执行官。",
+        "t": "黄仁勋回归英伟达担任总裁与首席执行官",
         "src": [
          "Bloomberg.com",
          "纽约时报中文网",
          "www.tmgm.com",
          "CNA Business",
+         "BBC Business",
+         "TechCrunch"
+        ]
+       },
+       {
+        "t": "黄仁勋复职带动英伟达股价与人工智能相关股市大涨",
+        "src": [
+         "Bloomberg.com",
+         "纽约时报中文网",
+         "www.tmgm.com",
+         "FXStreet",
          "BBC Business"
         ]
        },
        {
-        "t": "黄仁勋回归消息公布后，英伟达股价大幅飙升。",
+        "t": "黄仁勋此前因卷入涉嫌与中国间谍接触及婚外情丑闻而短暂离职",
         "src": [
          "纽约时报中文网",
          "www.tmgm.com",
-         "BBC Business"
-        ]
-       },
-       {
-        "t": "黄仁勋此前因承认婚外情及相关丑闻而离职。",
-        "src": [
-         "纽约时报中文网",
-         "www.tmgm.com"
+         "BBC Business",
+         "TechCrunch"
         ]
        }
       ],
       "single": [
        {
-        "t": "特朗普派副总统万斯与黄仁勋和英伟达董事会进行私下交谈，并提供关键保证以促成其复职。",
-        "src": "纽约时报中文网"
+        "t": "特朗普在采访中表示赦免黄仁勋是一个可能的选项，但他认为没有必要实际执行",
+        "src": "TechCrunch"
        },
        {
-        "t": "美国人工智能股复苏拖累英镑兑美元汇率走弱至接近年度低位。",
-        "src": "www.tmgm.com"
-       },
-       {
-        "t": "耶鲁大学学者杰弗里·索嫩费尔德警告称，黄仁勋重返英伟达可能是一个重大错误，并使董事面临大量潜在诉讼的历史性个人责任。",
-        "src": "05f887d0221c"
+        "t": "耶鲁大学学者杰弗里·索嫩费尔德警告称黄仁勋重返英伟达可能是一个重大错误，并指英伟达是美国工业实力的负累而非冠军",
+        "src": "TechCrunch"
        }
       ],
-      "views": [],
-      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大压力，董事会也没有解释从上周排除黄仁勋回归到周末欣然接受的原因。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "纽约时报中文网",
+         "BBC Business",
+         "TechCrunch"
+        ],
+        "t": "批评观点认为特朗普直接干预私企高层决策涉嫌政治腐败，且黄仁勋复职忽视了国家安全和芯片走私等合理担忧。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Bloomberg.com",
+         "纽约时报中文网",
+         "www.tmgm.com",
+         "BBC Business"
+        ],
+        "t": "支持与市场观点认为黄仁勋对人工智能行业不可或缺，其回归提振了科技板块与整体经济信心。"
+       }
+      ],
+      "unknown": "目前尚不清楚特朗普对英伟达董事会施加具体压力的细节，且董事会对决策过程守口如瓶。",
       "impact": {
        "my": null,
-       "sea": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹。",
-       "world": "英伟达高层人事变动与美国政坛的深度干预，引发了全球华尔街抛售潮、外汇市场波动以及对人工智能供应链与地缘政治的新一轮审视。"
+       "sea": null,
+       "world": "英伟达高层人事变动与美国政府的芯片监管政策直接牵动全球人工智能产业链、金融市场及地缘政治走向。"
       },
       "people": [
        "Jensen Huang",
        "Donald Trump"
       ],
-      "photo": "microchip manufacturing",
+      "photo": "computer microchip",
       "per": [
        {
         "id": "d7c905104257",
         "t": "黄仁勋回归重振人工智能热潮，亚洲股市料反弹",
-        "says": "随着黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹。",
+        "says": "黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹。",
         "same": [
          "黄仁勋回归",
          "人工智能热潮"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "b4e96e60bab2",
         "t": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
-        "says": "特朗普派副总统万斯斡旋，促使英伟达董事会重新聘用黄仁勋为总裁兼首席执行官，推动华尔街大幅飙升。",
+        "says": "特朗普促成黄仁勋恢复英伟达首席执行官职务，并推动公司股价大幅飙升。",
         "same": [
-         "黄仁勋复职",
-         "股价大幅飙升"
+         "黄仁勋回归",
+         "股价大涨"
         ],
         "view": "看法 A"
        },
        {
         "id": "e308d82743fe",
         "t": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
-        "says": "美国人工智能股受黄仁勋回归激励而急剧反弹，吸引资金流入美国，导致英镑兑美元汇率走弱。",
+        "says": "全球人工智能股在黄仁勋回归后重新获得吸引力，推升美元并拖累英镑。",
         "same": [
          "黄仁勋回归",
-         "股价大幅飙升"
+         "人工智能股复苏"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "e36c19927212",
         "t": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
-        "says": "全球人工智能股票回暖，黄金吐出早期涨幅。",
+        "says": "全球人工智能股票回暖影响了贵金属市场走势。",
         "same": [
          "人工智能股票回暖"
         ],
@@ -1044,45 +941,44 @@
         "t": "CNA Business",
         "says": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑。",
         "same": [
-         "重新任命总裁",
-         "黄仁勋"
+         "英伟达重新任命总裁"
         ],
         "view": null
        },
        {
         "id": "ca6a2bbf5556",
         "t": "特朗普干预力挺黄仁勋，政治命运与人工智能绑定",
-        "says": "美国总统特朗普对英伟达总裁黄仁勋的干预和支持，将白宫的政治命运与人工智能热潮紧密联系在一起，引发了对政策干预自由市场的讨论。",
+        "says": "美国总统对英伟达总裁黄仁勋的干预和支持，将白宫的政治命运与人工智能热潮紧密联系在一起。",
         "same": [
          "特朗普干预",
-         "黄仁勋"
+         "黄仁勋回归"
         ],
         "view": "看法 A"
        },
        {
         "id": "f4b8c1692ea5",
         "t": "特朗普称赦免黄仁勋是一个可能的选项",
-        "says": "特朗普表示特赦英伟达总裁黄仁勋是一个可能的选项。",
+        "says": "特朗普在接受采访时表示，赦免英伟达首席执行官黄仁勋是一个可能的选项。",
         "same": [
-         "黄仁勋"
+         "黄仁勋恢复职务"
         ],
         "view": null
        },
        {
         "id": "05f887d0221c",
         "t": "耶鲁学者：英伟达是美国工业实力的负累而非冠军",
-        "says": "耶鲁大学学者警告称，黄仁勋重返英伟达可能是一个重大错误，英伟达是美国工业实力的负累而非冠军。",
+        "says": "耶鲁大学学者警告称黄仁勋重返英伟达可能是一个重大错误，并引发了关于其削弱美国工业实力的讨论。",
         "same": [
          "黄仁勋重返英伟达"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        }
       ]
      },
      "loose": false,
-     "sig": "72428359",
+     "sig": "08338bdf",
      "v": 2,
-     "at": "2026-11-25T12:37:14.206Z",
+     "at": "2026-11-25T22:26:36.784Z",
      "img": {
       "kind": "B",
       "people": [
@@ -1294,6 +1190,102 @@
      "img": {
       "src": "https://cassette.sphdigital.com.sg/image/straitstimes/da1fae1778d1a1769de623f4f14dbadee29a898403e5630bb4395ab862d305dc?t=og",
       "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-10",
+     "t": "美股AI概念股遭遇抛售",
+     "ids": [
+      "f8076ed8c355",
+      "d9222ae2d06b",
+      "667a96dca3c5"
+     ],
+     "w": {
+      "short": "美股AI概念股遭抛售",
+      "key": "人工智能担忧加剧拖累美股大幅走低",
+      "title": "人工智能担忧加剧拖累美股走低 英伟达股价波动引发市场关注",
+      "summary": "受人工智能投资可持续性担忧及管理层变动影响，美股人工智能概念股近期遭遇抛售，英伟达股价大幅波动并被标普列入负面信用观察名单。市场对人工智能领域的高额投入是否能获得回报产生疑虑。",
+      "common": [
+       {
+        "t": "英伟达总裁离职后复职",
+        "src": [
+         "BBC World",
+         "CNA Business"
+        ]
+       },
+       {
+        "t": "英伟达股价近期出现下跌",
+        "src": [
+         "BBC World",
+         "CNA Business"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "标普将英伟达信用评级列入负面信用观察名单",
+        "src": "CNA Business"
+       },
+       {
+        "t": "美国政府宣布对贸易伙伴实施新关税",
+        "src": "BBC World"
+       },
+       {
+        "t": "高盛预计2026年人工智能投资将超过1万亿美元",
+        "src": "BBC World"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚人工智能领域投入的巨额资金最终能否获得相应回报。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "人工智能概念股遭到抛售，拖累美国股市表现并引发全球投资者对相关投资可持续性的担忧。"
+      },
+      "people": [
+       "Jensen Huang"
+      ],
+      "photo": "Nvidia headquarters",
+      "per": [
+       {
+        "id": "f8076ed8c355",
+        "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
+        "says": "人工智能相关大型科技公司股价继续下跌，英伟达等公司在早盘交易中跌幅明显。投资者对人工智能投资的规模和可持续性感到担忧。",
+        "same": [
+         "股价下跌",
+         "总裁复职"
+        ],
+        "view": null
+       },
+       {
+        "id": "d9222ae2d06b",
+        "t": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
+        "says": "人工智能股票出现回调，道琼斯工业指数抹去跌幅并反弹。",
+        "same": [
+         "人工智能股回调"
+        ],
+        "view": null
+       },
+       {
+        "id": "667a96dca3c5",
+        "t": "标普将英伟达评级列入负面信用观察名单",
+        "says": "标普全球评级将英伟达的信用评级列入负面信用观察名单，指出管理和治理风险上升，高管离职与复职未能充分解答董事会监督问题。",
+        "same": [
+         "总裁复职",
+         "英伟达"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "616efd9e",
+     "v": 2,
+     "at": "2026-11-25T22:28:04.317Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC World",
       "kind": "A"
      }
     }
@@ -2232,7 +2224,7 @@
      "title": "British Pound trades vulnerably against US Dollar on revival of US AI stocks",
      "zh": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
      "short": "美AI股复苏致英镑跌",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUVBoU21sWDA2bnRoQUJlbEtyUnZ4UkJYNUhKVjNWNG13WVVyUENVR3l0bGpxN2ktdm15MUlVZTRGVGVxcXpQUkpXREEtb3IzcURzQ2w4RG1PWWd0WU9CSU9vMkRpRjZZU1BnWS1oWUltMHpMdWxuNTdhSUtlNFNCQVpLYnlseDlycDJPZWEwaFNnV3JfZEZHRzg5RTZkWk85N19ZWE5DaTNxb1ZsYk5TckJBc1Y5UnhnandQcWV0MkphVjVMSm94aDE3RFdZbGpSQ3hTTUFCczR3TnpVT0E?oc=5",
+     "url": "https://www.tmgm.com/en-in/analysis/market-news/article/british-pound-trades-vulnerably-against-us-dollar-on-revival-of-us-ai-stocks-202611240454",
      "source": "www.tmgm.com",
      "cat": "finance",
      "published": "2026-11-24T04:58:52.000Z"
@@ -2242,7 +2234,7 @@
      "title": "Gold gives back early gains as global AI stocks regain traction",
      "zh": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
      "short": "人工智能股回暖致金价回落",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDZsZHFtWWUtQWMxZ1hMRzhsdFVndExaNEw1Vk45MU9ZdWtTRExYYzJOMVdNMWJzMktaT0ZwSWNubzBMeExScF81OW5JbXBESjdQMExiakdIdmFJM0VkNVBOUmhzZlVkT1h2ZlEtOGJ0cmZoT0hFU0dGalViVC10M0VIS3dPQ2pnd3Q3RUFocUxVZmViaHdIMXRGZlN1QlNpNno4dEttWnlFNHFLOXlDUmpn?oc=5",
+     "url": "https://www.fxstreet.com/news/gold-rebounds-above-3-600-as-ceo-nvidia-returns-markets-trim-fed-hike-202611232326",
      "source": "FXStreet",
      "cat": "finance",
      "published": "2026-11-24T04:02:11.000Z"
@@ -2368,13 +2360,59 @@
      "source": "The Straits Times",
      "cat": "malaysia",
      "published": "2026-11-24T04:50:00.000Z"
+    },
+    "f8076ed8c355": {
+     "id": "f8076ed8c355",
+     "title": "US stocks fall further as fears over AI intensify",
+     "zh": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
+     "short": "AI担忧升温美股急挫",
+     "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "finance",
+     "published": "2026-11-25T21:43:18.000Z",
+     "sum": "由于市场对人工智能领域的担忧情绪加剧，美国三大主要股指早盘全面走低。其中，以科技股为主的纳斯达克指数盘初跌幅接近4%。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "d9222ae2d06b": {
+     "id": "d9222ae2d06b",
+     "title": "Dow Jones Industrial Average recovers lost ground even as AI stocks retreat",
+     "zh": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
+     "short": "道指收复失地科技股走弱",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ3BocEdUOW1JM2VkcUV6UERLWTk4dVpRQjRaZm5VS0VXbTlSVW1VZERZT3BaaG1MVXR3YjJmYWVxTWM4MndjNU5kTXliVjdWMUlaeHFISE96cFc3YWFJek9jMkdBM1lwb2xneElwbGFVVWhQQ3BJWmRKelNiOERkM24wVVRxNVdjdzY0aXhBZ0JpUC1Vei14MVVMVDRNU0dCRmpZVVZUYk56UlUwUjJ5Z09uSFBsNzZKRmF2ckd4LUM3M1QtMXprSENZMA?oc=5",
+     "source": "www.tmgm.com",
+     "cat": "finance",
+     "published": "2026-11-25T21:49:52.000Z"
+    },
+    "667a96dca3c5": {
+     "id": "667a96dca3c5",
+     "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
+     "zh": "标普将英伟达评级列入负面信用观察名单",
+     "short": "标普将英伟达列入负面观察",
+     "url": "https://www.channelnewsasia.com/business/sp-global-places-nvidia-rating-creditwatch-negative-rising-management-and-governance-risks-6582666",
+     "source": "CNA Business",
+     "cat": "finance",
+     "published": "2026-11-25T19:12:33.000Z"
+    },
+    "fb5a7d58c9a9": {
+     "id": "fb5a7d58c9a9",
+     "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+     "zh": "黄仁勋被指违反英伟达行为准则，员工恐难释怀",
+     "short": "黄仁勋打破英伟达准则",
+     "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T19:54:57.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "Nvidia artificial intelligence stock market",
+   "en": "NVIDIA artificial intelligence stock market",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-25T12:37:04.087Z",
+   "last": "2026-11-25T22:26:29.968Z",
    "hidden": false,
    "short": "人工智能板块抛售与监管",
    "key": "人工智能板块遭抛售与监管",
@@ -2405,14 +2443,1134 @@
    "heat": {
     "score": 5,
     "sources": 40,
-    "stories": 89,
+    "stories": 93,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
      "views": 89488,
      "ratio": 2.3
     },
-    "at": "2026-11-25T12:40:30.912Z"
+    "at": "2026-11-25T22:30:16.106Z"
+   }
+  },
+  {
+   "id": "5a1cdc28",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "5a1cdc28-1",
+     "t": "国际法院裁决与难民反应",
+     "ids": [
+      "978f89b95795",
+      "75c4f6000f48",
+      "afbc4c41b87d",
+      "d3549ebb0236",
+      "408065c2f975",
+      "7745a81f8be2",
+      "c45b740ac23d",
+      "6b17d8cfc59e",
+      "9823b865d2e8",
+      "16b950be37c5",
+      "3bcfa52a6aed",
+      "3640a3fbb952",
+      "135e6ee7403e",
+      "6cc38668b794",
+      "483c269f9b85",
+      "e05c1d6797c4",
+      "1a00b0820750"
+     ],
+     "w": {
+      "short": "缅甸罗兴亚裁决",
+      "key": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪",
+      "title": "国际法院裁定缅甸犯下罗兴亚种族灭绝罪，大马庇护政策与区域引发关注",
+      "summary": "联合国国际法院历史上首次裁定缅甸对罗兴亚人犯下种族灭绝罪，下令提供赔偿并确保难民安全回国。缅甸官方批评裁决不公并否认指控，中国则对司法过度干预表示担忧。此历史性裁决对长期收容难民的马来西亚及其他国际诉讼产生深远影响。",
+      "common": [
+       {
+        "t": "国际法院裁定缅甸犯下种族灭绝罪",
+        "src": [
+         "France 24",
+         "CNA Asia",
+         "Free Malaysia Today",
+         "BBC 中文"
+        ]
+       },
+       {
+        "t": "缅甸官方批评裁决不公",
+        "src": [
+         "CNA Asia",
+         "Malaysiakini",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "马来西亚面对日益高涨的反感与社会压力，庇护政策面临历史性抉择",
+        "src": "France 24"
+       },
+       {
+        "t": "中国认为国际法院存在司法过度干预和扩大解释的问题",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "CNA Asia",
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ],
+        "t": "缅甸官方认为国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "中国认为国际法院存在司法过度干预与扩大解释，此类做法不利于争端的解决。"
+       }
+      ],
+      "unknown": "目前国际法院缺乏执法机制，缅甸是否会遵守命令仍是未知数。",
+      "impact": {
+       "my": "长期收容难民的大马面对本土反感情绪，庇护政策面临考验。",
+       "sea": "裁决可能对缅甸领导人带来更多国际外交压力，并对区域局势产生深远影响。",
+       "world": "此案创下国际法院首次裁定国家犯下种族灭绝罪的先例，并将对其他国际诉讼产生重大影响。"
+      },
+      "people": [
+       "Yuji Iwasawa",
+       "Min Aung Hlaing"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "978f89b95795",
+        "t": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
+        "says": "国际法院裁定缅甸犯下灭绝罪，大马面对社会压力，庇护政策正面临抉择。",
+        "same": [
+         "种族灭绝",
+         "庇护政策"
+        ],
+        "view": null
+       },
+       {
+        "id": "75c4f6000f48",
+        "t": "联合国针对缅甸作出具里程碑意义裁决",
+        "says": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪，并下令提供赔偿。",
+        "same": [
+         "种族灭绝",
+         "国际法院"
+        ],
+        "view": null
+       },
+       {
+        "id": "afbc4c41b87d",
+        "t": "缅甸称国际法院的种族灭绝裁决“不公平”",
+        "says": "缅甸批评裁决不公并否认指控，中国表达担忧，美国反应谨慎。",
+        "same": [
+         "种族灭绝",
+         "裁决不公"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "d3549ebb0236",
+        "t": "中国称缅甸种族灭绝裁决“不利于”解决争端",
+        "says": "中国关注司法过度干预问题，认为不利于解决争端。",
+        "same": [
+         "种族灭绝",
+         "司法过度干预"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "408065c2f975",
+        "t": "缅甸种族灭绝裁决影响深远的历史意义",
+        "says": "国际法院首次裁定国家犯下种族灭绝罪，对国际法及其他案件影响深远。",
+        "same": [
+         "种族灭绝",
+         "历史意义"
+        ],
+        "view": null
+       },
+       {
+        "id": "7745a81f8be2",
+        "t": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
+        "says": "探讨国际法院裁决对其他地区案件的影响。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "c45b740ac23d",
+        "t": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
+        "says": "缅甸官方指责国际法院的裁决不公平。",
+        "same": [
+         "裁决不公"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b17d8cfc59e",
+        "t": "缅甸发言人称国际法院的种族灭绝裁决不公",
+        "says": "缅甸发言人表示种族灭绝裁决不公正。",
+        "same": [
+         "裁决不公"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "addf300f",
+     "at": "2026-11-22T04:05:45.576Z",
+     "img": {
+      "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
+      "credit": "CNA Asia",
+      "kind": "A"
+     },
+     "v": 2
+    },
+    {
+     "id": "5a1cdc28-2",
+     "t": "内阁同意安置难民至土耳其",
+     "ids": [
+      "391dc893b136",
+      "bbc90da3ec13",
+      "8539895b5c90",
+      "e6579b6ff7f7",
+      "e0f1a40bb1a0",
+      "842207c32407",
+      "bdc3723f3912"
+     ],
+     "w": {
+      "short": "安置罗兴亚人争议",
+      "key": "政府推行罗兴亚难民安置与管理计划引发讨论。",
+      "title": "大马政府安置1万名罗兴亚难民至土耳其及难民管理引发关注",
+      "summary": "马来西亚政府宣布内阁同意将1万名罗兴亚难民安置到土耳其，并接受技能培训，但副首相阿末扎希的相关贴文随后被删除，引发外界要求厘清。同时，内政部指出持有难民证者禁止跨州前往沙巴、砂拉越和纳闽。此计划与难民管理措施引起了政治与舆论的关注。",
+      "common": [
+       {
+        "t": "大马政府计划将1万名罗兴亚难民安置到土耳其。",
+        "src": [
+         "联合早报",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "安置前的难民将接受技能与职业教育培训。",
+        "src": [
+         "联合早报",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "阿末扎希宣布安置计划的贴文随后被删除，引发政府受促厘清。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "内政部表示持有难民证者禁止入境沙巴、砂拉越和纳闽。",
+        "src": "Malaysiakini"
+       }
+      ],
+      "views": [],
+      "unknown": "阿末扎希关于难民安置计划的贴文被删除的原因目前不明。",
+      "impact": {
+       "my": "难民安置与管理政策牵动国内安全、移民管控及政治舆论。",
+       "sea": "罗兴亚难民安置问题持续受到区域及国际关注。",
+       "world": "涉及联合国与跨国协调的难民重新安置引发国际关注。"
+      },
+      "people": [
+       "Ahmad Zahid Hamidi",
+       "Anwar Ibrahim"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "391dc893b136",
+        "t": "大马计划将1万名罗兴亚难民安置在土耳其",
+        "says": "大马计划将1万名罗兴亚难民安置到土耳其，并接受培训以协助展开新生活，但相关贴文随后被删除。",
+        "same": [
+         "安置难民到土耳其"
+        ],
+        "view": null
+       },
+       {
+        "id": "bbc90da3ec13",
+        "t": "内阁同意将1万名罗兴亚难民安置在土耳其",
+        "says": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其，难民在安置前将接受技能培训。",
+        "same": [
+         "安置难民到土耳其",
+         "接受技能培训"
+        ],
+        "view": null
+       },
+       {
+        "id": "8539895b5c90",
+        "t": "扎希德：1万名罗兴亚难民将安置到土耳其",
+        "says": "内阁已批准将1万名罗兴亚难民安置到土耳其，在当地接受技术与职业教育培训。",
+        "same": [
+         "安置难民到土耳其",
+         "接受技能培训"
+        ],
+        "view": null
+       },
+       {
+        "id": "e6579b6ff7f7",
+        "t": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
+        "says": "持有难民注册证卡的难民禁止进入沙巴、砂拉越和纳闽，该计划旨在逐步接管难民注册功能。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "bdc3723f3912",
+        "t": "安华与扎希的权力角逐：第16届全国大选的布城争夺战",
+        "says": "政治分析指出下届大选将演变成安华与阿末扎希之间的政治博弈。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "ad31b4f3",
+     "at": "2026-11-22T03:35:06.716Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/831f893da518464ad09db401681357fb5a64d46edbf83a17214981a80b648707",
+      "credit": "联合早报",
+      "kind": "A"
+     },
+     "v": 2
+    },
+    {
+     "id": "5a1cdc28-3",
+     "t": "大马政府计划遣返缅甸难民",
+     "ids": [
+      "845214096fb8",
+      "7c80ac0e2ab5",
+      "a901cfe916ed",
+      "b4dce39ee3f3",
+      "43b1484a24fe"
+     ],
+     "w": {
+      "short": "大马计划遣返缅甸难民",
+      "key": "大马政府计划在12月通过海空遣返数千名缅甸非法移民。",
+      "title": "大马计划12月遣返数千缅甸难民 土耳其暂不考虑接收",
+      "summary": "大马政府计划在12月通过海空遣返数千名缅甸非法移民，同时寻求将部分难民安置到第三国。首相安华证实土耳其目前尚未准备好考虑接纳1万名罗兴亚难民。随着国际法院裁定缅甸种族灭绝，大马的罗兴亚难民希望争取更多留马时间。",
+      "common": [
+       {
+        "t": "大马计划遣返缅甸移民",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "土耳其未准备好接纳难民",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "罗兴亚难民呼吁在大马争取更多停留时间直到缅甸安全",
+        "src": "The Straits Times"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚缅甸军政府是否会遵守国际法院的裁决以及被遣返者能否获得安全保障。",
+      "impact": {
+       "my": "大马面对庞大难民收容压力，正积极推进遣返与第三国安置。",
+       "sea": "突显东南亚区域国家在处理缅甸难民危机时的长期挑战。",
+       "world": null
+      },
+      "people": [
+       "Anwar Ibrahim",
+       "Ahmad Zahid Hamidi"
+      ],
+      "photo": "refugee camp",
+      "per": [
+       {
+        "id": "845214096fb8",
+        "t": "国际法院裁定缅甸种族灭绝后 在马罗兴亚难民盼争取更多时间",
+        "says": "罗兴亚难民呼吁大马政府让他们在国际法院裁决落实前继续留在大马，并对缅甸军政府缺乏信任。",
+        "same": [
+         "罗兴亚难民"
+        ],
+        "view": null
+       },
+       {
+        "id": "7c80ac0e2ab5",
+        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+        "says": "首相安华在国会证实土耳其没有准备好接纳1万名罗兴亚难民，因其自身已承担大量难民。",
+        "same": [
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "a901cfe916ed",
+        "t": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
+        "says": "安华指出尽管存在迫害，与缅甸军政府领导人会面仍有必要。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "b4dce39ee3f3",
+        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+        "says": "大马首相宣布将在12月通过海路和空路遣返超过6500名缅甸移民。",
+        "same": [
+         "遣返缅甸移民"
+        ],
+        "view": null
+       },
+       {
+        "id": "43b1484a24fe",
+        "t": "安华：大马将继续就难民遣返与缅甸合作",
+        "says": "大马将继续就难民遣返与缅甸合作。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "efdcadb9",
+     "v": 2,
+     "at": "2026-11-25T22:27:13.693Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/59434c8d97e37ea6a77d653f39f16fe6a65590a92f5d5f12d12977f9d783416d?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "978f89b95795": {
+     "id": "978f89b95795",
+     "title": "Malaysia's unwanted refugees: The plight of the Rohingya",
+     "zh": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
+     "short": "国际法院裁定缅甸灭绝罪",
+     "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya",
+     "source": "France 24",
+     "cat": "sea",
+     "published": "2026-11-20T11:28:30.000Z",
+     "sum": "国际法院裁定缅甸在2017年对罗兴亚人犯下灭绝罪。长期收容难民的马来西亚，面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。"
+    },
+    "75c4f6000f48": {
+     "id": "75c4f6000f48",
+     "title": "CNA Explains: Can a country be held accountable for genocide?",
+     "zh": "联合国针对缅甸作出具里程碑意义裁决",
+     "url": "https://www.channelnewsasia.com/asia/icj-un-court-ruling-genocide-myanmar-rohingya-atrocities-explainer-6568961",
+     "source": "CNA Asia",
+     "cat": "world",
+     "published": "2026-11-20T10:45:30.000Z",
+     "sum": "联合国本周对缅甸作出历史性裁决，引发关于国家如何承担灭绝种族罪责任的讨论。然而，判决的执行以及受害者能否获得正义仍面临诸多疑问。"
+    },
+    "afbc4c41b87d": {
+     "id": "afbc4c41b87d",
+     "title": "Myanmar says international court's genocide ruling 'not fair'",
+     "zh": "缅甸称国际法院的种族灭绝裁决“不公平”",
+     "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946",
+     "source": "CNA Asia",
+     "cat": "sea",
+     "published": "2026-11-20T09:36:33.000Z",
+     "sum": "缅甸官方公开批评国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。缅甸一贯否认相关指控。"
+    },
+    "d3549ebb0236": {
+     "id": "d3549ebb0236",
+     "title": "China says Myanmar genocide ruling ‘not conducive’ to solving disputes",
+     "zh": "中国称缅甸种族灭绝裁决“不利于”解决争端",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-myanmar-genocide-ruling-not-conducive-to-solving-disputes",
+     "source": "Free Malaysia Today",
+     "cat": "china",
+     "published": "2026-11-20T09:10:11.000Z",
+     "sum": "中国外交部表示，对国际法院的管辖权过度延伸和扩大解释感到关切，认为此类做法不利于争端的解决。中方就缅甸相关涉外司法裁决表明了立场。"
+    },
+    "408065c2f975": {
+     "id": "408065c2f975",
+     "title": "緬甸種族滅絕裁決影響深遠的歷史意義",
+     "zh": "缅甸种族灭绝裁决影响深远的历史意义",
+     "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "sea",
+     "published": "2026-11-20T08:53:00.000Z",
+     "sum": "国际法院对缅甸的种族灭绝裁决具有深远的历史意义。法律界正研究冈比亚如何证明缅甸具有实施种族灭绝的意图。"
+    },
+    "7745a81f8be2": {
+     "id": "7745a81f8be2",
+     "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
+     "zh": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
+     "short": "国际法院裁决意义",
+     "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T12:20:29.000Z"
+    },
+    "c45b740ac23d": {
+     "id": "c45b740ac23d",
+     "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
+     "zh": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
+     "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
+     "source": "Malaysiakini",
+     "cat": "world",
+     "published": "2026-11-20T11:02:46.000Z"
+    },
+    "6b17d8cfc59e": {
+     "id": "6b17d8cfc59e",
+     "title": "International court’s genocide ruling ‘not fair’, says Myanmar spokeswoman",
+     "zh": "缅甸发言人称国际法院的种族灭绝裁决不公",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/international-court-s-genocide-ruling-not-fair-says-myanmar-spokeswoman",
+     "source": "Free Malaysia Today",
+     "cat": "sea",
+     "published": "2026-11-20T08:47:00.000Z"
+    },
+    "391dc893b136": {
+     "id": "391dc893b136",
+     "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
+     "zh": "大马计划将1万名罗兴亚难民安置在土耳其",
+     "url": "https://www.zaobao.com.sg/en/news/sea/malaysia-plans-resettle-10000-rohingya-refugees-turkey",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-20T09:02:34.000Z",
+     "sum": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。内阁已对此予以批准，此前副首相阿末扎希曾对该国进行工作访问。"
+    },
+    "bbc90da3ec13": {
+     "id": "bbc90da3ec13",
+     "title": "Cabinet nod to resettle 10,000 Rohingya refugees in Turkey",
+     "zh": "内阁同意将1万名罗兴亚难民安置在土耳其",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/cabinet-nod-to-resettle-10-000-rohingya-refugees-in-turkey",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-20T08:29:00.000Z",
+     "sum": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。"
+    },
+    "8539895b5c90": {
+     "id": "8539895b5c90",
+     "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
+     "zh": "扎希德：1万名罗兴亚难民将安置到土耳其",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-20T08:20:00.000Z",
+     "sum": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。"
+    },
+    "e6579b6ff7f7": {
+     "id": "e6579b6ff7f7",
+     "title": "Home Ministry: Refugee card holders barred from entering Sabah, Sarawak and Labuan",
+     "zh": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
+     "url": "https://www.malaysiakini.com/news/889501-home-ministry-refugee-card-holders-barred-from-entering-sabah-sarawak-and-labuan",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-20T04:45:41.000Z",
+     "sum": "大马内政部宣布，持联合国难民署证件的人士一律被禁止入境沙巴、砂拉越及纳闽。此举旨在加强东马两州的边境管控与移民安全。"
+    },
+    "9823b865d2e8": {
+     "id": "9823b865d2e8",
+     "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+     "zh": "孟加拉罗兴亚人欢迎联合国法院裁决，但仍希望重返缅甸",
+     "short": "罗兴亚人望重返缅甸",
+     "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-21T01:14:00.000Z"
+    },
+    "3bcfa52a6aed": {
+     "id": "3bcfa52a6aed",
+     "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
+     "zh": "喜极而泣祈祷回家：罗兴亚人对灭绝裁决的反应",
+     "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "sea",
+     "published": "2026-11-20T05:36:21.000Z",
+     "sum": "For refugees, the ICJ ruling that Myanmar committed genocide is a vindication. But will they be able to return home?"
+    },
+    "16b950be37c5": {
+     "id": "16b950be37c5",
+     "title": "UN General Assembly chief tells Myanmar to ‘bring Rohingya home’",
+     "zh": "联合国大会主席敦促缅甸将罗兴亚人接回家园",
+     "url": "https://www.channelnewsasia.com/asia/myanmar-rohingya-genocide-un-icj-6568711",
+     "source": "CNA Asia",
+     "cat": "world",
+     "published": "2026-11-20T07:32:00.000Z",
+     "sum": "\"A judgment on paper is not justice in life - now it must be given effect,\" said Khalilur Rahman, head of the United Nations General Assembly."
+    },
+    "3640a3fbb952": {
+     "id": "3640a3fbb952",
+     "title": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
+     "zh": "本周世界：焦点访谈、缅甸种族灭绝裁决与欧盟扩张",
+     "short": "本周国际热点深度解析",
+     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T19:42:58.000Z"
+    },
+    "e0f1a40bb1a0": {
+     "id": "e0f1a40bb1a0",
+     "title": "Xenophobia a 'ticking time bomb' for M'sian economy - Mat Sabu",
+     "zh": "莫哈末沙布：仇外心理是大马经济的定时炸弹",
+     "short": "莫哈末沙布警惕仇外心理",
+     "url": "https://www.malaysiakini.com/news/889484-xenophobia-a-ticking-time-bomb-for-msian-economy-mat-sabu",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-20T23:00:00.000Z"
+    },
+    "135e6ee7403e": {
+     "id": "135e6ee7403e",
+     "title": "‘The world now knows’: Myanmar refugees welcome ICJ landmark ruling on genocide",
+     "zh": "缅甸难民欢迎国际法院就种族灭绝案作出的裁决",
+     "short": "缅难民欢迎国际法院裁决",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3hGVlR5VkJNR2NzMTB0bjRFVU9RUGlNWVVpdGxwTF8wWWZZNWpoYkVoUmpEMzA0alhSM3l2aTJlMVlrcTBuQ0drbmo4elVzT0pWR1h5bW9ZbThpVGN4THlJcDZIZWNfcVZsZ1JLV2JqUXMzZHRxdkVlYjRCOFBDTXp6NVdEcmJzMjZ6ZnBIbExIRmFib1BKZllULTRtWnFnM200LV9kYjhtaXE4SlE3N0djNzdVVU8xb05SWEpteTlVTElldXYyWElpQdIB0AFBVV95cUxNM01Rc01PODlMbXVsMXpkcjVUNndwSkQzc1pvQnd4b2lvMmdfVHdNMDhFdHZ2dHcxc1Z6VFRxNkRyc1RTVktWYmtleU1oRE8yWEtOTC0xODFGWURRbFhFZnIwU2d6WnFjVHotOUYyLWZWUVBJeTZKZDRVWGI5VFdHckVZaUdPakVxRkYzZHROOVRIbGJaMGduc1Y0Smg4enp0NHpaTlBTbFkxcDdNZExvYXdab2s1eFloRko3VzVTcXg1OWZmdTNHS1BnNzRqdnQw?oc=5",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-21T06:46:58.000Z"
+    },
+    "6cc38668b794": {
+     "id": "6cc38668b794",
+     "title": "What are the implications of the ICJ Rohingya genocide ruling?",
+     "zh": "国际法院罗兴亚种族灭绝裁决带来何种影响？",
+     "short": "国际法院罗兴亚裁决",
+     "url": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "sea",
+     "published": "2026-11-20T19:12:14.000Z"
+    },
+    "842207c32407": {
+     "id": "842207c32407",
+     "title": "Govt urged to clarify Rohingya resettlement plan after Zahid deletes post",
+     "zh": "扎希删除贴文后，政府受促厘清罗兴亚人安置计划",
+     "short": "促厘清罗兴亚安置计划",
+     "url": "https://www.malaysiakini.com/news/889577-putrajaya-urged-to-clarify-rohingya-resettlement-plan-after-zahid-deletes-post",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-21T23:00:00.000Z"
+    },
+    "bdc3723f3912": {
+     "id": "bdc3723f3912",
+     "title": "Masters of the game: Anwar, Zahid, and the battle for Putrajaya",
+     "zh": "安华与扎希的权力角逐：第16届全国大选的布城争夺战",
+     "short": "安华扎希博弈布城",
+     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/22/masters-of-the-game-anwar-zahid-and-the-battle-for-putrajaya",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-22T01:00:00.000Z",
+     "sum": "政治分析指出，马来西亚第16届全国大选将演变成首相安华与副首相阿末扎希之间意志与策略的激烈较量。两名政治领导人在执政联盟与未来政局规划中各具优势与博弈筹码。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/07/b7962fcd-anwar-ibrahim-dan-zahid-hamidi-pada-mesyuarat-kabinet-fb-pic-22726.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "483c269f9b85": {
+     "id": "483c269f9b85",
+     "title": "Malaysia hormat keputusan ICJ berkait genosid Rohingya di Myanmar",
+     "zh": "大马尊重国际法院关于罗兴亚人裁决",
+     "short": "大马尊重国际裁决",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/22/malaysia-hormat-keputusan-icj-berkait-genosid-rohingya-di-myanmar",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-22T02:58:23.000Z"
+    },
+    "e05c1d6797c4": {
+     "id": "e05c1d6797c4",
+     "title": "Kumpulan Rohingya sambut baik keputusan ICJ terhadap Myanmar",
+     "zh": "罗兴亚群体欢迎国际法院对缅甸裁决",
+     "short": "罗兴亚人欢迎裁决",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/22/kumpulan-rohingya-sambut-baik-keputusan-icj-terhadap-myanmar",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-22T02:50:07.000Z"
+    },
+    "1a00b0820750": {
+     "id": "1a00b0820750",
+     "title": "Rohingya groups welcome genocide ruling against Myanmar, urge action",
+     "zh": "罗兴亚组织欢迎针对缅甸的灭绝种族裁决，促请采取行动",
+     "short": "罗兴亚组织欢迎裁决",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/rohingya-groups-welcome-genocide-ruling-against-myanmar-urge-action",
+     "source": "Free Malaysia Today",
+     "cat": "sea",
+     "published": "2026-11-22T02:37:00.000Z"
+    },
+    "845214096fb8": {
+     "id": "845214096fb8",
+     "title": "Rohingya refugees in Malaysia seek more time after landmark genocide ruling against Myanmar",
+     "zh": "国际法院裁定缅甸种族灭绝后 在马罗兴亚难民盼争取更多时间",
+     "short": "在马罗兴亚难民盼宽限",
+     "url": "https://www.straitstimes.com/asia/se-asia/rohingya-refugees-in-malaysia-seek-more-time-after-landmark-genocide-ruling-against-myanmar",
+     "source": "The Straits Times",
+     "cat": "malaysia",
+     "published": "2026-11-25T21:00:00.000Z",
+     "sum": "海牙国际法院对缅甸涉种族灭绝作出里程碑式裁决，在马来西亚的罗兴亚难民对此表示欢迎。但由于短期内难以安全回国，难民群体希望在马来西亚获得更多停留时间。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/straitstimes/59434c8d97e37ea6a77d653f39f16fe6a65590a92f5d5f12d12977f9d783416d?t=og",
+      "credit": "The Straits Times",
+      "kind": "A"
+     }
+    },
+    "7c80ac0e2ab5": {
+     "id": "7c80ac0e2ab5",
+     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
+     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+     "short": "土耳其暂难接难民",
+     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:29:55.000Z"
+    },
+    "a901cfe916ed": {
+     "id": "a901cfe916ed",
+     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
+     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
+     "short": "安华辩护缅甸会面",
+     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:28:10.000Z"
+    },
+    "b4dce39ee3f3": {
+     "id": "b4dce39ee3f3",
+     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
+     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+     "short": "大马将遣返缅移民",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-24T04:25:00.000Z"
+    },
+    "43b1484a24fe": {
+     "id": "43b1484a24fe",
+     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
+     "zh": "安华：大马将继续就难民遣返与缅甸合作",
+     "short": "大马续与缅甸合作",
+     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-24T04:17:50.000Z"
+    }
+   },
+   "name": "马来西亚罗兴亚难民安置",
+   "en": "Malaysia Rohingya refugees repatriation",
+   "wiki": "Rohingya refugees in Malaysia",
+   "cat": "sea",
+   "last": "2026-11-25T22:26:29.968Z",
+   "hidden": false,
+   "short": "马来西亚罗兴亚难民安置",
+   "key": "国际法院裁决缅甸种族灭绝，大马难民去向陷抉择",
+   "overview": "国际法院历史性裁定缅甸犯下种族灭绝罪，大马面对难民安置抉择；内阁原同意将1万名难民安置到土耳其但遭安华否认未准备好，同时大马计划12月遣返数千名非法移民。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "5a1cdc28-2",
+     "to": "5a1cdc28-3",
+     "t": "内阁同意安置难民至土耳其的计划，随后被首相安华证实土耳其尚未准备好接纳。"
+    },
+    {
+     "from": "5a1cdc28-3",
+     "to": "5a1cdc28-1",
+     "t": "随着国际法院裁定缅甸种族灭绝，大马的罗兴亚难民希望争取更多留马时间。"
+    }
+   ],
+   "img": {
+    "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
+    "credit": "CNA Asia",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 3,
+    "sources": 9,
+    "stories": 24,
+    "gdelt": null,
+    "wiki": {
+     "title": "Rohingya genocide case",
+     "views": 811,
+     "ratio": 0.5
+    },
+    "at": "2026-11-25T02:24:12.262Z"
+   }
+  },
+  {
+   "id": "83cfaa42",
+   "first": "2026-11-25T22:26:29.968Z",
+   "lines": [
+    {
+     "id": "83cfaa42-1",
+     "t": "哥伦比亚发生汽车炸弹袭击",
+     "ids": [
+      "f37901791947",
+      "b7670f6d932b",
+      "993e98885a52",
+      "9611067fd591"
+     ],
+     "w": {
+      "short": "哥国发生汽车炸弹袭击",
+      "key": "哥伦比亚梅塔省发生汽车炸弹袭击事件",
+      "title": "哥伦比亚发生汽车炸弹袭击造成建筑损毁",
+      "summary": "哥伦比亚中部城市比利亚维森西奥发生了一起汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损。目前总统表示暂未有伤亡确认，并将其归咎于贩毒集团的报复。当局正持续应对该国面临的严重犯罪暴力浪潮。",
+      "common": [
+       {
+        "t": "哥伦比亚发生汽车炸弹袭击事件。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击目标涉及梅塔省州长办公室。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "袭击导致当地建筑损毁并出现大弹坑，居民在混乱中走避。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚无人员伤亡的确切证实。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "哥伦比亚安全局势恶化及打击毒品犯罪的成效受到国际关注。"
+      },
+      "people": [
+       "Abelardo de la Espriella"
+      ],
+      "photo": "car bomb rubble",
+      "per": [
+       {
+        "id": "f37901791947",
+        "t": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+        "says": "提及哥伦比亚相关局势但未详述炸弹袭击细节。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7670f6d932b",
+        "t": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+        "says": "报道了哥伦比亚发生的另一起安全事件。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "993e98885a52",
+        "t": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+        "says": "比利亚维森西奥发生汽车炸弹袭击，梅塔省州长办公室受损，总统将其归咎于毒贩。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       },
+       {
+        "id": "9611067fd591",
+        "t": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+        "says": "简要报道了梅塔省州长办公室遭遇汽车炸弹袭击。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "8176ed19",
+     "v": 2,
+     "at": "2026-11-25T22:27:44.271Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795567656.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "f37901791947": {
+     "id": "f37901791947",
+     "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
+     "zh": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+     "short": "中国批台湾议员访美",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVJxOW1wNktNNlY0TkNfX1hiZWdGS05sNndkNmZDdWk4UWRVTjlnYVpaSUdQSk1sZll5c01JdUN1MnV5ODBnbjgxUk9jTnZiWXk0YmUzc08zY2liSldpRGczRzVWVDBIREFxaDdyT0hDS05NQ1hhdlZmZHEyNGt6RHh5bXF4ejJNbTYtbFJUY3NzWTlhdV9Hazh6clFFaDRNTGNhZGNYcVpjSUY4SmtJM2xLd0dnUG51WE9Femdyc1VDZDhocGp4Y1FWWnPSAcwBQVVfeXFMTkI4eFhza1hhcXRoWG1adTZiWWoyVmRfTlItODQ2clh3aFJPd0VIMksyRHhiUzlkX2ROcnV6c3V5dF9ISXpXQzkzdDZ0Y3YtNXEzSUtsZUVwNkpVdlBpa1pKcmdaYmdDTGhzRERwNFVkU0VkUmhRWi1HYmYtVkczT2FyTktpZV83OUdiV2RXOWNlbEdkcUZKWDFhdVRMSEZoZFhPaHhJNms3Z2VpdHp2LTlQZHNJQXNNeGhLWnRDNzBhZE1JU3c4TWtOVzFq?oc=5",
+     "source": "South China Morning Post",
+     "cat": "china",
+     "published": "2026-11-25T19:52:34.000Z"
+    },
+    "b7670f6d932b": {
+     "id": "b7670f6d932b",
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "zh": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+     "short": "哥伦比亚超市劫持",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T00:49:35.000Z"
+    },
+    "993e98885a52": {
+     "id": "993e98885a52",
+     "title": "Car bomb destroys buildings in Colombia’s Villavicencio",
+     "zh": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+     "short": "哥伦比亚汽车炸弹袭击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/24/car-bomb-destroys-buildings-in-colombia-s-villavicencio",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-24T05:12:50.000Z"
+    },
+    "9611067fd591": {
+     "id": "9611067fd591",
+     "title": "Car bomb strikes governor’s office in Meta, Colombia",
+     "zh": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+     "short": "哥伦比亚遭炸弹袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-24T04:49:31.000Z"
+    }
+   },
+   "name": "哥伦比亚发生连环爆炸袭击",
+   "en": "Colombia car bomb explosion attack",
+   "wiki": null,
+   "cat": "world",
+   "last": "2026-11-25T22:26:29.968Z",
+   "hidden": false,
+   "short": "哥伦比亚连环爆炸袭击",
+   "key": "比利亚维森西奥突发汽车炸弹袭击",
+   "overview": "哥伦比亚中部城市比利亚维森西奥发生汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损，总统将事件归咎于贩毒集团报复。",
+   "minorText": [],
+   "links": [],
+   "img": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cityscape_Cartagena_de_Indias%2C_Colombia.jpg/960px-Cityscape_Cartagena_de_Indias%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Sanalejo Photography · Wikimedia Commons · CC BY-SA 2.0",
+    "kind": "B"
+   }
+  },
+  {
+   "id": "b3d30282",
+   "first": "2026-11-25T12:37:04.088Z",
+   "lines": [
+    {
+     "id": "b3d30282-1",
+     "t": "安华谈难民遣返与缅甸政策",
+     "ids": [
+      "7c80ac0e2ab5",
+      "a901cfe916ed",
+      "b4dce39ee3f3",
+      "43b1484a24fe"
+     ],
+     "w": {
+      "short": "安华谈遣返与难民政策",
+      "key": "大马计划12月遣返数千名缅甸非法移民，并指土耳其目前尚未准备好接纳1万名罗兴亚难民。",
+      "title": "安华：大马将遣返缅甸非法移民，土耳其称未准备好接纳罗兴亚难民",
+      "summary": "首相安华在国会表示，大马计划在12月通过海空遣返数千名缅甸公民，并会继续与缅甸政府合作处理难民事宜。同时，他澄清土耳其目前尚未准备好接纳大马提出的1万名罗兴亚难民安置请求。大马政府强调，由于国内难民负担沉重，将继续寻求第三方国家协助安置。",
+      "common": [
+       {
+        "t": "土耳其尚未准备好接纳1万名罗兴亚难民",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马计划在12月遣返数千名缅甸公民",
+        "src": [
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马承担了庞大的难民负担",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "安华表示12月将由缅甸政府承担费用，以飞机遣返5303人",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "安华指出与缅甸领导人的接触符合国际法院的裁决，旨在保障难民安全尊严地返回",
+        "src": "The Straits Times"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "大马将通过海空两路遣返数千名缅甸公民，以缓解国内难民带来的财务与安全压力。",
+       "sea": "涉及马来西亚与缅甸、土耳其等多国的难民安置与遣返外交政策调整。",
+       "world": "在联合国最高法院裁决缅甸对罗兴亚人实施种族灭绝背景下，引发国际社会对难民命运的关注。"
+      },
+      "people": [
+       "Anwar Ibrahim",
+       "Min Aung Hlaing"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "7c80ac0e2ab5",
+        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+        "says": "安华在国会证实土耳其无意接纳1万名罗兴亚难民，并回应了副首相阿末扎希此前言论引起的争议。",
+        "same": [
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4dce39ee3f3",
+        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+        "says": "大马宣布将于12月通过海军舰艇和飞机遣返数千名缅甸公民，同时提及国际法院对缅甸罗兴亚人的裁决。",
+        "same": [
+         "12月遣返数千缅甸人",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "43b1484a24fe",
+        "t": "安华：大马将继续就难民遣返与缅甸合作",
+        "says": "安华表示大马将继续与缅甸军政府合作遣返难民，并强调大马已无力继续承担庞大难民人口。",
+        "same": [
+         "继续与缅甸合作遣返",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "17e2c306",
+     "v": 2,
+     "at": "2026-11-25T22:27:30.245Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [
+    "81fcc05204e4",
+    "4e929bbc26eb",
+    "04e2a80ab80a"
+   ],
+   "stories": {
+    "81fcc05204e4": {
+     "id": "81fcc05204e4",
+     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
+     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
+     "short": "陆兆福细数希盟挑战",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:30:00.000Z"
+    },
+    "4e929bbc26eb": {
+     "id": "4e929bbc26eb",
+     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
+     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
+     "short": "陆兆福称州选竞争不可持续",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:29:00.000Z"
+    },
+    "04e2a80ab80a": {
+     "id": "04e2a80ab80a",
+     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
+     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
+     "short": "陆兆福谈州选竞争",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:00:00.000Z"
+    },
+    "7c80ac0e2ab5": {
+     "id": "7c80ac0e2ab5",
+     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
+     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+     "short": "土耳其暂难接难民",
+     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:29:55.000Z"
+    },
+    "a901cfe916ed": {
+     "id": "a901cfe916ed",
+     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
+     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
+     "short": "安华辩护缅甸会面",
+     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:28:10.000Z"
+    },
+    "b4dce39ee3f3": {
+     "id": "b4dce39ee3f3",
+     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
+     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+     "short": "大马将遣返缅移民",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-24T04:25:00.000Z"
+    },
+    "43b1484a24fe": {
+     "id": "43b1484a24fe",
+     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
+     "zh": "安华：大马将继续就难民遣返与缅甸合作",
+     "short": "大马续与缅甸合作",
+     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-24T04:17:50.000Z"
+    }
+   },
+   "name": "马来西亚政治与政策",
+   "en": "Malaysia politics government policy",
+   "wiki": "Politics of Malaysia",
+   "cat": "malaysia",
+   "last": "2026-11-25T12:37:04.088Z",
+   "hidden": false,
+   "short": "马来西亚难民与政治动态",
+   "key": "安华宣布12月遣返缅甸难民",
+   "overview": "首相安华在国会宣布大马将于12月海空遣返数千名缅甸公民，并澄清土耳其暂未接受罗兴亚难民安置请求，同时强调大马难民负担沉重。",
+   "minorText": [
+    "陆兆福指选民疲态及经济隐忧为希盟挑战",
+    "陆兆福：中央合作却在州属竞争并不可持续",
+    "陆兆福：团结政府中央合作、州选对抗不可持续"
+   ],
+   "links": [],
+   "img": {
+    "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+    "credit": "Malaysiakini",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 7,
+    "gdelt": {
+     "ratio": 1.2,
+     "share": 0.0099
+    },
+    "wiki": {
+     "title": "Politics of Malaysia",
+     "views": 54,
+     "ratio": 0.8
+    },
+    "at": "2026-11-25T22:29:28.936Z"
    }
   },
   {
@@ -3127,7 +4285,7 @@
      "views": 2,
      "ratio": 0.6
     },
-    "at": "2026-11-25T12:40:47.404Z"
+    "at": "2026-11-25T22:30:32.600Z"
    }
   },
   {
@@ -3321,7 +4479,7 @@
      "views": 3292,
      "ratio": 0.7
     },
-    "at": "2026-11-25T12:41:03.889Z"
+    "at": "2026-11-25T22:30:49.095Z"
    }
   },
   {
@@ -3715,7 +4873,7 @@
      "views": 954,
      "ratio": 0.9
     },
-    "at": "2026-11-25T12:41:20.391Z"
+    "at": "2026-11-25T22:31:05.581Z"
    },
    "short": "COP31气候大会加时",
    "key": "草案剔除化石燃料引发争议",
@@ -4880,579 +6038,7 @@
     "stories": 38,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-25T12:42:08.196Z"
-   }
-  },
-  {
-   "id": "5a1cdc28",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "5a1cdc28-1",
-     "t": "国际法院裁决与难民反应",
-     "ids": [
-      "978f89b95795",
-      "75c4f6000f48",
-      "afbc4c41b87d",
-      "d3549ebb0236",
-      "408065c2f975",
-      "7745a81f8be2",
-      "c45b740ac23d",
-      "6b17d8cfc59e",
-      "9823b865d2e8",
-      "16b950be37c5",
-      "3bcfa52a6aed",
-      "3640a3fbb952",
-      "135e6ee7403e",
-      "6cc38668b794",
-      "483c269f9b85",
-      "e05c1d6797c4",
-      "1a00b0820750"
-     ],
-     "w": {
-      "short": "缅甸罗兴亚裁决",
-      "key": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪",
-      "title": "国际法院裁定缅甸犯下罗兴亚种族灭绝罪，大马庇护政策与区域引发关注",
-      "summary": "联合国国际法院历史上首次裁定缅甸对罗兴亚人犯下种族灭绝罪，下令提供赔偿并确保难民安全回国。缅甸官方批评裁决不公并否认指控，中国则对司法过度干预表示担忧。此历史性裁决对长期收容难民的马来西亚及其他国际诉讼产生深远影响。",
-      "common": [
-       {
-        "t": "国际法院裁定缅甸犯下种族灭绝罪",
-        "src": [
-         "France 24",
-         "CNA Asia",
-         "Free Malaysia Today",
-         "BBC 中文"
-        ]
-       },
-       {
-        "t": "缅甸官方批评裁决不公",
-        "src": [
-         "CNA Asia",
-         "Malaysiakini",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "马来西亚面对日益高涨的反感与社会压力，庇护政策面临历史性抉择",
-        "src": "France 24"
-       },
-       {
-        "t": "中国认为国际法院存在司法过度干预和扩大解释的问题",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "CNA Asia",
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ],
-        "t": "缅甸官方认为国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "中国认为国际法院存在司法过度干预与扩大解释，此类做法不利于争端的解决。"
-       }
-      ],
-      "unknown": "目前国际法院缺乏执法机制，缅甸是否会遵守命令仍是未知数。",
-      "impact": {
-       "my": "长期收容难民的大马面对本土反感情绪，庇护政策面临考验。",
-       "sea": "裁决可能对缅甸领导人带来更多国际外交压力，并对区域局势产生深远影响。",
-       "world": "此案创下国际法院首次裁定国家犯下种族灭绝罪的先例，并将对其他国际诉讼产生重大影响。"
-      },
-      "people": [
-       "Yuji Iwasawa",
-       "Min Aung Hlaing"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "978f89b95795",
-        "t": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
-        "says": "国际法院裁定缅甸犯下灭绝罪，大马面对社会压力，庇护政策正面临抉择。",
-        "same": [
-         "种族灭绝",
-         "庇护政策"
-        ],
-        "view": null
-       },
-       {
-        "id": "75c4f6000f48",
-        "t": "联合国针对缅甸作出具里程碑意义裁决",
-        "says": "国际法院裁定缅甸对罗兴亚人犯下种族灭绝罪，并下令提供赔偿。",
-        "same": [
-         "种族灭绝",
-         "国际法院"
-        ],
-        "view": null
-       },
-       {
-        "id": "afbc4c41b87d",
-        "t": "缅甸称国际法院的种族灭绝裁决“不公平”",
-        "says": "缅甸批评裁决不公并否认指控，中国表达担忧，美国反应谨慎。",
-        "same": [
-         "种族灭绝",
-         "裁决不公"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "d3549ebb0236",
-        "t": "中国称缅甸种族灭绝裁决“不利于”解决争端",
-        "says": "中国关注司法过度干预问题，认为不利于解决争端。",
-        "same": [
-         "种族灭绝",
-         "司法过度干预"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "408065c2f975",
-        "t": "缅甸种族灭绝裁决影响深远的历史意义",
-        "says": "国际法院首次裁定国家犯下种族灭绝罪，对国际法及其他案件影响深远。",
-        "same": [
-         "种族灭绝",
-         "历史意义"
-        ],
-        "view": null
-       },
-       {
-        "id": "7745a81f8be2",
-        "t": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
-        "says": "探讨国际法院裁决对其他地区案件的影响。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "c45b740ac23d",
-        "t": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
-        "says": "缅甸官方指责国际法院的裁决不公平。",
-        "same": [
-         "裁决不公"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6b17d8cfc59e",
-        "t": "缅甸发言人称国际法院的种族灭绝裁决不公",
-        "says": "缅甸发言人表示种族灭绝裁决不公正。",
-        "same": [
-         "裁决不公"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "addf300f",
-     "at": "2026-11-22T04:05:45.576Z",
-     "img": {
-      "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
-      "credit": "CNA Asia",
-      "kind": "A"
-     },
-     "v": 2
-    },
-    {
-     "id": "5a1cdc28-2",
-     "t": "内阁同意安置难民至土耳其",
-     "ids": [
-      "391dc893b136",
-      "bbc90da3ec13",
-      "8539895b5c90",
-      "e6579b6ff7f7",
-      "e0f1a40bb1a0",
-      "842207c32407",
-      "bdc3723f3912"
-     ],
-     "w": {
-      "short": "安置罗兴亚人争议",
-      "key": "政府推行罗兴亚难民安置与管理计划引发讨论。",
-      "title": "大马政府安置1万名罗兴亚难民至土耳其及难民管理引发关注",
-      "summary": "马来西亚政府宣布内阁同意将1万名罗兴亚难民安置到土耳其，并接受技能培训，但副首相阿末扎希的相关贴文随后被删除，引发外界要求厘清。同时，内政部指出持有难民证者禁止跨州前往沙巴、砂拉越和纳闽。此计划与难民管理措施引起了政治与舆论的关注。",
-      "common": [
-       {
-        "t": "大马政府计划将1万名罗兴亚难民安置到土耳其。",
-        "src": [
-         "联合早报",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "安置前的难民将接受技能与职业教育培训。",
-        "src": [
-         "联合早报",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "阿末扎希宣布安置计划的贴文随后被删除，引发政府受促厘清。",
-        "src": "Malaysiakini"
-       },
-       {
-        "t": "内政部表示持有难民证者禁止入境沙巴、砂拉越和纳闽。",
-        "src": "Malaysiakini"
-       }
-      ],
-      "views": [],
-      "unknown": "阿末扎希关于难民安置计划的贴文被删除的原因目前不明。",
-      "impact": {
-       "my": "难民安置与管理政策牵动国内安全、移民管控及政治舆论。",
-       "sea": "罗兴亚难民安置问题持续受到区域及国际关注。",
-       "world": "涉及联合国与跨国协调的难民重新安置引发国际关注。"
-      },
-      "people": [
-       "Ahmad Zahid Hamidi",
-       "Anwar Ibrahim"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "391dc893b136",
-        "t": "大马计划将1万名罗兴亚难民安置在土耳其",
-        "says": "大马计划将1万名罗兴亚难民安置到土耳其，并接受培训以协助展开新生活，但相关贴文随后被删除。",
-        "same": [
-         "安置难民到土耳其"
-        ],
-        "view": null
-       },
-       {
-        "id": "bbc90da3ec13",
-        "t": "内阁同意将1万名罗兴亚难民安置在土耳其",
-        "says": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其，难民在安置前将接受技能培训。",
-        "same": [
-         "安置难民到土耳其",
-         "接受技能培训"
-        ],
-        "view": null
-       },
-       {
-        "id": "8539895b5c90",
-        "t": "扎希德：1万名罗兴亚难民将安置到土耳其",
-        "says": "内阁已批准将1万名罗兴亚难民安置到土耳其，在当地接受技术与职业教育培训。",
-        "same": [
-         "安置难民到土耳其",
-         "接受技能培训"
-        ],
-        "view": null
-       },
-       {
-        "id": "e6579b6ff7f7",
-        "t": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
-        "says": "持有难民注册证卡的难民禁止进入沙巴、砂拉越和纳闽，该计划旨在逐步接管难民注册功能。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "bdc3723f3912",
-        "t": "安华与扎希的权力角逐：第16届全国大选的布城争夺战",
-        "says": "政治分析指出下届大选将演变成安华与阿末扎希之间的政治博弈。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "ad31b4f3",
-     "at": "2026-11-22T03:35:06.716Z",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/831f893da518464ad09db401681357fb5a64d46edbf83a17214981a80b648707",
-      "credit": "联合早报",
-      "kind": "A"
-     },
-     "v": 2
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "978f89b95795": {
-     "id": "978f89b95795",
-     "title": "Malaysia's unwanted refugees: The plight of the Rohingya",
-     "zh": "国际法院裁定缅甸罗兴亚人遭灭绝，大马庇护政策面临考验",
-     "short": "国际法院裁定缅甸灭绝罪",
-     "url": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya",
-     "source": "France 24",
-     "cat": "sea",
-     "published": "2026-11-20T11:28:30.000Z",
-     "sum": "国际法院裁定缅甸在2017年对罗兴亚人犯下灭绝罪。长期收容难民的马来西亚，面对日益高涨的本土反感与社会压力，其难民庇护政策正面临历史性抉择。"
-    },
-    "75c4f6000f48": {
-     "id": "75c4f6000f48",
-     "title": "CNA Explains: Can a country be held accountable for genocide?",
-     "zh": "联合国针对缅甸作出具里程碑意义裁决",
-     "url": "https://www.channelnewsasia.com/asia/icj-un-court-ruling-genocide-myanmar-rohingya-atrocities-explainer-6568961",
-     "source": "CNA Asia",
-     "cat": "world",
-     "published": "2026-11-20T10:45:30.000Z",
-     "sum": "联合国本周对缅甸作出历史性裁决，引发关于国家如何承担灭绝种族罪责任的讨论。然而，判决的执行以及受害者能否获得正义仍面临诸多疑问。"
-    },
-    "afbc4c41b87d": {
-     "id": "afbc4c41b87d",
-     "title": "Myanmar says international court's genocide ruling 'not fair'",
-     "zh": "缅甸称国际法院的种族灭绝裁决“不公平”",
-     "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946",
-     "source": "CNA Asia",
-     "cat": "sea",
-     "published": "2026-11-20T09:36:33.000Z",
-     "sum": "缅甸官方公开批评国际法院的种族灭绝裁决并不公平，重申其行动针对的是武装叛乱。缅甸一贯否认相关指控。"
-    },
-    "d3549ebb0236": {
-     "id": "d3549ebb0236",
-     "title": "China says Myanmar genocide ruling ‘not conducive’ to solving disputes",
-     "zh": "中国称缅甸种族灭绝裁决“不利于”解决争端",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/china-says-myanmar-genocide-ruling-not-conducive-to-solving-disputes",
-     "source": "Free Malaysia Today",
-     "cat": "china",
-     "published": "2026-11-20T09:10:11.000Z",
-     "sum": "中国外交部表示，对国际法院的管辖权过度延伸和扩大解释感到关切，认为此类做法不利于争端的解决。中方就缅甸相关涉外司法裁决表明了立场。"
-    },
-    "408065c2f975": {
-     "id": "408065c2f975",
-     "title": "緬甸種族滅絕裁決影響深遠的歷史意義",
-     "zh": "缅甸种族灭绝裁决影响深远的历史意义",
-     "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC 中文",
-     "cat": "sea",
-     "published": "2026-11-20T08:53:00.000Z",
-     "sum": "国际法院对缅甸的种族灭绝裁决具有深远的历史意义。法律界正研究冈比亚如何证明缅甸具有实施种族灭绝的意图。"
-    },
-    "7745a81f8be2": {
-     "id": "7745a81f8be2",
-     "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
-     "zh": "国际法院罗兴亚种族灭绝裁决对加沙意味着什么？",
-     "short": "国际法院裁决意义",
-     "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T12:20:29.000Z"
-    },
-    "c45b740ac23d": {
-     "id": "c45b740ac23d",
-     "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
-     "zh": "缅甸称国际法院罗兴亚种族灭绝裁决不公",
-     "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
-     "source": "Malaysiakini",
-     "cat": "world",
-     "published": "2026-11-20T11:02:46.000Z"
-    },
-    "6b17d8cfc59e": {
-     "id": "6b17d8cfc59e",
-     "title": "International court’s genocide ruling ‘not fair’, says Myanmar spokeswoman",
-     "zh": "缅甸发言人称国际法院的种族灭绝裁决不公",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/international-court-s-genocide-ruling-not-fair-says-myanmar-spokeswoman",
-     "source": "Free Malaysia Today",
-     "cat": "sea",
-     "published": "2026-11-20T08:47:00.000Z"
-    },
-    "391dc893b136": {
-     "id": "391dc893b136",
-     "title": "Malaysia plans to resettle 10,000 Rohingya refugees in Turkey",
-     "zh": "大马计划将1万名罗兴亚难民安置在土耳其",
-     "url": "https://www.zaobao.com.sg/en/news/sea/malaysia-plans-resettle-10000-rohingya-refugees-turkey",
-     "source": "联合早报",
-     "cat": "sea",
-     "published": "2026-11-20T09:02:34.000Z",
-     "sum": "马来西亚计划将1万名罗兴亚难民重新安置到土耳其。内阁已对此予以批准，此前副首相阿末扎希曾对该国进行工作访问。"
-    },
-    "bbc90da3ec13": {
-     "id": "bbc90da3ec13",
-     "title": "Cabinet nod to resettle 10,000 Rohingya refugees in Turkey",
-     "zh": "内阁同意将1万名罗兴亚难民安置在土耳其",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/20/cabinet-nod-to-resettle-10-000-rohingya-refugees-in-turkey",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-20T08:29:00.000Z",
-     "sum": "马来西亚内阁同意将1万名罗兴亚难民重新安置到土耳其。副首相阿末扎希表示，这些难民在安置前将先接受符合各行业雇主需求的技能培训。"
-    },
-    "8539895b5c90": {
-     "id": "8539895b5c90",
-     "title": "10,000 pelarian Rohingya akan ditempatkan di Turki, kata Zahid",
-     "zh": "扎希德：1万名罗兴亚难民将安置到土耳其",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/20/10-000-pelarian-rohingya-akan-ditempatkan-di-turki-kata-zahid",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-20T08:20:00.000Z",
-     "sum": "副首相阿末扎希表示，内阁已批准将1万名罗兴亚难民安置到土耳其。这批难民将在当地接受为期三至六个月的技术与职业教育培训（TVET），以提高就业技能。"
-    },
-    "e6579b6ff7f7": {
-     "id": "e6579b6ff7f7",
-     "title": "Home Ministry: Refugee card holders barred from entering Sabah, Sarawak and Labuan",
-     "zh": "内政部：难民证持有者禁止入境沙巴、砂拉越和纳闽",
-     "url": "https://www.malaysiakini.com/news/889501-home-ministry-refugee-card-holders-barred-from-entering-sabah-sarawak-and-labuan",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-20T04:45:41.000Z",
-     "sum": "大马内政部宣布，持联合国难民署证件的人士一律被禁止入境沙巴、砂拉越及纳闽。此举旨在加强东马两州的边境管控与移民安全。"
-    },
-    "9823b865d2e8": {
-     "id": "9823b865d2e8",
-     "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
-     "zh": "孟加拉罗兴亚人欢迎联合国法院裁决，但仍希望重返缅甸",
-     "short": "罗兴亚人望重返缅甸",
-     "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-21T01:14:00.000Z"
-    },
-    "3bcfa52a6aed": {
-     "id": "3bcfa52a6aed",
-     "title": "Tears of joy, prayers for return home: Rohingya react to genocide ruling",
-     "zh": "喜极而泣祈祷回家：罗兴亚人对灭绝裁决的反应",
-     "url": "https://www.aljazeera.com/news/2026/11/20/tears-of-joy-prayers-for-return-home-rohingya-react-to-genocide-ruling?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "sea",
-     "published": "2026-11-20T05:36:21.000Z",
-     "sum": "For refugees, the ICJ ruling that Myanmar committed genocide is a vindication. But will they be able to return home?"
-    },
-    "16b950be37c5": {
-     "id": "16b950be37c5",
-     "title": "UN General Assembly chief tells Myanmar to ‘bring Rohingya home’",
-     "zh": "联合国大会主席敦促缅甸将罗兴亚人接回家园",
-     "url": "https://www.channelnewsasia.com/asia/myanmar-rohingya-genocide-un-icj-6568711",
-     "source": "CNA Asia",
-     "cat": "world",
-     "published": "2026-11-20T07:32:00.000Z",
-     "sum": "\"A judgment on paper is not justice in life - now it must be given effect,\" said Khalilur Rahman, head of the United Nations General Assembly."
-    },
-    "3640a3fbb952": {
-     "id": "3640a3fbb952",
-     "title": "'Friends' But Who Benefits? Notes from an Historic Summit, Myanmar's Genocide Ruling, Time to 'Bre-join' the EU?",
-     "zh": "本周世界：焦点访谈、缅甸种族灭绝裁决与欧盟扩张",
-     "short": "本周国际热点深度解析",
-     "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261120-friends-but-who-benefits-notes-from-an-historic-summit-myanmar-s-genocide-ruling-time-to-bre-join-the-eu",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-20T19:42:58.000Z"
-    },
-    "e0f1a40bb1a0": {
-     "id": "e0f1a40bb1a0",
-     "title": "Xenophobia a 'ticking time bomb' for M'sian economy - Mat Sabu",
-     "zh": "莫哈末沙布：仇外心理是大马经济的定时炸弹",
-     "short": "莫哈末沙布警惕仇外心理",
-     "url": "https://www.malaysiakini.com/news/889484-xenophobia-a-ticking-time-bomb-for-msian-economy-mat-sabu",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-20T23:00:00.000Z"
-    },
-    "135e6ee7403e": {
-     "id": "135e6ee7403e",
-     "title": "‘The world now knows’: Myanmar refugees welcome ICJ landmark ruling on genocide",
-     "zh": "缅甸难民欢迎国际法院就种族灭绝案作出的裁决",
-     "short": "缅难民欢迎国际法院裁决",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3hGVlR5VkJNR2NzMTB0bjRFVU9RUGlNWVVpdGxwTF8wWWZZNWpoYkVoUmpEMzA0alhSM3l2aTJlMVlrcTBuQ0drbmo4elVzT0pWR1h5bW9ZbThpVGN4THlJcDZIZWNfcVZsZ1JLV2JqUXMzZHRxdkVlYjRCOFBDTXp6NVdEcmJzMjZ6ZnBIbExIRmFib1BKZllULTRtWnFnM200LV9kYjhtaXE4SlE3N0djNzdVVU8xb05SWEpteTlVTElldXYyWElpQdIB0AFBVV95cUxNM01Rc01PODlMbXVsMXpkcjVUNndwSkQzc1pvQnd4b2lvMmdfVHdNMDhFdHZ2dHcxc1Z6VFRxNkRyc1RTVktWYmtleU1oRE8yWEtOTC0xODFGWURRbFhFZnIwU2d6WnFjVHotOUYyLWZWUVBJeTZKZDRVWGI5VFdHckVZaUdPakVxRkYzZHROOVRIbGJaMGduc1Y0Smg4enp0NHpaTlBTbFkxcDdNZExvYXdab2s1eFloRko3VzVTcXg1OWZmdTNHS1BnNzRqdnQw?oc=5",
-     "source": "Malay Mail",
-     "cat": "sea",
-     "published": "2026-11-21T06:46:58.000Z"
-    },
-    "6cc38668b794": {
-     "id": "6cc38668b794",
-     "title": "What are the implications of the ICJ Rohingya genocide ruling?",
-     "zh": "国际法院罗兴亚种族灭绝裁决带来何种影响？",
-     "short": "国际法院罗兴亚裁决",
-     "url": "https://www.aljazeera.com/video/inside-story/2026/11/20/what-are-the-implications-of-the-icj-rohingya-genocide-ruling?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "sea",
-     "published": "2026-11-20T19:12:14.000Z"
-    },
-    "842207c32407": {
-     "id": "842207c32407",
-     "title": "Govt urged to clarify Rohingya resettlement plan after Zahid deletes post",
-     "zh": "扎希删除贴文后，政府受促厘清罗兴亚人安置计划",
-     "short": "促厘清罗兴亚安置计划",
-     "url": "https://www.malaysiakini.com/news/889577-putrajaya-urged-to-clarify-rohingya-resettlement-plan-after-zahid-deletes-post",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-21T23:00:00.000Z"
-    },
-    "bdc3723f3912": {
-     "id": "bdc3723f3912",
-     "title": "Masters of the game: Anwar, Zahid, and the battle for Putrajaya",
-     "zh": "安华与扎希的权力角逐：第16届全国大选的布城争夺战",
-     "short": "安华扎希博弈布城",
-     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/22/masters-of-the-game-anwar-zahid-and-the-battle-for-putrajaya",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-22T01:00:00.000Z",
-     "sum": "政治分析指出，马来西亚第16届全国大选将演变成首相安华与副首相阿末扎希之间意志与策略的激烈较量。两名政治领导人在执政联盟与未来政局规划中各具优势与博弈筹码。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/07/b7962fcd-anwar-ibrahim-dan-zahid-hamidi-pada-mesyuarat-kabinet-fb-pic-22726.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "483c269f9b85": {
-     "id": "483c269f9b85",
-     "title": "Malaysia hormat keputusan ICJ berkait genosid Rohingya di Myanmar",
-     "zh": "大马尊重国际法院关于罗兴亚人裁决",
-     "short": "大马尊重国际裁决",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/22/malaysia-hormat-keputusan-icj-berkait-genosid-rohingya-di-myanmar",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-22T02:58:23.000Z"
-    },
-    "e05c1d6797c4": {
-     "id": "e05c1d6797c4",
-     "title": "Kumpulan Rohingya sambut baik keputusan ICJ terhadap Myanmar",
-     "zh": "罗兴亚群体欢迎国际法院对缅甸裁决",
-     "short": "罗兴亚人欢迎裁决",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/22/kumpulan-rohingya-sambut-baik-keputusan-icj-terhadap-myanmar",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-22T02:50:07.000Z"
-    },
-    "1a00b0820750": {
-     "id": "1a00b0820750",
-     "title": "Rohingya groups welcome genocide ruling against Myanmar, urge action",
-     "zh": "罗兴亚组织欢迎针对缅甸的灭绝种族裁决，促请采取行动",
-     "short": "罗兴亚组织欢迎裁决",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/rohingya-groups-welcome-genocide-ruling-against-myanmar-urge-action",
-     "source": "Free Malaysia Today",
-     "cat": "sea",
-     "published": "2026-11-22T02:37:00.000Z"
-    }
-   },
-   "name": "马来西亚罗兴亚难民安置争议",
-   "en": "Malaysia Rohingya refugee resettlement Turkey",
-   "wiki": "Rohingya genocide case",
-   "cat": "malaysia",
-   "last": "2026-11-22T04:01:43.878Z",
-   "hidden": false,
-   "short": "大马安置罗兴亚难民争议",
-   "key": "内阁商讨难民安置引关注",
-   "overview": "国际法院裁定缅甸犯下种族灭绝罪，大马内阁一度同意将万名罗兴亚难民安置至土耳其，但相关计划与政策引发广泛争议。",
-   "minorText": [],
-   "links": [
-    {
-     "from": "5a1cdc28-2",
-     "to": "5a1cdc28-1",
-     "t": "大马因应国际法院裁决带来的难民压力，内阁同意将罗兴亚难民安置至土耳其。"
-    }
-   ],
-   "img": {
-    "src": "https://dam.mediacorp.sg/image/upload/s--5ikMMBVF--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/11/20/000_d83l3w9.jpg?itok=yd2h8EUR",
-    "credit": "CNA Asia",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 3,
-    "sources": 9,
-    "stories": 24,
-    "gdelt": null,
-    "wiki": {
-     "title": "Rohingya genocide case",
-     "views": 811,
-     "ratio": 0.5
-    },
-    "at": "2026-11-25T02:24:12.262Z"
+    "at": "2026-11-25T22:31:22.070Z"
    }
   },
   {
@@ -6087,5 +6673,5 @@
    }
   }
  ],
- "updated": "2026-11-25T12:42:58.239Z"
+ "updated": "2026-11-25T22:31:22.071Z"
 }
