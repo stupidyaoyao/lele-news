@@ -804,7 +804,7 @@
     },
     {
      "id": "3700168d-7",
-     "t": "英伟达争议与业务监管",
+     "t": "英伟达争议与人事动态",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
@@ -815,87 +815,64 @@
       "f4b8c1692ea5",
       "05f887d0221c",
       "06b931fd4c68",
-      "fb5a7d58c9a9"
+      "fb5a7d58c9a9",
+      "667a96dca3c5"
      ],
      "w": {
-      "short": "黄仁勋重回英伟达",
-      "key": "美国总统特朗普介入推动黄仁勋复职英伟达总裁，引发股市大涨与各界对政治干预及国家安全的广泛讨论。",
-      "title": "特朗普力挺黄仁勋重掌英伟达 掀起政商与人工智能监管风波",
-      "summary": "在美国总统特朗普及其副手万斯的积极斡旋与施压下，因丑闻离职的黄仁勋于周一正式恢复英伟达总裁及首席执行官职务，带动公司股价与亚洲股市大幅反弹。然而，这一干预行动引发了外界对国家安全、芯片出口管制以及行政权力介入私企决策的强烈争议。民主党与部分共和党人计划展开国会调查，而英伟达董事会也面临法律责任与透明度的质疑。",
+      "short": "黄仁勋回归英伟达",
+      "key": "黄仁勋在特朗普干预下重回英伟达担任总裁",
+      "title": "黄仁勋回归英伟达与政治干预风波",
+      "summary": "在美国总统特朗普的强力干预与副总统万斯的斡旋下，黄仁勋于周一正式恢复英伟达总裁兼首席执行官职务，带动美股人工智能相关板块和英伟达股价大幅飙升。此前他因卷入婚外情及涉嫌与中国情报相关人员接触的丑闻而被迫离职。这一复职决定引发了外界对国家安全、董事会透明度以及行政权干预私企自由市场的广泛讨论与质疑。",
       "common": [
        {
-        "t": "黄仁勋回归英伟达担任总裁与首席执行官",
+        "t": "黄仁勋重回英伟达担任总裁",
         "src": [
          "Bloomberg.com",
          "纽约时报中文网",
-         "www.tmgm.com",
-         "CNA Business",
-         "BBC Business",
-         "TechCrunch"
+         "www.tmgm.com"
         ]
        },
        {
-        "t": "黄仁勋复职带动英伟达股价与人工智能相关股市大涨",
+        "t": "复职带动人工智能板块与股价大涨",
         "src": [
          "Bloomberg.com",
-         "纽约时报中文网",
-         "www.tmgm.com",
-         "FXStreet",
-         "BBC Business"
+         "www.tmgm.com"
         ]
        },
        {
-        "t": "黄仁勋此前因卷入涉嫌与中国间谍接触及婚外情丑闻而短暂离职",
+        "t": "卷入涉华情报或芯片走私丑闻",
         "src": [
          "纽约时报中文网",
-         "www.tmgm.com",
-         "BBC Business",
-         "TechCrunch"
+         "www.tmgm.com"
         ]
        }
       ],
       "single": [
        {
-        "t": "特朗普在采访中表示赦免黄仁勋是一个可能的选项，但他认为没有必要实际执行",
-        "src": "TechCrunch"
+        "t": "特朗普表示特赦黄仁勋是一个可能的选项但认为没必要实际执行",
+        "src": "f4b8c1692ea5"
        },
        {
-        "t": "耶鲁大学学者杰弗里·索嫩费尔德警告称黄仁勋重返英伟达可能是一个重大错误，并指英伟达是美国工业实力的负累而非冠军",
-        "src": "TechCrunch"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "纽约时报中文网",
-         "BBC Business",
-         "TechCrunch"
-        ],
-        "t": "批评观点认为特朗普直接干预私企高层决策涉嫌政治腐败，且黄仁勋复职忽视了国家安全和芯片走私等合理担忧。"
+        "t": "耶鲁学者杰弗里·索嫩费尔德警告英伟达是美国工业实力的负累而非冠军",
+        "src": "05f887d0221c"
        },
        {
-        "label": "看法 B",
-        "src": [
-         "Bloomberg.com",
-         "纽约时报中文网",
-         "www.tmgm.com",
-         "BBC Business"
-        ],
-        "t": "支持与市场观点认为黄仁勋对人工智能行业不可或缺，其回归提振了科技板块与整体经济信心。"
+        "t": "特朗普发布模仿自己遇刺后举拳的AI合成图力挺黄仁勋",
+        "src": "ca6a2bbf5556"
        }
       ],
-      "unknown": "目前尚不清楚特朗普对英伟达董事会施加具体压力的细节，且董事会对决策过程守口如瓶。",
+      "views": [],
+      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大压力，董事会成员对其决策过程守口如瓶，也没有解释态度为何发生反转。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "英伟达高层人事变动与美国政府的芯片监管政策直接牵动全球人工智能产业链、金融市场及地缘政治走向。"
+       "world": "英伟达高层人事变动与美国政府的干预直接引发全球人工智能股票震荡，并影响国际供应链与科技监管走向。"
       },
       "people": [
        "Jensen Huang",
-       "Donald Trump"
+       "JD Vance"
       ],
-      "photo": "computer microchip",
+      "photo": null,
       "per": [
        {
         "id": "d7c905104257",
@@ -905,32 +882,32 @@
          "黄仁勋回归",
          "人工智能热潮"
         ],
-        "view": "看法 B"
+        "view": null
        },
        {
         "id": "b4e96e60bab2",
         "t": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
-        "says": "特朗普促成黄仁勋恢复英伟达首席执行官职务，并推动公司股价大幅飙升。",
+        "says": "特朗普派万斯斡旋并向英伟达董事会提供保证，促成黄仁勋恢复总裁兼首席执行官职务，引发华尔街大幅飙升。",
         "same": [
-         "黄仁勋回归",
-         "股价大涨"
+         "特朗普促成复职",
+         "股价大幅飙升"
         ],
         "view": "看法 A"
        },
        {
         "id": "e308d82743fe",
         "t": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
-        "says": "全球人工智能股在黄仁勋回归后重新获得吸引力，推升美元并拖累英镑。",
+        "says": "英伟达重新任命黄仁勋引发美国人工智能股复苏，推动美元走强并使英镑兑美元汇率走弱。",
         "same": [
          "黄仁勋回归",
          "人工智能股复苏"
         ],
-        "view": "看法 B"
+        "view": null
        },
        {
         "id": "e36c19927212",
         "t": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
-        "says": "全球人工智能股票回暖影响了贵金属市场走势。",
+        "says": "随着全球人工智能股票回暖，黄金吐出早期涨幅。",
         "same": [
          "人工智能股票回暖"
         ],
@@ -941,44 +918,46 @@
         "t": "CNA Business",
         "says": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑。",
         "same": [
-         "英伟达重新任命总裁"
+         "重新任命总裁黄仁勋",
+         "董事会面临质疑"
         ],
         "view": null
        },
        {
         "id": "ca6a2bbf5556",
         "t": "特朗普干预力挺黄仁勋，政治命运与人工智能绑定",
-        "says": "美国总统对英伟达总裁黄仁勋的干预和支持，将白宫的政治命运与人工智能热潮紧密联系在一起。",
+        "says": "特朗普干预力挺黄仁勋复职并推高股价，将政治命运与人工智能绑定，但也引发了关于政策干预市场的讨论。",
         "same": [
-         "特朗普干预",
-         "黄仁勋回归"
+         "特朗普干预力挺",
+         "股价大幅飙升"
         ],
         "view": "看法 A"
        },
        {
         "id": "f4b8c1692ea5",
         "t": "特朗普称赦免黄仁勋是一个可能的选项",
-        "says": "特朗普在接受采访时表示，赦免英伟达首席执行官黄仁勋是一个可能的选项。",
+        "says": "特朗普表示赦免黄仁勋是一个可能的选项，黄仁勋刚恢复职务并面临相关调查。",
         "same": [
-         "黄仁勋恢复职务"
+         "黄仁勋恢复职务",
+         "面临调查"
         ],
         "view": null
        },
        {
         "id": "05f887d0221c",
         "t": "耶鲁学者：英伟达是美国工业实力的负累而非冠军",
-        "says": "耶鲁大学学者警告称黄仁勋重返英伟达可能是一个重大错误，并引发了关于其削弱美国工业实力的讨论。",
+        "says": "耶鲁学者警告黄仁勋重返英伟达可能是重大错误，英伟达是美国工业实力的负累而非冠军，董事会面临法律责任。",
         "same": [
-         "黄仁勋重返英伟达"
+         "董事会面临责任"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        }
       ]
      },
      "loose": false,
-     "sig": "08338bdf",
+     "sig": "77445d20",
      "v": 2,
-     "at": "2026-11-25T22:26:36.784Z",
+     "at": "2026-11-26T05:01:01.173Z",
      "img": {
       "kind": "B",
       "people": [
@@ -989,10 +968,10 @@
         "person": "Jensen Huang"
        },
        {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Daniel Torok · Wikimedia Commons · Public domain",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg/960px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Emily J. Higgins · Wikimedia Commons · Public domain",
         "kind": "B",
-        "person": "Donald Trump"
+        "person": "JD Vance"
        }
       ]
      }
@@ -1195,11 +1174,11 @@
     },
     {
      "id": "3700168d-10",
-     "t": "美股AI概念股遭遇抛售",
+     "t": "AI股大跌与美股走势",
      "ids": [
       "f8076ed8c355",
       "d9222ae2d06b",
-      "667a96dca3c5"
+      "a04d2bb44a19"
      ],
      "w": {
       "short": "美股AI概念股遭抛售",
@@ -2406,17 +2385,27 @@
      "source": "TechCrunch",
      "cat": "tech",
      "published": "2026-11-25T19:54:57.000Z"
+    },
+    "a04d2bb44a19": {
+     "id": "a04d2bb44a19",
+     "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains",
+     "zh": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
+     "short": "美股收跌但低位现买盘",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+     "source": "Reuters",
+     "cat": "finance",
+     "published": "2026-11-25T22:04:08.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "NVIDIA artificial intelligence stock market",
+   "en": "artificial intelligence Nvidia stock",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-25T22:26:29.968Z",
+   "last": "2026-11-26T04:58:07.231Z",
    "hidden": false,
-   "short": "人工智能板块抛售与监管",
-   "key": "人工智能板块遭抛售与监管",
-   "overview": "全球股市因人工智能板块抛售潮与美联储鹰派预期重挫，英伟达面临多重调查，Anthropic上市未能消除市场估值担忧。",
+   "short": "人工智能与英伟达风波",
+   "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
+   "overview": "全球人工智能板块近期遭遇抛售潮，叠加Anthropic上市表现不佳与美联储鹰派预期，导致全球股市大幅下挫。与此同时，英伟达因会计账目与芯片违规流入中国面临美国调查，总裁黄仁勋在美政要斡旋下闪电复职引发市场剧烈波动及对国家安全的讨论。",
    "minorText": [],
    "links": [
     {
@@ -2425,14 +2414,14 @@
      "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮"
     },
     {
-     "from": "3700168d-2",
-     "to": "3700168d-1",
-     "t": "Anthropic上市表现未能稳住人工智能交易导致美股期货下跌"
+     "from": "3700168d-7",
+     "to": "3700168d-8",
+     "t": "特朗普介入斡旋黄仁勋复职并引发国家安全与股市争议"
     },
     {
-     "from": "3700168d-3",
-     "to": "3700168d-1",
-     "t": "英伟达面临相关机构调查对科技股情绪造成冲击"
+     "from": "3700168d-7",
+     "to": "3700168d-10",
+     "t": "英伟达管理层变动与治理风险导致其被列入负面信用观察名单"
     }
    ],
    "img": {
@@ -2443,14 +2432,14 @@
    "heat": {
     "score": 5,
     "sources": 40,
-    "stories": 93,
+    "stories": 94,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
-     "views": 89488,
-     "ratio": 2.3
+     "views": 37203,
+     "ratio": 0.9
     },
-    "at": "2026-11-25T22:30:16.106Z"
+    "at": "2026-11-26T05:02:26.968Z"
    }
   },
   {
@@ -3179,14 +3168,10 @@
    "heat": {
     "score": 3,
     "sources": 9,
-    "stories": 24,
+    "stories": 29,
     "gdelt": null,
-    "wiki": {
-     "title": "Rohingya genocide case",
-     "views": 811,
-     "ratio": 0.5
-    },
-    "at": "2026-11-25T02:24:12.262Z"
+    "wiki": null,
+    "at": "2026-11-26T05:02:43.440Z"
    }
   },
   {
@@ -3350,6 +3335,14 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cityscape_Cartagena_de_Indias%2C_Colombia.jpg/960px-Cityscape_Cartagena_de_Indias%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Sanalejo Photography · Wikimedia Commons · CC BY-SA 2.0",
     "kind": "B"
+   },
+   "heat": {
+    "score": 1,
+    "sources": 3,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": null,
+    "at": "2026-11-26T05:02:59.877Z"
    }
   },
   {
@@ -3561,16 +3554,13 @@
     "score": 2,
     "sources": 4,
     "stories": 7,
-    "gdelt": {
-     "ratio": 1.2,
-     "share": 0.0099
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Politics of Malaysia",
-     "views": 54,
-     "ratio": 0.8
+     "views": 67,
+     "ratio": 1.1
     },
-    "at": "2026-11-25T22:29:28.936Z"
+    "at": "2026-11-26T05:03:16.453Z"
    }
   },
   {
@@ -4282,10 +4272,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Russian strikes on Ukraine",
-     "views": 2,
-     "ratio": 0.6
+     "views": 1,
+     "ratio": 0.3
     },
-    "at": "2026-11-25T22:30:32.600Z"
+    "at": "2026-11-26T05:03:32.937Z"
    }
   },
   {
@@ -4476,10 +4466,10 @@
     "gdelt": null,
     "wiki": {
      "title": "United States midterm election",
-     "views": 3292,
+     "views": 3137,
      "ratio": 0.7
     },
-    "at": "2026-11-25T22:30:49.095Z"
+    "at": "2026-11-26T05:03:49.437Z"
    }
   },
   {
@@ -6673,5 +6663,5 @@
    }
   }
  ],
- "updated": "2026-11-25T22:31:22.071Z"
+ "updated": "2026-11-26T05:03:49.438Z"
 }
