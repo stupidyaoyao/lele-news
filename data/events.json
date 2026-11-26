@@ -6,18 +6,231 @@
    "lines": [
     {
      "id": "53aaaa61-1",
-     "t": "美国计划对多国加征新关税",
+     "t": "新加坡等国评估美新关税影响",
      "ids": [
       "8c98ac5048d7",
       "c06ced3b2ac5",
       "722a67ecc5ec",
       "02d65ac20e4b",
       "ada496f5ff87",
-      "633c64faba59"
-     ]
+      "633c64faba59",
+      "03bb72c6812c"
+     ],
+     "w": {
+      "short": "美拟对多国加征新关税",
+      "key": "美国宣布对中国及欧盟等14个经济体征收高达20%至40%的新关税。",
+      "title": "美国宣布加征关税：针对全球多国及地区推行新贸易措施",
+      "summary": "美国政府正式公布对中国、欧盟等14个经济体征收新关税的计划，旨在应对海外补贴及产能过剩问题。中国及越南等国将面临较高的关税税率，相关措施预计将在明年经公众咨询后生效。同时，新加坡等国也在评估新关税及出口管制带来的影响。",
+      "common": [
+       {
+        "t": "美国宣布对多国加征关税",
+        "src": [
+         "AP News",
+         "France 24",
+         "BBC Business",
+         "CNBC Asia"
+        ]
+       },
+       {
+        "t": "中国面临较高税率",
+        "src": [
+         "BBC Business",
+         "CNBC Asia"
+        ]
+       },
+       {
+        "t": "新关税预计明年生效",
+        "src": [
+         "BBC Business",
+         "CNBC Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "新加坡总理黄循财表示将协助美国执行芯片禁令但依本国法律行事。",
+        "src": "Malay Mail"
+       },
+       {
+        "t": "经济学家警告关税会推高通胀和消费价格并压制全球贸易。",
+        "src": "BBC Business"
+       },
+       {
+        "t": "分析认为该提案有助于促使部分国家加快贸易谈判以锁定较低税率。",
+        "src": "CNBC Asia"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC Business",
+         "AP News"
+        ],
+        "t": "美国认为新关税旨在应对海外补贴制造业、重塑贸易关系并为美国工人创造公平竞争环境。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "CNBC Asia"
+        ],
+        "t": "分析认为新关税旨在施压伙伴国迫使其签署贸易协议并遏制过剩产能。"
+       }
+      ],
+      "unknown": "部分关税最终是否会根据贸易谈判进展或公众咨询而调整尚不完全确定。",
+      "impact": {
+       "my": "马来西亚的货物出口面临美国新关税政策的潜在影响评估。",
+       "sea": "东南亚多国如越南和新加坡等被纳入新关税及贸易管制评估范围。",
+       "world": "全球主要贸易伙伴及供应链将面临美国新一轮贸易保护政策的冲击与成本上升压力。"
+      },
+      "people": [
+       "Donald Trump",
+       "Lawrence Wong"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "8c98ac5048d7",
+        "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+        "says": "美国计划针对获补贴工厂的产品提高关税，以应对海外补贴对美国市场的竞争冲击。",
+        "same": [
+         "加征关税"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c06ced3b2ac5",
+        "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+        "says": "美国政府正式公布对包括欧盟和中国在内的14个经济体征收新关税的提议，重塑贸易关系。",
+        "same": [
+         "加征关税"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "722a67ecc5ec",
+        "t": "美国准备对全球贸易伙伴推出新关税措施",
+        "says": "美国宣布新关税措施，中国及欧盟等多个贸易伙伴受到影响，预计明年起正式生效。",
+        "same": [
+         "加征关税"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "02d65ac20e4b",
+        "t": "CNBC Asia 报道",
+        "says": "美国推出新关税以遏制过剩产能并施压伙伴国签署贸易协议，中国和越南面临较高税率。",
+        "same": [
+         "加征关税"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ada496f5ff87",
+        "t": "关税阴影下全球市场回升，农户忧成本",
+        "says": "农户对关税带来的成本表示担忧。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "633c64faba59",
+        "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+        "says": "专家评估美新关税对新加坡短期影响有限。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "03bb72c6812c",
+        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制，并对违规企业展开调查。",
+        "same": null,
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "450dc817",
+     "v": 2,
+     "at": "2026-11-26T23:43:59.233Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-2",
+     "t": "泰国等国企业界担忧美关税冲击",
+     "ids": [
+      "a2c47c2f5eb4",
+      "8aa65f9d2fbf",
+      "7a0bfee3dd4c"
+     ],
+     "w": {
+      "short": "美拟征泰关税引担忧",
+      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
+      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
+      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
+      "common": [],
+      "single": [
+       {
+        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
+        "src": "Bangkok Post"
+       },
+       {
+        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
+        "src": "Bangkok Post"
+       }
+      ],
+      "views": [],
+      "unknown": "泰国最终的关税税率尚未最终确定。",
+      "impact": {
+       "my": null,
+       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
+       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
+      },
+      "people": [],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "a2c47c2f5eb4",
+        "t": "企业界担忧美国关税对泰国出口造成冲击",
+        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
+        "same": [
+         "美国关税引发担忧"
+        ],
+        "view": null
+       },
+       {
+        "id": "8aa65f9d2fbf",
+        "t": "泰国转向投资驱动型增长以应对贸易战",
+        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "7a0bfee3dd4c",
+        "t": "泰国政府辩护18%美国关税提议",
+        "says": "相关报道提及泰国政府对关税提议的相关立场。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2cf9f66e",
+     "v": 2,
+     "at": "2026-11-26T23:44:47.023Z",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
     }
    ],
-   "minor": [],
+   "minor": [
+    "c7cc931c23d4"
+   ],
    "stories": {
     "8c98ac5048d7": {
      "id": "8c98ac5048d7",
@@ -92,25 +305,117 @@
      "source": "CNA Business",
      "cat": "sea",
      "published": "2026-11-26T12:50:05.000Z"
+    },
+    "a2c47c2f5eb4": {
+     "id": "a2c47c2f5eb4",
+     "title": "Executives wary of tariff effect on exports",
+     "zh": "企业界担忧美国关税对泰国出口造成冲击",
+     "short": "泰商界担忧美关税冲击",
+     "url": "https://www.bangkokpost.com/business/general/3362039/executives-wary-of-tariff-effect-on-exports",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:35:00.000Z",
+     "sum": "美国拟对泰国出口商品征收关税，尽管税率与竞争对手相若，但商界警告这仍将拖累未来的出口表现。分析指出，受贸易保护主义影响，泰国明年的经济增长动能可能明显放缓。企业正敦促政府争取更有利的双边关税条件。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "8aa65f9d2fbf": {
+     "id": "8aa65f9d2fbf",
+     "title": "Thailand shifts focus to investment-led growth",
+     "zh": "泰国转向投资驱动型增长以应对贸易战",
+     "short": "泰国转向投资驱动增长",
+     "url": "https://www.bangkokpost.com/business/general/3361974/thailand-shifts-focus-to-investmentled-growth",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:26:00.000Z",
+     "sum": "面对全球贸易战和经济碎片化加剧，泰国政府决定将发展重心转向投资驱动型增长。当局承诺积极寻求更有利的关税协议，以保障私营企业的国际竞争力。此举旨在降低供应链断裂对宏观经济带来的下行风险。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/27/6318559_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "7a0bfee3dd4c": {
+     "id": "7a0bfee3dd4c",
+     "title": "Govt defends 18% US tariff proposal",
+     "zh": "泰国政府辩护18%美国关税提议",
+     "short": "泰方回应美关税提议",
+     "url": "https://www.bangkokpost.com/thailand/general/3361874/govt-defends-18-us-tariff-proposal",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T21:28:00.000Z"
+    },
+    "03bb72c6812c": {
+     "id": "03bb72c6812c",
+     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
+     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+     "short": "新加坡配合美国芯片禁令",
+     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-25T01:45:47.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
+    },
+    "c7cc931c23d4": {
+     "id": "c7cc931c23d4",
+     "title": "Stocks climb as traders shrug off latest US tariff salvo",
+     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
+     "short": "无视美关税股市上涨",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-26T12:50:12.000Z",
+     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
     }
    },
    "name": "美国宣布加征关税",
-   "en": "United States global trade tariffs",
-   "wiki": "Tariff",
+   "en": "US tariffs China Europe",
+   "wiki": "United States tariffs",
    "cat": "finance",
-   "last": "2026-11-26T15:00:08.695Z",
+   "last": "2026-11-26T23:43:54.109Z",
    "hidden": false,
    "heat": {
-    "score": 2,
-    "sources": 6,
-    "stories": 6,
+    "score": 4,
+    "sources": 9,
+    "stories": 11,
     "gdelt": null,
     "wiki": {
-     "title": "Tariff",
-     "views": 375,
-     "ratio": 1.6
+     "title": "United States tariffs",
+     "views": 1,
+     "ratio": 5
     },
-    "at": "2026-11-26T15:08:22.939Z"
+    "at": "2026-11-26T23:46:09.721Z"
+   },
+   "short": "美国宣布加征关税",
+   "key": "美对14地征新关税，引发多国评估应对",
+   "overview": "美国正式公布对中国、欧盟等14个经济体征收新关税计划以应对产能过剩，引发新加坡、泰国等国评估影响并担忧出口受阻。",
+   "minorText": [
+    "交易员无视美国最新关税冲击推动股市上涨"
+   ],
+   "links": [
+    {
+     "from": "53aaaa61-1",
+     "to": "53aaaa61-2",
+     "t": "美国新关税计划不仅影响中国与欧盟，也波及泰国等国的出口表现。"
+    }
+   ],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+    "credit": "BBC Business",
+    "kind": "A"
    }
   },
   {
@@ -917,7 +1222,7 @@
     },
     {
      "id": "3700168d-7",
-     "t": "黄仁勋与英伟达风波",
+     "t": "特朗普干预力挺黄仁勋",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
@@ -1288,38 +1593,38 @@
     },
     {
      "id": "3700168d-10",
-     "t": "股市波动与人工智能抛售潮",
+     "t": "AI担忧加剧与股市抛售潮",
      "ids": [
       "f8076ed8c355",
       "d9222ae2d06b",
       "a04d2bb44a19",
       "c7cc931c23d4",
-      "f7de91eb6c6a"
+      "f7de91eb6c6a",
+      "3f8bd7cc62c4"
      ],
      "w": {
-      "short": "人工智能抛售潮与股市波动",
-      "key": "人工智能投资担忧引发美股及科技股波动，英伟达股价承压。",
-      "title": "人工智能担忧加剧拖累美股与科技股，纳指与标普收跌",
-      "summary": "受人工智能投资可持续性的担忧影响，美股及相关科技股近期出现抛售潮。英伟达股价在早盘大幅下挫后有所回稳，但整体市场波动仍受人工智能板块及宏观因素拖累。与此同时，美国白宫宣布的新关税政策及美联储政策预期也对全球股市产生影响。",
+      "short": "人工智能担忧与美股抛售",
+      "key": "人工智能板块与英伟达股价波动加剧，引发市场对投资可持续性的担忧并拖累美股。",
+      "title": "人工智能担忧加剧与股市抛售潮：英伟达与科技股震荡解析",
+      "summary": "近期人工智能相关企业受到投资回报可持续性疑虑的冲击，英伟达及多家科技巨头股价出现波动与抛售潮。尽管纳斯达克与标普500一度承压，但部分美股在逢低买盘和感恩节假期前夕出现反弹。同时，美国白宫宣布针对多个贸易伙伴的新关税政策，也成为影响宏观市场的情绪因素之一。",
       "common": [
        {
-        "t": "人工智能相关股票近期遭到抛售并出现下跌",
+        "t": "人工智能相关科技股遭到抛售与下跌",
+        "src": [
+         "Reuters",
+         "BBC World",
+         "www.tmgm.com"
+        ]
+       },
+       {
+        "t": "市场对人工智能投资规模及回报可持续性感到担忧",
         "src": [
          "BBC World",
-         "www.tmgm.com",
          "Free Malaysia Today"
         ]
        },
        {
-        "t": "英伟达股价近期出现波动与下跌",
-        "src": [
-         "BBC World",
-         "www.tmgm.com",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "美国白宫提出了针对多个贸易伙伴的新关税提案",
+        "t": "美国白宫公布了针对多个贸易伙伴的新关税提案",
         "src": [
          "BBC World",
          "www.tmgm.com",
@@ -1329,99 +1634,112 @@
       ],
       "single": [
        {
-        "t": "标普已将英伟达的信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
+        "t": "标普将英伟达的信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
         "src": "Free Malaysia Today"
        },
        {
-        "t": "由于十月核心个人消费支出价格指数超出预期，市场对十二月美联储加息的预期维持在近94%。",
-        "src": "www.tmgm.com"
+        "t": "高盛预计2026年人工智能投资将超过1万亿美元，并仍将是企业投资增长的主导驱动力。",
+        "src": "BBC World"
        },
        {
-        "t": "民主党在美國中期选举中的得票增长令投资者感到恐慌，部分人曾竞选加强对人工智能企业的监管。",
-        "src": "BBC World"
+        "t": "由于十月核心PCE物价指数超出预期，交易员定价美联储十二月加息的预期接近94%。",
+        "src": "www.tmgm.com"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "BBC World"
+         "Free Malaysia Today"
         ],
-        "t": "华尔街对巨额人工智能投资能否最终获得回报表示质疑，认为企业需要证明其支出的价值。"
+        "t": "摩根大通分析师认为，最新关税增加的宏观影响可能是温和的，且关键科技产品进口仍被豁免，加之华盛顿对市场干扰保持敏感，未来关税提升的严重性将受到限制。"
        },
        {
         "label": "看法 B",
         "src": [
-         "Free Malaysia Today"
+         "BBC World"
         ],
-        "t": "分析师认为美国最新关税提案的影响可能较为温和，且部分关键进口科技商品仍获豁免。"
+        "t": "华尔街投资界认为，虽然企业在人工智能上投入巨资，但尚未充分证明这些支出的实际回报价值，导致市场信心不足。"
        }
       ],
-      "unknown": "目前尚不确定人工智能领域的巨额投资最终是否能带来相应的回报。",
+      "unknown": "目前尚不确定巨额人工智能投资最终能否带来相应的经济回报。",
       "impact": {
        "my": "受美股纳斯达克与标普下跌拖累，马股开盘走低。",
-       "sea": null,
-       "world": "美国人工智能板块的抛售潮与新关税政策引发全球金融市场波动。"
+       "sea": "区域股市受到美股科技板块波动与宏观情绪的牵动。",
+       "world": "美股人工智能板块抛售与美国新关税政策引发全球金融市场震荡与关注。"
       },
       "people": [
        "Jensen Huang",
        "Elon Musk"
       ],
-      "photo": "microchip",
+      "photo": "microchip production",
       "per": [
        {
         "id": "a04d2bb44a19",
         "t": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
-        "says": "纳指与标普500收盘下跌，但逢低买盘涌入使指数脱离日内低点。",
+        "says": "纳指与标普500盘中收跌，随后有逢低买盘涌入使行情脱离日内低点。",
         "same": [
-         "纳指与标普收跌"
+         "纳指与标普500",
+         "收跌脱离低点"
         ],
         "view": null
        },
        {
         "id": "f8076ed8c355",
         "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
-        "says": "人工智能投资担忧加剧，拖累美股大幅走低，英伟达等科技股股价下挫。",
+        "says": "人工智能相关科技公司股价下跌，英伟达等企业受高层变动与投资可持续性担忧影响而波动剧烈。",
         "same": [
          "人工智能担忧",
          "英伟达股价下跌"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        },
        {
         "id": "d9222ae2d06b",
         "t": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
-        "says": "亏损集中在人工智能相关股票，道琼斯指数在其他板块支撑下反弹，市场关注美联储利率和关税。",
+        "says": "市场损失集中于人工智能相关股票，同时道琼斯指数在部分板块带动下反弹，并受美联储利率预期和关税影响。",
         "same": [
-         "人工智能股回调"
+         "人工智能股回调",
+         "新关税政策"
         ],
         "view": null
        },
        {
         "id": "c7cc931c23d4",
         "t": "无视美国最新关税冲击 交易员推动股市上涨",
-        "says": "欧洲与亚洲股市上涨，交易员无视美国最新关税冲击，感恩节假期缓解了人工智能恐慌。",
+        "says": "欧洲与亚洲股市上涨，因美国新关税未如预期般严重，同时感恩节假期暂时缓解了人工智能带来的焦虑。",
         "same": [
-         "美国新关税提案",
-         "人工智能担忧"
+         "新关税提案",
+         "人工智能焦虑"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        },
        {
         "id": "f7de91eb6c6a",
         "t": "受美股纳斯达克与标普下跌拖累，马股开盘走低",
-        "says": "受美股纳斯达克与标普下跌拖累，马股开盘走低。",
+        "says": "马股开盘因美股纳斯达克与标普下跌而受到拖累走低。",
         "same": [
+         "美股下跌拖累",
          "马股开盘走低"
+        ],
+        "view": null
+       },
+       {
+        "id": "3f8bd7cc62c4",
+        "t": "科技股焦虑缓解 欧洲股市全面反弹走高",
+        "says": "欧洲主要股市迎来强劲反弹，因投资者对科技板块的焦虑情绪缓解，市场风险偏好回暖。",
+        "same": [
+         "科技股焦虑缓解",
+         "欧洲股市反弹"
         ],
         "view": null
        }
       ]
      },
      "loose": false,
-     "sig": "25d20187",
+     "sig": "9ac4628a",
      "v": 2,
-     "at": "2026-11-26T15:04:25.201Z",
+     "at": "2026-11-26T23:44:35.740Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
       "credit": "BBC World",
@@ -1430,126 +1748,123 @@
     },
     {
      "id": "3700168d-11",
-     "t": "人工智能对社会与经济的影响",
+     "t": "英伟达前景审视与学者评价",
      "ids": [
       "856d3d9b30c2",
       "606d46584e95",
       "dc85126b0ac7",
       "00d3c793baf9",
       "35a1b5dcb892",
-      "4f0b7bfbd5a5"
+      "4f0b7bfbd5a5",
+      "ff94747f30bc"
      ],
      "w": {
-      "short": "人工智能冲击与应对",
-      "key": "人工智能技术对劳动力市场和社会经济各领域带来广泛冲击与挑战。",
-      "title": "人工智能风波与经济社会影响：多方探讨失业潮应对与新闻业联合自救",
-      "summary": "随着人工智能技术的快速发展，社会各界对其引发的失业潮与经济冲击表示担忧，并探讨全民基本收入等解决方案。同时，东南亚独立新闻室联合应对人工智能带来的流量暴跌和商业模式压力。在科技企业方面，OpenAI整合聊天与工作功能引发了重度用户对使用上限的顾虑。",
+      "short": "英伟达与亚洲人工智能",
+      "key": "亚洲多国深度押注英伟达与人工智能，经济高度依赖其供应链与发展前景。",
+      "title": "英伟达与人工智能风波：亚洲市场的机遇、挑战与全球审视",
+      "summary": "多家媒体报道了人工智能发展带来的广泛影响。亚洲多国如日本、韩国、台湾和马来西亚高度依赖英伟达的供应链与人工智能产业。同时，人工智能技术的普及也引发了关于失业潮、全民基本收入以及新闻行业应对挑战的讨论。",
       "common": [
        {
-        "t": "人工智能发展引发社会与经济各界广泛关注。",
+        "t": "人工智能对就业市场和各行业造成冲击",
         "src": [
          "Al Jazeera",
-         "TechCrunch",
          "Rappler"
+        ]
+       },
+       {
+        "t": "亚洲经济体高度依赖英伟达与人工智能发展",
+        "src": [
+         "TechCrunch",
+         "BBC Business"
         ]
        }
       ],
       "single": [
        {
-        "t": "随着人工智能引发失业担忧，关于推行全民基本收入的呼声再次高涨。",
-        "src": "Al Jazeera"
-       },
-       {
-        "t": "OpenAI开始向部分用户推出整合聊天与工作功能的新界面，但引发重度用户对触及使用上限的担忧。",
+        "t": "美国人工智能聊天机器人玩具遭到纽约禁售",
         "src": "TechCrunch"
        },
        {
-        "t": "东南亚独立新闻室在Rappler总部举行会议，联合应对人工智能对新闻流量和业务的冲击。",
+        "t": "东南亚独立新闻室联合成立网络以应对人工智能带来的流量与政策挑战",
         "src": "Rappler"
        }
       ],
       "views": [],
-      "unknown": null,
+      "unknown": "目前尚不确定人工智能引发的全面失业潮最终将如何彻底重塑全球劳动力市场与经济结构。",
       "impact": {
-       "my": "人工智能发展对马来西亚的就业市场、新闻行业及数字经济转型带来了深远的影响与挑战。",
-       "sea": "东南亚独立新闻室正通过跨国合作与建立新商业模式，共同应对人工智能带来的流量下滑与平台政策冲击。",
-       "world": "全球范围内，人工智能引发的失业忧虑推高了对全民基本收入等社会保障机制的讨论，同时科技巨头正持续调整其人工智能产品功能以平衡成本与需求。"
+       "my": "马来西亚作为人工智能战略布局的重要一环，其数据中心与相关供应链正日益受到英伟达及全球人工智能发展势头的影响。",
+       "sea": "东南亚多国经济和独立媒体正面临人工智能带来的流量下滑及技术冲击，促使区域内新闻室跨国合作寻找应对方案。",
+       "world": "全球股市与科技行业因英伟达的动态及人工智能基础设施的高昂成本而剧烈波动，各国正审视其带来的经济与监管挑战。"
       },
       "people": [
-       "Maria Ressa",
-       "Wahyu Dhyatmika"
+       "Jensen Huang",
+       "Maria Ressa"
       ],
-      "photo": "artificial intelligence technology",
+      "photo": "semiconductor microchip",
       "per": [
        {
         "id": "856d3d9b30c2",
         "t": "全民基本收入是人工智能经济失业潮的解药吗？",
-        "says": "随着人工智能加剧失业担忧，推行全民基本收入的呼声再次获得关注，历史上的保障收入方案也被重新审视。",
+        "says": "探讨人工智能引发的大规模失业担忧，并回顾了历史上全民基本收入的演变与提议。",
         "same": [
-         "失业担忧",
-         "全民基本收入"
-        ],
-        "view": null
-       },
-       {
-        "id": "606d46584e95",
-        "t": "随着人工智能崛起 我们离全民基本收入还有多远？",
-        "says": "探讨了人工智能背景下全民基本收入的相关议题。",
-        "same": [
-         "全民基本收入"
+         "失业"
         ],
         "view": null
        },
        {
         "id": "dc85126b0ac7",
         "t": "OpenAI合并聊天与工作功能，重度用户或更快触及使用上限",
-        "says": "OpenAI推出整合的聊天与工作体验，重度用户担心共享使用额度会导致高级模型访问受限。",
-        "same": [
-         "OpenAI"
-        ],
-        "view": null
-       },
-       {
-        "id": "00d3c793baf9",
-        "t": "Anthropic达里奥·阿莫代伊：将人类控制权交给人工智能的指责荒谬",
-        "says": "报道了关于人工智能控制权的讨论。",
-        "same": [
-         "人工智能"
-        ],
+        "says": "OpenAI开始向部分用户推出统一的聊天和工作体验，引发重度用户对使用额度受限的担忧。",
+        "same": [],
         "view": null
        },
        {
         "id": "35a1b5dcb892",
         "t": "对抗人工智能冲击，东南亚新闻室联合",
-        "says": "东南亚独立新闻室齐聚Rappler总部，联合应对人工智能对网站流量和商业模式造成的负面冲击。",
+        "says": "东南亚独立新闻室在Rappler主办的活动中联合，共同应对人工智能带来的流量下降和科技巨头政策冲击。",
         "same": [
-         "人工智能冲击"
+         "冲击"
         ],
         "view": null
        },
        {
-        "id": "4f0b7bfbd5a5",
-        "t": "纽约禁售人工智能聊天机器人玩具",
-        "says": "报道了与人工智能玩具相关的禁售政策。",
+        "id": "ff94747f30bc",
+        "t": "亚洲押注英伟达人工智能，未来将如何？",
+        "says": "亚洲国家股市因英伟达股价波动而经历过山车，凸显日本、韩国、台湾和马来西亚等经济体对英伟达及人工智能的深度依赖。",
         "same": [
-         "人工智能"
+         "依赖英伟达"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "a9d31cf8",
+     "sig": "1f59c3ec",
      "v": 2,
-     "at": "2026-11-26T15:01:19.029Z",
+     "at": "2026-11-26T23:44:13.140Z",
      "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP25197325626713-1753474492-1795496246.jpg?resize=1200%2C630&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/960px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Anderseidesvik · Wikimedia Commons · CC BY-SA 4.0",
+        "kind": "B",
+        "person": "Jensen Huang"
+       },
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2025-10-19_Buchmesse_Maria_Ressa_%284%29.jpg/960px-2025-10-19_Buchmesse_Maria_Ressa_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Jaramo81 · Wikimedia Commons · CC BY 4.0",
+        "kind": "B",
+        "person": "Maria Ressa"
+       }
+      ]
      }
     }
    ],
-   "minor": [],
+   "minor": [
+    "a4c3fb2f4ae0",
+    "0b35107ec79a"
+   ],
    "stories": {
     "370e31bae833": {
      "id": "370e31bae833",
@@ -2671,7 +2986,7 @@
      "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains",
      "zh": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
      "short": "美股收跌但低位现买盘",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+     "url": "https://www.reuters.com/business/nasdaq-futures-slide-over-2-fresh-us-tariff-concerns-inflation-data-focus-2026-11-25/",
      "source": "Reuters",
      "cat": "finance",
      "published": "2026-11-25T22:04:08.000Z"
@@ -2783,13 +3098,66 @@
      "source": "TechCrunch",
      "cat": "tech",
      "published": "2026-11-25T18:11:46.000Z"
+    },
+    "ff94747f30bc": {
+     "id": "ff94747f30bc",
+     "title": "Asia made a big AI bet on Nvidia. What happens now?",
+     "zh": "亚洲押注英伟达人工智能，未来将如何？",
+     "short": "亚洲押注英伟达AI引发关注",
+     "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "tech",
+     "published": "2026-11-26T23:08:12.000Z",
+     "sum": "亚洲市场对英伟达的巨额投资与高度依赖，导致相关科技股近期经历剧烈波动。随着高层人事变动及市场对人工智能前景的重新评估，投资者的情绪面临考验。这也凸显了亚洲半导体供应链与美国科技巨头深度绑定的现状。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "3f8bd7cc62c4": {
+     "id": "3f8bd7cc62c4",
+     "title": "European stocks rally as tech jitters ease",
+     "zh": "科技股焦虑缓解 欧洲股市全面反弹走高",
+     "short": "欧洲股市反弹走高",
+     "url": "https://sg.finance.yahoo.com/news/asian-stocks-enjoy-another-bounce-023024050.html",
+     "source": "Yahoo Finance Singapore",
+     "cat": "finance",
+     "published": "2026-11-26T12:13:55.000Z",
+     "sum": "随着投资者对科技板块的焦虑情绪缓解，欧洲主要股市迎来强劲反弹。市场风险偏好回暖，带动多个行业板块走高。分析指出宏观情绪暂时好转，支撑了区域股市的短期表现。"
+    },
+    "a4c3fb2f4ae0": {
+     "id": "a4c3fb2f4ae0",
+     "title": "FCC approves SpaceX plan to put AI data centers in space",
+     "zh": "美联邦通讯委员会批准SpaceX将人工智能数据中心部署在太空",
+     "short": "美准太空部署AI数据中心",
+     "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T20:56:44.000Z",
+     "sum": "美国联邦通信委员会批准了太空探索技术公司将人工智能数据中心部署在太空的计划。该机构认为反对者提出的潜在科研威胁不在其管辖权范围内，因此驳回了相关异议。",
+     "img": {
+      "src": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
+      "credit": "TechCrunch",
+      "kind": "A"
+     }
+    },
+    "0b35107ec79a": {
+     "id": "0b35107ec79a",
+     "title": "AI agents used in five cyber attacks in Switzerland, government says",
+     "zh": "瑞士政府称境内发生五起人工智能代理网络攻击",
+     "short": "瑞士发生AI网络攻击",
+     "url": "https://www.channelnewsasia.com/business/ai-agents-used-in-five-cyber-attacks-in-switzerland-government-says-6585191",
+     "source": "CNA Business",
+     "cat": "tech",
+     "published": "2026-11-26T12:25:02.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "artificial intelligence nvidia stock market",
+   "en": "NVIDIA artificial intelligence stocks",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-26T15:00:08.694Z",
+   "last": "2026-11-26T23:43:54.109Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
    "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
@@ -2819,15 +3187,388 @@
    },
    "heat": {
     "score": 5,
-    "sources": 40,
-    "stories": 103,
-    "gdelt": null,
+    "sources": 41,
+    "stories": 107,
+    "gdelt": {
+     "ratio": 0.6,
+     "share": 0.1068
+    },
     "wiki": {
      "title": "Nvidia",
      "views": 37203,
      "ratio": 0.9
     },
-    "at": "2026-11-26T15:05:28.049Z"
+    "at": "2026-11-26T23:46:50.288Z"
+   }
+  },
+  {
+   "id": "c87ad0cf",
+   "first": "2026-11-21T22:12:19.703Z",
+   "lines": [
+    {
+     "id": "c87ad0cf-1",
+     "t": "联邦调查局数据库疑遭黑客入侵",
+     "ids": [
+      "ddb90bb60acc",
+      "17d8c5527403",
+      "d3ae8b6abe06",
+      "07601b60021e"
+     ],
+     "w": {
+      "short": "联邦调查局数据库疑遭黑客",
+      "key": "美国联邦调查局核心刑事数据库疑遭黑客入侵引发关注",
+      "title": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
+      "summary": "美国联邦调查局的国家犯罪信息中心数据库近日疑似遭到黑客入侵，引发外界对美国政府机构网络安全的担忧。总统唐纳德·特朗普在采访中确认了这一消息，并称这是今年该机构遭遇的第二次疑似网络攻击事件。目前相关部门正在对事件展开调查。",
+      "common": [
+       {
+        "t": "联邦调查局数据库疑遭黑客入侵",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "遭到黑客入侵的是国家犯罪信息中心数据库",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "美国总统唐纳德·特朗普在电视采访中对此事作出了回应",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "农业部的农民支付系统在另一起事件中遭到黑客攻击",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "前国家安全局分析师表示该数据库包含关键犯罪活动信息",
+        "src": "BBC World"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera",
+         "BBC World"
+        ],
+        "t": "总统唐纳德·特朗普认为这次事件或许能让人了解到一些以往不知道的事情。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ],
+        "t": "官员和前执法人员对黑客可能篡改执法信息或将其作为后门访问敏感资料表示担忧。"
+       }
+      ],
+      "unknown": "目前尚不清楚这些袭击事件是否相互关联以及幕后黑手是谁。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "美国政府机构接连发生网络攻击与系统故障，引发国际社会对关键基础设施及政府数据库安全性的广泛关注。"
+      },
+      "people": [
+       "Donald Trump",
+       "Kash Patel"
+      ],
+      "photo": "computer server security breach",
+      "per": [
+       {
+        "id": "ddb90bb60acc",
+        "t": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
+        "says": "媒体报道联邦调查局关键数据库遭黑客入侵，总统特朗普在采访中确认此事并发表看法。",
+        "same": [
+         "数据库疑遭黑客",
+         "特朗普回应"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "17d8c5527403",
+        "t": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
+        "says": "美国农业部和联邦调查局双双遭到黑客攻击，目前尚不清楚事件是否有关联及责任归属。",
+        "same": [
+         "数据库疑遭黑客"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "d3ae8b6abe06",
+        "t": "美国农业部与联邦调查局遭黑客网络攻击",
+        "says": "报道美国农业部与联邦调查局遭遇网络攻击。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "07601b60021e",
+        "t": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
+        "says": "联邦调查局正对刑事数据库疑似遭入侵展开调查，特朗普称这并非好事但也许能学到新东西。",
+        "same": [
+         "数据库疑遭黑客",
+         "特朗普回应"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "62127afa",
+     "v": 2,
+     "at": "2026-11-22T11:11:40.838Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "c87ad0cf-2",
+     "t": "国际足联证实个人与业务数据被盗",
+     "ids": [
+      "c4ebf274642d",
+      "1e1f2092b22f",
+      "bdba40fd8070"
+     ],
+     "w": {
+      "short": "国际足联遭黑客袭击",
+      "key": "国际足联证实个人与业务数据在网络攻击中被盗",
+      "title": "国际足联证实遭遇黑客网络攻击，部分个人与业务数据被盗",
+      "summary": "国际足联证实遭受犯罪性质的网络攻击，导致部分个人和业务信息被非法获取。自称「英俊男孩黑客俱乐部」的组织声称窃取了超过12吉字节的数据。国际足联对此类侵犯隐私的非法获取行为予以最强烈的谴责，并正与执法部门合作调查。",
+      "common": [
+       {
+        "t": "国际足联证实遭遇网络攻击导致个人与业务数据被盗。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "国际足联强烈谴责这种非法获取和公布信息的行为。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "国际足联正在与相关执法部门密切合作。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "被盗数据不包括已放弃的世界杯相关提案文件。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "黑客组织冒充工作人员窃取了文件和截图，并在社交平台上发布了疑似文件的截图。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "知情人士透露，受影响的数据占国际足联所持有总数据的比例不到0.1%。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚有多少人或机构受影响、攻击具体发生的时间以及业务信息的具体内容。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "国际足联遭遇网络攻击导致数据被盗，引发全球对体育组织网络安全与个人隐私保护的关注。"
+      },
+      "people": [
+       "Gianni Infantino"
+      ],
+      "photo": "cyber security data breach",
+      "per": [
+       {
+        "id": "c4ebf274642d",
+        "t": "国际足联证实个人与业务数据在网络攻击中被盗",
+        "says": "国际足联证实遭遇黑客网络攻击，部分个人与业务数据被盗，黑客组织自称窃取了超过12吉字节的数据。国际足联强烈谴责这一行为并正与执法部门合作。",
+        "same": [
+         "数据被盗",
+         "强烈谴责",
+         "执法部门"
+        ],
+        "view": null
+       },
+       {
+        "id": "1e1f2092b22f",
+        "t": "国际足联遭网络攻击，世界杯出售文件未泄",
+        "says": "报道了国际足联遭网络攻击的相关动态，确认世界杯相关出售文件未泄露。",
+        "same": [
+         "未泄露"
+        ],
+        "view": null
+       },
+       {
+        "id": "bdba40fd8070",
+        "t": "国际足联遭网络攻击 个人与商业信息被盗",
+        "says": "国际足联遭遇刑事网络攻击，个人和商业信息遭未经授权访问。黑客组织冒充员工实施攻击，国际足联已展开调查并谴责侵犯隐私行为。",
+        "same": [
+         "网络攻击",
+         "个人与业务数据被盗",
+         "强烈谴责"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "28949ef8",
+     "v": 2,
+     "at": "2026-11-26T23:44:59.542Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Gianni_Infantino_Argentina_v_Spain_19_July_2026-278.jpg/960px-Gianni_Infantino_Argentina_v_Spain_19_July_2026-278.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Bryan Berlin · Wikimedia Commons · CC BY-SA 4.0",
+        "kind": "B",
+        "person": "Gianni Infantino"
+       }
+      ]
+     }
+    }
+   ],
+   "minor": [
+    "766bb8aedbf1"
+   ],
+   "stories": {
+    "ddb90bb60acc": {
+     "id": "ddb90bb60acc",
+     "title": "FBI national crime database suffers suspected breach: Reports",
+     "zh": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
+     "short": "美国联邦调查局系统被黑",
+     "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-21T18:19:10.000Z",
+     "sum": "美国联邦调查局的国家犯罪信息中心数据库据报遭遇黑客入侵并正接受调查。这是近期美国政府部门遭遇的一连串网络泄密和系统故障中的最新一起。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "17d8c5527403": {
+     "id": "17d8c5527403",
+     "title": "US Agriculture Department, FBI breached by hackers",
+     "zh": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/us-agriculture-department-fbi-breached-by-hackers",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-21T07:23:59.000Z",
+     "sum": "美国农业部证实其农民补贴支付系统遭黑客入侵，同时美国联邦调查局也遭遇了自9月以来的第二次网络攻击。两家主要联邦机构连续被黑，引发对政府关键网络安全防御的广泛担忧。"
+    },
+    "d3ae8b6abe06": {
+     "id": "d3ae8b6abe06",
+     "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+     "zh": "美国农业部与联邦调查局遭黑客网络攻击",
+     "short": "美农业部与FBI遭黑客攻击",
+     "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+     "source": "France 24",
+     "cat": "tech",
+     "published": "2026-11-21T07:01:04.000Z"
+    },
+    "07601b60021e": {
+     "id": "07601b60021e",
+     "title": "FBI reportedly investigating apparent hack of its criminal database",
+     "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
+     "short": "联邦调查局数据库疑遭黑客入侵",
+     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T16:35:15.000Z"
+    },
+    "766bb8aedbf1": {
+     "id": "766bb8aedbf1",
+     "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+     "zh": "美国金融犯罪执法局披露发生“网络安全事件”",
+     "short": "美执法局遇黑客袭击",
+     "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+     "source": "The Verge",
+     "cat": "tech",
+     "published": "2026-11-25T01:00:00.000Z"
+    },
+    "c4ebf274642d": {
+     "id": "c4ebf274642d",
+     "title": "Fifa confirms personal, business data stolen in cyberattack",
+     "zh": "国际足联证实个人与业务数据在网络攻击中被盗",
+     "short": "国际足联遭遇网络攻击",
+     "url": "https://www.freemalaysiatoday.com/category/sports/2026/11/27/fifa-confirms-personal-business-data-stolen-in-cyberattack",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-26T22:49:10.000Z"
+    },
+    "1e1f2092b22f": {
+     "id": "1e1f2092b22f",
+     "title": "Fifa victim of cyberattack, files related to World Cup stake selloff unaffected",
+     "zh": "国际足联遭网络攻击，世界杯出售文件未泄",
+     "short": "国际足联遭遇网攻",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/26/fifa-victim-of-cyber-attack-files-related-to-world-cup-stake-selloff-unaffected",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-26T13:24:00.000Z"
+    },
+    "bdba40fd8070": {
+     "id": "bdba40fd8070",
+     "title": "FIFA says personal and business information stolen in cyberattack",
+     "zh": "国际足联遭网络攻击 个人与商业信息被盗",
+     "short": "国际足联遭黑客袭击",
+     "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-26T12:31:46.000Z"
+    }
+   },
+   "name": "联邦调查局等机构遭黑客袭击",
+   "en": "cyber attack FIFA data breach",
+   "wiki": "Cyberattack",
+   "cat": "tech",
+   "last": "2026-11-26T23:43:54.109Z",
+   "hidden": false,
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 4,
+    "gdelt": null,
+    "wiki": {
+     "title": "Federal Bureau of Investigation",
+     "views": 1760,
+     "ratio": 0.9
+    },
+    "at": "2026-11-22T03:09:37.539Z"
+   },
+   "short": "FBI等机构遭黑客袭击",
+   "key": "联邦调查局与国际足联接连遭黑客攻击",
+   "overview": "美国联邦调查局及国际足联等多个重要机构近日相继遭遇黑客网络攻击，部分核心数据库与业务数据疑似被盗，引发各界对网络安全的广泛担忧。",
+   "minorText": [
+    "美国金融犯罪执法局披露发生网络安全事件"
+   ],
+   "links": [],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
    }
   },
   {
@@ -3559,7 +4300,7 @@
     "stories": 29,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T15:05:44.492Z"
+    "at": "2026-11-26T23:47:39.509Z"
    }
   },
   {
@@ -3730,7 +4471,7 @@
     "stories": 4,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T15:06:33.892Z"
+    "at": "2026-11-26T23:48:28.456Z"
    }
   },
   {
@@ -3948,7 +4689,7 @@
      "views": 67,
      "ratio": 1.1
     },
-    "at": "2026-11-26T15:07:22.249Z"
+    "at": "2026-11-26T23:49:14.451Z"
    }
   },
   {
@@ -4657,16 +5398,13 @@
     "score": 3,
     "sources": 9,
     "stories": 31,
-    "gdelt": {
-     "ratio": 0.4,
-     "share": 0.012
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Russian strikes on Ukraine",
      "views": 1,
      "ratio": 0.3
     },
-    "at": "2026-11-26T15:08:06.453Z"
+    "at": "2026-11-26T23:50:02.785Z"
    }
   },
   {
@@ -6840,219 +7578,7 @@
     "wiki": null,
     "at": "2026-11-22T11:16:26.211Z"
    }
-  },
-  {
-   "id": "c87ad0cf",
-   "first": "2026-11-21T22:12:19.703Z",
-   "lines": [
-    {
-     "id": "c87ad0cf-1",
-     "t": "联邦调查局数据库疑遭黑客入侵",
-     "ids": [
-      "ddb90bb60acc",
-      "17d8c5527403",
-      "d3ae8b6abe06",
-      "07601b60021e"
-     ],
-     "w": {
-      "short": "联邦调查局数据库疑遭黑客",
-      "key": "美国联邦调查局核心刑事数据库疑遭黑客入侵引发关注",
-      "title": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
-      "summary": "美国联邦调查局的国家犯罪信息中心数据库近日疑似遭到黑客入侵，引发外界对美国政府机构网络安全的担忧。总统唐纳德·特朗普在采访中确认了这一消息，并称这是今年该机构遭遇的第二次疑似网络攻击事件。目前相关部门正在对事件展开调查。",
-      "common": [
-       {
-        "t": "联邦调查局数据库疑遭黑客入侵",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "遭到黑客入侵的是国家犯罪信息中心数据库",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "美国总统唐纳德·特朗普在电视采访中对此事作出了回应",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "农业部的农民支付系统在另一起事件中遭到黑客攻击",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "前国家安全局分析师表示该数据库包含关键犯罪活动信息",
-        "src": "BBC World"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Al Jazeera",
-         "BBC World"
-        ],
-        "t": "总统唐纳德·特朗普认为这次事件或许能让人了解到一些以往不知道的事情。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ],
-        "t": "官员和前执法人员对黑客可能篡改执法信息或将其作为后门访问敏感资料表示担忧。"
-       }
-      ],
-      "unknown": "目前尚不清楚这些袭击事件是否相互关联以及幕后黑手是谁。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "美国政府机构接连发生网络攻击与系统故障，引发国际社会对关键基础设施及政府数据库安全性的广泛关注。"
-      },
-      "people": [
-       "Donald Trump",
-       "Kash Patel"
-      ],
-      "photo": "computer server security breach",
-      "per": [
-       {
-        "id": "ddb90bb60acc",
-        "t": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
-        "says": "媒体报道联邦调查局关键数据库遭黑客入侵，总统特朗普在采访中确认此事并发表看法。",
-        "same": [
-         "数据库疑遭黑客",
-         "特朗普回应"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "17d8c5527403",
-        "t": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
-        "says": "美国农业部和联邦调查局双双遭到黑客攻击，目前尚不清楚事件是否有关联及责任归属。",
-        "same": [
-         "数据库疑遭黑客"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "d3ae8b6abe06",
-        "t": "美国农业部与联邦调查局遭黑客网络攻击",
-        "says": "报道美国农业部与联邦调查局遭遇网络攻击。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "07601b60021e",
-        "t": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
-        "says": "联邦调查局正对刑事数据库疑似遭入侵展开调查，特朗普称这并非好事但也许能学到新东西。",
-        "same": [
-         "数据库疑遭黑客",
-         "特朗普回应"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "62127afa",
-     "v": 2,
-     "at": "2026-11-22T11:11:40.838Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "ddb90bb60acc": {
-     "id": "ddb90bb60acc",
-     "title": "FBI national crime database suffers suspected breach: Reports",
-     "zh": "美国联邦调查局国家犯罪信息中心数据库疑遭黑客入侵",
-     "short": "美国联邦调查局系统被黑",
-     "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "tech",
-     "published": "2026-11-21T18:19:10.000Z",
-     "sum": "美国联邦调查局的国家犯罪信息中心数据库据报遭遇黑客入侵并正接受调查。这是近期美国政府部门遭遇的一连串网络泄密和系统故障中的最新一起。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "17d8c5527403": {
-     "id": "17d8c5527403",
-     "title": "US Agriculture Department, FBI breached by hackers",
-     "zh": "美国农业部与联邦调查局遭黑客入侵 农民支付系统成攻击目标",
-     "short": "美农业部与FBI遭黑客攻击",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/us-agriculture-department-fbi-breached-by-hackers",
-     "source": "Free Malaysia Today",
-     "cat": "tech",
-     "published": "2026-11-21T07:23:59.000Z",
-     "sum": "美国农业部证实其农民补贴支付系统遭黑客入侵，同时美国联邦调查局也遭遇了自9月以来的第二次网络攻击。两家主要联邦机构连续被黑，引发对政府关键网络安全防御的广泛担忧。"
-    },
-    "d3ae8b6abe06": {
-     "id": "d3ae8b6abe06",
-     "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
-     "zh": "美国农业部与联邦调查局遭黑客网络攻击",
-     "short": "美农业部与FBI遭黑客攻击",
-     "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
-     "source": "France 24",
-     "cat": "tech",
-     "published": "2026-11-21T07:01:04.000Z"
-    },
-    "07601b60021e": {
-     "id": "07601b60021e",
-     "title": "FBI reportedly investigating apparent hack of its criminal database",
-     "zh": "联邦调查局据报正调查其刑事数据库疑似遭黑客入侵",
-     "short": "联邦调查局数据库疑遭黑客入侵",
-     "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T16:35:15.000Z"
-    }
-   },
-   "name": "联邦调查局等机构遭黑客袭击",
-   "en": "FBI database hack cyber attack",
-   "wiki": "FBI cyber attack",
-   "cat": "world",
-   "last": "2026-11-21T22:12:19.703Z",
-   "hidden": false,
-   "heat": {
-    "score": 2,
-    "sources": 4,
-    "stories": 4,
-    "gdelt": null,
-    "wiki": {
-     "title": "Federal Bureau of Investigation",
-     "views": 1760,
-     "ratio": 0.9
-    },
-    "at": "2026-11-22T03:09:37.539Z"
-   },
-   "short": "FBI数据库疑遭黑客",
-   "key": "美国联邦调查局关键数据库遭黑客入侵",
-   "overview": "美国联邦调查局国家犯罪信息中心数据库疑似遭黑客入侵，总统特朗普在采访中确认了这一消息并表示正在调查。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
-    "credit": "Al Jazeera",
-    "kind": "A"
-   }
   }
  ],
- "updated": "2026-11-26T15:08:22.939Z"
+ "updated": "2026-11-26T23:50:02.785Z"
 }
