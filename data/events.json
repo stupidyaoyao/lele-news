@@ -1,6 +1,119 @@
 {
  "events": [
   {
+   "id": "53aaaa61",
+   "first": "2026-11-26T15:00:08.695Z",
+   "lines": [
+    {
+     "id": "53aaaa61-1",
+     "t": "美国计划对多国加征新关税",
+     "ids": [
+      "8c98ac5048d7",
+      "c06ced3b2ac5",
+      "722a67ecc5ec",
+      "02d65ac20e4b",
+      "ada496f5ff87",
+      "633c64faba59"
+     ]
+    }
+   ],
+   "minor": [],
+   "stories": {
+    "8c98ac5048d7": {
+     "id": "8c98ac5048d7",
+     "title": "US to hike tariffs on China, EU, Brazil and others over subsidized factories",
+     "zh": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+     "short": "美拟对中欧多方加征关税",
+     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0",
+     "source": "AP News",
+     "cat": "finance",
+     "published": "2026-11-25T22:06:00.000Z",
+     "sum": "美国计划针对获补贴工厂的产品，对中国、欧盟、巴西等多国及地区提高关税。此举旨在应对海外补贴制造业对美国市场带来的竞争冲击。"
+    },
+    "c06ced3b2ac5": {
+     "id": "c06ced3b2ac5",
+     "title": "US unveils proposed tariffs on major partners, including EU and China",
+     "zh": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+     "short": "美国拟对多国征收新关税",
+     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
+     "source": "France 24",
+     "cat": "finance",
+     "published": "2026-11-25T19:15:03.000Z",
+     "sum": "美国政府在经过数月针对所谓产能过剩的调查后，正式公布了对包括欧盟和中国在内的14个经济体征收高达20%新关税的提议。这是美国总统特朗普重塑华盛顿贸易关系的又一重大动作。"
+    },
+    "722a67ecc5ec": {
+     "id": "722a67ecc5ec",
+     "title": "US preparing to unveil new tariffs on global trading partners",
+     "zh": "美国准备对全球贸易伙伴推出新关税措施",
+     "short": "美国拟对全球推新关税",
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "world",
+     "published": "2026-11-25T00:38:01.000Z",
+     "sum": "美国正准备对多个全球主要贸易伙伴推出新的征税措施。新关税预计将打击包括中国和欧盟在内的大型贸易伙伴。此举可能加剧全球贸易紧张局势并影响供应链。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "02d65ac20e4b": {
+     "id": "02d65ac20e4b",
+     "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+     "zh": "美国加征关税施压伙伴国 迫使其签署贸易协议",
+     "short": "美关税施压贸易协议",
+     "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+     "source": "CNBC Asia",
+     "cat": "world",
+     "published": "2026-11-26T12:46:55.000Z",
+     "sum": "美国计划对多个主要贸易伙伴实施新一轮关税，同时通过提供更低税率作为诱饵，迫使各国尽快与华盛顿达成贸易协议。此举显示美国正加码利用关税作为地缘经济谈判的施压工具。全球供应链可能面临进一步重塑的压力。",
+     "img": {
+      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
+      "credit": "CNBC Asia",
+      "kind": "A"
+     }
+    },
+    "ada496f5ff87": {
+     "id": "ada496f5ff87",
+     "title": "Tariffs: Global Markets Rally as Farmers Face Trade and Cost Uncertainty",
+     "zh": "关税阴影下全球市场回升，农户忧成本",
+     "short": "关税忧虑下股市反弹",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl92LTdVUGxjVlV6ZnFTUE9XRzF2bklEZlc4SElEUG9XVEtaMWk1dEpaRnpZcGtVdlhidXRFUThyYnJ1UVlNYzBRbmM0OUR6NlRUSGRUSktXQmJvZ2Jld0dpWVotYTJQc2NINUhuTVNqZFJ3LVRxRzF6Sm85UC04cjdCYVdKanZZVkp5c0pZOWNqUTZsa052UGtpZTMycWJFNnUxc1FhWUpjeDVtaE9Z?oc=5",
+     "source": "AgroLatam",
+     "cat": "finance",
+     "published": "2026-11-26T13:44:31.000Z"
+    },
+    "633c64faba59": {
+     "id": "633c64faba59",
+     "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
+     "zh": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+     "short": "美新关税对新影响有限",
+     "url": "https://www.channelnewsasia.com/singapore/us-tariffs-singapore-economy-trade-6584716",
+     "source": "CNA Business",
+     "cat": "sea",
+     "published": "2026-11-26T12:50:05.000Z"
+    }
+   },
+   "name": "美国宣布加征关税",
+   "en": "United States global trade tariffs",
+   "wiki": "Tariff",
+   "cat": "finance",
+   "last": "2026-11-26T15:00:08.695Z",
+   "hidden": false,
+   "heat": {
+    "score": 2,
+    "sources": 6,
+    "stories": 6,
+    "gdelt": null,
+    "wiki": {
+     "title": "Tariff",
+     "views": 375,
+     "ratio": 1.6
+    },
+    "at": "2026-11-26T15:08:22.939Z"
+   }
+  },
+  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
@@ -804,7 +917,7 @@
     },
     {
      "id": "3700168d-7",
-     "t": "英伟达争议与人事动态",
+     "t": "黄仁勋与英伟达风波",
      "ids": [
       "d7c905104257",
       "b4e96e60bab2",
@@ -816,68 +929,71 @@
       "05f887d0221c",
       "06b931fd4c68",
       "fb5a7d58c9a9",
-      "667a96dca3c5"
+      "667a96dca3c5",
+      "27184e96a271"
      ],
      "w": {
-      "short": "黄仁勋回归英伟达",
-      "key": "黄仁勋在特朗普干预下重回英伟达担任总裁",
-      "title": "黄仁勋回归英伟达与政治干预风波",
-      "summary": "在美国总统特朗普的强力干预与副总统万斯的斡旋下，黄仁勋于周一正式恢复英伟达总裁兼首席执行官职务，带动美股人工智能相关板块和英伟达股价大幅飙升。此前他因卷入婚外情及涉嫌与中国情报相关人员接触的丑闻而被迫离职。这一复职决定引发了外界对国家安全、董事会透明度以及行政权干预私企自由市场的广泛讨论与质疑。",
+      "short": "黄仁勋重返英伟达",
+      "key": "美国总统特朗普介入推动黄仁勋复职英伟达总裁，引发全球人工智能股市大幅反弹。",
+      "title": "黄仁勋重返英伟达掌权引发人工智能热潮，白宫干预掀起政商风波",
+      "summary": "在美国总统特朗普的积极介入和副总统万斯的斡旋下，黄仁勋在因丑闻短暂离职后重新出任英伟达总裁兼首席执行官。这一重磅消息推动英伟达股价飙升并带动全球人工智能相关股票与亚洲股市全面反弹。然而，白宫直接干预企业高层决策的做法也引发了关于国家安全、透明度以及政商关系的广泛争议。",
       "common": [
        {
-        "t": "黄仁勋重回英伟达担任总裁",
+        "t": "黄仁勋已恢复英伟达总裁兼首席执行官职务。",
         "src": [
          "Bloomberg.com",
          "纽约时报中文网",
-         "www.tmgm.com"
+         "www.tmgm.com",
+         "CNA Business",
+         "TechCrunch"
         ]
        },
        {
-        "t": "复职带动人工智能板块与股价大涨",
+        "t": "黄仁勋复职消息带动英伟达股价飙升及人工智能股票复苏。",
         "src": [
          "Bloomberg.com",
-         "www.tmgm.com"
+         "纽约时报中文网",
+         "www.tmgm.com",
+         "BBC Business"
         ]
        },
        {
-        "t": "卷入涉华情报或芯片走私丑闻",
+        "t": "黄仁勋此前因卷入涉嫌与中国相关人员接触的丑闻而离职。",
         "src": [
          "纽约时报中文网",
-         "www.tmgm.com"
+         "www.tmgm.com",
+         "BBC Business",
+         "TechCrunch"
         ]
        }
       ],
       "single": [
        {
-        "t": "特朗普表示特赦黄仁勋是一个可能的选项但认为没必要实际执行",
-        "src": "f4b8c1692ea5"
+        "t": "特朗普表示特赦黄仁勋是一个可能的选项，但他认为没有必要实际执行。",
+        "src": "TechCrunch"
        },
        {
-        "t": "耶鲁学者杰弗里·索嫩费尔德警告英伟达是美国工业实力的负累而非冠军",
+        "t": "耶鲁大学学者警告称英伟达董事会面临历史性个人责任，并批评英伟达是美国工业实力的负累而非冠军。",
         "src": "05f887d0221c"
-       },
-       {
-        "t": "特朗普发布模仿自己遇刺后举拳的AI合成图力挺黄仁勋",
-        "src": "ca6a2bbf5556"
        }
       ],
       "views": [],
-      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大压力，董事会成员对其决策过程守口如瓶，也没有解释态度为何发生反转。",
+      "unknown": "目前尚不清楚特朗普对英伟达董事会施加了多大的压力，董事会也没有详细解释从拒绝黄仁勋回归到欣然接受的具体转变过程。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "英伟达高层人事变动与美国政府的干预直接引发全球人工智能股票震荡，并影响国际供应链与科技监管走向。"
+       "world": "黄仁勋回归英伟达并获得白宫力挺，直接带动全球人工智能板块与亚洲科技股市大幅反弹。"
       },
       "people": [
        "Jensen Huang",
-       "JD Vance"
+       "Donald Trump"
       ],
       "photo": null,
       "per": [
        {
         "id": "d7c905104257",
         "t": "黄仁勋回归重振人工智能热潮，亚洲股市料反弹",
-        "says": "黄仁勋回归重振市场对人工智能的信心，亚洲股市有望迎来反弹。",
+        "says": "黄仁勋回归重振了市场对人工智能的信心，带动亚洲股市及相关科技板块迎来反弹。",
         "same": [
          "黄仁勋回归",
          "人工智能热潮"
@@ -887,17 +1003,17 @@
        {
         "id": "b4e96e60bab2",
         "t": "特朗普促成黄仁勋复职：派万斯斡旋并提供关键保证",
-        "says": "特朗普派万斯斡旋并向英伟达董事会提供保证，促成黄仁勋恢复总裁兼首席执行官职务，引发华尔街大幅飙升。",
+        "says": "特朗普派副总统万斯斡旋并向英伟达董事会提供保证，推动黄仁勋重新担任英伟达总裁。",
         "same": [
-         "特朗普促成复职",
-         "股价大幅飙升"
+         "黄仁勋复职",
+         "特朗普干预"
         ],
         "view": "看法 A"
        },
        {
         "id": "e308d82743fe",
         "t": "英镑兑美元汇率走弱，受美国人工智能股复苏拖累",
-        "says": "英伟达重新任命黄仁勋引发美国人工智能股复苏，推动美元走强并使英镑兑美元汇率走弱。",
+        "says": "随着黄仁勋回归担任英伟达首席执行官，美国人工智能股强劲反弹，提振了美元并使英镑走弱。",
         "same": [
          "黄仁勋回归",
          "人工智能股复苏"
@@ -907,7 +1023,7 @@
        {
         "id": "e36c19927212",
         "t": "随着全球人工智能股票回暖，黄金吐出早期涨幅",
-        "says": "随着全球人工智能股票回暖，黄金吐出早期涨幅。",
+        "says": "全球人工智能股票回暖影响了市场资金流向。",
         "same": [
          "人工智能股票回暖"
         ],
@@ -915,49 +1031,47 @@
        },
        {
         "id": "4207bfe75a6e",
-        "t": "CNA Business",
-        "says": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑。",
+        "t": "英伟达重新任命总裁黄仁勋，董事会面临透明度质疑",
+        "says": "英伟达重新任命黄仁勋为总裁，使董事会面临透明度质疑。",
         "same": [
-         "重新任命总裁黄仁勋",
-         "董事会面临质疑"
+         "重新任命黄仁勋"
         ],
         "view": null
        },
        {
         "id": "ca6a2bbf5556",
         "t": "特朗普干预力挺黄仁勋，政治命运与人工智能绑定",
-        "says": "特朗普干预力挺黄仁勋复职并推高股价，将政治命运与人工智能绑定，但也引发了关于政策干预市场的讨论。",
+        "says": "特朗普干预力挺黄仁勋复职，将政治命运与人工智能绑定，引发关于政商结合和市场干预的讨论。",
         "same": [
-         "特朗普干预力挺",
-         "股价大幅飙升"
+         "特朗普干预",
+         "黄仁勋回归"
         ],
         "view": "看法 A"
        },
        {
         "id": "f4b8c1692ea5",
         "t": "特朗普称赦免黄仁勋是一个可能的选项",
-        "says": "特朗普表示赦免黄仁勋是一个可能的选项，黄仁勋刚恢复职务并面临相关调查。",
+        "says": "特朗普表示赦免黄仁勋是一个可能的选项，并关注芯片商业本身。",
         "same": [
-         "黄仁勋恢复职务",
-         "面临调查"
+         "黄仁勋复职"
         ],
         "view": null
        },
        {
         "id": "05f887d0221c",
         "t": "耶鲁学者：英伟达是美国工业实力的负累而非冠军",
-        "says": "耶鲁学者警告黄仁勋重返英伟达可能是重大错误，英伟达是美国工业实力的负累而非冠军，董事会面临法律责任。",
+        "says": "耶鲁学者警告黄仁勋重返英伟达可能带来严重法律责任，并批评其削弱了美国工业实力。",
         "same": [
-         "董事会面临责任"
+         "黄仁勋重返"
         ],
-        "view": "看法 B"
+        "view": null
        }
       ]
      },
      "loose": false,
-     "sig": "77445d20",
+     "sig": "31ecbb54",
      "v": 2,
-     "at": "2026-11-26T05:01:01.173Z",
+     "at": "2026-11-26T15:01:01.389Z",
      "img": {
       "kind": "B",
       "people": [
@@ -968,10 +1082,10 @@
         "person": "Jensen Huang"
        },
        {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg/960px-March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Emily J. Higgins · Wikimedia Commons · Public domain",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%283x4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Daniel Torok · Wikimedia Commons · Public domain",
         "kind": "B",
-        "person": "JD Vance"
+        "person": "Donald Trump"
        }
       ]
      }
@@ -1174,97 +1288,263 @@
     },
     {
      "id": "3700168d-10",
-     "t": "AI股大跌与美股走势",
+     "t": "股市波动与人工智能抛售潮",
      "ids": [
       "f8076ed8c355",
       "d9222ae2d06b",
-      "a04d2bb44a19"
+      "a04d2bb44a19",
+      "c7cc931c23d4",
+      "f7de91eb6c6a"
      ],
      "w": {
-      "short": "美股AI概念股遭抛售",
-      "key": "人工智能担忧加剧拖累美股大幅走低",
-      "title": "人工智能担忧加剧拖累美股走低 英伟达股价波动引发市场关注",
-      "summary": "受人工智能投资可持续性担忧及管理层变动影响，美股人工智能概念股近期遭遇抛售，英伟达股价大幅波动并被标普列入负面信用观察名单。市场对人工智能领域的高额投入是否能获得回报产生疑虑。",
+      "short": "人工智能抛售潮与股市波动",
+      "key": "人工智能投资担忧引发美股及科技股波动，英伟达股价承压。",
+      "title": "人工智能担忧加剧拖累美股与科技股，纳指与标普收跌",
+      "summary": "受人工智能投资可持续性的担忧影响，美股及相关科技股近期出现抛售潮。英伟达股价在早盘大幅下挫后有所回稳，但整体市场波动仍受人工智能板块及宏观因素拖累。与此同时，美国白宫宣布的新关税政策及美联储政策预期也对全球股市产生影响。",
       "common": [
        {
-        "t": "英伟达总裁离职后复职",
+        "t": "人工智能相关股票近期遭到抛售并出现下跌",
         "src": [
          "BBC World",
-         "CNA Business"
+         "www.tmgm.com",
+         "Free Malaysia Today"
         ]
        },
        {
-        "t": "英伟达股价近期出现下跌",
+        "t": "英伟达股价近期出现波动与下跌",
         "src": [
          "BBC World",
-         "CNA Business"
+         "www.tmgm.com",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "美国白宫提出了针对多个贸易伙伴的新关税提案",
+        "src": [
+         "BBC World",
+         "www.tmgm.com",
+         "Free Malaysia Today"
         ]
        }
       ],
       "single": [
        {
-        "t": "标普将英伟达信用评级列入负面信用观察名单",
-        "src": "CNA Business"
+        "t": "标普已将英伟达的信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
+        "src": "Free Malaysia Today"
        },
        {
-        "t": "美国政府宣布对贸易伙伴实施新关税",
-        "src": "BBC World"
+        "t": "由于十月核心个人消费支出价格指数超出预期，市场对十二月美联储加息的预期维持在近94%。",
+        "src": "www.tmgm.com"
        },
        {
-        "t": "高盛预计2026年人工智能投资将超过1万亿美元",
+        "t": "民主党在美國中期选举中的得票增长令投资者感到恐慌，部分人曾竞选加强对人工智能企业的监管。",
         "src": "BBC World"
        }
       ],
-      "views": [],
-      "unknown": "目前尚不清楚人工智能领域投入的巨额资金最终能否获得相应回报。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "BBC World"
+        ],
+        "t": "华尔街对巨额人工智能投资能否最终获得回报表示质疑，认为企业需要证明其支出的价值。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "分析师认为美国最新关税提案的影响可能较为温和，且部分关键进口科技商品仍获豁免。"
+       }
+      ],
+      "unknown": "目前尚不确定人工智能领域的巨额投资最终是否能带来相应的回报。",
       "impact": {
-       "my": null,
+       "my": "受美股纳斯达克与标普下跌拖累，马股开盘走低。",
        "sea": null,
-       "world": "人工智能概念股遭到抛售，拖累美国股市表现并引发全球投资者对相关投资可持续性的担忧。"
+       "world": "美国人工智能板块的抛售潮与新关税政策引发全球金融市场波动。"
       },
       "people": [
-       "Jensen Huang"
+       "Jensen Huang",
+       "Elon Musk"
       ],
-      "photo": "Nvidia headquarters",
+      "photo": "microchip",
       "per": [
        {
-        "id": "f8076ed8c355",
-        "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
-        "says": "人工智能相关大型科技公司股价继续下跌，英伟达等公司在早盘交易中跌幅明显。投资者对人工智能投资的规模和可持续性感到担忧。",
+        "id": "a04d2bb44a19",
+        "t": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
+        "says": "纳指与标普500收盘下跌，但逢低买盘涌入使指数脱离日内低点。",
         "same": [
-         "股价下跌",
-         "总裁复职"
+         "纳指与标普收跌"
         ],
         "view": null
        },
        {
+        "id": "f8076ed8c355",
+        "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
+        "says": "人工智能投资担忧加剧，拖累美股大幅走低，英伟达等科技股股价下挫。",
+        "same": [
+         "人工智能担忧",
+         "英伟达股价下跌"
+        ],
+        "view": "看法 A"
+       },
+       {
         "id": "d9222ae2d06b",
         "t": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
-        "says": "人工智能股票出现回调，道琼斯工业指数抹去跌幅并反弹。",
+        "says": "亏损集中在人工智能相关股票，道琼斯指数在其他板块支撑下反弹，市场关注美联储利率和关税。",
         "same": [
          "人工智能股回调"
         ],
         "view": null
        },
        {
-        "id": "667a96dca3c5",
-        "t": "标普将英伟达评级列入负面信用观察名单",
-        "says": "标普全球评级将英伟达的信用评级列入负面信用观察名单，指出管理和治理风险上升，高管离职与复职未能充分解答董事会监督问题。",
+        "id": "c7cc931c23d4",
+        "t": "无视美国最新关税冲击 交易员推动股市上涨",
+        "says": "欧洲与亚洲股市上涨，交易员无视美国最新关税冲击，感恩节假期缓解了人工智能恐慌。",
         "same": [
-         "总裁复职",
-         "英伟达"
+         "美国新关税提案",
+         "人工智能担忧"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "f7de91eb6c6a",
+        "t": "受美股纳斯达克与标普下跌拖累，马股开盘走低",
+        "says": "受美股纳斯达克与标普下跌拖累，马股开盘走低。",
+        "same": [
+         "马股开盘走低"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "25d20187",
+     "v": 2,
+     "at": "2026-11-26T15:04:25.201Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-11",
+     "t": "人工智能对社会与经济的影响",
+     "ids": [
+      "856d3d9b30c2",
+      "606d46584e95",
+      "dc85126b0ac7",
+      "00d3c793baf9",
+      "35a1b5dcb892",
+      "4f0b7bfbd5a5"
+     ],
+     "w": {
+      "short": "人工智能冲击与应对",
+      "key": "人工智能技术对劳动力市场和社会经济各领域带来广泛冲击与挑战。",
+      "title": "人工智能风波与经济社会影响：多方探讨失业潮应对与新闻业联合自救",
+      "summary": "随着人工智能技术的快速发展，社会各界对其引发的失业潮与经济冲击表示担忧，并探讨全民基本收入等解决方案。同时，东南亚独立新闻室联合应对人工智能带来的流量暴跌和商业模式压力。在科技企业方面，OpenAI整合聊天与工作功能引发了重度用户对使用上限的顾虑。",
+      "common": [
+       {
+        "t": "人工智能发展引发社会与经济各界广泛关注。",
+        "src": [
+         "Al Jazeera",
+         "TechCrunch",
+         "Rappler"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "随着人工智能引发失业担忧，关于推行全民基本收入的呼声再次高涨。",
+        "src": "Al Jazeera"
+       },
+       {
+        "t": "OpenAI开始向部分用户推出整合聊天与工作功能的新界面，但引发重度用户对触及使用上限的担忧。",
+        "src": "TechCrunch"
+       },
+       {
+        "t": "东南亚独立新闻室在Rappler总部举行会议，联合应对人工智能对新闻流量和业务的冲击。",
+        "src": "Rappler"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "人工智能发展对马来西亚的就业市场、新闻行业及数字经济转型带来了深远的影响与挑战。",
+       "sea": "东南亚独立新闻室正通过跨国合作与建立新商业模式，共同应对人工智能带来的流量下滑与平台政策冲击。",
+       "world": "全球范围内，人工智能引发的失业忧虑推高了对全民基本收入等社会保障机制的讨论，同时科技巨头正持续调整其人工智能产品功能以平衡成本与需求。"
+      },
+      "people": [
+       "Maria Ressa",
+       "Wahyu Dhyatmika"
+      ],
+      "photo": "artificial intelligence technology",
+      "per": [
+       {
+        "id": "856d3d9b30c2",
+        "t": "全民基本收入是人工智能经济失业潮的解药吗？",
+        "says": "随着人工智能加剧失业担忧，推行全民基本收入的呼声再次获得关注，历史上的保障收入方案也被重新审视。",
+        "same": [
+         "失业担忧",
+         "全民基本收入"
+        ],
+        "view": null
+       },
+       {
+        "id": "606d46584e95",
+        "t": "随着人工智能崛起 我们离全民基本收入还有多远？",
+        "says": "探讨了人工智能背景下全民基本收入的相关议题。",
+        "same": [
+         "全民基本收入"
+        ],
+        "view": null
+       },
+       {
+        "id": "dc85126b0ac7",
+        "t": "OpenAI合并聊天与工作功能，重度用户或更快触及使用上限",
+        "says": "OpenAI推出整合的聊天与工作体验，重度用户担心共享使用额度会导致高级模型访问受限。",
+        "same": [
+         "OpenAI"
+        ],
+        "view": null
+       },
+       {
+        "id": "00d3c793baf9",
+        "t": "Anthropic达里奥·阿莫代伊：将人类控制权交给人工智能的指责荒谬",
+        "says": "报道了关于人工智能控制权的讨论。",
+        "same": [
+         "人工智能"
+        ],
+        "view": null
+       },
+       {
+        "id": "35a1b5dcb892",
+        "t": "对抗人工智能冲击，东南亚新闻室联合",
+        "says": "东南亚独立新闻室齐聚Rappler总部，联合应对人工智能对网站流量和商业模式造成的负面冲击。",
+        "same": [
+         "人工智能冲击"
+        ],
+        "view": null
+       },
+       {
+        "id": "4f0b7bfbd5a5",
+        "t": "纽约禁售人工智能聊天机器人玩具",
+        "says": "报道了与人工智能玩具相关的禁售政策。",
+        "same": [
+         "人工智能"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "616efd9e",
+     "sig": "a9d31cf8",
      "v": 2,
-     "at": "2026-11-25T22:28:04.317Z",
+     "at": "2026-11-26T15:01:19.029Z",
      "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
-      "credit": "BBC World",
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP25197325626713-1753474492-1795496246.jpg?resize=1200%2C630&quality=80",
+      "credit": "Al Jazeera",
       "kind": "A"
      }
     }
@@ -2361,7 +2641,7 @@
      "title": "Dow Jones Industrial Average recovers lost ground even as AI stocks retreat",
      "zh": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
      "short": "道指收复失地科技股走弱",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ3BocEdUOW1JM2VkcUV6UERLWTk4dVpRQjRaZm5VS0VXbTlSVW1VZERZT3BaaG1MVXR3YjJmYWVxTWM4MndjNU5kTXliVjdWMUlaeHFISE96cFc3YWFJek9jMkdBM1lwb2xneElwbGFVVWhQQ3BJWmRKelNiOERkM24wVVRxNVdjdzY0aXhBZ0JpUC1Vei14MVVMVDRNU0dCRmpZVVZUYk56UlUwUjJ5Z09uSFBsNzZKRmF2ckd4LUM3M1QtMXprSENZMA?oc=5",
+     "url": "https://www.tmgm.com/en-in/analysis/market-news/article/dow-jones-industrial-average-erases-its-drop-as-ai-stocks-fall-202611252139",
      "source": "www.tmgm.com",
      "cat": "finance",
      "published": "2026-11-25T21:49:52.000Z"
@@ -2395,13 +2675,121 @@
      "source": "Reuters",
      "cat": "finance",
      "published": "2026-11-25T22:04:08.000Z"
+    },
+    "27184e96a271": {
+     "id": "27184e96a271",
+     "title": "BBC事實查核：紀錄顯示，特朗普的帳戶今年交易了44次Nvidia股票",
+     "zh": "英媒：纪录显示特朗普今年频繁交易英伟达股票",
+     "short": "传特朗普频繁炒英伟达",
+     "url": "https://www.bbc.com/zhongwen/articles/cm62p52417ywo/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "finance",
+     "published": "2026-11-26T13:23:19.000Z",
+     "sum": "根据美国总统财务透明记录显示，其投资组合在今年内曾频繁买卖英伟达股票，交易次数达到44次。这一动向引发了外界对政治人物投资科技巨头股票的关注。这也凸显了人工智能芯片龙头在资本市场的高度吸引力。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/9436/live/251a8890-e8d5-11f1-99b6-a35a62fa4264.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
+    },
+    "c7cc931c23d4": {
+     "id": "c7cc931c23d4",
+     "title": "Stocks climb as traders shrug off latest US tariff salvo",
+     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
+     "short": "无视美关税股市上涨",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-26T12:50:12.000Z",
+     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "f7de91eb6c6a": {
+     "id": "f7de91eb6c6a",
+     "title": "Bursa opens lower amid mixed Wall Street performance",
+     "zh": "受美股纳斯达克与标普下跌拖累，马股开盘走低",
+     "short": "马股跟随美股开盘走低",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/bursa-opens-lower-amid-mixed-wall-street-performance-2",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-25T01:51:48.000Z"
+    },
+    "856d3d9b30c2": {
+     "id": "856d3d9b30c2",
+     "title": "Is UBI the solution to mass unemployment in an AI economy?",
+     "zh": "全民基本收入是人工智能经济失业潮的解药吗？",
+     "short": "探讨全民基本收入抗AI",
+     "url": "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-26T13:04:51.000Z",
+     "sum": "随着人工智能技术的快速推进并可能引发大规模失业，社会各界对于推行全民基本收入的呼声日益高涨。支持者认为此举能有效防止贫困蔓延和贫富差距进一步扩大。这也反映出全球劳动力市场正面临前所未有的结构性转型压力。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP25197325626713-1753474492-1795496246.jpg?resize=1200%2C630&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "606d46584e95": {
+     "id": "606d46584e95",
+     "title": "With the rise of AI, are we close to having universal basic income",
+     "zh": "随着人工智能崛起 我们离全民基本收入还有多远？",
+     "short": "人工智能与全民基本收入",
+     "url": "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-26T12:12:45.000Z"
+    },
+    "dc85126b0ac7": {
+     "id": "dc85126b0ac7",
+     "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+     "zh": "OpenAI合并聊天与工作功能，重度用户或更快触及使用上限",
+     "short": "OpenAI整合聊天与工作",
+     "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T20:03:27.000Z"
+    },
+    "00d3c793baf9": {
+     "id": "00d3c793baf9",
+     "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+     "zh": "Anthropic达里奥·阿莫代伊：将人类控制权交给人工智能的指责荒谬",
+     "short": "Anthropic反驳AI失控论",
+     "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T19:44:24.000Z"
+    },
+    "35a1b5dcb892": {
+     "id": "35a1b5dcb892",
+     "title": "Muni Network: Newsrooms unite against AI disruption",
+     "zh": "对抗人工智能冲击，东南亚新闻室联合",
+     "short": "东南亚媒体联合抗AI",
+     "url": "https://www.rappler.com/about/special-projects/southeast-asia-newsrooms-unite-ai-threats-muni-future-news/",
+     "source": "Rappler",
+     "cat": "sea",
+     "published": "2026-11-26T13:43:54.000Z"
+    },
+    "4f0b7bfbd5a5": {
+     "id": "4f0b7bfbd5a5",
+     "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+     "zh": "纽约禁售人工智能聊天机器人玩具",
+     "short": "纽约禁售人工智能玩具",
+     "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+     "source": "TechCrunch",
+     "cat": "tech",
+     "published": "2026-11-25T18:11:46.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "artificial intelligence Nvidia stock",
+   "en": "artificial intelligence nvidia stock market",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-26T04:58:07.231Z",
+   "last": "2026-11-26T15:00:08.694Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
    "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
@@ -2432,14 +2820,14 @@
    "heat": {
     "score": 5,
     "sources": 40,
-    "stories": 94,
+    "stories": 103,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
      "views": 37203,
      "ratio": 0.9
     },
-    "at": "2026-11-26T05:02:26.968Z"
+    "at": "2026-11-26T15:05:28.049Z"
    }
   },
   {
@@ -3171,7 +3559,7 @@
     "stories": 29,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T05:02:43.440Z"
+    "at": "2026-11-26T15:05:44.492Z"
    }
   },
   {
@@ -3342,7 +3730,7 @@
     "stories": 4,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T05:02:59.877Z"
+    "at": "2026-11-26T15:06:33.892Z"
    }
   },
   {
@@ -3560,7 +3948,7 @@
      "views": 67,
      "ratio": 1.1
     },
-    "at": "2026-11-26T05:03:16.453Z"
+    "at": "2026-11-26T15:07:22.249Z"
    }
   },
   {
@@ -4269,13 +4657,16 @@
     "score": 3,
     "sources": 9,
     "stories": 31,
-    "gdelt": null,
+    "gdelt": {
+     "ratio": 0.4,
+     "share": 0.012
+    },
     "wiki": {
      "title": "Russian strikes on Ukraine",
      "views": 1,
      "ratio": 0.3
     },
-    "at": "2026-11-26T05:03:32.937Z"
+    "at": "2026-11-26T15:08:06.453Z"
    }
   },
   {
@@ -6663,5 +7054,5 @@
    }
   }
  ],
- "updated": "2026-11-26T05:03:49.438Z"
+ "updated": "2026-11-26T15:08:22.939Z"
 }
