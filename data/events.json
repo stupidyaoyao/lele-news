@@ -1,424 +1,6 @@
 {
  "events": [
   {
-   "id": "53aaaa61",
-   "first": "2026-11-26T15:00:08.695Z",
-   "lines": [
-    {
-     "id": "53aaaa61-1",
-     "t": "新加坡等国评估美新关税影响",
-     "ids": [
-      "8c98ac5048d7",
-      "c06ced3b2ac5",
-      "722a67ecc5ec",
-      "02d65ac20e4b",
-      "ada496f5ff87",
-      "633c64faba59",
-      "03bb72c6812c"
-     ],
-     "w": {
-      "short": "美拟对多国加征新关税",
-      "key": "美国宣布对中国及欧盟等14个经济体征收高达20%至40%的新关税。",
-      "title": "美国宣布加征关税：针对全球多国及地区推行新贸易措施",
-      "summary": "美国政府正式公布对中国、欧盟等14个经济体征收新关税的计划，旨在应对海外补贴及产能过剩问题。中国及越南等国将面临较高的关税税率，相关措施预计将在明年经公众咨询后生效。同时，新加坡等国也在评估新关税及出口管制带来的影响。",
-      "common": [
-       {
-        "t": "美国宣布对多国加征关税",
-        "src": [
-         "AP News",
-         "France 24",
-         "BBC Business",
-         "CNBC Asia"
-        ]
-       },
-       {
-        "t": "中国面临较高税率",
-        "src": [
-         "BBC Business",
-         "CNBC Asia"
-        ]
-       },
-       {
-        "t": "新关税预计明年生效",
-        "src": [
-         "BBC Business",
-         "CNBC Asia"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "新加坡总理黄循财表示将协助美国执行芯片禁令但依本国法律行事。",
-        "src": "Malay Mail"
-       },
-       {
-        "t": "经济学家警告关税会推高通胀和消费价格并压制全球贸易。",
-        "src": "BBC Business"
-       },
-       {
-        "t": "分析认为该提案有助于促使部分国家加快贸易谈判以锁定较低税率。",
-        "src": "CNBC Asia"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "BBC Business",
-         "AP News"
-        ],
-        "t": "美国认为新关税旨在应对海外补贴制造业、重塑贸易关系并为美国工人创造公平竞争环境。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "CNBC Asia"
-        ],
-        "t": "分析认为新关税旨在施压伙伴国迫使其签署贸易协议并遏制过剩产能。"
-       }
-      ],
-      "unknown": "部分关税最终是否会根据贸易谈判进展或公众咨询而调整尚不完全确定。",
-      "impact": {
-       "my": "马来西亚的货物出口面临美国新关税政策的潜在影响评估。",
-       "sea": "东南亚多国如越南和新加坡等被纳入新关税及贸易管制评估范围。",
-       "world": "全球主要贸易伙伴及供应链将面临美国新一轮贸易保护政策的冲击与成本上升压力。"
-      },
-      "people": [
-       "Donald Trump",
-       "Lawrence Wong"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "8c98ac5048d7",
-        "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
-        "says": "美国计划针对获补贴工厂的产品提高关税，以应对海外补贴对美国市场的竞争冲击。",
-        "same": [
-         "加征关税"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c06ced3b2ac5",
-        "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
-        "says": "美国政府正式公布对包括欧盟和中国在内的14个经济体征收新关税的提议，重塑贸易关系。",
-        "same": [
-         "加征关税"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "722a67ecc5ec",
-        "t": "美国准备对全球贸易伙伴推出新关税措施",
-        "says": "美国宣布新关税措施，中国及欧盟等多个贸易伙伴受到影响，预计明年起正式生效。",
-        "same": [
-         "加征关税"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "02d65ac20e4b",
-        "t": "CNBC Asia 报道",
-        "says": "美国推出新关税以遏制过剩产能并施压伙伴国签署贸易协议，中国和越南面临较高税率。",
-        "same": [
-         "加征关税"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ada496f5ff87",
-        "t": "关税阴影下全球市场回升，农户忧成本",
-        "says": "农户对关税带来的成本表示担忧。",
-        "same": null,
-        "view": null
-       },
-       {
-        "id": "633c64faba59",
-        "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
-        "says": "专家评估美新关税对新加坡短期影响有限。",
-        "same": null,
-        "view": null
-       },
-       {
-        "id": "03bb72c6812c",
-        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
-        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制，并对违规企业展开调查。",
-        "same": null,
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "450dc817",
-     "v": 2,
-     "at": "2026-11-26T23:43:59.233Z",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
-      "credit": "BBC Business",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "53aaaa61-2",
-     "t": "泰国等国企业界担忧美关税冲击",
-     "ids": [
-      "a2c47c2f5eb4",
-      "8aa65f9d2fbf",
-      "7a0bfee3dd4c"
-     ],
-     "w": {
-      "short": "美拟征泰关税引担忧",
-      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
-      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
-      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
-      "common": [],
-      "single": [
-       {
-        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
-        "src": "Bangkok Post"
-       },
-       {
-        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
-        "src": "Bangkok Post"
-       }
-      ],
-      "views": [],
-      "unknown": "泰国最终的关税税率尚未最终确定。",
-      "impact": {
-       "my": null,
-       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
-       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
-      },
-      "people": [],
-      "photo": "container port",
-      "per": [
-       {
-        "id": "a2c47c2f5eb4",
-        "t": "企业界担忧美国关税对泰国出口造成冲击",
-        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
-        "same": [
-         "美国关税引发担忧"
-        ],
-        "view": null
-       },
-       {
-        "id": "8aa65f9d2fbf",
-        "t": "泰国转向投资驱动型增长以应对贸易战",
-        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "7a0bfee3dd4c",
-        "t": "泰国政府辩护18%美国关税提议",
-        "says": "相关报道提及泰国政府对关税提议的相关立场。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "2cf9f66e",
-     "v": 2,
-     "at": "2026-11-26T23:44:47.023Z",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [
-    "c7cc931c23d4"
-   ],
-   "stories": {
-    "8c98ac5048d7": {
-     "id": "8c98ac5048d7",
-     "title": "US to hike tariffs on China, EU, Brazil and others over subsidized factories",
-     "zh": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
-     "short": "美拟对中欧多方加征关税",
-     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0",
-     "source": "AP News",
-     "cat": "finance",
-     "published": "2026-11-25T22:06:00.000Z",
-     "sum": "美国计划针对获补贴工厂的产品，对中国、欧盟、巴西等多国及地区提高关税。此举旨在应对海外补贴制造业对美国市场带来的竞争冲击。"
-    },
-    "c06ced3b2ac5": {
-     "id": "c06ced3b2ac5",
-     "title": "US unveils proposed tariffs on major partners, including EU and China",
-     "zh": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
-     "short": "美国拟对多国征收新关税",
-     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
-     "source": "France 24",
-     "cat": "finance",
-     "published": "2026-11-25T19:15:03.000Z",
-     "sum": "美国政府在经过数月针对所谓产能过剩的调查后，正式公布了对包括欧盟和中国在内的14个经济体征收高达20%新关税的提议。这是美国总统特朗普重塑华盛顿贸易关系的又一重大动作。"
-    },
-    "722a67ecc5ec": {
-     "id": "722a67ecc5ec",
-     "title": "US preparing to unveil new tariffs on global trading partners",
-     "zh": "美国准备对全球贸易伙伴推出新关税措施",
-     "short": "美国拟对全球推新关税",
-     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC Business",
-     "cat": "world",
-     "published": "2026-11-25T00:38:01.000Z",
-     "sum": "美国正准备对多个全球主要贸易伙伴推出新的征税措施。新关税预计将打击包括中国和欧盟在内的大型贸易伙伴。此举可能加剧全球贸易紧张局势并影响供应链。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
-      "credit": "BBC Business",
-      "kind": "A"
-     }
-    },
-    "02d65ac20e4b": {
-     "id": "02d65ac20e4b",
-     "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-     "zh": "美国加征关税施压伙伴国 迫使其签署贸易协议",
-     "short": "美关税施压贸易协议",
-     "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-     "source": "CNBC Asia",
-     "cat": "world",
-     "published": "2026-11-26T12:46:55.000Z",
-     "sum": "美国计划对多个主要贸易伙伴实施新一轮关税，同时通过提供更低税率作为诱饵，迫使各国尽快与华盛顿达成贸易协议。此举显示美国正加码利用关税作为地缘经济谈判的施压工具。全球供应链可能面临进一步重塑的压力。",
-     "img": {
-      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
-      "credit": "CNBC Asia",
-      "kind": "A"
-     }
-    },
-    "ada496f5ff87": {
-     "id": "ada496f5ff87",
-     "title": "Tariffs: Global Markets Rally as Farmers Face Trade and Cost Uncertainty",
-     "zh": "关税阴影下全球市场回升，农户忧成本",
-     "short": "关税忧虑下股市反弹",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl92LTdVUGxjVlV6ZnFTUE9XRzF2bklEZlc4SElEUG9XVEtaMWk1dEpaRnpZcGtVdlhidXRFUThyYnJ1UVlNYzBRbmM0OUR6NlRUSGRUSktXQmJvZ2Jld0dpWVotYTJQc2NINUhuTVNqZFJ3LVRxRzF6Sm85UC04cjdCYVdKanZZVkp5c0pZOWNqUTZsa052UGtpZTMycWJFNnUxc1FhWUpjeDVtaE9Z?oc=5",
-     "source": "AgroLatam",
-     "cat": "finance",
-     "published": "2026-11-26T13:44:31.000Z"
-    },
-    "633c64faba59": {
-     "id": "633c64faba59",
-     "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
-     "zh": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
-     "short": "美新关税对新影响有限",
-     "url": "https://www.channelnewsasia.com/singapore/us-tariffs-singapore-economy-trade-6584716",
-     "source": "CNA Business",
-     "cat": "sea",
-     "published": "2026-11-26T12:50:05.000Z"
-    },
-    "a2c47c2f5eb4": {
-     "id": "a2c47c2f5eb4",
-     "title": "Executives wary of tariff effect on exports",
-     "zh": "企业界担忧美国关税对泰国出口造成冲击",
-     "short": "泰商界担忧美关税冲击",
-     "url": "https://www.bangkokpost.com/business/general/3362039/executives-wary-of-tariff-effect-on-exports",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T22:35:00.000Z",
-     "sum": "美国拟对泰国出口商品征收关税，尽管税率与竞争对手相若，但商界警告这仍将拖累未来的出口表现。分析指出，受贸易保护主义影响，泰国明年的经济增长动能可能明显放缓。企业正敦促政府争取更有利的双边关税条件。",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    },
-    "8aa65f9d2fbf": {
-     "id": "8aa65f9d2fbf",
-     "title": "Thailand shifts focus to investment-led growth",
-     "zh": "泰国转向投资驱动型增长以应对贸易战",
-     "short": "泰国转向投资驱动增长",
-     "url": "https://www.bangkokpost.com/business/general/3361974/thailand-shifts-focus-to-investmentled-growth",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T22:26:00.000Z",
-     "sum": "面对全球贸易战和经济碎片化加剧，泰国政府决定将发展重心转向投资驱动型增长。当局承诺积极寻求更有利的关税协议，以保障私营企业的国际竞争力。此举旨在降低供应链断裂对宏观经济带来的下行风险。",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/27/6318559_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    },
-    "7a0bfee3dd4c": {
-     "id": "7a0bfee3dd4c",
-     "title": "Govt defends 18% US tariff proposal",
-     "zh": "泰国政府辩护18%美国关税提议",
-     "short": "泰方回应美关税提议",
-     "url": "https://www.bangkokpost.com/thailand/general/3361874/govt-defends-18-us-tariff-proposal",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T21:28:00.000Z"
-    },
-    "03bb72c6812c": {
-     "id": "03bb72c6812c",
-     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
-     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
-     "short": "新加坡配合美国芯片禁令",
-     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
-     "source": "Malay Mail",
-     "cat": "sea",
-     "published": "2026-11-25T01:45:47.000Z",
-     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
-     "img": {
-      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
-      "credit": "Malay Mail",
-      "kind": "A"
-     }
-    },
-    "c7cc931c23d4": {
-     "id": "c7cc931c23d4",
-     "title": "Stocks climb as traders shrug off latest US tariff salvo",
-     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
-     "short": "无视美关税股市上涨",
-     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
-     "source": "Free Malaysia Today",
-     "cat": "finance",
-     "published": "2026-11-26T12:50:12.000Z",
-     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    }
-   },
-   "name": "美国宣布加征关税",
-   "en": "US tariffs China Europe",
-   "wiki": "United States tariffs",
-   "cat": "finance",
-   "last": "2026-11-26T23:43:54.109Z",
-   "hidden": false,
-   "heat": {
-    "score": 4,
-    "sources": 9,
-    "stories": 11,
-    "gdelt": null,
-    "wiki": {
-     "title": "United States tariffs",
-     "views": 1,
-     "ratio": 5
-    },
-    "at": "2026-11-26T23:46:09.721Z"
-   },
-   "short": "美国宣布加征关税",
-   "key": "美对14地征新关税，引发多国评估应对",
-   "overview": "美国正式公布对中国、欧盟等14个经济体征收新关税计划以应对产能过剩，引发新加坡、泰国等国评估影响并担忧出口受阻。",
-   "minorText": [
-    "交易员无视美国最新关税冲击推动股市上涨"
-   ],
-   "links": [
-    {
-     "from": "53aaaa61-1",
-     "to": "53aaaa61-2",
-     "t": "美国新关税计划不仅影响中国与欧盟，也波及泰国等国的出口表现。"
-    }
-   ],
-   "img": {
-    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
-    "credit": "BBC Business",
-    "kind": "A"
-   }
-  },
-  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
@@ -1593,153 +1175,161 @@
     },
     {
      "id": "3700168d-10",
-     "t": "AI担忧加剧与股市抛售潮",
+     "t": "美股科技股与AI抛售潮",
      "ids": [
       "f8076ed8c355",
       "d9222ae2d06b",
       "a04d2bb44a19",
       "c7cc931c23d4",
       "f7de91eb6c6a",
-      "3f8bd7cc62c4"
+      "3f8bd7cc62c4",
+      "fa68dcac011e"
      ],
      "w": {
-      "short": "人工智能担忧与美股抛售",
-      "key": "人工智能板块与英伟达股价波动加剧，引发市场对投资可持续性的担忧并拖累美股。",
-      "title": "人工智能担忧加剧与股市抛售潮：英伟达与科技股震荡解析",
-      "summary": "近期人工智能相关企业受到投资回报可持续性疑虑的冲击，英伟达及多家科技巨头股价出现波动与抛售潮。尽管纳斯达克与标普500一度承压，但部分美股在逢低买盘和感恩节假期前夕出现反弹。同时，美国白宫宣布针对多个贸易伙伴的新关税政策，也成为影响宏观市场的情绪因素之一。",
+      "short": "美股与科技股抛售潮",
+      "key": "人工智能投资担忧加剧与美股科技股盘中遭遇抛售引发市场关注。",
+      "title": "人工智能担忧加剧拖累美股科技股 亚洲与欧洲股市随后反弹",
+      "summary": "近期美股纳斯达克指数与标普500指数因人工智能板块投资可持续性担忧而遭遇抛售，英伟达等大型科技股股价震荡走低。不过随后亚洲与欧洲主要股市普遍迎来反弹回升，市场同时关注美国最新关税政策与美联储利率动向。",
       "common": [
        {
-        "t": "人工智能相关科技股遭到抛售与下跌",
+        "t": "人工智能担忧拖累科技股",
         "src": [
-         "Reuters",
          "BBC World",
-         "www.tmgm.com"
+         "www.tmgm.com",
+         "Free Malaysia Today",
+         "Al Jazeera"
         ]
        },
        {
-        "t": "市场对人工智能投资规模及回报可持续性感到担忧",
-        "src": [
-         "BBC World",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "美国白宫公布了针对多个贸易伙伴的新关税提案",
+        "t": "美股主要指数震荡下跌",
         "src": [
          "BBC World",
          "www.tmgm.com",
          "Free Malaysia Today"
         ]
+       },
+       {
+        "t": "亚洲与欧洲股市反弹",
+        "src": [
+         "Free Malaysia Today",
+         "Yahoo Finance Singapore",
+         "Al Jazeera"
+        ]
        }
       ],
       "single": [
        {
-        "t": "标普将英伟达的信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
+        "t": "标普将英伟达信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
         "src": "Free Malaysia Today"
        },
        {
-        "t": "高盛预计2026年人工智能投资将超过1万亿美元，并仍将是企业投资增长的主导驱动力。",
-        "src": "BBC World"
+        "t": "白宫提议对14个贸易伙伴征收新关税，其中包括对中国额外征收20%。",
+        "src": "www.tmgm.com"
        },
        {
-        "t": "由于十月核心PCE物价指数超出预期，交易员定价美联储十二月加息的预期接近94%。",
-        "src": "www.tmgm.com"
+        "t": "马斯克表示美国每个孩子将获得其运营的SpaceX公司的两股股份。",
+        "src": "Free Malaysia Today"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "Free Malaysia Today"
+         "BBC World"
         ],
-        "t": "摩根大通分析师认为，最新关税增加的宏观影响可能是温和的，且关键科技产品进口仍被豁免，加之华盛顿对市场干扰保持敏感，未来关税提升的严重性将受到限制。"
+        "t": "华尔街对巨额人工智能投资能否最终获得回报持怀疑态度，认为企业支出缺乏明确的价值证明。"
        },
        {
         "label": "看法 B",
         "src": [
-         "BBC World"
+         "Free Malaysia Today"
         ],
-        "t": "华尔街投资界认为，虽然企业在人工智能上投入巨资，但尚未充分证明这些支出的实际回报价值，导致市场信心不足。"
+        "t": "摩根大通分析师认为，最新美国关税的宏观影响可能温和，且关键科技产品仍获得关税豁免，市场过度恐慌情绪有望缓解。"
        }
       ],
-      "unknown": "目前尚不确定巨额人工智能投资最终能否带来相应的经济回报。",
+      "unknown": "目前尚不确定人工智能领域的巨额投资在未来能否最终带来实质性的回报。",
       "impact": {
-       "my": "受美股纳斯达克与标普下跌拖累，马股开盘走低。",
-       "sea": "区域股市受到美股科技板块波动与宏观情绪的牵动。",
-       "world": "美股人工智能板块抛售与美国新关税政策引发全球金融市场震荡与关注。"
+       "my": null,
+       "sea": null,
+       "world": "美股人工智能科技股抛售潮与美国关税政策引发全球金融市场震荡及区域股市波动。"
       },
       "people": [
        "Jensen Huang",
+       "Donald Trump",
        "Elon Musk"
       ],
-      "photo": "microchip production",
+      "photo": "microchip production line",
       "per": [
        {
         "id": "a04d2bb44a19",
         "t": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
-        "says": "纳指与标普500盘中收跌，随后有逢低买盘涌入使行情脱离日内低点。",
+        "says": "美股三大指数盘中震荡，随后逢低买盘涌入脱离日内低点。",
         "same": [
-         "纳指与标普500",
-         "收跌脱离低点"
+         "纳指与标普收跌"
         ],
         "view": null
        },
        {
         "id": "f8076ed8c355",
         "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
-        "says": "人工智能相关科技公司股价下跌，英伟达等企业受高层变动与投资可持续性担忧影响而波动剧烈。",
+        "says": "人工智能投资可持续性引发担忧，拖累英伟达等大型科技股股价大幅下滑。",
         "same": [
          "人工智能担忧",
-         "英伟达股价下跌"
+         "科技股抛售"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        },
        {
         "id": "d9222ae2d06b",
         "t": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
-        "says": "市场损失集中于人工智能相关股票，同时道琼斯指数在部分板块带动下反弹，并受美联储利率预期和关税影响。",
+        "says": "市场抛售主要集中在人工智能相关股票，道指随后在其他板块带动下反弹。",
         "same": [
-         "人工智能股回调",
-         "新关税政策"
+         "人工智能股回调"
         ],
         "view": null
        },
        {
         "id": "c7cc931c23d4",
         "t": "无视美国最新关税冲击 交易员推动股市上涨",
-        "says": "欧洲与亚洲股市上涨，因美国新关税未如预期般严重，同时感恩节假期暂时缓解了人工智能带来的焦虑。",
+        "says": "欧洲与亚洲股市上涨，因美国最新关税影响看起来不如预期般严重，感恩节假期缓解了人工智能焦虑。",
         "same": [
-         "新关税提案",
-         "人工智能焦虑"
+         "欧洲亚洲股市上涨"
         ],
-        "view": "看法 A"
+        "view": "看法 B"
        },
        {
         "id": "f7de91eb6c6a",
         "t": "受美股纳斯达克与标普下跌拖累，马股开盘走低",
         "says": "马股开盘因美股纳斯达克与标普下跌而受到拖累走低。",
         "same": [
-         "美股下跌拖累",
-         "马股开盘走低"
+         "美股下跌拖累"
         ],
         "view": null
        },
        {
         "id": "3f8bd7cc62c4",
         "t": "科技股焦虑缓解 欧洲股市全面反弹走高",
-        "says": "欧洲主要股市迎来强劲反弹，因投资者对科技板块的焦虑情绪缓解，市场风险偏好回暖。",
+        "says": "随着科技板块焦虑情绪缓解，欧洲主要股市迎来强劲反弹，市场风险偏好回暖。",
         "same": [
-         "科技股焦虑缓解",
          "欧洲股市反弹"
+        ],
+        "view": null
+       },
+       {
+        "id": "fa68dcac011e",
+        "t": "亚洲股市从科技股抛售潮中反弹回升",
+        "says": "亚洲主要股市在经历早前的科技股抛售潮后全面反弹回升。",
+        "same": [
+         "亚洲股市反弹"
         ],
         "view": null
        }
       ]
      },
      "loose": false,
-     "sig": "9ac4628a",
+     "sig": "70a0facf",
      "v": 2,
-     "at": "2026-11-26T23:44:35.740Z",
+     "at": "2026-11-27T04:10:48.258Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
       "credit": "BBC World",
@@ -1748,7 +1338,7 @@
     },
     {
      "id": "3700168d-11",
-     "t": "英伟达前景审视与学者评价",
+     "t": "亚洲押注英伟达与供应链影响",
      "ids": [
       "856d3d9b30c2",
       "606d46584e95",
@@ -1756,92 +1346,126 @@
       "00d3c793baf9",
       "35a1b5dcb892",
       "4f0b7bfbd5a5",
-      "ff94747f30bc"
+      "ff94747f30bc",
+      "730c88173e13"
      ],
      "w": {
-      "short": "英伟达与亚洲人工智能",
-      "key": "亚洲多国深度押注英伟达与人工智能，经济高度依赖其供应链与发展前景。",
-      "title": "英伟达与人工智能风波：亚洲市场的机遇、挑战与全球审视",
-      "summary": "多家媒体报道了人工智能发展带来的广泛影响。亚洲多国如日本、韩国、台湾和马来西亚高度依赖英伟达的供应链与人工智能产业。同时，人工智能技术的普及也引发了关于失业潮、全民基本收入以及新闻行业应对挑战的讨论。",
+      "short": "亚洲押注英伟达",
+      "key": "亚洲多国经济高度依赖英伟达与人工智能发展，股市随之波动。",
+      "title": "亚洲押注英伟达与供应链冲击：机遇与风险并存",
+      "summary": "随着人工智能迅速崛起，亚洲多国在芯片制造、数据中心及外资投入上押注英伟达，使其成为区域经济的重要风向标。然而，这种高度依赖也让日本、韩国和台湾等地的科技股随市场情绪与监管忧虑而经历过山车般的波动。同时，东南亚独立新闻室也正联合应对人工智能带来的流量与收入冲击。",
       "common": [
        {
-        "t": "人工智能对就业市场和各行业造成冲击",
+        "t": "人工智能崛起带来冲击与调整",
         "src": [
          "Al Jazeera",
-         "Rappler"
-        ]
-       },
-       {
-        "t": "亚洲经济体高度依赖英伟达与人工智能发展",
-        "src": [
          "TechCrunch",
+         "Rappler",
          "BBC Business"
         ]
        }
       ],
       "single": [
        {
-        "t": "美国人工智能聊天机器人玩具遭到纽约禁售",
+        "t": "美国人工智能聊天机器人玩具在纽约被禁售。",
         "src": "TechCrunch"
        },
        {
-        "t": "东南亚独立新闻室联合成立网络以应对人工智能带来的流量与政策挑战",
-        "src": "Rappler"
+        "t": "马来西亚分析员称NationGate不受英伟达服务器出货限制影响。",
+        "src": "NST Online"
+       },
+       {
+        "t": "Anthropic达里奥·阿莫代伊认为将人类控制权交给人工智能的指责荒谬。",
+        "src": "TechCrunch"
        }
       ],
       "views": [],
-      "unknown": "目前尚不确定人工智能引发的全面失业潮最终将如何彻底重塑全球劳动力市场与经济结构。",
+      "unknown": "目前尚不清楚未来政治与监管审查将对英伟达及全球人工智能供应链造成多大程度的长期打击。",
       "impact": {
-       "my": "马来西亚作为人工智能战略布局的重要一环，其数据中心与相关供应链正日益受到英伟达及全球人工智能发展势头的影响。",
-       "sea": "东南亚多国经济和独立媒体正面临人工智能带来的流量下滑及技术冲击，促使区域内新闻室跨国合作寻找应对方案。",
-       "world": "全球股市与科技行业因英伟达的动态及人工智能基础设施的高昂成本而剧烈波动，各国正审视其带来的经济与监管挑战。"
+       "my": "马来西亚被视为人工智能交易的关键地区之一，其供应链企业如NationGate备受市场关注。",
+       "sea": "东南亚独立新闻室因人工智能冲击导致流量与收入大跌，正联手寻找新商业模式以维持人类对新闻的主导监督。",
+       "world": "英伟达及其人工智能技术在全球范围内引发股市震荡，并推动各地对全民基本收入等应对失业潮方案的讨论。"
       },
       "people": [
        "Jensen Huang",
        "Maria Ressa"
       ],
-      "photo": "semiconductor microchip",
+      "photo": "microchip manufacturing",
       "per": [
        {
         "id": "856d3d9b30c2",
         "t": "全民基本收入是人工智能经济失业潮的解药吗？",
-        "says": "探讨人工智能引发的大规模失业担忧，并回顾了历史上全民基本收入的演变与提议。",
+        "says": "人工智能引发失业担忧，促使社会重新探讨全民基本收入以应对贫困与贫富差距。",
         "same": [
-         "失业"
+         "人工智能崛起"
+        ],
+        "view": null
+       },
+       {
+        "id": "606d46584e95",
+        "t": "随着人工智能崛起 我们离全民基本收入还有多远？",
+        "says": "探讨人工智能时代下全民基本收入的现实距离。",
+        "same": [
+         "人工智能崛起"
         ],
         "view": null
        },
        {
         "id": "dc85126b0ac7",
         "t": "OpenAI合并聊天与工作功能，重度用户或更快触及使用上限",
-        "says": "OpenAI开始向部分用户推出统一的聊天和工作体验，引发重度用户对使用额度受限的担忧。",
-        "same": [],
+        "says": "OpenAI推出聊天与工作功能统一体验，重度用户可能更快触及使用上限。",
+        "same": [
+         "人工智能崛起"
+        ],
+        "view": null
+       },
+       {
+        "id": "00d3c793baf9",
+        "t": "Anthropic达里奥·阿莫代伊：将人类控制权交给人工智能的指责荒谬",
+        "says": "回应外界对人工智能控制权的指责。",
+        "same": [
+         "人工智能崛起"
+        ],
         "view": null
        },
        {
         "id": "35a1b5dcb892",
         "t": "对抗人工智能冲击，东南亚新闻室联合",
-        "says": "东南亚独立新闻室在Rappler主办的活动中联合，共同应对人工智能带来的流量下降和科技巨头政策冲击。",
+        "says": "东南亚独立新闻室联合应对人工智能带来的流量暴跌与收入减少，强调维持人类监督。",
         "same": [
-         "冲击"
+         "人工智能冲击"
         ],
+        "view": null
+       },
+       {
+        "id": "4f0b7bfbd5a5",
+        "t": "纽约禁售人工智能聊天机器人玩具",
+        "says": "纽约采取禁售人工智能聊天机器人玩具的措施。",
+        "same": null,
         "view": null
        },
        {
         "id": "ff94747f30bc",
         "t": "亚洲押注英伟达人工智能，未来将如何？",
-        "says": "亚洲国家股市因英伟达股价波动而经历过山车，凸显日本、韩国、台湾和马来西亚等经济体对英伟达及人工智能的深度依赖。",
+        "says": "亚洲多国高度押注英伟达与人工智能，股市随英伟达股价与政治监管忧虑剧烈波动。",
         "same": [
-         "依赖英伟达"
+         "人工智能崛起"
         ],
+        "view": null
+       },
+       {
+        "id": "730c88173e13",
+        "t": "分析员称NationGate不受英伟达服务器出货限制影响",
+        "says": "分析员指出NationGate未受英伟达服务器出货限制波及。",
+        "same": null,
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "1f59c3ec",
+     "sig": "42b5a08a",
      "v": 2,
-     "at": "2026-11-26T23:44:13.140Z",
+     "at": "2026-11-27T04:10:27.944Z",
      "img": {
       "kind": "B",
       "people": [
@@ -1859,11 +1483,96 @@
        }
       ]
      }
+    },
+    {
+     "id": "3700168d-12",
+     "t": "英伟达暂停东南亚部分芯片销售",
+     "ids": [
+      "2487d6eb1404",
+      "6ed5996d6c40"
+     ],
+     "w": {
+      "short": "英伟达暂停东南亚芯片销售",
+      "key": "英伟达因美国政策暂停向东南亚四国部分芯片销售",
+      "title": "英伟达暂停东南亚部分芯片销售引发关注",
+      "summary": "由于美国政府收紧对华出口管制并出台新措施，英伟达已暂停向马来西亚等东南亚四国部分数据中心运营商销售先进人工智能芯片。新加坡副总理颜金勇表示该供应暂停尚未获证实，当局正积极咨询企业受影响情况。此举对当地数据中心市场及全球供应链造成潜在冲击。",
+      "common": [
+       {
+        "t": "英伟达暂停向东南亚部分地区销售芯片。",
+        "src": [
+         "纽约时报中文网",
+         "联合早报"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚的数据中心运营商交付部分订单。",
+        "src": "纽约时报中文网"
+       },
+       {
+        "t": "美国政府提出新措施，要求向高风险国家提供大量算力的东南亚运营商必须获得许可证。",
+        "src": "纽约时报中文网"
+       },
+       {
+        "t": "新加坡副总理颜金勇表示辉达供应暂停尚未获证实，正向企业了解情况。",
+        "src": "联合早报"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚此次芯片销售暂停将持续多久。",
+      "impact": {
+       "my": "芯片供应长期中断可能会使马来西亚的大规模数据中心建设和扩张计划陷入停滞，危及投资并给放贷机构带来压力。",
+       "sea": "威胁到东南亚这个全球增长最快、有数十亿美元项目正在建设中的数据中心市场。",
+       "world": "切断了中国企业通过海外租赁方式获取美国先进算力的渠道，带来最新业务动荡。"
+      },
+      "people": [
+       "Jensen Huang",
+       "Alice Huang"
+      ],
+      "photo": "AI chip server",
+      "per": [
+       {
+        "id": "2487d6eb1404",
+        "t": "英伟达暂停向东南亚销售部分芯片以配合美对华限制",
+        "says": "英伟达已暂停向东南亚四国销售部分最先进人工智能芯片，以配合美国政府旨在堵住漏洞的新限制措施。",
+        "same": [
+         "暂停东南亚芯片销售"
+        ],
+        "view": null
+       },
+       {
+        "id": "6ed5996d6c40",
+        "t": "副总理颜金勇：辉达供应暂停未获证实，正咨询企业影响",
+        "says": "新加坡副总理颜金勇指出，有关辉达供应暂停的报道尚未获得证实，政府正在向相关企业了解和咨询影响。",
+        "same": [
+         "暂停东南亚芯片销售"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "3118b071",
+     "v": 2,
+     "at": "2026-11-27T04:11:10.507Z",
+     "img": {
+      "kind": "B",
+      "people": [
+       {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/960px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "credit": "Anderseidesvik · Wikimedia Commons · CC BY-SA 4.0",
+        "kind": "B",
+        "person": "Jensen Huang"
+       }
+      ]
+     }
     }
    ],
    "minor": [
     "a4c3fb2f4ae0",
-    "0b35107ec79a"
+    "0b35107ec79a",
+    "10784dc609c4"
    ],
    "stories": {
     "370e31bae833": {
@@ -3151,13 +2860,70 @@
      "source": "CNA Business",
      "cat": "tech",
      "published": "2026-11-26T12:25:02.000Z"
+    },
+    "2487d6eb1404": {
+     "id": "2487d6eb1404",
+     "title": "英伟达暂停向东南亚销售部分芯片，回应政府对华限制措施",
+     "zh": "英伟达暂停向东南亚销售部分芯片以配合美对华限制",
+     "short": "英伟达暂停东南亚供货",
+     "url": "https://cn.nytimes.com/business/20261127/nvidia-southeast-asia-sales/?utm_source=RSS",
+     "source": "纽约时报中文网",
+     "cat": "tech",
+     "published": "2026-11-27T01:47:22.000Z",
+     "sum": "英伟达已暂停向东南亚部分国家销售特定芯片，以回应美国政府针对中国的出口限制。马来西亚、新加坡、泰国和印尼的数据中心运营商订单受到影响被搁置。美国商务部此前拟限制中国通过东南亚租用相关芯片。"
+    },
+    "6ed5996d6c40": {
+     "id": "6ed5996d6c40",
+     "title": "DPM Gan: Nvidia supply halt unconfirmed, businesses being consulted on impact",
+     "zh": "副总理颜金勇：辉达供应暂停未获证实，正咨询企业影响",
+     "short": "辉达供应受阻未证实",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTjlfRjRqT3JiSVY4N1c5a3A2d2s2S3JCMmxzQnZ3MTVlZ1FxZXQtSkl6bDBIY0MtVU81c2pfcDZmUDU5Q1dmR1VGYWprdk9tV3BlcC0wQ2hxa3NLVGFaUUN1emlMQ3g3MVFDVDh2cEhoWlZUMm1JbF9TbnhiOVN6T0JPN0Z5M204aTdHVXlxMjJPUTc3RWdmOFVVdklHOXVzY0xuR0RzVUxZUE9CRHB2NW9iSWFjMXc0VTBr?oc=5",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-27T02:22:37.000Z"
+    },
+    "10784dc609c4": {
+     "id": "10784dc609c4",
+     "title": "Trump insists Nvidia CEO not a security threat",
+     "zh": "特朗普坚称英伟达总裁不构成安全威胁",
+     "short": "特朗普撑黄仁勋无威胁",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/27/trump-insists-nvidia-ceo-not-a-security-threat",
+     "source": "Free Malaysia Today",
+     "cat": "tech",
+     "published": "2026-11-27T01:54:06.000Z"
+    },
+    "730c88173e13": {
+     "id": "730c88173e13",
+     "title": "NationGate unaffected by Nvidia's reported server shipment curbs: Analyst",
+     "zh": "分析员称NationGate不受英伟达服务器出货限制影响",
+     "short": "健集不受英伟达限制",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZGhoOWNVSFNwX1E1Tm1PckZGeWhDNnNWd3Z4bW9lUUxDWDRpUFBWVU9TWXc0cWlYXzNZcG9xX1FYZl9MdXNtZk5ObGk1LXNQX1VfMXJKS2g1ZlhXdG9wYnMyMWk3R3RxNk9tQjdheG5XSUxHYmY4NmZpTkpPTUJZWUJlQzJmSVgwb3RFN0IwUmgxeTNzdXpwUFZaV3o0ZDJIM1RRNktVc3ZXUTRHaC1JZ2VQT0ZkNi1rcThqY3U0Y09nbnVNM0Q5Wkt4WFE?oc=5",
+     "source": "NST Online",
+     "cat": "tech",
+     "published": "2026-11-27T01:49:48.000Z"
+    },
+    "fa68dcac011e": {
+     "id": "fa68dcac011e",
+     "title": "Asian stock markets rise after earlier tech rout",
+     "zh": "亚洲股市从科技股抛售潮中反弹回升",
+     "short": "亚洲股市止跌回升",
+     "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "finance",
+     "published": "2026-11-27T03:42:16.000Z",
+     "sum": "在经历早前的科技股抛售潮后，亚洲主要股市迎来反弹。日韩、澳大利亚及香港股市普遍上涨，显示区域市场情绪有所修复。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26330128296029-1-1795748879.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "NVIDIA artificial intelligence stocks",
+   "en": "NVIDIA AI chip investigation US",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-26T23:43:54.109Z",
+   "last": "2026-11-27T04:10:02.907Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
    "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
@@ -3188,17 +2954,589 @@
    "heat": {
     "score": 5,
     "sources": 41,
-    "stories": 107,
-    "gdelt": {
-     "ratio": 0.6,
-     "share": 0.1068
-    },
+    "stories": 112,
+    "gdelt": null,
     "wiki": {
      "title": "Nvidia",
-     "views": 37203,
-     "ratio": 0.9
+     "views": 22116,
+     "ratio": 0.5
     },
-    "at": "2026-11-26T23:46:50.288Z"
+    "at": "2026-11-27T04:12:27.569Z"
+   }
+  },
+  {
+   "id": "53aaaa61",
+   "first": "2026-11-26T15:00:08.695Z",
+   "lines": [
+    {
+     "id": "53aaaa61-1",
+     "t": "美对中国欧盟等地加征关税",
+     "ids": [
+      "8c98ac5048d7",
+      "c06ced3b2ac5",
+      "722a67ecc5ec",
+      "02d65ac20e4b",
+      "ada496f5ff87",
+      "633c64faba59",
+      "03bb72c6812c",
+      "25856d3f68be"
+     ],
+     "w": {
+      "short": "美对多国加征关税",
+      "key": "美国宣布对中国、欧盟及东南亚等多国加征新关税",
+      "title": "美国宣布对中国欧盟等地加征新关税，意在重塑贸易关系",
+      "summary": "美国政府正式公布对包括中国、欧盟在内的多个经济体征收高达20%及以上新关税的提议，旨在应对海外补贴和产能过剩问题。中国面临较高的潜在关税，而部分亚洲国家则面临不同的税率与贸易协议压力。新关税预计将在明年正式生效，并需经过公众咨询和听证会。",
+      "common": [
+       {
+        "t": "美国计划对中国、欧盟等多国加征新关税",
+        "src": [
+         "AP News",
+         "France 24",
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "新关税预计将于明年初正式生效",
+        "src": [
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "美方官员称新政策将为美国工人创造公平竞争环境",
+        "src": "BBC Business"
+       },
+       {
+        "t": "新加坡总理黄循财表示将在自身法律前提下协助美国执行芯片禁令",
+        "src": "Malay Mail"
+       },
+       {
+        "t": "资本经济学分析师指出新关税对区域整体影响可能有限",
+        "src": "CNBC Asia"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "AP News",
+         "France 24",
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ],
+        "t": "关税旨在应对海外补贴、产能过剩及削弱中国供应链优势。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ],
+        "t": "关税可能推高消费价格并引发通货膨胀，同时为依赖美中的亚洲国家带来忧虑。"
+       }
+      ],
+      "unknown": "美中贸易休战协议是否会在明年1月到期后延长仍未确定。",
+      "impact": {
+       "my": "马来西亚等国面临税率可能发生变化的压力，依赖美中的亚洲国家也感到忧虑。",
+       "sea": "越南、新加坡等东南亚国家面临不同的关税税率、贸易协议压力及芯片出口管制执法配合。",
+       "world": "新关税将对中国、欧盟等全球主要贸易伙伴产生影响，并可能 dampen 全球贸易并推高物价。"
+      },
+      "people": [
+       "Donald Trump",
+       "Jamieson Greer",
+       "Lawrence Wong",
+       "Anthony Albanese"
+      ],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "8c98ac5048d7",
+        "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+        "says": "美国计划针对获补贴工厂的产品，对多国提高关税以应对竞争冲击。",
+        "same": [
+         "加征新关税"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c06ced3b2ac5",
+        "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+        "says": "美国正式公布对14个经济体征收新关税的提议，是重塑贸易关系的动作。",
+        "same": [
+         "加征新关税",
+         "欧盟和中国"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "722a67ecc5ec",
+        "t": "美国准备对全球贸易伙伴推出新关税措施",
+        "says": "美国推出新关税措施打击主要贸易伙伴，中国面临最高关税。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "02d65ac20e4b",
+        "t": "美国加征关税施压伙伴国 迫使其签署贸易协议",
+        "says": "美国推出新关税 salvo 施压伙伴国，中国面临较高税率。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ada496f5ff87",
+        "t": "关税阴影下全球市场回升，农户忧成本",
+        "says": "全球市场在关税阴影下回升。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "633c64faba59",
+        "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+        "says": "美新关税对新加坡短期影响有限。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "03bb72c6812c",
+        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "25856d3f68be",
+        "t": "特朗普新关税再针对北京，意在削弱供应链优势",
+        "says": "美国提议对数十国加征新关税，意在削弱中国供应链优势。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "3f5d774b",
+     "v": 2,
+     "at": "2026-11-27T04:10:07.883Z",
+     "img": {
+      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
+      "credit": "CNBC Asia",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-2",
+     "t": "泰国等国企业界担忧美关税冲击",
+     "ids": [
+      "a2c47c2f5eb4",
+      "8aa65f9d2fbf",
+      "7a0bfee3dd4c"
+     ],
+     "w": {
+      "short": "美拟征泰关税引担忧",
+      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
+      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
+      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
+      "common": [],
+      "single": [
+       {
+        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
+        "src": "Bangkok Post"
+       },
+       {
+        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
+        "src": "Bangkok Post"
+       }
+      ],
+      "views": [],
+      "unknown": "泰国最终的关税税率尚未最终确定。",
+      "impact": {
+       "my": null,
+       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
+       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
+      },
+      "people": [],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "a2c47c2f5eb4",
+        "t": "企业界担忧美国关税对泰国出口造成冲击",
+        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
+        "same": [
+         "美国关税引发担忧"
+        ],
+        "view": null
+       },
+       {
+        "id": "8aa65f9d2fbf",
+        "t": "泰国转向投资驱动型增长以应对贸易战",
+        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "7a0bfee3dd4c",
+        "t": "泰国政府辩护18%美国关税提议",
+        "says": "相关报道提及泰国政府对关税提议的相关立场。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2cf9f66e",
+     "v": 2,
+     "at": "2026-11-26T23:44:47.023Z",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-3",
+     "t": "东盟应对经济民族主义倡议",
+     "ids": [
+      "9a07a093bf37",
+      "67a8cd60005c",
+      "b02874b150e7"
+     ],
+     "w": {
+      "short": "东盟抗衡经济民族主义",
+      "key": "东盟必须保持开放，以更深融合与广泛伙伴关系应对经济民族主义。",
+      "title": "美国宣布加征关税之际 颜金勇：东盟面对经济民族主义须保持开放",
+      "summary": "美国宣布加征关税后，新加坡副总理颜金勇指出东盟正面对经济民族主义压力，成员国若互相设置壁垒将限制自身发展。东盟必须通过深化区域内整合与扩大外部伙伴关系，抵御封闭市场与内顾倾向，同时维持与中美两国的关键经贸联系。",
+      "common": [
+       {
+        "t": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义。",
+        "src": [
+         "联合早报",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "成员国在区域内互相设置壁垒只会限制自身发展并缩小机会。",
+        "src": [
+         "联合早报",
+         "The Straits Times"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "即使美国对新加坡等国加征额外关税，美国依然是新加坡和东盟的重要贸易伙伴。",
+        "src": "联合早报"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "关税与经济民族主义升温可能影响区域供应链与马国对外贸易环境。",
+       "sea": "东盟国家面临经济民族主义与关税压力，需通过区域一体化保持韧性。",
+       "world": "大国竞争、地缘政治冲突与关税壁垒加剧全球贸易的不确定性。"
+      },
+      "people": [
+       "Gan Kim Yong"
+      ],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "9a07a093bf37",
+        "t": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+        "says": "面对美国加征关税与经济民族主义，东盟必须深化区域整合、扩大伙伴关系，避免内部筑墙。",
+        "same": [
+         "深化区域整合",
+         "扩大伙伴关系"
+        ],
+        "view": null
+       },
+       {
+        "id": "67a8cd60005c",
+        "t": "东盟受促联合应对日益加剧的经济民族主义",
+        "says": "呼吁东盟各方采取共同行动，应对不断加剧的经济民族主义与贸易挑战。",
+        "same": [
+         "应对经济民族主义"
+        ],
+        "view": null
+       },
+       {
+        "id": "b02874b150e7",
+        "t": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
+        "says": "强调东盟不能走向内顾，应通过更深层的区域融合与广泛伙伴关系来抗衡经济民族主义。",
+        "same": [
+         "抗衡经济民族主义",
+         "更深融合与伙伴"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "44f8ca2e",
+     "v": 2,
+     "at": "2026-11-27T04:10:59.640Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [
+    "c7cc931c23d4"
+   ],
+   "stories": {
+    "8c98ac5048d7": {
+     "id": "8c98ac5048d7",
+     "title": "US to hike tariffs on China, EU, Brazil and others over subsidized factories",
+     "zh": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+     "short": "美拟对中欧多方加征关税",
+     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0",
+     "source": "AP News",
+     "cat": "finance",
+     "published": "2026-11-25T22:06:00.000Z",
+     "sum": "美国计划针对获补贴工厂的产品，对中国、欧盟、巴西等多国及地区提高关税。此举旨在应对海外补贴制造业对美国市场带来的竞争冲击。"
+    },
+    "c06ced3b2ac5": {
+     "id": "c06ced3b2ac5",
+     "title": "US unveils proposed tariffs on major partners, including EU and China",
+     "zh": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+     "short": "美国拟对多国征收新关税",
+     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
+     "source": "France 24",
+     "cat": "finance",
+     "published": "2026-11-25T19:15:03.000Z",
+     "sum": "美国政府在经过数月针对所谓产能过剩的调查后，正式公布了对包括欧盟和中国在内的14个经济体征收高达20%新关税的提议。这是美国总统特朗普重塑华盛顿贸易关系的又一重大动作。"
+    },
+    "722a67ecc5ec": {
+     "id": "722a67ecc5ec",
+     "title": "US preparing to unveil new tariffs on global trading partners",
+     "zh": "美国准备对全球贸易伙伴推出新关税措施",
+     "short": "美国拟对全球推新关税",
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "world",
+     "published": "2026-11-25T00:38:01.000Z",
+     "sum": "美国正准备对多个全球主要贸易伙伴推出新的征税措施。新关税预计将打击包括中国和欧盟在内的大型贸易伙伴。此举可能加剧全球贸易紧张局势并影响供应链。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "02d65ac20e4b": {
+     "id": "02d65ac20e4b",
+     "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+     "zh": "美国加征关税施压伙伴国 迫使其签署贸易协议",
+     "short": "美关税施压贸易协议",
+     "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+     "source": "CNBC Asia",
+     "cat": "world",
+     "published": "2026-11-26T12:46:55.000Z",
+     "sum": "美国计划对多个主要贸易伙伴实施新一轮关税，同时通过提供更低税率作为诱饵，迫使各国尽快与华盛顿达成贸易协议。此举显示美国正加码利用关税作为地缘经济谈判的施压工具。全球供应链可能面临进一步重塑的压力。",
+     "img": {
+      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
+      "credit": "CNBC Asia",
+      "kind": "A"
+     }
+    },
+    "ada496f5ff87": {
+     "id": "ada496f5ff87",
+     "title": "Tariffs: Global Markets Rally as Farmers Face Trade and Cost Uncertainty",
+     "zh": "关税阴影下全球市场回升，农户忧成本",
+     "short": "关税忧虑下股市反弹",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl92LTdVUGxjVlV6ZnFTUE9XRzF2bklEZlc4SElEUG9XVEtaMWk1dEpaRnpZcGtVdlhidXRFUThyYnJ1UVlNYzBRbmM0OUR6NlRUSGRUSktXQmJvZ2Jld0dpWVotYTJQc2NINUhuTVNqZFJ3LVRxRzF6Sm85UC04cjdCYVdKanZZVkp5c0pZOWNqUTZsa052UGtpZTMycWJFNnUxc1FhWUpjeDVtaE9Z?oc=5",
+     "source": "AgroLatam",
+     "cat": "finance",
+     "published": "2026-11-26T13:44:31.000Z"
+    },
+    "633c64faba59": {
+     "id": "633c64faba59",
+     "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
+     "zh": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+     "short": "美新关税对新影响有限",
+     "url": "https://www.channelnewsasia.com/singapore/us-tariffs-singapore-economy-trade-6584716",
+     "source": "CNA Business",
+     "cat": "sea",
+     "published": "2026-11-26T12:50:05.000Z"
+    },
+    "a2c47c2f5eb4": {
+     "id": "a2c47c2f5eb4",
+     "title": "Executives wary of tariff effect on exports",
+     "zh": "企业界担忧美国关税对泰国出口造成冲击",
+     "short": "泰商界担忧美关税冲击",
+     "url": "https://www.bangkokpost.com/business/general/3362039/executives-wary-of-tariff-effect-on-exports",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:35:00.000Z",
+     "sum": "美国拟对泰国出口商品征收关税，尽管税率与竞争对手相若，但商界警告这仍将拖累未来的出口表现。分析指出，受贸易保护主义影响，泰国明年的经济增长动能可能明显放缓。企业正敦促政府争取更有利的双边关税条件。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "8aa65f9d2fbf": {
+     "id": "8aa65f9d2fbf",
+     "title": "Thailand shifts focus to investment-led growth",
+     "zh": "泰国转向投资驱动型增长以应对贸易战",
+     "short": "泰国转向投资驱动增长",
+     "url": "https://www.bangkokpost.com/business/general/3361974/thailand-shifts-focus-to-investmentled-growth",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:26:00.000Z",
+     "sum": "面对全球贸易战和经济碎片化加剧，泰国政府决定将发展重心转向投资驱动型增长。当局承诺积极寻求更有利的关税协议，以保障私营企业的国际竞争力。此举旨在降低供应链断裂对宏观经济带来的下行风险。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/27/6318559_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "7a0bfee3dd4c": {
+     "id": "7a0bfee3dd4c",
+     "title": "Govt defends 18% US tariff proposal",
+     "zh": "泰国政府辩护18%美国关税提议",
+     "short": "泰方回应美关税提议",
+     "url": "https://www.bangkokpost.com/thailand/general/3361874/govt-defends-18-us-tariff-proposal",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T21:28:00.000Z"
+    },
+    "03bb72c6812c": {
+     "id": "03bb72c6812c",
+     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
+     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+     "short": "新加坡配合美国芯片禁令",
+     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-25T01:45:47.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
+    },
+    "c7cc931c23d4": {
+     "id": "c7cc931c23d4",
+     "title": "Stocks climb as traders shrug off latest US tariff salvo",
+     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
+     "short": "无视美关税股市上涨",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-26T12:50:12.000Z",
+     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "25856d3f68be": {
+     "id": "25856d3f68be",
+     "title": "特朗普新关税再将矛头指向北京，旨在削弱中国供应链优势",
+     "zh": "特朗普新关税再针对北京，意在削弱供应链优势",
+     "short": "美新关税剑指中国供应链",
+     "url": "https://cn.nytimes.com/business/20261127/trump-tariffs-asia/?utm_source=RSS",
+     "source": "纽约时报中文网",
+     "cat": "china",
+     "published": "2026-11-27T02:47:16.000Z",
+     "sum": "美国特朗普政府以产能过剩为由，推出旨在削弱中国供应链优势的新关税措施。在相关政策报告中，中国被多次提及，凸显美方意图在关键产业链上孤立中国并重塑全球贸易格局。",
+     "img": {
+      "src": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-articleLarge.jpg",
+      "credit": "纽约时报中文网",
+      "kind": "A"
+     }
+    },
+    "9a07a093bf37": {
+     "id": "9a07a093bf37",
+     "title": "ASEAN must stay open as economic nationalism rises: DPM Gan",
+     "zh": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+     "short": "东盟须保持开放应对保护主义",
+     "url": "https://www.zaobao.com.sg/en/finance/singapore/asean-must-stay-open-economic-nationalism-rises-dpm-gan",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-27T03:45:29.000Z",
+     "sum": "新加坡副总理颜金勇指出，在经济民族主义升温之际，东盟必须保持市场开放。区域国家应通过深化经济一体化和扩大外部合作，抵御保护主义带来的负面影响。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "67a8cd60005c": {
+     "id": "67a8cd60005c",
+     "title": "ASEAN Urged to Counter Economic Nationalism",
+     "zh": "东盟受促联合应对日益加剧的经济民族主义",
+     "short": "东盟受促应对民族主义",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWtTSjhhSFd5MmVQQTI1SWt3QmxJUFJJa3p4T2tsOW9UaUJsV1prVGJyT05udTVUdHl6ejlaRTVHYnlFU2s0ajdNenR6T1NTazJFMXl2S0Z3SVMtVFpXck50RE9YanNaOTY1NllyYkhBeVR1am1ZajFTeHREWnB4RmVBQnZtNl9PVWtUbVNn?oc=5",
+     "source": "Wisevoter",
+     "cat": "sea",
+     "published": "2026-11-27T02:33:20.000Z"
+    },
+    "b02874b150e7": {
+     "id": "b02874b150e7",
+     "title": "ASEAN must counter economic nationalism with deeper integration, wider partnerships: DPM Gan",
+     "zh": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
+     "short": "星副总理吁东盟抗民粹",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQll3Z3g4RDlzRThfWXFCRUxfMVI5ZEtEcm1KNkZrVHBJendLS2NMWWVfVW5JVWYzX1ZkaFF0Vkh6dm0zMzVHM3pGNXVWU0hVU3RnNnAxLUl4SGM1VWJNaERMSkdqb2NuYWw3aFBEakpRYUkzVGNLR2QzTGdNbHh0bG5xOFZrOHFUd2lsSVN4c296cjM0ZVE2V0FEaEo5MkxhY3JyWTQtdEVFcXQ2clFxaHRVcmg4OFd1aVd5WlJoRDZmT2FneERoMHFueHE3UnJuRzlzMmpWaWM?oc=5",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-27T01:45:00.000Z"
+    }
+   },
+   "name": "美国宣布加征关税",
+   "en": "US tariffs trade China EU",
+   "wiki": "List of tariffs imposed by the United States",
+   "cat": "finance",
+   "last": "2026-11-27T04:10:02.906Z",
+   "hidden": false,
+   "heat": {
+    "score": 4,
+    "sources": 13,
+    "stories": 15,
+    "gdelt": null,
+    "wiki": null,
+    "at": "2026-11-27T04:12:09.414Z"
+   },
+   "short": "美国宣布加征关税",
+   "key": "美对多国加征关税引发全球关注",
+   "overview": "美国正式提议对中国、欧盟及泰国等多个经济体加征新关税以应对产能过剩，引发供应链冲击与东盟对经济民族主义的担忧。",
+   "minorText": [
+    "交易员无视美国最新关税冲击推动股市上涨"
+   ],
+   "links": [
+    {
+     "from": "53aaaa61-3",
+     "to": "53aaaa61-1",
+     "t": "新加坡副总理指出东盟正面对美国加征关税及经济民族主义带来的压力。"
+    },
+    {
+     "from": "53aaaa61-2",
+     "to": "53aaaa61-1",
+     "t": "美国提议对泰国征收关税，引发当地企业对出口受阻的担忧。"
+    }
+   ],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+    "credit": "BBC Business",
+    "kind": "A"
    }
   },
   {
@@ -3548,15 +3886,15 @@
    "hidden": false,
    "heat": {
     "score": 2,
-    "sources": 4,
-    "stories": 4,
+    "sources": 5,
+    "stories": 8,
     "gdelt": null,
     "wiki": {
-     "title": "Federal Bureau of Investigation",
-     "views": 1760,
-     "ratio": 0.9
+     "title": "Cyberattack",
+     "views": 223,
+     "ratio": 0.6
     },
-    "at": "2026-11-22T03:09:37.539Z"
+    "at": "2026-11-27T04:12:44.067Z"
    },
    "short": "FBI等机构遭黑客袭击",
    "key": "联邦调查局与国际足联接连遭黑客攻击",
@@ -4300,7 +4638,7 @@
     "stories": 29,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T23:47:39.509Z"
+    "at": "2026-11-27T04:13:29.696Z"
    }
   },
   {
@@ -4471,7 +4809,7 @@
     "stories": 4,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-26T23:48:28.456Z"
+    "at": "2026-11-27T04:14:18.281Z"
    }
   },
   {
@@ -4686,10 +5024,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Politics of Malaysia",
-     "views": 67,
-     "ratio": 1.1
+     "views": 53,
+     "ratio": 0.9
     },
-    "at": "2026-11-26T23:49:14.451Z"
+    "at": "2026-11-27T04:15:07.169Z"
    }
   },
   {
@@ -7580,5 +7918,5 @@
    }
   }
  ],
- "updated": "2026-11-26T23:50:02.785Z"
+ "updated": "2026-11-27T04:15:07.169Z"
 }
