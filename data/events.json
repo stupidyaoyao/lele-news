@@ -1175,7 +1175,7 @@
     },
     {
      "id": "3700168d-10",
-     "t": "美股科技股与AI抛售潮",
+     "t": "美股AI概念股波动与标普信用观察",
      "ids": [
       "f8076ed8c355",
       "d9222ae2d06b",
@@ -1183,51 +1183,28 @@
       "c7cc931c23d4",
       "f7de91eb6c6a",
       "3f8bd7cc62c4",
-      "fa68dcac011e"
+      "fa68dcac011e",
+      "856d3d9b30c2"
      ],
      "w": {
-      "short": "美股与科技股抛售潮",
-      "key": "人工智能投资担忧加剧与美股科技股盘中遭遇抛售引发市场关注。",
-      "title": "人工智能担忧加剧拖累美股科技股 亚洲与欧洲股市随后反弹",
-      "summary": "近期美股纳斯达克指数与标普500指数因人工智能板块投资可持续性担忧而遭遇抛售，英伟达等大型科技股股价震荡走低。不过随后亚洲与欧洲主要股市普遍迎来反弹回升，市场同时关注美国最新关税政策与美联储利率动向。",
+      "short": "美股AI概念股波动",
+      "key": "人工智能投资热潮引发美股及科技板块震荡，英伟达等股价遭遇抛售。",
+      "title": "人工智能与英伟达风波：美股AI板块波动与标普信用观察",
+      "summary": "近期美股受到人工智能板块投资可持续性担忧的拖累，英伟达等大型科技股出现显著波动。同时，标普将英伟达的信用评级列入负面观察名单。欧洲和亚洲股市则在盘整后录得部分反弹。",
       "common": [
        {
-        "t": "人工智能担忧拖累科技股",
+        "t": "人工智能板块近期遭遇抛售与股价波动",
         "src": [
          "BBC World",
          "www.tmgm.com",
          "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "美股主要指数震荡下跌",
-        "src": [
-         "BBC World",
-         "www.tmgm.com",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "亚洲与欧洲股市反弹",
-        "src": [
-         "Free Malaysia Today",
-         "Yahoo Finance Singapore",
          "Al Jazeera"
         ]
        }
       ],
       "single": [
        {
-        "t": "标普将英伟达信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "白宫提议对14个贸易伙伴征收新关税，其中包括对中国额外征收20%。",
-        "src": "www.tmgm.com"
-       },
-       {
-        "t": "马斯克表示美国每个孩子将获得其运营的SpaceX公司的两股股份。",
+        "t": "标普将英伟达信用评级列入可能下调的观察名单，理由是其管理层和董事会存在弱点",
         "src": "Free Malaysia Today"
        }
       ],
@@ -1237,52 +1214,50 @@
         "src": [
          "BBC World"
         ],
-        "t": "华尔街对巨额人工智能投资能否最终获得回报持怀疑态度，认为企业支出缺乏明确的价值证明。"
+        "t": "人工智能投资回报存在不确定性，华尔街对巨额支出的合理性持观望和担忧态度。"
        },
        {
         "label": "看法 B",
         "src": [
          "Free Malaysia Today"
         ],
-        "t": "摩根大通分析师认为，最新美国关税的宏观影响可能温和，且关键科技产品仍获得关税豁免，市场过度恐慌情绪有望缓解。"
+        "t": "美国最新宣布的关税政策宏观影响可能温和，市场情绪未受到过度严重冲击。"
        }
       ],
-      "unknown": "目前尚不确定人工智能领域的巨额投资在未来能否最终带来实质性的回报。",
+      "unknown": "目前尚不确定人工智能领域的巨额资金投入未来能否获得相应的回报。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "美股人工智能科技股抛售潮与美国关税政策引发全球金融市场震荡及区域股市波动。"
+       "world": "人工智能投资热潮与美股科技股的波动引发了全球金融市场对科技板块估值及宏观经济走势的密切关注。"
       },
       "people": [
        "Jensen Huang",
-       "Donald Trump",
        "Elon Musk"
       ],
-      "photo": "microchip production line",
+      "photo": "microchip semiconductor",
       "per": [
        {
         "id": "a04d2bb44a19",
         "t": "纳指与标普500收跌 逢低买盘涌入脱离日内低点",
-        "says": "美股三大指数盘中震荡，随后逢低买盘涌入脱离日内低点。",
+        "says": "美股主要指数收盘下跌，随后出现逢低买盘。",
         "same": [
-         "纳指与标普收跌"
+         "收跌"
         ],
         "view": null
        },
        {
         "id": "f8076ed8c355",
         "t": "人工智能担忧加剧拖累美股大幅走低 纳指早盘跌近4%",
-        "says": "人工智能投资可持续性引发担忧，拖累英伟达等大型科技股股价大幅下滑。",
+        "says": "人工智能投资的可持续性引发担忧，拖累英伟达等科技股走低。",
         "same": [
-         "人工智能担忧",
-         "科技股抛售"
+         "人工智能"
         ],
         "view": "看法 A"
        },
        {
         "id": "d9222ae2d06b",
         "t": "人工智能股回调 道琼斯工业指数抹去跌幅反弹",
-        "says": "市场抛售主要集中在人工智能相关股票，道指随后在其他板块带动下反弹。",
+        "says": "市场损失集中在人工智能相关股票，道指在部分利好下实现反弹。",
         "same": [
          "人工智能股回调"
         ],
@@ -1291,45 +1266,54 @@
        {
         "id": "c7cc931c23d4",
         "t": "无视美国最新关税冲击 交易员推动股市上涨",
-        "says": "欧洲与亚洲股市上涨，因美国最新关税影响看起来不如预期般严重，感恩节假期缓解了人工智能焦虑。",
+        "says": "欧洲与亚洲股市上涨，标普将英伟达信用评级列入观察名单。",
         "same": [
-         "欧洲亚洲股市上涨"
+         "股市上涨"
         ],
         "view": "看法 B"
        },
        {
         "id": "f7de91eb6c6a",
         "t": "受美股纳斯达克与标普下跌拖累，马股开盘走低",
-        "says": "马股开盘因美股纳斯达克与标普下跌而受到拖累走低。",
+        "says": "马股受美股纳斯达克与标普下跌拖累开盘走低。",
         "same": [
-         "美股下跌拖累"
+         "美股下跌"
         ],
         "view": null
        },
        {
         "id": "3f8bd7cc62c4",
         "t": "科技股焦虑缓解 欧洲股市全面反弹走高",
-        "says": "随着科技板块焦虑情绪缓解，欧洲主要股市迎来强劲反弹，市场风险偏好回暖。",
+        "says": "欧洲主要股市迎来强劲反弹，科技板块焦虑情绪缓解。",
         "same": [
-         "欧洲股市反弹"
+         "欧洲股市"
         ],
         "view": null
        },
        {
         "id": "fa68dcac011e",
         "t": "亚洲股市从科技股抛售潮中反弹回升",
-        "says": "亚洲主要股市在经历早前的科技股抛售潮后全面反弹回升。",
+        "says": "亚洲主要股市在经历早前的科技股抛售潮后迎来反弹。",
         "same": [
          "亚洲股市反弹"
+        ],
+        "view": null
+       },
+       {
+        "id": "856d3d9b30c2",
+        "t": "全民基本收入是人工智能经济失业潮的解药吗？",
+        "says": "人工智能快速发展引发失业担忧，社会呼吁推行全民基本收入。",
+        "same": [
+         "人工智能"
         ],
         "view": null
        }
       ]
      },
-     "loose": false,
-     "sig": "70a0facf",
+     "loose": true,
+     "sig": "7d23421a",
      "v": 2,
-     "at": "2026-11-27T04:10:48.258Z",
+     "at": "2026-11-27T08:06:25.658Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
       "credit": "BBC World",
@@ -1340,7 +1324,6 @@
      "id": "3700168d-11",
      "t": "亚洲押注英伟达与供应链影响",
      "ids": [
-      "856d3d9b30c2",
       "606d46584e95",
       "dc85126b0ac7",
       "00d3c793baf9",
@@ -1351,14 +1334,20 @@
      ],
      "w": {
       "short": "亚洲押注英伟达",
-      "key": "亚洲多国经济高度依赖英伟达与人工智能发展，股市随之波动。",
-      "title": "亚洲押注英伟达与供应链冲击：机遇与风险并存",
-      "summary": "随着人工智能迅速崛起，亚洲多国在芯片制造、数据中心及外资投入上押注英伟达，使其成为区域经济的重要风向标。然而，这种高度依赖也让日本、韩国和台湾等地的科技股随市场情绪与监管忧虑而经历过山车般的波动。同时，东南亚独立新闻室也正联合应对人工智能带来的流量与收入冲击。",
+      "key": "亚洲多国深度绑定英伟达与人工智能发展",
+      "title": "亚洲重押人工智能与英伟达：供应链影响与行业冲击解析",
+      "summary": "随着人工智能与英伟达的发展，亚洲多国在芯片制造、数据中心和外资投入上对英伟达表现出高度依赖，市场也随之经历过山车般的波动。与此同时，人工智能的快速发展也给新闻媒体等行业带来了流量流失与商业模式的冲击，促使多方探索应对方案。",
       "common": [
        {
-        "t": "人工智能崛起带来冲击与调整",
+        "t": "人工智能与英伟达的发展对亚洲多国经济与股市产生深远影响",
         "src": [
-         "Al Jazeera",
+         "BBC Business",
+         "NST Online"
+        ]
+       },
+       {
+        "t": "人工智能技术的迅猛发展给各行业带来了流量与成本方面的冲击",
+        "src": [
          "TechCrunch",
          "Rappler",
          "BBC Business"
@@ -1367,44 +1356,35 @@
       ],
       "single": [
        {
-        "t": "美国人工智能聊天机器人玩具在纽约被禁售。",
+        "t": "OpenAI合并聊天与工作功能引发重度用户对使用上限的担忧",
         "src": "TechCrunch"
        },
        {
-        "t": "马来西亚分析员称NationGate不受英伟达服务器出货限制影响。",
+        "t": "东南亚独立新闻室联合成立Muni Network以对抗人工智能冲击",
+        "src": "Rappler"
+       },
+       {
+        "t": "分析员称马来西亚的NationGate不受英伟达服务器出货限制影响",
         "src": "NST Online"
-       },
-       {
-        "t": "Anthropic达里奥·阿莫代伊认为将人类控制权交给人工智能的指责荒谬。",
-        "src": "TechCrunch"
        }
       ],
       "views": [],
-      "unknown": "目前尚不清楚未来政治与监管审查将对英伟达及全球人工智能供应链造成多大程度的长期打击。",
+      "unknown": "目前尚不清楚英伟达未来在亚洲的各项大规模投资与供应链变动最终会受到多少政治和监管层面的实质影响。",
       "impact": {
-       "my": "马来西亚被视为人工智能交易的关键地区之一，其供应链企业如NationGate备受市场关注。",
-       "sea": "东南亚独立新闻室因人工智能冲击导致流量与收入大跌，正联手寻找新商业模式以维持人类对新闻的主导监督。",
-       "world": "英伟达及其人工智能技术在全球范围内引发股市震荡，并推动各地对全民基本收入等应对失业潮方案的讨论。"
+       "my": "马来西亚作为人工智能供应链的重要部分，其相关企业如NationGate受到市场与分析员的关注。",
+       "sea": "东南亚独立新闻室因人工智能导致流量和收入下滑，正联合寻求新的商业模式与合作方案。",
+       "world": "英伟达在人工智能芯片和资金上的巨大影响力，正牵动着全球科技市场与供应链的神经。"
       },
       "people": [
        "Jensen Huang",
        "Maria Ressa"
       ],
-      "photo": "microchip manufacturing",
+      "photo": "microchip production line",
       "per": [
-       {
-        "id": "856d3d9b30c2",
-        "t": "全民基本收入是人工智能经济失业潮的解药吗？",
-        "says": "人工智能引发失业担忧，促使社会重新探讨全民基本收入以应对贫困与贫富差距。",
-        "same": [
-         "人工智能崛起"
-        ],
-        "view": null
-       },
        {
         "id": "606d46584e95",
         "t": "随着人工智能崛起 我们离全民基本收入还有多远？",
-        "says": "探讨人工智能时代下全民基本收入的现实距离。",
+        "says": "人工智能的快速推进引发了关于如何防止贫困和财富不平等的讨论。",
         "same": [
          "人工智能崛起"
         ],
@@ -1413,59 +1393,63 @@
        {
         "id": "dc85126b0ac7",
         "t": "OpenAI合并聊天与工作功能，重度用户或更快触及使用上限",
-        "says": "OpenAI推出聊天与工作功能统一体验，重度用户可能更快触及使用上限。",
+        "says": "OpenAI开始向部分用户推出统一的聊天与工作体验，重度用户可能更快触及使用上限。",
         "same": [
-         "人工智能崛起"
+         "使用上限"
         ],
         "view": null
        },
        {
         "id": "00d3c793baf9",
         "t": "Anthropic达里奥·阿莫代伊：将人类控制权交给人工智能的指责荒谬",
-        "says": "回应外界对人工智能控制权的指责。",
+        "says": "探讨了外界对人工智能发展中人类控制权的争议。",
         "same": [
-         "人工智能崛起"
+         "人类控制权"
         ],
         "view": null
        },
        {
         "id": "35a1b5dcb892",
         "t": "对抗人工智能冲击，东南亚新闻室联合",
-        "says": "东南亚独立新闻室联合应对人工智能带来的流量暴跌与收入减少，强调维持人类监督。",
+        "says": "东南亚独立新闻室通过建立Muni Network联合起来，以应对人工智能带来的流量流失与政策冲击。",
         "same": [
-         "人工智能冲击"
+         "东南亚新闻室联合"
         ],
         "view": null
        },
        {
         "id": "4f0b7bfbd5a5",
         "t": "纽约禁售人工智能聊天机器人玩具",
-        "says": "纽约采取禁售人工智能聊天机器人玩具的措施。",
-        "same": null,
+        "says": "报道了有关纽约禁售人工智能聊天机器人玩具的动态。",
+        "same": [
+         "禁售"
+        ],
         "view": null
        },
        {
         "id": "ff94747f30bc",
         "t": "亚洲押注英伟达人工智能，未来将如何？",
-        "says": "亚洲多国高度押注英伟达与人工智能，股市随英伟达股价与政治监管忧虑剧烈波动。",
+        "says": "亚洲多国在人工智能和英伟达上进行重大押注，股市随之剧烈波动，凸显出对该技术的巨大依赖。",
         "same": [
-         "人工智能崛起"
+         "亚洲押注英伟达"
         ],
         "view": null
        },
        {
         "id": "730c88173e13",
         "t": "分析员称NationGate不受英伟达服务器出货限制影响",
-        "says": "分析员指出NationGate未受英伟达服务器出货限制波及。",
-        "same": null,
+        "says": "分析显示NationGate不受英伟达服务器出货限制的冲击。",
+        "same": [
+         "NationGate"
+        ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "42b5a08a",
+     "sig": "c7c745c4",
      "v": 2,
-     "at": "2026-11-27T04:10:27.944Z",
+     "at": "2026-11-27T08:06:39.890Z",
      "img": {
       "kind": "B",
       "people": [
@@ -1486,76 +1470,87 @@
     },
     {
      "id": "3700168d-12",
-     "t": "英伟达暂停东南亚部分芯片销售",
+     "t": "英伟达暂停东南亚销售及供应链调整",
      "ids": [
       "2487d6eb1404",
-      "6ed5996d6c40"
+      "6ed5996d6c40",
+      "6dcda87fc24e"
      ],
      "w": {
-      "short": "英伟达暂停东南亚芯片销售",
-      "key": "英伟达因美国政策暂停向东南亚四国部分芯片销售",
-      "title": "英伟达暂停东南亚部分芯片销售引发关注",
-      "summary": "由于美国政府收紧对华出口管制并出台新措施，英伟达已暂停向马来西亚等东南亚四国部分数据中心运营商销售先进人工智能芯片。新加坡副总理颜金勇表示该供应暂停尚未获证实，当局正积极咨询企业受影响情况。此举对当地数据中心市场及全球供应链造成潜在冲击。",
+      "short": "英伟达暂停东南亚销售",
+      "key": "英伟达因美国政策暂停向东南亚四国部分销售",
+      "title": "英伟达暂停东南亚销售及供应链调整风波",
+      "summary": "受美国旨在堵住对华限制漏洞的新措施影响，英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚销售部分先进人工智能芯片，导致多地订单被搁置。多国政府与企业正积极跟进评估，以应对潜在的供应链冲击与地缘政治不确定性。此举对严重依赖该市场的东南亚数据中心建设及全球高科技产业布局带来了动荡。",
       "common": [
        {
-        "t": "英伟达暂停向东南亚部分地区销售芯片。",
+        "t": "美国的技术管制与政策正对东南亚的芯片供应及相关企业产生影响。",
         "src": [
          "纽约时报中文网",
-         "联合早报"
+         "NST Online"
         ]
        }
       ],
       "single": [
        {
-        "t": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚的数据中心运营商交付部分订单。",
+        "t": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚的数据中心运营商销售部分先进人工智能芯片。",
         "src": "纽约时报中文网"
        },
        {
-        "t": "美国政府提出新措施，要求向高风险国家提供大量算力的东南亚运营商必须获得许可证。",
-        "src": "纽约时报中文网"
+        "t": "新加坡正与本地企业进行沟通，以评估美国芯片限制政策对供应链的实际冲击。",
+        "src": "NST Online"
        },
        {
-        "t": "新加坡副总理颜金勇表示辉达供应暂停尚未获证实，正向企业了解情况。",
+        "t": "新加坡副总理颜金勇表示辉达的供应暂停尚未获证实，当局正向企业咨询影响。",
         "src": "联合早报"
        }
       ],
       "views": [],
-      "unknown": "目前尚不清楚此次芯片销售暂停将持续多久。",
+      "unknown": "目前尚不清楚此次销售暂停将持续多久，是一项权宜之计直至企业明确如何获得许可证。",
       "impact": {
-       "my": "芯片供应长期中断可能会使马来西亚的大规模数据中心建设和扩张计划陷入停滞，危及投资并给放贷机构带来压力。",
-       "sea": "威胁到东南亚这个全球增长最快、有数十亿美元项目正在建设中的数据中心市场。",
-       "world": "切断了中国企业通过海外租赁方式获取美国先进算力的渠道，带来最新业务动荡。"
+       "my": "芯片供应长期中断可能会使马来西亚的数据中心建设和扩张计划陷入停滞，危及投资并给放贷机构带来压力。",
+       "sea": "冻结措施威胁到东南亚这一全球增长最快的数据中心市场之一，并影响区域企业的供应链运作稳定。",
+       "world": "美国的技术管制和供应链调整正持续影响全球高科技产业的布局。",
+       "china": null
       },
       "people": [
        "Jensen Huang",
        "Alice Huang"
       ],
-      "photo": "AI chip server",
+      "photo": "artificial intelligence chip data center",
       "per": [
        {
         "id": "2487d6eb1404",
         "t": "英伟达暂停向东南亚销售部分芯片以配合美对华限制",
-        "says": "英伟达已暂停向东南亚四国销售部分最先进人工智能芯片，以配合美国政府旨在堵住漏洞的新限制措施。",
+        "says": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚销售部分先进人工智能芯片，以配合美国旨在堵住对华限制漏洞的新措施。",
         "same": [
-         "暂停东南亚芯片销售"
+         "芯片供应限制"
         ],
         "view": null
        },
        {
         "id": "6ed5996d6c40",
         "t": "副总理颜金勇：辉达供应暂停未获证实，正咨询企业影响",
-        "says": "新加坡副总理颜金勇指出，有关辉达供应暂停的报道尚未获得证实，政府正在向相关企业了解和咨询影响。",
+        "says": "辉达供应暂停尚未获证实，正向企业咨询影响。",
         "same": [
-         "暂停东南亚芯片销售"
+         "芯片供应限制"
+        ],
+        "view": null
+       },
+       {
+        "id": "6dcda87fc24e",
+        "t": "新加坡正与本地企业就美国芯片限制措施进行沟通",
+        "says": "新加坡正就美国芯片出口限制与本地企业接触，评估供应链冲击并确保供应链运作稳定。",
+        "same": [
+         "芯片供应限制"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "3118b071",
+     "sig": "058ee06f",
      "v": 2,
-     "at": "2026-11-27T04:11:10.507Z",
+     "at": "2026-11-27T08:07:22.829Z",
      "img": {
       "kind": "B",
       "people": [
@@ -1567,12 +1562,119 @@
        }
       ]
      }
+    },
+    {
+     "id": "3700168d-13",
+     "t": "黄仁勋复任CEO与内部行为准则争议",
+     "ids": [
+      "163bef623cb7",
+      "10784dc609c4"
+     ]
+    },
+    {
+     "id": "3700168d-14",
+     "t": "亚洲国家对人工智能应用与数据中心展望",
+     "ids": [
+      "eb8986bae93d",
+      "ccf2e1d83f8c",
+      "2e0e5ef8c403",
+      "59ad89a74a18"
+     ],
+     "w": {
+      "short": "人工智能与数据中心",
+      "key": "数据中心激增推动马来西亚与东盟电力需求增长",
+      "title": "人工智能与数据中心风波下马来西亚及东南亚电力需求激增",
+      "summary": "随着人工智能与数据中心的迅速发展，马来西亚及东盟地区的电力需求迎来显著增长。马来西亚正积极吸引科技巨头投资并力争成为区域人工智能枢纽，但同时也面临美国技术限制及能源供应的挑战。",
+      "common": [
+       {
+        "t": "马来西亚正积极发展成为区域人工智能与数据中心枢纽。",
+        "src": [
+         "The Star",
+         "Newswav"
+        ]
+       },
+       {
+        "t": "数据中心的快速扩张导致电力需求大幅上升。",
+        "src": [
+         "The Star",
+         "헤럴드경제"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "马来西亚能源转型与水利转型部指出，到2050年该国电力需求料将增加一倍以上。",
+        "src": "The Star"
+       },
+       {
+        "t": "东盟能源中心预测，2025年至2030年间数据中心将占东盟新增电力需求的20%左右。",
+        "src": "The Star"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚美国更严格的技术限制对马来西亚人工智能发展的具体影响程度。",
+      "impact": {
+       "my": "数据中心快速扩张导致马来西亚电力需求剧增，政府正采取措施保障供应。",
+       "sea": "东盟多国面临数据中心带来的电力供应挑战，正探讨跨国电网一体化。",
+       "world": "科技巨头在东南亚的大规模投资受到美国对特定芯片出口限制的关注。"
+      },
+      "people": [],
+      "photo": "data center servers",
+      "per": [
+       {
+        "id": "eb8986bae93d",
+        "t": "至2050年，数据中心料使马来西亚电力需求倍增",
+        "says": "马来西亚积极吸引科技巨头投资以成为人工智能枢纽，但数据中心激增导致电力需求大增，并面临美国技术限制的潜在挑战。",
+        "same": [
+         "电力需求倍增",
+         "人工智能枢纽"
+        ],
+        "view": null
+       },
+       {
+        "id": "ccf2e1d83f8c",
+        "t": "数据中心将驱动东盟电力需求增长",
+        "says": "数字基础设施的快速扩张使数据中心成为东盟电力需求增长的关键因素，推动区域加速能源转型与电网建设。",
+        "same": [
+         "电力需求增长",
+         "数字基础设施"
+        ],
+        "view": null
+       },
+       {
+        "id": "2e0e5ef8c403",
+        "t": "韩国将任明年东盟加三共同主席国，推新人工智能议程",
+        "says": "韩国将在明年担任东盟加三共同主席国并推进相关人工智能议程。",
+        "same": [
+         "东盟人工智能"
+        ],
+        "view": null
+       },
+       {
+        "id": "59ad89a74a18",
+        "t": "马来西亚在东盟的人工智能领导地位获赞赏",
+        "says": "马来西亚在东盟地区的人工智能领导地位获得了外界的赞赏。",
+        "same": [
+         "人工智能领导"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "caa2b2a7",
+     "v": 2,
+     "at": "2026-11-27T08:06:59.953Z",
+     "img": {
+      "src": "https://apicms.thestar.com.my/uploads/images/2026/11/27/4234680.png",
+      "credit": "The Star",
+      "kind": "A"
+     }
     }
    ],
    "minor": [
     "a4c3fb2f4ae0",
-    "0b35107ec79a",
-    "10784dc609c4"
+    "0b35107ec79a"
    ],
    "stories": {
     "370e31bae833": {
@@ -2917,13 +3019,92 @@
       "credit": "Al Jazeera",
       "kind": "A"
      }
+    },
+    "6dcda87fc24e": {
+     "id": "6dcda87fc24e",
+     "title": "Singapore 'engaging' with local firms over US chip restrictions",
+     "zh": "新加坡正与本地企业就美国芯片限制措施进行沟通",
+     "short": "狮城应对美芯片限制",
+     "url": "https://www.nst.com.my/business/corporate/2026/11/1587048/singapore-engaging-local-firms-over-us-chip-restrictions",
+     "source": "NST Online",
+     "cat": "sea",
+     "published": "2026-11-27T07:59:02.000Z",
+     "sum": "新加坡正就美国实施的芯片出口限制与本地企业展开接触，评估相关政策对供应链的实际冲击。此举旨在协助区域企业应对半导体地缘政治带来的不确定性，确保供应链运作稳定。美国的技术管制正持续影响全球高科技产业的布局。"
+    },
+    "163bef623cb7": {
+     "id": "163bef623cb7",
+     "title": "押注英偉達發展AI，亞洲在黃仁勳復職後前景如何？",
+     "zh": "黄仁勳复任英伟达CEO引发市场震荡，亚洲人工智能前景备受关注",
+     "short": "黄仁勋复职震动亚洲",
+     "url": "https://www.bbc.com/zhongwen/articles/cq62p0n4er0wo/trad?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC 中文",
+     "cat": "tech",
+     "published": "2026-11-27T07:40:38.000Z",
+     "sum": "随着黄仁勋戏剧性重返英伟达担任执行长，引发了亚洲股市的剧烈波动。这不仅凸显了区域经济体对人工智能产业的高度依赖，也放大了依赖单一企业所带来的潜在风险。亚洲供应链正密切关注其后续战略走向。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
+    },
+    "eb8986bae93d": {
+     "id": "eb8986bae93d",
+     "title": "Data centres to double Malaysian electricity demand by 2050",
+     "zh": "至2050年，数据中心料使马来西亚电力需求倍增",
+     "short": "大马数据中心耗电倍增",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/27/data-centres-to-double-malaysian-electricity-demand-by-2050",
+     "source": "The Star",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:55:00.000Z",
+     "sum": "随着大量数据中心落户马来西亚，报告预测该国至2050年的电力需求将增加一倍。这凸显了数字基础设施对国家能源供应的巨大压力，也考验政府在绿色能源转型方面的规划。电力基础设施的扩展将成为未来经济发展的关键。",
+     "img": {
+      "src": "https://apicms.thestar.com.my/uploads/images/2026/11/27/4234680.png",
+      "credit": "The Star",
+      "kind": "A"
+     }
+    },
+    "ccf2e1d83f8c": {
+     "id": "ccf2e1d83f8c",
+     "title": "Data centres to drive Asean power demand growth",
+     "zh": "数据中心将驱动东盟电力需求增长",
+     "short": "数据中心驱东盟电力需求",
+     "url": "https://www.thestar.com.my/business/business-news/2026/11/27/data-centres-to-drive-asean-power-demand-growth",
+     "source": "The Star",
+     "cat": "sea",
+     "published": "2026-11-26T23:35:32.000Z",
+     "sum": "随着区域内数字基础设施的快速扩张，数据中心成为推动东盟电力需求增长的关键因素。这一趋势对当地能源供应和电网基础设施提出了新的挑战与要求。相关国家可能需要加快能源转型与升级，以满足不断攀升的电力消耗。",
+     "img": {
+      "src": "https://apicms.thestar.com.my/uploads/images/2026/11/27/4233978.jpeg",
+      "credit": "The Star",
+      "kind": "A"
+     }
+    },
+    "2e0e5ef8c403": {
+     "id": "2e0e5ef8c403",
+     "title": "S. Korea to co-chair ASEAN+3 next year, pushes AI and financial stability as new agenda",
+     "zh": "韩国将任明年东盟加三共同主席国，推新人工智能议程",
+     "short": "韩国将任东盟加三主席",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NaVRqR1ZMTDY4STFiclBMb3RYblBKbTRRSGFoT1JpRmRKMnN0bWwyTVl3M3BBOExMemtyU0c0anpmOEtPaHB6Nl95WEdlcVpzazN2ZWpWMA?oc=5",
+     "source": "헤럴드경제",
+     "cat": "sea",
+     "published": "2026-11-27T01:24:50.000Z"
+    },
+    "59ad89a74a18": {
+     "id": "59ad89a74a18",
+     "title": "Malaysian AI leadership in Asean applauded",
+     "zh": "马来西亚在东盟的人工智能领导地位获赞赏",
+     "short": "大马AI领导地位获赞",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONXlvX0hVUlAyUUJjcWhPa1pLcDVBdkFDdEJ6VWdFTnBna0dfQk0xWnhsWW02dmNSU09jMFZydHVzZTgtZElJMGN6b0FPalllSDlxQlJ0SjJXSjl6WkZ1aWNOWmVuTWFmdEhTSGpqV3ZCaWs2cUVhTFVlVHk4T2liVXprMHR2T1ZfU1NF?oc=5",
+     "source": "Newswav",
+     "cat": "tech",
+     "published": "2026-11-27T01:44:45.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "NVIDIA AI chip investigation US",
+   "en": "NVIDIA artificial intelligence chips restriction",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-27T04:10:02.907Z",
+   "last": "2026-11-27T08:06:19.706Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
    "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
@@ -2953,15 +3134,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 41,
-    "stories": 112,
+    "sources": 43,
+    "stories": 118,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
      "views": 22116,
      "ratio": 0.5
     },
-    "at": "2026-11-27T04:12:27.569Z"
+    "at": "2026-11-27T08:08:35.860Z"
    }
   },
   {
@@ -2970,7 +3151,7 @@
    "lines": [
     {
      "id": "53aaaa61-1",
-     "t": "美对中国欧盟等地加征关税",
+     "t": "美国拟对中国欧盟及巴西等加征关税",
      "ids": [
       "8c98ac5048d7",
       "c06ced3b2ac5",
@@ -3140,7 +3321,7 @@
     },
     {
      "id": "53aaaa61-2",
-     "t": "泰国等国企业界担忧美关税冲击",
+     "t": "东南亚与伙伴国对关税冲击的反应",
      "ids": [
       "a2c47c2f5eb4",
       "8aa65f9d2fbf",
@@ -3209,27 +3390,29 @@
     },
     {
      "id": "53aaaa61-3",
-     "t": "东盟应对经济民族主义倡议",
+     "t": "新加坡副总理颜金勇谈抗衡经济民族主义",
      "ids": [
       "9a07a093bf37",
       "67a8cd60005c",
-      "b02874b150e7"
+      "b02874b150e7",
+      "145c6e329ce1"
      ],
      "w": {
-      "short": "东盟抗衡经济民族主义",
-      "key": "东盟必须保持开放，以更深融合与广泛伙伴关系应对经济民族主义。",
-      "title": "美国宣布加征关税之际 颜金勇：东盟面对经济民族主义须保持开放",
-      "summary": "美国宣布加征关税后，新加坡副总理颜金勇指出东盟正面对经济民族主义压力，成员国若互相设置壁垒将限制自身发展。东盟必须通过深化区域内整合与扩大外部伙伴关系，抵御封闭市场与内顾倾向，同时维持与中美两国的关键经贸联系。",
+      "short": "颜金勇谈抗衡经济民族主义",
+      "key": "东盟须以深化区域整合与广泛伙伴关系抗衡经济民族主义。",
+      "title": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+      "summary": "新加坡副总理颜金勇指出，面对日益加剧的经济民族主义，东盟国家若在内部筑起壁垒只会限制自身发展。他呼吁东盟深化区域整合并扩大伙伴关系，同时继续与美中两国的经贸投资保持密切联系，以应对外部冲击。",
       "common": [
        {
-        "t": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义。",
+        "t": "颜金勇指出东盟必须抗衡日益加剧的经济民族主义。",
         "src": [
          "联合早报",
+         "Wisevoter",
          "The Straits Times"
         ]
        },
        {
-        "t": "成员国在区域内互相设置壁垒只会限制自身发展并缩小机会。",
+        "t": "东盟应通过深化区域整合与扩大伙伴关系来应对压力。",
         "src": [
          "联合早报",
          "The Straits Times"
@@ -3238,61 +3421,153 @@
       ],
       "single": [
        {
-        "t": "即使美国对新加坡等国加征额外关税，美国依然是新加坡和东盟的重要贸易伙伴。",
+        "t": "颜金勇在新加坡报业控股媒体集团举办的亚洲未来峰会开幕式上发表上述谈话。",
+        "src": "联合早报"
+       },
+       {
+        "t": "中小企业必须在四大领域进行转型。",
         "src": "联合早报"
        }
       ],
       "views": [],
       "unknown": null,
       "impact": {
-       "my": "关税与经济民族主义升温可能影响区域供应链与马国对外贸易环境。",
-       "sea": "东盟国家面临经济民族主义与关税压力，需通过区域一体化保持韧性。",
-       "world": "大国竞争、地缘政治冲突与关税壁垒加剧全球贸易的不确定性。"
+       "my": "对马来西亚而言，区域整合与维持对内对外开放有助于保障供应链稳定并促进跨境投资与经济发展。",
+       "sea": "东南亚国家共同抗衡经济民族主义并深化合作，能够减少对外部冲击的暴露并提供更多发展机遇。",
+       "world": "在全球范围内，大国竞争与地缘经济摩擦促使各国趋向内顾，但跨区域的贸易与伙伴关系依然是增长关键。"
       },
       "people": [
        "Gan Kim Yong"
       ],
-      "photo": "container port",
+      "photo": null,
       "per": [
        {
         "id": "9a07a093bf37",
         "t": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-        "says": "面对美国加征关税与经济民族主义，东盟必须深化区域整合、扩大伙伴关系，避免内部筑墙。",
+        "says": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义，不能在内部筑起壁垒。",
         "same": [
-         "深化区域整合",
-         "扩大伙伴关系"
+         "抗衡经济民族主义",
+         "深化区域整合"
         ],
         "view": null
        },
        {
         "id": "67a8cd60005c",
         "t": "东盟受促联合应对日益加剧的经济民族主义",
-        "says": "呼吁东盟各方采取共同行动，应对不断加剧的经济民族主义与贸易挑战。",
+        "says": "东盟各界呼吁共同合力应对不断加剧的经济民族主义挑战。",
         "same": [
-         "应对经济民族主义"
+         "经济民族主义"
         ],
         "view": null
        },
        {
         "id": "b02874b150e7",
         "t": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
-        "says": "强调东盟不能走向内顾，应通过更深层的区域融合与广泛伙伴关系来抗衡经济民族主义。",
+        "says": "颜金勇强调东盟须以更深层次的融合与广泛伙伴关系来抵御经济民族主义的影响。",
         "same": [
          "抗衡经济民族主义",
-         "更深融合与伙伴"
+         "深融合与伙伴关系"
+        ],
+        "view": null
+       },
+       {
+        "id": "145c6e329ce1",
+        "t": "颜金勇：中小企业须在四大领域转型",
+        "says": "颜金勇提出中小企业必须在四大关键领域积极推进转型。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "e6c04200",
+     "v": 2,
+     "at": "2026-11-27T08:07:11.886Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-4",
+     "t": "东盟峰会与大马智库探讨产业链潜力",
+     "ids": [
+      "e8f289b276e6",
+      "bfda87828f27",
+      "07953b093f5c"
+     ],
+     "w": {
+      "short": "东盟升级自贸协定",
+      "key": "中国东盟自贸协定3.0版将释放产业链潜力",
+      "title": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+      "summary": "中国东盟自贸协定3.0版预计于12月1日生效，大马智库指出这将推动区域内从芯片设计到人工智能制造的合作。新协议超越传统降税，将数字经济、绿色经济及供应链合作纳入框架，助力东南亚企业向更高附加值活动转型。",
+      "common": [
+       {
+        "t": "中国东盟自贸协定3.0版将带来新的合作机遇。",
+        "src": [
+         "Global Times",
+         "fulcrum.sg"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "菲律宾在东盟峰会上推介了重点投资项目。",
+        "src": "Facebook"
+       },
+       {
+        "t": "大马智库负责人指出制造业务必成为优先合作领域。",
+        "src": "Global Times"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "马中企业可在半导体和精密制造等领域深化人工智能合作。",
+       "sea": "升级版自贸协定有助于东南亚企业融入区域和全球价值链。",
+       "world": "数字与绿色转型正在重塑全球经济竞争格局。"
+      },
+      "people": [],
+      "photo": "industrial park",
+      "per": [
+       {
+        "id": "e8f289b276e6",
+        "t": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+        "says": "中国东盟自贸协定3.0版将深化数字和绿色经济合作，助力区域产业链升级。",
+        "same": [
+         "自贸协定3.0"
+        ],
+        "view": null
+       },
+       {
+        "id": "bfda87828f27",
+        "t": "东盟峰会成投资热点，菲律宾推介重点项目",
+        "says": "东盟峰会期间吸引投资关注，菲律宾积极推介重点项目。",
+        "same": [
+         "东盟峰会"
+        ],
+        "view": null
+       },
+       {
+        "id": "07953b093f5c",
+        "t": "通过强化东盟全球价值链构建区域经济韧性",
+        "says": "探讨了通过强化东盟全球价值链来构建区域经济韧性。",
+        "same": [
+         "全球价值链"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "44f8ca2e",
+     "sig": "bff1078d",
      "v": 2,
-     "at": "2026-11-27T04:10:59.640Z",
+     "at": "2026-11-27T08:07:30.487Z",
      "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
-      "credit": "联合早报",
-      "kind": "A"
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg/960px-Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tfeliz · Wikimedia Commons · CC BY-SA 3.0",
+      "kind": "B"
      }
     }
    ],
@@ -3499,38 +3774,83 @@
      "source": "The Straits Times",
      "cat": "sea",
      "published": "2026-11-27T01:45:00.000Z"
+    },
+    "145c6e329ce1": {
+     "id": "145c6e329ce1",
+     "title": "Tan See Leng: SMEs must transform in four key areas",
+     "zh": "颜金勇：中小企业须在四大领域转型",
+     "short": "星洲部长谈中小企业转型",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUd3VFluX2NMUFVKcElZR3hSWGlkTl9DZTFZT2Mtek5vcWk5djVscnAwdF8xQ2tuQ3A2T1JNdXV2d2pNQlpLZkpVTXJRbWxKWGJmYnQwRWJ2cHJFODdBR2tSOGZHbFpOeTRDR1l1bGRBN3NZalgweTJxTFpQNW5VMEgwRExXNnNNSDV1R2RCTkVfWjlEeGduSzNn?oc=5",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-26T13:31:10.000Z"
+    },
+    "e8f289b276e6": {
+     "id": "e8f289b276e6",
+     "title": "Upgraded FTA to unlock China-ASEAN value chain potential amid US tech curbs: Malaysian think tank chief",
+     "zh": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+     "short": "升级自贸协定释放链条潜力",
+     "url": "https://www.globaltimes.cn/page/202611/1375138.shtml",
+     "source": "Global Times",
+     "cat": "sea",
+     "published": "2026-11-26T14:36:00.000Z",
+     "sum": "大马智库负责人指出，在面对美国科技限制的背景下，升级后的自由贸易协定将进一步释放中国与东盟之间的产业链潜力。这有助于深化区域经济合作，并为双边贸易带来新的增长机遇。相关供应链的整合可能因政策升级而更具韧性。"
+    },
+    "bfda87828f27": {
+     "id": "bfda87828f27",
+     "title": "More than a high-level diplomatic event, the ASEAN Summit is also a hot spot for investment opportunities. Take a look at some of the Philippine projects pitched to foreign investors during the summit. Know more in the latest Readout newsletter by Rappler mu",
+     "zh": "东盟峰会成投资热点，菲律宾推介重点项目",
+     "short": "东盟峰会吸金推介项目",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ2FmTWZDU3Vkc2JxWDFlekxmay1nNWUyYlV3YVduWVRJLWhkSWFmNFo5R2xReGE5dmxFaWFpOEk4QlRtdERnU2k3cUJtMHFFYklGbjlrdXdsSkFRbkphei1ERExKLUM4WUFqZGxfMFo0SUlEVnJLS1A5dE1zSmdrNVp4ZURlN3BvcVlhT2tFQnJUTkJ6QjBIN2RJc3Z5OUplUWRySEpXREZlWGdtd2xHTkZCcG42OF9sdTlKc2tfUVJBN3VJZ1VBbXZCdk4tOTEwbWt3MDRudlVJQQ?oc=5",
+     "source": "Facebook",
+     "cat": "sea",
+     "published": "2026-11-27T07:07:02.000Z"
+    },
+    "07953b093f5c": {
+     "id": "07953b093f5c",
+     "title": "Building Regional Economic Resilience by Strengthening ASEAN’s Global Value Chains",
+     "zh": "通过强化东盟全球价值链构建区域经济韧性",
+     "short": "强化东盟全球价值链",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHNCaF8yVTE1RmljWG1saThKdVZfNXR6YXF0ZGgxTWNjcXJqd0NRalFQRk1wd2dqNWtCU3VXVFlCd2RQeUlGc01PcU56MWJpRFRPZkxJam8tUkN1WkdHVnNGemF6TTRvRWZIVEFOTTRhMzQtQjBxS3FENmlZaF9GZHp4YTZvZWo0ZW16RXNFV2tPcHR1M19MbU96cWo0dGNGRTlIclhRTWdjVTk5UXUxZ3NpZnBmSjR4MlU5NUM2TQ?oc=5",
+     "source": "fulcrum.sg",
+     "cat": "sea",
+     "published": "2026-11-27T02:00:00.000Z"
     }
    },
-   "name": "美国宣布加征关税",
-   "en": "US tariffs trade China EU",
-   "wiki": "List of tariffs imposed by the United States",
-   "cat": "finance",
-   "last": "2026-11-27T04:10:02.906Z",
+   "name": "东盟区域合作与经济民族主义",
+   "en": "ASEAN economic cooperation regionalism",
+   "wiki": "Association of Southeast Asian Nations",
+   "cat": "sea",
+   "last": "2026-11-27T08:06:19.706Z",
    "hidden": false,
    "heat": {
     "score": 4,
-    "sources": 13,
-    "stories": 15,
+    "sources": 16,
+    "stories": 19,
     "gdelt": null,
-    "wiki": null,
-    "at": "2026-11-27T04:12:09.414Z"
+    "wiki": {
+     "title": "Association of Southeast Asian Nations",
+     "views": 93,
+     "ratio": 0.3
+    },
+    "at": "2026-11-27T08:09:25.919Z"
    },
-   "short": "美国宣布加征关税",
-   "key": "美对多国加征关税引发全球关注",
-   "overview": "美国正式提议对中国、欧盟及泰国等多个经济体加征新关税以应对产能过剩，引发供应链冲击与东盟对经济民族主义的担忧。",
+   "short": "东盟应对经济民族主义",
+   "key": "东盟深化区域整合抵御全球关税冲击",
+   "overview": "面对美国拟对多国加征新关税及加剧的经济民族主义，东盟呼吁深化区域整合并推进中国东盟自贸协定3.0版，以提升供应链韧性。",
    "minorText": [
     "交易员无视美国最新关税冲击推动股市上涨"
    ],
    "links": [
     {
-     "from": "53aaaa61-3",
-     "to": "53aaaa61-1",
-     "t": "新加坡副总理指出东盟正面对美国加征关税及经济民族主义带来的压力。"
-    },
-    {
      "from": "53aaaa61-2",
      "to": "53aaaa61-1",
-     "t": "美国提议对泰国征收关税，引发当地企业对出口受阻的担忧。"
+     "t": "泰国企业界对美国拟议的新关税表现出出口受阻的担忧。"
+    },
+    {
+     "from": "53aaaa61-3",
+     "to": "53aaaa61-1",
+     "t": "颜金勇指出东盟需深化区域整合，以应对美国等外部带来的经贸冲击。"
     }
    ],
    "img": {
@@ -3885,16 +4205,19 @@
    "last": "2026-11-26T23:43:54.109Z",
    "hidden": false,
    "heat": {
-    "score": 2,
+    "score": 3,
     "sources": 5,
     "stories": 8,
-    "gdelt": null,
+    "gdelt": {
+     "ratio": 10,
+     "share": 0.003
+    },
     "wiki": {
      "title": "Cyberattack",
      "views": 223,
      "ratio": 0.6
     },
-    "at": "2026-11-27T04:12:44.067Z"
+    "at": "2026-11-27T08:09:46.765Z"
    },
    "short": "FBI等机构遭黑客袭击",
    "key": "联邦调查局与国际足联接连遭黑客攻击",
@@ -4638,7 +4961,7 @@
     "stories": 29,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-27T04:13:29.696Z"
+    "at": "2026-11-27T08:10:22.769Z"
    }
   },
   {
@@ -4809,7 +5132,7 @@
     "stories": 4,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-27T04:14:18.281Z"
+    "at": "2026-11-27T08:10:59.608Z"
    }
   },
   {
@@ -5027,7 +5350,7 @@
      "views": 53,
      "ratio": 0.9
     },
-    "at": "2026-11-27T04:15:07.169Z"
+    "at": "2026-11-27T08:11:16.234Z"
    }
   },
   {
@@ -7918,5 +8241,5 @@
    }
   }
  ],
- "updated": "2026-11-27T04:15:07.169Z"
+ "updated": "2026-11-27T08:11:16.235Z"
 }
