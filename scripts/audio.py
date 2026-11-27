@@ -118,8 +118,8 @@ def encode(src_args, out):
                     '-af', 'acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5:LRA=7,apad=pad_dur=0.6',
                     '-ar', '24000', '-ac', '1', '-codec:a', 'libmp3lame', '-b:a', '48k', '-write_xing', '0', '-id3v2_version', '0', '-map_metadata', '-1', out], check=True)
 def duration(p):
-    r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', p], capture_output=True, text=True)
-    return round(float(r.stdout.strip() or 0), 2)
+    # every clip is 48 kbps constant bit rate, so the length follows from the file size (no ffprobe needed)
+    return round(os.path.getsize(p) * 8 / 48000, 2)
 
 def google(text, out):
     if not KEY or g.get('out') or g.get('used', 0) >= GOOGLE_MAX: return False
