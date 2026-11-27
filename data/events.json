@@ -1,6 +1,2558 @@
 {
  "events": [
   {
+   "id": "53aaaa61",
+   "first": "2026-11-26T15:00:08.695Z",
+   "lines": [
+    {
+     "id": "53aaaa61-1",
+     "t": "美国针对中国及多国加征新关税计划",
+     "ids": [
+      "8c98ac5048d7",
+      "c06ced3b2ac5",
+      "722a67ecc5ec",
+      "02d65ac20e4b",
+      "ada496f5ff87",
+      "633c64faba59",
+      "03bb72c6812c",
+      "25856d3f68be"
+     ],
+     "w": {
+      "short": "美对多国加征关税",
+      "key": "美国宣布对中国、欧盟及东南亚等多国加征新关税",
+      "title": "美国宣布对中国欧盟等地加征新关税，意在重塑贸易关系",
+      "summary": "美国政府正式公布对包括中国、欧盟在内的多个经济体征收高达20%及以上新关税的提议，旨在应对海外补贴和产能过剩问题。中国面临较高的潜在关税，而部分亚洲国家则面临不同的税率与贸易协议压力。新关税预计将在明年正式生效，并需经过公众咨询和听证会。",
+      "common": [
+       {
+        "t": "美国计划对中国、欧盟等多国加征新关税",
+        "src": [
+         "AP News",
+         "France 24",
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "新关税预计将于明年初正式生效",
+        "src": [
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "美方官员称新政策将为美国工人创造公平竞争环境",
+        "src": "BBC Business"
+       },
+       {
+        "t": "新加坡总理黄循财表示将在自身法律前提下协助美国执行芯片禁令",
+        "src": "Malay Mail"
+       },
+       {
+        "t": "资本经济学分析师指出新关税对区域整体影响可能有限",
+        "src": "CNBC Asia"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "AP News",
+         "France 24",
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ],
+        "t": "关税旨在应对海外补贴、产能过剩及削弱中国供应链优势。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ],
+        "t": "关税可能推高消费价格并引发通货膨胀，同时为依赖美中的亚洲国家带来忧虑。"
+       }
+      ],
+      "unknown": "美中贸易休战协议是否会在明年1月到期后延长仍未确定。",
+      "impact": {
+       "my": "马来西亚等国面临税率可能发生变化的压力，依赖美中的亚洲国家也感到忧虑。",
+       "sea": "越南、新加坡等东南亚国家面临不同的关税税率、贸易协议压力及芯片出口管制执法配合。",
+       "world": "新关税将对中国、欧盟等全球主要贸易伙伴产生影响，并可能 dampen 全球贸易并推高物价。"
+      },
+      "people": [
+       "Donald Trump",
+       "Jamieson Greer",
+       "Lawrence Wong",
+       "Anthony Albanese"
+      ],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "8c98ac5048d7",
+        "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+        "says": "美国计划针对获补贴工厂的产品，对多国提高关税以应对竞争冲击。",
+        "same": [
+         "加征新关税"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c06ced3b2ac5",
+        "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+        "says": "美国正式公布对14个经济体征收新关税的提议，是重塑贸易关系的动作。",
+        "same": [
+         "加征新关税",
+         "欧盟和中国"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "722a67ecc5ec",
+        "t": "美国准备对全球贸易伙伴推出新关税措施",
+        "says": "美国推出新关税措施打击主要贸易伙伴，中国面临最高关税。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "02d65ac20e4b",
+        "t": "美国加征关税施压伙伴国 迫使其签署贸易协议",
+        "says": "美国推出新关税 salvo 施压伙伴国，中国面临较高税率。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ada496f5ff87",
+        "t": "关税阴影下全球市场回升，农户忧成本",
+        "says": "全球市场在关税阴影下回升。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "633c64faba59",
+        "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+        "says": "美新关税对新加坡短期影响有限。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "03bb72c6812c",
+        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "25856d3f68be",
+        "t": "特朗普新关税再针对北京，意在削弱供应链优势",
+        "says": "美国提议对数十国加征新关税，意在削弱中国供应链优势。",
+        "same": [
+         "加征新关税",
+         "明年初生效"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "3f5d774b",
+     "v": 2,
+     "at": "2026-11-27T04:10:07.883Z",
+     "img": {
+      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
+      "credit": "CNBC Asia",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-2",
+     "t": "东南亚与伙伴国对关税冲击的反应",
+     "ids": [
+      "a2c47c2f5eb4",
+      "8aa65f9d2fbf",
+      "7a0bfee3dd4c"
+     ],
+     "w": {
+      "short": "美拟征泰关税引担忧",
+      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
+      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
+      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
+      "common": [],
+      "single": [
+       {
+        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
+        "src": "Bangkok Post"
+       },
+       {
+        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
+        "src": "Bangkok Post"
+       }
+      ],
+      "views": [],
+      "unknown": "泰国最终的关税税率尚未最终确定。",
+      "impact": {
+       "my": null,
+       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
+       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
+      },
+      "people": [],
+      "photo": "container port",
+      "per": [
+       {
+        "id": "a2c47c2f5eb4",
+        "t": "企业界担忧美国关税对泰国出口造成冲击",
+        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
+        "same": [
+         "美国关税引发担忧"
+        ],
+        "view": null
+       },
+       {
+        "id": "8aa65f9d2fbf",
+        "t": "泰国转向投资驱动型增长以应对贸易战",
+        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "7a0bfee3dd4c",
+        "t": "泰国政府辩护18%美国关税提议",
+        "says": "相关报道提及泰国政府对关税提议的相关立场。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2cf9f66e",
+     "v": 2,
+     "at": "2026-11-26T23:44:47.023Z",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-3",
+     "t": "新加坡及东盟对经济民族主义的评估",
+     "ids": [
+      "9a07a093bf37",
+      "67a8cd60005c",
+      "b02874b150e7",
+      "145c6e329ce1"
+     ],
+     "w": {
+      "short": "颜金勇谈抗衡经济民族主义",
+      "key": "东盟须以深化区域整合与广泛伙伴关系抗衡经济民族主义。",
+      "title": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+      "summary": "新加坡副总理颜金勇指出，面对日益加剧的经济民族主义，东盟国家若在内部筑起壁垒只会限制自身发展。他呼吁东盟深化区域整合并扩大伙伴关系，同时继续与美中两国的经贸投资保持密切联系，以应对外部冲击。",
+      "common": [
+       {
+        "t": "颜金勇指出东盟必须抗衡日益加剧的经济民族主义。",
+        "src": [
+         "联合早报",
+         "Wisevoter",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "东盟应通过深化区域整合与扩大伙伴关系来应对压力。",
+        "src": [
+         "联合早报",
+         "The Straits Times"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "颜金勇在新加坡报业控股媒体集团举办的亚洲未来峰会开幕式上发表上述谈话。",
+        "src": "联合早报"
+       },
+       {
+        "t": "中小企业必须在四大领域进行转型。",
+        "src": "联合早报"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "对马来西亚而言，区域整合与维持对内对外开放有助于保障供应链稳定并促进跨境投资与经济发展。",
+       "sea": "东南亚国家共同抗衡经济民族主义并深化合作，能够减少对外部冲击的暴露并提供更多发展机遇。",
+       "world": "在全球范围内，大国竞争与地缘经济摩擦促使各国趋向内顾，但跨区域的贸易与伙伴关系依然是增长关键。"
+      },
+      "people": [
+       "Gan Kim Yong"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "9a07a093bf37",
+        "t": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+        "says": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义，不能在内部筑起壁垒。",
+        "same": [
+         "抗衡经济民族主义",
+         "深化区域整合"
+        ],
+        "view": null
+       },
+       {
+        "id": "67a8cd60005c",
+        "t": "东盟受促联合应对日益加剧的经济民族主义",
+        "says": "东盟各界呼吁共同合力应对不断加剧的经济民族主义挑战。",
+        "same": [
+         "经济民族主义"
+        ],
+        "view": null
+       },
+       {
+        "id": "b02874b150e7",
+        "t": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
+        "says": "颜金勇强调东盟须以更深层次的融合与广泛伙伴关系来抵御经济民族主义的影响。",
+        "same": [
+         "抗衡经济民族主义",
+         "深融合与伙伴关系"
+        ],
+        "view": null
+       },
+       {
+        "id": "145c6e329ce1",
+        "t": "颜金勇：中小企业须在四大领域转型",
+        "says": "颜金勇提出中小企业必须在四大关键领域积极推进转型。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "e6c04200",
+     "v": 2,
+     "at": "2026-11-27T08:07:11.886Z",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "53aaaa61-4",
+     "t": "东盟峰会与大马智库探讨产业链潜力",
+     "ids": [
+      "e8f289b276e6",
+      "bfda87828f27",
+      "07953b093f5c"
+     ],
+     "w": {
+      "short": "东盟升级自贸协定",
+      "key": "中国东盟自贸协定3.0版将释放产业链潜力",
+      "title": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+      "summary": "中国东盟自贸协定3.0版预计于12月1日生效，大马智库指出这将推动区域内从芯片设计到人工智能制造的合作。新协议超越传统降税，将数字经济、绿色经济及供应链合作纳入框架，助力东南亚企业向更高附加值活动转型。",
+      "common": [
+       {
+        "t": "中国东盟自贸协定3.0版将带来新的合作机遇。",
+        "src": [
+         "Global Times",
+         "fulcrum.sg"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "菲律宾在东盟峰会上推介了重点投资项目。",
+        "src": "Facebook"
+       },
+       {
+        "t": "大马智库负责人指出制造业务必成为优先合作领域。",
+        "src": "Global Times"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "马中企业可在半导体和精密制造等领域深化人工智能合作。",
+       "sea": "升级版自贸协定有助于东南亚企业融入区域和全球价值链。",
+       "world": "数字与绿色转型正在重塑全球经济竞争格局。"
+      },
+      "people": [],
+      "photo": "industrial park",
+      "per": [
+       {
+        "id": "e8f289b276e6",
+        "t": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+        "says": "中国东盟自贸协定3.0版将深化数字和绿色经济合作，助力区域产业链升级。",
+        "same": [
+         "自贸协定3.0"
+        ],
+        "view": null
+       },
+       {
+        "id": "bfda87828f27",
+        "t": "东盟峰会成投资热点，菲律宾推介重点项目",
+        "says": "东盟峰会期间吸引投资关注，菲律宾积极推介重点项目。",
+        "same": [
+         "东盟峰会"
+        ],
+        "view": null
+       },
+       {
+        "id": "07953b093f5c",
+        "t": "通过强化东盟全球价值链构建区域经济韧性",
+        "says": "探讨了通过强化东盟全球价值链来构建区域经济韧性。",
+        "same": [
+         "全球价值链"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "bff1078d",
+     "v": 2,
+     "at": "2026-11-27T08:07:30.487Z",
+     "img": {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg/960px-Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "credit": "Tfeliz · Wikimedia Commons · CC BY-SA 3.0",
+      "kind": "B"
+     }
+    },
+    {
+     "id": "53aaaa61-5",
+     "t": "东盟区域太空合作与一体化宣言",
+     "ids": [
+      "8ec4f3532275",
+      "9cd4059447dc"
+     ]
+    }
+   ],
+   "minor": [
+    "c7cc931c23d4",
+    "6374367e5315"
+   ],
+   "stories": {
+    "8c98ac5048d7": {
+     "id": "8c98ac5048d7",
+     "title": "US to hike tariffs on China, EU, Brazil and others over subsidized factories",
+     "zh": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
+     "short": "美拟对中欧多方加征关税",
+     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0",
+     "source": "AP News",
+     "cat": "finance",
+     "published": "2026-11-25T22:06:00.000Z",
+     "sum": "美国计划针对获补贴工厂的产品，对中国、欧盟、巴西等多国及地区提高关税。此举旨在应对海外补贴制造业对美国市场带来的竞争冲击。"
+    },
+    "c06ced3b2ac5": {
+     "id": "c06ced3b2ac5",
+     "title": "US unveils proposed tariffs on major partners, including EU and China",
+     "zh": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
+     "short": "美国拟对多国征收新关税",
+     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
+     "source": "France 24",
+     "cat": "finance",
+     "published": "2026-11-25T19:15:03.000Z",
+     "sum": "美国政府在经过数月针对所谓产能过剩的调查后，正式公布了对包括欧盟和中国在内的14个经济体征收高达20%新关税的提议。这是美国总统特朗普重塑华盛顿贸易关系的又一重大动作。"
+    },
+    "722a67ecc5ec": {
+     "id": "722a67ecc5ec",
+     "title": "US preparing to unveil new tariffs on global trading partners",
+     "zh": "美国准备对全球贸易伙伴推出新关税措施",
+     "short": "美国拟对全球推新关税",
+     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC Business",
+     "cat": "world",
+     "published": "2026-11-25T00:38:01.000Z",
+     "sum": "美国正准备对多个全球主要贸易伙伴推出新的征税措施。新关税预计将打击包括中国和欧盟在内的大型贸易伙伴。此举可能加剧全球贸易紧张局势并影响供应链。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
+      "credit": "BBC Business",
+      "kind": "A"
+     }
+    },
+    "02d65ac20e4b": {
+     "id": "02d65ac20e4b",
+     "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+     "zh": "美国加征关税施压伙伴国 迫使其签署贸易协议",
+     "short": "美关税施压贸易协议",
+     "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+     "source": "CNBC Asia",
+     "cat": "world",
+     "published": "2026-11-26T12:46:55.000Z",
+     "sum": "美国计划对多个主要贸易伙伴实施新一轮关税，同时通过提供更低税率作为诱饵，迫使各国尽快与华盛顿达成贸易协议。此举显示美国正加码利用关税作为地缘经济谈判的施压工具。全球供应链可能面临进一步重塑的压力。",
+     "img": {
+      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
+      "credit": "CNBC Asia",
+      "kind": "A"
+     }
+    },
+    "ada496f5ff87": {
+     "id": "ada496f5ff87",
+     "title": "Tariffs: Global Markets Rally as Farmers Face Trade and Cost Uncertainty",
+     "zh": "关税阴影下全球市场回升，农户忧成本",
+     "short": "关税忧虑下股市反弹",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl92LTdVUGxjVlV6ZnFTUE9XRzF2bklEZlc4SElEUG9XVEtaMWk1dEpaRnpZcGtVdlhidXRFUThyYnJ1UVlNYzBRbmM0OUR6NlRUSGRUSktXQmJvZ2Jld0dpWVotYTJQc2NINUhuTVNqZFJ3LVRxRzF6Sm85UC04cjdCYVdKanZZVkp5c0pZOWNqUTZsa052UGtpZTMycWJFNnUxc1FhWUpjeDVtaE9Z?oc=5",
+     "source": "AgroLatam",
+     "cat": "finance",
+     "published": "2026-11-26T13:44:31.000Z"
+    },
+    "633c64faba59": {
+     "id": "633c64faba59",
+     "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
+     "zh": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
+     "short": "美新关税对新影响有限",
+     "url": "https://www.channelnewsasia.com/singapore/us-tariffs-singapore-economy-trade-6584716",
+     "source": "CNA Business",
+     "cat": "sea",
+     "published": "2026-11-26T12:50:05.000Z"
+    },
+    "a2c47c2f5eb4": {
+     "id": "a2c47c2f5eb4",
+     "title": "Executives wary of tariff effect on exports",
+     "zh": "企业界担忧美国关税对泰国出口造成冲击",
+     "short": "泰商界担忧美关税冲击",
+     "url": "https://www.bangkokpost.com/business/general/3362039/executives-wary-of-tariff-effect-on-exports",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:35:00.000Z",
+     "sum": "美国拟对泰国出口商品征收关税，尽管税率与竞争对手相若，但商界警告这仍将拖累未来的出口表现。分析指出，受贸易保护主义影响，泰国明年的经济增长动能可能明显放缓。企业正敦促政府争取更有利的双边关税条件。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "8aa65f9d2fbf": {
+     "id": "8aa65f9d2fbf",
+     "title": "Thailand shifts focus to investment-led growth",
+     "zh": "泰国转向投资驱动型增长以应对贸易战",
+     "short": "泰国转向投资驱动增长",
+     "url": "https://www.bangkokpost.com/business/general/3361974/thailand-shifts-focus-to-investmentled-growth",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T22:26:00.000Z",
+     "sum": "面对全球贸易战和经济碎片化加剧，泰国政府决定将发展重心转向投资驱动型增长。当局承诺积极寻求更有利的关税协议，以保障私营企业的国际竞争力。此举旨在降低供应链断裂对宏观经济带来的下行风险。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/27/6318559_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
+    },
+    "7a0bfee3dd4c": {
+     "id": "7a0bfee3dd4c",
+     "title": "Govt defends 18% US tariff proposal",
+     "zh": "泰国政府辩护18%美国关税提议",
+     "short": "泰方回应美关税提议",
+     "url": "https://www.bangkokpost.com/thailand/general/3361874/govt-defends-18-us-tariff-proposal",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T21:28:00.000Z"
+    },
+    "03bb72c6812c": {
+     "id": "03bb72c6812c",
+     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
+     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
+     "short": "新加坡配合美国芯片禁令",
+     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
+     "source": "Malay Mail",
+     "cat": "sea",
+     "published": "2026-11-25T01:45:47.000Z",
+     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
+    },
+    "c7cc931c23d4": {
+     "id": "c7cc931c23d4",
+     "title": "Stocks climb as traders shrug off latest US tariff salvo",
+     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
+     "short": "无视美关税股市上涨",
+     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
+     "source": "Free Malaysia Today",
+     "cat": "finance",
+     "published": "2026-11-26T12:50:12.000Z",
+     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "25856d3f68be": {
+     "id": "25856d3f68be",
+     "title": "特朗普新关税再将矛头指向北京，旨在削弱中国供应链优势",
+     "zh": "特朗普新关税再针对北京，意在削弱供应链优势",
+     "short": "美新关税剑指中国供应链",
+     "url": "https://cn.nytimes.com/business/20261127/trump-tariffs-asia/?utm_source=RSS",
+     "source": "纽约时报中文网",
+     "cat": "china",
+     "published": "2026-11-27T02:47:16.000Z",
+     "sum": "美国特朗普政府以产能过剩为由，推出旨在削弱中国供应链优势的新关税措施。在相关政策报告中，中国被多次提及，凸显美方意图在关键产业链上孤立中国并重塑全球贸易格局。",
+     "img": {
+      "src": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-articleLarge.jpg",
+      "credit": "纽约时报中文网",
+      "kind": "A"
+     }
+    },
+    "9a07a093bf37": {
+     "id": "9a07a093bf37",
+     "title": "ASEAN must stay open as economic nationalism rises: DPM Gan",
+     "zh": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
+     "short": "东盟须保持开放应对保护主义",
+     "url": "https://www.zaobao.com.sg/en/finance/singapore/asean-must-stay-open-economic-nationalism-rises-dpm-gan",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-27T03:45:29.000Z",
+     "sum": "新加坡副总理颜金勇指出，在经济民族主义升温之际，东盟必须保持市场开放。区域国家应通过深化经济一体化和扩大外部合作，抵御保护主义带来的负面影响。",
+     "img": {
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "credit": "联合早报",
+      "kind": "A"
+     }
+    },
+    "67a8cd60005c": {
+     "id": "67a8cd60005c",
+     "title": "ASEAN Urged to Counter Economic Nationalism",
+     "zh": "东盟受促联合应对日益加剧的经济民族主义",
+     "short": "东盟受促应对民族主义",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWtTSjhhSFd5MmVQQTI1SWt3QmxJUFJJa3p4T2tsOW9UaUJsV1prVGJyT05udTVUdHl6ejlaRTVHYnlFU2s0ajdNenR6T1NTazJFMXl2S0Z3SVMtVFpXck50RE9YanNaOTY1NllyYkhBeVR1am1ZajFTeHREWnB4RmVBQnZtNl9PVWtUbVNn?oc=5",
+     "source": "Wisevoter",
+     "cat": "sea",
+     "published": "2026-11-27T02:33:20.000Z"
+    },
+    "b02874b150e7": {
+     "id": "b02874b150e7",
+     "title": "ASEAN must counter economic nationalism with deeper integration, wider partnerships: DPM Gan",
+     "zh": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
+     "short": "星副总理吁东盟抗民粹",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQll3Z3g4RDlzRThfWXFCRUxfMVI5ZEtEcm1KNkZrVHBJendLS2NMWWVfVW5JVWYzX1ZkaFF0Vkh6dm0zMzVHM3pGNXVWU0hVU3RnNnAxLUl4SGM1VWJNaERMSkdqb2NuYWw3aFBEakpRYUkzVGNLR2QzTGdNbHh0bG5xOFZrOHFUd2lsSVN4c296cjM0ZVE2V0FEaEo5MkxhY3JyWTQtdEVFcXQ2clFxaHRVcmg4OFd1aVd5WlJoRDZmT2FneERoMHFueHE3UnJuRzlzMmpWaWM?oc=5",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-27T01:45:00.000Z"
+    },
+    "145c6e329ce1": {
+     "id": "145c6e329ce1",
+     "title": "Tan See Leng: SMEs must transform in four key areas",
+     "zh": "颜金勇：中小企业须在四大领域转型",
+     "short": "星洲部长谈中小企业转型",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUd3VFluX2NMUFVKcElZR3hSWGlkTl9DZTFZT2Mtek5vcWk5djVscnAwdF8xQ2tuQ3A2T1JNdXV2d2pNQlpLZkpVTXJRbWxKWGJmYnQwRWJ2cHJFODdBR2tSOGZHbFpOeTRDR1l1bGRBN3NZalgweTJxTFpQNW5VMEgwRExXNnNNSDV1R2RCTkVfWjlEeGduSzNn?oc=5",
+     "source": "联合早报",
+     "cat": "sea",
+     "published": "2026-11-26T13:31:10.000Z"
+    },
+    "e8f289b276e6": {
+     "id": "e8f289b276e6",
+     "title": "Upgraded FTA to unlock China-ASEAN value chain potential amid US tech curbs: Malaysian think tank chief",
+     "zh": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
+     "short": "升级自贸协定释放链条潜力",
+     "url": "https://www.globaltimes.cn/page/202611/1375138.shtml",
+     "source": "Global Times",
+     "cat": "sea",
+     "published": "2026-11-26T14:36:00.000Z",
+     "sum": "大马智库负责人指出，在面对美国科技限制的背景下，升级后的自由贸易协定将进一步释放中国与东盟之间的产业链潜力。这有助于深化区域经济合作，并为双边贸易带来新的增长机遇。相关供应链的整合可能因政策升级而更具韧性。"
+    },
+    "bfda87828f27": {
+     "id": "bfda87828f27",
+     "title": "More than a high-level diplomatic event, the ASEAN Summit is also a hot spot for investment opportunities. Take a look at some of the Philippine projects pitched to foreign investors during the summit. Know more in the latest Readout newsletter by Rappler mu",
+     "zh": "东盟峰会成投资热点，菲律宾推介重点项目",
+     "short": "东盟峰会吸金推介项目",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ2FmTWZDU3Vkc2JxWDFlekxmay1nNWUyYlV3YVduWVRJLWhkSWFmNFo5R2xReGE5dmxFaWFpOEk4QlRtdERnU2k3cUJtMHFFYklGbjlrdXdsSkFRbkphei1ERExKLUM4WUFqZGxfMFo0SUlEVnJLS1A5dE1zSmdrNVp4ZURlN3BvcVlhT2tFQnJUTkJ6QjBIN2RJc3Z5OUplUWRySEpXREZlWGdtd2xHTkZCcG42OF9sdTlKc2tfUVJBN3VJZ1VBbXZCdk4tOTEwbWt3MDRudlVJQQ?oc=5",
+     "source": "Facebook",
+     "cat": "sea",
+     "published": "2026-11-27T07:07:02.000Z"
+    },
+    "07953b093f5c": {
+     "id": "07953b093f5c",
+     "title": "Building Regional Economic Resilience by Strengthening ASEAN’s Global Value Chains",
+     "zh": "通过强化东盟全球价值链构建区域经济韧性",
+     "short": "强化东盟全球价值链",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHNCaF8yVTE1RmljWG1saThKdVZfNXR6YXF0ZGgxTWNjcXJqd0NRalFQRk1wd2dqNWtCU3VXVFlCd2RQeUlGc01PcU56MWJpRFRPZkxJam8tUkN1WkdHVnNGemF6TTRvRWZIVEFOTTRhMzQtQjBxS3FENmlZaF9GZHp4YTZvZWo0ZW16RXNFV2tPcHR1M19MbU96cWo0dGNGRTlIclhRTWdjVTk5UXUxZ3NpZnBmSjR4MlU5NUM2TQ?oc=5",
+     "source": "fulcrum.sg",
+     "cat": "sea",
+     "published": "2026-11-27T02:00:00.000Z"
+    },
+    "8ec4f3532275": {
+     "id": "8ec4f3532275",
+     "title": "Asean adopts first regional space cooperation declaration",
+     "zh": "东盟通过首个区域太空合作宣言",
+     "short": "东盟通过太空合作宣言",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTU0tZWlnYlRobzh6azlTVmhwSDBsdDlPVFVXcFVzUWZsbmtzWk03SkZIeXA4VElSd20xd1QtT28wWEtMd1lRcEhUbF9sOEV1LUtHOTlqWnBSeUJOR3FpeWN6ek5sQjhxRDlpMDZyemNJbjlEY0JRQUxpRW0za1lYd3BEN3Y1eEZvUDhGeEduZHBTUHYzU3NIcXlyUEdaN2hnOHZFWF80QllVUVlfZHd2U0NqbDh2QTRlcGxRSVZKVzEzRl9JT3YwNWoyMUxZendHNEHSAdIBQVVfeXFMT01NLWVpZ2JUaG84ems5U1ZocEgwbHQ5T1RVV3BVc1FmbG5rc1pNN0pGSHlwOFRJUndtMXdULU9vMFhLTHdZUXBIVGxfbDhFdS1LRzk5alpwUnlCTkdxaXljenpObEI4cUQ5aTA2cnpjSW45RGNCUUFMaUVtM2tZWHdwRDd2NXhGb1A4RnhHbmRwU1B2M1NzSHF5clBHWjdoZzh2RVhfNEJZVVFZX2R3dlNDamw4dkE0ZXBsUUlWSlcxM0ZfSU92MDVqMjFMWXp3RzRB?oc=5",
+     "source": "The Manila Times",
+     "cat": "sea",
+     "published": "2026-11-27T16:03:00.000Z"
+    },
+    "9cd4059447dc": {
+     "id": "9cd4059447dc",
+     "title": "Greater economic integration, peace will be success markers for S'pore as Asean chair: Vivian",
+     "zh": "维文：经济一体化与和平是新加坡任东盟主席国成功标志",
+     "short": "新加坡谈东盟主席国目标",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSTloYV9Jc1BSWnRUdGY2Yi1ETHZlMDZlNFhBMWFIVml6ZkYteXM3dm1sM1JydUlIYnFEczBKNS1CVHNYb1Q0UmQ4R1hiRHluMDRqdjlMeVFxcmI4eGpZNklsbVJDbXZITmctdW5lMXE3anctYnlPOERtRjRhUlRZSFJwOVhna2RlT3dkYlRubG8xNDhKNmtmX3BveVdXeDZmTEp3dWNYOGtKQjNEaWRYRkNnQnA5U3FqU3NWOHFveWZFQjY2WllMT0VlSDlMaS1MV3c?oc=5",
+     "source": "The Business Times",
+     "cat": "sea",
+     "published": "2026-11-27T14:32:00.000Z"
+    },
+    "6374367e5315": {
+     "id": "6374367e5315",
+     "title": "Lao Cai creates a new position on the economic corridor, reaching the status of a gateway between ASEAN and China.",
+     "zh": "老街省打造经济走廊新定位，成东盟与中国枢纽",
+     "short": "老街成东盟中国枢纽",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNE1RMDNZWlBvdVRlWUdsWk1qTVJvemRaUGpaaUE0ZVdGMElZY2NEMlh4Q05jaHM4Y2UwdmZITVB2LTFuSFdtZl9QRDJ0cGFMMENpVlA0QjBvZmtyY251QjZKV1ZnSDYzejQ2UDBYXzJyOGxoMWdBUGhUZ2R5YUhsRUh2Ykk1aEVZeldEcnl0clF6clAyNlduQ2FPT0dNRXJGdUp0Rg?oc=5",
+     "source": "Vietnam.vn",
+     "cat": "sea",
+     "published": "2026-11-27T02:41:21.000Z"
+    }
+   },
+   "name": "东盟区域合作与经济民族主义",
+   "en": "ASEAN economic integration cooperation",
+   "wiki": "Association of Southeast Asian Nations",
+   "cat": "sea",
+   "last": "2026-11-27T18:07:21.256Z",
+   "hidden": false,
+   "heat": {
+    "score": 5,
+    "sources": 19,
+    "stories": 22,
+    "gdelt": null,
+    "wiki": {
+     "title": "Association of Southeast Asian Nations",
+     "views": 93,
+     "ratio": 0.3
+    },
+    "at": "2026-11-27T18:10:26.660Z"
+   },
+   "short": "东盟应对经济民族主义",
+   "key": "东盟深化区域整合抵御全球关税冲击",
+   "overview": "面对美国拟对多国加征新关税及加剧的经济民族主义，东盟呼吁深化区域整合并推进中国东盟自贸协定3.0版，以提升供应链韧性。",
+   "minorText": [
+    "交易员无视美国最新关税冲击推动股市上涨"
+   ],
+   "links": [
+    {
+     "from": "53aaaa61-2",
+     "to": "53aaaa61-1",
+     "t": "泰国企业界对美国拟议的新关税表现出出口受阻的担忧。"
+    },
+    {
+     "from": "53aaaa61-3",
+     "to": "53aaaa61-1",
+     "t": "颜金勇指出东盟需深化区域整合，以应对美国等外部带来的经贸冲击。"
+    }
+   ],
+   "img": {
+    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+    "credit": "BBC Business",
+    "kind": "A"
+   }
+  },
+  {
+   "id": "83cfaa42",
+   "first": "2026-11-25T22:26:29.968Z",
+   "lines": [
+    {
+     "id": "83cfaa42-1",
+     "t": "哥伦比亚发生汽车炸弹袭击",
+     "ids": [
+      "f37901791947",
+      "b7670f6d932b",
+      "993e98885a52",
+      "9611067fd591"
+     ],
+     "w": {
+      "short": "哥国发生汽车炸弹袭击",
+      "key": "哥伦比亚梅塔省发生汽车炸弹袭击事件",
+      "title": "哥伦比亚发生汽车炸弹袭击造成建筑损毁",
+      "summary": "哥伦比亚中部城市比利亚维森西奥发生了一起汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损。目前总统表示暂未有伤亡确认，并将其归咎于贩毒集团的报复。当局正持续应对该国面临的严重犯罪暴力浪潮。",
+      "common": [
+       {
+        "t": "哥伦比亚发生汽车炸弹袭击事件。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击目标涉及梅塔省州长办公室。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "袭击导致当地建筑损毁并出现大弹坑，居民在混乱中走避。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚无人员伤亡的确切证实。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "哥伦比亚安全局势恶化及打击毒品犯罪的成效受到国际关注。"
+      },
+      "people": [
+       "Abelardo de la Espriella"
+      ],
+      "photo": "car bomb rubble",
+      "per": [
+       {
+        "id": "f37901791947",
+        "t": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+        "says": "提及哥伦比亚相关局势但未详述炸弹袭击细节。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7670f6d932b",
+        "t": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+        "says": "报道了哥伦比亚发生的另一起安全事件。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "993e98885a52",
+        "t": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+        "says": "比利亚维森西奥发生汽车炸弹袭击，梅塔省州长办公室受损，总统将其归咎于毒贩。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       },
+       {
+        "id": "9611067fd591",
+        "t": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+        "says": "简要报道了梅塔省州长办公室遭遇汽车炸弹袭击。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "8176ed19",
+     "v": 2,
+     "at": "2026-11-25T22:27:44.271Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795567656.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "83cfaa42-2",
+     "t": "沙特炼油厂遭袭与国际谴责",
+     "ids": [
+      "3fa3e0a7f7a9",
+      "1ec37a1640c8",
+      "e47d5a36d07a"
+     ],
+     "w": {
+      "short": "沙特炼油厂遭袭",
+      "key": "沙特炼油厂遭袭引发国际谴责与盟友安全承诺",
+      "title": "沙特炼油厂遭袭致人死伤 多国谴责胡塞武装",
+      "summary": "沙特吉赞省的一处石油炼油厂遭到袭击，造成人员伤亡并引发火灾，部分运营暂停。多国高级官员对此类持续袭击予以强烈谴责，并重申支持沙特维护国家安全。",
+      "common": [
+       {
+        "t": "沙特炼油厂遭到袭击",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "谴责胡塞武装袭击",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "袭击导致1名尼泊尔籍工人死亡数人受伤",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "巴基斯坦、沙特和土耳其官员在伊斯兰堡会晤并发表谴责声明",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚具体的各方应对和制裁措施细节。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "中东冲突加剧引发国际社会对地区能源设施与安全的担忧。"
+      },
+      "people": [
+       "Ishaq Dar"
+      ],
+      "photo": "oil refinery",
+      "per": [
+       {
+        "id": "3fa3e0a7f7a9",
+        "t": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
+        "says": "沙特吉赞省炼油厂遭空中项目袭击引发火灾，导致1名尼泊尔工人死亡及数人受伤，部分运营暂停。",
+        "same": [
+         "炼油厂遭袭",
+         "胡塞武装"
+        ],
+        "view": null
+       },
+       {
+        "id": "1ec37a1640c8",
+        "t": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
+        "says": "巴基斯坦、沙特和土耳其官员举行会晤，强烈谴责胡塞武装持续袭击沙特，并承诺捍卫沙特安全。",
+        "same": [
+         "谴责袭击",
+         "沙特"
+        ],
+        "view": null
+       },
+       {
+        "id": "e47d5a36d07a",
+        "t": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
+        "says": "探讨英国在也门胡塞武装袭击沙特背景下的动作。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2aa729c1",
+     "v": 2,
+     "at": "2026-11-27T18:08:27.128Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8e446b56-3b15-4f2c-85dd-4e26a9333459-damage-mosque-in-Jazan-AFP-pic-271126-1.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "83cfaa42-3",
+     "t": "科威特袭击事件及外交反应",
+     "ids": [
+      "048b74bcf53a",
+      "eeddf84bd0b2",
+      "d77d50f6cddf"
+     ],
+     "w": {
+      "short": "科威特袭击致死",
+      "key": "科威特设施遭无人机袭击导致两名意大利人丧生",
+      "title": "科威特袭击事件引发外交反应与各方表态",
+      "summary": "科威特的一处重要设施遭到无人机袭击，造成两名受雇于德国防务公司的意大利技工死亡。科威特外交部为此召见了伊朗大使并递交抗议信，而伊朗则否认与该起袭击事件有任何关联。",
+      "common": [
+       {
+        "t": "科威特一处设施遭到袭击造成两名意大利人死亡。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "科威特就袭击事件召见了伊朗大使。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "伊朗官方否认涉及这起造成人员伤亡的袭击。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "意大利媒体引述调查指出，袭击所使用的无人机为伊朗制造，且当地有伊朗代理人发动袭击的记录。",
+        "src": "BBC World"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "科威特认为此次袭击是持续遭受伊朗侵略的一部分。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "伊朗外交部长形容该事件看起来十分可疑，并称其像是预谋引发战争的方案。"
+       }
+      ],
+      "unknown": "目前袭击事件的具体幕后黑手与最终原因仍在调查确定中。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "中东冲突与海湾局势升级，引发国际社会对区域大战的担忧。"
+      },
+      "people": [
+       "Mohammad Totonji",
+       "Abbas Araghchi"
+      ],
+      "photo": "drone attack site",
+      "per": [
+       {
+        "id": "048b74bcf53a",
+        "t": "科威特就持续遭受袭击召见伊朗大使",
+        "says": "科威特外交部召见伊朗大使抗议持续袭击，并针对无人机袭击导致两名意大利人丧生一事递交抗议信。",
+        "same": [
+         "召见伊朗大使",
+         "两名意大利人死亡"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "eeddf84bd0b2",
+        "t": "科威特重要设施遭袭致两名意大利人死亡",
+        "says": "报道了科威特重要设施遭到袭击并导致两名意大利人死亡的消息。",
+        "same": [
+         "两名意大利人死亡"
+        ],
+        "view": null
+       },
+       {
+        "id": "d77d50f6cddf",
+        "t": "科威特袭击致两名意大利技工身亡",
+        "says": "遇难者为德国防务公司技术人员，科威特与意大利将袭击归咎于伊朗，但伊朗否认并表示愿意合作查明真相。",
+        "same": [
+         "两名意大利人死亡",
+         "伊朗否认责任"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "2fc03184",
+     "v": 2,
+     "at": "2026-11-27T18:08:39.492Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [
+    "1750853b8f8d",
+    "21cb030d8b53",
+    "16d0c819285a"
+   ],
+   "stories": {
+    "f37901791947": {
+     "id": "f37901791947",
+     "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
+     "zh": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+     "short": "中国批台湾议员访美",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVJxOW1wNktNNlY0TkNfX1hiZWdGS05sNndkNmZDdWk4UWRVTjlnYVpaSUdQSk1sZll5c01JdUN1MnV5ODBnbjgxUk9jTnZiWXk0YmUzc08zY2liSldpRGczRzVWVDBIREFxaDdyT0hDS05NQ1hhdlZmZHEyNGt6RHh5bXF4ejJNbTYtbFJUY3NzWTlhdV9Hazh6clFFaDRNTGNhZGNYcVpjSUY4SmtJM2xLd0dnUG51WE9Femdyc1VDZDhocGp4Y1FWWnPSAcwBQVVfeXFMTkI4eFhza1hhcXRoWG1adTZiWWoyVmRfTlItODQ2clh3aFJPd0VIMksyRHhiUzlkX2ROcnV6c3V5dF9ISXpXQzkzdDZ0Y3YtNXEzSUtsZUVwNkpVdlBpa1pKcmdaYmdDTGhzRERwNFVkU0VkUmhRWi1HYmYtVkczT2FyTktpZV83OUdiV2RXOWNlbEdkcUZKWDFhdVRMSEZoZFhPaHhJNms3Z2VpdHp2LTlQZHNJQXNNeGhLWnRDNzBhZE1JU3c4TWtOVzFq?oc=5",
+     "source": "South China Morning Post",
+     "cat": "china",
+     "published": "2026-11-25T19:52:34.000Z"
+    },
+    "b7670f6d932b": {
+     "id": "b7670f6d932b",
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "zh": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+     "short": "哥伦比亚超市劫持",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T00:49:35.000Z"
+    },
+    "993e98885a52": {
+     "id": "993e98885a52",
+     "title": "Car bomb destroys buildings in Colombia’s Villavicencio",
+     "zh": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+     "short": "哥伦比亚汽车炸弹袭击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/24/car-bomb-destroys-buildings-in-colombia-s-villavicencio",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-24T05:12:50.000Z"
+    },
+    "9611067fd591": {
+     "id": "9611067fd591",
+     "title": "Car bomb strikes governor’s office in Meta, Colombia",
+     "zh": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+     "short": "哥伦比亚遭炸弹袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-24T04:49:31.000Z"
+    },
+    "3fa3e0a7f7a9": {
+     "id": "3fa3e0a7f7a9",
+     "title": "Pekerja maut, loji minyak di Saudi diserang",
+     "zh": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
+     "short": "沙特炼油厂遭袭击",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/pekerja-maut-loji-minyak-di-saudi-diserang",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-27T02:33:26.000Z",
+     "sum": "沙特阿拉伯吉赞省的一处石油炼油厂遭到袭击，事件造成人员伤亡并有多人受伤。这引发了国际社会对中东能源供应安全的担忧。"
+    },
+    "1ec37a1640c8": {
+     "id": "1ec37a1640c8",
+     "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+     "zh": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
+     "short": "多国谴责胡塞袭击",
+     "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T17:41:24.000Z"
+    },
+    "e47d5a36d07a": {
+     "id": "e47d5a36d07a",
+     "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
+     "zh": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
+     "short": "英国制裁胡塞武装",
+     "url": "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-26T12:10:49.000Z"
+    },
+    "048b74bcf53a": {
+     "id": "048b74bcf53a",
+     "title": "Kuwait summons Iran’s ambassador over ‘continued Iranian attacks’",
+     "zh": "科威特就持续遭受袭击召见伊朗大使",
+     "short": "科威特召见伊朗大使",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/27/kuwait-summons-iran-s-ambassador-over-continued-iranian-attacks",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-27T15:10:03.000Z"
+    },
+    "eeddf84bd0b2": {
+     "id": "eeddf84bd0b2",
+     "title": "Fasiliti penting di Kuwait diserang, 2 warga Itali maut",
+     "zh": "科威特重要设施遭袭致两名意大利人死亡",
+     "short": "科威特设施遭袭两人死",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/fasiliti-penting-di-kuwait-diserang-2-warga-itali-maut",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-26T22:47:00.000Z"
+    },
+    "d77d50f6cddf": {
+     "id": "d77d50f6cddf",
+     "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+     "zh": "科威特袭击致两名意大利技工身亡",
+     "short": "科威特袭击致两意国人亡",
+     "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-26T21:17:53.000Z"
+    },
+    "1750853b8f8d": {
+     "id": "1750853b8f8d",
+     "title": "Film shows testimonies of international doctors amid Gaza genocide",
+     "zh": "纪录片揭露加沙医疗系统在战争中崩溃",
+     "short": "纪录片揭加沙医疗崩溃",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-26T13:02:24.000Z"
+    },
+    "21cb030d8b53": {
+     "id": "21cb030d8b53",
+     "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
+     "zh": "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
+     "short": "加沙冬雨威胁千座避难点",
+     "url": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T21:03:51.000Z"
+    },
+    "16d0c819285a": {
+     "id": "16d0c819285a",
+     "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
+     "zh": "库什纳称加沙重建是仁慈之举",
+     "short": "美 envoy称加沙重建是善举",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T16:01:44.000Z"
+    }
+   },
+   "name": "中东冲突与海湾局势",
+   "en": "Middle East conflict Saudi oil attack",
+   "wiki": "Red Sea crisis",
+   "cat": "world",
+   "last": "2026-11-27T18:07:21.256Z",
+   "hidden": false,
+   "short": "中东冲突与海湾局势",
+   "key": "沙特与科威特设施接连遭袭",
+   "overview": "沙特吉赞省炼油厂与科威特重要设施相继遭到袭击并造成人员伤亡，引发国际社会强烈谴责与外交抗议。",
+   "minorText": [
+    "纪录片揭露加沙医疗系统在战争中崩溃",
+    "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
+    "库什纳称加沙重建是仁慈之举"
+   ],
+   "links": [
+    {
+     "from": "83cfaa42-3",
+     "to": "83cfaa42-2",
+     "t": "科威特袭击事件与沙特炼油厂遭袭事件均受到地区国家的密切关注与强烈谴责"
+    }
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 13,
+    "gdelt": null,
+    "wiki": {
+     "title": "Red Sea crisis",
+     "views": 291,
+     "ratio": 0.9
+    },
+    "at": "2026-11-27T18:11:16.153Z"
+   }
+  },
+  {
+   "id": "b3d30282",
+   "first": "2026-11-25T12:37:04.088Z",
+   "lines": [
+    {
+     "id": "b3d30282-1",
+     "t": "安华谈难民遣返与缅甸政策",
+     "ids": [
+      "7c80ac0e2ab5",
+      "a901cfe916ed",
+      "b4dce39ee3f3",
+      "43b1484a24fe"
+     ],
+     "w": {
+      "short": "安华谈遣返与难民政策",
+      "key": "大马计划12月遣返数千名缅甸非法移民，并指土耳其目前尚未准备好接纳1万名罗兴亚难民。",
+      "title": "安华：大马将遣返缅甸非法移民，土耳其称未准备好接纳罗兴亚难民",
+      "summary": "首相安华在国会表示，大马计划在12月通过海空遣返数千名缅甸公民，并会继续与缅甸政府合作处理难民事宜。同时，他澄清土耳其目前尚未准备好接纳大马提出的1万名罗兴亚难民安置请求。大马政府强调，由于国内难民负担沉重，将继续寻求第三方国家协助安置。",
+      "common": [
+       {
+        "t": "土耳其尚未准备好接纳1万名罗兴亚难民",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马计划在12月遣返数千名缅甸公民",
+        "src": [
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马承担了庞大的难民负担",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "安华表示12月将由缅甸政府承担费用，以飞机遣返5303人",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "安华指出与缅甸领导人的接触符合国际法院的裁决，旨在保障难民安全尊严地返回",
+        "src": "The Straits Times"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "大马将通过海空两路遣返数千名缅甸公民，以缓解国内难民带来的财务与安全压力。",
+       "sea": "涉及马来西亚与缅甸、土耳其等多国的难民安置与遣返外交政策调整。",
+       "world": "在联合国最高法院裁决缅甸对罗兴亚人实施种族灭绝背景下，引发国际社会对难民命运的关注。"
+      },
+      "people": [
+       "Anwar Ibrahim",
+       "Min Aung Hlaing"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "7c80ac0e2ab5",
+        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+        "says": "安华在国会证实土耳其无意接纳1万名罗兴亚难民，并回应了副首相阿末扎希此前言论引起的争议。",
+        "same": [
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4dce39ee3f3",
+        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+        "says": "大马宣布将于12月通过海军舰艇和飞机遣返数千名缅甸公民，同时提及国际法院对缅甸罗兴亚人的裁决。",
+        "same": [
+         "12月遣返数千缅甸人",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "43b1484a24fe",
+        "t": "安华：大马将继续就难民遣返与缅甸合作",
+        "says": "安华表示大马将继续与缅甸军政府合作遣返难民，并强调大马已无力继续承担庞大难民人口。",
+        "same": [
+         "继续与缅甸合作遣返",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "17e2c306",
+     "v": 2,
+     "at": "2026-11-25T22:27:30.245Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-2",
+     "t": "砂拉越州选举各党动态与备战",
+     "ids": [
+      "ae569676b302",
+      "0d925af2cd14",
+      "6b2a92acb011",
+      "b0c97256108b"
+     ],
+     "w": {
+      "short": "砂拉越州选各党动态",
+      "key": "砂拉越州选提名在即，多党缺席引发政坛关注",
+      "title": "砂拉越州选各党动态与备战分析",
+      "summary": "砂拉越州选即将迎来提名日，执政党GPS将竞选全部82个议席。由于多支西马政党及伊斯兰党宣布缺席，引发外界对GPS可能不战而胜取得简单多数议席的讨论。各界分析认为，西马主要政党选择不参选是为了避免激怒GPS，并在未来的联邦政权博弈中保持合作空间。",
+      "common": [
+       {
+        "t": "砂拉越政党联盟（GPS）将竞选全部82个议席。",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "国阵（BN）、伊斯兰党（PAS）、公正党（PKR）和诚信党（Amanah）已宣布不参与砂拉越州选。",
+        "src": [
+         "Malaysiakini",
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "行动党（DAP）将参选部分议席并与其他政党展开竞选布局。",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "选举委员会正就GPS可能在提名日后直接不战而胜获得多数议席的法律后果向总检察署寻求意见。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "公民社会组织Rise of Social Efforts曾警告GPS可能在提名日赢得高达44个不战而胜的议席。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "分析指出，此次州选是一场“战略停火”，旨在避免保证金损失并为第16届大选后积累政治资本。",
+        "src": "CNA Asia"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚独立人士及其他小型地方政党是否会在剩余议席中参选并改变最终的对垒格局。",
+      "impact": {
+       "my": "砂拉越州选的动态与各党布局将直接影响未来大选后的联邦政府组建与政治格局。",
+       "sea": null,
+       "world": null
+      },
+      "people": [
+       "Abang Johari Openg",
+       "Ramlan Harun"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "ae569676b302",
+        "t": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
+        "says": "选委会正向总检察署征询意见，以应对砂政盟可能在提名日后不战而胜赢得多数议席的情况。",
+        "same": [
+         "不战而胜",
+         "选委会"
+        ],
+        "view": null
+       },
+       {
+        "id": "0d925af2cd14",
+        "t": "砂拉越州选各党动向揭示政治博弈",
+        "says": "国阵、伊斯兰党、公正党和诚信党缺席砂拉越州选，为GPS腾出了运作空间，也为未来的联邦政权埋下伏笔。",
+        "same": [
+         "国阵缺席",
+         "政治博弈"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b2a92acb011",
+        "t": "政党对砂拉越州选态度谨慎",
+        "says": "主要政治联盟不愿惹恼GPS，将其视为未来联邦政府的关键造王者，此次低调参选是一场精心计算的战略退让。",
+        "same": [
+         "造王者",
+         "战略退让"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "b0c97256108b",
+        "t": "砂拉越州选：当局促各政党拉票注意电气安全",
+        "says": "",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "1966d115",
+     "v": 2,
+     "at": "2026-11-27T18:07:48.895Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/o8FECJVazmwEnDa6V-_oBtzBKAQ=/1200x0/filters:strip_exif()/file/attachments/orphans/GPS-GabunganPartiSarawakOfficial2_464043.jpg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-3",
+     "t": "潘俭伟就特赦记录录供与相关质疑",
+     "ids": [
+      "42a229084cdf",
+      "e649dae8e2ba"
+     ]
+    },
+    {
+     "id": "b3d30282-4",
+     "t": "大马空军基地毒品走私案与逮捕行动",
+     "ids": [
+      "17f545eedf45",
+      "9e3d419711cf",
+      "5bbde65fcfd5"
+     ]
+    },
+    {
+     "id": "b3d30282-5",
+     "t": "森美兰行政议员人事调整与宣誓",
+     "ids": [
+      "7ba0aa8dfd19",
+      "bbd6d5be333f",
+      "86bba50832bb"
+     ]
+    }
+   ],
+   "minor": [
+    "81fcc05204e4",
+    "4e929bbc26eb",
+    "04e2a80ab80a",
+    "f2101b83907b",
+    "9b9d283ab247"
+   ],
+   "stories": {
+    "81fcc05204e4": {
+     "id": "81fcc05204e4",
+     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
+     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
+     "short": "陆兆福细数希盟挑战",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:30:00.000Z"
+    },
+    "4e929bbc26eb": {
+     "id": "4e929bbc26eb",
+     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
+     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
+     "short": "陆兆福称州选竞争不可持续",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:29:00.000Z"
+    },
+    "04e2a80ab80a": {
+     "id": "04e2a80ab80a",
+     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
+     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
+     "short": "陆兆福谈州选竞争",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:00:00.000Z"
+    },
+    "7c80ac0e2ab5": {
+     "id": "7c80ac0e2ab5",
+     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
+     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+     "short": "土耳其暂难接难民",
+     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:29:55.000Z"
+    },
+    "a901cfe916ed": {
+     "id": "a901cfe916ed",
+     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
+     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
+     "short": "安华辩护缅甸会面",
+     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:28:10.000Z"
+    },
+    "b4dce39ee3f3": {
+     "id": "b4dce39ee3f3",
+     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
+     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+     "short": "大马将遣返缅移民",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-24T04:25:00.000Z"
+    },
+    "43b1484a24fe": {
+     "id": "43b1484a24fe",
+     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
+     "zh": "安华：大马将继续就难民遣返与缅甸合作",
+     "short": "大马续与缅甸合作",
+     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-24T04:17:50.000Z"
+    },
+    "f2101b83907b": {
+     "id": "f2101b83907b",
+     "title": "Google lambat bertindak, Anwar pertahan saman kerajaan",
+     "zh": "指谷歌处理缓慢，安华力挺政府采取法律行动",
+     "short": "安华力挺对谷歌采取行动",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/google-lambat-bertindak-anwar-pertahan-saman-kerajaan",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:02:15.000Z",
+     "sum": "马来西亚首相安华公开捍卫政府对谷歌采取法律行动的决定，批评对方对网络赌博内容的投诉长达六个月未作回应。首相强调政府打击网络犯罪的决心，绝不容许科技巨头忽视安全监管。此举显示大马政府对跨国互联网企业问责力度的加大。"
+    },
+    "9b9d283ab247": {
+     "id": "9b9d283ab247",
+     "title": "Anwar defends govt suit against Google, says tech giant slow to act",
+     "zh": "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓",
+     "short": "安华批谷歌行动迟缓",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/anwar-defends-govt-suit-against-google-says-tech-giant-slow-to-act",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:55:17.000Z",
+     "sum": "马来西亚首相安华辩护政府对谷歌提起的诉讼，批评该科技巨头对在线赌博内容的投诉反应迟缓。他指出，部分相关投诉在长达六个月的时间里未获得实质回应。"
+    },
+    "ae569676b302": {
+     "id": "ae569676b302",
+     "title": "Sarawak polls: EC prepares for possible GPS win by uncontested simple majority",
+     "zh": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
+     "short": "砂拉越选举迎无对手局面",
+     "url": "https://www.malaysiakini.com/news/889978-sarawak-polls-ec-prepares-for-possible-gps-win-by-uncontested-simple-majority",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-27T03:14:57.000Z"
+    },
+    "0d925af2cd14": {
+     "id": "0d925af2cd14",
+     "title": "Keeping the door to Kuching unlocked",
+     "zh": "砂拉越州选各党动向揭示政治博弈",
+     "short": "砂州选各党动向解析",
+     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/27/keeping-the-door-to-kuching-unlocked",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-26T23:00:00.000Z"
+    },
+    "6b2a92acb011": {
+     "id": "6b2a92acb011",
+     "title": "Why Malaysia’s political rivals are tiptoeing around Sarawak’s upcoming state polls",
+     "zh": "政党对砂拉越州选态度谨慎",
+     "short": "政党谨慎看待砂州选",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-sarawak-state-election-gps-abang-johari-ph-6584196",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-26T22:00:00.000Z"
+    },
+    "b0c97256108b": {
+     "id": "b0c97256108b",
+     "title": "Sarawak polls: Parties, campaign workers urged to observe strict electrical safety measures",
+     "zh": "砂拉越州选：当局促各政党拉票注意电气安全",
+     "short": "砂拉越州选关注安全",
+     "url": "https://www.straitstimes.com/asia/se-asia/sarawak-polls-parties-campaign-workers-urged-to-observe-strict-electrical-safety-measures",
+     "source": "The Straits Times",
+     "cat": "malaysia",
+     "published": "2026-11-27T03:45:00.000Z"
+    },
+    "42a229084cdf": {
+     "id": "42a229084cdf",
+     "title": "Pua gives statement to cops over FB post on Najib pardon minutes",
+     "zh": "潘俭伟就纳吉特赦会议记录贴文录供",
+     "short": "潘俭伟录供助查贴文",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/pua-gives-statement-to-cops-over-fb-post-on-najib-pardon-minutes",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:08:00.000Z",
+     "sum": "行动党领袖潘俭伟因脸书发布有关纳吉特赦局会议记录的贴文，遭到警方传召录供。警方主要追问他是否知道该文件已被解密。事件引发对政府机密文件处理及言论自由的讨论。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/be2f6b00-tony-pua-051124.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "e649dae8e2ba": {
+     "id": "e649dae8e2ba",
+     "title": "Pua questions police probe after giving statement over declassified pardon minutes",
+     "zh": "潘俭伟就解密特赦记录录供后质疑警方调查",
+     "short": "潘俭伟质疑警方调查",
+     "url": "https://www.malaysiakini.com/news/889998-pua-questions-police-probe-after-giving-statement-over-declassified-pardon-minutes",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:53:51.000Z"
+    },
+    "17f545eedf45": {
+     "id": "17f545eedf45",
+     "title": "Another RMAF officer nabbed in drugs probe",
+     "zh": "另一名大马皇家空军军官因涉毒案被捕",
+     "short": "又一空军军官涉毒被捕",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/another-rmaf-officer-nabbed-in-drugs-probe",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T15:25:00.000Z"
+    },
+    "9e3d419711cf": {
+     "id": "9e3d419711cf",
+     "title": "5 lagi termasuk 1 pegawai TUDM ditahan berkait kes seludup dadah",
+     "zh": "大马警方再捕5人包括1空军官员涉毒品走私",
+     "short": "5人涉毒走私被捕",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/5-lagi-termasuk-1-pegawai-tudm-ditahan-berkait-kes-seludup-dadah",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T14:34:49.000Z"
+    },
+    "5bbde65fcfd5": {
+     "id": "5bbde65fcfd5",
+     "title": "Three Malaysian air force officers charged with trafficking 96.2kg of meth at Selangor airbase",
+     "zh": "三名大马空军官兵涉嫌在雪兰莪空军基地走私96.2公斤冰毒被控",
+     "short": "三空军涉贩毒被控",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-air-force-officers-charged-drug-trafficking-death-penalty-6587031",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:48:00.000Z"
+    },
+    "7ba0aa8dfd19": {
+     "id": "7ba0aa8dfd19",
+     "title": "6 new exco members to hold at least 2 portfolios each, says MB",
+     "zh": "森美兰6名新行政议员料各兼两职",
+     "short": "森州新行政议员兼职",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/6-new-exco-members-to-hold-at-least-2-portfolios-each-says-mb",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:15:00.000Z"
+    },
+    "bbd6d5be333f": {
+     "id": "bbd6d5be333f",
+     "title": "Mesyuarat exco 2 kali seminggu selesai perkara tertunggak, kata Ismail",
+     "zh": "森州行政议会每周开会两次以解决积压事务",
+     "short": "森州行政议会每周两会",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/mesyuarat-exco-2-kali-seminggu-selesai-perkara-tertunggak-kata-ismail",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:56:26.000Z"
+    },
+    "86bba50832bb": {
+     "id": "86bba50832bb",
+     "title": "N Sembilan exco swearing-in tomorrow as questions linger over MB's position",
+     "zh": "森美兰行政议员明日宣誓，大臣职位动向受关注",
+     "short": "森州行政议员明日宣誓",
+     "url": "https://www.malaysiakini.com/news/889964-n-sembilan-exco-swearing-in-tomorrow-as-questions-linger-over-mbs-position",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-26T14:30:53.000Z"
+    }
+   },
+   "name": "马来西亚政治与政策",
+   "en": "Malaysia politics Anwar Ibrahim",
+   "wiki": "Politics of Malaysia",
+   "cat": "malaysia",
+   "last": "2026-11-27T18:07:21.256Z",
+   "hidden": false,
+   "short": "大马政治政策动态",
+   "key": "安华谈难民遣返，砂拉越政盟备战",
+   "overview": "首相安华宣布12月遣返缅甸难民并澄清土耳其安置立场；砂拉越州选因西马政党缺席引发GPS或不战胜的讨论。",
+   "minorText": [
+    "陆兆福指选民疲态及经济隐忧为希盟挑战",
+    "陆兆福：中央合作却在州属竞争并不可持续",
+    "陆兆福：团结政府中央合作、州选对抗不可持续",
+    "指谷歌处理缓慢，安华力挺政府采取法律行动",
+    "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓"
+   ],
+   "links": [
+    {
+     "from": "b3d30282-1",
+     "to": "b3d30282-2",
+     "t": "安华在国会回应了副首相阿末扎希此前言论引起的争议，而阿末扎希所属的国阵在砂拉越州选中缺席。"
+    }
+   ],
+   "img": {
+    "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+    "credit": "Malaysiakini",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 21,
+    "gdelt": null,
+    "wiki": {
+     "title": "Politics of Malaysia",
+     "views": 53,
+     "ratio": 0.9
+    },
+    "at": "2026-11-27T18:11:32.655Z"
+   }
+  },
+  {
+   "id": "f4bb4b75",
+   "first": "2026-11-21T03:41:42.627Z",
+   "lines": [
+    {
+     "id": "f4bb4b75-1",
+     "t": "基辅等地遭空袭与伤亡",
+     "ids": [
+      "f5aa2c1600b1",
+      "6fca891ece5d",
+      "968b51712184",
+      "b4d8b1b930db",
+      "dfff6b708f3a",
+      "1425c009d761",
+      "80605099f5e4",
+      "c06f290ca0b1",
+      "1204031f81c5",
+      "b0b72e86c2bd",
+      "286cc01f5f7e",
+      "aedff471d118",
+      "ecdeb85fd175",
+      "cbeed7399dad",
+      "865fef802953",
+      "53635033745f",
+      "c689898babc6",
+      "4bd1bf6c7ec7",
+      "20e9d0df2d48",
+      "969b3e367a9a",
+      "fc13a5c4dd16",
+      "06b2152cf892"
+     ],
+     "w": {
+      "short": "俄导弹空袭基辅等多地",
+      "key": "俄罗斯导弹空袭基辅造成死伤并引发国际关注。",
+      "title": "俄罗斯导弹空袭基辅等多地 造成人员死伤并波及使馆",
+      "summary": "俄罗斯对乌克兰基辅等多地发动大规模导弹和无人机空袭，桥梁与居民设施受损，造成多人死伤。事件引发国际社会高度关注与谴责，并波及部分欧洲国家使馆。同时，有报道指导弹落入波兰境内引发区域紧张。",
+      "common": [
+       {
+        "t": "俄罗斯对基辅发动导弹空袭。",
+        "src": [
+         "BBC World",
+         "France 24",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击造成人员死伤。",
+        "src": [
+         "BBC World",
+         "AP News"
+        ]
+       },
+       {
+        "t": "俄罗斯导弹击中波兰领土。",
+        "src": [
+         "AP News",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "空袭波及外国使馆设施。",
+        "src": [
+         "France 24",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "法国正寻求召开联合国安理会紧急会议商讨局势。",
+        "src": "France 24"
+       },
+       {
+        "t": "俄罗斯攻击基辅是为了报复克里米亚大桥受损。",
+        "src": "BBC World"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "AP News"
+        ],
+        "t": "北约称导弹落入波兰境内是明显的违约行为。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "波兰官方将导弹击中领土事件形容为来自莫斯科的挑衅。"
+       }
+      ],
+      "unknown": "目前尚不清楚导弹落入波兰境内的完整细节及后续影响。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "俄罗斯对乌克兰发动大规模导弹空袭并波及波兰领土，进一步加剧了欧洲地缘政治紧张局势与国际安全担忧。"
+      },
+      "people": [
+       "Volodymyr Zelenskyy",
+       "Vladimir Putin"
+      ],
+      "photo": "missile strike damage",
+      "per": [
+       {
+        "id": "80605099f5e4",
+        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
+        "says": "俄罗斯导弹近日落入波兰境内，北约称此为明显的违约行为，加剧欧洲紧张局势。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "c06f290ca0b1",
+        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+        "says": "欧洲多国军队在波兰举行演习。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "c689898babc6",
+        "t": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
+        "says": "乌克兰基辅遭到无人机袭击。",
+        "same": [
+         "基辅遭袭击"
+        ],
+        "view": null
+       },
+       {
+        "id": "f5aa2c1600b1",
+        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+        "says": "俄罗斯对基辅桥梁及多地发动大规模空袭以报复克里米亚大桥，造成人员伤亡。",
+        "same": [
+         "基辅遭空袭",
+         "造成人员死伤"
+        ],
+        "view": null
+       },
+       {
+        "id": "6fca891ece5d",
+        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+        "says": "俄罗斯导弹击中波兰领土，波兰形容其为莫斯科的挑衅。",
+        "same": [
+         "导弹落入波兰"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "968b51712184",
+        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+        "says": "基辅遭空袭波及欧洲使馆，法国寻求召开安理会紧急会议。",
+        "same": [
+         "基辅遭空袭",
+         "波及使馆"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4d8b1b930db",
+        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
+        "says": "俄罗斯对基辅桥梁发动报复性攻击。",
+        "same": [
+         "基辅遭空袭"
+        ],
+        "view": null
+       },
+       {
+        "id": "dfff6b708f3a",
+        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+        "says": "俄罗斯对基辅发动全天候攻击，导致多国使馆受损。",
+        "same": [
+         "基辅遭空袭",
+         "波及使馆"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "b1f5d93c",
+     "v": 2,
+     "at": "2026-11-24T05:54:41.111Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "f4bb4b75-2",
+     "t": "特朗普言论引发乌俄安全保证争端",
+     "ids": [
+      "acc8f3177f53",
+      "b38e5a17b7df",
+      "3a083cc0df3b",
+      "5142390aaa16",
+      "8bd76ee26afb",
+      "7018d0e3b351",
+      "b2c8270dd931",
+      "ac3f47852a51",
+      "d5f4d08731f7"
+     ],
+     "w": {
+      "short": "美俄乌安全保障分歧加剧",
+      "key": "美特使提类北约保障遭俄拒绝",
+      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
+      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
+      "common": [
+       {
+        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       },
+       {
+        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
+        "src": [
+         "Al Jazeera",
+         "Free Malaysia Today"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera"
+        ],
+        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
+       }
+      ],
+      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
+      },
+      "people": [
+       "Donald Trump",
+       "Vladimir Putin"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "b38e5a17b7df",
+        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
+        "same": [
+         "美俄领导人会晤",
+         "削减军援基辅"
+        ],
+        "view": null
+       },
+       {
+        "id": "3a083cc0df3b",
+        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
+        "same": [
+         "类北约保障",
+         "马克龙提北约",
+         "美俄中国会晤"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "8bd76ee26afb",
+        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
+        "same": [
+         "拒绝北约保障",
+         "马克龙提北约",
+         "欧洲特使赴俄"
+        ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ac3f47852a51",
+        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
+        "same": [
+         "欧洲防务开支",
+         "拒绝领土割让"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "e0733d78",
+     "at": "2026-11-21T22:17:32.053Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     },
+     "v": 2
+    },
+    {
+     "id": "f4bb4b75-3",
+     "t": "泽连斯基警告俄军袭击并敦促施压",
+     "ids": [
+      "1cf14ec2e93b",
+      "a7df677691a6",
+      "9f40c2b1c24d"
+     ]
+    }
+   ],
+   "minor": [
+    "eb0a93722806",
+    "cabe3a95b498",
+    "4b6679d458d3",
+    "4f350440cb77"
+   ],
+   "stories": {
+    "f5aa2c1600b1": {
+     "id": "f5aa2c1600b1",
+     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
+     "short": "俄空袭基辅",
+     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T13:01:16.000Z",
+     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。",
+     "_img": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg"
+    },
+    "6fca891ece5d": {
+     "id": "6fca891ece5d",
+     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
+     "short": "俄导弹落入波兰",
+     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-20T12:56:48.000Z",
+     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
+    },
+    "968b51712184": {
+     "id": "968b51712184",
+     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
+     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
+     "short": "俄空袭基辅击中欧洲使馆",
+     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-20T12:04:16.000Z",
+     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
+    },
+    "b4d8b1b930db": {
+     "id": "b4d8b1b930db",
+     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
+     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
+     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:54:00.000Z",
+     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
+    },
+    "dfff6b708f3a": {
+     "id": "dfff6b708f3a",
+     "title": "Russia’s day-long attack on Kyiv damages embassies",
+     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T08:56:08.000Z",
+     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
+    },
+    "1425c009d761": {
+     "id": "1425c009d761",
+     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
+     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
+     "short": "波兰谴责俄侵犯领空",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T11:45:35.000Z"
+    },
+    "acc8f3177f53": {
+     "id": "acc8f3177f53",
+     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
+     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
+     "short": "美伊外交谈判遇阻",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T01:21:44.000Z",
+     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "b38e5a17b7df": {
+     "id": "b38e5a17b7df",
+     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
+     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
+     "short": "泽连斯基斥普京为杀手",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T23:25:36.000Z",
+     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
+    },
+    "3a083cc0df3b": {
+     "id": "3a083cc0df3b",
+     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
+     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
+     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T11:01:51.000Z",
+     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
+    },
+    "5142390aaa16": {
+     "id": "5142390aaa16",
+     "title": "Pakistan minister visits India for first time since 2025 war",
+     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
+     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-20T09:11:57.000Z",
+     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
+    },
+    "8bd76ee26afb": {
+     "id": "8bd76ee26afb",
+     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
+     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-20T09:08:29.000Z",
+     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
+    },
+    "7018d0e3b351": {
+     "id": "7018d0e3b351",
+     "title": "3-way summit offers little hope for peace in Ukraine",
+     "zh": "乌克兰三方峰会难为和平带来希望",
+     "short": "乌克兰三方峰会难寻和平",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:58:52.000Z"
+    },
+    "b2c8270dd931": {
+     "id": "b2c8270dd931",
+     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
+     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
+     "short": "德政要称雅尔塔模式无用",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
+     "source": "NHKニュース",
+     "cat": "world",
+     "published": "2026-11-20T11:47:21.000Z"
+    },
+    "80605099f5e4": {
+     "id": "80605099f5e4",
+     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
+     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
+     "short": "俄导弹落入波兰",
+     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T22:15:00.000Z",
+     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
+    },
+    "c06f290ca0b1": {
+     "id": "c06f290ca0b1",
+     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
+     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
+     "short": "11国欧洲军队波兰演习",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-20T19:47:00.000Z"
+    },
+    "b0b72e86c2bd": {
+     "id": "b0b72e86c2bd",
+     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
+     "short": "俄袭击乌总统家乡",
+     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:56:39.000Z",
+     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
+    },
+    "286cc01f5f7e": {
+     "id": "286cc01f5f7e",
+     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
+     "short": "俄狂轰基辅致7死",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T18:42:38.000Z",
+     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "aedff471d118": {
+     "id": "aedff471d118",
+     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
+     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
+     "short": "俄导弹袭泽连斯基家乡",
+     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T19:55:07.000Z"
+    },
+    "cbeed7399dad": {
+     "id": "cbeed7399dad",
+     "title": "Russia strikes Zelenskyy's hometown, killing 2",
+     "zh": "俄军空袭泽连斯基家乡致2人死亡",
+     "short": "俄军空袭泽连斯基家乡",
+     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+     "source": "DW",
+     "cat": "world",
+     "published": "2026-11-21T14:44:00.000Z"
+    },
+    "ecdeb85fd175": {
+     "id": "ecdeb85fd175",
+     "title": "Emergency crews in Ukraine hit by a double-tap strike",
+     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
+     "short": "乌救援队遭俄军二次空袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-21T07:12:03.000Z"
+    },
+    "1204031f81c5": {
+     "id": "1204031f81c5",
+     "title": "Russia tests NATO’s eastern defences",
+     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
+     "short": "俄导弹疑似落入波兰",
+     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-21T12:50:35.000Z",
+     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
+    },
+    "ac3f47852a51": {
+     "id": "ac3f47852a51",
+     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
+     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
+     "short": "特朗普不满欧洲援乌",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-21T15:15:30.000Z",
+     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "d5f4d08731f7": {
+     "id": "d5f4d08731f7",
+     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
+     "short": "特朗普称普京朋友泽连斯基驳斥",
+     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-21T08:10:25.000Z",
+     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
+      "credit": "BBC World",
+      "kind": "A"
+     }
+    },
+    "4bd1bf6c7ec7": {
+     "id": "4bd1bf6c7ec7",
+     "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
+     "zh": "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
+     "short": "行车记录仪拍导弹袭击",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T07:59:29.000Z"
+    },
+    "c689898babc6": {
+     "id": "c689898babc6",
+     "title": "At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says",
+     "zh": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
+     "short": "基辅遭袭14人失踪",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmFwN2pYTHZEVndFX2hfN3VOQnduN3pEYnZXa2tfT1d1UGZDejk3ZU11dkwwLTdsUTltdm0taU8wTnpNTkZVV045Z3pkc0czd2FSS1lEZDhyLVVCNFJvNk9xUHR2ZUxydnAyYTJDVzd3RWIwQ1E0YjAyc2R6bkpkbkt1aThfVldjUGRKbkhXanhraVo3SkJHcHBuMmxBcXJreDhQSEx1QV9ZUXhDOHdhbmZMRkZoeVBOXzJ5ag?oc=5",
+     "source": "Reuters",
+     "cat": "world",
+     "published": "2026-11-22T09:01:43.000Z"
+    },
+    "865fef802953": {
+     "id": "865fef802953",
+     "title": "Russian strike kills 2 in Kyiv",
+     "zh": "俄罗斯空袭基辅附近公寓致2人死亡",
+     "short": "俄军空袭基辅住宅",
+     "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-22T16:23:23.000Z"
+    },
+    "53635033745f": {
+     "id": "53635033745f",
+     "title": "Ukraine says Russian strikes kill 6 in Kyiv region",
+     "zh": "乌克兰称俄罗斯空袭基辅地区导致六人死亡",
+     "short": "俄军空袭基辅致6死",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/ukraine-says-russian-strikes-kill-6-in-kyiv-region",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-22T22:44:00.000Z"
+    },
+    "20e9d0df2d48": {
+     "id": "20e9d0df2d48",
+     "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+     "zh": "乌克兰承认对利比亚附近俄舰发动无人艇袭击",
+     "short": "乌克兰袭击俄舰",
+     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-23T07:37:09.000Z",
+     "sum": "乌克兰总统泽连斯基表示，乌军在一次无人艇行动中击沉了俄罗斯军舰。这次海上袭击发生在利比亚附近海域，行动被形容为模范操作。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b03dca5ac8b-1795415205.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "969b3e367a9a": {
+     "id": "969b3e367a9a",
+     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
+     "zh": "利比亚班加西港口俄舰遭疑似无人机袭击",
+     "short": "利比亚俄舰遭袭",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "source": "The Guardian World",
+     "cat": "world",
+     "published": "2026-11-22T16:55:49.000Z"
+    },
+    "fc13a5c4dd16": {
+     "id": "fc13a5c4dd16",
+     "title": "Russian ship attacked near Benghazi in suspected drone attack",
+     "zh": "利比亚班加西港一艘俄罗斯船只遭疑似无人机袭击",
+     "short": "俄船只在利比亚遭袭",
+     "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-22T22:37:45.000Z"
+    },
+    "06b2152cf892": {
+     "id": "06b2152cf892",
+     "title": "Russian cargo ship still on fire off Finland after drone attack",
+     "zh": "俄罗斯货船遭无人机袭击后在芬兰附近海域起火",
+     "short": "俄货船遭无人机袭击起火",
+     "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-22T10:39:50.000Z"
+    },
+    "1cf14ec2e93b": {
+     "id": "1cf14ec2e93b",
+     "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+     "zh": "泽连斯基警告俄军将发动大规模袭击，特朗普敦促普京收手",
+     "short": "泽连斯基警告俄袭",
+     "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T02:14:25.000Z",
+     "sum": "乌克兰总统泽连斯基警告称俄罗斯可能发动重大袭击，与此同时美国总统特朗普敦促俄罗斯总统普京在欧洲收缩军事侵略。俄乌双方冲突面临进一步升级的风险。"
+    },
+    "a7df677691a6": {
+     "id": "a7df677691a6",
+     "title": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
+     "zh": "泽连斯基敦促美国向普京施压并质疑特朗普言论",
+     "short": "泽连斯基敦促美施压",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHZncjd6TjJOQy1tZVlWUVowZ0hBY2NWMjN2d1k3WXdzUlB4VUdlbl9kMDdLTnZ2bzY5eGlZUGFNSEQxYVNCaVNRYWlBTkZneUxoZm5ub1Q2MVd3QjFza1BJWWhiWEQ2Tk1aUE1jVlByV0h6NldmUC1NOUQ5WW5ka3pqdUFwaXI1SEd4VzNzUGNoZ2c5WG5Yd3dFeWpyY0taN3c?oc=5",
+     "source": "AP News",
+     "cat": "world",
+     "published": "2026-11-27T16:37:00.000Z"
+    },
+    "9f40c2b1c24d": {
+     "id": "9f40c2b1c24d",
+     "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+     "zh": "泽连斯基称美方过分关注中东且对俄施压不足",
+     "short": "泽连斯基批美对俄施压不足",
+     "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-26T22:49:27.000Z"
+    },
+    "eb0a93722806": {
+     "id": "eb0a93722806",
+     "title": "Poland says will create no-fly zone at Ukraine border after repeated airspace violations",
+     "zh": "波兰称将在乌克兰边境设立无人区以防领空遭侵犯",
+     "short": "波兰拟在乌边境设禁飞区",
+     "url": "https://www.france24.com/en/poland-says-will-create-no-fly-zone-at-ukraine-border-after-repeated-airspace-violations",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-25T19:22:43.000Z",
+     "sum": "波兰副国防部长宣布，鉴于俄罗斯多次侵犯其领空，波兰很快将在乌克兰边境附近建立一个无人区（禁飞区）。波兰一直坚定支持乌克兰对抗俄罗斯的入侵，并指责莫斯科企图挑衅。"
+    },
+    "cabe3a95b498": {
+     "id": "cabe3a95b498",
+     "title": "Moscow drone incursions: Poland to create no-fly zone at Ukraine border",
+     "zh": "莫斯科无人机入侵：波兰将在乌克兰边境设禁飞区",
+     "short": "波兰将在乌边境设禁飞区",
+     "url": "https://www.france24.com/en/video/20261126-moscow-drone-incursions-poland-to-create-no-fly-zone-at-ukraine-border",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-26T14:19:11.000Z"
+    },
+    "4b6679d458d3": {
+     "id": "4b6679d458d3",
+     "title": "Ukrainian laser downs Russian jet-powered drone in world first",
+     "zh": "乌克兰使用激光系统击落俄军喷气式无人机，创全球首例",
+     "short": "乌军激光首击落俄无人机",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T19:16:15.000Z",
+     "sum": "乌克兰宣称其研发的激光系统在实战中首次成功拦截并击落了一架俄罗斯的喷气式无人机。这是全球军事冲突中首次记录到激光武器击落此类空中目标的战例。"
+    },
+    "4f350440cb77": {
+     "id": "4f350440cb77",
+     "title": "‘Bear trap’: Ukraine hails new operation as Russian casualties mount",
+     "zh": "乌克兰赞扬新军事行动，“熊陷”战术致俄军伤亡上升",
+     "short": "乌赞新战术致俄伤亡",
+     "url": "https://www.aljazeera.com/news/2026/11/27/ukraine-rejects-unfavourable-compromises-as-it-frees-more-territory?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T17:13:46.000Z"
+    }
+   },
+   "name": "乌克兰战争导弹袭击",
+   "en": "Ukraine war missile drone strikes",
+   "wiki": "Russian invasion of Ukraine",
+   "cat": "world",
+   "last": "2026-11-27T18:07:21.256Z",
+   "hidden": false,
+   "short": "乌克兰多地遭导弹袭击",
+   "key": "俄大规模空袭乌克兰基辅等地，波兰领土遭落弹波及",
+   "overview": "俄罗斯对基辅等乌克兰多地发动大规模导弹与无人机空袭，造成桥梁及居民设施受损与人员伤亡，并有导弹落入波兰引发区域紧张，同时特朗普涉乌言论与安全保障构想遭多方反驳，战后和平安排陷入僵局。",
+   "minorText": [],
+   "links": [
+    {
+     "from": "f4bb4b75-1",
+     "to": "f4bb4b75-2",
+     "t": "基辅遭空袭之际，美欧正就乌克兰战后安全保障构想展开外交博弈与争端。"
+    }
+   ],
+   "img": {
+    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+    "credit": "Al Jazeera",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 3,
+    "sources": 9,
+    "stories": 31,
+    "gdelt": null,
+    "wiki": {
+     "title": "Russian strikes on Ukraine",
+     "views": 1,
+     "ratio": 0.3
+    },
+    "at": "2026-11-26T23:50:02.785Z"
+   }
+  },
+  {
    "id": "3700168d",
    "first": "2026-11-21T03:41:42.626Z",
    "lines": [
@@ -1470,7 +4022,7 @@
     },
     {
      "id": "3700168d-12",
-     "t": "英伟达暂停东南亚销售及供应链调整",
+     "t": "英伟达芯片出口限制与暂停销售",
      "ids": [
       "2487d6eb1404",
       "6ed5996d6c40",
@@ -1565,66 +4117,195 @@
     },
     {
      "id": "3700168d-13",
-     "t": "黄仁勋复任CEO与内部行为准则争议",
+     "t": "黄仁勋复任CEO引发的争议与市场震荡",
      "ids": [
       "163bef623cb7",
-      "10784dc609c4"
-     ]
-    },
-    {
-     "id": "3700168d-14",
-     "t": "亚洲国家对人工智能应用与数据中心展望",
-     "ids": [
-      "eb8986bae93d",
-      "ccf2e1d83f8c",
-      "2e0e5ef8c403",
-      "59ad89a74a18"
+      "10784dc609c4",
+      "1b72fc630f02"
      ],
      "w": {
-      "short": "人工智能与数据中心",
-      "key": "数据中心激增推动马来西亚与东盟电力需求增长",
-      "title": "人工智能与数据中心风波下马来西亚及东南亚电力需求激增",
-      "summary": "随着人工智能与数据中心的迅速发展，马来西亚及东盟地区的电力需求迎来显著增长。马来西亚正积极吸引科技巨头投资并力争成为区域人工智能枢纽，但同时也面临美国技术限制及能源供应的挑战。",
+      "short": "黄仁勋复任与美股震荡",
+      "key": "黄仁勋重返英伟达总裁引发美股与亚洲市场剧烈震荡",
+      "title": "黄仁勋复任英伟达总裁引发全球市场震荡与政治争议",
+      "summary": "英伟达总裁黄仁勳戏剧性地重返职位，不仅导致公司股价剧烈波动并震动全球人工智能产业，也引发美国总统特朗普介入干预及面临政界反弹。亚洲股市因高度依赖人工智能产业链而随之大幅波动，同时美国收紧对东南亚等地的出口管制。",
       "common": [
        {
-        "t": "马来西亚正积极发展成为区域人工智能与数据中心枢纽。",
+        "t": "黄仁勳重返英伟达总裁职位引发市场剧烈震荡。",
         "src": [
-         "The Star",
-         "Newswav"
+         "BBC 中文",
+         "Free Malaysia Today",
+         "Al Jazeera"
         ]
        },
        {
-        "t": "数据中心的快速扩张导致电力需求大幅上升。",
+        "t": "美国总统特朗普介入并推动英伟达董事会恢复黄仁勳的职务。",
         "src": [
-         "The Star",
-         "헤럴드경제"
+         "BBC 中文",
+         "Free Malaysia Today",
+         "Al Jazeera"
         ]
        }
       ],
       "single": [
        {
-        "t": "马来西亚能源转型与水利转型部指出，到2050年该国电力需求料将增加一倍以上。",
+        "t": "亚洲受人工智能热潮推动，新加坡上调今年经济增长预测。",
+        "src": "BBC 中文"
+       },
+       {
+        "t": "特朗普坚称拥有大量信息，认为黄仁勳不构成安全威胁。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "特朗普干预企业决策的举动遭到部分共和党议员的严厉反弹。",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "特朗普认为自己促成黄仁勳复职是对美国乃至世界的一件大好事。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Al Jazeera"
+        ],
+        "t": "部分共和党议员警告，特朗普介入企业事务可能打击其在保守派基础中的支持率。"
+       }
+      ],
+      "unknown": "目前尚不清楚英伟达暂停向东南亚出货是否只是一项临时措施。",
+      "impact": {
+       "my": "马来西亚兴建价值数十亿美元的數據中心，但面临美国加强晶片出口管制与审查的打击。",
+       "sea": "东南亚国家投入巨资兴建的数据中心及基建，因美国新出口管制限制算力而受到打击。",
+       "world": "全球人工智能产业及股市受英伟达風波与政治审查忧虑冲击，引发广泛震荡。"
+      },
+      "people": [
+       "Jensen Huang",
+       "Donald Trump"
+      ],
+      "photo": "microchip production line",
+      "per": [
+       {
+        "id": "163bef623cb7",
+        "t": "黄仁勳复任英伟达CEO引发市场震荡，亚洲人工智能前景备受关注",
+        "says": "黄仁勳重返英伟达总裁引发全球股市与亚洲人工智能产业链震荡，美国加强对东南亚數據中心的出口管制。",
+        "same": [
+         "黄仁勳复任",
+         "市场震荡"
+        ],
+        "view": null
+       },
+       {
+        "id": "10784dc609c4",
+        "t": "特朗普坚称英伟达总裁不构成安全威胁",
+        "says": "特朗普表示有足够信息认为黄仁勳不构成安全威胁，并认为自己促成其复职是一件大好事。",
+        "same": [
+         "特朗普介入",
+         "黄仁勳复任"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "1b72fc630f02",
+        "t": "特朗普因支持英伟达总裁回归面临共和党人严厉反弹",
+        "says": "特朗普私下联系英伟达董事会促成黄仁勳复职的罕见干预举动，招致共和党官员的严厉反弹。",
+        "same": [
+         "特朗普介入",
+         "黄仁勳复任"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "553f7254",
+     "v": 2,
+     "at": "2026-11-27T18:08:03.006Z",
+     "img": {
+      "src": "https://ichef.bbci.co.uk/news/1200/branded_zhongwen/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+      "credit": "BBC 中文",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-14",
+     "t": "亚洲对人工智能前景的押注与应用",
+     "ids": [
+      "eb8986bae93d",
+      "ccf2e1d83f8c",
+      "2e0e5ef8c403",
+      "59ad89a74a18",
+      "c485a6d7f9eb"
+     ],
+     "w": {
+      "short": "人工智能与东盟发展",
+      "key": "人工智能与数据中心成东盟及亚洲发展核心",
+      "title": "人工智能与东盟发展：驱动电力需求、经贸与区域合作",
+      "summary": "多家媒体报道指出，人工智能及数据中心的迅猛发展显著推高了亚洲尤其是东南亚地区的电力需求。马来西亚正积极布局成为区域人工智能与数据中心枢纽，吸引了大量科技投资，同时也面临美国技术限制与电网转型的挑战。此外，韩国与东盟等国正加强在人工智能议程及金融稳定方面的区域合作。",
+      "common": [
+       {
+        "t": "人工智能与数据中心驱动电力需求增长",
+        "src": [
+         "The Star",
+         "헤럴드경제"
+        ]
+       },
+       {
+        "t": "马来西亚致力于成为区域人工智能枢纽",
+        "src": [
+         "The Star",
+         "Newswav"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "美国收紧技术准入和对涉嫌走私芯片的制裁可能阻碍马来西亚的人工智能计划",
         "src": "The Star"
        },
        {
-        "t": "东盟能源中心预测，2025年至2030年间数据中心将占东盟新增电力需求的20%左右。",
-        "src": "The Star"
+        "t": "韩国提议将人工智能与金融稳定列为明年东盟加三新合作议程",
+        "src": "헤럴드경제"
+       },
+       {
+        "t": "国际数字经济协会联合创始人赞赏马来西亚在东盟的人工智能领导地位",
+        "src": "Newswav"
        }
       ],
-      "views": [],
-      "unknown": "目前尚不清楚美国更严格的技术限制对马来西亚人工智能发展的具体影响程度。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "헤럴드경제"
+        ],
+        "t": "全球人工智能投资将继续推动区域经济实现稳健增长并提振出口与投资。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "헤럴드경제"
+        ],
+        "t": "由于区域内半导体供应链的关键地位，人工智能增长的可持续性存在不确定性，需防范地缘政治等下行风险。"
+       }
+      ],
+      "unknown": null,
       "impact": {
-       "my": "数据中心快速扩张导致马来西亚电力需求剧增，政府正采取措施保障供应。",
-       "sea": "东盟多国面临数据中心带来的电力供应挑战，正探讨跨国电网一体化。",
-       "world": "科技巨头在东南亚的大规模投资受到美国对特定芯片出口限制的关注。"
+       "my": "至2050年数据中心料使马来西亚电力需求倍增，并积极吸引全球科技巨头投资，但受美国技术限制和黑名单政策影响。",
+       "sea": "数据中心快速扩张对东盟能源供应和电网基础设施构成挑战，东盟加三正探讨将人工智能纳入区域金融稳定与合作议程。",
+       "world": "全球人工智能投资潮带动亚洲供应链发展，但走私芯片疑云引发华盛顿对东南亚地区的审查与制裁。"
       },
-      "people": [],
-      "photo": "data center servers",
+      "people": [
+       "Moon Ji-seong"
+      ],
+      "photo": "data center",
       "per": [
        {
         "id": "eb8986bae93d",
         "t": "至2050年，数据中心料使马来西亚电力需求倍增",
-        "says": "马来西亚积极吸引科技巨头投资以成为人工智能枢纽，但数据中心激增导致电力需求大增，并面临美国技术限制的潜在挑战。",
+        "says": "马来西亚电力需求将因数据中心扩张而大增，吸引了各大科技巨头投资，但也面临美国技术限制与走私芯片审查的隐忧。",
         "same": [
          "电力需求倍增",
          "人工智能枢纽"
@@ -1634,47 +4315,140 @@
        {
         "id": "ccf2e1d83f8c",
         "t": "数据中心将驱动东盟电力需求增长",
-        "says": "数字基础设施的快速扩张使数据中心成为东盟电力需求增长的关键因素，推动区域加速能源转型与电网建设。",
+        "says": "区域内数字基础设施扩张使数据中心成为东盟电力需求关键驱动因素，对能源转型和电网建设提出新挑战。",
         "same": [
-         "电力需求增长",
-         "数字基础设施"
+         "电力需求增长"
         ],
         "view": null
        },
        {
         "id": "2e0e5ef8c403",
         "t": "韩国将任明年东盟加三共同主席国，推新人工智能议程",
-        "says": "韩国将在明年担任东盟加三共同主席国并推进相关人工智能议程。",
+        "says": "韩国提议将人工智能与金融稳定纳入东盟加三新合作议程，应对人工智能热潮可持续性及地缘政治的不确定性。",
         "same": [
-         "东盟人工智能"
+         "人工智能议程"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "59ad89a74a18",
         "t": "马来西亚在东盟的人工智能领导地位获赞赏",
-        "says": "马来西亚在东盟地区的人工智能领导地位获得了外界的赞赏。",
+        "says": "国际数字经济协会官员在萨巴数字峰会上赞赏马来西亚在东盟的人工智能领导地位及数字经济发展雄心。",
         "same": [
-         "人工智能领导"
+         "人工智能领导地位"
+        ],
+        "view": null
+       },
+       {
+        "id": "c485a6d7f9eb",
+        "t": "菲韩两国寻求在东盟任期后为中小企业扩大人工智能应用",
+        "says": "菲律宾与韩国寻求推动中小企业的人工智能应用。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "eb0e44dc",
+     "v": 2,
+     "at": "2026-11-27T18:07:34.160Z",
+     "img": {
+      "src": "https://apicms.thestar.com.my/uploads/images/2026/11/27/4234680.png",
+      "credit": "The Star",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "3700168d-15",
+     "t": "全球人工智能发展引发的失业与监管讨论",
+     "ids": [
+      "0535169c57aa",
+      "0b35107ec79a",
+      "6f9aabb3097a"
+     ],
+     "w": {
+      "short": "人工智能发展与监管讨论",
+      "key": "全球人工智能浪潮推动了投资与出口，但也引发了网络安全威胁、经济差距扩大及对潜在危害的责任追究讨论。",
+      "title": "全球人工智能浪潮：红利分配不均、网络攻击隐患与监管呼声",
+      "summary": "随着人工智能技术的快速发展，全球多地正密切关注其带来的经济影响与潜在风险。泰国央行指出人工智能相关投资与出口红利主要集中在少数企业，恐加剧经济鸿沟；与此同时，瑞士政府报告了针对关键基础设施的成功人工智能代理网络攻击事件；诺贝尔委员会主席也呼吁各方为人工智能的潜在危害承担人类责任。",
+      "common": [
+       {
+        "t": "多国正关注人工智能发展带来的经济影响与潜在风险。",
+        "src": [
+         "Rappler",
+         "CNA Business",
+         "Bangkok Post"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "诺贝尔委员会主席呼吁为人工智能潜在危害承担人类责任。",
+        "src": "Rappler"
+       },
+       {
+        "t": "瑞士联邦网络安全局称境内发生五起人工智能代理网络攻击，多数成功入侵系统。",
+        "src": "CNA Business"
+       },
+       {
+        "t": "泰国央行行长指出人工智能相关投资和出口红利集中于少数企业，恐加剧经济鸿沟。",
+        "src": "Bangkok Post"
+       }
+      ],
+      "views": [],
+      "unknown": "瑞士网络安全部门未透露幕后黑手细节。",
+      "impact": {
+       "my": "马来西亚企业与政府需防范类似的人工智能代理网络攻击，并关注技术红利分配以避免贫富差距扩大。",
+       "sea": "东南亚国家如泰国面临人工智能投资红利集中于大企业的问题，凸显了政策干预以实现更公平共享的必要性。",
+       "world": "全球范围内人工智能的普及伴随着关键基础设施遭人工智能代理攻击的风险，促使国际社会呼吁加强监管与人类责任承担。"
+      },
+      "people": [
+       "Vitai Ratanakorn"
+      ],
+      "photo": "AI hacking concept screen",
+      "per": [
+       {
+        "id": "0535169c57aa",
+        "t": "诺贝尔委员会主席呼吁为人工智能潜在危害承担人类责任",
+        "says": "诺贝尔委员会主席呼吁为人工智能潜在危害承担人类责任。",
+        "same": [
+         "人工智能潜在危害"
+        ],
+        "view": null
+       },
+       {
+        "id": "0b35107ec79a",
+        "t": "瑞士政府称境内发生五起人工智能代理网络攻击",
+        "says": "瑞士联邦网络安全局表示，境内发生五起针对企业和关键基础设施的人工智能代理网络攻击，其中四起成功。",
+        "same": [
+         "人工智能网络攻击"
+        ],
+        "view": null
+       },
+       {
+        "id": "6f9aabb3097a",
+        "t": "泰国央行呼吁更公平共享人工智能红利",
+        "says": "泰国央行行长表示人工智能相关投资和出口红利集中在少数企业，恐加剧经济鸿沟，呼吁更公平共享红利。",
+        "same": [
+         "人工智能红利"
         ],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "caa2b2a7",
+     "sig": "c16dbba6",
      "v": 2,
-     "at": "2026-11-27T08:06:59.953Z",
+     "at": "2026-11-27T18:08:15.658Z",
      "img": {
-      "src": "https://apicms.thestar.com.my/uploads/images/2026/11/27/4234680.png",
-      "credit": "The Star",
+      "src": "https://dam.mediacorp.sg/image/upload/s--ecWcTKgN--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-11-26T125020Z_2_LYNXNPEMAP123_RTROPTP_3_CYBERSECURITY-STOCKS.JPG?itok=fFFkP4ZG",
+      "credit": "CNA Business",
       "kind": "A"
      }
     }
    ],
    "minor": [
-    "a4c3fb2f4ae0",
-    "0b35107ec79a"
+    "a4c3fb2f4ae0"
    ],
    "stories": {
     "370e31bae833": {
@@ -3098,33 +5872,76 @@
      "source": "Newswav",
      "cat": "tech",
      "published": "2026-11-27T01:44:45.000Z"
+    },
+    "1b72fc630f02": {
+     "id": "1b72fc630f02",
+     "title": "‘Playing with fire’: Trump faces GOP backlash over Nvidia CEO’s return",
+     "zh": "特朗普因支持英伟达总裁回归面临共和党人严厉反弹",
+     "short": "特朗普挺英伟达惹议",
+     "url": "https://www.aljazeera.com/news/2026/11/27/playing-with-fire-republicans-incensed-after-trump-gets-huang-reinstated?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "tech",
+     "published": "2026-11-27T15:12:09.000Z",
+     "sum": "美国前官员警告称，特朗普支持英伟达总裁回归的立场可能招致共和党人的强烈反对。这一争议凸显了华盛顿政坛对半导体行业领袖及对华政策的复杂态度。相关言论或对未来的科技监管政策产生影响。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b0729fce3fe-1795631612.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "c485a6d7f9eb": {
+     "id": "c485a6d7f9eb",
+     "title": "Philippines, South Korea seek wider AI access for MSMEs after ASEAN chairship",
+     "zh": "菲韩两国寻求在东盟任期后为中小企业扩大人工智能应用",
+     "short": "菲韩推中小企业AI应用",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVZ6WldSTVB6M0ZuUjYzSTVEQzNrNkREMFR3bUM0UjdVTXh0TnZJMFJiX1c2eFFtcDBranJxSmhmTkRydE95eHR4WUJKamR5VXB4RllHOWF1aHdiYVlaOGFILWhUVzlkR3Y1aGZIT053NGJwSnM4V3JxMldlSEpMQkRuNUl4OXNVcmE2RXhwdnhuMEFqWTZNd2lBbEFSVkViRTdxemlpNkE?oc=5",
+     "source": "Manila Bulletin",
+     "cat": "sea",
+     "published": "2026-11-27T01:24:34.000Z"
+    },
+    "0535169c57aa": {
+     "id": "0535169c57aa",
+     "title": "Nobel Committee chair pushes human accountability for AI’s potential harms | The wRap",
+     "zh": "诺贝尔委员会主席呼吁为人工智能潜在危害承担人类责任",
+     "short": "诺贝尔主席吁防范AI危害",
+     "url": "https://www.rappler.com/video/daily-wrap/november-27-2026/",
+     "source": "Rappler",
+     "cat": "tech",
+     "published": "2026-11-27T14:00:00.000Z"
+    },
+    "6f9aabb3097a": {
+     "id": "6f9aabb3097a",
+     "title": "Call for AI benefits to be better shared across society",
+     "zh": "泰国央行呼吁更公平共享人工智能红利",
+     "short": "泰央行吁共享人工智能红利",
+     "url": "https://www.bangkokpost.com/business/general/3361969/call-for-ai-benefits-to-be-better-shared-across-society",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-26T21:35:00.000Z"
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "NVIDIA artificial intelligence chips restriction",
+   "en": "Nvidia artificial intelligence chips US export limits",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-27T08:06:19.706Z",
+   "last": "2026-11-27T18:07:21.255Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
-   "key": "英伟达卷入调查与黄仁勋复职引发全球市场震荡",
-   "overview": "全球人工智能板块近期遭遇抛售潮，叠加Anthropic上市表现不佳与美联储鹰派预期，导致全球股市大幅下挫。与此同时，英伟达因会计账目与芯片违规流入中国面临美国调查，总裁黄仁勋在美政要斡旋下闪电复职引发市场剧烈波动及对国家安全的讨论。",
-   "minorText": [],
+   "key": "黄仁勋复职与美芯片限制引发全球震荡",
+   "overview": "受人工智能板块抛售、英伟达芯片出口限制及高层动荡影响，全球股市剧烈波动。特朗普干预促使黄仁勋复职引发政商争议，同时东南亚数据中心建设面临能源压力与合规审查。",
+   "minorText": [
+    "美联邦通讯委员会批准SpaceX将人工智能数据中心部署在太空"
+   ],
    "links": [
     {
-     "from": "3700168d-1",
-     "to": "3700168d-2",
-     "t": "Anthropic的首次公开招股未能阻止人工智能相关公司的抛售潮"
+     "from": "3700168d-3",
+     "to": "3700168d-12",
+     "t": "英伟达面临调查与出口限制，暂停向东南亚销售部分先进芯片。"
     },
     {
      "from": "3700168d-7",
-     "to": "3700168d-8",
-     "t": "特朗普介入斡旋黄仁勋复职并引发国家安全与股市争议"
-    },
-    {
-     "from": "3700168d-7",
-     "to": "3700168d-10",
-     "t": "英伟达管理层变动与治理风险导致其被列入负面信用观察名单"
+     "to": "3700168d-13",
+     "t": "特朗普干预促使黄仁勋复职，引发市场震荡与政治争议。"
     }
    ],
    "img": {
@@ -3134,729 +5951,15 @@
    },
    "heat": {
     "score": 5,
-    "sources": 43,
-    "stories": 118,
+    "sources": 45,
+    "stories": 122,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
      "views": 22116,
      "ratio": 0.5
     },
-    "at": "2026-11-27T08:08:35.860Z"
-   }
-  },
-  {
-   "id": "53aaaa61",
-   "first": "2026-11-26T15:00:08.695Z",
-   "lines": [
-    {
-     "id": "53aaaa61-1",
-     "t": "美国拟对中国欧盟及巴西等加征关税",
-     "ids": [
-      "8c98ac5048d7",
-      "c06ced3b2ac5",
-      "722a67ecc5ec",
-      "02d65ac20e4b",
-      "ada496f5ff87",
-      "633c64faba59",
-      "03bb72c6812c",
-      "25856d3f68be"
-     ],
-     "w": {
-      "short": "美对多国加征关税",
-      "key": "美国宣布对中国、欧盟及东南亚等多国加征新关税",
-      "title": "美国宣布对中国欧盟等地加征新关税，意在重塑贸易关系",
-      "summary": "美国政府正式公布对包括中国、欧盟在内的多个经济体征收高达20%及以上新关税的提议，旨在应对海外补贴和产能过剩问题。中国面临较高的潜在关税，而部分亚洲国家则面临不同的税率与贸易协议压力。新关税预计将在明年正式生效，并需经过公众咨询和听证会。",
-      "common": [
-       {
-        "t": "美国计划对中国、欧盟等多国加征新关税",
-        "src": [
-         "AP News",
-         "France 24",
-         "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
-        ]
-       },
-       {
-        "t": "新关税预计将于明年初正式生效",
-        "src": [
-         "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "美方官员称新政策将为美国工人创造公平竞争环境",
-        "src": "BBC Business"
-       },
-       {
-        "t": "新加坡总理黄循财表示将在自身法律前提下协助美国执行芯片禁令",
-        "src": "Malay Mail"
-       },
-       {
-        "t": "资本经济学分析师指出新关税对区域整体影响可能有限",
-        "src": "CNBC Asia"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "AP News",
-         "France 24",
-         "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
-        ],
-        "t": "关税旨在应对海外补贴、产能过剩及削弱中国供应链优势。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
-        ],
-        "t": "关税可能推高消费价格并引发通货膨胀，同时为依赖美中的亚洲国家带来忧虑。"
-       }
-      ],
-      "unknown": "美中贸易休战协议是否会在明年1月到期后延长仍未确定。",
-      "impact": {
-       "my": "马来西亚等国面临税率可能发生变化的压力，依赖美中的亚洲国家也感到忧虑。",
-       "sea": "越南、新加坡等东南亚国家面临不同的关税税率、贸易协议压力及芯片出口管制执法配合。",
-       "world": "新关税将对中国、欧盟等全球主要贸易伙伴产生影响，并可能 dampen 全球贸易并推高物价。"
-      },
-      "people": [
-       "Donald Trump",
-       "Jamieson Greer",
-       "Lawrence Wong",
-       "Anthony Albanese"
-      ],
-      "photo": "container port",
-      "per": [
-       {
-        "id": "8c98ac5048d7",
-        "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
-        "says": "美国计划针对获补贴工厂的产品，对多国提高关税以应对竞争冲击。",
-        "same": [
-         "加征新关税"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c06ced3b2ac5",
-        "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
-        "says": "美国正式公布对14个经济体征收新关税的提议，是重塑贸易关系的动作。",
-        "same": [
-         "加征新关税",
-         "欧盟和中国"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "722a67ecc5ec",
-        "t": "美国准备对全球贸易伙伴推出新关税措施",
-        "says": "美国推出新关税措施打击主要贸易伙伴，中国面临最高关税。",
-        "same": [
-         "加征新关税",
-         "明年初生效"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "02d65ac20e4b",
-        "t": "美国加征关税施压伙伴国 迫使其签署贸易协议",
-        "says": "美国推出新关税 salvo 施压伙伴国，中国面临较高税率。",
-        "same": [
-         "加征新关税",
-         "明年初生效"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ada496f5ff87",
-        "t": "关税阴影下全球市场回升，农户忧成本",
-        "says": "全球市场在关税阴影下回升。",
-        "same": null,
-        "view": null
-       },
-       {
-        "id": "633c64faba59",
-        "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
-        "says": "美新关税对新加坡短期影响有限。",
-        "same": null,
-        "view": null
-       },
-       {
-        "id": "03bb72c6812c",
-        "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
-        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制。",
-        "same": null,
-        "view": null
-       },
-       {
-        "id": "25856d3f68be",
-        "t": "特朗普新关税再针对北京，意在削弱供应链优势",
-        "says": "美国提议对数十国加征新关税，意在削弱中国供应链优势。",
-        "same": [
-         "加征新关税",
-         "明年初生效"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "3f5d774b",
-     "v": 2,
-     "at": "2026-11-27T04:10:07.883Z",
-     "img": {
-      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
-      "credit": "CNBC Asia",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "53aaaa61-2",
-     "t": "东南亚与伙伴国对关税冲击的反应",
-     "ids": [
-      "a2c47c2f5eb4",
-      "8aa65f9d2fbf",
-      "7a0bfee3dd4c"
-     ],
-     "w": {
-      "short": "美拟征泰关税引担忧",
-      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
-      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
-      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
-      "common": [],
-      "single": [
-       {
-        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
-        "src": "Bangkok Post"
-       },
-       {
-        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
-        "src": "Bangkok Post"
-       }
-      ],
-      "views": [],
-      "unknown": "泰国最终的关税税率尚未最终确定。",
-      "impact": {
-       "my": null,
-       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
-       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
-      },
-      "people": [],
-      "photo": "container port",
-      "per": [
-       {
-        "id": "a2c47c2f5eb4",
-        "t": "企业界担忧美国关税对泰国出口造成冲击",
-        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
-        "same": [
-         "美国关税引发担忧"
-        ],
-        "view": null
-       },
-       {
-        "id": "8aa65f9d2fbf",
-        "t": "泰国转向投资驱动型增长以应对贸易战",
-        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "7a0bfee3dd4c",
-        "t": "泰国政府辩护18%美国关税提议",
-        "says": "相关报道提及泰国政府对关税提议的相关立场。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "2cf9f66e",
-     "v": 2,
-     "at": "2026-11-26T23:44:47.023Z",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "53aaaa61-3",
-     "t": "新加坡副总理颜金勇谈抗衡经济民族主义",
-     "ids": [
-      "9a07a093bf37",
-      "67a8cd60005c",
-      "b02874b150e7",
-      "145c6e329ce1"
-     ],
-     "w": {
-      "short": "颜金勇谈抗衡经济民族主义",
-      "key": "东盟须以深化区域整合与广泛伙伴关系抗衡经济民族主义。",
-      "title": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-      "summary": "新加坡副总理颜金勇指出，面对日益加剧的经济民族主义，东盟国家若在内部筑起壁垒只会限制自身发展。他呼吁东盟深化区域整合并扩大伙伴关系，同时继续与美中两国的经贸投资保持密切联系，以应对外部冲击。",
-      "common": [
-       {
-        "t": "颜金勇指出东盟必须抗衡日益加剧的经济民族主义。",
-        "src": [
-         "联合早报",
-         "Wisevoter",
-         "The Straits Times"
-        ]
-       },
-       {
-        "t": "东盟应通过深化区域整合与扩大伙伴关系来应对压力。",
-        "src": [
-         "联合早报",
-         "The Straits Times"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "颜金勇在新加坡报业控股媒体集团举办的亚洲未来峰会开幕式上发表上述谈话。",
-        "src": "联合早报"
-       },
-       {
-        "t": "中小企业必须在四大领域进行转型。",
-        "src": "联合早报"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": "对马来西亚而言，区域整合与维持对内对外开放有助于保障供应链稳定并促进跨境投资与经济发展。",
-       "sea": "东南亚国家共同抗衡经济民族主义并深化合作，能够减少对外部冲击的暴露并提供更多发展机遇。",
-       "world": "在全球范围内，大国竞争与地缘经济摩擦促使各国趋向内顾，但跨区域的贸易与伙伴关系依然是增长关键。"
-      },
-      "people": [
-       "Gan Kim Yong"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "9a07a093bf37",
-        "t": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-        "says": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义，不能在内部筑起壁垒。",
-        "same": [
-         "抗衡经济民族主义",
-         "深化区域整合"
-        ],
-        "view": null
-       },
-       {
-        "id": "67a8cd60005c",
-        "t": "东盟受促联合应对日益加剧的经济民族主义",
-        "says": "东盟各界呼吁共同合力应对不断加剧的经济民族主义挑战。",
-        "same": [
-         "经济民族主义"
-        ],
-        "view": null
-       },
-       {
-        "id": "b02874b150e7",
-        "t": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
-        "says": "颜金勇强调东盟须以更深层次的融合与广泛伙伴关系来抵御经济民族主义的影响。",
-        "same": [
-         "抗衡经济民族主义",
-         "深融合与伙伴关系"
-        ],
-        "view": null
-       },
-       {
-        "id": "145c6e329ce1",
-        "t": "颜金勇：中小企业须在四大领域转型",
-        "says": "颜金勇提出中小企业必须在四大关键领域积极推进转型。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "e6c04200",
-     "v": 2,
-     "at": "2026-11-27T08:07:11.886Z",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
-      "credit": "联合早报",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "53aaaa61-4",
-     "t": "东盟峰会与大马智库探讨产业链潜力",
-     "ids": [
-      "e8f289b276e6",
-      "bfda87828f27",
-      "07953b093f5c"
-     ],
-     "w": {
-      "short": "东盟升级自贸协定",
-      "key": "中国东盟自贸协定3.0版将释放产业链潜力",
-      "title": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
-      "summary": "中国东盟自贸协定3.0版预计于12月1日生效，大马智库指出这将推动区域内从芯片设计到人工智能制造的合作。新协议超越传统降税，将数字经济、绿色经济及供应链合作纳入框架，助力东南亚企业向更高附加值活动转型。",
-      "common": [
-       {
-        "t": "中国东盟自贸协定3.0版将带来新的合作机遇。",
-        "src": [
-         "Global Times",
-         "fulcrum.sg"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "菲律宾在东盟峰会上推介了重点投资项目。",
-        "src": "Facebook"
-       },
-       {
-        "t": "大马智库负责人指出制造业务必成为优先合作领域。",
-        "src": "Global Times"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": "马中企业可在半导体和精密制造等领域深化人工智能合作。",
-       "sea": "升级版自贸协定有助于东南亚企业融入区域和全球价值链。",
-       "world": "数字与绿色转型正在重塑全球经济竞争格局。"
-      },
-      "people": [],
-      "photo": "industrial park",
-      "per": [
-       {
-        "id": "e8f289b276e6",
-        "t": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
-        "says": "中国东盟自贸协定3.0版将深化数字和绿色经济合作，助力区域产业链升级。",
-        "same": [
-         "自贸协定3.0"
-        ],
-        "view": null
-       },
-       {
-        "id": "bfda87828f27",
-        "t": "东盟峰会成投资热点，菲律宾推介重点项目",
-        "says": "东盟峰会期间吸引投资关注，菲律宾积极推介重点项目。",
-        "same": [
-         "东盟峰会"
-        ],
-        "view": null
-       },
-       {
-        "id": "07953b093f5c",
-        "t": "通过强化东盟全球价值链构建区域经济韧性",
-        "says": "探讨了通过强化东盟全球价值链来构建区域经济韧性。",
-        "same": [
-         "全球价值链"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "bff1078d",
-     "v": 2,
-     "at": "2026-11-27T08:07:30.487Z",
-     "img": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg/960px-Pol%C3%ADgono_Industrial_de_San_Cibrao_das_Vi%C3%B1as-R%C3%BAa_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "credit": "Tfeliz · Wikimedia Commons · CC BY-SA 3.0",
-      "kind": "B"
-     }
-    }
-   ],
-   "minor": [
-    "c7cc931c23d4"
-   ],
-   "stories": {
-    "8c98ac5048d7": {
-     "id": "8c98ac5048d7",
-     "title": "US to hike tariffs on China, EU, Brazil and others over subsidized factories",
-     "zh": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
-     "short": "美拟对中欧多方加征关税",
-     "url": "https://apnews.com/article/trump-tariffs-china-european-union-367083ea32f71fd7f70029ba7df66bf0",
-     "source": "AP News",
-     "cat": "finance",
-     "published": "2026-11-25T22:06:00.000Z",
-     "sum": "美国计划针对获补贴工厂的产品，对中国、欧盟、巴西等多国及地区提高关税。此举旨在应对海外补贴制造业对美国市场带来的竞争冲击。"
-    },
-    "c06ced3b2ac5": {
-     "id": "c06ced3b2ac5",
-     "title": "US unveils proposed tariffs on major partners, including EU and China",
-     "zh": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
-     "short": "美国拟对多国征收新关税",
-     "url": "https://www.france24.com/en/us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
-     "source": "France 24",
-     "cat": "finance",
-     "published": "2026-11-25T19:15:03.000Z",
-     "sum": "美国政府在经过数月针对所谓产能过剩的调查后，正式公布了对包括欧盟和中国在内的14个经济体征收高达20%新关税的提议。这是美国总统特朗普重塑华盛顿贸易关系的又一重大动作。"
-    },
-    "722a67ecc5ec": {
-     "id": "722a67ecc5ec",
-     "title": "US preparing to unveil new tariffs on global trading partners",
-     "zh": "美国准备对全球贸易伙伴推出新关税措施",
-     "short": "美国拟对全球推新关税",
-     "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC Business",
-     "cat": "world",
-     "published": "2026-11-25T00:38:01.000Z",
-     "sum": "美国正准备对多个全球主要贸易伙伴推出新的征税措施。新关税预计将打击包括中国和欧盟在内的大型贸易伙伴。此举可能加剧全球贸易紧张局势并影响供应链。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
-      "credit": "BBC Business",
-      "kind": "A"
-     }
-    },
-    "02d65ac20e4b": {
-     "id": "02d65ac20e4b",
-     "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-     "zh": "美国加征关税施压伙伴国 迫使其签署贸易协议",
-     "short": "美关税施压贸易协议",
-     "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-     "source": "CNBC Asia",
-     "cat": "world",
-     "published": "2026-11-26T12:46:55.000Z",
-     "sum": "美国计划对多个主要贸易伙伴实施新一轮关税，同时通过提供更低税率作为诱饵，迫使各国尽快与华盛顿达成贸易协议。此举显示美国正加码利用关税作为地缘经济谈判的施压工具。全球供应链可能面临进一步重塑的压力。",
-     "img": {
-      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
-      "credit": "CNBC Asia",
-      "kind": "A"
-     }
-    },
-    "ada496f5ff87": {
-     "id": "ada496f5ff87",
-     "title": "Tariffs: Global Markets Rally as Farmers Face Trade and Cost Uncertainty",
-     "zh": "关税阴影下全球市场回升，农户忧成本",
-     "short": "关税忧虑下股市反弹",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNl92LTdVUGxjVlV6ZnFTUE9XRzF2bklEZlc4SElEUG9XVEtaMWk1dEpaRnpZcGtVdlhidXRFUThyYnJ1UVlNYzBRbmM0OUR6NlRUSGRUSktXQmJvZ2Jld0dpWVotYTJQc2NINUhuTVNqZFJ3LVRxRzF6Sm85UC04cjdCYVdKanZZVkp5c0pZOWNqUTZsa052UGtpZTMycWJFNnUxc1FhWUpjeDVtaE9Z?oc=5",
-     "source": "AgroLatam",
-     "cat": "finance",
-     "published": "2026-11-26T13:44:31.000Z"
-    },
-    "633c64faba59": {
-     "id": "633c64faba59",
-     "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
-     "zh": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
-     "short": "美新关税对新影响有限",
-     "url": "https://www.channelnewsasia.com/singapore/us-tariffs-singapore-economy-trade-6584716",
-     "source": "CNA Business",
-     "cat": "sea",
-     "published": "2026-11-26T12:50:05.000Z"
-    },
-    "a2c47c2f5eb4": {
-     "id": "a2c47c2f5eb4",
-     "title": "Executives wary of tariff effect on exports",
-     "zh": "企业界担忧美国关税对泰国出口造成冲击",
-     "short": "泰商界担忧美关税冲击",
-     "url": "https://www.bangkokpost.com/business/general/3362039/executives-wary-of-tariff-effect-on-exports",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T22:35:00.000Z",
-     "sum": "美国拟对泰国出口商品征收关税，尽管税率与竞争对手相若，但商界警告这仍将拖累未来的出口表现。分析指出，受贸易保护主义影响，泰国明年的经济增长动能可能明显放缓。企业正敦促政府争取更有利的双边关税条件。",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    },
-    "8aa65f9d2fbf": {
-     "id": "8aa65f9d2fbf",
-     "title": "Thailand shifts focus to investment-led growth",
-     "zh": "泰国转向投资驱动型增长以应对贸易战",
-     "short": "泰国转向投资驱动增长",
-     "url": "https://www.bangkokpost.com/business/general/3361974/thailand-shifts-focus-to-investmentled-growth",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T22:26:00.000Z",
-     "sum": "面对全球贸易战和经济碎片化加剧，泰国政府决定将发展重心转向投资驱动型增长。当局承诺积极寻求更有利的关税协议，以保障私营企业的国际竞争力。此举旨在降低供应链断裂对宏观经济带来的下行风险。",
-     "img": {
-      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/27/6318559_700.jpg",
-      "credit": "Bangkok Post",
-      "kind": "A"
-     }
-    },
-    "7a0bfee3dd4c": {
-     "id": "7a0bfee3dd4c",
-     "title": "Govt defends 18% US tariff proposal",
-     "zh": "泰国政府辩护18%美国关税提议",
-     "short": "泰方回应美关税提议",
-     "url": "https://www.bangkokpost.com/thailand/general/3361874/govt-defends-18-us-tariff-proposal",
-     "source": "Bangkok Post",
-     "cat": "sea",
-     "published": "2026-11-26T21:28:00.000Z"
-    },
-    "03bb72c6812c": {
-     "id": "03bb72c6812c",
-     "title": "PM Wong: Singapore will help US enforce chip curbs but uphold its own laws",
-     "zh": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
-     "short": "新加坡配合美国芯片禁令",
-     "url": "https://www.malaymail.com/news/singapore/2026/11/25/pm-wong-singapore-will-help-us-enforce-chip-curbs-but-uphold-its-own-laws/244640",
-     "source": "Malay Mail",
-     "cat": "sea",
-     "published": "2026-11-25T01:45:47.000Z",
-     "sum": "新加坡总理黄循财表示，新加坡将在符合自身法律的前提下，协助美国执行针对芯片的出口管制措施。此举平衡了大国地缘政治压力与本国法治原则。",
-     "img": {
-      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/25/376185.webp",
-      "credit": "Malay Mail",
-      "kind": "A"
-     }
-    },
-    "c7cc931c23d4": {
-     "id": "c7cc931c23d4",
-     "title": "Stocks climb as traders shrug off latest US tariff salvo",
-     "zh": "无视美国最新关税冲击 交易员推动股市上涨",
-     "short": "无视美关税股市上涨",
-     "url": "https://www.freemalaysiatoday.com/category/business/2026/11/26/stocks-climb-as-traders-shrug-off-latest-us-tariff-salvo",
-     "source": "Free Malaysia Today",
-     "cat": "finance",
-     "published": "2026-11-26T12:50:12.000Z",
-     "sum": "美国白宫针对主要贸易伙伴的新关税提案未带来额外负担，打消了市场的担忧情绪。交易员选择消化这些消息，推动股市震荡攀升。分析认为关税政策未如预期般恶化，支撑了短期市场风险偏好。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/04/22a0a77e-dstodk-exchange-frankfurt-epa-t-09_04_26.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "25856d3f68be": {
-     "id": "25856d3f68be",
-     "title": "特朗普新关税再将矛头指向北京，旨在削弱中国供应链优势",
-     "zh": "特朗普新关税再针对北京，意在削弱供应链优势",
-     "short": "美新关税剑指中国供应链",
-     "url": "https://cn.nytimes.com/business/20261127/trump-tariffs-asia/?utm_source=RSS",
-     "source": "纽约时报中文网",
-     "cat": "china",
-     "published": "2026-11-27T02:47:16.000Z",
-     "sum": "美国特朗普政府以产能过剩为由，推出旨在削弱中国供应链优势的新关税措施。在相关政策报告中，中国被多次提及，凸显美方意图在关键产业链上孤立中国并重塑全球贸易格局。",
-     "img": {
-      "src": "https://static01.nyt.com/images/2026/11/26/multimedia/26Biz-Asia-Tariffs-01-fzkq/26Biz-Asia-Tariffs-01-fzkq-articleLarge.jpg",
-      "credit": "纽约时报中文网",
-      "kind": "A"
-     }
-    },
-    "9a07a093bf37": {
-     "id": "9a07a093bf37",
-     "title": "ASEAN must stay open as economic nationalism rises: DPM Gan",
-     "zh": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-     "short": "东盟须保持开放应对保护主义",
-     "url": "https://www.zaobao.com.sg/en/finance/singapore/asean-must-stay-open-economic-nationalism-rises-dpm-gan",
-     "source": "联合早报",
-     "cat": "sea",
-     "published": "2026-11-27T03:45:29.000Z",
-     "sum": "新加坡副总理颜金勇指出，在经济民族主义升温之际，东盟必须保持市场开放。区域国家应通过深化经济一体化和扩大外部合作，抵御保护主义带来的负面影响。",
-     "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
-      "credit": "联合早报",
-      "kind": "A"
-     }
-    },
-    "67a8cd60005c": {
-     "id": "67a8cd60005c",
-     "title": "ASEAN Urged to Counter Economic Nationalism",
-     "zh": "东盟受促联合应对日益加剧的经济民族主义",
-     "short": "东盟受促应对民族主义",
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWtTSjhhSFd5MmVQQTI1SWt3QmxJUFJJa3p4T2tsOW9UaUJsV1prVGJyT05udTVUdHl6ejlaRTVHYnlFU2s0ajdNenR6T1NTazJFMXl2S0Z3SVMtVFpXck50RE9YanNaOTY1NllyYkhBeVR1am1ZajFTeHREWnB4RmVBQnZtNl9PVWtUbVNn?oc=5",
-     "source": "Wisevoter",
-     "cat": "sea",
-     "published": "2026-11-27T02:33:20.000Z"
-    },
-    "b02874b150e7": {
-     "id": "b02874b150e7",
-     "title": "ASEAN must counter economic nationalism with deeper integration, wider partnerships: DPM Gan",
-     "zh": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
-     "short": "星副总理吁东盟抗民粹",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQll3Z3g4RDlzRThfWXFCRUxfMVI5ZEtEcm1KNkZrVHBJendLS2NMWWVfVW5JVWYzX1ZkaFF0Vkh6dm0zMzVHM3pGNXVWU0hVU3RnNnAxLUl4SGM1VWJNaERMSkdqb2NuYWw3aFBEakpRYUkzVGNLR2QzTGdNbHh0bG5xOFZrOHFUd2lsSVN4c296cjM0ZVE2V0FEaEo5MkxhY3JyWTQtdEVFcXQ2clFxaHRVcmg4OFd1aVd5WlJoRDZmT2FneERoMHFueHE3UnJuRzlzMmpWaWM?oc=5",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-27T01:45:00.000Z"
-    },
-    "145c6e329ce1": {
-     "id": "145c6e329ce1",
-     "title": "Tan See Leng: SMEs must transform in four key areas",
-     "zh": "颜金勇：中小企业须在四大领域转型",
-     "short": "星洲部长谈中小企业转型",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUd3VFluX2NMUFVKcElZR3hSWGlkTl9DZTFZT2Mtek5vcWk5djVscnAwdF8xQ2tuQ3A2T1JNdXV2d2pNQlpLZkpVTXJRbWxKWGJmYnQwRWJ2cHJFODdBR2tSOGZHbFpOeTRDR1l1bGRBN3NZalgweTJxTFpQNW5VMEgwRExXNnNNSDV1R2RCTkVfWjlEeGduSzNn?oc=5",
-     "source": "联合早报",
-     "cat": "sea",
-     "published": "2026-11-26T13:31:10.000Z"
-    },
-    "e8f289b276e6": {
-     "id": "e8f289b276e6",
-     "title": "Upgraded FTA to unlock China-ASEAN value chain potential amid US tech curbs: Malaysian think tank chief",
-     "zh": "大马智库：升级版自贸协定助中国东盟释放产业链潜力",
-     "short": "升级自贸协定释放链条潜力",
-     "url": "https://www.globaltimes.cn/page/202611/1375138.shtml",
-     "source": "Global Times",
-     "cat": "sea",
-     "published": "2026-11-26T14:36:00.000Z",
-     "sum": "大马智库负责人指出，在面对美国科技限制的背景下，升级后的自由贸易协定将进一步释放中国与东盟之间的产业链潜力。这有助于深化区域经济合作，并为双边贸易带来新的增长机遇。相关供应链的整合可能因政策升级而更具韧性。"
-    },
-    "bfda87828f27": {
-     "id": "bfda87828f27",
-     "title": "More than a high-level diplomatic event, the ASEAN Summit is also a hot spot for investment opportunities. Take a look at some of the Philippine projects pitched to foreign investors during the summit. Know more in the latest Readout newsletter by Rappler mu",
-     "zh": "东盟峰会成投资热点，菲律宾推介重点项目",
-     "short": "东盟峰会吸金推介项目",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ2FmTWZDU3Vkc2JxWDFlekxmay1nNWUyYlV3YVduWVRJLWhkSWFmNFo5R2xReGE5dmxFaWFpOEk4QlRtdERnU2k3cUJtMHFFYklGbjlrdXdsSkFRbkphei1ERExKLUM4WUFqZGxfMFo0SUlEVnJLS1A5dE1zSmdrNVp4ZURlN3BvcVlhT2tFQnJUTkJ6QjBIN2RJc3Z5OUplUWRySEpXREZlWGdtd2xHTkZCcG42OF9sdTlKc2tfUVJBN3VJZ1VBbXZCdk4tOTEwbWt3MDRudlVJQQ?oc=5",
-     "source": "Facebook",
-     "cat": "sea",
-     "published": "2026-11-27T07:07:02.000Z"
-    },
-    "07953b093f5c": {
-     "id": "07953b093f5c",
-     "title": "Building Regional Economic Resilience by Strengthening ASEAN’s Global Value Chains",
-     "zh": "通过强化东盟全球价值链构建区域经济韧性",
-     "short": "强化东盟全球价值链",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOHNCaF8yVTE1RmljWG1saThKdVZfNXR6YXF0ZGgxTWNjcXJqd0NRalFQRk1wd2dqNWtCU3VXVFlCd2RQeUlGc01PcU56MWJpRFRPZkxJam8tUkN1WkdHVnNGemF6TTRvRWZIVEFOTTRhMzQtQjBxS3FENmlZaF9GZHp4YTZvZWo0ZW16RXNFV2tPcHR1M19MbU96cWo0dGNGRTlIclhRTWdjVTk5UXUxZ3NpZnBmSjR4MlU5NUM2TQ?oc=5",
-     "source": "fulcrum.sg",
-     "cat": "sea",
-     "published": "2026-11-27T02:00:00.000Z"
-    }
-   },
-   "name": "东盟区域合作与经济民族主义",
-   "en": "ASEAN economic cooperation regionalism",
-   "wiki": "Association of Southeast Asian Nations",
-   "cat": "sea",
-   "last": "2026-11-27T08:06:19.706Z",
-   "hidden": false,
-   "heat": {
-    "score": 4,
-    "sources": 16,
-    "stories": 19,
-    "gdelt": null,
-    "wiki": {
-     "title": "Association of Southeast Asian Nations",
-     "views": 93,
-     "ratio": 0.3
-    },
-    "at": "2026-11-27T08:09:25.919Z"
-   },
-   "short": "东盟应对经济民族主义",
-   "key": "东盟深化区域整合抵御全球关税冲击",
-   "overview": "面对美国拟对多国加征新关税及加剧的经济民族主义，东盟呼吁深化区域整合并推进中国东盟自贸协定3.0版，以提升供应链韧性。",
-   "minorText": [
-    "交易员无视美国最新关税冲击推动股市上涨"
-   ],
-   "links": [
-    {
-     "from": "53aaaa61-2",
-     "to": "53aaaa61-1",
-     "t": "泰国企业界对美国拟议的新关税表现出出口受阻的担忧。"
-    },
-    {
-     "from": "53aaaa61-3",
-     "to": "53aaaa61-1",
-     "t": "颜金勇指出东盟需深化区域整合，以应对美国等外部带来的经贸冲击。"
-    }
-   ],
-   "img": {
-    "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
-    "credit": "BBC Business",
-    "kind": "A"
+    "at": "2026-11-27T18:09:50.167Z"
    }
   },
   {
@@ -4205,19 +6308,16 @@
    "last": "2026-11-26T23:43:54.109Z",
    "hidden": false,
    "heat": {
-    "score": 3,
+    "score": 2,
     "sources": 5,
     "stories": 8,
-    "gdelt": {
-     "ratio": 10,
-     "share": 0.003
-    },
+    "gdelt": null,
     "wiki": {
      "title": "Cyberattack",
      "views": 223,
      "ratio": 0.6
     },
-    "at": "2026-11-27T08:09:46.765Z"
+    "at": "2026-11-27T18:10:43.152Z"
    },
    "short": "FBI等机构遭黑客袭击",
    "key": "联邦调查局与国际足联接连遭黑客攻击",
@@ -4961,1111 +7061,7 @@
     "stories": 29,
     "gdelt": null,
     "wiki": null,
-    "at": "2026-11-27T08:10:22.769Z"
-   }
-  },
-  {
-   "id": "83cfaa42",
-   "first": "2026-11-25T22:26:29.968Z",
-   "lines": [
-    {
-     "id": "83cfaa42-1",
-     "t": "哥伦比亚发生汽车炸弹袭击",
-     "ids": [
-      "f37901791947",
-      "b7670f6d932b",
-      "993e98885a52",
-      "9611067fd591"
-     ],
-     "w": {
-      "short": "哥国发生汽车炸弹袭击",
-      "key": "哥伦比亚梅塔省发生汽车炸弹袭击事件",
-      "title": "哥伦比亚发生汽车炸弹袭击造成建筑损毁",
-      "summary": "哥伦比亚中部城市比利亚维森西奥发生了一起汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损。目前总统表示暂未有伤亡确认，并将其归咎于贩毒集团的报复。当局正持续应对该国面临的严重犯罪暴力浪潮。",
-      "common": [
-       {
-        "t": "哥伦比亚发生汽车炸弹袭击事件。",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "袭击目标涉及梅塔省州长办公室。",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "袭击导致当地建筑损毁并出现大弹坑，居民在混乱中走避。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚无人员伤亡的确切证实。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "哥伦比亚安全局势恶化及打击毒品犯罪的成效受到国际关注。"
-      },
-      "people": [
-       "Abelardo de la Espriella"
-      ],
-      "photo": "car bomb rubble",
-      "per": [
-       {
-        "id": "f37901791947",
-        "t": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
-        "says": "提及哥伦比亚相关局势但未详述炸弹袭击细节。",
-        "same": [
-         "哥伦比亚"
-        ],
-        "view": null
-       },
-       {
-        "id": "b7670f6d932b",
-        "t": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
-        "says": "报道了哥伦比亚发生的另一起安全事件。",
-        "same": [
-         "哥伦比亚"
-        ],
-        "view": null
-       },
-       {
-        "id": "993e98885a52",
-        "t": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
-        "says": "比利亚维森西奥发生汽车炸弹袭击，梅塔省州长办公室受损，总统将其归咎于毒贩。",
-        "same": [
-         "汽车炸弹袭击",
-         "梅塔省州长办公室"
-        ],
-        "view": null
-       },
-       {
-        "id": "9611067fd591",
-        "t": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
-        "says": "简要报道了梅塔省州长办公室遭遇汽车炸弹袭击。",
-        "same": [
-         "汽车炸弹袭击",
-         "梅塔省州长办公室"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "8176ed19",
-     "v": 2,
-     "at": "2026-11-25T22:27:44.271Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795567656.jpg?resize=1920%2C1080&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "f37901791947": {
-     "id": "f37901791947",
-     "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
-     "zh": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
-     "short": "中国批台湾议员访美",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVJxOW1wNktNNlY0TkNfX1hiZWdGS05sNndkNmZDdWk4UWRVTjlnYVpaSUdQSk1sZll5c01JdUN1MnV5ODBnbjgxUk9jTnZiWXk0YmUzc08zY2liSldpRGczRzVWVDBIREFxaDdyT0hDS05NQ1hhdlZmZHEyNGt6RHh5bXF4ejJNbTYtbFJUY3NzWTlhdV9Hazh6clFFaDRNTGNhZGNYcVpjSUY4SmtJM2xLd0dnUG51WE9Femdyc1VDZDhocGp4Y1FWWnPSAcwBQVVfeXFMTkI4eFhza1hhcXRoWG1adTZiWWoyVmRfTlItODQ2clh3aFJPd0VIMksyRHhiUzlkX2ROcnV6c3V5dF9ISXpXQzkzdDZ0Y3YtNXEzSUtsZUVwNkpVdlBpa1pKcmdaYmdDTGhzRERwNFVkU0VkUmhRWi1HYmYtVkczT2FyTktpZV83OUdiV2RXOWNlbEdkcUZKWDFhdVRMSEZoZFhPaHhJNms3Z2VpdHp2LTlQZHNJQXNNeGhLWnRDNzBhZE1JU3c4TWtOVzFq?oc=5",
-     "source": "South China Morning Post",
-     "cat": "china",
-     "published": "2026-11-25T19:52:34.000Z"
-    },
-    "b7670f6d932b": {
-     "id": "b7670f6d932b",
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "zh": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
-     "short": "哥伦比亚超市劫持",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-25T00:49:35.000Z"
-    },
-    "993e98885a52": {
-     "id": "993e98885a52",
-     "title": "Car bomb destroys buildings in Colombia’s Villavicencio",
-     "zh": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
-     "short": "哥伦比亚汽车炸弹袭击",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/24/car-bomb-destroys-buildings-in-colombia-s-villavicencio",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-24T05:12:50.000Z"
-    },
-    "9611067fd591": {
-     "id": "9611067fd591",
-     "title": "Car bomb strikes governor’s office in Meta, Colombia",
-     "zh": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
-     "short": "哥伦比亚遭炸弹袭",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-24T04:49:31.000Z"
-    }
-   },
-   "name": "哥伦比亚发生连环爆炸袭击",
-   "en": "Colombia car bomb explosion attack",
-   "wiki": null,
-   "cat": "world",
-   "last": "2026-11-25T22:26:29.968Z",
-   "hidden": false,
-   "short": "哥伦比亚连环爆炸袭击",
-   "key": "比利亚维森西奥突发汽车炸弹袭击",
-   "overview": "哥伦比亚中部城市比利亚维森西奥发生汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损，总统将事件归咎于贩毒集团报复。",
-   "minorText": [],
-   "links": [],
-   "img": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Cityscape_Cartagena_de_Indias%2C_Colombia.jpg/960px-Cityscape_Cartagena_de_Indias%2C_Colombia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Sanalejo Photography · Wikimedia Commons · CC BY-SA 2.0",
-    "kind": "B"
-   },
-   "heat": {
-    "score": 1,
-    "sources": 3,
-    "stories": 4,
-    "gdelt": null,
-    "wiki": null,
-    "at": "2026-11-27T08:10:59.608Z"
-   }
-  },
-  {
-   "id": "b3d30282",
-   "first": "2026-11-25T12:37:04.088Z",
-   "lines": [
-    {
-     "id": "b3d30282-1",
-     "t": "安华谈难民遣返与缅甸政策",
-     "ids": [
-      "7c80ac0e2ab5",
-      "a901cfe916ed",
-      "b4dce39ee3f3",
-      "43b1484a24fe"
-     ],
-     "w": {
-      "short": "安华谈遣返与难民政策",
-      "key": "大马计划12月遣返数千名缅甸非法移民，并指土耳其目前尚未准备好接纳1万名罗兴亚难民。",
-      "title": "安华：大马将遣返缅甸非法移民，土耳其称未准备好接纳罗兴亚难民",
-      "summary": "首相安华在国会表示，大马计划在12月通过海空遣返数千名缅甸公民，并会继续与缅甸政府合作处理难民事宜。同时，他澄清土耳其目前尚未准备好接纳大马提出的1万名罗兴亚难民安置请求。大马政府强调，由于国内难民负担沉重，将继续寻求第三方国家协助安置。",
-      "common": [
-       {
-        "t": "土耳其尚未准备好接纳1万名罗兴亚难民",
-        "src": [
-         "Malaysiakini",
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       },
-       {
-        "t": "大马计划在12月遣返数千名缅甸公民",
-        "src": [
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       },
-       {
-        "t": "大马承担了庞大的难民负担",
-        "src": [
-         "Malaysiakini",
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "安华表示12月将由缅甸政府承担费用，以飞机遣返5303人",
-        "src": "CNA Asia"
-       },
-       {
-        "t": "安华指出与缅甸领导人的接触符合国际法院的裁决，旨在保障难民安全尊严地返回",
-        "src": "The Straits Times"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": "大马将通过海空两路遣返数千名缅甸公民，以缓解国内难民带来的财务与安全压力。",
-       "sea": "涉及马来西亚与缅甸、土耳其等多国的难民安置与遣返外交政策调整。",
-       "world": "在联合国最高法院裁决缅甸对罗兴亚人实施种族灭绝背景下，引发国际社会对难民命运的关注。"
-      },
-      "people": [
-       "Anwar Ibrahim",
-       "Min Aung Hlaing"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "7c80ac0e2ab5",
-        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
-        "says": "安华在国会证实土耳其无意接纳1万名罗兴亚难民，并回应了副首相阿末扎希此前言论引起的争议。",
-        "same": [
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       },
-       {
-        "id": "b4dce39ee3f3",
-        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
-        "says": "大马宣布将于12月通过海军舰艇和飞机遣返数千名缅甸公民，同时提及国际法院对缅甸罗兴亚人的裁决。",
-        "same": [
-         "12月遣返数千缅甸人",
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       },
-       {
-        "id": "43b1484a24fe",
-        "t": "安华：大马将继续就难民遣返与缅甸合作",
-        "says": "安华表示大马将继续与缅甸军政府合作遣返难民，并强调大马已无力继续承担庞大难民人口。",
-        "same": [
-         "继续与缅甸合作遣返",
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "17e2c306",
-     "v": 2,
-     "at": "2026-11-25T22:27:30.245Z",
-     "img": {
-      "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
-      "credit": "Malaysiakini",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [
-    "81fcc05204e4",
-    "4e929bbc26eb",
-    "04e2a80ab80a"
-   ],
-   "stories": {
-    "81fcc05204e4": {
-     "id": "81fcc05204e4",
-     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
-     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
-     "short": "陆兆福细数希盟挑战",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:30:00.000Z"
-    },
-    "4e929bbc26eb": {
-     "id": "4e929bbc26eb",
-     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
-     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
-     "short": "陆兆福称州选竞争不可持续",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:29:00.000Z"
-    },
-    "04e2a80ab80a": {
-     "id": "04e2a80ab80a",
-     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
-     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
-     "short": "陆兆福谈州选竞争",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:00:00.000Z"
-    },
-    "7c80ac0e2ab5": {
-     "id": "7c80ac0e2ab5",
-     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
-     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
-     "short": "土耳其暂难接难民",
-     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:29:55.000Z"
-    },
-    "a901cfe916ed": {
-     "id": "a901cfe916ed",
-     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
-     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
-     "short": "安华辩护缅甸会面",
-     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:28:10.000Z"
-    },
-    "b4dce39ee3f3": {
-     "id": "b4dce39ee3f3",
-     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
-     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
-     "short": "大马将遣返缅移民",
-     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
-     "source": "CNA Asia",
-     "cat": "malaysia",
-     "published": "2026-11-24T04:25:00.000Z"
-    },
-    "43b1484a24fe": {
-     "id": "43b1484a24fe",
-     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
-     "zh": "安华：大马将继续就难民遣返与缅甸合作",
-     "short": "大马续与缅甸合作",
-     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-24T04:17:50.000Z"
-    }
-   },
-   "name": "马来西亚政治与政策",
-   "en": "Malaysia politics government policy",
-   "wiki": "Politics of Malaysia",
-   "cat": "malaysia",
-   "last": "2026-11-25T12:37:04.088Z",
-   "hidden": false,
-   "short": "马来西亚难民与政治动态",
-   "key": "安华宣布12月遣返缅甸难民",
-   "overview": "首相安华在国会宣布大马将于12月海空遣返数千名缅甸公民，并澄清土耳其暂未接受罗兴亚难民安置请求，同时强调大马难民负担沉重。",
-   "minorText": [
-    "陆兆福指选民疲态及经济隐忧为希盟挑战",
-    "陆兆福：中央合作却在州属竞争并不可持续",
-    "陆兆福：团结政府中央合作、州选对抗不可持续"
-   ],
-   "links": [],
-   "img": {
-    "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
-    "credit": "Malaysiakini",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 2,
-    "sources": 4,
-    "stories": 7,
-    "gdelt": null,
-    "wiki": {
-     "title": "Politics of Malaysia",
-     "views": 53,
-     "ratio": 0.9
-    },
-    "at": "2026-11-27T08:11:16.234Z"
-   }
-  },
-  {
-   "id": "f4bb4b75",
-   "first": "2026-11-21T03:41:42.627Z",
-   "lines": [
-    {
-     "id": "f4bb4b75-1",
-     "t": "基辅等地遭空袭与伤亡",
-     "ids": [
-      "f5aa2c1600b1",
-      "6fca891ece5d",
-      "968b51712184",
-      "b4d8b1b930db",
-      "dfff6b708f3a",
-      "1425c009d761",
-      "80605099f5e4",
-      "c06f290ca0b1",
-      "1204031f81c5",
-      "b0b72e86c2bd",
-      "286cc01f5f7e",
-      "aedff471d118",
-      "ecdeb85fd175",
-      "cbeed7399dad",
-      "865fef802953",
-      "53635033745f",
-      "c689898babc6",
-      "4bd1bf6c7ec7",
-      "20e9d0df2d48",
-      "969b3e367a9a",
-      "fc13a5c4dd16",
-      "06b2152cf892"
-     ],
-     "w": {
-      "short": "俄导弹空袭基辅等多地",
-      "key": "俄罗斯导弹空袭基辅造成死伤并引发国际关注。",
-      "title": "俄罗斯导弹空袭基辅等多地 造成人员死伤并波及使馆",
-      "summary": "俄罗斯对乌克兰基辅等多地发动大规模导弹和无人机空袭，桥梁与居民设施受损，造成多人死伤。事件引发国际社会高度关注与谴责，并波及部分欧洲国家使馆。同时，有报道指导弹落入波兰境内引发区域紧张。",
-      "common": [
-       {
-        "t": "俄罗斯对基辅发动导弹空袭。",
-        "src": [
-         "BBC World",
-         "France 24",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "袭击造成人员死伤。",
-        "src": [
-         "BBC World",
-         "AP News"
-        ]
-       },
-       {
-        "t": "俄罗斯导弹击中波兰领土。",
-        "src": [
-         "AP News",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "空袭波及外国使馆设施。",
-        "src": [
-         "France 24",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "法国正寻求召开联合国安理会紧急会议商讨局势。",
-        "src": "France 24"
-       },
-       {
-        "t": "俄罗斯攻击基辅是为了报复克里米亚大桥受损。",
-        "src": "BBC World"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "AP News"
-        ],
-        "t": "北约称导弹落入波兰境内是明显的违约行为。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World"
-        ],
-        "t": "波兰官方将导弹击中领土事件形容为来自莫斯科的挑衅。"
-       }
-      ],
-      "unknown": "目前尚不清楚导弹落入波兰境内的完整细节及后续影响。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "俄罗斯对乌克兰发动大规模导弹空袭并波及波兰领土，进一步加剧了欧洲地缘政治紧张局势与国际安全担忧。"
-      },
-      "people": [
-       "Volodymyr Zelenskyy",
-       "Vladimir Putin"
-      ],
-      "photo": "missile strike damage",
-      "per": [
-       {
-        "id": "80605099f5e4",
-        "t": "俄罗斯导弹落入波兰境内，北约称此举违规",
-        "says": "俄罗斯导弹近日落入波兰境内，北约称此为明显的违约行为，加剧欧洲紧张局势。",
-        "same": [
-         "导弹落入波兰"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "c06f290ca0b1",
-        "t": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-        "says": "欧洲多国军队在波兰举行演习。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "c689898babc6",
-        "t": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
-        "says": "乌克兰基辅遭到无人机袭击。",
-        "same": [
-         "基辅遭袭击"
-        ],
-        "view": null
-       },
-       {
-        "id": "f5aa2c1600b1",
-        "t": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-        "says": "俄罗斯对基辅桥梁及多地发动大规模空袭以报复克里米亚大桥，造成人员伤亡。",
-        "same": [
-         "基辅遭空袭",
-         "造成人员死伤"
-        ],
-        "view": null
-       },
-       {
-        "id": "6fca891ece5d",
-        "t": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-        "says": "俄罗斯导弹击中波兰领土，波兰形容其为莫斯科的挑衅。",
-        "same": [
-         "导弹落入波兰"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "968b51712184",
-        "t": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-        "says": "基辅遭空袭波及欧洲使馆，法国寻求召开安理会紧急会议。",
-        "same": [
-         "基辅遭空袭",
-         "波及使馆"
-        ],
-        "view": null
-       },
-       {
-        "id": "b4d8b1b930db",
-        "t": "俄罗斯对基辅桥梁发动报复性轰炸",
-        "says": "俄罗斯对基辅桥梁发动报复性攻击。",
-        "same": [
-         "基辅遭空袭"
-        ],
-        "view": null
-       },
-       {
-        "id": "dfff6b708f3a",
-        "t": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-        "says": "俄罗斯对基辅发动全天候攻击，导致多国使馆受损。",
-        "same": [
-         "基辅遭空袭",
-         "波及使馆"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "b1f5d93c",
-     "v": 2,
-     "at": "2026-11-24T05:54:41.111Z",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "f4bb4b75-2",
-     "t": "特朗普言论引发乌俄安全保证争端",
-     "ids": [
-      "acc8f3177f53",
-      "b38e5a17b7df",
-      "3a083cc0df3b",
-      "5142390aaa16",
-      "8bd76ee26afb",
-      "7018d0e3b351",
-      "b2c8270dd931",
-      "ac3f47852a51",
-      "d5f4d08731f7"
-     ],
-     "w": {
-      "short": "美俄乌安全保障分歧加剧",
-      "key": "美特使提类北约保障遭俄拒绝",
-      "title": "美国提议类北约保障遭俄罗斯断然拒绝 泽连斯基抨击普京非朋友",
-      "summary": "美国特使库什纳近日在柏林与欧洲领导人会晤时，提出战后乌克兰类北约安全保障构想并称俄方对此持开放态度，但俄罗斯副外长里亚布科夫迅速驳回，坚称莫斯科绝不接受乌克兰获得准北约地位。与此同时，美国总统特朗普在中国会晤俄罗斯总统普京后盛赞双方关系，乌克兰总统泽连斯基则公开反驳称普京是杀手而非朋友。多方围困于安全保障形式与领土让步，战后和平安排仍陷僵局。",
-      "common": [
-       {
-        "t": "美国特使库什纳提出乌克兰战后享有类似北约的安全保障构想，但遭俄罗斯副外长里亚布科夫坚决拒绝，重申莫斯科不接受任何准成员国地位。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "美国总统特朗普近期在中国与俄罗斯总统普京举行了面对面会晤。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       },
-       {
-        "t": "法国总统马克龙在柏林峰会后主张应重新考虑乌克兰加入北约的议题。",
-        "src": [
-         "Al Jazeera",
-         "Free Malaysia Today"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "泽连斯基公开驳斥特朗普将普京称为朋友的言论，直指普京是敌人与杀手。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "乌克兰坚决拒绝俄罗斯提出割让顿巴斯东部地区的和平条件，但泽连斯基表示愿在二十国集团峰会上与普京直接对话。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "英国、德国和法国的特使正计划访问莫斯科，以便在决定进一步谈判前阐明立场。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Al Jazeera"
-        ],
-        "t": "美方谈判代表库什纳认为俄罗斯对战后乌克兰获得类似北约的安全保障持接受态度，并希望携手欧洲推动和谈。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "俄罗斯副外长里亚布科夫认为乌克兰获得任何形式的北约准成员国地位完全不可接受，俄方首要关切是自身安全。"
-       }
-      ],
-      "unknown": "战后乌克兰最终能否达成令美欧俄乌各方均能接受的安全保障机制尚不明确。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "大国就乌克兰战后安全机制的分歧持续，欧洲防务与全球地缘政治格局仍面临高度不确定性。"
-      },
-      "people": [
-       "Donald Trump",
-       "Vladimir Putin"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "b38e5a17b7df",
-        "t": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-        "says": "特朗普与普京在中国会晤并称赞两人良好关系，遭泽连斯基公开反驳并斥普京为杀手。",
-        "same": [
-         "美俄领导人会晤",
-         "削减军援基辅"
-        ],
-        "view": null
-       },
-       {
-        "id": "3a083cc0df3b",
-        "t": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-        "says": "美特使库什纳向欧洲盟友宣称俄方对类北约保障持开放态度，但该构想引发俄方外交官迅速反弹。",
-        "same": [
-         "类北约保障",
-         "马克龙提北约",
-         "美俄中国会晤"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "8bd76ee26afb",
-        "t": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-        "says": "俄副外长明确拒绝类似北约的乌克兰安全保障提议，重申坚决反对乌克兰加入北约。",
-        "same": [
-         "拒绝北约保障",
-         "马克龙提北约",
-         "欧洲特使赴俄"
-        ],
-        "view": "看法 B"
-       },
-       {
-        "id": "ac3f47852a51",
-        "t": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-        "says": "特朗普认为欧洲在战事上花费过多，泽连斯基则对普京外交诚意存疑并拒绝割让顿巴斯。",
-        "same": [
-         "欧洲防务开支",
-         "拒绝领土割让"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "e0733d78",
-     "at": "2026-11-21T22:17:32.053Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     },
-     "v": 2
-    }
-   ],
-   "minor": [],
-   "stories": {
-    "f5aa2c1600b1": {
-     "id": "f5aa2c1600b1",
-     "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-     "zh": "俄罗斯空袭基辅过境点，拒绝乌克兰安全保证",
-     "short": "俄空袭基辅",
-     "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T13:01:16.000Z",
-     "sum": "俄罗斯对基辅发动了最大规模的空袭之一，目标直指过境点。此前乌克兰曾对克里米亚大桥发动袭击，局势进一步升级。",
-     "_img": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg"
-    },
-    "6fca891ece5d": {
-     "id": "6fca891ece5d",
-     "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-     "zh": "波兰称俄罗斯导弹击中其领土，正值盟友举行军演",
-     "short": "俄导弹落入波兰",
-     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-20T12:56:48.000Z",
-     "sum": "一枚俄罗斯导弹击中波兰领土，当时乌克兰盟友正举行军事演习。波兰官方将此事件形容为来自莫斯科的挑衅。"
-    },
-    "968b51712184": {
-     "id": "968b51712184",
-     "title": "🔴 France seeks UN Security Council meeting after Russian strikes hit European embassies in Kyiv",
-     "zh": "俄军空袭基辅击中欧洲使馆，法国要求召集联合国安理会会议",
-     "short": "俄空袭基辅击中欧洲使馆",
-     "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-20T12:04:16.000Z",
-     "sum": "乌克兰首都基辅遭俄罗斯空袭，欧洲国家使馆受到波及。法国对此表示强烈关注，并正寻求召开联合国安理会紧急会议以商讨局势。"
-    },
-    "b4d8b1b930db": {
-     "id": "b4d8b1b930db",
-     "title": "Russia unleashes retaliatory barrage on Kyiv bridges",
-     "zh": "俄罗斯对基辅桥梁发动报复性轰炸",
-     "url": "https://www.aljazeera.com/news/2026/11/20/russia-unleashes-retaliatory-barrage-on-kyiv-bridges?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:54:00.000Z",
-     "sum": "俄罗斯对基辅的桥梁发动了猛烈的报复性攻击。此前普京曾誓言要对乌克兰袭击克里米亚大桥做出痛苦的回应。"
-    },
-    "dfff6b708f3a": {
-     "id": "dfff6b708f3a",
-     "title": "Russia’s day-long attack on Kyiv damages embassies",
-     "zh": "俄罗斯对基辅发动全天候攻击并波及多国使馆",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T08:56:08.000Z",
-     "sum": "俄罗斯对基辅发动了全天候的军事攻击，导致多国使馆在袭击中受损。地缘冲突进一步升级，引发国际社会对外交人员安全及局势恶化的担忧。"
-    },
-    "1425c009d761": {
-     "id": "1425c009d761",
-     "title": "Poland condemns Russian ‘provocation’ after 3 airspace violations",
-     "zh": "波兰谴责俄罗斯领空遭三度侵犯",
-     "short": "波兰谴责俄侵犯领空",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T11:45:35.000Z"
-    },
-    "acc8f3177f53": {
-     "id": "acc8f3177f53",
-     "title": "Tehran wants diplomacy to end war, Trump says terms unacceptable",
-     "zh": "德黑兰希望通过外交结束战争，特朗普称条件不可接受",
-     "short": "美伊外交谈判遇阻",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/tehran-wants-diplomacy-to-end-war-trump-says-terms-unacceptable",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T01:21:44.000Z",
-     "sum": "伊朗方面表示希望通过外交途径结束冲突，并寻求华盛顿对谈判诚意的实质保证。然而，美国总统特朗普公开回应称伊方提出的条件不可接受。中东地缘政治紧张局势因此再度升温。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/0578efe4-cabe-4153-9ace-039300199048-Iranian-foreign-minister-Abbas-Araghchi-epa-280926.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "b38e5a17b7df": {
-     "id": "b38e5a17b7df",
-     "title": "Zelensky says Putin a ‘killer’ after Trump calls him his ‘friend’",
-     "zh": "特朗普称普京是朋友，泽连斯基斥普京为杀手",
-     "short": "泽连斯基斥普京为杀手",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/zelensky-says-putin-a-killer-after-trump-calls-him-his-friend",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T23:25:36.000Z",
-     "sum": "美国和俄罗斯领导人在中国会晤，这是自2025年8月以来的首次。此前特朗普称普京为其朋友，而乌克兰总统泽连斯基则公开称普京为杀手。"
-    },
-    "3a083cc0df3b": {
-     "id": "3a083cc0df3b",
-     "title": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
-     "zh": "库什纳称俄罗斯对乌克兰类北约安全协议持开放态度",
-     "url": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T11:01:51.000Z",
-     "sum": "分析称俄罗斯对针对乌克兰的类北约安全协议持开放态度，但将乌克兰纳入其中受到多方质疑。北约集体防御原则的适用性成为讨论焦点。有关方案仍需各方进一步外交博弈。"
-    },
-    "5142390aaa16": {
-     "id": "5142390aaa16",
-     "title": "Pakistan minister visits India for first time since 2025 war",
-     "zh": "巴基斯坦部长自2025年战争以来首次访问印度",
-     "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-20T09:11:57.000Z",
-     "sum": "在经历2025年的冲突之后，巴基斯坦部长首次访问印度。双方坚称此次访问纯属多边性质，但外界希望此举能开启双方的接触渠道。"
-    },
-    "8bd76ee26afb": {
-     "id": "8bd76ee26afb",
-     "title": "Russia rejects US proposal for Nato-style Ukraine security guarantees",
-     "zh": "俄罗斯拒绝美国关于北约式乌克兰安全保障的提议",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/russia-rejects-us-proposal-for-nato-style-ukraine-security-guarantees",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-20T09:08:29.000Z",
-     "sum": "俄罗斯副外长明确拒绝了美国提出的类似北约的乌克兰安全保障提议。此前法国总统曾呼吁重新讨论乌克兰加入北约的议题。"
-    },
-    "7018d0e3b351": {
-     "id": "7018d0e3b351",
-     "title": "3-way summit offers little hope for peace in Ukraine",
-     "zh": "乌克兰三方峰会难为和平带来希望",
-     "short": "乌克兰三方峰会难寻和平",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SUVVZWHhrQXhobkZDd2lDTUNIMC1WQ3E4VE9ORzJnMmNpQjlOQXNBd1VvYmI0dGlaMVA2WHFGOGVBWUIyMHB2TDlfdk5XM05XUmNNMWRKMTd3UWtqalhwLWZyajhxc0dta0gzbVRB?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:58:52.000Z"
-    },
-    "b2c8270dd931": {
-     "id": "b2c8270dd931",
-     "title": "Merz warns 'Yalta format will not bring peace' to Ukraine",
-     "zh": "德国梅尔茨警告：雅尔塔模式无法为乌克兰带来和平",
-     "short": "德政要称雅尔塔模式无用",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9hRUhQbXE5LTlXUXgtTGdMWEtFMktNVEtRVU13MjdXZjhGVnM3MlZPVTdVeVlqMXd6MktDX2J1Q0xWZmU1ZkRvdEpEcnN6dFpZTDBEQk93cTdheV9WVUUtUkpvcw?oc=5",
-     "source": "NHKニュース",
-     "cat": "world",
-     "published": "2026-11-20T11:47:21.000Z"
-    },
-    "80605099f5e4": {
-     "id": "80605099f5e4",
-     "title": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation",
-     "zh": "俄罗斯导弹落入波兰境内，北约称此举违规",
-     "short": "俄导弹落入波兰",
-     "url": "https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T22:15:00.000Z",
-     "sum": "俄罗斯导弹近日落入邻近军事演习的波兰境内，引发区域安全高度关注。北约对此公开回应并称这是明显的违约行为。事件加剧了欧洲地缘政治的紧张局势。"
-    },
-    "c06f290ca0b1": {
-     "id": "c06f290ca0b1",
-     "title": "European troops from 11 countries hold a drill in Poland for a potential postwar Ukraine mission",
-     "zh": "来自11个国家的欧洲军队在波兰举行乌克兰战后任务演习",
-     "short": "11国欧洲军队波兰演习",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGl6dU85bExfQlhuODY0Rkh6a3M2UVhRTlV1QmRsclI5ZHpRbWo5M3JIbUdydkRzOFNrZkZ6RDBIMHJVNGhqeklnRl9UVVAzRFpFUUk0OTVDVnU3RVh2VjdWZ2ktMUhMNmZZMUZkVDE5RFAtTjJ4UEZjUDlKZWd4YlhSaFBoYXdnYVI1ajFaRkdnTkpyMExkU0U4YjBHMTNSblZkRWt6aUVtTGJ5UWU1RVdrNA?oc=5",
-     "source": "AP News",
-     "cat": "world",
-     "published": "2026-11-20T19:47:00.000Z"
-    },
-    "b0b72e86c2bd": {
-     "id": "b0b72e86c2bd",
-     "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
-     "zh": "俄罗斯袭击泽连斯基家乡，乌克兰重申加入北约愿望",
-     "short": "俄袭击乌总统家乡",
-     "url": "https://www.france24.com/en/europe/20261121-russia-attacks-zelensky-s-hometown-ukraine-reaffirms-wish-to-join-nato",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:56:39.000Z",
-     "sum": "俄罗斯对乌克兰总统泽连斯基的家乡发动了弹道导弹袭击，造成人员伤亡。数小时后，在获得类似安全保证的提案背景下，泽连斯基再次强调了乌克兰加入北约的坚定决心。"
-    },
-    "286cc01f5f7e": {
-     "id": "286cc01f5f7e",
-     "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
-     "zh": "俄罗斯夜间大规模空袭乌克兰 基辅至少7人死亡",
-     "short": "俄狂轰基辅致7死",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T18:42:38.000Z",
-     "sum": "俄罗斯在夜间对乌克兰全境发射了400多架无人机和110枚导弹。乌克兰首都基辅在此次大规模袭击中至少有7人丧生。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "aedff471d118": {
-     "id": "aedff471d118",
-     "title": "Russia launches ballistic missile attack on Zelensky's hometown in central Ukraine",
-     "zh": "俄罗斯弹道导弹袭击泽连斯基家乡 造成2死数十人伤",
-     "short": "俄导弹袭泽连斯基家乡",
-     "url": "https://www.france24.com/en/russia-launches-ballistic-missile-attack-on-zelensky-s-hometown-in-central-ukraine",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T19:55:07.000Z"
-    },
-    "cbeed7399dad": {
-     "id": "cbeed7399dad",
-     "title": "Russia strikes Zelenskyy's hometown, killing 2",
-     "zh": "俄军空袭泽连斯基家乡致2人死亡",
-     "short": "俄军空袭泽连斯基家乡",
-     "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
-     "source": "DW",
-     "cat": "world",
-     "published": "2026-11-21T14:44:00.000Z"
-    },
-    "ecdeb85fd175": {
-     "id": "ecdeb85fd175",
-     "title": "Emergency crews in Ukraine hit by a double-tap strike",
-     "zh": "乌克兰救援人员赶赴空袭现场 遭遇俄军“连环袭击”二次轰炸",
-     "short": "乌救援队遭俄军二次空袭",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/emergency-crews-in-ukraine-hit-by-a-double-tap-strike?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-21T07:12:03.000Z"
-    },
-    "1204031f81c5": {
-     "id": "1204031f81c5",
-     "title": "Russia tests NATO’s eastern defences",
-     "zh": "俄罗斯导弹与疑似无人机坠落波兰引北约戒备",
-     "short": "俄导弹疑似落入波兰",
-     "url": "https://www.france24.com/en/russia-tests-nato-s-eastern-defences",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-21T12:50:35.000Z",
-     "sum": "两枚俄罗斯导弹及疑似无人机在波兰坠落，波兰总理将其定性为有意挑衅。事件发生在欧洲军事演习期间，引发外界对乌克兰局势外溢的担忧。"
-    },
-    "ac3f47852a51": {
-     "id": "ac3f47852a51",
-     "title": "Trump told Europe it was spending heavily on Ukraine, says Zelensky",
-     "zh": "泽连斯基称特朗普指责欧洲在乌克兰战争上花钱过多",
-     "short": "特朗普不满欧洲援乌",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/21/trump-told-europe-it-was-spending-heavily-on-ukraine-says-zelensky",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-21T15:15:30.000Z",
-     "sum": "乌克兰总统泽连斯基透露，美国总统特朗普在柏林的一次会议上表示，欧洲在乌克兰战争上花费巨大。特朗普认为欧洲可以将这些资金用于满足自身需求。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/02/f1ef96c1-13741495.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "d5f4d08731f7": {
-     "id": "d5f4d08731f7",
-     "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-     "zh": "特朗普称普京是朋友 泽连斯基反驳称其是“杀人犯”",
-     "short": "特朗普称普京朋友泽连斯基驳斥",
-     "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-21T08:10:25.000Z",
-     "sum": "美国前总统特朗普在与俄罗斯总统普京会面前表示两人拥有极佳关系，并称普京为朋友。对此，乌克兰总统泽连斯基公开反驳，直斥普京是“杀人犯”。",
-     "img": {
-      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ad75/live/e17f2c40-e56d-11f1-b01f-57dbbf219200.jpg",
-      "credit": "BBC World",
-      "kind": "A"
-     }
-    },
-    "4bd1bf6c7ec7": {
-     "id": "4bd1bf6c7ec7",
-     "title": "Dashcam captures Russian missile strike on Lviv, Ukraine",
-     "zh": "行车记录仪拍下俄罗斯导弹袭击乌克兰利沃夫瞬间",
-     "short": "行车记录仪拍导弹袭击",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dashcam-captures-russian-missile-strike-on-lviv-ukraine?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-22T07:59:29.000Z"
-    },
-    "c689898babc6": {
-     "id": "c689898babc6",
-     "title": "At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says",
-     "zh": "乌克兰基辅遭俄罗斯无人机袭击，至少14人失踪",
-     "short": "基辅遭袭14人失踪",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmFwN2pYTHZEVndFX2hfN3VOQnduN3pEYnZXa2tfT1d1UGZDejk3ZU11dkwwLTdsUTltdm0taU8wTnpNTkZVV045Z3pkc0czd2FSS1lEZDhyLVVCNFJvNk9xUHR2ZUxydnAyYTJDVzd3RWIwQ1E0YjAyc2R6bkpkbkt1aThfVldjUGRKbkhXanhraVo3SkJHcHBuMmxBcXJreDhQSEx1QV9ZUXhDOHdhbmZMRkZoeVBOXzJ5ag?oc=5",
-     "source": "Reuters",
-     "cat": "world",
-     "published": "2026-11-22T09:01:43.000Z"
-    },
-    "865fef802953": {
-     "id": "865fef802953",
-     "title": "Russian strike kills 2 in Kyiv",
-     "zh": "俄罗斯空袭基辅附近公寓致2人死亡",
-     "short": "俄军空袭基辅住宅",
-     "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-22T16:23:23.000Z"
-    },
-    "53635033745f": {
-     "id": "53635033745f",
-     "title": "Ukraine says Russian strikes kill 6 in Kyiv region",
-     "zh": "乌克兰称俄罗斯空袭基辅地区导致六人死亡",
-     "short": "俄军空袭基辅致6死",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/23/ukraine-says-russian-strikes-kill-6-in-kyiv-region",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-22T22:44:00.000Z"
-    },
-    "20e9d0df2d48": {
-     "id": "20e9d0df2d48",
-     "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
-     "zh": "乌克兰承认对利比亚附近俄舰发动无人艇袭击",
-     "short": "乌克兰袭击俄舰",
-     "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-23T07:37:09.000Z",
-     "sum": "乌克兰总统泽连斯基表示，乌军在一次无人艇行动中击沉了俄罗斯军舰。这次海上袭击发生在利比亚附近海域，行动被形容为模范操作。",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b03dca5ac8b-1795415205.jpg?resize=1920%2C1440",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    "969b3e367a9a": {
-     "id": "969b3e367a9a",
-     "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan authorities",
-     "zh": "利比亚班加西港口俄舰遭疑似无人机袭击",
-     "short": "利比亚俄舰遭袭",
-     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-     "source": "The Guardian World",
-     "cat": "world",
-     "published": "2026-11-22T16:55:49.000Z"
-    },
-    "fc13a5c4dd16": {
-     "id": "fc13a5c4dd16",
-     "title": "Russian ship attacked near Benghazi in suspected drone attack",
-     "zh": "利比亚班加西港一艘俄罗斯船只遭疑似无人机袭击",
-     "short": "俄船只在利比亚遭袭",
-     "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
-     "source": "France 24",
-     "cat": "world",
-     "published": "2026-11-22T22:37:45.000Z"
-    },
-    "06b2152cf892": {
-     "id": "06b2152cf892",
-     "title": "Russian cargo ship still on fire off Finland after drone attack",
-     "zh": "俄罗斯货船遭无人机袭击后在芬兰附近海域起火",
-     "short": "俄货船遭无人机袭击起火",
-     "url": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-22T10:39:50.000Z"
-    }
-   },
-   "name": "乌克兰战争导弹袭击",
-   "en": "Ukraine war missile drone strikes",
-   "wiki": "Russian strikes on Ukraine",
-   "cat": "world",
-   "last": "2026-11-24T05:54:34.941Z",
-   "hidden": false,
-   "short": "乌克兰多地遭导弹袭击",
-   "key": "俄大规模空袭乌克兰基辅等地，波兰领土遭落弹波及",
-   "overview": "俄罗斯对基辅等乌克兰多地发动大规模导弹与无人机空袭，造成桥梁及居民设施受损与人员伤亡，并有导弹落入波兰引发区域紧张，同时特朗普涉乌言论与安全保障构想遭多方反驳，战后和平安排陷入僵局。",
-   "minorText": [],
-   "links": [
-    {
-     "from": "f4bb4b75-1",
-     "to": "f4bb4b75-2",
-     "t": "基辅遭空袭之际，美欧正就乌克兰战后安全保障构想展开外交博弈与争端。"
-    }
-   ],
-   "img": {
-    "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
-    "credit": "Al Jazeera",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 3,
-    "sources": 9,
-    "stories": 31,
-    "gdelt": null,
-    "wiki": {
-     "title": "Russian strikes on Ukraine",
-     "views": 1,
-     "ratio": 0.3
-    },
-    "at": "2026-11-26T23:50:02.785Z"
+    "at": "2026-11-27T18:10:59.648Z"
    }
   },
   {
@@ -8241,5 +9237,5 @@
    }
   }
  ],
- "updated": "2026-11-27T08:11:16.235Z"
+ "updated": "2026-11-27T18:11:32.655Z"
 }
