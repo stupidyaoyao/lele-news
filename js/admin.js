@@ -78,13 +78,36 @@ function renderAdmin() {
       <span class="m-txt"><b>${esc(u.name)} <span class="note">${agoT(u.last)}</span></b>
       <span>${esc(u.city || '—')} · ${esc(u.os || '')}${u.phones > 1 ? ` (${u.phones} 台)` : ''} · 🔥${u.streak} · 今天读 ${u.readToday} · 打开 ${u.opens} 次 · 用了 ${u.days} 天</span></span><span class="chev">${ic('chev')}</span></button>`).join('')}
     <div class="label">⚡ 最新动作</div>
-    <div class="feed">${d.feed.map((x) => feedRow(x, true)).join('')}</div>
+    <div class="feed">${feedList(d.feed, true)}</div>
     <button class="btn" style="margin-top:1rem" data-action="admin-forget">🔒 这台手机忘记密码</button>
   </div>`;
   $('#admin').scrollTop = sc;
 }
+// day label for the 动作 lists: 今天 / 昨天 / 11月25日 星期三
+function dayLabel(iso) {
+  const d = dateMY(Date.parse(iso));
+  if (d === today()) return '今天';
+  if (d === yesterday()) return '昨天';
+  const dt = new Date(iso);
+  return `${+d.slice(5, 7)}月${+d.slice(8, 10)}日 ${dt.toLocaleDateString('zh-CN', { timeZone: TZ, weekday: 'long' })}`;
+}
+const TAB_ZH = { home: '首页', news: '要闻', live: '即时', mine: '我的' };
+function detailZh(d) {
+  return String(d || '').replace(/tab:\s*(\w+)/, (m, t) => `→ ${TAB_ZH[t] || t}`).slice(0, 40);
+}
 function feedRow(x, withName) {
-  return `<div class="feed-row"><span class="note">${hm(x.t)}</span><span>${withName ? `<b>${esc(x.name)}</b> ` : ''}${esc(x.what)}${x.title ? `：${esc(String(x.title).slice(0, 40))}` : ''}${!x.title && x.detail ? ` <span class="note">${esc(String(x.detail).slice(0, 40))}</span>` : ''}</span></div>`;
+  return `<div class="feed-row"><span class="note">${hm(x.t)}</span><span>${withName ? `<b>${esc(x.name)}</b> ` : ''}${esc(x.what)}${x.title ? `：${esc(String(x.title).slice(0, 40))}` : ''}${!x.title && x.detail ? ` <span class="note">${esc(detailZh(x.detail))}</span>` : ''}</span></div>`;
+}
+// list grouped by day, newest first, with a day heading
+function feedList(list, withName) {
+  let day = '', out = '';
+  // newest first (actions sent later from an offline phone can arrive out of order)
+  for (const x of list.slice().sort((a, b) => (b.t || '').localeCompare(a.t || ''))) {
+    const d = dayLabel(x.t);
+    if (d !== day) { day = d; out += `<div class="feed-day">${d}</div>`; }
+    out += feedRow(x, withName);
+  }
+  return out;
 }
 function renderPerson() {
   const d = adminData; const u = d.users.find((x) => String(x.name).toLowerCase() === String(adminWho).toLowerCase()) || { name: adminWho };
@@ -96,7 +119,7 @@ function renderPerson() {
       <div class="note">🔥 连续 ${u.streak ?? 0} 天 · 今天读 ${u.readToday ?? 0} · 打开 ${u.opens ?? 0} 次 · 用了 ${u.days ?? 0} 天 · ${u.size || ''}</div>
     </div>
     <div class="label">最近 30 个动作</div>
-    <div class="feed">${list.length ? list.map((x) => `${feedRow(x, false)}`).join('') : '<div class="note">没有记录</div>'}</div>
+    <div class="feed">${list.length ? feedList(list, false) : '<div class="note">没有记录</div>'}</div>
   </div>`;
   $('#admin').scrollTop = 0;
 }
