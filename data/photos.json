@@ -1,0 +1,251 @@
+{
+ "tags": {
+  "黄金": {
+   "at": 1795232687662,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Gold_bullion_1.jpg/960px-Gold_bullion_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Szaaman · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "白银": {
+   "at": 1795232688705,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Chip_silver_bullion_bar.jpg/960px-Chip_silver_bullion_bar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Kjmonkey · Wikimedia Commons · CC0",
+   "kind": "B"
+  },
+  "油价": {
+   "at": 1795232689720,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Anacortes_Refinery_31911.JPG/960px-Anacortes_Refinery_31911.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Walter Siegmund (talk) · Wikimedia Commons · CC BY 2.5",
+   "kind": "B"
+  },
+  "令吉": {
+   "at": 1795232690821,
+   "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/SATU_RINGGIT_-_OBSERVE_VIEW_%281967%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "Bank Negara Malaysia · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "马股": {
+   "at": 1795232691698,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bursa_Malaysia.JPG/960px-Bursa_Malaysia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Travelpleb · Wikimedia Commons · CC0",
+   "kind": "B"
+  },
+  "股市": {
+   "at": 1795232692670,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_02.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Ank Kumar · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "美股": {
+   "at": 1795232693666,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Wall_Street_-_New_York_Stock_Exchange.jpg/960px-Wall_Street_-_New_York_Stock_Exchange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Carlos Delgado · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "港股": {
+   "at": 1795232694669,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Exchange_Square%2C_Hong_Kong_2012-10-04.JPG/960px-Exchange_Square%2C_Hong_Kong_2012-10-04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Silvermetals · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "A股": {
+   "at": 1795232695721,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Minor_skyscrapers_in_Lujiazui%2C_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg/960px-Minor_skyscrapers_in_Lujiazui%2C_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "DXR · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "美联储": {
+   "at": 1795232696799,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/960px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "AgnosticPreachersKid · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "利率": {
+   "at": 1795232697892,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/European_Central_Bank_-_building_under_construction_-_Frankfurt_-_Germany_-_14.jpg/960px-European_Central_Bank_-_building_under_construction_-_Frankfurt_-_Germany_-_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Norbert Nagel · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "通胀": {
+   "at": 1795232698913,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Supermarket_just_behind_Tohoku_Region_Pacific_Coast_Earthquake_%286010086099%29.jpg/960px-Supermarket_just_behind_Tohoku_Region_Pacific_Coast_Earthquake_%286010086099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Dick Thomas Johnson from Tokyo, Japan · Wikimedia Commons · CC BY 2.0",
+   "kind": "B"
+  },
+  "汇率": {
+   "at": 1795233650949,
+   "src": null
+  },
+  "经济": {
+   "at": 1795233651960,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Kuala_Lumpur_Malaysia_Skyline-01.jpg/960px-Kuala_Lumpur_Malaysia_Skyline-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "CEphoto, Uwe Aranas · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "房地产": {
+   "at": 1795233653237,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Apartment_in_under_construction%2C_South_Khulshi_%2801%29.jpg/960px-Apartment_in_under_construction%2C_South_Khulshi_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Moheen Reeyad · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "银行": {
+   "at": 1795233654341,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Senden%2C_Dortmund-Ems-Kanal_--_2014_--_2991-5.jpg/960px-Senden%2C_Dortmund-Ems-Kanal_--_2014_--_2991-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "加密货币": {
+   "at": 1795233655378,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bitcoin_on_Laptop_Keyboard.jpg/960px-Bitcoin_on_Laptop_Keyboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Satheesh Sankaran · Wikimedia Commons · CC BY 2.0",
+   "kind": "B"
+  },
+  "人工智能": {
+   "at": 1795233656801,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/960px-BalticServers_data_center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "BalticServers.com · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "芯片": {
+   "at": 1795233657821,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Semiconductor_Wafer_of_Microelectronics.jpg/960px-Semiconductor_Wafer_of_Microelectronics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "DrHughManning · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "电动车": {
+   "at": 1795233658941,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Electric_Car_recharging.jpg/960px-Electric_Car_recharging.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "original: Michael Movchinedited by Felix · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "科技公司": {
+   "at": 1795233660294,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Los_Angeles_%28California%2C_USA%29%2C_South_Olive_Street_--_2012_--_4847.jpg/960px-Los_Angeles_%28California%2C_USA%29%2C_South_Olive_Street_--_2012_--_4847.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Dietmar Rabich · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "中美关系": {
+   "at": 1795233661454,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Beijing_-_Great_Hall_of_the_People%2C_1996.jpeg/960px-Beijing_-_Great_Hall_of_the_People%2C_1996.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "DIMSFIKAS · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "中国经济": {
+   "at": 1795233662475,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Minor_skyscrapers_in_Lujiazui%2C_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg/960px-Minor_skyscrapers_in_Lujiazui%2C_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "DXR · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "东盟": {
+   "at": 1795233663424,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/ASEAN_leaders_facing_Myanmar_Junta_leader.jpg/960px-ASEAN_leaders_facing_Myanmar_Junta_leader.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Government of Indonesia / BPMI Setpres/L · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "新加坡": {
+   "at": 1795235126206,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg/960px-ArtScience_Museum%2C_Marina_Bay_Sands%2C_Singapore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Basile Morin · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "印尼": {
+   "at": 1795235127077,
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Jakarta_Skyline_%28Resize%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "credit": "Kris100 · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "泰国": {
+   "at": 1795235127940,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Bangkok_skytrain_sunset.jpg/960px-Bangkok_skytrain_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "User:Diliff · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "越南": {
+   "at": 1795235128834,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hanoi_Skyline.jpg/960px-Hanoi_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Minhvuong308hn · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "菲律宾": {
+   "at": 1795235129820,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Skyline_in_Manila_16.jpg/960px-Skyline_in_Manila_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "SwarmCheng · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "马来西亚政治": {
+   "at": 1795235131146,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Sarawak_state_assembly_building.jpg/960px-Sarawak_state_assembly_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Cerevisae · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "国际政治": {
+   "at": 1795235132216,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2226.jpg/960px-Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1131_2226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jakub Hałun · Wikimedia Commons · CC BY 4.0",
+   "kind": "B"
+  },
+  "战争冲突": {
+   "at": 1795235133348,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Military_convoy_through_Saint_Lo.jpg/960px-Military_convoy_through_Saint_Lo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Post-Work: User:W.wolny · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "中东": {
+   "at": 1795235134364,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Doha%2C_Qatar%2C_Middle_East.jpg/960px-Doha%2C_Qatar%2C_Middle_East.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Fatih Renkligil · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "俄乌": {
+   "at": 1795235135372,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Kyiv_City_Council_during_Euromaidan.JPG/960px-Kyiv_City_Council_during_Euromaidan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Андрей Романенко · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "能源": {
+   "at": 1795235136443,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Kimanis_Sabah_Kimanis-Power-Plant-01.jpg/960px-Kimanis_Sabah_Kimanis-Power-Plant-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "CEphoto, Uwe Aranas · Wikimedia Commons · CC BY-SA 3.0",
+   "kind": "B"
+  },
+  "气候": {
+   "at": 1795235137365,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg/960px-Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618332.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Geographer · Wikimedia Commons · CC BY-SA 2.0",
+   "kind": "B"
+  },
+  "贸易": {
+   "at": 1795249765831,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Container_ship_in_Kronstadt.jpg/960px-Container_ship_in_Kronstadt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Florstein (Telegram:WikiPhoto.Space) · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "就业": {
+   "at": 1795249766750,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/The_office_%2851966195573%29.jpg/960px-The_office_%2851966195573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Steve Bowbrick from Radlett, United King · Wikimedia Commons · CC BY 2.0",
+   "kind": "B"
+  },
+  "教育": {
+   "at": 1795249767711,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cornell_University_-_Campus_from_Library_Tower.jpg/960px-Cornell_University_-_Campus_from_Library_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Unknown author · Wikimedia Commons · Public domain",
+   "kind": "B"
+  },
+  "健康": {
+   "at": 1795249768660,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ellis_Island_hospital_window_mural_%2801897%29.jpg/960px-Ellis_Island_hospital_window_mural_%2801897%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Rhododendrites · Wikimedia Commons · CC BY-SA 4.0",
+   "kind": "B"
+  },
+  "交通": {
+   "at": 1795249770028,
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/North_view_along_Jalan_Kluang-Kota_Tinggi_%28Malaysia_Federal_Highway_91%29_in_Kluang%2C_Johor_20250401_151005.jpg/960px-North_view_along_Jalan_Kluang-Kota_Tinggi_%28Malaysia_Federal_Highway_91%29_in_Kluang%2C_Johor_20250401_151005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Wiki Farazi · Wikimedia Commons · CC0",
+   "kind": "B"
+  }
+ },
+ "logos": [
+  "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/9f717d2b-e4c2-42ad-aa5e-6a725e3b85c9-anwar-ibrahim-solat-jumaat-Masjid-Bandar-Baru-Ampang-271126-2.jpg"
+ ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="auto" data-size="normal">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>乐乐新闻 Happy News</title>
+<meta name="description" content="每天10分钟，看完或听完你要的新闻">
+<meta name="theme-color" content="#c2410c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="乐乐新闻">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
+<script>
+  // apply saved look before first paint (no flash)
+  try {
+    var p = JSON.parse(localStorage.getItem('look') || '{}');
+    document.documentElement.dataset.theme = p.theme || 'auto';
+    document.documentElement.dataset.size = p.size || 'normal';
+  } catch (e) {}
+</script>
+<link rel="stylesheet" href="css/app.css?v=26">
+</head>
+<body>
+<main id="app">
+  <section class="view" id="v-home" data-view="home"></section>
+  <section class="view" id="v-news" data-view="news" hidden></section>
+  <section class="view" id="v-live" data-view="live" hidden></section>
+  <section class="view" id="v-mine" data-view="mine" hidden></section>
+</main>
+
+<div class="mini-player" id="player" hidden>
+  <button class="mp-btn" id="mp-prev" aria-label="上一条"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 6h2v12H6zM9.5 12L18 18V6z"/></svg></button>
+  <button class="mp-btn mp-main" id="mp-play" aria-label="暂停"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg></button>
+  <button class="mp-btn" id="mp-next" aria-label="下一条"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16 6h2v12h-2zM14.5 12L6 18V6z"/></svg></button>
+  <div class="mp-now" id="mp-now"></div>
+  <button class="mp-btn mp-x" id="mp-stop" aria-label="停止"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></button>
+</div>
+
+<nav class="tabbar" id="tabbar" aria-label="主选单"></nav>
+
+<div class="overlay" id="reader" hidden></div>
+<div class="overlay" id="search" hidden></div>
+<div class="overlay" id="settings" hidden></div>
+<div class="overlay" id="goldpage" hidden></div>
+<div class="overlay" id="event" hidden></div>
+<div class="overlay" id="line" hidden></div>
+<div class="overlay" id="together" hidden></div>
+<div class="overlay" id="admin" hidden></div>
+<div class="overlay drive-ov" id="drive" hidden></div>
+<div class="overlay onb" id="onboarding" hidden></div>
+<div class="modal-bg" id="modal" hidden></div>
+<div class="undo" id="undo" hidden role="status"></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/config.js?v=26"></script>
+<script src="js/events.js?v=26"></script>
+<script src="js/admin.js?v=26"></script>
+<script src="js/player.js?v=26"></script>
+<script src="js/app.js?v=26"></script>
+</body>
+</html>
