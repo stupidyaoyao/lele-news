@@ -6,7 +6,7 @@
    "lines": [
     {
      "id": "53aaaa61-1",
-     "t": "美国针对中国及多国加征新关税计划",
+     "t": "特朗普关税对中国及供应链的冲击",
      "ids": [
       "8c98ac5048d7",
       "c06ced3b2ac5",
@@ -15,16 +15,17 @@
       "ada496f5ff87",
       "633c64faba59",
       "03bb72c6812c",
-      "25856d3f68be"
+      "25856d3f68be",
+      "51639c04dd7d"
      ],
      "w": {
-      "short": "美对多国加征关税",
-      "key": "美国宣布对中国、欧盟及东南亚等多国加征新关税",
-      "title": "美国宣布对中国欧盟等地加征新关税，意在重塑贸易关系",
-      "summary": "美国政府正式公布对包括中国、欧盟在内的多个经济体征收高达20%及以上新关税的提议，旨在应对海外补贴和产能过剩问题。中国面临较高的潜在关税，而部分亚洲国家则面临不同的税率与贸易协议压力。新关税预计将在明年正式生效，并需经过公众咨询和听证会。",
+      "short": "美国宣布对多国加征新关税",
+      "key": "美国公布针对中国及多国的新关税计划，旨在重塑贸易格局并应对海外补贴。",
+      "title": "美国宣布对华及多国加征新关税，全球供应链与市场面临冲击",
+      "summary": "美国政府正式公布针对中国、欧盟及越南等14个经济体的新关税提议，税率最高可达40%。此举旨在应对海外补贴制造业并削弱中国供应链优势，新关税预计将于明年初正式生效。受此影响，亚洲多国及全球市场对此深感忧虑，并可能加速相关贸易谈判。",
       "common": [
        {
-        "t": "美国计划对中国、欧盟等多国加征新关税",
+        "t": "美国宣布对多国征收新关税",
         "src": [
          "AP News",
          "France 24",
@@ -34,9 +35,26 @@
         ]
        },
        {
-        "t": "新关税预计将于明年初正式生效",
+        "t": "中国面临最高关税",
+        "src": [
+         "France 24",
+         "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "新关税预计明年生效",
         "src": [
          "BBC Business",
+         "CNBC Asia",
+         "纽约时报中文网"
+        ]
+       },
+       {
+        "t": "美国以产能过剩为由",
+        "src": [
+         "France 24",
          "CNBC Asia",
          "纽约时报中文网"
         ]
@@ -44,166 +62,161 @@
       ],
       "single": [
        {
-        "t": "美方官员称新政策将为美国工人创造公平竞争环境",
-        "src": "BBC Business"
-       },
-       {
-        "t": "新加坡总理黄循财表示将在自身法律前提下协助美国执行芯片禁令",
+        "t": "新加坡总理黄循财表示将依本国法律协助美国执行芯片禁令。",
         "src": "Malay Mail"
        },
        {
-        "t": "资本经济学分析师指出新关税对区域整体影响可能有限",
-        "src": "CNBC Asia"
+        "t": "分析称若美中贸易休战协议到期，中国商品面临的关税恐将翻倍。",
+        "src": "纽约时报中文网"
        }
       ],
       "views": [
        {
         "label": "看法 A",
         "src": [
-         "AP News",
-         "France 24",
          "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
+         "CNBC Asia"
         ],
-        "t": "关税旨在应对海外补贴、产能过剩及削弱中国供应链优势。"
+        "t": "关税可能推高消费价格并引发通货膨胀，但也有可能促使各国加速贸易谈判以锁定较低税率。"
        },
        {
         "label": "看法 B",
         "src": [
          "BBC Business",
-         "CNBC Asia",
-         "纽约时报中文网"
+         "AP News"
         ],
-        "t": "关税可能推高消费价格并引发通货膨胀，同时为依赖美中的亚洲国家带来忧虑。"
+        "t": "关税有助于提振美国制造业、创造就业并为美国工人创造公平的竞争环境。"
        }
       ],
-      "unknown": "美中贸易休战协议是否会在明年1月到期后延长仍未确定。",
+      "unknown": "目前尚不确定美中贸易休战协议在明年1月到期后是否会延长。",
       "impact": {
-       "my": "马来西亚等国面临税率可能发生变化的压力，依赖美中的亚洲国家也感到忧虑。",
-       "sea": "越南、新加坡等东南亚国家面临不同的关税税率、贸易协议压力及芯片出口管制执法配合。",
-       "world": "新关税将对中国、欧盟等全球主要贸易伙伴产生影响，并可能 dampen 全球贸易并推高物价。"
+       "my": "马来西亚等国面临税率可能从18%升至25%的压力。",
+       "sea": "越南和印度等东南亚及南亚国家面临高达35%的高额关税风险。",
+       "world": "全球贸易伙伴受到新关税冲击，供应链与全球经济走势受到影响。"
       },
       "people": [
        "Donald Trump",
-       "Jamieson Greer",
-       "Lawrence Wong",
-       "Anthony Albanese"
+       "Jamieson Greer"
       ],
       "photo": "container port",
       "per": [
        {
         "id": "8c98ac5048d7",
         "t": "针对补贴工厂 美国拟对中国、欧盟及巴西等加征关税",
-        "says": "美国计划针对获补贴工厂的产品，对多国提高关税以应对竞争冲击。",
+        "says": "美国计划针对获补贴工厂的产品，对多国提高关税，以应对海外补贴带来的竞争冲击。",
         "same": [
-         "加征新关税"
+         "美国宣布新关税"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "c06ced3b2ac5",
         "t": "美国公布对欧盟及中国等主要伙伴征收新关税计划",
-        "says": "美国正式公布对14个经济体征收新关税的提议，是重塑贸易关系的动作。",
+        "says": "美国正式公布对14个经济体征收高达20%新关税的提议，是重塑贸易关系的重大动作。",
         "same": [
-         "加征新关税",
-         "欧盟和中国"
+         "美国宣布新关税",
+         "产能过剩"
         ],
-        "view": "看法 A"
+        "view": null
        },
        {
         "id": "722a67ecc5ec",
         "t": "美国准备对全球贸易伙伴推出新关税措施",
-        "says": "美国推出新关税措施打击主要贸易伙伴，中国面临最高关税。",
+        "says": "美国推出新关税措施，中国面临最高达40%的税率，新关税预计明年生效并需经公众咨询。",
         "same": [
-         "加征新关税",
-         "明年初生效"
+         "美国宣布新关税",
+         "中国面临最高税率",
+         "明年生效"
         ],
         "view": "看法 B"
        },
        {
         "id": "02d65ac20e4b",
         "t": "美国加征关税施压伙伴国 迫使其签署贸易协议",
-        "says": "美国推出新关税 salvo 施压伙伴国，中国面临较高税率。",
+        "says": "美国推出新关税旨在施压伙伴国，中国面临 capped rate 并在寻求通过对话解决。",
         "same": [
-         "加征新关税",
-         "明年初生效"
+         "美国宣布新关税",
+         "中国面临最高税率",
+         "明年生效",
+         "产能过剩"
         ],
-        "view": "看法 B"
+        "view": "看法 A"
        },
        {
         "id": "ada496f5ff87",
         "t": "关税阴影下全球市场回升，农户忧成本",
-        "says": "全球市场在关税阴影下回升。",
-        "same": null,
+        "says": "全球市场在关税阴影下有所回升，农户担忧成本。",
+        "same": [],
         "view": null
        },
        {
         "id": "633c64faba59",
         "t": "美新关税对新加坡短期影响有限 专家警告贸易壁垒持久",
-        "says": "美新关税对新加坡短期影响有限。",
-        "same": null,
+        "says": "美国新关税对新加坡短期影响有限，专家警告贸易壁垒持久。",
+        "same": [],
         "view": null
        },
        {
         "id": "03bb72c6812c",
         "t": "新加坡总理黄循财：将协助美国执行芯片禁令但依本国法律行事",
-        "says": "新加坡将在符合自身法律前提下协助美国执行芯片出口管制。",
-        "same": null,
+        "says": "新加坡将在符合自身法律的前提下协助美国执行芯片出口管制措施。",
+        "same": [],
         "view": null
        },
        {
         "id": "25856d3f68be",
         "t": "特朗普新关税再针对北京，意在削弱供应链优势",
-        "says": "美国提议对数十国加征新关税，意在削弱中国供应链优势。",
+        "says": "美国政府以产能过剩为由推出新关税，意在削弱中国供应链优势并孤立中国。",
         "same": [
-         "加征新关税",
-         "明年初生效"
+         "美国宣布新关税",
+         "产能过剩",
+         "明年生效"
         ],
-        "view": "看法 A"
+        "view": null
        }
       ]
      },
-     "loose": true,
-     "sig": "3f5d774b",
+     "loose": false,
+     "sig": "4de5f7b7",
      "v": 2,
-     "at": "2026-11-27T04:10:07.883Z",
+     "at": "2026-11-28T10:11:26.579Z",
      "img": {
-      "src": "https://image.cnbcfm.com/api/v1/image/108405958-1791937428704-gettyimages-2299263032-AFP_D2XV29Y.jpeg?v=1791937445&w=1920&h=1080",
-      "credit": "CNBC Asia",
+      "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+      "credit": "BBC Business",
       "kind": "A"
      }
     },
     {
      "id": "53aaaa61-2",
-     "t": "东南亚与伙伴国对关税冲击的反应",
+     "t": "东南亚国家对美国关税的担忧与应对",
      "ids": [
       "a2c47c2f5eb4",
       "8aa65f9d2fbf",
-      "7a0bfee3dd4c"
+      "7a0bfee3dd4c",
+      "96a67daecd42"
      ],
      "w": {
-      "short": "美拟征泰关税引担忧",
-      "key": "美国提议对泰国出口征收关税引发企业界与经济学家的担忧。",
-      "title": "美国拟征关税冲击泰国：企业界担忧出口受阻",
-      "summary": "美国提议对泰国出口征收关税，引发当地企业界和经济学家对出口表现受阻的担忧。与此同时，泰国政府正将发展重心转向投资驱动型增长，以应对贸易战带来的下行风险。相关机构也正密切关注后续关税政策的发展及潜在供应链影响。",
+      "short": "美国关税牵动泰国出口",
+      "key": "美国拟对泰国出口征收关税引发企业界与经济学家对出口增长放缓的担忧。",
+      "title": "美国新关税政策与全球市场：东南亚国家的担忧与应对",
+      "summary": "美国拟对泰国出口征收关税，引发当地企业界与经济学家对未来出口增长放缓的担忧。面对贸易战与全球经济碎片化，泰国政府转向投资驱动型增长以应对下行风险。同时，相关机构正密切关注美方关税政策的最新进展及对供应链的潜在影响。",
       "common": [],
       "single": [
        {
-        "t": "美国提议的18%泰国出口关税税率，低于越南的20%但仍对泰国出口前景构成压力。",
+        "t": "泰国财政部计划将重心转向投资驱动型增长以提升国家长期竞争力。",
         "src": "Bangkok Post"
        },
        {
-        "t": "泰国政府正将重心转向投资驱动型增长以应对全球贸易战。",
+        "t": "马来亚银行证券预测食品可能是受关税影响最严重的行业之一。",
         "src": "Bangkok Post"
        }
       ],
       "views": [],
-      "unknown": "泰国最终的关税税率尚未最终确定。",
+      "unknown": "泰国最终的关税税率及是否能与美国达成更有利的协议目前尚不确定。",
       "impact": {
        "my": null,
-       "sea": "美国对泰国等国拟议的关税措施可能对区域出口表现及供应链带来压力。",
-       "world": "美国关税政策与全球贸易战风险加剧了全球经济碎片化和股市波动。"
+       "sea": "美国拟对泰国征收关税，引发对东南亚出口及供应链稳定性的担忧。",
+       "world": "美国关税政策及潜在的报复性措施可能进一步放大全球股市波动。"
       },
       "people": [],
       "photo": "container port",
@@ -211,32 +224,41 @@
        {
         "id": "a2c47c2f5eb4",
         "t": "企业界担忧美国关税对泰国出口造成冲击",
-        "says": "美国拟对泰国征收关税，可能对2027年泰国出口表现造成压力，企业界对此表达担忧。",
+        "says": "美国拟议的18%关税可能拖累泰国明年的出口表现，若无法达成协议关税或升至25%。",
         "same": [
-         "美国关税引发担忧"
+         "关税引发担忧"
         ],
         "view": null
        },
        {
         "id": "8aa65f9d2fbf",
         "t": "泰国转向投资驱动型增长以应对贸易战",
-        "says": "面对全球贸易战，泰国政府将重心转向投资驱动型增长，以降低供应链断裂风险。",
-        "same": [],
+        "says": "泰国政府决定将重心转向投资驱动型增长，以降低供应链断裂带来的下行风险。",
+        "same": [
+         "应对贸易战"
+        ],
         "view": null
        },
        {
         "id": "7a0bfee3dd4c",
         "t": "泰国政府辩护18%美国关税提议",
-        "says": "相关报道提及泰国政府对关税提议的相关立场。",
+        "says": "相关报道未提供正文内容。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "96a67daecd42",
+        "t": "美国对泰贸易关系备受关注，关税政策引发担忧",
+        "says": "相关报道未提供正文内容。",
         "same": [],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "2cf9f66e",
+     "sig": "da93a727",
      "v": 2,
-     "at": "2026-11-26T23:44:47.023Z",
+     "at": "2026-11-28T10:13:15.093Z",
      "img": {
       "src": "https://static.bangkokpost.com/media/content/20261127/c1_3362039_261127053331_700.jpg",
       "credit": "Bangkok Post",
@@ -245,21 +267,22 @@
     },
     {
      "id": "53aaaa61-3",
-     "t": "新加坡及东盟对经济民族主义的评估",
+     "t": "新加坡高官呼吁抗衡经济民族主义",
      "ids": [
       "9a07a093bf37",
       "67a8cd60005c",
       "b02874b150e7",
-      "145c6e329ce1"
+      "145c6e329ce1",
+      "9cd4059447dc"
      ],
      "w": {
-      "short": "颜金勇谈抗衡经济民族主义",
-      "key": "东盟须以深化区域整合与广泛伙伴关系抗衡经济民族主义。",
-      "title": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-      "summary": "新加坡副总理颜金勇指出，面对日益加剧的经济民族主义，东盟国家若在内部筑起壁垒只会限制自身发展。他呼吁东盟深化区域整合并扩大伙伴关系，同时继续与美中两国的经贸投资保持密切联系，以应对外部冲击。",
+      "short": "颜金勇吁抗衡保护主义",
+      "key": "东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
+      "title": "颜金勇：面对经济民族主义升温，东盟必须保持开放与深化融合",
+      "summary": "新加坡副总理颜金勇指出，面对全球关税上升与经济民族主义加剧，东盟国家若筑起内部壁垒只会限制自身发展，必须通过深化区域一体化与扩大伙伴关系来应对。尽管美国实施额外关税，中美两国依然是区域重要的贸易与投资伙伴。新加坡强调，经济一体化与和平对于东盟的未来至关重要。",
       "common": [
        {
-        "t": "颜金勇指出东盟必须抗衡日益加剧的经济民族主义。",
+        "t": "东盟必须抗衡日益加剧的经济民族主义。",
         "src": [
          "联合早报",
          "Wisevoter",
@@ -267,7 +290,7 @@
         ]
        },
        {
-        "t": "东盟应通过深化区域整合与扩大伙伴关系来应对压力。",
+        "t": "东盟应通过深化区域融合与广泛伙伴关系来应对挑战。",
         "src": [
          "联合早报",
          "The Straits Times"
@@ -276,8 +299,8 @@
       ],
       "single": [
        {
-        "t": "颜金勇在新加坡报业控股媒体集团举办的亚洲未来峰会开幕式上发表上述谈话。",
-        "src": "联合早报"
+        "t": "经济一体化与和平是新加坡担任东盟主席国成功的标志。",
+        "src": "The Business Times"
        },
        {
         "t": "中小企业必须在四大领域进行转型。",
@@ -287,59 +310,66 @@
       "views": [],
       "unknown": null,
       "impact": {
-       "my": "对马来西亚而言，区域整合与维持对内对外开放有助于保障供应链稳定并促进跨境投资与经济发展。",
-       "sea": "东南亚国家共同抗衡经济民族主义并深化合作，能够减少对外部冲击的暴露并提供更多发展机遇。",
-       "world": "在全球范围内，大国竞争与地缘经济摩擦促使各国趋向内顾，但跨区域的贸易与伙伴关系依然是增长关键。"
+       "my": "大马作为东盟成员国之一，其区域贸易与供应链布局将受到东盟整体开放与抗衡经济民族主义策略的影响。",
+       "sea": "东南亚国家将面临保护主义压力，深化区域一体化与维持中美双向经贸关系成为区域经济韧性的关键。",
+       "world": "在全球关税壁垒提升与地缘经济竞争背景下，各大经济体的贸易政策走向将持续牵动全球供应链与投资流向。"
       },
       "people": [
        "Gan Kim Yong"
       ],
-      "photo": null,
+      "photo": "container port",
       "per": [
        {
         "id": "9a07a093bf37",
         "t": "新加坡副总理颜金勇：面对经济民族主义，东盟须保持开放",
-        "says": "东盟必须通过深化区域整合与扩大伙伴关系来应对经济民族主义，不能在内部筑起壁垒。",
+        "says": "面对全球关税上升与经济民族主义，东盟必须通过深化区域一体化与扩大伙伴关系来应对，避免内部筑墙。",
         "same": [
          "抗衡经济民族主义",
-         "深化区域整合"
+         "深化区域融合"
         ],
         "view": null
        },
        {
         "id": "67a8cd60005c",
         "t": "东盟受促联合应对日益加剧的经济民族主义",
-        "says": "东盟各界呼吁共同合力应对不断加剧的经济民族主义挑战。",
+        "says": "东盟各方受促联合起来，共同应对不断升温的经济民族主义趋势。",
         "same": [
-         "经济民族主义"
+         "抗衡经济民族主义"
         ],
         "view": null
        },
        {
         "id": "b02874b150e7",
         "t": "颜金勇：东盟须以更深融合与广泛伙伴关系抗衡经济民族主义",
-        "says": "颜金勇强调东盟须以更深层次的融合与广泛伙伴关系来抵御经济民族主义的影响。",
+        "says": "颜金勇强调东盟必须采取更深层次的融合与广泛伙伴关系，以抵御保护主义带来的冲击。",
         "same": [
          "抗衡经济民族主义",
-         "深融合与伙伴关系"
+         "深化区域融合"
         ],
         "view": null
        },
        {
         "id": "145c6e329ce1",
         "t": "颜金勇：中小企业须在四大领域转型",
-        "says": "颜金勇提出中小企业必须在四大关键领域积极推进转型。",
+        "says": "提及中小企业必须在四大领域积极转型以适应当前的经济环境。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "9cd4059447dc",
+        "t": "维文：经济一体化与和平是新加坡任东盟主席国成功标志",
+        "says": "经济一体化与和平被视为新加坡担任东盟主席国取得成功的关键标志。",
         "same": [],
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "e6c04200",
+     "sig": "be072bbd",
      "v": 2,
-     "at": "2026-11-27T08:07:11.886Z",
+     "at": "2026-11-28T10:11:55.707Z",
      "img": {
-      "src": "https://cassette.sphdigital.com.sg/image/zaobao/dccded9c73513664b29b9496314f1694d86d324c791801410ced0597f576b26e",
+      "src": "https://cassette.sphdigital.com.sg/image/zaobao/44a3a05b2951abe35d5ec69d2af5ea9edd19414d461520b104783791dd343765",
       "credit": "联合早报",
       "kind": "A"
      }
@@ -427,10 +457,10 @@
     },
     {
      "id": "53aaaa61-5",
-     "t": "东盟区域太空合作与一体化宣言",
+     "t": "东盟太空合作与基础设施宣言",
      "ids": [
       "8ec4f3532275",
-      "9cd4059447dc"
+      "2d7c38d0c3e9"
      ],
      "w": {
       "short": "东盟推进太空合作",
@@ -768,1294 +798,85 @@
      "source": "Vietnam.vn",
      "cat": "sea",
      "published": "2026-11-27T02:41:21.000Z"
+    },
+    "2d7c38d0c3e9": {
+     "id": "2d7c38d0c3e9",
+     "title": "China’s new telecommunications satellite to serve Southeast Asia",
+     "zh": "中国新电信卫星将服务东南亚",
+     "short": "中国卫星服务东南亚",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMlE1Tzd5REMzUVVOT0hSVkVYTmNwNGNYM043SWY3QXVhZE1CdkdycjdRMmlhVkVJNUhxQ2N6NWM5RXZOTmtMVDRzcDNkR2JMc3YtNXA1TWt6X1JkODBSQzhtdkV5eHdRNlRKaThROWV4d084TFRyUU5QQ0pFVUxSalI3U0xwN2NPWGoxT1gxanhCUkpJSExHUXdwSGJnbGRTVzVIbg?oc=5",
+     "source": "Yeni Safak English",
+     "cat": "sea",
+     "published": "2026-11-26T21:43:21.000Z"
+    },
+    "51639c04dd7d": {
+     "id": "51639c04dd7d",
+     "title": "Trump’s tariffs have become America’s new normal",
+     "zh": "特朗普的关税已成美国新常态，民主党政府也难以扭转",
+     "short": "关税成美政坛新常态",
+     "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-28T06:57:19.000Z",
+     "sum": "分析指出特朗普时期的关税政策已经演变为美国经济的新常态。即便未来由民主党执政，也很难彻底废除这些用以支撑减税计划的关税壁垒。这将对全球贸易格局产生深远影响。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-06T110126Z_2145072911_RC2XHOA6JC3U_RTRMADP_3_USA-TRUMP-TRUMPMEDIA-1795848849.jpg?resize=1920%2C1440",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "96a67daecd42": {
+     "id": "96a67daecd42",
+     "title": "A closer look at US-Thai trade relations",
+     "zh": "美国对泰贸易关系备受关注，关税政策引发担忧",
+     "short": "美泰贸易关系受关注",
+     "url": "https://www.bangkokpost.com/business/general/3362649/a-closer-look-at-usthai-trade-relations",
+     "source": "Bangkok Post",
+     "cat": "sea",
+     "published": "2026-11-27T21:45:00.000Z"
     }
    },
-   "name": "东盟区域合作与经济民族主义",
-   "en": "ASEAN economic integration cooperation",
-   "wiki": "Association of Southeast Asian Nations",
-   "cat": "sea",
-   "last": "2026-11-27T18:07:21.256Z",
+   "name": "特朗普新关税政策与全球市场",
+   "en": "Trump tariffs global markets trade",
+   "wiki": "Economic policy of Donald Trump",
+   "cat": "finance",
+   "last": "2026-11-28T10:11:20.733Z",
    "hidden": false,
    "heat": {
     "score": 5,
-    "sources": 19,
-    "stories": 22,
+    "sources": 21,
+    "stories": 25,
     "gdelt": null,
     "wiki": {
-     "title": "Association of Southeast Asian Nations",
-     "views": 93,
-     "ratio": 0.4
+     "title": "Economic policy of Donald Trump",
+     "views": 0,
+     "ratio": 0
     },
-    "at": "2026-11-28T01:28:04.600Z"
+    "at": "2026-11-28T10:14:13.349Z"
    },
-   "short": "东盟应对关税与整合",
-   "key": "东盟呼吁深化区域整合抵御经济民族主义",
-   "overview": "面对美国加征新关税及加剧的经济民族主义，东盟强调深化区域整合与扩大伙伴关系，并推动中国东盟自贸协定3.0版升级。",
+   "short": "特朗普新关税冲击全球市场",
+   "key": "美国拟对14国加征关税，东南亚积极应对经济民族主义",
+   "overview": "美国宣布对多国征收最高40%的新关税以重塑贸易关系，引发全球市场关注。东南亚国家强调深化区域一体化，通过推动中国东盟自贸协定3.0版等举措来增强产业链韧性。",
    "minorText": [
     "无视美国最新关税冲击交易员推动股市上涨",
     "老街省打造经济走廊新定位成东盟与中国枢纽"
    ],
    "links": [
     {
-     "from": "53aaaa61-3",
-     "to": "53aaaa61-1",
-     "t": "颜金勇指出东盟需深化区域整合，以应对美国等外部带来的经济民族主义冲击。"
+     "from": "53aaaa61-1",
+     "to": "53aaaa61-2",
+     "t": "美国的新关税政策引发了泰国等东南亚国家对出口放缓的担忧。"
     },
     {
-     "from": "53aaaa61-4",
-     "to": "53aaaa61-1",
-     "t": "中国东盟自贸协定3.0版将深化合作，助力东南亚应对外部贸易压力与产业链重塑。"
+     "from": "53aaaa61-1",
+     "to": "53aaaa61-3",
+     "t": "面对美国关税上升带来的保护主义，新加坡官员呼吁东盟加强一体化以抗衡经济民族主义。"
     }
    ],
    "img": {
     "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
     "credit": "BBC Business",
     "kind": "A"
-   }
-  },
-  {
-   "id": "83cfaa42",
-   "first": "2026-11-25T22:26:29.968Z",
-   "lines": [
-    {
-     "id": "83cfaa42-1",
-     "t": "哥伦比亚发生汽车炸弹袭击",
-     "ids": [
-      "f37901791947",
-      "b7670f6d932b",
-      "993e98885a52",
-      "9611067fd591"
-     ],
-     "w": {
-      "short": "哥国发生汽车炸弹袭击",
-      "key": "哥伦比亚梅塔省发生汽车炸弹袭击事件",
-      "title": "哥伦比亚发生汽车炸弹袭击造成建筑损毁",
-      "summary": "哥伦比亚中部城市比利亚维森西奥发生了一起汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损。目前总统表示暂未有伤亡确认，并将其归咎于贩毒集团的报复。当局正持续应对该国面临的严重犯罪暴力浪潮。",
-      "common": [
-       {
-        "t": "哥伦比亚发生汽车炸弹袭击事件。",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "袭击目标涉及梅塔省州长办公室。",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "袭击导致当地建筑损毁并出现大弹坑，居民在混乱中走避。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚无人员伤亡的确切证实。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "哥伦比亚安全局势恶化及打击毒品犯罪的成效受到国际关注。"
-      },
-      "people": [
-       "Abelardo de la Espriella"
-      ],
-      "photo": "car bomb rubble",
-      "per": [
-       {
-        "id": "f37901791947",
-        "t": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
-        "says": "提及哥伦比亚相关局势但未详述炸弹袭击细节。",
-        "same": [
-         "哥伦比亚"
-        ],
-        "view": null
-       },
-       {
-        "id": "b7670f6d932b",
-        "t": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
-        "says": "报道了哥伦比亚发生的另一起安全事件。",
-        "same": [
-         "哥伦比亚"
-        ],
-        "view": null
-       },
-       {
-        "id": "993e98885a52",
-        "t": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
-        "says": "比利亚维森西奥发生汽车炸弹袭击，梅塔省州长办公室受损，总统将其归咎于毒贩。",
-        "same": [
-         "汽车炸弹袭击",
-         "梅塔省州长办公室"
-        ],
-        "view": null
-       },
-       {
-        "id": "9611067fd591",
-        "t": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
-        "says": "简要报道了梅塔省州长办公室遭遇汽车炸弹袭击。",
-        "same": [
-         "汽车炸弹袭击",
-         "梅塔省州长办公室"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "8176ed19",
-     "v": 2,
-     "at": "2026-11-25T22:27:44.271Z",
-     "img": {
-      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795567656.jpg?resize=1920%2C1080&quality=80",
-      "credit": "Al Jazeera",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "83cfaa42-2",
-     "t": "沙特炼油厂遭袭与国际谴责",
-     "ids": [
-      "3fa3e0a7f7a9",
-      "1ec37a1640c8",
-      "e47d5a36d07a"
-     ],
-     "w": {
-      "short": "沙特炼油厂遭袭",
-      "key": "沙特炼油厂遭袭引发国际谴责与盟友安全承诺",
-      "title": "沙特炼油厂遭袭致人死伤 多国谴责胡塞武装",
-      "summary": "沙特吉赞省的一处石油炼油厂遭到袭击，造成人员伤亡并引发火灾，部分运营暂停。多国高级官员对此类持续袭击予以强烈谴责，并重申支持沙特维护国家安全。",
-      "common": [
-       {
-        "t": "沙特炼油厂遭到袭击",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       },
-       {
-        "t": "谴责胡塞武装袭击",
-        "src": [
-         "Free Malaysia Today",
-         "Al Jazeera"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "袭击导致1名尼泊尔籍工人死亡数人受伤",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "巴基斯坦、沙特和土耳其官员在伊斯兰堡会晤并发表谴责声明",
-        "src": "Al Jazeera"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚不清楚具体的各方应对和制裁措施细节。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "中东冲突加剧引发国际社会对地区能源设施与安全的担忧。"
-      },
-      "people": [
-       "Ishaq Dar"
-      ],
-      "photo": "oil refinery",
-      "per": [
-       {
-        "id": "3fa3e0a7f7a9",
-        "t": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
-        "says": "沙特吉赞省炼油厂遭空中项目袭击引发火灾，导致1名尼泊尔工人死亡及数人受伤，部分运营暂停。",
-        "same": [
-         "炼油厂遭袭",
-         "胡塞武装"
-        ],
-        "view": null
-       },
-       {
-        "id": "1ec37a1640c8",
-        "t": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
-        "says": "巴基斯坦、沙特和土耳其官员举行会晤，强烈谴责胡塞武装持续袭击沙特，并承诺捍卫沙特安全。",
-        "same": [
-         "谴责袭击",
-         "沙特"
-        ],
-        "view": null
-       },
-       {
-        "id": "e47d5a36d07a",
-        "t": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
-        "says": "探讨英国在也门胡塞武装袭击沙特背景下的动作。",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "2aa729c1",
-     "v": 2,
-     "at": "2026-11-27T18:08:27.128Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8e446b56-3b15-4f2c-85dd-4e26a9333459-damage-mosque-in-Jazan-AFP-pic-271126-1.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "83cfaa42-3",
-     "t": "科威特袭击事件及外交反应",
-     "ids": [
-      "048b74bcf53a",
-      "eeddf84bd0b2",
-      "d77d50f6cddf"
-     ],
-     "w": {
-      "short": "科威特袭击致死",
-      "key": "科威特设施遭无人机袭击导致两名意大利人丧生",
-      "title": "科威特袭击事件引发外交反应与各方表态",
-      "summary": "科威特的一处重要设施遭到无人机袭击，造成两名受雇于德国防务公司的意大利技工死亡。科威特外交部为此召见了伊朗大使并递交抗议信，而伊朗则否认与该起袭击事件有任何关联。",
-      "common": [
-       {
-        "t": "科威特一处设施遭到袭击造成两名意大利人死亡。",
-        "src": [
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "科威特就袭击事件召见了伊朗大使。",
-        "src": [
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       },
-       {
-        "t": "伊朗官方否认涉及这起造成人员伤亡的袭击。",
-        "src": [
-         "Free Malaysia Today",
-         "BBC World"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "意大利媒体引述调查指出，袭击所使用的无人机为伊朗制造，且当地有伊朗代理人发动袭击的记录。",
-        "src": "BBC World"
-       }
-      ],
-      "views": [
-       {
-        "label": "看法 A",
-        "src": [
-         "Free Malaysia Today"
-        ],
-        "t": "科威特认为此次袭击是持续遭受伊朗侵略的一部分。"
-       },
-       {
-        "label": "看法 B",
-        "src": [
-         "BBC World"
-        ],
-        "t": "伊朗外交部长形容该事件看起来十分可疑，并称其像是预谋引发战争的方案。"
-       }
-      ],
-      "unknown": "目前袭击事件的具体幕后黑手与最终原因仍在调查确定中。",
-      "impact": {
-       "my": null,
-       "sea": null,
-       "world": "中东冲突与海湾局势升级，引发国际社会对区域大战的担忧。"
-      },
-      "people": [
-       "Mohammad Totonji",
-       "Abbas Araghchi"
-      ],
-      "photo": "drone attack site",
-      "per": [
-       {
-        "id": "048b74bcf53a",
-        "t": "科威特就持续遭受袭击召见伊朗大使",
-        "says": "科威特外交部召见伊朗大使抗议持续袭击，并针对无人机袭击导致两名意大利人丧生一事递交抗议信。",
-        "same": [
-         "召见伊朗大使",
-         "两名意大利人死亡"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "eeddf84bd0b2",
-        "t": "科威特重要设施遭袭致两名意大利人死亡",
-        "says": "报道了科威特重要设施遭到袭击并导致两名意大利人死亡的消息。",
-        "same": [
-         "两名意大利人死亡"
-        ],
-        "view": null
-       },
-       {
-        "id": "d77d50f6cddf",
-        "t": "科威特袭击致两名意大利技工身亡",
-        "says": "遇难者为德国防务公司技术人员，科威特与意大利将袭击归咎于伊朗，但伊朗否认并表示愿意合作查明真相。",
-        "same": [
-         "两名意大利人死亡",
-         "伊朗否认责任"
-        ],
-        "view": "看法 B"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "2fc03184",
-     "v": 2,
-     "at": "2026-11-27T18:08:39.492Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [
-    "1750853b8f8d",
-    "21cb030d8b53",
-    "16d0c819285a"
-   ],
-   "stories": {
-    "f37901791947": {
-     "id": "f37901791947",
-     "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
-     "zh": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
-     "short": "中国批台湾议员访美",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVJxOW1wNktNNlY0TkNfX1hiZWdGS05sNndkNmZDdWk4UWRVTjlnYVpaSUdQSk1sZll5c01JdUN1MnV5ODBnbjgxUk9jTnZiWXk0YmUzc08zY2liSldpRGczRzVWVDBIREFxaDdyT0hDS05NQ1hhdlZmZHEyNGt6RHh5bXF4ejJNbTYtbFJUY3NzWTlhdV9Hazh6clFFaDRNTGNhZGNYcVpjSUY4SmtJM2xLd0dnUG51WE9Femdyc1VDZDhocGp4Y1FWWnPSAcwBQVVfeXFMTkI4eFhza1hhcXRoWG1adTZiWWoyVmRfTlItODQ2clh3aFJPd0VIMksyRHhiUzlkX2ROcnV6c3V5dF9ISXpXQzkzdDZ0Y3YtNXEzSUtsZUVwNkpVdlBpa1pKcmdaYmdDTGhzRERwNFVkU0VkUmhRWi1HYmYtVkczT2FyTktpZV83OUdiV2RXOWNlbEdkcUZKWDFhdVRMSEZoZFhPaHhJNms3Z2VpdHp2LTlQZHNJQXNNeGhLWnRDNzBhZE1JU3c4TWtOVzFq?oc=5",
-     "source": "South China Morning Post",
-     "cat": "china",
-     "published": "2026-11-25T19:52:34.000Z"
-    },
-    "b7670f6d932b": {
-     "id": "b7670f6d932b",
-     "title": "Gunmen hold dozens hostage in Colombia supermarket",
-     "zh": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
-     "short": "哥伦比亚超市劫持",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-25T00:49:35.000Z"
-    },
-    "993e98885a52": {
-     "id": "993e98885a52",
-     "title": "Car bomb destroys buildings in Colombia’s Villavicencio",
-     "zh": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
-     "short": "哥伦比亚汽车炸弹袭击",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/24/car-bomb-destroys-buildings-in-colombia-s-villavicencio",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-24T05:12:50.000Z"
-    },
-    "9611067fd591": {
-     "id": "9611067fd591",
-     "title": "Car bomb strikes governor’s office in Meta, Colombia",
-     "zh": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
-     "short": "哥伦比亚遭炸弹袭",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-24T04:49:31.000Z"
-    },
-    "3fa3e0a7f7a9": {
-     "id": "3fa3e0a7f7a9",
-     "title": "Pekerja maut, loji minyak di Saudi diserang",
-     "zh": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
-     "short": "沙特炼油厂遭袭击",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/pekerja-maut-loji-minyak-di-saudi-diserang",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-27T02:33:26.000Z",
-     "sum": "沙特阿拉伯吉赞省的一处石油炼油厂遭到袭击，事件造成人员伤亡并有多人受伤。这引发了国际社会对中东能源供应安全的担忧。"
-    },
-    "1ec37a1640c8": {
-     "id": "1ec37a1640c8",
-     "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
-     "zh": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
-     "short": "多国谴责胡塞袭击",
-     "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-27T17:41:24.000Z"
-    },
-    "e47d5a36d07a": {
-     "id": "e47d5a36d07a",
-     "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
-     "zh": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
-     "short": "英国制裁胡塞武装",
-     "url": "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-26T12:10:49.000Z"
-    },
-    "048b74bcf53a": {
-     "id": "048b74bcf53a",
-     "title": "Kuwait summons Iran’s ambassador over ‘continued Iranian attacks’",
-     "zh": "科威特就持续遭受袭击召见伊朗大使",
-     "short": "科威特召见伊朗大使",
-     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/27/kuwait-summons-iran-s-ambassador-over-continued-iranian-attacks",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-27T15:10:03.000Z"
-    },
-    "eeddf84bd0b2": {
-     "id": "eeddf84bd0b2",
-     "title": "Fasiliti penting di Kuwait diserang, 2 warga Itali maut",
-     "zh": "科威特重要设施遭袭致两名意大利人死亡",
-     "short": "科威特设施遭袭两人死",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/fasiliti-penting-di-kuwait-diserang-2-warga-itali-maut",
-     "source": "Free Malaysia Today",
-     "cat": "world",
-     "published": "2026-11-26T22:47:00.000Z"
-    },
-    "d77d50f6cddf": {
-     "id": "d77d50f6cddf",
-     "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-     "zh": "科威特袭击致两名意大利技工身亡",
-     "short": "科威特袭击致两意国人亡",
-     "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss",
-     "source": "BBC World",
-     "cat": "world",
-     "published": "2026-11-26T21:17:53.000Z"
-    },
-    "1750853b8f8d": {
-     "id": "1750853b8f8d",
-     "title": "Film shows testimonies of international doctors amid Gaza genocide",
-     "zh": "纪录片揭露加沙医疗系统在战争中崩溃",
-     "short": "纪录片揭加沙医疗崩溃",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-26T13:02:24.000Z"
-    },
-    "21cb030d8b53": {
-     "id": "21cb030d8b53",
-     "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
-     "zh": "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
-     "short": "加沙冬雨威胁千座避难点",
-     "url": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-25T21:03:51.000Z"
-    },
-    "16d0c819285a": {
-     "id": "16d0c819285a",
-     "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
-     "zh": "库什纳称加沙重建是仁慈之举",
-     "short": "美 envoy称加沙重建是善举",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
-     "source": "Al Jazeera",
-     "cat": "world",
-     "published": "2026-11-27T16:01:44.000Z"
-    }
-   },
-   "name": "中东冲突与海湾局势",
-   "en": "Middle East conflict Saudi oil attack",
-   "wiki": "Red Sea crisis",
-   "cat": "world",
-   "last": "2026-11-27T18:07:21.256Z",
-   "hidden": false,
-   "short": "中东冲突与海湾局势",
-   "key": "沙特与科威特设施接连遭袭",
-   "overview": "沙特吉赞省炼油厂与科威特重要设施相继遭到袭击并造成人员伤亡，引发国际社会强烈谴责与外交抗议。",
-   "minorText": [
-    "纪录片揭露加沙医疗系统在战争中崩溃",
-    "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
-    "库什纳称加沙重建是仁慈之举"
-   ],
-   "links": [
-    {
-     "from": "83cfaa42-3",
-     "to": "83cfaa42-2",
-     "t": "科威特袭击事件与沙特炼油厂遭袭事件均受到地区国家的密切关注与强烈谴责"
-    }
-   ],
-   "img": {
-    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
-    "credit": "Free Malaysia Today",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 2,
-    "sources": 4,
-    "stories": 13,
-    "gdelt": null,
-    "wiki": {
-     "title": "Red Sea crisis",
-     "views": 291,
-     "ratio": 0.9
-    },
-    "at": "2026-11-28T01:28:49.134Z"
-   }
-  },
-  {
-   "id": "b3d30282",
-   "first": "2026-11-25T12:37:04.088Z",
-   "lines": [
-    {
-     "id": "b3d30282-1",
-     "t": "安华谈难民遣返与缅甸政策",
-     "ids": [
-      "7c80ac0e2ab5",
-      "a901cfe916ed",
-      "b4dce39ee3f3",
-      "43b1484a24fe"
-     ],
-     "w": {
-      "short": "安华谈遣返与难民政策",
-      "key": "大马计划12月遣返数千名缅甸非法移民，并指土耳其目前尚未准备好接纳1万名罗兴亚难民。",
-      "title": "安华：大马将遣返缅甸非法移民，土耳其称未准备好接纳罗兴亚难民",
-      "summary": "首相安华在国会表示，大马计划在12月通过海空遣返数千名缅甸公民，并会继续与缅甸政府合作处理难民事宜。同时，他澄清土耳其目前尚未准备好接纳大马提出的1万名罗兴亚难民安置请求。大马政府强调，由于国内难民负担沉重，将继续寻求第三方国家协助安置。",
-      "common": [
-       {
-        "t": "土耳其尚未准备好接纳1万名罗兴亚难民",
-        "src": [
-         "Malaysiakini",
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       },
-       {
-        "t": "大马计划在12月遣返数千名缅甸公民",
-        "src": [
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       },
-       {
-        "t": "大马承担了庞大的难民负担",
-        "src": [
-         "Malaysiakini",
-         "CNA Asia",
-         "The Straits Times"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "安华表示12月将由缅甸政府承担费用，以飞机遣返5303人",
-        "src": "CNA Asia"
-       },
-       {
-        "t": "安华指出与缅甸领导人的接触符合国际法院的裁决，旨在保障难民安全尊严地返回",
-        "src": "The Straits Times"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": "大马将通过海空两路遣返数千名缅甸公民，以缓解国内难民带来的财务与安全压力。",
-       "sea": "涉及马来西亚与缅甸、土耳其等多国的难民安置与遣返外交政策调整。",
-       "world": "在联合国最高法院裁决缅甸对罗兴亚人实施种族灭绝背景下，引发国际社会对难民命运的关注。"
-      },
-      "people": [
-       "Anwar Ibrahim",
-       "Min Aung Hlaing"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "7c80ac0e2ab5",
-        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
-        "says": "安华在国会证实土耳其无意接纳1万名罗兴亚难民，并回应了副首相阿末扎希此前言论引起的争议。",
-        "same": [
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       },
-       {
-        "id": "b4dce39ee3f3",
-        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
-        "says": "大马宣布将于12月通过海军舰艇和飞机遣返数千名缅甸公民，同时提及国际法院对缅甸罗兴亚人的裁决。",
-        "same": [
-         "12月遣返数千缅甸人",
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       },
-       {
-        "id": "43b1484a24fe",
-        "t": "安华：大马将继续就难民遣返与缅甸合作",
-        "says": "安华表示大马将继续与缅甸军政府合作遣返难民，并强调大马已无力继续承担庞大难民人口。",
-        "same": [
-         "继续与缅甸合作遣返",
-         "土耳其未准备好接纳"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "17e2c306",
-     "v": 2,
-     "at": "2026-11-25T22:27:30.245Z",
-     "img": {
-      "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
-      "credit": "Malaysiakini",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "b3d30282-2",
-     "t": "砂拉越州选举各党动态与备战",
-     "ids": [
-      "ae569676b302",
-      "0d925af2cd14",
-      "6b2a92acb011",
-      "b0c97256108b"
-     ],
-     "w": {
-      "short": "砂拉越州选各党动态",
-      "key": "砂拉越州选提名在即，多党缺席引发政坛关注",
-      "title": "砂拉越州选各党动态与备战分析",
-      "summary": "砂拉越州选即将迎来提名日，执政党GPS将竞选全部82个议席。由于多支西马政党及伊斯兰党宣布缺席，引发外界对GPS可能不战而胜取得简单多数议席的讨论。各界分析认为，西马主要政党选择不参选是为了避免激怒GPS，并在未来的联邦政权博弈中保持合作空间。",
-      "common": [
-       {
-        "t": "砂拉越政党联盟（GPS）将竞选全部82个议席。",
-        "src": [
-         "Free Malaysia Today",
-         "CNA Asia"
-        ]
-       },
-       {
-        "t": "国阵（BN）、伊斯兰党（PAS）、公正党（PKR）和诚信党（Amanah）已宣布不参与砂拉越州选。",
-        "src": [
-         "Malaysiakini",
-         "Free Malaysia Today",
-         "CNA Asia"
-        ]
-       },
-       {
-        "t": "行动党（DAP）将参选部分议席并与其他政党展开竞选布局。",
-        "src": [
-         "Malaysiakini",
-         "CNA Asia"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "选举委员会正就GPS可能在提名日后直接不战而胜获得多数议席的法律后果向总检察署寻求意见。",
-        "src": "Malaysiakini"
-       },
-       {
-        "t": "公民社会组织Rise of Social Efforts曾警告GPS可能在提名日赢得高达44个不战而胜的议席。",
-        "src": "Malaysiakini"
-       },
-       {
-        "t": "分析指出，此次州选是一场“战略停火”，旨在避免保证金损失并为第16届大选后积累政治资本。",
-        "src": "CNA Asia"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚不清楚独立人士及其他小型地方政党是否会在剩余议席中参选并改变最终的对垒格局。",
-      "impact": {
-       "my": "砂拉越州选的动态与各党布局将直接影响未来大选后的联邦政府组建与政治格局。",
-       "sea": null,
-       "world": null
-      },
-      "people": [
-       "Abang Johari Openg",
-       "Ramlan Harun"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "ae569676b302",
-        "t": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
-        "says": "选委会正向总检察署征询意见，以应对砂政盟可能在提名日后不战而胜赢得多数议席的情况。",
-        "same": [
-         "不战而胜",
-         "选委会"
-        ],
-        "view": null
-       },
-       {
-        "id": "0d925af2cd14",
-        "t": "砂拉越州选各党动向揭示政治博弈",
-        "says": "国阵、伊斯兰党、公正党和诚信党缺席砂拉越州选，为GPS腾出了运作空间，也为未来的联邦政权埋下伏笔。",
-        "same": [
-         "国阵缺席",
-         "政治博弈"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "6b2a92acb011",
-        "t": "政党对砂拉越州选态度谨慎",
-        "says": "主要政治联盟不愿惹恼GPS，将其视为未来联邦政府的关键造王者，此次低调参选是一场精心计算的战略退让。",
-        "same": [
-         "造王者",
-         "战略退让"
-        ],
-        "view": "看法 A"
-       },
-       {
-        "id": "b0c97256108b",
-        "t": "砂拉越州选：当局促各政党拉票注意电气安全",
-        "says": "",
-        "same": [],
-        "view": null
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "1966d115",
-     "v": 2,
-     "at": "2026-11-27T18:07:48.895Z",
-     "img": {
-      "src": "https://s.malaysiakini.com/i/o8FECJVazmwEnDa6V-_oBtzBKAQ=/1200x0/filters:strip_exif()/file/attachments/orphans/GPS-GabunganPartiSarawakOfficial2_464043.jpg",
-      "credit": "Malaysiakini",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "b3d30282-3",
-     "t": "潘俭伟就特赦记录录供与相关质疑",
-     "ids": [
-      "42a229084cdf",
-      "e649dae8e2ba"
-     ],
-     "w": {
-      "short": "潘俭伟录供",
-      "key": "潘俭伟因发布特赦局会议记录到武吉阿曼录供",
-      "title": "潘俭伟就特赦会议记录贴文录供并质疑警方调查",
-      "summary": "行动党领袖潘俭伟因在脸书发布前首相纳吉居家拘禁相关的联邦直辖区特赦局会议记录，前往武吉阿曼警察总部录供。警方共接获55起针对该贴文的投报，并援引刑事法典及多媒体法令进行调查。潘俭伟坚称有关文件已经解密且部长已在国会回答，因此质疑警方为何还要展开调查。",
-      "common": [
-       {
-        "t": "潘俭伟因在脸书发布特赦局会议记录而前往武吉阿曼录供。",
-        "src": [
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ]
-       },
-       {
-        "t": "警方共接获55起针对潘俭伟该贴文的投报。",
-        "src": [
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ]
-       },
-       {
-        "t": "警方正援引刑事法典第203A条文及1998年通讯及多媒体法令第233条文展开调查。",
-        "src": [
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "潘俭伟透露警方曾询问贴文内提及的“大盗王”一词所指何人。",
-        "src": "Malaysiakini"
-       },
-       {
-        "t": "安华否认文件由政府流传，内政部长赛夫丁则表示已动员资源彻查文件泄露。",
-        "src": "Free Malaysia Today"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚不确定有关特赦局会议记录是如何在官方正式公开前被提前流传的。",
-      "impact": {
-       "my": "事件引发公众对特赦局文件保密与解密程序的关注，并牵动政党间的政治角力。",
-       "sea": null,
-       "world": null
-      },
-      "people": [
-       "Tony Pua",
-       "Najib Razak"
-      ],
-      "photo": null,
-      "per": [
-       {
-        "id": "42a229084cdf",
-        "t": "潘俭伟就纳吉特赦会议记录贴文录供",
-        "says": "潘俭伟针对纳吉居家拘禁特赦局会议记录贴文到武吉阿曼录供，并确认自己全权负责发布该贴文。",
-        "same": [
-         "录供",
-         "55起投报",
-         "特赦局会议记录"
-        ],
-        "view": null
-       },
-       {
-        "id": "e649dae8e2ba",
-        "t": "潘俭伟就解密特赦记录录供后质疑警方调查",
-        "says": "潘俭伟在录供后质疑既然文件已解密且部长已在国会回答，警方为何还要展开调查。",
-        "same": [
-         "录供",
-         "55起投报",
-         "特赦局会议记录"
-        ],
-        "view": "看法 A"
-       }
-      ]
-     },
-     "loose": false,
-     "sig": "994f5fee",
-     "v": 2,
-     "at": "2026-11-28T01:26:55.969Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/be2f6b00-tony-pua-051124.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "b3d30282-4",
-     "t": "大马空军基地毒品走私案与逮捕行动",
-     "ids": [
-      "17f545eedf45",
-      "9e3d419711cf",
-      "5bbde65fcfd5"
-     ],
-     "w": {
-      "short": "空军基地毒品案",
-      "key": "警方再捕5人涉空军基地毒品走私",
-      "title": "大马警方再逮捕5人包括空军官员 涉嫌利用军事资产走私毒品",
-      "summary": "警方针对空军基地毒品走私案再逮捕5人，其中包括一名空军官员与平民。此案此前已起获大量冰毒，并有多名涉案人员被控上法庭面对贩毒指控。当局目前仍在深入调查以揪出幕后主谋。",
-      "common": [
-       {
-        "t": "涉及大马皇家空军人员与毒品走私活动。",
-        "src": [
-         "Free Malaysia Today",
-         "CNA Asia"
-        ]
-       },
-       {
-        "t": "案件涉及雪兰莪州梳邦空军基地。",
-        "src": [
-         "Free Malaysia Today",
-         "CNA Asia"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "落网人数已累计达18人，包括8名空军人员和10名平民。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "被控的6名嫌犯于周五在法庭面控，若罪成可能面对死刑或终身监禁及鞭笞。",
-        "src": "CNA Asia"
-       }
-      ],
-      "views": [],
-      "unknown": null,
-      "impact": {
-       "my": "打击了利用军事资产进行跨境毒品走私的网络，引起社会对国防设施安全与廉政的关注。",
-       "sea": "该毒品集团涉嫌将毒品从半岛输送至沙巴并转运至印尼和菲律宾，引起区域执法关注。",
-       "world": null
-      },
-      "people": [],
-      "photo": "military base",
-      "per": [
-       {
-        "id": "17f545eedf45",
-        "t": "另一名大马皇家空军军官因涉毒案被捕",
-        "says": "警方再逮捕一名空军官员及四名平民，使落网人数累计至18人，该走私网络涉嫌利用军事运输将毒品运往沙巴并分销至国际市场。",
-        "same": [
-         "空军人员",
-         "涉毒案"
-        ],
-        "view": null
-       },
-       {
-        "id": "9e3d419711cf",
-        "t": "大马警方再捕5人包括1空军官员涉毒品走私",
-        "says": "警方针对空军基地毒品案再次展开逮捕行动。",
-        "same": [
-         "空军官员",
-         "涉毒"
-        ],
-        "view": null
-       },
-       {
-        "id": "5bbde65fcfd5",
-        "t": "三名大马空军官兵涉嫌在雪兰莪空军基地走私96.2公斤冰毒被控",
-        "says": "六名嫌犯包括三名空军军官因在梳邦空军基地走私超过90公斤冰毒被控上法庭，若罪成将面临严厉刑罚。",
-        "same": [
-         "空军基地",
-         "冰毒"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "64f7de6f",
-     "v": 2,
-     "at": "2026-11-28T01:26:09.268Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/a3bf4d83-hussein-omar-khan-bernamapic-020626.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    {
-     "id": "b3d30282-5",
-     "t": "森美兰行政议员人事调整与宣誓",
-     "ids": [
-      "7ba0aa8dfd19",
-      "bbd6d5be333f",
-      "86bba50832bb"
-     ],
-     "w": {
-      "short": "森州新行政议员宣誓",
-      "key": "森美兰6名新行政议员完成宣誓上任，每人预计将兼任至少两个职务以确保行政顺利。",
-      "title": "森美兰6名新行政议员宣誓上任，每人预计兼管至少两职",
-      "summary": "森美兰6名新行政议员已在严端面前宣誓就任，以取代早前被撤职的行政议员。州务大臣依斯迈拉欣表示，新任议员预计将各自兼管至少两个职务，而州政府也将通过增加开会频率来处理悬而未决的民生与预算事务。",
-      "common": [
-       {
-        "t": "森美兰6名新行政议员宣誓就任。",
-        "src": [
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ]
-       },
-       {
-        "t": "宣誓仪式在瓜拉庇劳神安池大王宫举行。",
-        "src": [
-         "Free Malaysia Today",
-         "Malaysiakini"
-        ]
-       }
-      ],
-      "single": [
-       {
-        "t": "新任行政议员包括苏海米、再迪、礼祖安、阿都法达、卡尤姆和许金水。",
-        "src": "Free Malaysia Today"
-       },
-       {
-        "t": "国阵主席阿末扎希曾就政治危机前往晋见森州最高统治者。",
-        "src": "Malaysiakini"
-       }
-      ],
-      "views": [],
-      "unknown": "目前尚不确定依斯迈拉欣是否仍掌握州议会多数议员的支持以继续留任大臣职务。",
-      "impact": {
-       "my": "森美兰州行政人事调整与政治局势备受全国关注。",
-       "sea": null,
-       "world": null
-      },
-      "people": [
-       "Ismail Lasim",
-       "Tuanku Muhriz Tuanku Munawir"
-      ],
-      "photo": "swearing-in ceremony",
-      "per": [
-       {
-        "id": "7ba0aa8dfd19",
-        "t": "森美兰6名新行政议员料各兼两职",
-        "says": "森州6名新行政议员已宣誓就任，每人预计将兼管至少两个职务，以确保州行政顺利运作。",
-        "same": [
-         "6名新行政议员",
-         "宣誓就任"
-        ],
-        "view": null
-       },
-       {
-        "id": "bbd6d5be333f",
-        "t": "森州行政议会每周开会两次以解决积压事务",
-        "says": "州政府将通过每周多次开会清理积压的民生事务与确认州预算案。",
-        "same": [],
-        "view": null
-       },
-       {
-        "id": "86bba50832bb",
-        "t": "森美兰行政议员明日宣誓，大臣职位动向受关注",
-        "says": "新行政议员在神安池大王宫宣誓，但依斯迈拉欣是否拥有多数支持仍存在疑问。",
-        "same": [
-         "宣誓就任",
-         "神安池大王宫"
-        ],
-        "view": null
-       }
-      ]
-     },
-     "loose": true,
-     "sig": "7119683c",
-     "v": 2,
-     "at": "2026-11-28T01:26:20.954Z",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/2b625a8e-5fbb-47bb-8821-08488bd35f45-ismail-lasim-istana-seri-menanti-bernama-271126.jpg",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    }
-   ],
-   "minor": [
-    "81fcc05204e4",
-    "4e929bbc26eb",
-    "04e2a80ab80a",
-    "f2101b83907b",
-    "9b9d283ab247"
-   ],
-   "stories": {
-    "81fcc05204e4": {
-     "id": "81fcc05204e4",
-     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
-     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
-     "short": "陆兆福细数希盟挑战",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:30:00.000Z"
-    },
-    "4e929bbc26eb": {
-     "id": "4e929bbc26eb",
-     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
-     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
-     "short": "陆兆福称州选竞争不可持续",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:29:00.000Z"
-    },
-    "04e2a80ab80a": {
-     "id": "04e2a80ab80a",
-     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
-     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
-     "short": "陆兆福谈州选竞争",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-25T01:00:00.000Z"
-    },
-    "7c80ac0e2ab5": {
-     "id": "7c80ac0e2ab5",
-     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
-     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
-     "short": "土耳其暂难接难民",
-     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:29:55.000Z"
-    },
-    "a901cfe916ed": {
-     "id": "a901cfe916ed",
-     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
-     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
-     "short": "安华辩护缅甸会面",
-     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
-     "source": "Malaysiakini",
-     "cat": "sea",
-     "published": "2026-11-24T04:28:10.000Z"
-    },
-    "b4dce39ee3f3": {
-     "id": "b4dce39ee3f3",
-     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
-     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
-     "short": "大马将遣返缅移民",
-     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
-     "source": "CNA Asia",
-     "cat": "malaysia",
-     "published": "2026-11-24T04:25:00.000Z"
-    },
-    "43b1484a24fe": {
-     "id": "43b1484a24fe",
-     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
-     "zh": "安华：大马将继续就难民遣返与缅甸合作",
-     "short": "大马续与缅甸合作",
-     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
-     "source": "The Straits Times",
-     "cat": "sea",
-     "published": "2026-11-24T04:17:50.000Z"
-    },
-    "f2101b83907b": {
-     "id": "f2101b83907b",
-     "title": "Google lambat bertindak, Anwar pertahan saman kerajaan",
-     "zh": "指谷歌处理缓慢，安华力挺政府采取法律行动",
-     "short": "安华力挺对谷歌采取行动",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/google-lambat-bertindak-anwar-pertahan-saman-kerajaan",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T07:02:15.000Z",
-     "sum": "马来西亚首相安华公开捍卫政府对谷歌采取法律行动的决定，批评对方对网络赌博内容的投诉长达六个月未作回应。首相强调政府打击网络犯罪的决心，绝不容许科技巨头忽视安全监管。此举显示大马政府对跨国互联网企业问责力度的加大。"
-    },
-    "9b9d283ab247": {
-     "id": "9b9d283ab247",
-     "title": "Anwar defends govt suit against Google, says tech giant slow to act",
-     "zh": "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓",
-     "short": "安华批谷歌行动迟缓",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/anwar-defends-govt-suit-against-google-says-tech-giant-slow-to-act",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T06:55:17.000Z",
-     "sum": "马来西亚首相安华辩护政府对谷歌提起的诉讼，批评该科技巨头对在线赌博内容的投诉反应迟缓。他指出，部分相关投诉在长达六个月的时间里未获得实质回应。"
-    },
-    "ae569676b302": {
-     "id": "ae569676b302",
-     "title": "Sarawak polls: EC prepares for possible GPS win by uncontested simple majority",
-     "zh": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
-     "short": "砂拉越选举迎无对手局面",
-     "url": "https://www.malaysiakini.com/news/889978-sarawak-polls-ec-prepares-for-possible-gps-win-by-uncontested-simple-majority",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-27T03:14:57.000Z"
-    },
-    "0d925af2cd14": {
-     "id": "0d925af2cd14",
-     "title": "Keeping the door to Kuching unlocked",
-     "zh": "砂拉越州选各党动向揭示政治博弈",
-     "short": "砂州选各党动向解析",
-     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/27/keeping-the-door-to-kuching-unlocked",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-26T23:00:00.000Z"
-    },
-    "6b2a92acb011": {
-     "id": "6b2a92acb011",
-     "title": "Why Malaysia’s political rivals are tiptoeing around Sarawak’s upcoming state polls",
-     "zh": "政党对砂拉越州选态度谨慎",
-     "short": "政党谨慎看待砂州选",
-     "url": "https://www.channelnewsasia.com/asia/malaysia-sarawak-state-election-gps-abang-johari-ph-6584196",
-     "source": "CNA Asia",
-     "cat": "malaysia",
-     "published": "2026-11-26T22:00:00.000Z"
-    },
-    "b0c97256108b": {
-     "id": "b0c97256108b",
-     "title": "Sarawak polls: Parties, campaign workers urged to observe strict electrical safety measures",
-     "zh": "砂拉越州选：当局促各政党拉票注意电气安全",
-     "short": "砂拉越州选关注安全",
-     "url": "https://www.straitstimes.com/asia/se-asia/sarawak-polls-parties-campaign-workers-urged-to-observe-strict-electrical-safety-measures",
-     "source": "The Straits Times",
-     "cat": "malaysia",
-     "published": "2026-11-27T03:45:00.000Z"
-    },
-    "42a229084cdf": {
-     "id": "42a229084cdf",
-     "title": "Pua gives statement to cops over FB post on Najib pardon minutes",
-     "zh": "潘俭伟就纳吉特赦会议记录贴文录供",
-     "short": "潘俭伟录供助查贴文",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/pua-gives-statement-to-cops-over-fb-post-on-najib-pardon-minutes",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T07:08:00.000Z",
-     "sum": "行动党领袖潘俭伟因脸书发布有关纳吉特赦局会议记录的贴文，遭到警方传召录供。警方主要追问他是否知道该文件已被解密。事件引发对政府机密文件处理及言论自由的讨论。",
-     "img": {
-      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/be2f6b00-tony-pua-051124.webp",
-      "credit": "Free Malaysia Today",
-      "kind": "A"
-     }
-    },
-    "e649dae8e2ba": {
-     "id": "e649dae8e2ba",
-     "title": "Pua questions police probe after giving statement over declassified pardon minutes",
-     "zh": "潘俭伟就解密特赦记录录供后质疑警方调查",
-     "short": "潘俭伟质疑警方调查",
-     "url": "https://www.malaysiakini.com/news/889998-pua-questions-police-probe-after-giving-statement-over-declassified-pardon-minutes",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-27T06:53:51.000Z"
-    },
-    "17f545eedf45": {
-     "id": "17f545eedf45",
-     "title": "Another RMAF officer nabbed in drugs probe",
-     "zh": "另一名大马皇家空军军官因涉毒案被捕",
-     "short": "又一空军军官涉毒被捕",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/another-rmaf-officer-nabbed-in-drugs-probe",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T15:25:00.000Z"
-    },
-    "9e3d419711cf": {
-     "id": "9e3d419711cf",
-     "title": "5 lagi termasuk 1 pegawai TUDM ditahan berkait kes seludup dadah",
-     "zh": "大马警方再捕5人包括1空军官员涉毒品走私",
-     "short": "5人涉毒走私被捕",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/5-lagi-termasuk-1-pegawai-tudm-ditahan-berkait-kes-seludup-dadah",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T14:34:49.000Z"
-    },
-    "5bbde65fcfd5": {
-     "id": "5bbde65fcfd5",
-     "title": "Three Malaysian air force officers charged with trafficking 96.2kg of meth at Selangor airbase",
-     "zh": "三名大马空军官兵涉嫌在雪兰莪空军基地走私96.2公斤冰毒被控",
-     "short": "三空军涉贩毒被控",
-     "url": "https://www.channelnewsasia.com/asia/malaysia-air-force-officers-charged-drug-trafficking-death-penalty-6587031",
-     "source": "CNA Asia",
-     "cat": "malaysia",
-     "published": "2026-11-27T07:48:00.000Z"
-    },
-    "7ba0aa8dfd19": {
-     "id": "7ba0aa8dfd19",
-     "title": "6 new exco members to hold at least 2 portfolios each, says MB",
-     "zh": "森美兰6名新行政议员料各兼两职",
-     "short": "森州新行政议员兼职",
-     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/6-new-exco-members-to-hold-at-least-2-portfolios-each-says-mb",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T07:15:00.000Z"
-    },
-    "bbd6d5be333f": {
-     "id": "bbd6d5be333f",
-     "title": "Mesyuarat exco 2 kali seminggu selesai perkara tertunggak, kata Ismail",
-     "zh": "森州行政议会每周开会两次以解决积压事务",
-     "short": "森州行政议会每周两会",
-     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/mesyuarat-exco-2-kali-seminggu-selesai-perkara-tertunggak-kata-ismail",
-     "source": "Free Malaysia Today",
-     "cat": "malaysia",
-     "published": "2026-11-27T06:56:26.000Z"
-    },
-    "86bba50832bb": {
-     "id": "86bba50832bb",
-     "title": "N Sembilan exco swearing-in tomorrow as questions linger over MB's position",
-     "zh": "森美兰行政议员明日宣誓，大臣职位动向受关注",
-     "short": "森州行政议员明日宣誓",
-     "url": "https://www.malaysiakini.com/news/889964-n-sembilan-exco-swearing-in-tomorrow-as-questions-linger-over-mbs-position",
-     "source": "Malaysiakini",
-     "cat": "malaysia",
-     "published": "2026-11-26T14:30:53.000Z"
-    }
-   },
-   "name": "马来西亚政治与政策",
-   "en": "Malaysia politics Anwar Ibrahim",
-   "wiki": "Politics of Malaysia",
-   "cat": "malaysia",
-   "last": "2026-11-27T18:07:21.256Z",
-   "hidden": false,
-   "short": "大马政坛多事之秋",
-   "key": "安华谈难民遣返，潘俭伟录供惹争议",
-   "overview": "首相安华宣布12月遣返缅甸难民，西马政党缺席砂拉越州选以保持合作，潘俭伟因涉纳吉特赦记录录供，空军基地毒品案再捕多人。",
-   "minorText": [
-    "陆兆福指选民疲态及经济隐忧为希盟挑战",
-    "陆兆福：中央合作却在州属竞争并不可持续",
-    "陆兆福：团结政府中央合作、州选对抗不可持续",
-    "指谷歌处理缓慢，安华力挺政府采取法律行动",
-    "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓"
-   ],
-   "links": [
-    {
-     "from": "b3d30282-2",
-     "to": "b3d30282-1",
-     "t": "砂拉越州选各党动态涉及联邦政权博弈，与安华领导的中央政府政策背景相关"
-    }
-   ],
-   "img": {
-    "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
-    "credit": "Malaysiakini",
-    "kind": "A"
-   },
-   "heat": {
-    "score": 2,
-    "sources": 4,
-    "stories": 21,
-    "gdelt": null,
-    "wiki": {
-     "title": "Politics of Malaysia",
-     "views": 53,
-     "ratio": 0.9
-    },
-    "at": "2026-11-28T01:29:27.153Z"
    }
   },
   {
@@ -2388,27 +1209,29 @@
     },
     {
      "id": "f4bb4b75-3",
-     "t": "泽连斯基警告俄军袭击并敦促施压",
+     "t": "泽连斯基呼吁与战术局势评估",
      "ids": [
       "1cf14ec2e93b",
       "a7df677691a6",
-      "9f40c2b1c24d"
+      "9f40c2b1c24d",
+      "ca7308b64fa8",
+      "4f350440cb77"
      ],
      "w": {
       "short": "泽连斯基警告大规模袭击",
-      "key": "泽连斯基警告俄军将发动大规模导弹袭击并敦促各方加大对俄施压。",
-      "title": "泽连斯基警告俄军将发动大规模袭击 敦促美方加大对俄施压",
-      "summary": "乌克兰总统泽连斯基警告称俄军正准备在未来几天发动新的大规模袭击，并敦促美国加大对俄罗斯的施压。与此同时，美国总统特朗普表示他曾敦促普京收手，但泽连斯基对美方做法及部分言论表达了不满与质疑。",
+      "key": "乌克兰警告面临俄军新一轮大规模导弹袭击，并呼吁美国加大施压",
+      "title": "乌克兰警告面临俄军大规模袭击，泽连斯基对美方涉俄态度表不满",
+      "summary": "乌克兰总统泽连斯基警告称俄军正准备新一轮的大规模袭击，同时敦促民众留意导弹威胁。与此同时，美国总统特朗普表示曾敦促普京收手，但泽连斯基对美方对俄施压不足及相关言论表示不满。此外，双方在战术局势与和平谈判方面继续保持动态博弈。",
       "common": [
        {
-        "t": "泽连斯基发出警告",
+        "t": "泽连斯基警告俄军将发动大规模袭击",
         "src": [
          "Al Jazeera",
          "BBC World"
         ]
        },
        {
-        "t": "特朗普敦促普京收手",
+        "t": "特朗普敦促普京停止在欧洲军事侵略",
         "src": [
          "Al Jazeera",
          "BBC World"
@@ -2417,75 +1240,110 @@
       ],
       "single": [
        {
-        "t": "泽连斯基在视频讲话中提到乌克兰掌握俄军将发动大规模袭击的情报，并提醒民众注意防空警报。",
-        "src": "Al Jazeera"
+        "t": "乌克兰向国际盟友提交了一份黑海停火提议以恢复粮食出口",
+        "src": "France 24"
        },
        {
-        "t": "泽连斯基接受BBC采访时批评特朗普称普京为朋友，并对美国施压不足及防空导弹延迟交付表达不满。",
-        "src": "BBC World"
+        "t": "乌克兰无人机袭击了俄罗斯多地的炼油厂及军事机场",
+        "src": "Al Jazeera"
        }
       ],
-      "views": [],
-      "unknown": null,
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Al Jazeera",
+         "BBC World"
+        ],
+        "t": "特朗普认为通过与普京沟通有望迅速达成俄乌和平协议。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "泽连斯基批评美国对俄施压不够且美方特使立场更倾向莫斯科。"
+       }
+      ],
+      "unknown": "目前尚不清楚欧洲谈判代表是否会如美方特使所宣布的那样出席即将到来的和平谈判。",
       "impact": {
        "my": null,
        "sea": null,
-       "world": "乌克兰战争持续引发导弹袭击与和平谈判进展，牵动美欧与俄罗斯的国际地缘政治格局。"
+       "world": "全球能源供应与粮食运输安全因乌克兰战争及黑海局势持续受到地缘政治风险的影响。"
       },
       "people": [
        "Volodymyr Zelenskyy",
        "Donald Trump"
       ],
-      "photo": null,
+      "photo": "missile attack",
       "per": [
        {
         "id": "a7df677691a6",
         "t": "泽连斯基敦促美国向普京施压并质疑特朗普言论",
-        "says": "泽连斯基敦促美方对普京施压并质疑相关言论。",
+        "says": "泽连斯基敦促美方施压并对相关言论提出质疑。",
         "same": [
-         "泽连斯基",
-         "施压"
+         "敦促美国施压"
         ],
-        "view": null
+        "view": "看法 B"
        },
        {
         "id": "1cf14ec2e93b",
         "t": "泽连斯基警告俄军将发动大规模袭击，特朗普敦促普京收手",
-        "says": "乌克兰掌握情报显示俄军将发动大规模袭击，特朗普则表示已敦促普京收手。",
+        "says": "乌克兰警告俄军将发动新袭击，特朗普称已敦促普京缓和局势。",
         "same": [
-         "泽连斯基警告",
-         "特朗普敦促"
+         "大规模袭击",
+         "敦促普京收手"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "9f40c2b1c24d",
         "t": "泽连斯基称美方过分关注中东且对俄施压不足",
-        "says": "泽连斯基对美国施压不足表达不满，并批评特朗普称普京为朋友。",
+        "says": "泽连斯基批评美国施压不足，特朗普则称和平协议大有可能。",
         "same": [
-         "泽连斯基",
-         "施压不足"
+         "对俄施压不足"
         ],
+        "view": "看法 B"
+       },
+       {
+        "id": "ca7308b64fa8",
+        "t": "乌克兰提交黑海停火方案以恢复粮食出口",
+        "says": "乌克兰提交黑海停火提议以保障粮食出口，正等待莫斯科回应。",
+        "same": null,
+        "view": null
+       },
+       {
+        "id": "4f350440cb77",
+        "t": "乌克兰赞扬新军事行动，“熊陷”战术致俄军伤亡上升",
+        "says": "乌克兰赞扬新军事行动及相关战术。",
+        "same": null,
         "view": null
        }
       ]
      },
      "loose": true,
-     "sig": "08c889c0",
+     "sig": "1442856a",
      "v": 2,
-     "at": "2026-11-28T01:26:32.275Z",
+     "at": "2026-11-28T10:12:08.683Z",
      "img": {
       "src": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
       "credit": "BBC World",
       "kind": "A"
      }
+    },
+    {
+     "id": "f4bb4b75-4",
+     "t": "无人机空战与防空拦截进展",
+     "ids": [
+      "5c5ccb0181f1",
+      "539dc0d62ecf",
+      "cabe3a95b498"
+     ]
     }
    ],
    "minor": [
     "eb0a93722806",
-    "cabe3a95b498",
-    "4b6679d458d3",
-    "4f350440cb77"
+    "4b6679d458d3"
    ],
    "stories": {
     "f5aa2c1600b1": {
@@ -2908,38 +1766,63 @@
      "source": "Al Jazeera",
      "cat": "world",
      "published": "2026-11-27T17:13:46.000Z"
+    },
+    "5c5ccb0181f1": {
+     "id": "5c5ccb0181f1",
+     "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
+     "zh": "乌克兰使用激光技术击落俄罗斯无人机，莫斯科拦截夜间袭击",
+     "short": "乌军用激光击落无人机",
+     "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-28T07:12:00.000Z",
+     "sum": "乌克兰宣称成功使用激光技术击落了一架俄罗斯喷气动力无人机。与此同时，俄罗斯当局表示夜间拦截了大量针对莫斯科的无人机袭击。俄乌双方近期不断升级使用各类武器的袭击频率。"
+    },
+    "539dc0d62ecf": {
+     "id": "539dc0d62ecf",
+     "title": "Russia says it shot down more than 1,200 Ukrainian drones overnight",
+     "zh": "俄罗斯称昨夜击落逾千架乌克兰无人机",
+     "short": "俄称击落千架无人机",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/28/russia-says-it-shot-down-more-than-1-200-ukrainian-drones-overnight",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-28T07:51:54.000Z"
+    },
+    "ca7308b64fa8": {
+     "id": "ca7308b64fa8",
+     "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+     "zh": "乌克兰提交黑海停火方案以恢复粮食出口",
+     "short": "乌克兰提议黑海停火",
+     "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+     "source": "France 24",
+     "cat": "world",
+     "published": "2026-11-27T21:09:12.000Z",
+     "sum": "乌克兰向国际盟友提交了一份黑海停火提议，旨在保障粮食安全出口，目前正等待莫斯科方面的回应。此前不久，俄罗斯袭击了黑海附近的外国运粮船。"
     }
    },
    "name": "乌克兰战争导弹袭击",
-   "en": "Ukraine war missile drone strikes",
-   "wiki": "Russian invasion of Ukraine",
+   "en": "Ukraine war drone strike Russia",
+   "wiki": "Russo-Ukrainian War",
    "cat": "world",
-   "last": "2026-11-27T18:07:21.256Z",
+   "last": "2026-11-28T10:11:20.733Z",
    "hidden": false,
-   "short": "乌克兰遭导弹空袭",
-   "key": "俄军大规模空袭基辅并引发波兰紧张",
-   "overview": "俄罗斯对乌克兰多地发动导弹与无人机空袭造成死伤并波及使馆，落入波兰的导弹加剧了区域紧张，同时战后安全保障与美俄乌外交博弈陷入僵局。",
+   "short": "乌克兰遭大规模空袭",
+   "key": "俄军大规模空袭基辅及多地，引发国际紧张与安全争端",
+   "overview": "俄罗斯对乌克兰基辅等多地发动大规模导弹和无人机空袭造成伤亡并波及使馆，同时引发关于波兰领土遭袭及战后安全保障的激烈外交博弈。",
    "minorText": [
     "波兰称将在乌克兰边境设立无人区以防领空遭侵犯",
-    "莫斯科无人机入侵：波兰将在乌克兰边境设禁飞区",
-    "乌克兰使用激光系统击落俄军喷气式无人机，创全球首例",
-    "乌克兰赞扬新军事行动，“熊陷”战术致俄军伤亡上升"
+    "乌克兰使用激光系统击落俄军喷气式无人机，创全球首例"
    ],
    "links": [
     {
      "from": "f4bb4b75-1",
      "to": "f4bb4b75-2",
-     "t": "基辅遭空袭之际，美俄乌正围绕战后安全保障与领土让步展开外交争端"
+     "t": "空袭引发的紧张局势与库什纳提出的战后安全保障构想相互呼应"
     },
     {
      "from": "f4bb4b75-3",
-     "to": "f4bb4b75-1",
-     "t": "泽连斯基警告俄军将发动新的大规模袭击并敦促美方施压"
-    },
-    {
-     "from": "f4bb4b75-2",
-     "to": "f4bb4b75-3",
-     "t": "特朗普与普京会晤引发泽连斯基公开反驳与不满"
+     "to": "f4bb4b75-2",
+     "t": "泽连斯基对美方施压不足的批评与特朗普关于和平协议的言论直接相关"
     }
    ],
    "img": {
@@ -2948,19 +1831,1393 @@
     "kind": "A"
    },
    "heat": {
-    "score": 4,
+    "score": 3,
     "sources": 9,
-    "stories": 38,
-    "gdelt": {
-     "ratio": 2.3,
-     "share": 0.0683
-    },
+    "stories": 41,
+    "gdelt": null,
     "wiki": {
-     "title": "Russian invasion of Ukraine",
-     "views": 945,
-     "ratio": 1
+     "title": "Russo-Ukrainian War",
+     "views": 791,
+     "ratio": 0.9
     },
-    "at": "2026-11-28T01:30:06.380Z"
+    "at": "2026-11-28T10:15:47.845Z"
+   }
+  },
+  {
+   "id": "83cfaa42",
+   "first": "2026-11-25T22:26:29.968Z",
+   "lines": [
+    {
+     "id": "83cfaa42-1",
+     "t": "哥伦比亚发生汽车炸弹袭击",
+     "ids": [
+      "f37901791947",
+      "b7670f6d932b",
+      "993e98885a52",
+      "9611067fd591"
+     ],
+     "w": {
+      "short": "哥国发生汽车炸弹袭击",
+      "key": "哥伦比亚梅塔省发生汽车炸弹袭击事件",
+      "title": "哥伦比亚发生汽车炸弹袭击造成建筑损毁",
+      "summary": "哥伦比亚中部城市比利亚维森西奥发生了一起汽车炸弹袭击，导致梅塔省州长办公室及周边建筑受损。目前总统表示暂未有伤亡确认，并将其归咎于贩毒集团的报复。当局正持续应对该国面临的严重犯罪暴力浪潮。",
+      "common": [
+       {
+        "t": "哥伦比亚发生汽车炸弹袭击事件。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "袭击目标涉及梅塔省州长办公室。",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "袭击导致当地建筑损毁并出现大弹坑，居民在混乱中走避。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚无人员伤亡的确切证实。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "哥伦比亚安全局势恶化及打击毒品犯罪的成效受到国际关注。"
+      },
+      "people": [
+       "Abelardo de la Espriella"
+      ],
+      "photo": "car bomb rubble",
+      "per": [
+       {
+        "id": "f37901791947",
+        "t": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+        "says": "提及哥伦比亚相关局势但未详述炸弹袭击细节。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "b7670f6d932b",
+        "t": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+        "says": "报道了哥伦比亚发生的另一起安全事件。",
+        "same": [
+         "哥伦比亚"
+        ],
+        "view": null
+       },
+       {
+        "id": "993e98885a52",
+        "t": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+        "says": "比利亚维森西奥发生汽车炸弹袭击，梅塔省州长办公室受损，总统将其归咎于毒贩。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       },
+       {
+        "id": "9611067fd591",
+        "t": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+        "says": "简要报道了梅塔省州长办公室遭遇汽车炸弹袭击。",
+        "same": [
+         "汽车炸弹袭击",
+         "梅塔省州长办公室"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "8176ed19",
+     "v": 2,
+     "at": "2026-11-25T22:27:44.271Z",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795567656.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "83cfaa42-2",
+     "t": "也门局势与沙特炼油厂遭袭",
+     "ids": [
+      "3fa3e0a7f7a9",
+      "1ec37a1640c8",
+      "e47d5a36d07a",
+      "3eb764b8cd39"
+     ],
+     "w": {
+      "short": "沙特炼油厂遭袭",
+      "key": "沙特炼油厂遭袭引发国际谴责与盟友安全承诺",
+      "title": "沙特炼油厂遭袭致人死伤 多国谴责胡塞武装",
+      "summary": "沙特吉赞省的一处石油炼油厂遭到袭击，造成人员伤亡并引发火灾，部分运营暂停。多国高级官员对此类持续袭击予以强烈谴责，并重申支持沙特维护国家安全。",
+      "common": [
+       {
+        "t": "沙特炼油厂遭到袭击",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       },
+       {
+        "t": "谴责胡塞武装袭击",
+        "src": [
+         "Free Malaysia Today",
+         "Al Jazeera"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "袭击导致1名尼泊尔籍工人死亡数人受伤",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "巴基斯坦、沙特和土耳其官员在伊斯兰堡会晤并发表谴责声明",
+        "src": "Al Jazeera"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚具体的各方应对和制裁措施细节。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "中东冲突加剧引发国际社会对地区能源设施与安全的担忧。"
+      },
+      "people": [
+       "Ishaq Dar"
+      ],
+      "photo": "oil refinery",
+      "per": [
+       {
+        "id": "3fa3e0a7f7a9",
+        "t": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
+        "says": "沙特吉赞省炼油厂遭空中项目袭击引发火灾，导致1名尼泊尔工人死亡及数人受伤，部分运营暂停。",
+        "same": [
+         "炼油厂遭袭",
+         "胡塞武装"
+        ],
+        "view": null
+       },
+       {
+        "id": "1ec37a1640c8",
+        "t": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
+        "says": "巴基斯坦、沙特和土耳其官员举行会晤，强烈谴责胡塞武装持续袭击沙特，并承诺捍卫沙特安全。",
+        "same": [
+         "谴责袭击",
+         "沙特"
+        ],
+        "view": null
+       },
+       {
+        "id": "e47d5a36d07a",
+        "t": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
+        "says": "探讨英国在也门胡塞武装袭击沙特背景下的动作。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "2aa729c1",
+     "v": 2,
+     "at": "2026-11-27T18:08:27.128Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/8e446b56-3b15-4f2c-85dd-4e26a9333459-damage-mosque-in-Jazan-AFP-pic-271126-1.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "83cfaa42-3",
+     "t": "科威特袭击事件与各方反应",
+     "ids": [
+      "048b74bcf53a",
+      "eeddf84bd0b2",
+      "d77d50f6cddf",
+      "70414c38be0f"
+     ],
+     "w": {
+      "short": "科威特袭击致死",
+      "key": "科威特设施遭无人机袭击导致两名意大利人丧生",
+      "title": "科威特袭击事件引发外交反应与各方表态",
+      "summary": "科威特的一处重要设施遭到无人机袭击，造成两名受雇于德国防务公司的意大利技工死亡。科威特外交部为此召见了伊朗大使并递交抗议信，而伊朗则否认与该起袭击事件有任何关联。",
+      "common": [
+       {
+        "t": "科威特一处设施遭到袭击造成两名意大利人死亡。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "科威特就袭击事件召见了伊朗大使。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       },
+       {
+        "t": "伊朗官方否认涉及这起造成人员伤亡的袭击。",
+        "src": [
+         "Free Malaysia Today",
+         "BBC World"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "意大利媒体引述调查指出，袭击所使用的无人机为伊朗制造，且当地有伊朗代理人发动袭击的记录。",
+        "src": "BBC World"
+       }
+      ],
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "Free Malaysia Today"
+        ],
+        "t": "科威特认为此次袭击是持续遭受伊朗侵略的一部分。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "BBC World"
+        ],
+        "t": "伊朗外交部长形容该事件看起来十分可疑，并称其像是预谋引发战争的方案。"
+       }
+      ],
+      "unknown": "目前袭击事件的具体幕后黑手与最终原因仍在调查确定中。",
+      "impact": {
+       "my": null,
+       "sea": null,
+       "world": "中东冲突与海湾局势升级，引发国际社会对区域大战的担忧。"
+      },
+      "people": [
+       "Mohammad Totonji",
+       "Abbas Araghchi"
+      ],
+      "photo": "drone attack site",
+      "per": [
+       {
+        "id": "048b74bcf53a",
+        "t": "科威特就持续遭受袭击召见伊朗大使",
+        "says": "科威特外交部召见伊朗大使抗议持续袭击，并针对无人机袭击导致两名意大利人丧生一事递交抗议信。",
+        "same": [
+         "召见伊朗大使",
+         "两名意大利人死亡"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "eeddf84bd0b2",
+        "t": "科威特重要设施遭袭致两名意大利人死亡",
+        "says": "报道了科威特重要设施遭到袭击并导致两名意大利人死亡的消息。",
+        "same": [
+         "两名意大利人死亡"
+        ],
+        "view": null
+       },
+       {
+        "id": "d77d50f6cddf",
+        "t": "科威特袭击致两名意大利技工身亡",
+        "says": "遇难者为德国防务公司技术人员，科威特与意大利将袭击归咎于伊朗，但伊朗否认并表示愿意合作查明真相。",
+        "same": [
+         "两名意大利人死亡",
+         "伊朗否认责任"
+        ],
+        "view": "看法 B"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "2fc03184",
+     "v": 2,
+     "at": "2026-11-27T18:08:39.492Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [
+    "1750853b8f8d",
+    "21cb030d8b53",
+    "16d0c819285a",
+    "276e911c487e",
+    "3aeba5acc6f2"
+   ],
+   "stories": {
+    "f37901791947": {
+     "id": "f37901791947",
+     "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
+     "zh": "中国称台湾议员访美跨越第一条红线，哥伦比亚反应平静",
+     "short": "中国批台湾议员访美",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVJxOW1wNktNNlY0TkNfX1hiZWdGS05sNndkNmZDdWk4UWRVTjlnYVpaSUdQSk1sZll5c01JdUN1MnV5ODBnbjgxUk9jTnZiWXk0YmUzc08zY2liSldpRGczRzVWVDBIREFxaDdyT0hDS05NQ1hhdlZmZHEyNGt6RHh5bXF4ejJNbTYtbFJUY3NzWTlhdV9Hazh6clFFaDRNTGNhZGNYcVpjSUY4SmtJM2xLd0dnUG51WE9Femdyc1VDZDhocGp4Y1FWWnPSAcwBQVVfeXFMTkI4eFhza1hhcXRoWG1adTZiWWoyVmRfTlItODQ2clh3aFJPd0VIMksyRHhiUzlkX2ROcnV6c3V5dF9ISXpXQzkzdDZ0Y3YtNXEzSUtsZUVwNkpVdlBpa1pKcmdaYmdDTGhzRERwNFVkU0VkUmhRWi1HYmYtVkczT2FyTktpZV83OUdiV2RXOWNlbEdkcUZKWDFhdVRMSEZoZFhPaHhJNms3Z2VpdHp2LTlQZHNJQXNNeGhLWnRDNzBhZE1JU3c4TWtOVzFq?oc=5",
+     "source": "South China Morning Post",
+     "cat": "china",
+     "published": "2026-11-25T19:52:34.000Z"
+    },
+    "b7670f6d932b": {
+     "id": "b7670f6d932b",
+     "title": "Gunmen hold dozens hostage in Colombia supermarket",
+     "zh": "哥伦比亚一家超市发生武装分子劫持数十名人质事件",
+     "short": "哥伦比亚超市劫持",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T00:49:35.000Z"
+    },
+    "993e98885a52": {
+     "id": "993e98885a52",
+     "title": "Car bomb destroys buildings in Colombia’s Villavicencio",
+     "zh": "哥伦比亚发生汽车炸弹袭击导致建筑损毁",
+     "short": "哥伦比亚汽车炸弹袭击",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/24/car-bomb-destroys-buildings-in-colombia-s-villavicencio",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-24T05:12:50.000Z"
+    },
+    "9611067fd591": {
+     "id": "9611067fd591",
+     "title": "Car bomb strikes governor’s office in Meta, Colombia",
+     "zh": "哥伦比亚梅塔省州长办公室遭遇汽车炸弹袭击",
+     "short": "哥伦比亚遭炸弹袭",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-24T04:49:31.000Z"
+    },
+    "3fa3e0a7f7a9": {
+     "id": "3fa3e0a7f7a9",
+     "title": "Pekerja maut, loji minyak di Saudi diserang",
+     "zh": "沙特阿拉伯吉赞省一处石油炼油厂遭袭致1死数伤",
+     "short": "沙特炼油厂遭袭击",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/pekerja-maut-loji-minyak-di-saudi-diserang",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-27T02:33:26.000Z",
+     "sum": "沙特阿拉伯吉赞省的一处石油炼油厂遭到袭击，事件造成人员伤亡并有多人受伤。这引发了国际社会对中东能源供应安全的担忧。"
+    },
+    "1ec37a1640c8": {
+     "id": "1ec37a1640c8",
+     "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+     "zh": "麦加条约盟友谴责胡塞武装对沙特发动“凶残”袭击",
+     "short": "多国谴责胡塞袭击",
+     "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T17:41:24.000Z"
+    },
+    "e47d5a36d07a": {
+     "id": "e47d5a36d07a",
+     "title": "‘Symbolic’: Why did UK sanction Yemen’s Houthis amid attacks on Saudi?",
+     "zh": "象征性制裁？英国为何在也门胡塞武装袭沙特时出手",
+     "short": "英国制裁胡塞武装",
+     "url": "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-26T12:10:49.000Z"
+    },
+    "048b74bcf53a": {
+     "id": "048b74bcf53a",
+     "title": "Kuwait summons Iran’s ambassador over ‘continued Iranian attacks’",
+     "zh": "科威特就持续遭受袭击召见伊朗大使",
+     "short": "科威特召见伊朗大使",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/27/kuwait-summons-iran-s-ambassador-over-continued-iranian-attacks",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-27T15:10:03.000Z"
+    },
+    "eeddf84bd0b2": {
+     "id": "eeddf84bd0b2",
+     "title": "Fasiliti penting di Kuwait diserang, 2 warga Itali maut",
+     "zh": "科威特重要设施遭袭致两名意大利人死亡",
+     "short": "科威特设施遭袭两人死",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/dunia/2026/11/27/fasiliti-penting-di-kuwait-diserang-2-warga-itali-maut",
+     "source": "Free Malaysia Today",
+     "cat": "world",
+     "published": "2026-11-26T22:47:00.000Z"
+    },
+    "d77d50f6cddf": {
+     "id": "d77d50f6cddf",
+     "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+     "zh": "科威特袭击致两名意大利技工身亡",
+     "short": "科威特袭击致两意国人亡",
+     "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&amp;at_campaign=rss",
+     "source": "BBC World",
+     "cat": "world",
+     "published": "2026-11-26T21:17:53.000Z"
+    },
+    "1750853b8f8d": {
+     "id": "1750853b8f8d",
+     "title": "Film shows testimonies of international doctors amid Gaza genocide",
+     "zh": "纪录片揭露加沙医疗系统在战争中崩溃",
+     "short": "纪录片揭加沙医疗崩溃",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-26T13:02:24.000Z"
+    },
+    "21cb030d8b53": {
+     "id": "21cb030d8b53",
+     "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
+     "zh": "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
+     "short": "加沙冬雨威胁千座避难点",
+     "url": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-25T21:03:51.000Z"
+    },
+    "16d0c819285a": {
+     "id": "16d0c819285a",
+     "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
+     "zh": "库什纳称加沙重建是仁慈之举",
+     "short": "美 envoy称加沙重建是善举",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T16:01:44.000Z"
+    },
+    "70414c38be0f": {
+     "id": "70414c38be0f",
+     "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
+     "zh": "意大利外长指科威特致命袭击事件中的无人机产自伊朗",
+     "short": "意指科威特袭击无人机产自伊朗",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-28T00:00:00.000Z",
+     "sum": "意大利外长塔亚尼公开表示，日前导致人员伤亡的科威特袭击事件中，涉案的无人机是由伊朗制造。这番言论加剧了国际社会对中东紧张局势升级的担忧。各方正密切关注该事件对区域安全及外交关系带来的进一步冲击。",
+     "img": {
+      "src": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795823699.jpg?resize=1920%2C1080&quality=80",
+      "credit": "Al Jazeera",
+      "kind": "A"
+     }
+    },
+    "3eb764b8cd39": {
+     "id": "3eb764b8cd39",
+     "title": "Yemen government forces hit Houthi positions as UN warns of hunger crisis",
+     "zh": "也门政府军打击胡塞武装，联合国警告饥荒危机",
+     "short": "也门交火陷严重饥荒危机",
+     "url": "https://www.aljazeera.com/news/2026/11/28/yemen-governmen-forces-hit-houthi-positions-as-un-warns-of-hunger-crisis?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-28T09:35:15.000Z"
+    },
+    "276e911c487e": {
+     "id": "276e911c487e",
+     "title": "US disables ship attempting to breach Iran blockade",
+     "zh": "美国美军拦截并瘫痪一艘试图突破伊朗海上封锁的商船",
+     "short": "美军瘫痪欲突破封锁商船",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T23:55:16.000Z"
+    },
+    "3aeba5acc6f2": {
+     "id": "3aeba5acc6f2",
+     "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+     "zh": "美军称拦截并瘫痪一艘试图突破伊朗封锁的商船",
+     "short": "美军瘫痪突破封锁商船",
+     "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+     "source": "Al Jazeera",
+     "cat": "world",
+     "published": "2026-11-27T22:22:02.000Z"
+    }
+   },
+   "name": "中东冲突与海湾局势",
+   "en": "Middle East conflict Kuwait attack",
+   "wiki": "Middle East crisis",
+   "cat": "world",
+   "last": "2026-11-28T10:11:20.732Z",
+   "hidden": false,
+   "short": "中东冲突与海湾局势",
+   "key": "沙特与科威特设施接连遭袭",
+   "overview": "沙特吉赞省炼油厂与科威特重要设施相继遭到袭击并造成人员伤亡，引发国际社会强烈谴责与外交抗议。",
+   "minorText": [
+    "纪录片揭露加沙医疗系统在战争中崩溃",
+    "加沙冬季降雨威胁上千避难所 市政吁更换20万顶帐篷",
+    "库什纳称加沙重建是仁慈之举"
+   ],
+   "links": [
+    {
+     "from": "83cfaa42-3",
+     "to": "83cfaa42-2",
+     "t": "科威特袭击事件与沙特炼油厂遭袭事件均受到地区国家的密切关注与强烈谴责"
+    }
+   ],
+   "img": {
+    "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/cc9aa689-afp-a6ee6t6-kuwait-airport.webp",
+    "credit": "Free Malaysia Today",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 4,
+    "stories": 17,
+    "gdelt": null,
+    "wiki": {
+     "title": "Middle East crisis",
+     "views": 0,
+     "ratio": 0
+    },
+    "at": "2026-11-28T10:14:57.825Z"
+   }
+  },
+  {
+   "id": "b3d30282",
+   "first": "2026-11-25T12:37:04.088Z",
+   "lines": [
+    {
+     "id": "b3d30282-1",
+     "t": "安华谈难民遣返与缅甸政策",
+     "ids": [
+      "7c80ac0e2ab5",
+      "a901cfe916ed",
+      "b4dce39ee3f3",
+      "43b1484a24fe"
+     ],
+     "w": {
+      "short": "安华谈遣返与难民政策",
+      "key": "大马计划12月遣返数千名缅甸非法移民，并指土耳其目前尚未准备好接纳1万名罗兴亚难民。",
+      "title": "安华：大马将遣返缅甸非法移民，土耳其称未准备好接纳罗兴亚难民",
+      "summary": "首相安华在国会表示，大马计划在12月通过海空遣返数千名缅甸公民，并会继续与缅甸政府合作处理难民事宜。同时，他澄清土耳其目前尚未准备好接纳大马提出的1万名罗兴亚难民安置请求。大马政府强调，由于国内难民负担沉重，将继续寻求第三方国家协助安置。",
+      "common": [
+       {
+        "t": "土耳其尚未准备好接纳1万名罗兴亚难民",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马计划在12月遣返数千名缅甸公民",
+        "src": [
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       },
+       {
+        "t": "大马承担了庞大的难民负担",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia",
+         "The Straits Times"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "安华表示12月将由缅甸政府承担费用，以飞机遣返5303人",
+        "src": "CNA Asia"
+       },
+       {
+        "t": "安华指出与缅甸领导人的接触符合国际法院的裁决，旨在保障难民安全尊严地返回",
+        "src": "The Straits Times"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "大马将通过海空两路遣返数千名缅甸公民，以缓解国内难民带来的财务与安全压力。",
+       "sea": "涉及马来西亚与缅甸、土耳其等多国的难民安置与遣返外交政策调整。",
+       "world": "在联合国最高法院裁决缅甸对罗兴亚人实施种族灭绝背景下，引发国际社会对难民命运的关注。"
+      },
+      "people": [
+       "Anwar Ibrahim",
+       "Min Aung Hlaing"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "7c80ac0e2ab5",
+        "t": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+        "says": "安华在国会证实土耳其无意接纳1万名罗兴亚难民，并回应了副首相阿末扎希此前言论引起的争议。",
+        "same": [
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "b4dce39ee3f3",
+        "t": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+        "says": "大马宣布将于12月通过海军舰艇和飞机遣返数千名缅甸公民，同时提及国际法院对缅甸罗兴亚人的裁决。",
+        "same": [
+         "12月遣返数千缅甸人",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       },
+       {
+        "id": "43b1484a24fe",
+        "t": "安华：大马将继续就难民遣返与缅甸合作",
+        "says": "安华表示大马将继续与缅甸军政府合作遣返难民，并强调大马已无力继续承担庞大难民人口。",
+        "same": [
+         "继续与缅甸合作遣返",
+         "土耳其未准备好接纳"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "17e2c306",
+     "v": 2,
+     "at": "2026-11-25T22:27:30.245Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-2",
+     "t": "砂拉越州选举各党动态与备战",
+     "ids": [
+      "ae569676b302",
+      "0d925af2cd14",
+      "6b2a92acb011",
+      "b0c97256108b"
+     ],
+     "w": {
+      "short": "砂拉越州选各党动态",
+      "key": "砂拉越州选提名在即，多党缺席引发政坛关注",
+      "title": "砂拉越州选各党动态与备战分析",
+      "summary": "砂拉越州选即将迎来提名日，执政党GPS将竞选全部82个议席。由于多支西马政党及伊斯兰党宣布缺席，引发外界对GPS可能不战而胜取得简单多数议席的讨论。各界分析认为，西马主要政党选择不参选是为了避免激怒GPS，并在未来的联邦政权博弈中保持合作空间。",
+      "common": [
+       {
+        "t": "砂拉越政党联盟（GPS）将竞选全部82个议席。",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "国阵（BN）、伊斯兰党（PAS）、公正党（PKR）和诚信党（Amanah）已宣布不参与砂拉越州选。",
+        "src": [
+         "Malaysiakini",
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "行动党（DAP）将参选部分议席并与其他政党展开竞选布局。",
+        "src": [
+         "Malaysiakini",
+         "CNA Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "选举委员会正就GPS可能在提名日后直接不战而胜获得多数议席的法律后果向总检察署寻求意见。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "公民社会组织Rise of Social Efforts曾警告GPS可能在提名日赢得高达44个不战而胜的议席。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "分析指出，此次州选是一场“战略停火”，旨在避免保证金损失并为第16届大选后积累政治资本。",
+        "src": "CNA Asia"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不清楚独立人士及其他小型地方政党是否会在剩余议席中参选并改变最终的对垒格局。",
+      "impact": {
+       "my": "砂拉越州选的动态与各党布局将直接影响未来大选后的联邦政府组建与政治格局。",
+       "sea": null,
+       "world": null
+      },
+      "people": [
+       "Abang Johari Openg",
+       "Ramlan Harun"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "ae569676b302",
+        "t": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
+        "says": "选委会正向总检察署征询意见，以应对砂政盟可能在提名日后不战而胜赢得多数议席的情况。",
+        "same": [
+         "不战而胜",
+         "选委会"
+        ],
+        "view": null
+       },
+       {
+        "id": "0d925af2cd14",
+        "t": "砂拉越州选各党动向揭示政治博弈",
+        "says": "国阵、伊斯兰党、公正党和诚信党缺席砂拉越州选，为GPS腾出了运作空间，也为未来的联邦政权埋下伏笔。",
+        "same": [
+         "国阵缺席",
+         "政治博弈"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "6b2a92acb011",
+        "t": "政党对砂拉越州选态度谨慎",
+        "says": "主要政治联盟不愿惹恼GPS，将其视为未来联邦政府的关键造王者，此次低调参选是一场精心计算的战略退让。",
+        "same": [
+         "造王者",
+         "战略退让"
+        ],
+        "view": "看法 A"
+       },
+       {
+        "id": "b0c97256108b",
+        "t": "砂拉越州选：当局促各政党拉票注意电气安全",
+        "says": "",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "1966d115",
+     "v": 2,
+     "at": "2026-11-27T18:07:48.895Z",
+     "img": {
+      "src": "https://s.malaysiakini.com/i/o8FECJVazmwEnDa6V-_oBtzBKAQ=/1200x0/filters:strip_exif()/file/attachments/orphans/GPS-GabunganPartiSarawakOfficial2_464043.jpg",
+      "credit": "Malaysiakini",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-3",
+     "t": "潘俭伟就特赦记录录供与相关质疑",
+     "ids": [
+      "42a229084cdf",
+      "e649dae8e2ba"
+     ],
+     "w": {
+      "short": "潘俭伟录供",
+      "key": "潘俭伟因发布特赦局会议记录到武吉阿曼录供",
+      "title": "潘俭伟就特赦会议记录贴文录供并质疑警方调查",
+      "summary": "行动党领袖潘俭伟因在脸书发布前首相纳吉居家拘禁相关的联邦直辖区特赦局会议记录，前往武吉阿曼警察总部录供。警方共接获55起针对该贴文的投报，并援引刑事法典及多媒体法令进行调查。潘俭伟坚称有关文件已经解密且部长已在国会回答，因此质疑警方为何还要展开调查。",
+      "common": [
+       {
+        "t": "潘俭伟因在脸书发布特赦局会议记录而前往武吉阿曼录供。",
+        "src": [
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ]
+       },
+       {
+        "t": "警方共接获55起针对潘俭伟该贴文的投报。",
+        "src": [
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ]
+       },
+       {
+        "t": "警方正援引刑事法典第203A条文及1998年通讯及多媒体法令第233条文展开调查。",
+        "src": [
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "潘俭伟透露警方曾询问贴文内提及的“大盗王”一词所指何人。",
+        "src": "Malaysiakini"
+       },
+       {
+        "t": "安华否认文件由政府流传，内政部长赛夫丁则表示已动员资源彻查文件泄露。",
+        "src": "Free Malaysia Today"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不确定有关特赦局会议记录是如何在官方正式公开前被提前流传的。",
+      "impact": {
+       "my": "事件引发公众对特赦局文件保密与解密程序的关注，并牵动政党间的政治角力。",
+       "sea": null,
+       "world": null
+      },
+      "people": [
+       "Tony Pua",
+       "Najib Razak"
+      ],
+      "photo": null,
+      "per": [
+       {
+        "id": "42a229084cdf",
+        "t": "潘俭伟就纳吉特赦会议记录贴文录供",
+        "says": "潘俭伟针对纳吉居家拘禁特赦局会议记录贴文到武吉阿曼录供，并确认自己全权负责发布该贴文。",
+        "same": [
+         "录供",
+         "55起投报",
+         "特赦局会议记录"
+        ],
+        "view": null
+       },
+       {
+        "id": "e649dae8e2ba",
+        "t": "潘俭伟就解密特赦记录录供后质疑警方调查",
+        "says": "潘俭伟在录供后质疑既然文件已解密且部长已在国会回答，警方为何还要展开调查。",
+        "same": [
+         "录供",
+         "55起投报",
+         "特赦局会议记录"
+        ],
+        "view": "看法 A"
+       }
+      ]
+     },
+     "loose": false,
+     "sig": "994f5fee",
+     "v": 2,
+     "at": "2026-11-28T01:26:55.969Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/be2f6b00-tony-pua-051124.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-4",
+     "t": "空军人员涉毒案与安华彻查指示",
+     "ids": [
+      "17f545eedf45",
+      "9e3d419711cf",
+      "5bbde65fcfd5",
+      "a00d7582791a"
+     ],
+     "w": {
+      "short": "空军基地毒品案",
+      "key": "警方再捕5人涉空军基地毒品走私",
+      "title": "大马警方再逮捕5人包括空军官员 涉嫌利用军事资产走私毒品",
+      "summary": "警方针对空军基地毒品走私案再逮捕5人，其中包括一名空军官员与平民。此案此前已起获大量冰毒，并有多名涉案人员被控上法庭面对贩毒指控。当局目前仍在深入调查以揪出幕后主谋。",
+      "common": [
+       {
+        "t": "涉及大马皇家空军人员与毒品走私活动。",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       },
+       {
+        "t": "案件涉及雪兰莪州梳邦空军基地。",
+        "src": [
+         "Free Malaysia Today",
+         "CNA Asia"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "落网人数已累计达18人，包括8名空军人员和10名平民。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "被控的6名嫌犯于周五在法庭面控，若罪成可能面对死刑或终身监禁及鞭笞。",
+        "src": "CNA Asia"
+       }
+      ],
+      "views": [],
+      "unknown": null,
+      "impact": {
+       "my": "打击了利用军事资产进行跨境毒品走私的网络，引起社会对国防设施安全与廉政的关注。",
+       "sea": "该毒品集团涉嫌将毒品从半岛输送至沙巴并转运至印尼和菲律宾，引起区域执法关注。",
+       "world": null
+      },
+      "people": [],
+      "photo": "military base",
+      "per": [
+       {
+        "id": "17f545eedf45",
+        "t": "另一名大马皇家空军军官因涉毒案被捕",
+        "says": "警方再逮捕一名空军官员及四名平民，使落网人数累计至18人，该走私网络涉嫌利用军事运输将毒品运往沙巴并分销至国际市场。",
+        "same": [
+         "空军人员",
+         "涉毒案"
+        ],
+        "view": null
+       },
+       {
+        "id": "9e3d419711cf",
+        "t": "大马警方再捕5人包括1空军官员涉毒品走私",
+        "says": "警方针对空军基地毒品案再次展开逮捕行动。",
+        "same": [
+         "空军官员",
+         "涉毒"
+        ],
+        "view": null
+       },
+       {
+        "id": "5bbde65fcfd5",
+        "t": "三名大马空军官兵涉嫌在雪兰莪空军基地走私96.2公斤冰毒被控",
+        "says": "六名嫌犯包括三名空军军官因在梳邦空军基地走私超过90公斤冰毒被控上法庭，若罪成将面临严厉刑罚。",
+        "same": [
+         "空军基地",
+         "冰毒"
+        ],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "64f7de6f",
+     "v": 2,
+     "at": "2026-11-28T01:26:09.268Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/a3bf4d83-hussein-omar-khan-bernamapic-020626.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    {
+     "id": "b3d30282-5",
+     "t": "森美兰州行政议会重组风波",
+     "ids": [
+      "7ba0aa8dfd19",
+      "bbd6d5be333f",
+      "86bba50832bb",
+      "bddec1585ef8",
+      "9492da244bd3",
+      "723c8a09eea7",
+      "58f80415aee6"
+     ],
+     "w": {
+      "short": "森州6新行政议员宣誓",
+      "key": "森美兰6名新行政议员在神安池大王宫宣誓就任，每人预计将兼任至少两个职务以确保行政顺畅。",
+      "title": "森美兰6名新行政议员宣誓就职，料每人兼管至少两职",
+      "summary": "森美兰州迎来6名新的行政议员并在神安池大王宫完成宣誓就任，以填补此前因行政僵局而被撤职的10名原行政议员空缺。新任大臣依斯迈拉欣表示，这6人预计将各自兼管至少两个职务，以解决近两个月未开会而积压的民生事务。同时，国阵主席阿末扎希也前往觐见森州最高统治者讨论政治危机。",
+      "common": [
+       {
+        "t": "森美兰6名新行政议员在神安池大王宫宣誓就职。",
+        "src": [
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ]
+       },
+       {
+        "t": "新任行政议员预计将各自兼管至少两个职务以确保行政顺畅。",
+        "src": [
+         "Free Malaysia Today",
+         "Malaysiakini"
+        ]
+       }
+      ],
+      "single": [
+       {
+        "t": "新任行政议员包括苏海米、再迪、里祖安、阿都法达、卡尤姆和许金水。",
+        "src": "Free Malaysia Today"
+       },
+       {
+        "t": "国阵主席阿末扎希曾觐见森州最高统治者讨论州内的政治危机。",
+        "src": "Malaysiakini"
+       }
+      ],
+      "views": [],
+      "unknown": "目前尚不确定依斯迈拉欣是否拥有多数州议员的支持以继续稳坐大臣之位。",
+      "impact": {
+       "my": "森美兰州行政议会重组并着手处理积压的民生与预算案事务。",
+       "sea": null,
+       "world": null
+      },
+      "people": [
+       "Ismail Lasim",
+       "Tuanku Muhriz Tuanku Munawir"
+      ],
+      "photo": "state assembly swearing in ceremony",
+      "per": [
+       {
+        "id": "7ba0aa8dfd19",
+        "t": "森美兰6名新行政议员料各兼两职",
+        "says": "6名新行政议员预计各兼管两职，大臣依斯迈拉欣将在接下来一两天内公布分配详情，并计划每周多次开会解决积压事务。",
+        "same": [
+         "各兼两职",
+         "宣誓就任"
+        ],
+        "view": null
+       },
+       {
+        "id": "bbd6d5be333f",
+        "t": "森州行政议会每周开会两次以解决积压事务",
+        "says": "森州行政议会将安排每周多次开会以处理积压的文件与民生事务。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "86bba50832bb",
+        "t": "森美兰行政议员明日宣誓，大臣职位动向受关注",
+        "says": "新任行政议员在神安池大王宫宣誓，但依斯迈拉欣是否拥有多数支持仍受关注，国阵领袖此前已觐见统治者。",
+        "same": [
+         "宣誓就任"
+        ],
+        "view": null
+       },
+       {
+        "id": "bddec1585ef8",
+        "t": "首相安华保证森美兰发展项目不受影响",
+        "says": "首相保证森美兰的发展项目将顺利进行。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "9492da244bd3",
+        "t": "首相：布城将确保森美兰公务员薪金顺利发放",
+        "says": "布城将确保森州公务员薪金顺利发放。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "723c8a09eea7",
+        "t": "委任六名行政议员助森美兰恢复行政运作，扎希德如是说",
+        "says": "委任六名行政议员旨在帮助森美兰恢复行政运作。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "58f80415aee6",
+        "t": "从三成到零：森美兰州行政议员全男性惹非议",
+        "says": "新任森州行政议员阵容全为男性，引发外界议论。",
+        "same": [],
+        "view": null
+       }
+      ]
+     },
+     "loose": true,
+     "sig": "6d9192c0",
+     "v": 2,
+     "at": "2026-11-28T10:11:43.066Z",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/2b625a8e-5fbb-47bb-8821-08488bd35f45-ismail-lasim-istana-seri-menanti-bernama-271126.jpg",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    }
+   ],
+   "minor": [
+    "81fcc05204e4",
+    "4e929bbc26eb",
+    "04e2a80ab80a",
+    "f2101b83907b",
+    "9b9d283ab247"
+   ],
+   "stories": {
+    "81fcc05204e4": {
+     "id": "81fcc05204e4",
+     "title": "Loke flags voter fatigue, economic woes, racial politics as PH challenges",
+     "zh": "陆兆福指选民疲态及经济隐忧为希盟挑战",
+     "short": "陆兆福细数希盟挑战",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/loke-flags-voter-fatigue-economic-woes-racial-politics-as-ph-challenges",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:30:00.000Z"
+    },
+    "4e929bbc26eb": {
+     "id": "4e929bbc26eb",
+     "title": "Tak mampan jika kerjasama di Putrajaya, tapi bersaing di negeri, kata Loke",
+     "zh": "陆兆福：中央合作却在州属竞争并不可持续",
+     "short": "陆兆福称州选竞争不可持续",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/25/tak-mampan-jika-kerjasama-di-putrajaya-tapi-bersaing-di-negeri-kata-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:29:00.000Z"
+    },
+    "04e2a80ab80a": {
+     "id": "04e2a80ab80a",
+     "title": "Unsustainable for unity govt to cooperate federally, clash in states, says Loke",
+     "zh": "陆兆福：团结政府中央合作、州选对抗不可持续",
+     "short": "陆兆福谈州选竞争",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/25/unsustainable-for-unity-govt-to-cooperate-federally-clash-in-states-says-loke",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-25T01:00:00.000Z"
+    },
+    "7c80ac0e2ab5": {
+     "id": "7c80ac0e2ab5",
+     "title": "Anwar: Turkiye not ready to consider taking in 10k Rohingya refugees",
+     "zh": "安华：土耳其尚未准备好考虑接纳1万名罗兴亚难民",
+     "short": "土耳其暂难接难民",
+     "url": "https://www.malaysiakini.com/news/889714-anwar-turkiye-not-ready-to-consider-taking-in-10k-rohingya-refugees",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:29:55.000Z"
+    },
+    "a901cfe916ed": {
+     "id": "a901cfe916ed",
+     "title": "Myanmar junta leader's visit warranted despite Rohingya persecution - Anwar",
+     "zh": "安华：尽管存在迫害，与缅甸军政府领导人会面仍有必要",
+     "short": "安华辩护缅甸会面",
+     "url": "https://www.malaysiakini.com/news/889719-anwar-myanmar-junta-leaders-visit-warranted-despite-rohingya-persecution",
+     "source": "Malaysiakini",
+     "cat": "sea",
+     "published": "2026-11-24T04:28:10.000Z"
+    },
+    "b4dce39ee3f3": {
+     "id": "b4dce39ee3f3",
+     "title": "Malaysia set to repatriate thousands more Myanmar migrants: PM",
+     "zh": "大马计划在12月通过海空遣返数千名缅甸非法移民",
+     "short": "大马将遣返缅移民",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-repatriate-rohingya-migrants-myanmar-6577096",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-24T04:25:00.000Z"
+    },
+    "43b1484a24fe": {
+     "id": "43b1484a24fe",
+     "title": "Malaysia to continue working with Myanmar on refugee repatriation, PM says after genocide ruling",
+     "zh": "安华：大马将继续就难民遣返与缅甸合作",
+     "short": "大马续与缅甸合作",
+     "url": "https://www.straitstimes.com/asia/malaysia-to-continue-working-with-myanmar-on-refugee-repatriation-pm-says-after-genocide-ruling",
+     "source": "The Straits Times",
+     "cat": "sea",
+     "published": "2026-11-24T04:17:50.000Z"
+    },
+    "f2101b83907b": {
+     "id": "f2101b83907b",
+     "title": "Google lambat bertindak, Anwar pertahan saman kerajaan",
+     "zh": "指谷歌处理缓慢，安华力挺政府采取法律行动",
+     "short": "安华力挺对谷歌采取行动",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/google-lambat-bertindak-anwar-pertahan-saman-kerajaan",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:02:15.000Z",
+     "sum": "马来西亚首相安华公开捍卫政府对谷歌采取法律行动的决定，批评对方对网络赌博内容的投诉长达六个月未作回应。首相强调政府打击网络犯罪的决心，绝不容许科技巨头忽视安全监管。此举显示大马政府对跨国互联网企业问责力度的加大。"
+    },
+    "9b9d283ab247": {
+     "id": "9b9d283ab247",
+     "title": "Anwar defends govt suit against Google, says tech giant slow to act",
+     "zh": "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓",
+     "short": "安华批谷歌行动迟缓",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/anwar-defends-govt-suit-against-google-says-tech-giant-slow-to-act",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:55:17.000Z",
+     "sum": "马来西亚首相安华辩护政府对谷歌提起的诉讼，批评该科技巨头对在线赌博内容的投诉反应迟缓。他指出，部分相关投诉在长达六个月的时间里未获得实质回应。"
+    },
+    "ae569676b302": {
+     "id": "ae569676b302",
+     "title": "Sarawak polls: EC prepares for possible GPS win by uncontested simple majority",
+     "zh": "砂拉越州选：选举委员会备妥GPS无对手直接执政方案",
+     "short": "砂拉越选举迎无对手局面",
+     "url": "https://www.malaysiakini.com/news/889978-sarawak-polls-ec-prepares-for-possible-gps-win-by-uncontested-simple-majority",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-27T03:14:57.000Z"
+    },
+    "0d925af2cd14": {
+     "id": "0d925af2cd14",
+     "title": "Keeping the door to Kuching unlocked",
+     "zh": "砂拉越州选各党动向揭示政治博弈",
+     "short": "砂州选各党动向解析",
+     "url": "https://www.freemalaysiatoday.com/category/opinion/2026/11/27/keeping-the-door-to-kuching-unlocked",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-26T23:00:00.000Z"
+    },
+    "6b2a92acb011": {
+     "id": "6b2a92acb011",
+     "title": "Why Malaysia’s political rivals are tiptoeing around Sarawak’s upcoming state polls",
+     "zh": "政党对砂拉越州选态度谨慎",
+     "short": "政党谨慎看待砂州选",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-sarawak-state-election-gps-abang-johari-ph-6584196",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-26T22:00:00.000Z"
+    },
+    "b0c97256108b": {
+     "id": "b0c97256108b",
+     "title": "Sarawak polls: Parties, campaign workers urged to observe strict electrical safety measures",
+     "zh": "砂拉越州选：当局促各政党拉票注意电气安全",
+     "short": "砂拉越州选关注安全",
+     "url": "https://www.straitstimes.com/asia/se-asia/sarawak-polls-parties-campaign-workers-urged-to-observe-strict-electrical-safety-measures",
+     "source": "The Straits Times",
+     "cat": "malaysia",
+     "published": "2026-11-27T03:45:00.000Z"
+    },
+    "42a229084cdf": {
+     "id": "42a229084cdf",
+     "title": "Pua gives statement to cops over FB post on Najib pardon minutes",
+     "zh": "潘俭伟就纳吉特赦会议记录贴文录供",
+     "short": "潘俭伟录供助查贴文",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/pua-gives-statement-to-cops-over-fb-post-on-najib-pardon-minutes",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:08:00.000Z",
+     "sum": "行动党领袖潘俭伟因脸书发布有关纳吉特赦局会议记录的贴文，遭到警方传召录供。警方主要追问他是否知道该文件已被解密。事件引发对政府机密文件处理及言论自由的讨论。",
+     "img": {
+      "src": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2024/11/be2f6b00-tony-pua-051124.webp",
+      "credit": "Free Malaysia Today",
+      "kind": "A"
+     }
+    },
+    "e649dae8e2ba": {
+     "id": "e649dae8e2ba",
+     "title": "Pua questions police probe after giving statement over declassified pardon minutes",
+     "zh": "潘俭伟就解密特赦记录录供后质疑警方调查",
+     "short": "潘俭伟质疑警方调查",
+     "url": "https://www.malaysiakini.com/news/889998-pua-questions-police-probe-after-giving-statement-over-declassified-pardon-minutes",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:53:51.000Z"
+    },
+    "17f545eedf45": {
+     "id": "17f545eedf45",
+     "title": "Another RMAF officer nabbed in drugs probe",
+     "zh": "另一名大马皇家空军军官因涉毒案被捕",
+     "short": "又一空军军官涉毒被捕",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/another-rmaf-officer-nabbed-in-drugs-probe",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T15:25:00.000Z"
+    },
+    "9e3d419711cf": {
+     "id": "9e3d419711cf",
+     "title": "5 lagi termasuk 1 pegawai TUDM ditahan berkait kes seludup dadah",
+     "zh": "大马警方再捕5人包括1空军官员涉毒品走私",
+     "short": "5人涉毒走私被捕",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/5-lagi-termasuk-1-pegawai-tudm-ditahan-berkait-kes-seludup-dadah",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T14:34:49.000Z"
+    },
+    "5bbde65fcfd5": {
+     "id": "5bbde65fcfd5",
+     "title": "Three Malaysian air force officers charged with trafficking 96.2kg of meth at Selangor airbase",
+     "zh": "三名大马空军官兵涉嫌在雪兰莪空军基地走私96.2公斤冰毒被控",
+     "short": "三空军涉贩毒被控",
+     "url": "https://www.channelnewsasia.com/asia/malaysia-air-force-officers-charged-drug-trafficking-death-penalty-6587031",
+     "source": "CNA Asia",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:48:00.000Z"
+    },
+    "7ba0aa8dfd19": {
+     "id": "7ba0aa8dfd19",
+     "title": "6 new exco members to hold at least 2 portfolios each, says MB",
+     "zh": "森美兰6名新行政议员料各兼两职",
+     "short": "森州新行政议员兼职",
+     "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/27/6-new-exco-members-to-hold-at-least-2-portfolios-each-says-mb",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T07:15:00.000Z"
+    },
+    "bbd6d5be333f": {
+     "id": "bbd6d5be333f",
+     "title": "Mesyuarat exco 2 kali seminggu selesai perkara tertunggak, kata Ismail",
+     "zh": "森州行政议会每周开会两次以解决积压事务",
+     "short": "森州行政议会每周两会",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/27/mesyuarat-exco-2-kali-seminggu-selesai-perkara-tertunggak-kata-ismail",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-27T06:56:26.000Z"
+    },
+    "86bba50832bb": {
+     "id": "86bba50832bb",
+     "title": "N Sembilan exco swearing-in tomorrow as questions linger over MB's position",
+     "zh": "森美兰行政议员明日宣誓，大臣职位动向受关注",
+     "short": "森州行政议员明日宣誓",
+     "url": "https://www.malaysiakini.com/news/889964-n-sembilan-exco-swearing-in-tomorrow-as-questions-linger-over-mbs-position",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-26T14:30:53.000Z"
+    },
+    "bddec1585ef8": {
+     "id": "bddec1585ef8",
+     "title": "PM beri jaminan projek pembangunan N Sembilan tak terjejas",
+     "zh": "首相安华保证森美兰发展项目不受影响",
+     "short": "安华保森州项目进行",
+     "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/28/pm-beri-jaminan-projek-pembangunan-n-sembilan-tak-terjejas",
+     "source": "Free Malaysia Today",
+     "cat": "malaysia",
+     "published": "2026-11-28T07:59:39.000Z"
+    },
+    "9492da244bd3": {
+     "id": "9492da244bd3",
+     "title": "PM: Putrajaya will ensure N Sembilan civil servants' salaries are paid",
+     "zh": "首相：布城将确保森美兰公务员薪金顺利发放",
+     "short": "布城确保森州发薪",
+     "url": "https://www.malaysiakini.com/news/890060-pm-putrajaya-will-ensure-n-sembilan-civil-servants-salaries-are-paid",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-28T06:56:37.000Z"
+    },
+    "723c8a09eea7": {
+     "id": "723c8a09eea7",
+     "title": "Pelantikan enam EXCO pulihkan pentadbiran Negeri Sembilan – Ahmad Zahid - Berita Harian (BHarian Online)",
+     "zh": "委任六名行政议员助森美兰恢复行政运作，扎希德如是说",
+     "short": "森美兰委任六行政议员",
+     "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ya3RvT1N1Vk1sUUY1N0JlZ3ZvUmktM0p0TVNsaGd5VVFmblF2bDdSczdJMkJKLVh3ZnV2RXdVc1h2TXVJSFMzMjZ5R1hLVGRsd0JZTzRR?oc=5",
+     "source": "Berita Harian",
+     "cat": "malaysia",
+     "published": "2026-11-28T06:48:07.000Z"
+    },
+    "58f80415aee6": {
+     "id": "58f80415aee6",
+     "title": "From 30pct to zero: Former exco, NGO lament current N Sembilan all-male exco team",
+     "zh": "从三成到零：森美兰州行政议员全男性惹非议",
+     "short": "森州行政议员无女性",
+     "url": "https://www.malaysiakini.com/news/890041-from-30pct-to-zero-former-exco-ngo-lament-current-n-sembilan-all-male-exco-team",
+     "source": "Malaysiakini",
+     "cat": "malaysia",
+     "published": "2026-11-27T23:00:00.000Z"
+    },
+    "a00d7582791a": {
+     "id": "a00d7582791a",
+     "title": "Anwar demands full probe into abuse of RMAF assets for drug smuggling, says it happened ‘dozens of times’",
+     "zh": "安华要求彻底彻查空军资产遭滥用运毒案，称事件发生过数十次",
+     "short": "安华要求彻查军机运毒",
+     "url": "https://www.malaymail.com/news/malaysia/2026/11/28/anwar-demands-full-probe-into-abuse-of-rmaf-assets-for-drug-smuggling-says-it-happened-dozens-of-times/245095",
+     "source": "Malay Mail",
+     "cat": "malaysia",
+     "published": "2026-11-28T07:00:35.000Z",
+     "sum": "大马首相安华公开要求对空军资产遭滥用进行全面彻底的调查。他指出此类走私毒品事件已经发生了数十次之多。政府强调在执法和打击走私上绝不妥协、绝不包庇。",
+     "img": {
+      "src": "https://www.malaymail.com/malaymail/uploads/images/2026/11/28/376776.webp",
+      "credit": "Malay Mail",
+      "kind": "A"
+     }
+    }
+   },
+   "name": "马来西亚政治与政策",
+   "en": "Malaysia politics Anwar Ibrahim",
+   "wiki": "Politics of Malaysia",
+   "cat": "malaysia",
+   "last": "2026-11-28T10:11:20.732Z",
+   "hidden": false,
+   "short": "大马政坛动荡与政策交锋",
+   "key": "安华谈难民遣返与多州政局洗牌",
+   "overview": "首相安华宣布12月遣返缅甸难民，砂拉越州选各党动态引发关注，行动党潘俭伟因特赦记录录供，森美兰完成行政议会重组。",
+   "minorText": [
+    "陆兆福指选民疲态及经济隐忧为希盟挑战",
+    "陆兆福认为中央合作却在州属竞争并不可持续",
+    "陆兆福强调团结政府中央合作、州选对抗不可持续",
+    "指谷歌处理缓慢，安华力挺政府采取法律行动",
+    "安华辩护政府对谷歌诉讼，指科技巨头行动迟缓"
+   ],
+   "links": [],
+   "img": {
+    "src": "https://s.malaysiakini.com/i/NeX1cdzGvbqFoxt4FgbCpZ1D_PU=/1200x0/filters:strip_exif()/file/1333/94c1365c168bcccf0fd2a977c2f22af7.jpeg",
+    "credit": "Malaysiakini",
+    "kind": "A"
+   },
+   "heat": {
+    "score": 2,
+    "sources": 6,
+    "stories": 26,
+    "gdelt": null,
+    "wiki": {
+     "title": "Politics of Malaysia",
+     "views": 62,
+     "ratio": 1.1
+    },
+    "at": "2026-11-28T10:15:31.354Z"
    }
   },
   {
@@ -4433,102 +4690,124 @@
     },
     {
      "id": "3700168d-12",
-     "t": "英伟达芯片出口限制与暂停销售",
+     "t": "英伟达芯片对华限制及东南亚影响",
      "ids": [
       "2487d6eb1404",
       "6ed5996d6c40",
-      "6dcda87fc24e"
+      "6dcda87fc24e",
+      "b9d884663e8a",
+      "0bff16a62262"
      ],
      "w": {
-      "short": "英伟达暂停东南亚销售",
-      "key": "英伟达因美国政策暂停向东南亚四国部分销售",
-      "title": "英伟达暂停东南亚销售及供应链调整风波",
-      "summary": "受美国旨在堵住对华限制漏洞的新措施影响，英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚销售部分先进人工智能芯片，导致多地订单被搁置。多国政府与企业正积极跟进评估，以应对潜在的供应链冲击与地缘政治不确定性。此举对严重依赖该市场的东南亚数据中心建设及全球高科技产业布局带来了动荡。",
+      "short": "英伟达暂停东南亚芯片销售",
+      "key": "美国加紧对华限制，英伟达暂停东南亚部分芯片销售",
+      "title": "英伟达暂停向东南亚部分国家销售芯片以配合美国对华限制",
+      "summary": "随着美国加紧切断中国企业获取美国算力的渠道，英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚等东南亚四国销售部分最先进人工智能芯片。马来西亚等国的数据中心运营商订单被搁置，威胁到当地增长迅速的数据中心市场。不过，部分地区的授权分销商和政府官员表示尚未收到正式通知或未受到实质性干扰。",
       "common": [
        {
-        "t": "美国的技术管制与政策正对东南亚的芯片供应及相关企业产生影响。",
+        "t": "英伟达暂停向东南亚部分国家销售芯片",
         "src": [
          "纽约时报中文网",
-         "NST Online"
+         "Bangkok Post"
         ]
        }
       ],
       "single": [
        {
-        "t": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚的数据中心运营商销售部分先进人工智能芯片。",
+        "t": "马来西亚、新加坡、泰国和印度尼西亚的数据中心运营商订单被搁置",
         "src": "纽约时报中文网"
        },
        {
-        "t": "新加坡正与本地企业进行沟通，以评估美国芯片限制政策对供应链的实际冲击。",
+        "t": "新加坡正就芯片出口限制与本地企业展开接触",
         "src": "NST Online"
        },
        {
-        "t": "新加坡副总理颜金勇表示辉达的供应暂停尚未获证实，当局正向企业咨询影响。",
-        "src": "联合早报"
+        "t": "泰国授权分销商表示未收到英伟达发出的禁令和取消订单通知",
+        "src": "Bangkok Post"
        }
       ],
-      "views": [],
-      "unknown": "目前尚不清楚此次销售暂停将持续多久，是一项权宜之计直至企业明确如何获得许可证。",
+      "views": [
+       {
+        "label": "看法 A",
+        "src": [
+         "纽约时报中文网"
+        ],
+        "t": "英伟达暂停对东南亚部分芯片销售，订单被搁置，威胁当地数据中心市场。"
+       },
+       {
+        "label": "看法 B",
+        "src": [
+         "Bangkok Post"
+        ],
+        "t": "泰国授权分销商表示供应未受实质性干扰，现有订单正常推进。"
+       }
+      ],
+      "unknown": "目前尚不清楚此次芯片销售暂停将持续多久。",
       "impact": {
-       "my": "芯片供应长期中断可能会使马来西亚的数据中心建设和扩张计划陷入停滞，危及投资并给放贷机构带来压力。",
-       "sea": "冻结措施威胁到东南亚这一全球增长最快的数据中心市场之一，并影响区域企业的供应链运作稳定。",
-       "world": "美国的技术管制和供应链调整正持续影响全球高科技产业的布局。",
-       "china": null
+       "my": "马来西亚的数十亿美元数据中心建设计划和投资可能陷入停滞。",
+       "sea": "威胁到东南亚增长最快的数据中心市场之一，并对供应链带来不确定性。",
+       "world": "影响全球高科技产业布局及美国对华人工智能芯片的出口限制政策。"
       },
       "people": [
        "Jensen Huang",
        "Alice Huang"
       ],
-      "photo": "artificial intelligence chip data center",
+      "photo": "AI server chip",
       "per": [
        {
         "id": "2487d6eb1404",
         "t": "英伟达暂停向东南亚销售部分芯片以配合美对华限制",
-        "says": "英伟达已暂停向马来西亚、新加坡、泰国和印度尼西亚销售部分先进人工智能芯片，以配合美国旨在堵住对华限制漏洞的新措施。",
+        "says": "英伟达已暂停向东南亚四国销售部分最先进人工智能芯片，马来西亚等国订单被搁置。",
         "same": [
-         "芯片供应限制"
+         "暂停向东南亚销售芯片"
         ],
-        "view": null
+        "view": "看法 A"
        },
        {
         "id": "6ed5996d6c40",
         "t": "副总理颜金勇：辉达供应暂停未获证实，正咨询企业影响",
-        "says": "辉达供应暂停尚未获证实，正向企业咨询影响。",
-        "same": [
-         "芯片供应限制"
-        ],
+        "says": "供应暂停未获证实，正咨询企业影响。",
+        "same": [],
         "view": null
        },
        {
         "id": "6dcda87fc24e",
         "t": "新加坡正与本地企业就美国芯片限制措施进行沟通",
-        "says": "新加坡正就美国芯片出口限制与本地企业接触，评估供应链冲击并确保供应链运作稳定。",
-        "same": [
-         "芯片供应限制"
-        ],
+        "says": "新加坡正就美国实施的芯片出口限制与本地企业展开接触，评估供应链冲击。",
+        "same": [],
         "view": null
+       },
+       {
+        "id": "b9d884663e8a",
+        "t": "什么是人工智能芯片？英伟达产品有何特别之处？",
+        "says": "介绍了图形处理器在人工智能发展中的核心地位及英伟达的优势。",
+        "same": [],
+        "view": null
+       },
+       {
+        "id": "0bff16a62262",
+        "t": "分销商淡化英伟达芯片禁令对东南亚的影响",
+        "says": "泰国授权分销商表示人工智能服务器供应链未受实质性干扰，未收到禁令或取消订单通知。",
+        "same": [
+         "东南亚销售芯片"
+        ],
+        "view": "看法 B"
        }
       ]
      },
      "loose": true,
-     "sig": "058ee06f",
+     "sig": "6e699f7e",
      "v": 2,
-     "at": "2026-11-27T08:07:22.829Z",
+     "at": "2026-11-28T10:13:00.273Z",
      "img": {
-      "kind": "B",
-      "people": [
-       {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg/960px-Jensen_Huang_Stanford_2026-04-30_010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "credit": "Anderseidesvik · Wikimedia Commons · CC BY-SA 4.0",
-        "kind": "B",
-        "person": "Jensen Huang"
-       }
-      ]
+      "src": "https://storage.googleapis.com/origin-awsassets.nst.com.my/images/socialmedia/0E7E42AB8BF1C8C7FE9F698A6D0AFF40_data.jpg",
+      "credit": "NST Online",
+      "kind": "A"
      }
     },
     {
      "id": "3700168d-13",
-     "t": "黄仁勋复任CEO引发的争议与市场震荡",
+     "t": "黄仁勋复任CEO及高层政治争议",
      "ids": [
       "163bef623cb7",
       "10784dc609c4",
@@ -4771,7 +5050,7 @@
     },
     {
      "id": "3700168d-15",
-     "t": "全球人工智能发展引发的失业与监管讨论",
+     "t": "人工智能对社会经济影响及全民基本收入",
      "ids": [
       "0535169c57aa",
       "0b35107ec79a",
@@ -6329,17 +6608,44 @@
      "source": "Bangkok Post",
      "cat": "sea",
      "published": "2026-11-26T21:35:00.000Z"
+    },
+    "b9d884663e8a": {
+     "id": "b9d884663e8a",
+     "title": "What are AI chips, and what’s so special about Nvidia’s?",
+     "zh": "什么是人工智能芯片？英伟达产品有何特别之处？",
+     "short": "解析英伟达人工智能芯片",
+     "url": "https://www.rappler.com/technology/features/what-are-ai-chips-whats-so-special-about-nvidias/",
+     "source": "Rappler",
+     "cat": "tech",
+     "published": "2026-11-28T08:30:00.000Z",
+     "sum": "随着全球人工智能热潮持续发酵，图形处理器在其中的核心地位日益显著。英伟达的产品从电子游戏应用演变成为推动行业发展的重要基石。"
+    },
+    "0bff16a62262": {
+     "id": "0bff16a62262",
+     "title": "Distributors shrug off Nvidia chip ban",
+     "zh": "分销商淡化英伟达芯片禁令对东南亚的影响",
+     "short": "分销商淡化芯片禁令影响",
+     "url": "https://www.bangkokpost.com/business/general/3362529/distributors-shrug-off-nvidia-chip-ban",
+     "source": "Bangkok Post",
+     "cat": "tech",
+     "published": "2026-11-27T21:14:00.000Z",
+     "sum": "尽管有报道称英伟达暂停向四个东南亚国家出货，但泰国授权分销商表示，人工智能服务器的供应链并未受到实质性干扰。市场对芯片供应中断的担忧有所缓和。",
+     "img": {
+      "src": "https://static.bangkokpost.com/media/content/dcx/2026/11/28/6320054_700.jpg",
+      "credit": "Bangkok Post",
+      "kind": "A"
+     }
     }
    },
    "name": "人工智能与英伟达风波",
-   "en": "Nvidia artificial intelligence chips US export limits",
+   "en": "Nvidia chip ban artificial intelligence",
    "wiki": "Nvidia",
    "cat": "tech",
-   "last": "2026-11-27T18:07:21.255Z",
+   "last": "2026-11-28T10:11:20.732Z",
    "hidden": false,
    "short": "人工智能与英伟达风波",
-   "key": "黄仁勋复职与美芯片限制引发全球震荡",
-   "overview": "受人工智能板块抛售、英伟达芯片出口限制及高层动荡影响，全球股市剧烈波动。特朗普干预促使黄仁勋复职引发政商争议，同时东南亚数据中心建设面临能源压力与合规审查。",
+   "key": "英伟达卷入调查与出口限制，黄仁勋在特朗普干预下戏剧性复职",
+   "overview": "全球股市近期因人工智能板块抛售与估值担忧遭遇重挫，其中英伟达因芯片违规流入中国等问题面临调查，并遭美国暂停向东南亚部分国家销售先进芯片。在特朗普等高层斡旋下，黄仁勋闪电复职推升股价反弹，但政商干预、数据中心能耗与供应链黑名单也引发广泛争议。",
    "minorText": [
     "美联邦通讯委员会批准SpaceX将人工智能数据中心部署在太空"
    ],
@@ -6347,12 +6653,12 @@
     {
      "from": "3700168d-3",
      "to": "3700168d-12",
-     "t": "英伟达面临调查与出口限制，暂停向东南亚销售部分先进芯片。"
+     "t": "英伟达因芯片违规流入问题面临调查，并暂停向东南亚等国销售先进芯片"
     },
     {
      "from": "3700168d-7",
      "to": "3700168d-13",
-     "t": "特朗普干预促使黄仁勋复职，引发市场震荡与政治争议。"
+     "t": "特朗普介入干预并力挺黄仁勋复职，引发政界与市场强烈反弹"
     }
    ],
    "img": {
@@ -6363,14 +6669,14 @@
    "heat": {
     "score": 5,
     "sources": 45,
-    "stories": 122,
+    "stories": 124,
     "gdelt": null,
     "wiki": {
      "title": "Nvidia",
-     "views": 22116,
-     "ratio": 0.6
+     "views": 15932,
+     "ratio": 0.4
     },
-    "at": "2026-11-28T01:30:22.872Z"
+    "at": "2026-11-28T10:16:23.273Z"
    }
   },
   {
@@ -6725,10 +7031,10 @@
     "gdelt": null,
     "wiki": {
      "title": "Cyberattack",
-     "views": 241,
-     "ratio": 0.7
+     "views": 361,
+     "ratio": 1.2
     },
-    "at": "2026-11-28T01:30:39.361Z"
+    "at": "2026-11-28T10:17:11.402Z"
    },
    "short": "FBI等机构遭黑客袭击",
    "key": "联邦调查局与国际足联接连遭黑客攻击",
@@ -9648,5 +9954,5 @@
    }
   }
  ],
- "updated": "2026-11-28T01:30:39.361Z"
+ "updated": "2026-11-28T10:17:11.402Z"
 }
